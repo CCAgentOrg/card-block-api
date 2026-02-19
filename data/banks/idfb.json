@@ -1,0 +1,34 @@
+{
+  "id": "IDFB",
+  "name": "IDFC First Bank",
+  "type": "PRIVATE",
+  "code": "IDFB",
+  "blocking_methods": {
+    "sms": true,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 10 888",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.idfcfirstbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": false,
+    "other": [],
+    "rupaj": false
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.idfcfirstbank.com"
+  ],
+  "slug": "idfc-first-bank"
+}

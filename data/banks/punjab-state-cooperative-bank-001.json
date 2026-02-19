@@ -1,0 +1,54 @@
+{
+  "id": "punjab-state-cooperative-bank-001",
+  "name": "Punjab State Cooperative Bank",
+  "type": "state-cooperative-bank",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "Punjab Coop Bank App → Cards → Block Card",
+          "app_name": "Punjab State Cooperative Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 180 2222"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.punjabcoopbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 4,
+          "instructions": "Visit nearest Punjab State Cooperative Bank branch",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

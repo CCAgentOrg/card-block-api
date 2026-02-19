@@ -1,0 +1,47 @@
+{
+  "id": "uco-bank-001",
+  "name": "UCO Bank",
+  "type": "public",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 103 0123",
+            "1800 110 123"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5,
+            "notes": "UCO Bank customer care"
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 2,
+          "instructions": "UCO Bank Mobile App → Services → Block ATM Card",
+          "app_name": "UCO Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://netbanking.ucobank.net.in",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

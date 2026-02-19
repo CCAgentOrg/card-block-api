@@ -1,0 +1,34 @@
+{
+  "id": "SUSX",
+  "name": "Sirsi Urban Sahakari Bank",
+  "type": "O-UCB",
+  "code": "SUSX",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": false,
+    "rupay": true,
+    "other": []
+  },
+  "verification_level": "unverified",
+  "notes": "Intelligent defaults based on bank type (O-UCB). Requires verification.",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "Razorpay IFSC",
+    "Type-based defaults"
+  ],
+  "slug": "sirsi-urban-sahakari-bank"
+}

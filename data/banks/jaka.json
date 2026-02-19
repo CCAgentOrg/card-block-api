@@ -1,0 +1,32 @@
+{
+  "id": "JAKA",
+  "name": "Jammu and Kashmir Bank",
+  "type": "PRIVATE",
+  "code": "JAKA",
+  "blocking_methods": {
+    "sms": true,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 0180 808",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.jkbank.com/net-banking/",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [],
+  "slug": "jammu-and-kashmir-bank"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SIBL",
+  "name": "South Indian Bank",
+  "type": "PRIVATE",
+  "code": "SIBL",
+  "blocking_methods": {
+    "sms": true,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 425 1806",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.southindianbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.southindianbank.com"
+  ],
+  "slug": "south-indian-bank"
+}

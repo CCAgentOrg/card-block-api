@@ -1,0 +1,41 @@
+{
+  "generated": "2026-02-19T21:22:40.105Z",
+  "reports": [
+    {
+      "filename": "batch-1-report.json",
+      "url": "/reports/batch-1-report.json",
+      "stats": {
+        "total_processed": 43,
+        "verified_count": 19,
+        "errors": 0
+      }
+    },
+    {
+      "filename": "batch-3-report.json",
+      "url": "/reports/batch-3-report.json",
+      "stats": {
+        "total_processed": 50,
+        "verified_count": 0,
+        "errors": 0
+      }
+    },
+    {
+      "filename": "batch-5-report.json",
+      "url": "/reports/batch-5-report.json",
+      "stats": {
+        "total_processed": 50,
+        "verified_count": 0,
+        "errors": 0
+      }
+    },
+    {
+      "filename": "batch-6-report.json",
+      "url": "/reports/batch-6-report.json",
+      "stats": {
+        "total_processed": 5,
+        "verified_count": 3,
+        "errors": 1
+      }
+    }
+  ]
+}

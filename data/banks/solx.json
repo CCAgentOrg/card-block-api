@@ -1,0 +1,34 @@
+{
+  "id": "SOLX",
+  "name": "Solapur District Central Cooperative Bank",
+  "type": "O-UCB",
+  "code": "SOLX",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 233 6111",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.sdccbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.sdccbank.com"
+  ],
+  "slug": "solapur-district-central-cooperative-bank"
+}

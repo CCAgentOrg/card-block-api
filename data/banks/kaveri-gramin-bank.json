@@ -1,0 +1,40 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "kaveri-gramin-bank-001",
+  "name": "Kaveri Gramin Bank",
+  "short_name": "KGB",
+  "slug": "kaveri-gramin-bank",
+  "type": "regional_rural",
+  "website": "https://www.kaverigrambank.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

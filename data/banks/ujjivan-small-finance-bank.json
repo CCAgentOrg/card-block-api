@@ -1,0 +1,54 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "ujjivan-small-finance-bank-001",
+  "name": "Ujjivan Small Finance Bank",
+  "short_name": "Ujjivan SFB",
+  "slug": "ujjivan-small-finance-bank",
+  "type": "small-finance-bank",
+  "website": "https://www.ujjivan.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "Ujjivan Mobile App → My Account → Debit Card → Block",
+          "app_name": "Ujjivan Small Finance Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 208 2121"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.ujjivan.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

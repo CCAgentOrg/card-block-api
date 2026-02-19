@@ -1,0 +1,34 @@
+{
+  "id": "CGGX",
+  "name": "Chaitanya Godavari Grameena Bank",
+  "type": "REGIONAL_RURAL",
+  "code": "CGGX",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": false
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.cggb.in",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": false,
+    "mastercard": false,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.cggb.in"
+  ],
+  "slug": "chaitanya-godavari-grameena-bank"
+}

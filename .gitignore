@@ -1,0 +1,17 @@
+node_modules/
+*.log
+*.jsonl
+batch-*.txt
+unmapped-bank-codes.json
+missing-bank-names.json
+.DS_Store
+.env
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Reports are hosted but can be regenerated, so we may or may not ignore them.
+# If you want to keep repo clean, uncomment next line:
+# reports/

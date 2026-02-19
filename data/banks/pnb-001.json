@@ -1,0 +1,58 @@
+{
+  "id": "pnb-001",
+  "name": "Punjab National Bank",
+  "type": "public",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 9264092640",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 180 2222",
+            "1800 103 2222",
+            "0120-2490000"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "PNB MobileBanking → Cards → Block Card",
+          "app_name": "PNB MobileBanking",
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://netbanking.pnb.in",
+          "requires_login": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        }
+      ]
+    }
+  ]
+}

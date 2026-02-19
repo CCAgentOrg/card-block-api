@@ -1,0 +1,41 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "gujarat-state-cooperative-001",
+  "name": "Gujarat State Cooperative Bank",
+  "short_name": "GSC Bank",
+  "slug": "gujarat-state-cooperative-bank",
+  "type": "cooperative",
+  "website": "https://www.gscb.co.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": ["1800 233 3333", "079-2685 4821"],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "instructions": "Visit nearest Gujarat State Cooperative Bank branch",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

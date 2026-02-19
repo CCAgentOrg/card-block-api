@@ -1,0 +1,40 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "svgb-001",
+  "name": "Sri Venkateswara Grameena Bank",
+  "short_name": "SVGB",
+  "slug": "sri-venkateswara-grameena-bank",
+  "type": "regional_rural",
+  "website": "https://www.svgb.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

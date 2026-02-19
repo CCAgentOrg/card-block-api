@@ -1,0 +1,44 @@
+{
+  "id": "mysore-cooperative-bank-001",
+  "name": "Mysore Cooperative Bank",
+  "type": "cooperative-bank",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 XXX XXXX"
+          ],
+          "available_24x7": false,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 2,
+          "url": "https://www.mysorecooperativebank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 3,
+          "instructions": "Visit nearest branch with ID proof",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "federal-001",
+  "name": "Federal Bank",
+  "type": "private",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 9264092640",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 420 1111",
+            "1800 103 1177",
+            "0484-2901111"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "FedBook App → Services → Block Card",
+          "app_name": "FedBook",
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://www.federalbank.com/netbanking",
+          "requires_login": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        }
+      ]
+    }
+  ]
+}

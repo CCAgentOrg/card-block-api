@@ -1,0 +1,34 @@
+{
+  "id": "SRCB",
+  "name": "Saraswat Cooperative Bank",
+  "type": "COOPERATIVE",
+  "code": "SRCB",
+  "blocking_methods": {
+    "sms": true,
+    "phone": true,
+    "app": false,
+    "website": false
+  },
+  "contact": {
+    "phone": "1800 22 1102",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.saraswatbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.saraswatbank.com"
+  ],
+  "slug": "saraswat-cooperative-bank"
+}

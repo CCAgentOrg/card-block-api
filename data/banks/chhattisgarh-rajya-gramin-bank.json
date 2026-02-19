@@ -1,0 +1,43 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "chhattisgarh-rajya-gramin-bank",
+  "name": "Chhattisgarh Rajya Gramin Bank",
+  "short_name": "CRGB",
+  "slug": "chhattisgarh-rajya-gramin-bank",
+  "type": "regional_rural",
+  "website": "https://www.crgb.co.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800-233-3444"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "instructions": "Visit nearest branch with ID proof",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "TNSC",
+  "name": "Tamil Nadu State Apex Cooperative Bank",
+  "type": "STATE-COOPERATIVE-BANK",
+  "code": "TNSC",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 425 1114",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.tnscbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.tnscbank.com"
+  ],
+  "slug": "tamil-nadu-state-apex-cooperative-bank"
+}

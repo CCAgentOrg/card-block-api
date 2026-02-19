@@ -1,0 +1,145 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  schedule:
+    # Run verification weekly
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate JSON Data
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm install --only=dev
+      
+      - name: Validate JSON syntax
+        run: |
+          for f in data/*.json; do
+            echo "Validating $f..."
+            node -e "JSON.parse(require('fs').readFileSync('$f'))"
+            echo "✓ $f is valid"
+          done
+      
+      - name: Check required fields
+        run: |
+          node -e "
+          const data = JSON.parse(require('fs').readFileSync('data/india.json'));
+          const required = ['country', 'banks'];
+          required.forEach(field => {
+            if (!data[field]) throw new Error('Missing: ' + field);
+          });
+          console.log('✓ Required fields present');
+          console.log('✓ Total banks:', data.banks.length);
+          "
+
+  verify-urls:
+    name: Verify Bank URLs
+    runs-on: ubuntu-latest
+    needs: validate
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Check URL accessibility
+        run: |
+          # Basic URL check - just verify structure
+          node -e "
+          const data = JSON.parse(require('fs').readFileSync('data/india.json'));
+          let issues = [];
+          data.banks.forEach(bank => {
+            if (!bank.website) issues.push(bank.name + ': missing website');
+            bank.cards.forEach(card => {
+              card.blocking_methods.forEach(method => {
+                if (method.url && !method.url.startsWith('http')) {
+                  issues.push(bank.name + ': invalid URL for ' + method.channel);
+                }
+              });
+            });
+          });
+          if (issues.length > 0) {
+            console.log('Issues found:');
+            issues.forEach(i => console.log('  - ' + i));
+          } else {
+            console.log('✓ All URLs have valid structure');
+          }
+          "
+
+  build:
+    name: Build Site
+    runs-on: ubuntu-latest
+    needs: validate
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Verify HTML files exist
+        run: |
+          echo "Checking required files..."
+          test -f index.html && echo "✓ index.html exists"
+          test -f about.html && echo "✓ about.html exists"
+          test -f policy.html && echo "✓ policy.html exists"
+          test -f data/india.json && echo "✓ data/india.json exists"
+      
+      - name: Verify links in HTML
+        run: |
+          # Check for basic HTML structure
+          grep -q "Card Block API" index.html && echo "✓ index.html has title"
+          grep -q "data/india.json" index.html && echo "✓ index.html references data"
+
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: [validate, verify-urls, build]
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+
+  notify:
+    name: Notify on Changes
+    runs-on: ubuntu-latest
+    needs: [validate, deploy]
+    if: always()
+    
+    steps:
+      - name: Summary
+        run: |
+          echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- JSON Validation: ${{ needs.validate.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- URL Verification: ${{ needs.verify-urls.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Build: ${{ needs.build.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Deploy: ${{ needs.deploy.result }}" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,32 @@
+{
+  "id": "PKGB",
+  "name": "Karnataka Gramin Bank",
+  "type": "REGIONAL_RURAL",
+  "code": "PKGB",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": false
+  },
+  "contact": {
+    "phone": "1800 425 1344",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": false,
+    "mastercard": false,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [],
+  "slug": "karnataka-gramin-bank"
+}

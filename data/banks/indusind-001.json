@@ -1,0 +1,58 @@
+{
+  "id": "indusind-001",
+  "name": "IndusInd Bank",
+  "type": "private",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 9264092640",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1860 267 7777",
+            "1800 567 7777",
+            "022-66227777"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "IndusInd MobileApp → Services → Block Card",
+          "app_name": "IndusInd Mobile",
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://www.indusind.com/personal-banking/debit-card",
+          "requires_login": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SVSH",
+  "name": "Shree Veershaiv Co-operative Bank",
+  "type": "UNKNOWN",
+  "code": "SVSH",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": false,
+    "other": []
+  },
+  "verification_level": "unverified",
+  "notes": "Intelligent defaults based on bank type (UNKNOWN). Requires verification.",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "Razorpay IFSC",
+    "Type-based defaults"
+  ],
+  "slug": "shree-veershaiv-co-operative-bank"
+}

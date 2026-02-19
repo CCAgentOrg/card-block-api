@@ -1,0 +1,53 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "ahmednagar-merchant-cooperative-bank-001",
+  "name": "Ahmednagar Merchant Cooperative Bank",
+  "short_name": "AMCB",
+  "slug": "ahmednagar-merchant-cooperative-bank",
+  "type": "cooperative-bank",
+  "website": "https://www.amcbbank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 233 3334"
+          ],
+          "available_24x7": false,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 2,
+          "url": "https://www.amcbbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 3,
+          "instructions": "Visit nearest branch with ID proof",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

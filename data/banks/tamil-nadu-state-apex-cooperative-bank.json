@@ -1,0 +1,63 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "tamil-nadu-state-apex-cooperative-bank-001",
+  "name": "Tamil Nadu State Apex Cooperative Bank",
+  "short_name": "TNSCB",
+  "slug": "tamil-nadu-state-apex-cooperative-bank",
+  "type": "state-cooperative-bank",
+  "website": "https://www.tnscbank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "TNSC Bank App → My Cards → Block Card",
+          "app_name": "Tamil Nadu State Apex Cooperative Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 425 1114"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.tnscbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 4,
+          "instructions": "Visit nearest Tamil Nadu State Apex Cooperative Bank branch",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

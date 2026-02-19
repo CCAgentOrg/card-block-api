@@ -1,0 +1,58 @@
+{
+  "id": "kotak-001",
+  "name": "Kotak Mahindra Bank",
+  "type": "private",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 5676788",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1860 266 0811",
+            "1800 102 6022",
+            "022-66006060"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.95
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "Kotak Bank App → Services → Block Card",
+          "app_name": "Kotak - Banking & More",
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://www.kotak.com/jupiter/personal-banking/cards/debit-card",
+          "requires_login": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        }
+      ]
+    }
+  ]
+}

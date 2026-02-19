@@ -1,0 +1,54 @@
+{
+  "id": "mumbai-cooperative-bank-001",
+  "name": "Mumbai Cooperative Bank",
+  "type": "urban-cooperative-bank",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "Mumbai Bank App → Services → Card Management → Block Card",
+          "app_name": "Mumbai Co-op Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 222 222"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.mumbainetbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 4,
+          "instructions": "Visit nearest Mumbai Co-op Bank branch",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

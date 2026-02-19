@@ -1,0 +1,34 @@
+{
+  "id": "DLXB",
+  "name": "Dhanlaxmi Bank",
+  "type": "PRIVATE",
+  "code": "DLXB",
+  "blocking_methods": {
+    "sms": true,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": []
+  },
+  "verification_level": "unverified",
+  "notes": "Intelligent defaults based on bank type (PRIVATE). Requires verification.",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "Razorpay IFSC",
+    "Type-based defaults"
+  ],
+  "slug": "dhanlaxmi-bank"
+}

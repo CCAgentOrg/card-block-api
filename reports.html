@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verification Reports - Card Block API</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 40px auto; padding: 20px; line-height: 1.6; background: #f5f5f5; }
+    nav { background: #1a1a2e; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; text-decoration: none; font-weight: 600; }
+    .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 20px; text-align: center; border-radius: 10px; margin: 20px 0; }
+    .reports { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    .report { padding: 15px; border-bottom: 1px solid #eee; }
+    .report:last-child { border-bottom: none; }
+    .report h3 { margin: 0 0 5px 0; color: #333; }
+    .report .meta { color: #666; font-size: 0.9rem; }
+    .report a { color: #667eea; text-decoration: none; }
+    .report a:hover { text-decoration: underline; }
+    .loading { text-align: center; color: #666; padding: 40px; }
+    .error { color: #d32f2f; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Card Block API</a>
+  </nav>
+  <div class="hero">
+    <h1>Verification Reports</h1>
+    <p>Automated agent verification logs and summary statistics</p>
+  </div>
+  <div id="reports" class="reports">
+    <div class="loading">Loading reports...</div>
+  </div>
+
+  <script>
+    async function loadReports() {
+      const container = document.getElementById('reports');
+      try {
+        const res = await fetch('/reports/index.json');
+        if (!res.ok) throw new Error('Failed to load');
+        const data = await res.json();
+        
+        if (data.reports.length === 0) {
+          container.innerHTML = '<p>No reports available yet.</p>';
+          return;
+        }
+
+        container.innerHTML = data.reports.map(r => `
+          <div class="report">
+            <h3><a href="${r.url}" target="_blank">${r.filename}</a></h3>
+            <div class="meta">
+              ${r.stats.total_processed ? `Processed: ${r.stats.total_processed} banks` : ''} | 
+              ${r.stats.verified_count ? `Verified: ${r.stats.verified_count}` : ''} | 
+              ${r.stats.errors ? `Errors: ${r.stats.errors}` : ''}
+            </div>
+          </div>
+        `).join('');
+      } catch (e) {
+        container.innerHTML = '<p class="error">Error loading reports. They will appear here once available.</p>';
+      }
+    }
+    loadReports();
+  </script>
+</body>
+</html>

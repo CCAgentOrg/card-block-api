@@ -1,0 +1,53 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "thane-cooperative-bank-001",
+  "name": "Thane Cooperative Bank",
+  "short_name": "TCB",
+  "slug": "thane-cooperative-bank",
+  "type": "cooperative-bank",
+  "website": "https://www.thanecooperativebank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 222 111"
+          ],
+          "available_24x7": false,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 2,
+          "url": "https://www.thanecooperativebank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 3,
+          "instructions": "Visit nearest branch with ID proof",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

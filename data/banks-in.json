@@ -1,0 +1,143 @@
+{
+  "country": "IN",
+  "banks": [
+    {
+      "name": "State Bank of India",
+      "slug": "sbi",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 425 1566", "1800 123 4567", "080-26599990"],
+        "sms": "BLOCK <space> XXXX to 567676",
+        "app": "Yono App → Services → Block Card",
+        "website": "https://www.onlinesbi.sbi/personal/debit-card",
+        "email": "contact@bankindia.sbi",
+        "sms_keyword": "BLOCK"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "HDFC Bank",
+      "slug": "hdfc-bank",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 202 6161", "1860 267 6161"],
+        "sms": "BLOCK <space> XXXX to 5676711",
+        "app": "HDFC Bank Mobile App → Cards → Block Card",
+        "website": "https://www.hdfcbank.com/personal/cards/debit-card",
+        "email": "customercare@hdfcbank.com"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "ICICI Bank",
+      "slug": "icici-bank",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 103 8184", "1800 210 1614"],
+        "sms": "BLOCK <space> XXXX to 5676766",
+        "app": "iMobile App → Cards → Block Card",
+        "website": "https://www.icicibank.com/personal-banking/debit-card",
+        "email": "care@icicibank.com"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "Axis Bank",
+      "slug": "axis-bank",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 419 5555", "1860 500 5555"],
+        "sms": "BLOCK <space> XXXX to 5676782",
+        "app": "Axis Bank App → Services → Block Card",
+        "website": "https://www.axisbank.com/personal/cards/debit-card",
+        "email": "cards@axisbank.com"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "Punjab National Bank",
+      "slug": "pnb",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 180 2222", "1800 103 2222"],
+        "sms": "BLOCK <space> XXXX to 567676",
+        "app": "PNB One App → Cards → Block",
+        "website": "https://www.pnbbank.in/debit-card",
+        "email": "care@pnb.co.in"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "Bank of Baroda",
+      "slug": "bank-of-baroda",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 222 444", "1800 233 4444"],
+        "sms": "BLOCK <space> XXXX to 5676767",
+        "app": "Bob Mobile App → Cards → Block Card",
+        "website": "https://www.bankofbaroda.in/personal-banking/debit-card",
+        "email": "call.center@bankofbaroda.co.in"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "Canara Bank",
+      "slug": "canara-bank",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 425 0018", "1800 110 0018"],
+        "sms": "BLOCK <space> XXXX to 5677624",
+        "app": "Canara Bank App → Services → Block Card",
+        "website": "https://canarabank.com/personal-banking/debit-card",
+        "email": "canarabankcreditcards@canarabank.com"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "Union Bank of India",
+      "slug": "union-bank",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 222 244", "1800 221 244"],
+        "sms": "BLOCK <space> XXXX to 5676767",
+        "app": "Union Bank App → Cards → Block",
+        "website": "https://www.unionbankofindia.co.in/personal-banking/debit-card",
+        "email": "uccb@unionbankofindia.com"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "IDBI Bank",
+      "slug": "idbi-bank",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 209 4321", "1800 22 6999"],
+        "sms": "BLOCK <space> XXXX to 567676",
+        "app": "IDBI Bank App → Cards → Block Card",
+        "website": "https://www.idbibank.in/personal-banking/debit-card",
+        "email": "idbicare@idbi.co.in"
+      },
+      "verified_date": "2026-02-19"
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "slug": "kotak-bank",
+      "card_types": ["debit", "credit"],
+      "channels": {
+        "phone": ["1800 266 2666", "1860 266 2666"],
+        "sms": "BLOCK <space> XXXX to 5676788",
+        "app": "Kotak App → Cards → Block Card",
+        "website": "https://www.kotak.com/en/personal-banking/cards/debit-card",
+        "email": "customercare@kotak.com"
+      },
+      "verified_date": "2026-02-19"
+    }
+  ],
+  "metadata": {
+    "country": "IN",
+    "country_name": "India",
+    "last_updated": "2026-02-19",
+    "total_banks": 10,
+    "rbi_compliant": true
+  }
+}

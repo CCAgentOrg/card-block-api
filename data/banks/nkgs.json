@@ -1,0 +1,34 @@
+{
+  "id": "NKGS",
+  "name": "NKGSB Cooperative Bank",
+  "type": "URBAN_COOPERATIVE",
+  "code": "NKGS",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 222 022",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.nkgsbcooperativebank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.nkgsbcooperativebank.com"
+  ],
+  "slug": "nkgsb-cooperative-bank"
+}

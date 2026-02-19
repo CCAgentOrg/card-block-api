@@ -1,0 +1,47 @@
+{
+  "id": "south-indian-bank-001",
+  "name": "South Indian Bank",
+  "type": "private",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 425 1806",
+            "1800 843 1806"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "sms",
+          "priority": 2,
+          "instructions": "SMS BLOCK <last 4 digits> to 5676700",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.southindianbank.com/login",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

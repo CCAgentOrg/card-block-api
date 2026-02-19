@@ -1,0 +1,54 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "airtel-payments-bank-001",
+  "name": "Airtel Payments Bank",
+  "short_name": "Airtel",
+  "slug": "airtel-payments-bank",
+  "type": "payments-bank",
+  "website": "https://www.airtel.in/banking",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "Airtel Thanks App → My Payments Bank → Cards → Block Card",
+          "app_name": "Airtel Thanks",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "400 110 1100"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.airtel.in/banking",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "cosmos-coop-001",
+  "name": "Cosmos Cooperative Bank",
+  "type": "urban_cooperative",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 233 3336",
+            "1800 233 3337"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 2,
+          "instructions": "Cosmos Bank App → Cards → Block Debit Card",
+          "app_name": "Cosmos Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.cosmosbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

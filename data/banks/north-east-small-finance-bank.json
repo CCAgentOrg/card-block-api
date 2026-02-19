@@ -1,0 +1,66 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "north-east-small-finance-bank-001",
+  "name": "North East Small Finance Bank",
+  "short_name": "NESFB",
+  "slug": "north-east-small-finance-bank",
+  "type": "small_finance",
+  "website": "https://www.nesfb.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 8812802020",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 103 6888",
+            "0361 710 6888"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "NESFB Bank App → Cards → Block Debit Card",
+          "app_name": "North East Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://www.nesfb.com/block-card",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

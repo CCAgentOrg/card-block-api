@@ -1,0 +1,53 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "bassein-catholic-cooperative-bank-001",
+  "name": "Bassein Catholic Cooperative Bank",
+  "short_name": "BCCB",
+  "slug": "bassein-catholic-cooperative-bank",
+  "type": "cooperative-bank",
+  "website": "https://www.bccb.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 22 6999"
+          ],
+          "available_24x7": false,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 2,
+          "url": "https://www.bccb.in",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 3,
+          "instructions": "Visit nearest branch with ID proof",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

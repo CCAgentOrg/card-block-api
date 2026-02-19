@@ -1,0 +1,34 @@
+{
+  "id": "ABHY",
+  "name": "Abhyudaya Cooperative Bank",
+  "type": "O-UCB",
+  "code": "ABHY",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 22 8044",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.abhyudayabank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.abhyudayabank.com"
+  ],
+  "slug": "abhyudaya-cooperative-bank"
+}

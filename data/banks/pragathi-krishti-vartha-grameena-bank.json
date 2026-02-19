@@ -1,0 +1,40 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "pkgvgb-001",
+  "name": "Pragathi Krishti Vartha Grameena Bank",
+  "short_name": "PKVGB",
+  "slug": "pragathi-krishti-vartha-grameena-bank",
+  "type": "regional_rural",
+  "website": "https://www.pkvgb.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

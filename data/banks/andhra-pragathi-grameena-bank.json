@@ -1,0 +1,42 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "apgb-001",
+  "name": "Andhra Pragathi Grameena Bank",
+  "short_name": "APGB",
+  "slug": "andhra-pragathi-grameena-bank",
+  "type": "regional_rural",
+  "website": "https://www.apgb.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 425 0559"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

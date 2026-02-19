@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Block API - Emergency Card Blocking Guide</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            background: #f5f5f5;
+        }
+        nav {
+            background: #1a1a2e;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        nav .logo {
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        nav a:hover { color: white; }
+        nav a.active { color: #667eea; }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 { font-size: 3rem; margin-bottom: 15px; }
+        .hero p { font-size: 1.3rem; opacity: 0.9; max-width: 600px; margin: 0 auto 30px; }
+        .hero .cta {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        .hero .cta:hover { transform: scale(1.05); }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        
+        .section { margin-bottom: 50px; }
+        .section h2 { font-size: 2rem; margin-bottom: 20px; color: #1a1a2e; }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .feature h3 { margin-bottom: 10px; color: #667eea; }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .stat .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #667eea;
+        }
+        .stat .label { color: #666; }
+        
+        .search-box {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin: 30px 0;
+        }
+        .search-box input {
+            width: 100%;
+            max-width: 500px;
+            padding: 15px 25px;
+            font-size: 18px;
+            border: 2px solid #ddd;
+            border-radius: 30px;
+            margin-bottom: 15px;
+        }
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .quick-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .quick-actions a {
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        .badge-agent { background: #e3f2fd; color: #1565c0; }
+        .badge-human { background: #e8f5e9; color: #2e7d32; }
+        .badge-unverified { background: #fff3e0; color: #e65100; }
+        
+        .banks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .bank-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .bank-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        }
+        .bank-name { font-size: 1.2rem; font-weight: 600; color: #333; }
+        .bank-type { font-size: 0.85rem; color: #666; margin-top: 5px; }
+        
+        .verification-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 3px 10px;
+            border-radius: 12px;
+            margin-top: 10px;
+        }
+        .verification-badge.agent-verified { background: #e3f2fd; color: #1565c0; }
+        .verification-badge.human-verified { background: #e8f5e9; color: #2e7d32; }
+        .verification-badge.unverified { background: #fff3e0; color: #e65100; }
+        
+        .api-preview {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            font-family: monospace;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        
+        footer {
+            background: #1a1a2e;
+            color: #888;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer a { color: #667eea; }
+        
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            nav ul { gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">💳 Card Block API</a>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="policy.html">Policy</a></li>
+            <li><a href="reports.html">Verification Logs</a></li>
+            <li><a href="data/banks/index.json">Banks</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Emergency Card Blocking Guide</h1>
+        <p>Find how to block your debit or credit card from any bank in India.</p>
+        <a href="#banks" class="cta">🔍 Find Your Bank</a>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>📊 Coverage</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="number" id="bankCount">--</div>
+                    <div class="label">Banks</div>
+                </div>
+                <div class="stat">
+                    <div class="number">100%</div>
+                    <div class="label">24/7 Channels</div>
+                </div>
+                <div class="stat">
+                    <div class="number">🤖</div>
+                    <div class="label">AI Verified</div>
+                </div>
+                <div class="stat">
+                    <div class="number">🌍</div>
+                    <div class="label">Open Data</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="banks">
+            <h2>🏦 All Banks</h2>
+            <div class="legend">
+                <span class="badge badge-agent">🤖 Agent Verified</span>
+                <span class="badge badge-human">✅ Human Verified</span>
+                <span class="badge badge-unverified">❓ Unverified</span>
+            </div>
+            <div class="search-box" style="padding: 20px;">
+                <input type="text" id="searchInput" placeholder="Search banks...">
+            </div>
+            <div class="banks-grid" id="banksList">Loading...</div>
+        </div>
+
+        <div class="section">
+            <h2>🔌 API for AI Agents</h2>
+            <div class="api-preview"># Get all banks list
+GET /data/banks/index.json
+
+# Get specific bank
+GET /data/banks/sbi.json
+GET /data/banks/hdfc-bank.json
+
+# Each bank file contains:
+{
+  "name": "State Bank of India",
+  "slug": "sbi",
+  "website": "https://sbi.co.in",
+  "blocking_page": "https://...",
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.95
+  }
+}</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>💳 Card Block API - A <a href="https://cashlessconsumer.in">CashlessConsumer</a> Project</p>
+        <p><a href="index.html">Home</a> • <a href="about.html">About</a> • <a href="policy.html">Policy</a></p>
+    </footer>
+
+    <script>
+        let allBanks = [];
+        
+        async function loadBanks() {
+            try {
+                const response = await fetch('data/banks/index.json');
+                const data = await response.json();
+                allBanks = data.banks;
+                document.getElementById('bankCount').textContent = data.metadata.total_banks;
+                renderBanks(allBanks);
+            } catch (e) {
+                document.getElementById('banksList').innerHTML = 'Error loading banks';
+            }
+        }
+
+        function getVerificationBadge(status) {
+            if (status === 'agent_verified') return '<span class="verification-badge agent-verified">🤖 Agent Verified</span>';
+            if (status === 'human_verified') return '<span class="verification-badge human-verified">✅ Human Verified</span>';
+            return '<span class="verification-badge unverified">❓ Unverified</span>';
+        }
+
+        function renderBanks(banks) {
+            const container = document.getElementById('banksList');
+            if (banks.length === 0) {
+                container.innerHTML = 'No banks found';
+                return;
+            }
+            container.innerHTML = banks.map(bank => `
+                <a href="bank.html?${bank.slug}" class="bank-card">
+                    <div class="bank-name">${bank.name}</div>
+                    <div class="bank-type">${bank.type}</div>
+                </a>
+            `).join('');
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = allBanks.filter(bank => 
+                bank.name.toLowerCase().includes(query) ||
+                bank.slug.toLowerCase().includes(query)
+            );
+            renderBanks(filtered);
+        });
+
+        loadBanks();
+    </script>
+</body>
+</html>

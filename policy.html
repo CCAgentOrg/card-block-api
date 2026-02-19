@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy - Card Block API</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            background: #f5f5f5;
+        }
+        nav {
+            background: #1a1a2e;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        nav .logo {
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        nav a { color: #ccc; text-decoration: none; transition: color 0.2s; }
+        nav a:hover { color: white; }
+        nav a.active { color: #667eea; }
+        
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        
+        h1 { font-size: 2.5rem; margin-bottom: 20px; color: #1a1a2e; }
+        h2 { font-size: 1.5rem; margin: 30px 0 15px; color: #1a1a2e; }
+        h3 { font-size: 1.2rem; margin: 20px 0 10px; color: #333; }
+        p { margin-bottom: 15px; color: #444; }
+        ul, ol { margin-left: 20px; margin-bottom: 15px; color: #444; }
+        
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+        
+        .highlight {
+            background: #f0f4ff;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+        }
+        
+        footer {
+            background: #1a1a2e;
+            color: #888;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer a { color: #667eea; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">💳 Card Block API</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="policy.html" class="active">Policy</a></li>
+            <li><a href="data/india.json">API</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Policy & Governance</h1>
+        
+        <div class="card">
+            <h2>Data Policy</h2>
+            <h3>Privacy</h3>
+            <p>Card Block API does not collect any personal information. All data is:</p>
+            <ul>
+                <li>Publicly available from official bank sources</li>
+                <li>Stored locally in your browser (no server tracking)</li>
+                <li>Free to access without registration</li>
+            </ul>
+            
+            <h3>Data Sources</h3>
+            <p>All information is sourced from:</p>
+            <ul>
+                <li>Official bank websites</li>
+                <li>RBI disclosures and guidelines</li>
+                <li>Verified customer communications</li>
+                <li>Community contributions (pending verification)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Verification Policy</h2>
+            <p>We use a multi-tier verification system:</p>
+            
+            <div class="highlight">
+                <strong>🤖 Agent Verified</strong>
+                <p>AI-verified through official sources. High confidence (70%+).</p>
+            </div>
+            
+            <div class="highlight">
+                <strong>✅ Human Verified</strong>
+                <p>Manually verified by contributors. Highest confidence.</p>
+            </div>
+            
+            <div class="highlight">
+                <strong>👤 Community Reported</strong>
+                <p>Submitted by users, pending verification.</p>
+            </div>
+            
+            <div class="highlight">
+                <strong>❓ Unverified</strong>
+                <p>Information added but not yet verified.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Contribution Guidelines</h2>
+            <p>We welcome contributions! Here's how:</p>
+            
+            <h3>Adding New Banks</h3>
+            <ol>
+                <li>Fork the repository</li>
+                <li>Add bank data in JSON format</li>
+                <li>Include official sources for all information</li>
+                <li>Submit pull request</li>
+            </ol>
+            
+            <h3>Reporting Errors</h3>
+            <p>Found outdated information?</p>
+            <ul>
+                <li>Open an issue on GitHub</li>
+                <li>Include correct information and source</li>
+                <li>Our AI agents will verify and update</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Disclaimer</h2>
+            <div class="highlight">
+                <p><strong>Important:</strong> While we strive for accuracy, Card Block API provides information "as is". Always verify with your bank before taking action.</p>
+                <p>We are not responsible for any actions taken based on this information. Contact your bank directly for official blocking procedures.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Open Source License</h2>
+            <p>This project is open source under the <strong>MIT License</strong>.</p>
+            <p>You are free to:</p>
+            <ul>
+                <li>Use this data for any purpose</li>
+                <li>Modify and distribute</li>
+                <li>Use commercially</li>
+                <li>Contribute improvements</li>
+            </ul>
+            <p>See <a href="https://github.com/CashlessConsumer/card-block-api/blob/main/LICENSE">LICENSE</a> for details.</p>
+        </div>
+
+        <div class="card">
+            <h2>RBI Compliance</h2>
+            <p>This project supports RBI guidelines requiring banks to provide:</p>
+            <ul>
+                <li>Multiple channels for card blocking (SMS, phone, app, website)</li>
+                <li>24/7 availability for emergency blocking</li>
+                <li>Clear information on card blocking procedures</li>
+                <li>Temporary freeze options</li>
+            </ul>
+            <p>We help consumers exercise their right to control their cards.</p>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Questions about this policy?</p>
+            <p>📧 contact@cashlessconsumer.in</p>
+            <p>🐙 <a href="https://github.com/CashlessConsumer/card-block-api/issues">Open an Issue</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>💳 Card Block API - A <a href="https://cashlessconsumer.in">CashlessConsumer</a> Project</p>
+        <p><a href="index.html">Home</a> • <a href="about.html">About</a> • <a href="policy.html">Policy</a></p>
+    </footer>
+</body>
+</html>

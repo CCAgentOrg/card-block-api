@@ -1,0 +1,32 @@
+{
+  "id": "RBIN",
+  "name": "Reserve Bank Of India",
+  "type": "PSB",
+  "blocking_methods": {
+    "sms": false,
+    "phone": false,
+    "app": false,
+    "website": false
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": false,
+    "mastercard": false,
+    "rupay": false,
+    "other": []
+  },
+  "verification_level": "agent_verified",
+  "notes": "Reserve Bank of India is the central bank and does not issue retail debit/credit cards. No card blocking services are applicable.",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.rbi.org.in/Scripts/AboutUsDisplay.aspx",
+    "https://www.rbi.org.in/Scripts/contactus.aspx"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SJGX",
+  "name": "Sutlej Gramin Bank",
+  "type": "REGIONAL_RURAL",
+  "code": "SJGX",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": false
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.sutlejgrambank.in",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": false,
+    "mastercard": false,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.sutlejgrambank.in"
+  ],
+  "slug": "sutlej-gramin-bank"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "canara-001",
+  "name": "Canara Bank",
+  "type": "public",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 09011031777",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 425 0018",
+            "1800 209 6000",
+            "080-22001111"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "Canara Bank App → Services → Block Card",
+          "app_name": "Canara Bank",
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://netbanking.canarabank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        }
+      ]
+    }
+  ]
+}

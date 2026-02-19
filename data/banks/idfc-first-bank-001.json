@@ -1,0 +1,96 @@
+{
+  "id": "idfc-first-bank-001",
+  "name": "IDFC First Bank",
+  "type": "private",
+  "cards": [
+    {
+      "type": "credit",
+      "network": "Visa, Mastercard",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS CCBLOCK <last 4 digits> to 5676732",
+          "format_example": "CCBLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.6,
+            "notes": "Confirmed from IDFC FIRST Bank customer service page"
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 10 888"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.6,
+            "notes": "Toll-free number from customer service"
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "IDFC FIRST Bank Mobile App → Login → Cards → Select Card → Block",
+          "app_name": "IDFC FIRST Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://www.idfcfirstbank.com/customer-care-sr/product-page",
+          "requires_login": false,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 10 888"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 2,
+          "instructions": "IDFC FIRST Bank Mobile App → Login → Cards → Debit Card → Block",
+          "app_name": "IDFC FIRST Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://netbanking.idfcfirstbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

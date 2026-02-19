@@ -1,0 +1,45 @@
+{
+  "id": "india-post-payments-bank-001",
+  "name": "India Post Payments Bank",
+  "type": "payments-bank",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "India Post Payments Bank App → My Account → Debit Card → Block",
+          "app_name": "India Post Payments Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "155300"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://ippbonline.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

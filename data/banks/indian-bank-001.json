@@ -1,0 +1,47 @@
+{
+  "id": "indian-bank-001",
+  "name": "Indian Bank",
+  "type": "public",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 425 1000",
+            "044-28134413"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5,
+            "notes": "Indian Bank customer care"
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 2,
+          "instructions": "IndPay App → Services → Block Debit Card",
+          "app_name": "IndPay",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://netbanking.indianbank.in",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

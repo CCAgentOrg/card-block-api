@@ -1,0 +1,63 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "west-bengal-state-cooperative-bank-001",
+  "name": "West Bengal State Cooperative Bank",
+  "short_name": "WBSCB",
+  "slug": "west-bengal-state-cooperative-bank",
+  "type": "state-cooperative-bank",
+  "website": "https://www.wbscb.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "WB State Coop Bank App → Card Services → Block Card",
+          "app_name": "West Bengal State Cooperative Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 345 3330"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.wbscb.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 4,
+          "instructions": "Visit nearest West Bengal State Cooperative Bank branch",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

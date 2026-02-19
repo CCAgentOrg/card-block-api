@@ -1,0 +1,56 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "bank-of-india-001",
+  "name": "Bank of India",
+  "short_name": "BOI",
+  "slug": "bank-of-india",
+  "type": "public",
+  "website": "https://bankofindia.co.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 103 1900",
+            "1800 220 229"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5,
+            "notes": "Bank of India customer care"
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 2,
+          "instructions": "BOI InstaBanking App → Services → Block ATM Card",
+          "app_name": "BOI InstaBanking",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://netbanking.bankofindia.co.in",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

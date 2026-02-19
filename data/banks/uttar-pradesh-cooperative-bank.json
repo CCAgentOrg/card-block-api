@@ -1,0 +1,63 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "uttar-pradesh-cooperative-bank-001",
+  "name": "Uttar Pradesh Cooperative Bank",
+  "short_name": "UPCB",
+  "slug": "uttar-pradesh-cooperative-bank",
+  "type": "state-cooperative-bank",
+  "website": "https://www.upcobank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "app",
+          "priority": 1,
+          "instructions": "UP Coop Bank App → Cards → Block Card",
+          "app_name": "Uttar Pradesh Cooperative Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 180 0022"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://www.upcobank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 4,
+          "instructions": "Visit nearest Uttar Pradesh Cooperative Bank branch",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

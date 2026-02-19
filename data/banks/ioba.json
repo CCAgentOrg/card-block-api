@@ -1,0 +1,33 @@
+{
+  "id": "IOBA",
+  "name": "Indian Overseas Bank",
+  "type": "PSB",
+  "code": "IOBA",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": false
+  },
+  "verification_level": "agent_verified",
+  "notes": "Known profile for Indian Overseas Bank (Manually verified)",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "Razorpay IFSC",
+    "Known bank profile"
+  ],
+  "slug": "indian-overseas-bank"
+}

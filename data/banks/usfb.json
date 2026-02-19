@@ -1,0 +1,34 @@
+{
+  "id": "USFB",
+  "name": "Ujjivan Small Finance Bank",
+  "type": "SMALL-FINANCE-BANK",
+  "code": "USFB",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 208 2121",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.ujjivan.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.ujjivan.com"
+  ],
+  "slug": "ujjivan-small-finance-bank"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "card-block-api",
+  "version": "1.0.0",
+  "description": "> Emergency card blocking information for banks worldwide. For humans and AI agents.",
+  "main": "verify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ifsc": "^2.0.50"
+  }
+}

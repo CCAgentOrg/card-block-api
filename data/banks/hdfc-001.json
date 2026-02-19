@@ -1,0 +1,60 @@
+{
+  "id": "hdfc-001",
+  "name": "HDFC Bank",
+  "type": "private",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 5676726",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9,
+            "notes": "HDFC Bank customer can block debit card via SMS"
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1860 267 6161",
+            "1800 202 6161",
+            "1800 425 6161"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.95,
+            "notes": "Toll-free and charged numbers available"
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "HDFC Bank MobileApp → Login → Cards → Select Card → Block",
+          "app_name": "HDFC Bank MobileApp",
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://netbanking.hdfcbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "tunga-gramin-bank",
+  "name": "Tunga Gramin Bank",
+  "short_name": "TGB",
+  "slug": "tunga-gramin-bank",
+  "type": "regional_rural",
+  "website": "https://www.tungagraminbank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800-XXX-XXXX"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "instructions": "Visit nearest branch with ID proof",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

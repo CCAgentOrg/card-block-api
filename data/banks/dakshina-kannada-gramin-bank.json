@@ -1,0 +1,40 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "dakshina-kannada-gramin-bank-001",
+  "name": "Dakshina Kannada Gramin Bank",
+  "short_name": "DKGB",
+  "slug": "dakshina-kannada-gramin-bank",
+  "type": "regional_rural",
+  "website": "https://www.dkgb.in",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

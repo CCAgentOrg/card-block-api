@@ -1,0 +1,33 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "currency": "INR",
+  "last_updated": "2026-02-19",
+  "banks": [
+    "sbi",
+    "hdfc-bank",
+    "icici-bank",
+    "axis-bank",
+    "pnb",
+    "bank-of-baroda",
+    "canara-bank",
+    "union-bank",
+    "idbi-bank",
+    "kotak-bank"
+  ],
+  "metadata": {
+    "total_banks": 10,
+    "verification_levels": {
+      "agent_verified": "🤖 AI verified",
+      "human_verified": "✅ Human verified",
+      "unverified": "❓ Not verified"
+    },
+    "verification_stats": {
+      "agent_verified": 0,
+      "human_verified": 0,
+      "community_reported": 0,
+      "unverified": 10
+    },
+    "last_updated": "2026-02-19"
+  }
+}

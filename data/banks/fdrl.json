@@ -1,0 +1,34 @@
+{
+  "id": "FDRL",
+  "name": "Federal Bank",
+  "type": "PRIVATE",
+  "code": "FDRL",
+  "blocking_methods": {
+    "sms": true,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 420 1111",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.federalbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "agent_verified",
+  "notes": "Converted from old schema (Manually verified)",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.federalbank.com"
+  ],
+  "slug": "federal-bank"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "axis-001",
+  "name": "Axis Bank",
+  "type": "private",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 5676782",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1860 500 5555",
+            "1800 103 5577",
+            "1860 419 5555"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.95
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "Axis Bank App → Services → Block Debit Card",
+          "app_name": "Axis Bank",
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.9
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://www.axisbank.com/personal/cards/debit-card/block",
+          "requires_login": true,
+          "verification": {
+            "status": "agent_verified",
+            "confidence": 0.85
+          }
+        }
+      ]
+    }
+  ]
+}

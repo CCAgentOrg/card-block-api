@@ -1,0 +1,31 @@
+{
+  "id": "DICG",
+  "name": "DICG",
+  "type": "Unknown",
+  "blocking_methods": {
+    "sms": false,
+    "phone": false,
+    "app": false,
+    "website": false
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": false,
+    "mastercard": false,
+    "rupay": false,
+    "other": []
+  },
+  "verification_level": "unverified",
+  "notes": "No enriched data available in repository.",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "Batch list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "kolar-cooperative-bank-001",
+  "name": "Kolar Cooperative Bank",
+  "short_name": "Kolar",
+  "slug": "kolar-cooperative-bank",
+  "type": "cooperative-bank",
+  "website": "https://www.kolarcooperativebank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 XXX XXXX"
+          ],
+          "available_24x7": false,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 2,
+          "url": "https://www.kolarcooperativebank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 3,
+          "instructions": "Visit nearest branch with ID proof",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

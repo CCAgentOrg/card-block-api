@@ -1,0 +1,66 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "fincare-small-finance-bank-001",
+  "name": "Fincare Small Finance Bank",
+  "short_name": "Fincare Bank",
+  "slug": "fincare-small-finance-bank",
+  "type": "small_finance",
+  "website": "https://www.fincarebank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "sms",
+          "priority": 1,
+          "instructions": "SMS BLOCK <last 4 digits> to 56161",
+          "format_example": "BLOCK 1234",
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "phone",
+          "priority": 2,
+          "numbers": [
+            "1800 266 2669",
+            "1860 266 2669"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 3,
+          "instructions": "Fincare Bank App → Services → Block Card",
+          "app_name": "Fincare Bank",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 4,
+          "url": "https://www.fincarebank.com/block-debit-card",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

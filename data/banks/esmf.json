@@ -1,0 +1,34 @@
+{
+  "id": "ESMF",
+  "name": "ESAF Small Finance Bank",
+  "type": "SFB",
+  "code": "ESMF",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "",
+    "toll_free": "",
+    "email": "",
+    "website": "",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": false,
+    "other": []
+  },
+  "verification_level": "agent_verified",
+  "notes": "Intelligent defaults based on bank type (SFB). Requires verification. (Manually verified)",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "Razorpay IFSC",
+    "Type-based defaults"
+  ],
+  "slug": "esaf-small-finance-bank"
+}

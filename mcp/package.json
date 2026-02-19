@@ -1,0 +1,12 @@
+{
+  "name": "card-block-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Card Block API - Query bank card blocking information",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  }
+}

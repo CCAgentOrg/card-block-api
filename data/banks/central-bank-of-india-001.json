@@ -1,0 +1,47 @@
+{
+  "id": "central-bank-of-india-001",
+  "name": "Central Bank of India",
+  "type": "public",
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 222 1911",
+            "1800 200 1911"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5,
+            "notes": "Central Bank of India customer care"
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 2,
+          "instructions": "Cent Mobile App → Services → Block ATM Card",
+          "app_name": "Cent Mobile",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://netbanking.centralbankofindia.co.in",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

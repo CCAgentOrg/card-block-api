@@ -1,0 +1,29 @@
+{
+  "id": "pune-cooperative-bank",
+  "name": "Pune Cooperative Bank",
+  "type": "cooperative",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 222 224",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.puneccbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": false,
+    "other": []
+  },
+  "verification_level": "unverified",
+  "notes": "",
+  "last_updated": "2026-02-19",
+  "sources": ["https://www.puneccbank.com"]
+}

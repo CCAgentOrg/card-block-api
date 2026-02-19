@@ -1,0 +1,41 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "maharashtra-state-cooperative-001",
+  "name": "Maharashtra State Cooperative Bank",
+  "short_name": "MSCB",
+  "slug": "maharashtra-state-cooperative-bank",
+  "type": "cooperative",
+  "website": "https://www.mscbank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": ["1800 222 102", "022-2202 4502"],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        },
+        {
+          "channel": "branch",
+          "priority": 2,
+          "instructions": "Visit nearest Maharashtra State Cooperative Bank branch",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

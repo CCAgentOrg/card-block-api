@@ -1,0 +1,34 @@
+{
+  "id": "IPPB",
+  "name": "India Post Payments Bank",
+  "type": "PAYMENT",
+  "code": "IPPB",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "155300",
+    "toll_free": "",
+    "email": "",
+    "website": "https://ippbonline.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": false,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "agent_verified",
+  "notes": "Converted from old schema (Manually verified)",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://ippbonline.com"
+  ],
+  "slug": "india-post-payments-bank"
+}

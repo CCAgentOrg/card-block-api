@@ -1,0 +1,59 @@
+{
+  "country": "IN",
+  "country_name": "India",
+  "id": "bandhan-bank-001",
+  "name": "Bandhan Bank",
+  "short_name": "Bandhan",
+  "slug": "bandhan-bank",
+  "type": "private",
+  "website": "https://www.bandhanbank.com",
+  "verification": {
+    "status": "unverified",
+    "confidence": 0.5,
+    "notes": "Information gathered from bank website - SMS blocking not confirmed for debit cards"
+  },
+  "cards": [
+    {
+      "type": "debit",
+      "network": "Visa, Mastercard, RuPay",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "priority": 1,
+          "numbers": [
+            "1800 258 8181",
+            "033-6633-3333"
+          ],
+          "available_24x7": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5,
+            "notes": "Toll-free and customer care numbers from website footer"
+          }
+        },
+        {
+          "channel": "app",
+          "priority": 2,
+          "instructions": "mBandhan Mobile App → Login → Services → Debit Card → Block Card",
+          "app_name": "mBandhan",
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5,
+            "notes": "Standard app-based blocking flow"
+          }
+        },
+        {
+          "channel": "website",
+          "priority": 3,
+          "url": "https://netbanking.bandhanbank.com",
+          "requires_login": true,
+          "verification": {
+            "status": "unverified",
+            "confidence": 0.5,
+            "notes": "Internet banking login required"
+          }
+        }
+      ]
+    }
+  ]
+}

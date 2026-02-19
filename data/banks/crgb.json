@@ -1,0 +1,34 @@
+{
+  "id": "CRGB",
+  "name": "Chhattisgarh Rajya Gramin Bank",
+  "type": "REGIONAL_RURAL",
+  "code": "CRGB",
+  "blocking_methods": {
+    "sms": false,
+    "phone": true,
+    "app": false,
+    "website": false
+  },
+  "contact": {
+    "phone": "1800-233-3444",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.crgb.co.in",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": false,
+    "mastercard": false,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "unverified",
+  "notes": "Converted from old schema",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.crgb.co.in"
+  ],
+  "slug": "chhattisgarh-rajya-gramin-bank"
+}

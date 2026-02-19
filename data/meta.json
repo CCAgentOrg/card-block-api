@@ -1,0 +1,21 @@
+// Auto-generated index - do not edit manually
+// Use index.json for country-level data
+{
+  "country": "IN",
+  "country_name": "India",
+  "banks_list_url": "/data/banks/index.json",
+  "verification_levels": {
+    "agent_verified": {
+      "icon": "🤖",
+      "description": "AI verified through official sources"
+    },
+    "human_verified": {
+      "icon": "✅", 
+      "description": "Manually verified by contributors"
+    },
+    "unverified": {
+      "icon": "❓",
+      "description": "Not yet verified"
+    }
+  }
+}

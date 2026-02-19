@@ -1,0 +1,34 @@
+{
+  "id": "ESFB",
+  "name": "Equitas Small Finance Bank",
+  "type": "SMALL_FINANCE",
+  "code": "ESFB",
+  "blocking_methods": {
+    "sms": true,
+    "phone": true,
+    "app": true,
+    "website": true
+  },
+  "contact": {
+    "phone": "1800 103 1222",
+    "toll_free": "",
+    "email": "",
+    "website": "https://www.equitasbank.com",
+    "app_url_android": "",
+    "app_url_ios": ""
+  },
+  "cards": {
+    "visa": true,
+    "mastercard": true,
+    "rupay": true,
+    "other": [],
+    "rupaj": true
+  },
+  "verification_level": "agent_verified",
+  "notes": "Converted from old schema (Manually verified)",
+  "last_updated": "2026-02-19",
+  "sources": [
+    "https://www.equitasbank.com"
+  ],
+  "slug": "equitas-small-finance-bank"
+}
