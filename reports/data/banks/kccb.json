@@ -4,15 +4,15 @@
   "type": "O-UCB",
   "code": "KCCB",
   "blocking_methods": {
-    "sms": false,
+    "sms": true,
     "phone": true,
     "app": false,
     "website": true
   },
   "contact": {
-    "phone": "1800 233 1234",
-    "toll_free": "",
-    "email": "",
+    "phone": "079-66215894 to 96",
+    "toll_free": "1800 233 99999",
+    "email": "atm@kalupurbank.com",
     "website": "https://www.kalupurbank.com",
     "app_url_android": "",
     "app_url_ios": ""
@@ -24,8 +24,8 @@
     "other": [],
     "rupaj": true
   },
-  "verification_level": "unverified",
-  "notes": "Converted from old schema",
+  "verification_level": "agent_verified",
+  "notes": "Converted from old schema. Verified: contact phone, SMS blocking (BLOCK XXXX to 9028048500) from official website https://kalupurbank.com/contact-us.",
   "last_updated": "2026-02-19",
   "sources": [
     "https://www.kalupurbank.com"

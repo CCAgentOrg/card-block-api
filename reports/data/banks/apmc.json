@@ -10,10 +10,10 @@
     "website": true
   },
   "contact": {
-    "phone": "",
+    "phone": "+91-40-24615296",
     "toll_free": "",
     "email": "",
-    "website": "",
+    "website": "https://apmahesh.bank.in",
     "app_url_android": "",
     "app_url_ios": ""
   },
@@ -23,8 +23,8 @@
     "rupay": true,
     "other": []
   },
-  "verification_level": "unverified",
-  "notes": "Intelligent defaults based on bank type (S-UCB). Requires verification.",
+  "verification_level": "agent_verified",
+  "notes": "Contact phone and website verified from official site https://apmahesh.bank.in. SMS blocking not found on site; set to false. App URLs not found.",
   "last_updated": "2026-02-19",
   "sources": [
     "Razorpay IFSC",

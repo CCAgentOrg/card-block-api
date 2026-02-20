@@ -1,0 +1,273 @@
+[
+  {
+    "code": "RDCB",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "APMC",
+    "name": "A.P. Mahesh Co-operative Urban Bank",
+    "found": false
+  },
+  {
+    "code": "NGSB",
+    "name": "Nagpur Nagarik Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "JJSB",
+    "name": "Jalgaon Janata Bank",
+    "found": false
+  },
+  {
+    "code": "JPCB",
+    "name": "Jalgaon Peoples Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "KJSB",
+    "name": "Kalyan Janata Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "ADBK",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "PMEC",
+    "name": "Prime Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "SJSB",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "AKJB",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "BARA",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "TAUB",
+    "name": "Ankola Urban Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "AJAR",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "AMCB",
+    "name": "Ahmedabad Mercantile Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "ZSBL",
+    "name": "Zila Sahakari Bank Ghaziabad",
+    "found": false
+  },
+  {
+    "code": "DEOB",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "HSBC",
+    "name": "Hongkong & Shanghai Banking Corporation",
+    "found": false
+  },
+  {
+    "code": "SPCB",
+    "name": "Surat People's Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "SVSH",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "TGMB",
+    "name": "Tumkur Grain Merchant's Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "ORCB",
+    "name": "Odisha State Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "TBSB",
+    "name": "Thane Bharat Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "VSBL",
+    "name": "Vishweshwar Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "DEUT",
+    "name": "Deutsche Bank",
+    "found": false
+  },
+  {
+    "code": "PUCB",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "SUSB",
+    "name": "Suco Souharda Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "JANA",
+    "name": "Janaseva Sahakari Bank, Pune",
+    "found": false
+  },
+  {
+    "code": "TNSC",
+    "name": "Tamilnadu State Apex Co-operative Bank",
+    "website": "https://tnsc.com",
+    "phone": "",
+    "sms": false,
+    "apps": {
+      "android": "",
+      "ios": ""
+    },
+    "contentLength": 209290
+  },
+  {
+    "code": "VARA",
+    "name": "Varachha Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "NCUB",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "TCBR",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "MSLM",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "JSBL",
+    "name": "Janakalyan Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "MDBK",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "DMKJ",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "URBN",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "NNSB",
+    "name": "Nutan Nagarik Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "PSBL",
+    "name": "UNKNOWN",
+    "website": "https://psbl.com",
+    "phone": "",
+    "sms": false,
+    "apps": {
+      "android": "",
+      "ios": ""
+    },
+    "contentLength": 60458
+  },
+  {
+    "code": "GBCB",
+    "name": "Greater Bombay Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "MUBL",
+    "name": "Municipal Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "HCBL",
+    "name": "HASTI Co-operative Bank",
+    "website": "https://hcbl.in",
+    "phone": "",
+    "sms": false,
+    "apps": {
+      "android": "",
+      "ios": ""
+    },
+    "contentLength": 77998
+  },
+  {
+    "code": "VVSB",
+    "name": "Vasai Vikas Sahakari Bank",
+    "found": false
+  },
+  {
+    "code": "CITI",
+    "name": "CITI Bank",
+    "found": false
+  },
+  {
+    "code": "SUTB",
+    "name": "Sutex Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "HUSB",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "KOLH",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "TPSC",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "ZCBL",
+    "name": "Zoroastrian Co-operative Bank",
+    "found": false
+  },
+  {
+    "code": "AJHC",
+    "name": "UNKNOWN",
+    "found": false
+  },
+  {
+    "code": "RSBL",
+    "name": "UNKNOWN",
+    "found": false
+  }
+]

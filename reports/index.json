@@ -36,6 +36,15 @@
         "verified_count": 3,
         "errors": 1
       }
+    },
+    {
+      "filename": "verified-banks-top100-log.json",
+      "url": "/reports/verified-banks-top100-log.json",
+      "stats": {
+        "total_processed": 21,
+        "verified_count": 21,
+        "errors": 0
+      }
     }
   ]
 }

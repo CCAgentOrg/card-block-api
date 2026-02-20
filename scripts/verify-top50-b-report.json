@@ -1,0 +1,13 @@
+{
+  "batch": "batch-B",
+  "generated_at": "2026-02-19T21:35:00Z",
+  "total_codes": 50,
+  "existing_files": 40,
+  "missing_files": 10,
+  "missing_bank_codes": ["UNBA","SDCE","AHDC","HPSC","UPCB","GABK","DLSC","MCAB","RRBP","BUCB"],
+  "total_processed": 40,
+  "verified_count": 1,
+  "unverified_count": 39,
+  "updated_banks": ["KCCB"],
+  "notes": "Verification limited by website accessibility. Many bank websites are dynamic (JavaScript-heavy) and did not return static content via web_fetch. Only Kalupur Commercial Co-operative Bank (KCCB) provided clear contact and SMS blocking information on a static contact page. Other banks either had inaccessible websites or the required information was not found in the fetched content. Missing JSON files for 10 bank codes prevent processing."
+}

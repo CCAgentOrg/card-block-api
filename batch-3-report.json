@@ -1,6 +1,0 @@
-{
-  "total_processed": 50,
-  "verified_count": 0,
-  "errors": [],
-  "notes": "All bank files have been created/updated with empty blocking information and verification_level 'unverified' due to unavailability of authoritative sources via current tooling. 29 files already existed, 21 files were newly created. Names were sourced from banknames.json and top500-banks.json where available; for ADBK and TCBR names are unknown."
-}

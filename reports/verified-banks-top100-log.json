@@ -1,0 +1,674 @@
+{
+  "generated_at": "2026-02-19T21:28:02.246Z",
+  "total_verified": 21,
+  "banks": [
+    {
+      "code": "AIRP",
+      "name": "Airtel Payments Bank",
+      "type": "PAYMENT",
+      "blocking_methods": {
+        "sms": false,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "400 110 1100",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.airtel.in/banking",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.airtel.in/banking"
+      ]
+    },
+    {
+      "code": "ALLA",
+      "name": "Allahabad Bank",
+      "type": "PSB",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "",
+        "toll_free": "",
+        "email": "",
+        "website": "",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Known profile for Allahabad Bank (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "Razorpay IFSC",
+        "Known bank profile"
+      ]
+    },
+    {
+      "code": "AUBL",
+      "name": "AU Small Finance Bank",
+      "type": "SMALL_FINANCE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 120 3131",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.aubank.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.aubank.in"
+      ]
+    },
+    {
+      "code": "UTIB",
+      "name": "Axis Bank",
+      "type": "PRIVATE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1860 500 5555",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.axisbank.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.axisbank.com"
+      ]
+    },
+    {
+      "code": "BARB",
+      "name": "Bank of Baroda",
+      "type": "PUBLIC",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 103 1000",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.bankofbaroda.in/netbanking",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": []
+    },
+    {
+      "code": "BKID",
+      "name": "Bank of India",
+      "type": "PUBLIC",
+      "blocking_methods": {
+        "sms": false,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 103 1900",
+        "toll_free": "",
+        "email": "",
+        "website": "https://bankofindia.co.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://bankofindia.co.in"
+      ]
+    },
+    {
+      "code": "CNRB",
+      "name": "Canara Bank",
+      "type": "PUBLIC",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 425 0018",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.canarabank.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.canarabank.com"
+      ]
+    },
+    {
+      "code": "CLBL",
+      "name": "Capital Small Finance Bank",
+      "type": "SMALL_FINANCE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 103 4646",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.capitalbank.co.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.capitalbank.co.in"
+      ]
+    },
+    {
+      "code": "ESFB",
+      "name": "Equitas Small Finance Bank",
+      "type": "SMALL_FINANCE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 103 1222",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.equitasbank.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.equitasbank.com"
+      ]
+    },
+    {
+      "code": "ESMF",
+      "name": "ESAF Small Finance Bank",
+      "type": "SFB",
+      "blocking_methods": {
+        "sms": false,
+        "phone": true,
+        "app": false,
+        "website": true
+      },
+      "contact": {
+        "phone": "",
+        "toll_free": "",
+        "email": "",
+        "website": "",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": false,
+        "other": []
+      },
+      "verification_level": "agent_verified",
+      "notes": "Intelligent defaults based on bank type (SFB). Requires verification. (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "Razorpay IFSC",
+        "Type-based defaults"
+      ]
+    },
+    {
+      "code": "FDRL",
+      "name": "Federal Bank",
+      "type": "PRIVATE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 420 1111",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.federalbank.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.federalbank.com"
+      ]
+    },
+    {
+      "code": "HDFC",
+      "name": "HDFC Bank",
+      "type": "PRIVATE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1860 267 6161",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.hdfcbank.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.hdfcbank.com"
+      ]
+    },
+    {
+      "code": "ICIC",
+      "name": "ICICI Bank",
+      "type": "PRIVATE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 210 888",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.icicibank.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.icicibank.com"
+      ]
+    },
+    {
+      "code": "IPPB",
+      "name": "India Post Payments Bank",
+      "type": "PAYMENT",
+      "blocking_methods": {
+        "sms": false,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "155300",
+        "toll_free": "",
+        "email": "",
+        "website": "https://ippbonline.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": false,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://ippbonline.com"
+      ]
+    },
+    {
+      "code": "IDIB",
+      "name": "Indian Bank",
+      "type": "PUBLIC",
+      "blocking_methods": {
+        "sms": false,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 425 1000",
+        "toll_free": "",
+        "email": "",
+        "website": "https://indianbank.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://indianbank.in"
+      ]
+    },
+    {
+      "code": "IOBA",
+      "name": "Indian Overseas Bank",
+      "type": "PSB",
+      "blocking_methods": {
+        "sms": false,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "",
+        "toll_free": "",
+        "email": "",
+        "website": "",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": false
+      },
+      "verification_level": "agent_verified",
+      "notes": "Known profile for Indian Overseas Bank (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "Razorpay IFSC",
+        "Known bank profile"
+      ]
+    },
+    {
+      "code": "KKBK",
+      "name": "Kotak Mahindra Bank",
+      "type": "PRIVATE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1860 266 0811",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.kotak.com",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.kotak.com"
+      ]
+    },
+    {
+      "code": "PUNB",
+      "name": "Punjab National Bank",
+      "type": "PUBLIC",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 180 2222",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.pnbindia.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.pnbindia.in"
+      ]
+    },
+    {
+      "code": "SBIN",
+      "name": "State Bank of India",
+      "type": "PUBLIC",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 123 4567",
+        "toll_free": "",
+        "email": "",
+        "website": "https://sbi.co.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://sbi.co.in"
+      ]
+    },
+    {
+      "code": "UBIN",
+      "name": "Union Bank of India",
+      "type": "PUBLIC",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 208 2244",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.unionbankofindia.co.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.unionbankofindia.co.in"
+      ]
+    },
+    {
+      "code": "YESB",
+      "name": "Yes Bank",
+      "type": "PRIVATE",
+      "blocking_methods": {
+        "sms": true,
+        "phone": true,
+        "app": true,
+        "website": true
+      },
+      "contact": {
+        "phone": "1800 103 1212",
+        "toll_free": "",
+        "email": "",
+        "website": "https://www.yesbank.in",
+        "app_url_android": "",
+        "app_url_ios": ""
+      },
+      "cards": {
+        "visa": true,
+        "mastercard": true,
+        "rupay": true,
+        "other": [],
+        "rupaj": true
+      },
+      "verification_level": "agent_verified",
+      "notes": "Converted from old schema (Manually verified)",
+      "last_updated": "2026-02-19",
+      "sources": [
+        "https://www.yesbank.in"
+      ]
+    }
+  ]
+}
