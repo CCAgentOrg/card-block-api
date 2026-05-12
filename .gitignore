@@ -15,3 +15,5 @@ missing-bank-names.json
 # Reports are hosted but can be regenerated, so we may or may not ignore them.
 # If you want to keep repo clean, uncomment next line:
 # reports/
+__pycache__/
+*.pyc

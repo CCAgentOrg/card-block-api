@@ -1,0 +1,42 @@
+from pydantic import BaseModel, Field
+from typing import Optional
+from datetime import date
+
+class SourceModel(BaseModel):
+    """Verification source information."""
+    label: str
+    url: str
+
+class BlockingInstructionModel(BaseModel):
+    """Blocking instructions for a card type."""
+    tollFree: str = Field(..., description="Primary toll-free number")
+    number1: Optional[str] = Field(None, description="Alternative number 1")
+    number2: Optional[str] = Field(None, description="Alternative number 2")
+    rmn: Optional[str] = Field(None, description="SMS command from registered mobile")
+    email: Optional[str] = Field(None, description="Email contact")
+    website: Optional[str] = Field(None, description="Web portal URL")
+    reference: Optional[str] = Field(None, description="Official reference link")
+    notes: Optional[str] = Field(None, description="Additional notes")
+
+class BankModel(BaseModel, arbitrary_types_allowed=True):
+    """Full bank information."""
+    id: str
+    name: str
+    logo: str
+    ifsc: str
+    blockingInstructions: dict[str, BlockingInstructionModel]
+    sources: list[SourceModel]
+    lastVerified: date
+
+    def model_dump(self, *args, **kwargs):
+        data = super().model_dump(*args, **kwargs)
+        # Convert date to ISO string for JSON serialization
+        if isinstance(data.get("lastVerified"), date):
+            data["lastVerified"] = data["lastVerified"].isoformat()
+        return data
+
+class BankSummaryModel(BaseModel):
+    """Bank summary (list view)."""
+    id: str
+    name: str
+    logo: str
