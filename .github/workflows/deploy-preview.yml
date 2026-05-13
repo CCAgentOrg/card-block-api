@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Create ephemeral app
-        uses: superfly/flyctl-actions/setup-flyctl@master
+        uses: superfly/flyctl-actions/setup-flyctl@v1.5
       - run: >
           fly apps create cardblock-pr-${{ github.event.pull_request.number }}
           --org personal 2>/dev/null || true
@@ -91,7 +91,7 @@ jobs:
     env:
       FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
     steps:
-      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - uses: superfly/flyctl-actions/setup-flyctl@v1.5
       - run: |
           APP="cardblock-pr-${{ github.event.pull_request.number }}"
           echo "Destroying preview app: $APP"
