@@ -1,0 +1,38 @@
+name: Deploy — production
+
+on:
+  push:
+    branches: [main]
+
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    if: github.repository == 'CCAgentOrg/card-block-api'
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install flyctl
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          echo "$HOME/.fly/bin" >> "$GITHUB_PATH"
+
+      - name: Create app if missing
+        run: |
+          fly apps create cardblockapi 2>/dev/null || echo "App already exists"
+
+      - name: Deploy
+        run: fly deploy --app cardblockapi --detach
+
+      - name: Health check
+        run: |
+          URL="https://cardblockapi.fly.dev/api/v1/banks"
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            STATUS=$(curl -so /dev/null -w "%{http_code}" "$URL") && break || sleep 10
+          done
+          echo "Status: $STATUS"
+          [ "$STATUS" = "200" ] || exit 1

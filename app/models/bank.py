@@ -2,6 +2,12 @@ from pydantic import BaseModel, Field
 from typing import Optional
 from datetime import date
 
+class BinRangeModel(BaseModel):
+    """BIN/IIN range for identifying bank cards."""
+    start: str = Field(..., description="Starting 6-digit BIN prefix")
+    end: Optional[str] = Field(None, description="Ending 6-digit BIN prefix (null for single BIN)")
+    cardType: Optional[str] = Field(None, description="Card type (e.g., 'Visa', 'Mastercard', 'RuPay')")
+
 class SourceModel(BaseModel):
     """Verification source information."""
     label: str
@@ -29,6 +35,7 @@ class BankModel(BaseModel, arbitrary_types_allowed=True):
     blockingInstructions: dict[str, BlockingInstructionModel]
     sources: list[SourceModel]
     lastVerified: date
+    binRanges: Optional[list[BinRangeModel]] = Field(None, description="BIN/IIN ranges for identifying bank's cards")
 
     def model_dump(self, *args, **kwargs):
         data = super().model_dump(*args, **kwargs)

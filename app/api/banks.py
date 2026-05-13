@@ -1,10 +1,14 @@
 from flask_restx import Namespace, Resource, fields
-from flask import request, current_app
+from flask import request, current_app, make_response, send_file
 from ..models.bank import BankSummaryModel, BankModel, SourceModel
 from ..services import bank_service
 from pydantic import ValidationError
+import json
+import io
+import csv
 
 api = Namespace('banks', description='Bank information and card blocking instructions')
+export_api = Namespace('export', description='Data export endpoints in JSON, CSV, and JSON Schema formats')
 
 blocking_instruction_api_model = api.model('BlockingInstruction', {
     'tollFree': fields.String(required=True, description='Primary toll-free number for blocking'),
@@ -99,3 +103,187 @@ class BankStats(Resource):
         """Get API statistics and metadata"""
         stats = bank_service.get_stats()
         return stats
+
+
+@export_api.route('/json')
+class ExportJSON(Resource):
+    @export_api.doc('export_json')
+    def get(self):
+        """Export all bank data as a complete JSON file"""
+        banks_data = current_app.config.get('BANK_DATA', {})
+        response = make_response(json.dumps(banks_data, indent=2, ensure_ascii=False))
+        response.headers['Content-Type'] = 'application/json'
+        response.headers['Content-Disposition'] = 'attachment; filename=banks.json'
+        return response
+
+
+@export_api.route('/csv')
+class ExportCSV(Resource):
+    @export_api.doc('export_csv')
+    def get(self):
+        """Export all bank data as a flattened CSV (one row per bank × card type)"""
+        banks_data = current_app.config.get('BANK_DATA', {})
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow([
+            'bank_id', 'bank_name', 'ifsc', 'logo', 'card_type',
+            'tollFree', 'number1', 'number2', 'rmn', 'email',
+            'website', 'reference', 'androidApp', 'iosApp', 'notes',
+            'lastVerified'
+        ])
+        for bank in banks_data.values():
+            for card_type, inst in bank.get('blockingInstructions', {}).items():
+                writer.writerow([
+                    bank.get('id', ''),
+                    bank.get('name', ''),
+                    bank.get('ifsc', ''),
+                    bank.get('logo', ''),
+                    card_type,
+                    inst.get('tollFree', ''),
+                    inst.get('number1', ''),
+                    inst.get('number2', ''),
+                    inst.get('rmn', ''),
+                    inst.get('email', ''),
+                    inst.get('website', ''),
+                    inst.get('reference', ''),
+                    inst.get('androidApp', ''),
+                    inst.get('iosApp', ''),
+                    inst.get('notes', ''),
+                    bank.get('lastVerified', ''),
+                ])
+        response = make_response(output.getvalue())
+        response.headers['Content-Type'] = 'text/csv'
+        response.headers['Content-Disposition'] = 'attachment; filename=banks.csv'
+        return response
+
+
+SCHEMA = {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Card Block API Bank Data",
+    "description": "Schema for Indian bank card blocking information. Each bank entry contains blocking instructions for credit and debit cards.",
+    "type": "object",
+    "patternProperties": {
+        "^[a-z0-9_-]+$": {
+            "$ref": "#/$defs/BankEntry"
+        }
+    },
+    "$defs": {
+        "BankEntry": {
+            "type": "object",
+            "required": ["id", "name", "logo", "ifsc", "blockingInstructions", "sources", "lastVerified"],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9_-]+$",
+                    "description": "Unique lowercase snake_case identifier for the bank",
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Full bank name as displayed to users",
+                },
+                "logo": {
+                    "type": "string",
+                    "description": "Path to bank logo SVG (relative to static root) or external URL",
+                },
+                "ifsc": {
+                    "type": "string",
+                    "description": "IFSC code prefix for the bank (e.g., HDFC0000001)",
+                    "pattern": "^[A-Z]{4}0[A-Z0-9]{6}$",
+                },
+                "blockingInstructions": {
+                    "type": "object",
+                    "description": "Card blocking instructions keyed by card type",
+                    "additionalProperties": {"$ref": "#/$defs/BlockingInstruction"},
+                },
+                "sources": {
+                    "type": "array",
+                    "minItems": 1,
+                    "description": "Verification sources with labels and URLs",
+                    "items": {"$ref": "#/$defs/Source"},
+                },
+                "lastVerified": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Date of last verification (ISO 8601 format, YYYY-MM-DD)",
+                },
+            },
+        },
+        "BlockingInstruction": {
+            "type": "object",
+            "required": ["tollFree"],
+            "properties": {
+                "tollFree": {
+                    "type": "string",
+                    "description": "Primary toll-free customer care number for card blocking",
+                },
+                "number1": {
+                    "type": "string",
+                    "description": "Alternative contact number 1",
+                },
+                "number2": {
+                    "type": "string",
+                    "description": "Alternative contact number 2",
+                },
+                "rmn": {
+                    "type": "string",
+                    "description": "SMS command format for blocking from registered mobile number",
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email",
+                    "description": "Email address for blocking requests",
+                },
+                "website": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Official bank website or card management portal URL",
+                },
+                "reference": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Official reference link for blocking instructions",
+                },
+                "androidApp": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Google Play Store URL for the bank's mobile app",
+                },
+                "iosApp": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Apple App Store URL for the bank's mobile app",
+                },
+                "notes": {
+                    "type": "string",
+                    "description": "Additional instructions, notes, or guidance for card blocking",
+                },
+            },
+        },
+        "Source": {
+            "type": "object",
+            "required": ["label", "url"],
+            "properties": {
+                "label": {
+                    "type": "string",
+                    "description": "Display label for the verification source",
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL of the verification source",
+                },
+            },
+        },
+    },
+}
+
+
+@export_api.route('/schema')
+class ExportSchema(Resource):
+    @export_api.doc('export_schema')
+    def get(self):
+        """Export JSON Schema definition for the bank data format"""
+        response = make_response(json.dumps(SCHEMA, indent=2, ensure_ascii=False))
+        response.headers['Content-Type'] = 'application/json'
+        response.headers['Content-Disposition'] = 'attachment; filename=schema.json'
+        return response
