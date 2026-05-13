@@ -142,3 +142,52 @@ FLY_API_TOKEN="$FLY_IO_TOKEN" flyctl deploy --ha=false
 - **2+ sources for top banks** — test_at_least_2_sources_for_top_banks
 - **URLs must have valid format** — test_all_urls_valid_format
 - **Flask-RESTx pydantic mismatch** — the .abort() calls in app/api/banks.py trigger Pyright warnings but runtime works; ignore LSP diagnostics if pytest passes
+# CI/CD Pipeline
+
+## Branch Strategy
+
+```
+feature/**  →  PR to dev  →  dev  →  PR to main  →  main (production)
+```
+
+## Workflows
+
+| Workflow | Trigger | What it does |
+|---|---|---|
+| `ci.yml` | Push/PR to `feature/**`, `dev`, `main` | Lint → Test → Docker build (no push on PR) |
+| `deploy-preview.yml` | PR opened/sync to `dev` or `main` | Deploy to ephemeral `cardblock-pr-{N}.fly.dev`, comment URL on PR, destroy on PR close |
+| `deploy-dev.yml` | Push to `dev` | Deploy to `cardblockapi-dev.fly.dev` + health check |
+| `deploy-production.yml` | Push to `main` | Deploy to `cardblockapi.fly.dev` (prod) + health check |
+
+## CI Stages (on every PR)
+
+1. **Lint** — flake8 for syntax errors (hard fail) + style warnings (info)
+2. **Test** — pytest with coverage, 46 tests
+3. **Docker build** — validates Dockerfile works, caches via GitHub Actions cache
+
+## Deploy Previews
+
+Every PR to `dev` or `main` gets a live URL at `cardblock-pr-{number}.fly.dev`.
+
+- Created on PR open/reopen
+- Re-deployed on every push (concurrency cancels stale deploys)
+- URL posted as a PR comment automatically
+- Destroyed when PR is closed/merged (cleanup job)
+
+## Secrets Required
+
+Add these to **Settings → Secrets and variables → Actions** in the repo:
+
+| Secret | Value | Used by |
+|---|---|---|
+| `FLY_API_TOKEN` | Fly.io API token (`fly auth token`) | All deploy workflows |
+
+### Optional — Protected Environment
+
+Create a **production** environment in Settings → Environments → Add `main` as deployment branch. This gates production deploys behind manual approval if desired.
+
+## Cadence
+
+- **Feature branches** → small PRs to `dev` → instant preview → merge
+- **dev branch** → integration testing → periodic squash-merge to `main`
+- **main** → stable, customer-facing at `cardblockapi.fly.dev`
