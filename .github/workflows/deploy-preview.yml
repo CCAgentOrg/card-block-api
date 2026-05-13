@@ -1,14 +1,12 @@
 name: Build & Deploy
 
 on:
-  push:
-    branches: ['feature/**']
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
     branches: [dev, main]
 
 concurrency:
-  group: deploy-preview-${{ github.event.pull_request.number || github.ref }}
+  group: deploy-preview-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
