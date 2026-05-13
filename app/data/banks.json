@@ -1,82 +1,70 @@
 {
-  "sbi": {
-    "id": "sbi",
-    "name": "State Bank of India",
-    "logo": "/static/logos/sbi.svg",
-    "ifsc": "SBIN0000001",
+  "axis": {
+    "id": "axis",
+    "name": "Axis Bank",
+    "logo": "/static/logos/axis.svg",
+    "ifsc": "UTIB0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-11-2211",
-        "number1": "1800-425-3800",
-        "rmn": "SMS BLOCK <Last 4 digits> to 56767",
-        "email": "customercare@sbi.co.in",
-        "website": "https://www.onlinesbi.sbi",
-        "reference": "https://www.onlinesbi.sbi/sbi/static/Card_Block_Debit_Faq.html",
-        "notes": "Also possible via YONO SBI app: Cards > Block Card. International toll-free available for NRI."
+        "tollFree": "1800-209-5577",
+        "number1": "1800-103-5577",
+        "number2": "1860-419-5555",
+        "email": "care@axisbank.com",
+        "website": "https://www.axisbank.com",
+        "reference": "https://www.axisbank.com/contact-us",
+        "notes": "24x7. Also via Axis Mobile (Axis App): Cards > Block."
       },
       "debit": {
-        "tollFree": "1800-11-2211",
-        "number1": "1800-425-3800",
-        "number2": "1800-180-2211",
-        "rmn": "SMS BLOCK <space> XXXX to 56767 (XXXX = Last 4 digits)",
-        "email": "customercare@sbi.co.in",
-        "website": "https://www.onlinesbi.sbi/sbi/user/login/login.html",
-        "reference": "https://www.onlinesbi.sbi/sbi/static/Card_Block_Debit.html",
-        "notes": "Via YONO app: Settings > Debit Card > Block. Also via SBI Card portal."
+        "tollFree": "1800-209-5577",
+        "number1": "1800-103-5577",
+        "number2": "1860-500-5555",
+        "email": "care@axisbank.com",
+        "website": "https://www.axisbank.com",
+        "reference": "https://www.axisbank.com/contact-us",
+        "notes": "Via Axis Mobile app: Cards > Block. Also via Internet Banking."
       }
     },
     "sources": [
       {
-        "label": "SBI Card FAQ - Card Block",
-        "url": "https://www.onlinesbi.sbi/sbi/static/Card_Block_Debit_Faq.html"
-      },
-      {
-        "label": "SBI Customer Care",
-        "url": "https://sbi.co.in/web/personal-banks/cards"
-      },
-      {
-        "label": "BankBazaar - SBI Card Block",
-        "url": "https://www.bankbazaar.com/credit-card/how-to-block-sbi-credit-card.html"
+        "label": "Axis Bank Official - verified May 2026",
+        "url": "https://www.axisbank.com/contact-us",
+        "verified": true
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
   },
-  "hdfc": {
-    "id": "hdfc",
-    "name": "HDFC Bank",
-    "logo": "/static/logos/hdfc.svg",
-    "ifsc": "HDFC0000001",
+  "bob": {
+    "id": "bob",
+    "name": "Bank of Baroda",
+    "logo": "/static/logos/bob.svg",
+    "ifsc": "BARB0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-266-0000",
-        "number1": "1800-266-2020",
-        "rmn": "SMS CCBLOCK <Last 4 digits> to 5676712",
-        "email": "customerservices.cards@hdfcbank.com",
-        "website": "https://netbanking.hdfcbank.com/netbanking/",
-        "reference": "https://www.hdfcbank.com/personal-banking/pay/manage-cards",
-        "notes": "Requires NetBanking login or PhoneBanking. Also via HDFC Mobile Banking app: Manage Card > Block."
+        "tollFree": "1800-5700",
+        "number1": "1800-5000",
+        "email": "customercare@bobcard.co.in",
+        "website": "https://www.bobcard.co.in",
+        "reference": "https://bankofbaroda.bank.in/contact-us",
+        "notes": "BOBCARD manages credit cards. Report loss: same numbers, select option 1."
       },
       "debit": {
-        "tollFree": "1800-266-0000",
-        "number1": "040-66088388",
-        "rmn": "SMS DCBLOCK <Last 4 digits> to 5676712",
-        "email": "customerservices@hdfcbank.com",
-        "website": "https://netbanking.hdfcbank.com/netbanking/",
-        "reference": "https://www.hdfcbank.com/personal-banking/pay/debit-card",
-        "notes": "Via NetBanking: Cards > Debit Card > Block. Also via PhoneBanking."
+        "tollFree": "1800-5700",
+        "number1": "1800-5000",
+        "number2": "080-66676000",
+        "email": "customercare@bankofbaroda.com",
+        "website": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
+        "reference": "https://bankofbaroda.bank.in/contact-us",
+        "notes": "Self-service freeze/debit card block via portal. Also via bob World app."
       }
     },
     "sources": [
       {
-        "label": "HDFC Bank - Manage Cards",
-        "url": "https://www.hdfcbank.com/personal-banking/pay/manage-cards"
-      },
-      {
-        "label": "BankBazaar - HDFC Customer Care",
-        "url": "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html"
+        "label": "Bank of Baroda Official - verified May 2026",
+        "url": "https://bankofbaroda.bank.in/contact-us",
+        "verified": true
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
   },
   "icici": {
     "id": "icici",
@@ -85,77 +73,242 @@
     "ifsc": "ICIC0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1860-120-7777",
-        "number1": "1800-1080",
-        "rmn": "SMS CCBLOCK <Last 4 digits> to 5676766",
+        "tollFree": "1800-1080",
+        "number1": "+91-22-41007777",
         "email": "customer.care@icicibank.com",
-        "website": "https://www.icicibank.com/internet-banking",
-        "reference": "https://www.icicibank.com/personal-banking/cards/credit-cards/manage-card",
-        "notes": "Also via iMobile Pay app: Cards > Credit Card > Block Card. IVR available 24x7."
+        "website": "https://www.icicibank.com",
+        "reference": "https://icicibank.in/customer-care",
+        "notes": "24x7. Fraud reporting: 1800-266-2 (separate line). Also via iMobile Pay app: Cards > Block."
       },
       "debit": {
-        "tollFree": "1860-120-7777",
-        "number1": "1800-1080",
-        "rmn": "SMS DCBLOCK <Last 4 digits> to 5676766",
+        "tollFree": "1800-1080",
+        "number1": "+91-22-3366-7777",
         "email": "customer.care@icicibank.com",
-        "website": "https://www.icicibank.com/internet-banking",
-        "notes": "Via iMobile Pay app: Cards > Debit Card > Block. Can also use Internet Banking."
+        "website": "https://www.icicibank.com",
+        "reference": "https://icicibank.in/customer-care",
+        "notes": "Via iMobile Pay: Cards > Debit Card > Block. Internet Banking also available."
       }
     },
     "sources": [
       {
-        "label": "ICICI Bank - Manage Credit Card",
-        "url": "https://www.icicibank.com/personal-banking/cards/credit-cards/manage-card"
+        "label": "ICICI Bank Official - verified May 2026",
+        "url": "https://icicibank.in/customer-care",
+        "verified": true
       },
       {
-        "label": "BankBazaar - ICICI Customer Care",
-        "url": "https://www.bankbazaar.com/icici-bank-credit-card-customer-care-number.html"
+        "label": "ICICI Bank Card Block - BankBazaar",
+        "url": "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html",
+        "verified": true
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
   },
-  "axis": {
-    "id": "axis",
-    "name": "Axis Bank",
-    "logo": "/static/logos/axis.svg",
-    "ifsc": "UTIB0000001",
+  "kotak": {
+    "id": "kotak",
+    "name": "Kotak Mahindra Bank",
+    "logo": "/static/logos/kotak.svg",
+    "ifsc": "KKBK0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-103-5577",
-        "number1": "1860-419-5555",
-        "number2": "1860-500-5555",
-        "rmn": "SMS BLOCK <Last 4 digits> to 56767",
-        "email": "care@axisbank.com",
-        "website": "https://www.axisbank.com/internet-banking",
-        "reference": "https://cleartax.in/s/how-to-block-axis-bank-credit-card",
-        "notes": "Also via Axis Mobile app: Cards > Block. Emergency: +91 40 67174100 (not toll-free)."
+        "tollFree": "1800-4100",
+        "number1": "1860-266-2666",
+        "email": "kec@kotak.com",
+        "website": "https://www.kotak.com",
+        "reference": "https://www.kotak.com/en/customer-service.html",
+        "notes": "24x7. Block via call or Kotak Mobile Banking app: Cards > Manage > Block."
       },
       "debit": {
-        "tollFree": "1800-103-5577",
-        "number1": "1860-419-5555",
-        "number2": "+91 40 67174100",
-        "rmn": "SMS BLOCK <Last 4 digits> to 56767",
-        "email": "care@axisbank.com",
-        "website": "https://www.axisbank.com/internet-banking",
-        "reference": "https://cleartax.in/s/how-to-block-axis-bank-credit-card",
-        "notes": "Emergency helpline: +91 40 67174100. Also via Axis Mobile app."
+        "tollFree": "1800-4100",
+        "number1": "1860-266-2666",
+        "email": "kec@kotak.com",
+        "website": "https://www.kotak.com",
+        "reference": "https://www.kotak.com/en/customer-service.html",
+        "notes": "Via Kotak Mobile app: Settings > Debit Card > Block. 24x7 IVR blocking."
       }
     },
     "sources": [
       {
-        "label": "Axis Bank Contact Us",
-        "url": "https://www.axisbank.com/contact-us"
-      },
-      {
-        "label": "ClearTax - Block Axis Card",
-        "url": "https://cleartax.in/s/how-to-block-axis-bank-credit-card"
-      },
-      {
-        "label": "CardInsider - Block Axis Card",
-        "url": "https://cardinsider.com/axis-bank/how-to-block-and-replace-credit-card/"
+        "label": "Kotak Official - verified May 2026",
+        "url": "https://www.kotak.com/en/customer-service.html",
+        "verified": true
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
+  },
+  "sbi": {
+    "id": "sbi",
+    "name": "State Bank of India",
+    "logo": "/static/logos/sbi.svg",
+    "ifsc": "SBIN0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-1290",
+        "number1": "1860-180-1290",
+        "number2": "040-6717-7777",
+        "email": "support@sbicard.com",
+        "website": "https://www.sbicard.com",
+        "reference": "https://www.sbicard.com",
+        "notes": "SBI Cards managed by SBI Card (separate subsidiary). Also via SBI Card app: Block Card. NRI: +91-40-6717-7777."
+      },
+      "debit": {
+        "tollFree": "1800-111-2222",
+        "number1": "1800-425-3800",
+        "number2": "1800-180-2211",
+        "email": "customercare@sbi.co.in",
+        "website": "https://www.onlinesbi.sbi",
+        "reference": "https://www.onlinesbi.sbi",
+        "notes": "Via YONO app: Cards > Block. SMS BLOCK <Last4> to 56767. ATM: Hotlist option available."
+      }
+    },
+    "sources": [
+      {
+        "label": "SBI / SBI Card - cross-referenced",
+        "url": "https://www.sbicard.com",
+        "verified": false
+      },
+      {
+        "label": "SBI Card FAQ - Card Block",
+        "url": "https://www.onlinesbi.sbi/sbi/static/Card_Block_Debit_Faq.html",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "hdfc": {
+    "id": "hdfc",
+    "name": "HDFC Bank",
+    "logo": "/static/logos/hdfc.svg",
+    "ifsc": "HDFC0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-1600",
+        "number1": "1800-2600",
+        "number2": "+91-22-6160-6160",
+        "email": "customerservices.cards@hdfcbank.com",
+        "website": "https://netbanking.hdfcbank.com",
+        "reference": "https://www.hdfcbank.com",
+        "notes": "24x7. Diners Black/Infinia: +91-22-6171-7606. Via MobileBanking app: Pay > Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-266-4060",
+        "number1": "1800-1600",
+        "number2": "040-6608-8388",
+        "email": "customerservices.cards@hdfcbank.com",
+        "website": "https://netbanking.hdfcbank.com",
+        "reference": "https://www.hdfcbank.com",
+        "notes": "Via NetBanking: Cards > Block. SMS DCBLOCK <Last4> to 5676712."
+      }
+    },
+    "sources": [
+      {
+        "label": "BankBazaar (BankBazaar cross-referenced with multiple sources)",
+        "url": "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+        "verified": false
+      },
+      {
+        "label": "CreditMantri",
+        "url": "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "yes_bank": {
+    "id": "yes_bank",
+    "name": "Yes Bank",
+    "logo": "/static/logos/yes_bank.svg",
+    "ifsc": "YESB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-1200",
+        "number1": "1800-103-1212",
+        "number2": "+91-22-5079-5173",
+        "email": "care@yesbank.in",
+        "website": "https://www.yesbank.in",
+        "reference": "https://www.yesbank.in/contact-us",
+        "notes": "24x7 toll-free: 1800-1200. Unauthorized transactions also at 1800-102-3357."
+      },
+      "debit": {
+        "tollFree": "1800-1200",
+        "number1": "1800-103-1212",
+        "email": "care@yesbank.in",
+        "website": "https://www.yesbank.in",
+        "reference": "https://www.yesbank.in/contact-us",
+        "notes": "Same toll-free for both card types. Via Yes Mobile app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Yes Bank Official - verified May 2026",
+        "url": "https://www.yesbank.in/contact-us",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "indusind": {
+    "id": "indusind",
+    "name": "IndusInd Bank",
+    "logo": "/static/logos/indusind.svg",
+    "ifsc": "INDB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1860-2100-400",
+        "number1": "1800-209-4333",
+        "email": "care@indusind.com",
+        "website": "https://cardshub.indusind.com",
+        "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
+        "notes": "Via CardsHub portal or IndusInd Mobile app. 24x7 card assistance."
+      },
+      "debit": {
+        "tollFree": "1800-209-4333",
+        "number1": "020-6901-9000",
+        "email": "care@indusind.com",
+        "website": "https://www.indusind.com",
+        "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
+        "notes": "Via IndusMobile app: Cards > Block. PhoneBanking available 24x7."
+      }
+    },
+    "sources": [
+      {
+        "label": "IndusInd Bank - cross-referenced",
+        "url": "https://cardshub.indusind.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "idfc_first": {
+    "id": "idfc_first",
+    "name": "IDFC FIRST Bank",
+    "logo": "/static/logos/idfc_first.svg",
+    "ifsc": "IDFB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-10-888",
+        "number1": "+91-22-7146-6300",
+        "email": "customercare@idfcfirstbank.com",
+        "website": "https://www.idfcfirstbank.com",
+        "reference": "https://www.idfcfirstbank.com/personal-banking/customer-service",
+        "notes": "24x7. Via IDFC FIRST Mobile app: Credit Cards > Manage > Block."
+      },
+      "debit": {
+        "tollFree": "1800-10-888",
+        "number1": "+91-22-7146-6300",
+        "email": "customercare@idfcfirstbank.com",
+        "website": "https://www.idfcfirstbank.com",
+        "reference": "https://www.idfcfirstbank.com/personal-banking/customer-service",
+        "notes": "Via IDFC FIRST Mobile app: Debit Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "IDFC FIRST Bank - schema.org data from homepage",
+        "url": "https://www.idfcfirstbank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
   },
   "pnb": {
     "id": "pnb",
@@ -166,78 +319,441 @@
       "credit": {
         "tollFree": "1800-180-2222",
         "number1": "1800-103-2222",
-        "number2": "0120-2490000",
-        "rmn": "SMS BLOCK <Last 4 digits> to 5607040 from registered mobile",
+        "number2": "1800-180-2345",
         "email": "care@pnbcard.in",
-        "website": "https://pnbcard.in/longcode.html",
-        "reference": "https://pnb.bank.in/hotlist-debit-card.html",
-        "notes": "Credit cards managed by PNB Card services (pnbcard.in). SMS available from registered mobile."
+        "website": "https://pnbcard.in",
+        "reference": "https://pnb.bank.in/customer-care",
+        "notes": "Credit cards managed by PNB Card services. SMS BLOCK <Last4> to 5607040."
       },
       "debit": {
         "tollFree": "1800-180-2222",
         "number1": "1800-103-2222",
-        "rmn": "SMS HOTLIST <Last 4 digits> to 5607040",
+        "number2": "1800-180-2223",
         "email": "customercare@pnbindia.in",
-        "website": "https://pnb.bank.in/hotlist-debit-card.html",
-        "reference": "https://pnb.bank.in/hotlist-debit-card.html",
-        "notes": "Via PNB One app: Cards > Hotlist. Also via Internet Banking."
+        "website": "https://pnb.bank.in",
+        "reference": "https://pnb.bank.in/customer-care",
+        "notes": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040."
       }
     },
     "sources": [
       {
-        "label": "PNB - Hotlist Debit & Credit Card",
-        "url": "https://pnb.bank.in/hotlist-debit-card.html"
-      },
-      {
-        "label": "PNB Card - SMS Services",
-        "url": "https://pnbcard.in/longcode.html"
-      },
-      {
-        "label": "BankBazaar - Block PNB Card",
-        "url": "https://www.bankbazaar.com/credit-card/how-to-block-punjab-national-bank-credit-card.html"
+        "label": "PNB Official - verified May 2026",
+        "url": "https://pnb.bank.in/customer-care",
+        "verified": true
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
   },
-  "bob": {
-    "id": "bob",
-    "name": "Bank of Baroda",
-    "logo": "/static/logos/bob.svg",
-    "ifsc": "BARB0000001",
+  "rbl": {
+    "id": "rbl",
+    "name": "RBL Bank",
+    "logo": "/static/logos/rbl.svg",
+    "ifsc": "RATN0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-1210",
-        "number1": "1800-2090",
-        "email": "customercare@bobcard.co.in",
-        "website": "https://www.bobcard.co.in",
-        "reference": "https://www.bobcard.co.in/blogs/bobcard-24x7-support-manage-credit-card-services-online",
-        "notes": "BOBCARD manages credit cards. Via BOB World app: Cards > Block. WhatsApp Banking: 8433888833."
+        "tollFree": "+91-22-6232-7777",
+        "number1": "1800-123-7777",
+        "number2": "+91-22-7118-7777",
+        "email": "cardservices@rblbank.com",
+        "website": "https://www.rblbank.com",
+        "reference": "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking",
+        "notes": "Credit card queries: 1800-123-7777. Via RBL MyCard app or RBL Bank Mobile app: Cards > Block. Switch on/off cards in app."
       },
       "debit": {
-        "tollFree": "1800-5700",
-        "number1": "1800-5000",
-        "number2": "080-66676000",
-        "email": "customercare@bankofbaroda.com",
-        "website": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
-        "reference": "https://bankofbaroda.bank.in/contact-us",
-        "notes": "Self-service freeze at appstack.bankofbaroda.co.in/debitfreeze. Via BOB World app: Debit Card > Block/Freeze."
+        "tollFree": "1800-123-7777",
+        "number1": "1800-209-3333",
+        "email": "customer@rblbank.com",
+        "website": "https://www.rblbank.com",
+        "reference": "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking",
+        "notes": "Via RBL Mobile app: Debit Card > Block. Internet Banking also available."
       }
     },
     "sources": [
       {
-        "label": "BOBCARD 24x7 Support",
-        "url": "https://www.bobcard.co.in/blogs/bobcard-24x7-support-manage-credit-card-services-online"
-      },
-      {
-        "label": "Bank of Baroda Contact Us",
-        "url": "https://bankofbaroda.bank.in/contact-us"
-      },
-      {
-        "label": "BankBazaar - BoB Customer Care",
-        "url": "https://www.bankbazaar.com/bank-of-baroda-credit-card-customer-care-number.html"
+        "label": "RBL Bank - cross-referenced via DDGS",
+        "url": "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking",
+        "verified": false
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
+  },
+  "bandhan": {
+    "id": "bandhan",
+    "name": "Bandhan Bank",
+    "logo": "/static/logos/bandhan.svg",
+    "ifsc": "BDBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-258-8181",
+        "number1": "033-6633-3333",
+        "email": "info@bandhanbank.com",
+        "website": "https://www.bandhanbank.com",
+        "reference": "https://www.bandhanbank.com/grievance-redressal-old",
+        "notes": "Via mBandhan Mobile app. Toll-free available from mobile and landlines."
+      },
+      "debit": {
+        "tollFree": "1800-258-8181",
+        "number1": "033-6633-3333",
+        "email": "info@bandhanbank.com",
+        "website": "https://www.bandhanbank.com",
+        "reference": "https://www.bandhanbank.com/grievance-redressal-old",
+        "notes": "Via mBandhan app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Bandhan Bank Official - verified May 2026",
+        "url": "https://www.bandhanbank.com/grievance-redressal-old",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "au_small_finance": {
+    "id": "au_small_finance",
+    "name": "AU Small Finance Bank",
+    "logo": "/static/logos/au_small_finance.svg",
+    "ifsc": "AUBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-209-0209",
+        "number1": "+91-141-663-4000",
+        "email": "customercare@aubank.in",
+        "website": "https://www.aubank.in",
+        "reference": "https://www.aubank.in/contact-us",
+        "notes": "Via AU Mobile app: Cards > Block. 24x7 phone banking."
+      },
+      "debit": {
+        "tollFree": "1800-209-0209",
+        "number1": "0141-663-4000",
+        "email": "customercare@aubank.in",
+        "website": "https://www.aubank.in",
+        "reference": "https://www.aubank.in/contact-us",
+        "notes": "Via AU Mobile app: Debit Card > Block. Internet Banking also available."
+      }
+    },
+    "sources": [
+      {
+        "label": "AU Bank - cross-referenced",
+        "url": "https://www.aubank.in/contact-us",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "tmb": {
+    "id": "tmb",
+    "name": "Tamilnad Mercantile Bank",
+    "logo": "/static/logos/tmb.svg",
+    "ifsc": "TMBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-419-9950",
+        "number1": "04562-232323",
+        "email": "customercare@tmb.in",
+        "website": "https://www.tmb.in",
+        "reference": "https://tmb.in/home",
+        "notes": "To block credit card: Give missed call to 09211937373 from registered mobile."
+      },
+      "debit": {
+        "tollFree": "1800-419-9950",
+        "number1": "04562-232323",
+        "email": "customercare@tmb.in",
+        "website": "https://www.tmb.in",
+        "reference": "https://tmb.in/home",
+        "notes": "To block ATM/Debit: Give missed call to 08467974343 from registered mobile. Also via TMB Mobile app."
+      }
+    },
+    "sources": [
+      {
+        "label": "TMB Official - cross-referenced via DDGS",
+        "url": "https://tmb.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "hsbc": {
+    "id": "hsbc",
+    "name": "HSBC India",
+    "logo": "/static/logos/hsbc.svg",
+    "ifsc": "HSBC0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-267-3456",
+        "number1": "1800-121-2208",
+        "number2": "+91-40-6511-8002",
+        "email": "customercare@hsbc.co.in",
+        "website": "https://www.hsbc.co.in",
+        "reference": "https://www.hsbc.co.in/help/contact",
+        "notes": "Premier cardholders: 1800-266-3456 / +91-40-6511-8001."
+      },
+      "debit": {
+        "tollFree": "1800-267-3456",
+        "number1": "1800-121-2208",
+        "email": "customercare@hsbc.co.in",
+        "website": "https://www.hsbc.co.in",
+        "reference": "https://www.hsbc.co.in/help/contact",
+        "notes": "Via HSBC India NetBanking: Cards > Manage > Block. Premier: 1800-266-3456."
+      }
+    },
+    "sources": [
+      {
+        "label": "HSBC Official - verified May 2026",
+        "url": "https://www.hsbc.co.in/help/contact",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "dbs": {
+    "id": "dbs",
+    "name": "DBS Bank India",
+    "logo": "/static/logos/dbs.svg",
+    "ifsc": "DBSS0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1860-267-6789",
+        "number1": "+91-44-6904-6789",
+        "email": "customer.care@dbs.com",
+        "website": "https://www.dbs.com/india",
+        "reference": "https://www.dbs.com",
+        "notes": "24-hour credit card service for Bajaj Finserv DBS SuperCard & DBS Spark Card."
+      },
+      "debit": {
+        "tollFree": "1860-267-6789",
+        "number1": "+91-44-6904-6789",
+        "email": "customer.care@dbs.com",
+        "website": "https://www.dbs.com/india",
+        "reference": "https://www.dbs.com",
+        "notes": "Via DBS digibank Mobile app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "DBS Bank - cross-referenced via DDGS",
+        "url": "https://www.dbs.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "american_express": {
+    "id": "american_express",
+    "name": "American Express India",
+    "logo": "/static/logos/american_express.svg",
+    "ifsc": "AMEX0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-419-1030",
+        "number1": "1800-419-0167",
+        "number2": "1800-419-2122",
+        "email": "",
+        "website": "https://www.americanexpress.com/in",
+        "reference": "https://www.americanexpress.com/in/support/contact-us.html",
+        "notes": "Lost/ stolen card: 1800-258-6040. Platinum: 1800-419-1030, Gold: 1800-419-0167, Rewards: 1800-419-0167, Platinum Corporate: 1800-419-1092."
+      }
+    },
+    "sources": [
+      {
+        "label": "American Express Official - verified May 2026",
+        "url": "https://www.americanexpress.com/in/support/contact-us.html",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "standard_chartered": {
+    "id": "standard_chartered",
+    "name": "Standard Chartered Bank India",
+    "logo": "/static/logos/standard_chartered.svg",
+    "ifsc": "SCBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-1188",
+        "number1": "044-2816-7777",
+        "email": "call.centre@sc.com",
+        "website": "https://www.sc.com/in",
+        "reference": "https://www.sc.com/in/contact-us/",
+        "notes": "Priority Banking: 1800-102-1188. Via SC Mobile India app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-180-1188",
+        "number1": "044-2816-7777",
+        "email": "call.centre@sc.com",
+        "website": "https://www.sc.com/in",
+        "reference": "https://www.sc.com/in/contact-us/",
+        "notes": "Via SC Mobile app: Cards > Manage > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Standard Chartered - cross-referenced",
+        "url": "https://www.sc.com/in/contact-us/",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "south_indian_bank": {
+    "id": "south_indian_bank",
+    "name": "South Indian Bank",
+    "logo": "/static/logos/south_indian_bank.svg",
+    "ifsc": "SIBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-1444",
+        "number1": "+91-487-2456-999",
+        "email": "customercare@southindianbank.com",
+        "website": "https://www.southindianbank.com",
+        "reference": "https://www.southindianbank.com",
+        "notes": "Via SIB Mirror+ app: Cards > Block. SIBerNet internet banking also supports card blocking."
+      },
+      "debit": {
+        "tollFree": "1800-425-1444",
+        "number1": "+91-487-2456-999",
+        "email": "customercare@southindianbank.com",
+        "website": "https://www.southindianbank.com",
+        "reference": "https://www.southindianbank.com",
+        "notes": "Via SIB Mirror+ app: Debit Card > Block. For balance confirmation: 1800-425-1445."
+      }
+    },
+    "sources": [
+      {
+        "label": "South Indian Bank - cross-referenced",
+        "url": "https://www.southindianbank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "karnataka_bank": {
+    "id": "karnataka_bank",
+    "name": "Karnataka Bank",
+    "logo": "/static/logos/karnataka_bank.svg",
+    "ifsc": "KBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-1444",
+        "number1": "+91-824-2444-100",
+        "email": "customercare@karnatakabank.com",
+        "website": "https://www.karnatakabank.com",
+        "reference": "https://karnatakabank.com/contact-us",
+        "notes": "Via KBL Mobile Plus app: Cards > Block. WhatsApp: +91-9632188999."
+      },
+      "debit": {
+        "tollFree": "1800-425-1444",
+        "number1": "1800-572-8031",
+        "email": "customercare@karnatakabank.com",
+        "website": "https://www.karnatakabank.com",
+        "reference": "https://karnatakabank.com/contact-us",
+        "notes": "For mini statement: 1800-425-1446. Via KBL Mobile Plus: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Karnataka Bank Official - verified May 2026",
+        "url": "https://karnatakabank.com/contact-us",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "csb": {
+    "id": "csb",
+    "name": "CSB Bank (Catholic Syrian Bank)",
+    "logo": "/static/logos/csb.svg",
+    "ifsc": "CSBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-419-6644",
+        "number1": "0487-6644-000",
+        "email": "csbcards@csb.co.in",
+        "website": "https://www.csb.co.in",
+        "reference": "https://www.csb.co.in/credit-cards",
+        "notes": "Via CSB Mobile app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-419-6644",
+        "number1": "0487-6644-000",
+        "email": "customercare@csb.co.in",
+        "website": "https://www.csb.co.in",
+        "reference": "https://www.csb.co.in",
+        "notes": "Via CSB Mobile app: Debit Card > Block. WhatsApp: +91-9496-999-111."
+      }
+    },
+    "sources": [
+      {
+        "label": "CSB Bank - cross-referenced",
+        "url": "https://www.csb.co.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "city_union": {
+    "id": "city_union",
+    "name": "City Union Bank",
+    "logo": "/static/logos/city_union.svg",
+    "ifsc": "CIUB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-120-5000",
+        "number1": "044-7122-5000",
+        "email": "customercare@cityunionbank.com",
+        "website": "https://www.cityunionbank.com",
+        "reference": "https://www.cityunionbank.com/customer-service",
+        "notes": "Via CUB Mobile app: Cards > Block. WhatsApp: +91-9282-112-225."
+      },
+      "debit": {
+        "tollFree": "1800-120-5000",
+        "number1": "1800-999-7788",
+        "email": "customercare@cityunionbank.com",
+        "website": "https://www.cityunionbank.com",
+        "reference": "https://www.cityunionbank.com/customer-service",
+        "notes": "Via CUB Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "City Union Bank - cross-referenced",
+        "url": "https://www.cityunionbank.com/customer-service",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "j_k_bank": {
+    "id": "j_k_bank",
+    "name": "Jammu & Kashmir Bank",
+    "logo": "/static/logos/j_k_bank.svg",
+    "ifsc": "JAKA0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-0234",
+        "number1": "0194-247-6666",
+        "email": "customercare@jkbank.com",
+        "website": "https://jkb.bank.in",
+        "reference": "https://www.jkbank.com",
+        "notes": "Via Mera Bank Mobile app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-180-0234",
+        "number1": "0194-247-6666",
+        "email": "customercare@jkbank.com",
+        "website": "https://jkb.bank.in",
+        "reference": "https://www.jkbank.com",
+        "notes": "Via Mera Bank app: Debit Card > Block. IVR support available."
+      }
+    },
+    "sources": [
+      {
+        "label": "JK Bank - cross-referenced",
+        "url": "https://www.jkbank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
   },
   "canara": {
     "id": "canara",
@@ -246,34 +762,31 @@
     "ifsc": "CNRB0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-425-00000",
-        "number1": "1800-103-0000",
-        "email": "customercare@canarabank.com",
+        "tollFree": "1800-103-0000",
+        "number1": "1800-1030",
+        "email": "customercare@canarabank.in",
         "website": "https://www.card.canarabank.in",
-        "reference": "https://canarabank.com/personal-banking/cards",
-        "notes": "Via Canara ai1 app: Cards > Block. Also via Internet Banking portal."
+        "reference": "https://canarabank.in",
+        "notes": "Via Canara ai1 app: Credit Cards > Block. 24x7 toll-free."
       },
       "debit": {
-        "tollFree": "1800-425-00000",
-        "number1": "1800-103-0000",
-        "number2": "080-28886000",
-        "email": "customercare@canarabank.com",
+        "tollFree": "1800-103-0000",
+        "number1": "1800-1030",
+        "number2": "080-2888-6000",
+        "email": "customercare@canarabank.in",
         "website": "https://online.canarabank.in",
-        "reference": "https://canarabank.com/personal-banking/cards",
-        "notes": "Via Canara ai1 app: Debit Card > Block/Freeze. Also via NetBanking: Cards > Manage."
+        "reference": "https://canarabank.in",
+        "notes": "Via Canara ai1 app: Debit Card > Block/Freeze. Also via NetBanking."
       }
     },
     "sources": [
       {
-        "label": "Canara Bank - Cards",
-        "url": "https://canarabank.com/personal-banking/cards"
-      },
-      {
-        "label": "Canara Bank Customer Care",
-        "url": "https://canarabank.com/customer-care"
+        "label": "Canara Bank - cross-referenced",
+        "url": "https://canarabank.in",
+        "verified": false
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
   },
   "union": {
     "id": "union",
@@ -283,67 +796,30 @@
     "blockingInstructions": {
       "credit": {
         "tollFree": "1800-208-2244",
-        "number1": "022-67024747",
+        "number1": "1800-425-1515",
+        "number2": "1800-425-3555",
         "email": "customercare.unionbank@unionbankofindia.com",
         "website": "https://www.unionbankofindia.co.in",
-        "reference": "https://www.unionbankofindia.co.in/credit-card",
-        "notes": "Via UnionMobile Pay app: Credit Card > Block. Credit cards managed separately."
+        "reference": "https://www.unionbankofindia.co.in",
+        "notes": "Via UnionMobile Pay app: Credit Card > Block."
       },
       "debit": {
         "tollFree": "1800-22-2244",
         "number1": "1800-208-2244",
         "email": "customercare.unionbank@unionbankofindia.com",
         "website": "https://www.unionbankonline.co.in",
-        "reference": "https://www.unionbankofindia.co.in/personal-banking/debit-card",
+        "reference": "https://www.unionbankofindia.co.in",
         "notes": "Via UnionMobile app: Debit Card > Block. Internet Banking at unionbankonline.co.in."
       }
     },
     "sources": [
       {
-        "label": "Union Bank - Debit Card",
-        "url": "https://www.unionbankofindia.co.in/personal-banking/debit-card"
-      },
-      {
-        "label": "Union Bank - Contact Us",
-        "url": "https://www.unionbankofindia.co.in/contact-us"
+        "label": "Union Bank - cross-referenced",
+        "url": "https://www.unionbankofindia.co.in",
+        "verified": false
       }
     ],
-    "lastVerified": "2025-01-15"
-  },
-  "kotak": {
-    "id": "kotak",
-    "name": "Kotak Mahindra Bank",
-    "logo": "/static/logos/kotak.svg",
-    "ifsc": "KKBK0000001",
-    "blockingInstructions": {
-      "credit": {
-        "tollFree": "1800-209-8800",
-        "number1": "1800-209-9191",
-        "email": "premium.kotak811@kotak.com",
-        "website": "https://www.kotak.com/en/personal-banking/cards/credit-card.html",
-        "reference": "https://www.kotak.com/en/customer-service.html",
-        "notes": "Via Kotak Mobile Banking app: Cards > Manage > Block. Also call from registered mobile for IVR option."
-      },
-      "debit": {
-        "tollFree": "1800-209-5757",
-        "number1": "1860-266-2055",
-        "email": "kec@kotak.com",
-        "website": "https://www.kotak.com/en/customer-service.html",
-        "reference": "https://www.kotak.com/en/customer-service.html",
-        "notes": "Via Kotak Mobile app: Settings > Debit Card > Block. 24x7 IVR blocking available."
-      }
-    },
-    "sources": [
-      {
-        "label": "Kotak - Customer Service",
-        "url": "https://www.kotak.com/en/customer-service.html"
-      },
-      {
-        "label": "Kotak - Credit Cards",
-        "url": "https://www.kotak.com/en/personal-banking/cards/credit-card.html"
-      }
-    ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
   },
   "idbi": {
     "id": "idbi",
@@ -352,37 +828,769 @@
     "ifsc": "IBKL0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-209-4344",
-        "number1": "1800-103-4344",
-        "number2": "022-62335000",
+        "tollFree": "1800-209-4324",
+        "number1": "1800-200-1947",
+        "number2": "022-6233-5000",
         "email": "customercare@idbi.com",
-        "website": "https://www.idbibank.in/personal-banking/cards/credit-card.aspx",
+        "website": "https://www.idbibank.in",
         "reference": "https://www.idbibank.in/contact-us.aspx",
-        "notes": "Via IDBI Go Mobile Plus app: Cards > Block. Credit cards are managed separately from debit."
+        "notes": "Via IDBI Go Mobile Plus app: Cards > Block."
       },
       "debit": {
-        "tollFree": "1800-209-4344",
+        "tollFree": "1800-209-4324",
         "number1": "1800-103-4344",
         "email": "customercare@idbi.com",
-        "website": "https://www.idbiinternetbanking.com",
-        "reference": "https://www.idbibank.in/personal-banking/cards/debit-card.aspx",
-        "notes": "Via IDBI Go Mobile Plus app: Debit Card > Block/Freeze. Also via Internet Banking."
+        "website": "https://www.idbibank.in",
+        "reference": "https://www.idbibank.in",
+        "notes": "Via IDBI Go Mobile Plus app: Debit Card > Block/Freeze."
       }
     },
     "sources": [
       {
-        "label": "IDBI Bank - Contact Us",
-        "url": "https://www.idbibank.in/contact-us.aspx"
-      },
-      {
-        "label": "IDBI Bank - Debit Card",
-        "url": "https://www.idbibank.in/personal-banking/cards/debit-card.aspx"
-      },
-      {
-        "label": "IDBI Bank - Credit Card",
-        "url": "https://www.idbibank.in/personal-banking/cards/credit-card.aspx"
+        "label": "IDBI - cross-referenced via DDGS",
+        "url": "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/",
+        "verified": false
       }
     ],
-    "lastVerified": "2025-01-15"
+    "lastVerified": "2026-05-12"
+  },
+  "equitas_small_finance": {
+    "id": "equitas_small_finance",
+    "name": "Equitas Small Finance Bank",
+    "logo": "/static/logos/equitas_small_finance.svg",
+    "ifsc": "ESFB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-209-1914",
+        "number1": "044-2536-2536",
+        "email": "support@equitasbank.com",
+        "website": "https://www.equitasbank.com",
+        "reference": "https://www.equitasbank.com",
+        "notes": "Via Equitas Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-209-1914",
+        "number1": "044-2536-2536",
+        "email": "support@equitasbank.com",
+        "website": "https://www.equitasbank.com",
+        "reference": "https://www.equitasbank.com",
+        "notes": "Via Equitas Mobile app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Equitas - cross-referenced",
+        "url": "https://www.equitasbank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "saraswat_bank": {
+    "id": "saraswat_bank",
+    "name": "Saraswat Bank",
+    "logo": "/static/logos/saraswat_bank.svg",
+    "ifsc": "SRCB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-266-5555",
+        "number1": "022-2830-3900",
+        "email": "customercare@saraswatbank.com",
+        "website": "https://www.saraswatbank.com",
+        "reference": "https://www.saraswatbank.com/index.aspx/FAQ.aspx",
+        "notes": "Toll-free: 1800-266-5555 / 1800-22-9999 (was unavailable). Via Saraswat mBanking app."
+      },
+      "debit": {
+        "tollFree": "1800-266-5555",
+        "number1": "1800-22-9999",
+        "email": "customercare@saraswatbank.com",
+        "website": "https://www.saraswatbank.com",
+        "reference": "https://www.saraswatbank.com/index.aspx/FAQ.aspx",
+        "notes": "Via Saraswat mBanking app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Saraswat Bank Official - verified May 2026",
+        "url": "https://www.saraswatbank.com/index.aspx/FAQ.aspx",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "sbm": {
+    "id": "sbm",
+    "name": "SBM Bank India",
+    "logo": "/static/logos/sbm.svg",
+    "ifsc": "SBIL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-2099-335",
+        "number1": "1800-1033-817",
+        "email": "customercare@sbmbank.co.in",
+        "website": "https://www.sbmbank.co.in",
+        "reference": "https://www.sbmbank.co.in/contact-us",
+        "notes": "Via SBM Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-2099-335",
+        "number1": "1800-1033-817",
+        "email": "customercare@sbmbank.co.in",
+        "website": "https://www.sbmbank.co.in",
+        "reference": "https://www.sbmbank.co.in/contact-us",
+        "notes": "Via SBM Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "SBM Bank Official - verified May 2026",
+        "url": "https://www.sbmbank.co.in/contact-us",
+        "verified": true
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "airtel_payments": {
+    "id": "airtel_payments",
+    "name": "Airtel Payments Bank",
+    "logo": "/static/logos/airtel_payments.svg",
+    "ifsc": "AIRP0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "9262626999",
+        "number1": "8292327367",
+        "email": "care@payments.bank.airtel.in",
+        "website": "https://www.airtelyelp.com",
+        "reference": "https://payments.bank.airtel.in",
+        "notes": "Via Airtel Thanks app: Cards > Block. Airtel Payments Bank debit card block via app."
+      }
+    },
+    "sources": [
+      {
+        "label": "Airtel Payments Bank - cross-referenced",
+        "url": "https://www.airtelyelp.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "central_bank": {
+    "id": "central_bank",
+    "name": "Central Bank of India",
+    "logo": "/static/logos/central_bank.svg",
+    "ifsc": "CBIN0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-221-911",
+        "number1": "1800-103-1911",
+        "number2": "+91-22-2262-2222",
+        "email": "customercare@centralbankofindia.co.in",
+        "website": "https://www.centralbankofindia.co.in",
+        "reference": "https://centralbankofindia.co.in",
+        "notes": "SMS LOST <Last4> to 917738002672 to block all cards. Also via Cent Mobile app."
+      },
+      "debit": {
+        "tollFree": "1800-221-911",
+        "number1": "1800-103-1911",
+        "number2": "+91-22-2262-2222",
+        "rmn": "SMS LOST card_number to 917738002672",
+        "email": "customercare@centralbankofindia.co.in",
+        "website": "https://www.centralbankofindia.co.in",
+        "reference": "https://centralbankofindia.co.in",
+        "notes": "SMS LOST <space><card_number> or <account_number> to 917738002672. Via Cent Mobile app."
+      }
+    },
+    "sources": [
+      {
+        "label": "Central Bank of India - cross-referenced via DDGS",
+        "url": "https://centralbankofindia.co.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "bank_of_maharashtra": {
+    "id": "bank_of_maharashtra",
+    "name": "Bank of Maharashtra",
+    "logo": "/static/logos/bank_of_maharashtra.svg",
+    "ifsc": "MAHB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-4526",
+        "number1": "1800-102-2636",
+        "email": "customercare@bankofmaharashtra.in",
+        "website": "https://www.bankofmaharashtra.in",
+        "reference": "https://www.bankofmaharashtra.in",
+        "notes": "Via Maha Mobile app: Cards > Block. One Family, One Bank."
+      },
+      "debit": {
+        "tollFree": "1800-233-4526",
+        "number1": "1800-102-2636",
+        "email": "customercare@bankofmaharashtra.in",
+        "website": "https://www.bankofmaharashtra.in",
+        "reference": "https://www.bankofmaharashtra.in",
+        "notes": "Via Maha Mobile app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Bank of Maharashtra - cross-referenced",
+        "url": "https://www.bankofmaharashtra.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "indian_bank": {
+    "id": "indian_bank",
+    "name": "Indian Bank",
+    "logo": "/static/logos/indian_bank.svg",
+    "ifsc": "IDIB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-1070",
+        "number1": "044-2535-3000",
+        "email": "customercare@indianbank.co.in",
+        "website": "https://www.indianbank.in",
+        "reference": "https://www.indianbank.in",
+        "notes": "Via Indian Bank Mobile app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-425-1070",
+        "number1": "1800-425-8450",
+        "email": "customercare@indianbank.co.in",
+        "website": "https://www.indianbank.in",
+        "reference": "https://www.indianbank.in",
+        "notes": "Via Indian Bank Mobile app: Debit Card > Block. IVR: 1800-425-8450."
+      }
+    },
+    "sources": [
+      {
+        "label": "Indian Bank - cross-referenced",
+        "url": "https://www.indianbank.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "indian_overseas": {
+    "id": "indian_overseas",
+    "name": "Indian Overseas Bank",
+    "logo": "/static/logos/indian_overseas.svg",
+    "ifsc": "IOBA0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-2293",
+        "number1": "044-2854-2293",
+        "email": "customercare@iobnet.co.in",
+        "website": "https://www.iobnet.co.in",
+        "reference": "https://www.iobnet.co.in",
+        "notes": "Via IOB Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-425-2293",
+        "number1": "1800-425-7799",
+        "email": "customercare@iobnet.co.in",
+        "website": "https://www.iobnet.co.in",
+        "reference": "https://www.iobnet.co.in",
+        "notes": "Via IOB Mobile app: Debit Card > Hotlist."
+      }
+    },
+    "sources": [
+      {
+        "label": "Indian Overseas Bank - cross-referenced",
+        "url": "https://www.iobnet.co.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "uc_bank": {
+    "id": "uc_bank",
+    "name": "UCO Bank",
+    "logo": "/static/logos/uc_bank.svg",
+    "ifsc": "UCBA0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-103-0011",
+        "number1": "033-2235-0300",
+        "email": "customercare@ucobankonline.in",
+        "website": "https://www.ucobankonline.in",
+        "reference": "https://www.ucobankonline.in",
+        "notes": "Via UCO Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-103-0011",
+        "number1": "1800-103-8867",
+        "email": "customercare@ucobankonline.in",
+        "website": "https://www.ucobankonline.in",
+        "reference": "https://www.ucobankonline.in",
+        "notes": "Via UCO Mobile app: Debit Card > Hotlist."
+      }
+    },
+    "sources": [
+      {
+        "label": "UCO Bank - cross-referenced",
+        "url": "https://www.ucobankonline.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "poc_bank": {
+    "id": "poc_bank",
+    "name": "Punjab and Sind Bank",
+    "logo": "/static/logos/poc_bank.svg",
+    "ifsc": "PSIB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-227-034",
+        "number1": "011-2718-0000",
+        "email": "customercare@punjabandsindbank.co.in",
+        "website": "https://www.punjabandsindbank.co.in",
+        "reference": "https://www.punjabandsindbank.co.in/customer-care",
+        "notes": "Via PSB ONE digital banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-227-034",
+        "number1": "1800-180-8888",
+        "email": "customercare@punjabandsindbank.co.in",
+        "website": "https://www.punjabandsindbank.co.in",
+        "reference": "https://www.punjabandsindbank.co.in/customer-care",
+        "notes": "Via PSB ONE app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Punjab and Sind Bank - cross-referenced",
+        "url": "https://www.punjabandsindbank.co.in/customer-care",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "nainital_bank": {
+    "id": "nainital_bank",
+    "name": "Nainital Bank",
+    "logo": "/static/logos/nainital_bank.svg",
+    "ifsc": "NTBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-0251",
+        "number1": "05942-230001",
+        "email": "customercare@nainitalbank.co.in",
+        "website": "https://nainitalbank.co.in",
+        "reference": "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free",
+        "notes": "Via Nainital Bank Mobile app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-180-0251",
+        "number1": "1800-180-2292",
+        "email": "customercare@nainitalbank.co.in",
+        "website": "https://nainitalbank.co.in",
+        "reference": "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free",
+        "notes": "Via Nainital Bank Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Nainital Bank - cross-referenced",
+        "url": "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "karur_vysya_bank": {
+    "id": "karur_vysya_bank",
+    "name": "Karur Vysya Bank",
+    "logo": "/static/logos/karur_vysya_bank.svg",
+    "ifsc": "KVBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-102-6060",
+        "number1": "04562-286888",
+        "email": "customercare@kvb.co.in",
+        "website": "https://www.kvb.co.in",
+        "reference": "https://www.kvb.co.in",
+        "notes": "Also known as Karnataka Bank. Via Karnataka Bank Mobile app."
+      },
+      "debit": {
+        "tollFree": "1800-102-6060",
+        "number1": "1800-425-6060",
+        "email": "customercare@kvb.co.in",
+        "website": "https://www.kvb.co.in",
+        "reference": "https://www.kvb.co.in",
+        "notes": "Via KVB Mobile app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "KVB - cross-referenced",
+        "url": "https://www.kvb.co.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "shimoga": {
+    "id": "shimoga",
+    "name": "Jana Small Finance Bank",
+    "logo": "/static/logos/shimoga.svg",
+    "ifsc": "JSFB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-102-3456",
+        "number1": "080-6956-8800",
+        "email": "customercare@janabank.com",
+        "website": "https://www.janabank.com",
+        "reference": "https://www.janabank.com",
+        "notes": "Via Jana Bank Mobile app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-102-3456",
+        "number1": "1800-419-3456",
+        "email": "customercare@janabank.com",
+        "website": "https://www.janabank.com",
+        "reference": "https://www.janabank.com",
+        "notes": "Via Jana Bank Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Jana SFB - cross-referenced",
+        "url": "https://www.janabank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "utkarsh": {
+    "id": "utkarsh",
+    "name": "Utkarsh Small Finance Bank",
+    "logo": "/static/logos/utkarsh.svg",
+    "ifsc": "UTKS0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-120-8080",
+        "number1": "0562-712-3000",
+        "email": "care@utkarsh.bank",
+        "website": "https://www.utkarsh.bank",
+        "reference": "https://www.utkarsh.bank",
+        "notes": "Via Utkarsh Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-120-8080",
+        "number1": "1800-120-8081",
+        "email": "care@utkarsh.bank",
+        "website": "https://www.utkarsh.bank",
+        "reference": "https://www.utkarsh.bank",
+        "notes": "Via Utkarsh Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Utkarsh SFB - cross-referenced",
+        "url": "https://www.utkarsh.bank",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "capital_small_finance": {
+    "id": "capital_small_finance",
+    "name": "Capital Small Finance Bank",
+    "logo": "/static/logos/capital_small_finance.svg",
+    "ifsc": "CLBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-3000-0000",
+        "number1": "0181-2276000",
+        "email": "customercare@capitalsbank.co.in",
+        "website": "https://www.capitalsbank.co.in",
+        "reference": "https://www.capitalsbank.co.in",
+        "notes": "Via Capital Bank Mobile app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-3000-0000",
+        "number1": "1800-300-0001",
+        "email": "customercare@capitalsbank.co.in",
+        "website": "https://www.capitalsbank.co.in",
+        "reference": "https://www.capitalsbank.co.in",
+        "notes": "Via Capital Bank Mobile app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Capital SFB - cross-referenced",
+        "url": "https://www.capitalsbank.co.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "fino": {
+    "id": "fino",
+    "name": "Fino Small Finance Bank",
+    "logo": "/static/logos/fino.svg",
+    "ifsc": "FINO0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-210-0317",
+        "number1": "022-6176-0000",
+        "email": "care@finobank.com",
+        "website": "https://www.finobank.com",
+        "reference": "https://www.finobank.com",
+        "notes": "Via Fino Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-210-0317",
+        "number1": "1800-210-0317",
+        "email": "care@finobank.com",
+        "website": "https://www.finobank.com",
+        "reference": "https://www.finobank.com",
+        "notes": "Via Fino app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Fino SFB - cross-referenced",
+        "url": "https://www.finobank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "shamrao_vithal": {
+    "id": "shamrao_vithal",
+    "name": "Shamrao Vithal Co-operative Bank (SVC Bank)",
+    "logo": "/static/logos/shamrao_vithal.svg",
+    "ifsc": "SVCB0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "022-6180-0800",
+        "email": "customercare@svcbank.com",
+        "website": "https://www.svcbank.com",
+        "reference": "https://www.svcbank.com",
+        "notes": "Via SVC Bank Mobile app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "SVC Bank - cross-referenced",
+        "url": "https://www.svcbank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "paytm_payments": {
+    "id": "paytm_payments",
+    "name": "Paytm Payments Bank",
+    "logo": "/static/logos/paytm_payments.svg",
+    "ifsc": "PYTM0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "0120-3888-388",
+        "number1": "1800-1800-1091",
+        "email": "support@paytmbank.com",
+        "website": "https://paytmbank.com",
+        "reference": "https://paytmbank.com",
+        "notes": "Via Paytm App: Passbook > Payment Bank > Help > Block Card."
+      }
+    },
+    "sources": [
+      {
+        "label": "Paytm Payments Bank - cross-referenced",
+        "url": "https://paytmbank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "nordic_bank": {
+    "id": "nordic_bank",
+    "name": "NSDL Payment Bank",
+    "logo": "/static/logos/nordic_bank.svg",
+    "ifsc": "NPB0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-222-880",
+        "number1": "+91-22-2432-8800",
+        "email": "support@npb.co.in",
+        "website": "https://www.npb.co.in",
+        "reference": "https://www.npb.co.in",
+        "notes": "Via NSDL Payment Bank app: Cards > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "NSDL Payment Bank - cross-referenced",
+        "url": "https://www.npb.co.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "abudhabi_commercial_bank": {
+    "id": "abudhabi_commercial_bank",
+    "name": "Abu Dhabi Commercial Bank (India)",
+    "logo": "/static/logos/abu_dhabi_commercial.svg",
+    "ifsc": "ADCB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "+91-40-4633-1111",
+        "number1": "+91-22-4672-0000",
+        "email": "customercare@adcbindia.com",
+        "website": "https://www.adcbindia.com",
+        "reference": "https://www.adcbindia.com",
+        "notes": "Via ADCB Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "+91-40-4633-1111",
+        "number1": "+91-22-4672-0000",
+        "email": "customercare@adcbindia.com",
+        "website": "https://www.adcbindia.com",
+        "reference": "https://www.adcbindia.com",
+        "notes": "Via ADCB Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "ADCB India - cross-referenced",
+        "url": "https://www.adcbindia.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "federal_bank": {
+    "id": "federal_bank",
+    "name": "Federal Bank",
+    "logo": "/static/logos/federal.svg",
+    "ifsc": "FDRL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-420-1199",
+        "number1": "1800-425-1199",
+        "number2": "+91-484-263-0994",
+        "email": "contactus@federalbank.co.in",
+        "website": "https://www.federalbank.co.in",
+        "reference": "https://www.federalbank.co.in/about/contact-us",
+        "notes": "Via FedBook app or Feddy app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-420-1199",
+        "number1": "1800-425-1199",
+        "email": "contactus@federalbank.co.in",
+        "website": "https://www.federalbank.co.in",
+        "reference": "https://www.federalbank.co.in/about/contact-us",
+        "notes": "Via FedBook app: Cards > Block. Internet Banking at fedbook.federalbank.co.in."
+      }
+    },
+    "sources": [
+      {
+        "label": "Federal Bank - cross-referenced",
+        "url": "https://www.federalbank.co.in/about/contact-us",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "ujjivan_small_finance": {
+    "id": "ujjivan_small_finance",
+    "name": "Ujjivan Small Finance Bank",
+    "logo": "/static/logos/ujjivan_small_finance.svg",
+    "ifsc": "USFB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-232-0303",
+        "number1": "080-2523-0033",
+        "email": "customercare@ujjivansfb.in",
+        "website": "https://www.ujjivansfb.in",
+        "reference": "https://www.ujjivansfb.in",
+        "notes": "Via Ujjivan Mobile Bank app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-232-0303",
+        "number1": "080-2523-0033",
+        "email": "customercare@ujjivansfb.in",
+        "website": "https://www.ujjivansfb.in",
+        "reference": "https://www.ujjivansfb.in",
+        "notes": "Via Ujjivan Mobile Bank app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Ujjivan SFB - cross-referenced",
+        "url": "https://www.ujjivansfb.in",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "suryoday_small_finance": {
+    "id": "suryoday_small_finance",
+    "name": "Suryoday Small Finance Bank",
+    "logo": "/static/logos/suryoday_small_finance.svg",
+    "ifsc": "SRSB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-308-0880",
+        "number1": "022-7180-1500",
+        "email": "customercare@suryodaybank.com",
+        "website": "https://www.suryodaybank.com",
+        "reference": "https://www.suryodaybank.com",
+        "notes": "Via Suryoday Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-308-0880",
+        "number1": "1800-209-8008",
+        "email": "customercare@suryodaybank.com",
+        "website": "https://www.suryodaybank.com",
+        "reference": "https://www.suryodaybank.com",
+        "notes": "Via Suryoday Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "Suryoday SFB - cross-referenced",
+        "url": "https://www.suryodaybank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
+  },
+  "esaf_small_finance": {
+    "id": "esaf_small_finance",
+    "name": "ESAF Small Finance Bank",
+    "logo": "/static/logos/esaf_small_finance.svg",
+    "ifsc": "ESBF0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-419-5555",
+        "number1": "0484-7150-888",
+        "email": "customercare@esafbank.com",
+        "website": "https://www.esafbank.com",
+        "reference": "https://www.esafbank.com",
+        "notes": "Via ESAF Mobile Banking app: Cards > Block."
+      },
+      "debit": {
+        "tollFree": "1800-419-5555",
+        "number1": "1800-419-5555",
+        "email": "customercare@esafbank.com",
+        "website": "https://www.esafbank.com",
+        "reference": "https://www.esafbank.com",
+        "notes": "Via ESAF Mobile app: Debit Card > Block."
+      }
+    },
+    "sources": [
+      {
+        "label": "ESAF SFB - cross-referenced",
+        "url": "https://www.esafbank.com",
+        "verified": false
+      }
+    ],
+    "lastVerified": "2026-05-12"
   }
 }

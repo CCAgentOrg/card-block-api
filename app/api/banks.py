@@ -25,7 +25,8 @@ source_api_model = api.model('Source', {
 bank_summary_api_model = api.model('BankSummary', {
     'id': fields.String(required=True, description='Unique identifier'),
     'name': fields.String(description='Bank name'),
-    'logo': fields.String(description='Logo URL')
+    'logo': fields.String(description='Logo URL'),
+    'cardTypes': fields.List(fields.String, description='Available card types')
 })
 
 bank_api_model = api.model('Bank', {
