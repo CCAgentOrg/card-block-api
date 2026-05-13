@@ -5,36 +5,36 @@ on:
     branches: ['feature/**']
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
-    branches: ['dev', 'main']
+    branches: [dev, main]
 
 concurrency:
   group: deploy-preview-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
-
-env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 
 jobs:
   preview:
     name: Deploy Preview
     runs-on: ubuntu-latest
     if: github.event.pull_request.draft == false
-    outputs:
-      url: ${{ steps.preview-url.outputs.url }}
+    env:
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
     steps:
       - uses: actions/checkout@v4
 
-      - uses: superfly/flyctl-actions@master
-        with:
-          accessToken: ${{ secrets.FLY_API_TOKEN }}
+      - name: Install flyctl
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          echo "$HOME/.fly/bin" >> "$GITHUB_PATH"
 
       - name: Create ephemeral app
         run: |
-          fly apps create "cardblock-pr-${{ github.event.pull_request.number }}" 2>/dev/null || true
+          APP="cardblock-pr-${{ github.event.pull_request.number }}"
+          fly apps create "$APP" 2>/dev/null || echo "App already exists"
 
-      - name: Generate fly.toml
+      - name: Write fly.toml
         run: |
-          cat > fly-preview.toml <<HEREDOC
+          cat > fly-preview.toml <<TOML
           app = "cardblock-pr-${{ github.event.pull_request.number }}"
           primary_region = "iad"
 
@@ -55,13 +55,13 @@ jobs:
           [[vm]]
             size = "shared-cpu-1x"
             memory = "256mb"
-          HEREDOC
+          TOML
 
       - name: Deploy
-        run: fly deploy -c fly-preview.toml --remote-only --detach
+        run: fly deploy -c fly-preview.toml --detach
 
       - id: preview-url
-        run: echo "url=https://cardblock-pr-${{ github.event.pull_request.number }}.fly.dev" >> $GITHUB_OUTPUT
+        run: echo "url=https://cardblock-pr-${{ github.event.pull_request.number }}.fly.dev" >> "$GITHUB_OUTPUT"
 
   comment:
     name: Post Preview Link
@@ -86,10 +86,13 @@ jobs:
     name: Destroy Preview
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    env:
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
     steps:
-      - uses: superfly/flyctl-actions@master
-        with:
-          accessToken: ${{ secrets.FLY_API_TOKEN }}
+      - name: Install flyctl
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          echo "$HOME/.fly/bin" >> "$GITHUB_PATH"
       - run: |
           APP="cardblock-pr-${{ github.event.pull_request.number }}"
-          fly apps destroy "$APP" -y 2>/dev/null || true
+          fly apps destroy "$APP" -y 2>/dev/null || echo "Already destroyed"
