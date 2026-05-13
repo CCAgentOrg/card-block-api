@@ -16,6 +16,8 @@ class BlockingInstructionModel(BaseModel):
     email: Optional[str] = Field(None, description="Email contact")
     website: Optional[str] = Field(None, description="Web portal URL")
     reference: Optional[str] = Field(None, description="Official reference link")
+    androidApp: Optional[str] = Field(None, description="Google Play Store URL for the bank's app")
+    iosApp: Optional[str] = Field(None, description="Apple App Store URL for the bank's app")
     notes: Optional[str] = Field(None, description="Additional notes")
 
 class BankModel(BaseModel, arbitrary_types_allowed=True):

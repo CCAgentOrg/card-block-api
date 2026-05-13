@@ -14,6 +14,8 @@ blocking_instruction_api_model = api.model('BlockingInstruction', {
     'email': fields.String(description='Email for blocking requests'),
     'website': fields.String(description='Website/portal for card management'),
     'reference': fields.String(description='Official reference link'),
+    'androidApp': fields.String(description='Google Play Store URL for the bank\'s mobile app'),
+    'iosApp': fields.String(description='Apple App Store URL for the bank\'s mobile app'),
     'notes': fields.String(description='Additional instructions or notes')
 })
 

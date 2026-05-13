@@ -12,7 +12,9 @@
         "email": "care@axisbank.com",
         "website": "https://www.axisbank.com",
         "reference": "https://www.axisbank.com/contact-us",
-        "notes": "24x7. Also via Axis Mobile (Axis App): Cards > Block."
+        "notes": "24x7. Also via Axis Mobile (Axis App): Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.axis.mobile",
+        "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
       },
       "debit": {
         "tollFree": "1800-209-5577",
@@ -21,7 +23,9 @@
         "email": "care@axisbank.com",
         "website": "https://www.axisbank.com",
         "reference": "https://www.axisbank.com/contact-us",
-        "notes": "Via Axis Mobile app: Cards > Block. Also via Internet Banking."
+        "notes": "Via Axis Mobile app: Cards > Block. Also via Internet Banking.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.axis.mobile",
+        "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
       }
     },
     "sources": [
@@ -45,7 +49,9 @@
         "email": "customercare@bobcard.co.in",
         "website": "https://www.bobcard.co.in",
         "reference": "https://bankofbaroda.bank.in/contact-us",
-        "notes": "BOBCARD manages credit cards. Report loss: same numbers, select option 1."
+        "notes": "BOBCARD manages credit cards. Report loss: same numbers, select option 1.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
+        "iosApp": "https://apps.apple.com/in/app/bob-world/id1507878760"
       },
       "debit": {
         "tollFree": "1800-5700",
@@ -54,7 +60,9 @@
         "email": "customercare@bankofbaroda.com",
         "website": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
         "reference": "https://bankofbaroda.bank.in/contact-us",
-        "notes": "Self-service freeze/debit card block via portal. Also via bob World app."
+        "notes": "Self-service freeze/debit card block via portal. Also via bob World app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
+        "iosApp": "https://apps.apple.com/in/app/bob-world/id1507878760"
       }
     },
     "sources": [
@@ -78,7 +86,9 @@
         "email": "customer.care@icicibank.com",
         "website": "https://www.icicibank.com",
         "reference": "https://icicibank.in/customer-care",
-        "notes": "24x7. Fraud reporting: 1800-266-2 (separate line). Also via iMobile Pay app: Cards > Block."
+        "notes": "24x7. Fraud reporting: 1800-266-2 (separate line). Also via iMobile Pay app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile",
+        "iosApp": "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
       },
       "debit": {
         "tollFree": "1800-1080",
@@ -86,7 +96,9 @@
         "email": "customer.care@icicibank.com",
         "website": "https://www.icicibank.com",
         "reference": "https://icicibank.in/customer-care",
-        "notes": "Via iMobile Pay: Cards > Debit Card > Block. Internet Banking also available."
+        "notes": "Via iMobile Pay: Cards > Debit Card > Block. Internet Banking also available.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile",
+        "iosApp": "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
       }
     },
     "sources": [
@@ -115,7 +127,9 @@
         "email": "kec@kotak.com",
         "website": "https://www.kotak.com",
         "reference": "https://www.kotak.com/en/customer-service.html",
-        "notes": "24x7. Block via call or Kotak Mobile Banking app: Cards > Manage > Block."
+        "notes": "24x7. Block via call or Kotak Mobile Banking app: Cards > Manage > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.msf.kbx.mobile",
+        "iosApp": "https://apps.apple.com/in/app/kotak-mobile-banking/id739646230"
       },
       "debit": {
         "tollFree": "1800-4100",
@@ -123,7 +137,9 @@
         "email": "kec@kotak.com",
         "website": "https://www.kotak.com",
         "reference": "https://www.kotak.com/en/customer-service.html",
-        "notes": "Via Kotak Mobile app: Settings > Debit Card > Block. 24x7 IVR blocking."
+        "notes": "Via Kotak Mobile app: Settings > Debit Card > Block. 24x7 IVR blocking.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.msf.kbx.mobile",
+        "iosApp": "https://apps.apple.com/in/app/kotak-mobile-banking/id739646230"
       }
     },
     "sources": [
@@ -148,7 +164,9 @@
         "email": "support@sbicard.com",
         "website": "https://www.sbicard.com",
         "reference": "https://www.sbicard.com",
-        "notes": "SBI Cards managed by SBI Card (separate subsidiary). Also via SBI Card app: Block Card. NRI: +91-40-6717-7777."
+        "notes": "SBI Cards managed by SBI Card (separate subsidiary). Also via SBI Card app: Block Card. NRI: +91-40-6717-7777.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
+        "iosApp": "https://apps.apple.com/in/app/yono-sbi/id1554345797"
       },
       "debit": {
         "tollFree": "1800-111-2222",
@@ -157,7 +175,9 @@
         "email": "customercare@sbi.co.in",
         "website": "https://www.onlinesbi.sbi",
         "reference": "https://www.onlinesbi.sbi",
-        "notes": "Via YONO app: Cards > Block. SMS BLOCK <Last4> to 56767. ATM: Hotlist option available."
+        "notes": "Via YONO app: Cards > Block. SMS BLOCK <Last4> to 56767. ATM: Hotlist option available.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
+        "iosApp": "https://apps.apple.com/in/app/yono-sbi/id1554345797"
       }
     },
     "sources": [
@@ -187,7 +207,9 @@
         "email": "customerservices.cards@hdfcbank.com",
         "website": "https://netbanking.hdfcbank.com",
         "reference": "https://www.hdfcbank.com",
-        "notes": "24x7. Diners Black/Infinia: +91-22-6171-7606. Via MobileBanking app: Pay > Cards > Block."
+        "notes": "24x7. Diners Black/Infinia: +91-22-6171-7606. Via MobileBanking app: Pay > Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
+        "iosApp": "https://apps.apple.com/in/app/hdfc-bank/id657927626"
       },
       "debit": {
         "tollFree": "1800-266-4060",
@@ -196,7 +218,9 @@
         "email": "customerservices.cards@hdfcbank.com",
         "website": "https://netbanking.hdfcbank.com",
         "reference": "https://www.hdfcbank.com",
-        "notes": "Via NetBanking: Cards > Block. SMS DCBLOCK <Last4> to 5676712."
+        "notes": "Via NetBanking: Cards > Block. SMS DCBLOCK <Last4> to 5676712.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
+        "iosApp": "https://apps.apple.com/in/app/hdfc-bank/id657927626"
       }
     },
     "sources": [
@@ -226,7 +250,9 @@
         "email": "care@yesbank.in",
         "website": "https://www.yesbank.in",
         "reference": "https://www.yesbank.in/contact-us",
-        "notes": "24x7 toll-free: 1800-1200. Unauthorized transactions also at 1800-102-3357."
+        "notes": "24x7 toll-free: 1800-1200. Unauthorized transactions also at 1800-102-3357.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.yesbank.bankapp",
+        "iosApp": "https://apps.apple.com/in/app/yes-first-bank-app/id1535769494"
       },
       "debit": {
         "tollFree": "1800-1200",
@@ -234,7 +260,9 @@
         "email": "care@yesbank.in",
         "website": "https://www.yesbank.in",
         "reference": "https://www.yesbank.in/contact-us",
-        "notes": "Same toll-free for both card types. Via Yes Mobile app: Cards > Block."
+        "notes": "Same toll-free for both card types. Via Yes Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.yesbank.bankapp",
+        "iosApp": "https://apps.apple.com/in/app/yes-first-bank-app/id1535769494"
       }
     },
     "sources": [
@@ -258,7 +286,9 @@
         "email": "care@indusind.com",
         "website": "https://cardshub.indusind.com",
         "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
-        "notes": "Via CardsHub portal or IndusInd Mobile app. 24x7 card assistance."
+        "notes": "Via CardsHub portal or IndusInd Mobile app. 24x7 card assistance.",
+        "androidApp": "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
+        "iosApp": "https://apps.apple.com/in/app/indusind-bank/id389114565"
       },
       "debit": {
         "tollFree": "1800-209-4333",
@@ -266,7 +296,9 @@
         "email": "care@indusind.com",
         "website": "https://www.indusind.com",
         "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
-        "notes": "Via IndusMobile app: Cards > Block. PhoneBanking available 24x7."
+        "notes": "Via IndusMobile app: Cards > Block. PhoneBanking available 24x7.",
+        "androidApp": "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
+        "iosApp": "https://apps.apple.com/in/app/indusind-bank/id389114565"
       }
     },
     "sources": [
@@ -290,7 +322,9 @@
         "email": "customercare@idfcfirstbank.com",
         "website": "https://www.idfcfirstbank.com",
         "reference": "https://www.idfcfirstbank.com/personal-banking/customer-service",
-        "notes": "24x7. Via IDFC FIRST Mobile app: Credit Cards > Manage > Block."
+        "notes": "24x7. Via IDFC FIRST Mobile app: Credit Cards > Manage > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=in.idfc.bank2",
+        "iosApp": "https://apps.apple.com/in/app/idfc-first-bank/id1116565210"
       },
       "debit": {
         "tollFree": "1800-10-888",
@@ -298,7 +332,9 @@
         "email": "customercare@idfcfirstbank.com",
         "website": "https://www.idfcfirstbank.com",
         "reference": "https://www.idfcfirstbank.com/personal-banking/customer-service",
-        "notes": "Via IDFC FIRST Mobile app: Debit Cards > Block."
+        "notes": "Via IDFC FIRST Mobile app: Debit Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=in.idfc.bank2",
+        "iosApp": "https://apps.apple.com/in/app/idfc-first-bank/id1116565210"
       }
     },
     "sources": [
@@ -323,7 +359,9 @@
         "email": "care@pnbcard.in",
         "website": "https://pnbcard.in",
         "reference": "https://pnb.bank.in/customer-care",
-        "notes": "Credit cards managed by PNB Card services. SMS BLOCK <Last4> to 5607040."
+        "notes": "Credit cards managed by PNB Card services. SMS BLOCK <Last4> to 5607040.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
+        "iosApp": "https://apps.apple.com/in/app/pnb-one/id1580876840"
       },
       "debit": {
         "tollFree": "1800-180-2222",
@@ -332,7 +370,9 @@
         "email": "customercare@pnbindia.in",
         "website": "https://pnb.bank.in",
         "reference": "https://pnb.bank.in/customer-care",
-        "notes": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040."
+        "notes": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
+        "iosApp": "https://apps.apple.com/in/app/pnb-one/id1580876840"
       }
     },
     "sources": [
@@ -357,7 +397,9 @@
         "email": "cardservices@rblbank.com",
         "website": "https://www.rblbank.com",
         "reference": "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking",
-        "notes": "Credit card queries: 1800-123-7777. Via RBL MyCard app or RBL Bank Mobile app: Cards > Block. Switch on/off cards in app."
+        "notes": "Credit card queries: 1800-123-7777. Via RBL MyCard app or RBL Bank Mobile app: Cards > Block. Switch on/off cards in app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.rbank.mobile",
+        "iosApp": "https://apps.apple.com/in/app/rbl-mobank/id1116633059"
       },
       "debit": {
         "tollFree": "1800-123-7777",
@@ -365,7 +407,9 @@
         "email": "customer@rblbank.com",
         "website": "https://www.rblbank.com",
         "reference": "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking",
-        "notes": "Via RBL Mobile app: Debit Card > Block. Internet Banking also available."
+        "notes": "Via RBL Mobile app: Debit Card > Block. Internet Banking also available.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.rbank.mobile",
+        "iosApp": "https://apps.apple.com/in/app/rbl-mobank/id1116633059"
       }
     },
     "sources": [
@@ -389,7 +433,9 @@
         "email": "info@bandhanbank.com",
         "website": "https://www.bandhanbank.com",
         "reference": "https://www.bandhanbank.com/grievance-redressal-old",
-        "notes": "Via mBandhan Mobile app. Toll-free available from mobile and landlines."
+        "notes": "Via mBandhan Mobile app. Toll-free available from mobile and landlines.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.bandhanbank.bblapp",
+        "iosApp": "https://apps.apple.com/in/app/bandhan-bank/id1477984093"
       },
       "debit": {
         "tollFree": "1800-258-8181",
@@ -397,7 +443,9 @@
         "email": "info@bandhanbank.com",
         "website": "https://www.bandhanbank.com",
         "reference": "https://www.bandhanbank.com/grievance-redressal-old",
-        "notes": "Via mBandhan app: Cards > Block."
+        "notes": "Via mBandhan app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.bandhanbank.bblapp",
+        "iosApp": "https://apps.apple.com/in/app/bandhan-bank/id1477984093"
       }
     },
     "sources": [
@@ -421,7 +469,9 @@
         "email": "customercare@aubank.in",
         "website": "https://www.aubank.in",
         "reference": "https://www.aubank.in/contact-us",
-        "notes": "Via AU Mobile app: Cards > Block. 24x7 phone banking."
+        "notes": "Via AU Mobile app: Cards > Block. 24x7 phone banking.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.aubank.mobile",
+        "iosApp": "https://apps.apple.com/in/app/au-bank/id1050017613"
       },
       "debit": {
         "tollFree": "1800-209-0209",
@@ -429,7 +479,9 @@
         "email": "customercare@aubank.in",
         "website": "https://www.aubank.in",
         "reference": "https://www.aubank.in/contact-us",
-        "notes": "Via AU Mobile app: Debit Card > Block. Internet Banking also available."
+        "notes": "Via AU Mobile app: Debit Card > Block. Internet Banking also available.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.aubank.mobile",
+        "iosApp": "https://apps.apple.com/in/app/au-bank/id1050017613"
       }
     },
     "sources": [
@@ -453,7 +505,9 @@
         "email": "customercare@tmb.in",
         "website": "https://www.tmb.in",
         "reference": "https://tmb.in/home",
-        "notes": "To block credit card: Give missed call to 09211937373 from registered mobile."
+        "notes": "To block credit card: Give missed call to 09211937373 from registered mobile.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.tmb.app",
+        "iosApp": "https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152"
       },
       "debit": {
         "tollFree": "1800-419-9950",
@@ -461,7 +515,9 @@
         "email": "customercare@tmb.in",
         "website": "https://www.tmb.in",
         "reference": "https://tmb.in/home",
-        "notes": "To block ATM/Debit: Give missed call to 08467974343 from registered mobile. Also via TMB Mobile app."
+        "notes": "To block ATM/Debit: Give missed call to 08467974343 from registered mobile. Also via TMB Mobile app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.tmb.app",
+        "iosApp": "https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152"
       }
     },
     "sources": [
@@ -486,7 +542,9 @@
         "email": "customercare@hsbc.co.in",
         "website": "https://www.hsbc.co.in",
         "reference": "https://www.hsbc.co.in/help/contact",
-        "notes": "Premier cardholders: 1800-266-3456 / +91-40-6511-8001."
+        "notes": "Premier cardholders: 1800-266-3456 / +91-40-6511-8001.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.hsbc.hsbcnet",
+        "iosApp": "https://apps.apple.com/in/app/hsbc-hk/id1188660034"
       },
       "debit": {
         "tollFree": "1800-267-3456",
@@ -494,7 +552,9 @@
         "email": "customercare@hsbc.co.in",
         "website": "https://www.hsbc.co.in",
         "reference": "https://www.hsbc.co.in/help/contact",
-        "notes": "Via HSBC India NetBanking: Cards > Manage > Block. Premier: 1800-266-3456."
+        "notes": "Via HSBC India NetBanking: Cards > Manage > Block. Premier: 1800-266-3456.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.hsbc.hsbcnet",
+        "iosApp": "https://apps.apple.com/in/app/hsbc-hk/id1188660034"
       }
     },
     "sources": [
@@ -518,7 +578,9 @@
         "email": "customer.care@dbs.com",
         "website": "https://www.dbs.com/india",
         "reference": "https://www.dbs.com",
-        "notes": "24-hour credit card service for Bajaj Finserv DBS SuperCard & DBS Spark Card."
+        "notes": "24-hour credit card service for Bajaj Finserv DBS SuperCard & DBS Spark Card.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.dbs.digibank",
+        "iosApp": "https://apps.apple.com/in/app/dbs-digibank/id1133705384"
       },
       "debit": {
         "tollFree": "1860-267-6789",
@@ -526,7 +588,9 @@
         "email": "customer.care@dbs.com",
         "website": "https://www.dbs.com/india",
         "reference": "https://www.dbs.com",
-        "notes": "Via DBS digibank Mobile app: Cards > Block."
+        "notes": "Via DBS digibank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.dbs.digibank",
+        "iosApp": "https://apps.apple.com/in/app/dbs-digibank/id1133705384"
       }
     },
     "sources": [
@@ -551,7 +615,9 @@
         "email": "",
         "website": "https://www.americanexpress.com/in",
         "reference": "https://www.americanexpress.com/in/support/contact-us.html",
-        "notes": "Lost/ stolen card: 1800-258-6040. Platinum: 1800-419-1030, Gold: 1800-419-0167, Rewards: 1800-419-0167, Platinum Corporate: 1800-419-1092."
+        "notes": "Lost/ stolen card: 1800-258-6040. Platinum: 1800-419-1030, Gold: 1800-419-0167, Rewards: 1800-419-0167, Platinum Corporate: 1800-419-1092.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.amex.android",
+        "iosApp": "https://apps.apple.com/in/app/amex/id974696351"
       }
     },
     "sources": [
@@ -575,7 +641,9 @@
         "email": "call.centre@sc.com",
         "website": "https://www.sc.com/in",
         "reference": "https://www.sc.com/in/contact-us/",
-        "notes": "Priority Banking: 1800-102-1188. Via SC Mobile India app: Cards > Block."
+        "notes": "Priority Banking: 1800-102-1188. Via SC Mobile India app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sc.mobilebanking.in",
+        "iosApp": "https://apps.apple.com/in/app/sc-bank-in/id1354682009"
       },
       "debit": {
         "tollFree": "1800-180-1188",
@@ -583,7 +651,9 @@
         "email": "call.centre@sc.com",
         "website": "https://www.sc.com/in",
         "reference": "https://www.sc.com/in/contact-us/",
-        "notes": "Via SC Mobile app: Cards > Manage > Block."
+        "notes": "Via SC Mobile app: Cards > Manage > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sc.mobilebanking.in",
+        "iosApp": "https://apps.apple.com/in/app/sc-bank-in/id1354682009"
       }
     },
     "sources": [
@@ -607,7 +677,9 @@
         "email": "customercare@southindianbank.com",
         "website": "https://www.southindianbank.com",
         "reference": "https://www.southindianbank.com",
-        "notes": "Via SIB Mirror+ app: Cards > Block. SIBerNet internet banking also supports card blocking."
+        "notes": "Via SIB Mirror+ app: Cards > Block. SIBerNet internet banking also supports card blocking.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sib.mirrorplus",
+        "iosApp": "https://apps.apple.com/in/app/sib-mirror/id1166471522"
       },
       "debit": {
         "tollFree": "1800-425-1444",
@@ -615,7 +687,9 @@
         "email": "customercare@southindianbank.com",
         "website": "https://www.southindianbank.com",
         "reference": "https://www.southindianbank.com",
-        "notes": "Via SIB Mirror+ app: Debit Card > Block. For balance confirmation: 1800-425-1445."
+        "notes": "Via SIB Mirror+ app: Debit Card > Block. For balance confirmation: 1800-425-1445.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sib.mirrorplus",
+        "iosApp": "https://apps.apple.com/in/app/sib-mirror/id1166471522"
       }
     },
     "sources": [
@@ -639,7 +713,9 @@
         "email": "customercare@karnatakabank.com",
         "website": "https://www.karnatakabank.com",
         "reference": "https://karnatakabank.com/contact-us",
-        "notes": "Via KBL Mobile Plus app: Cards > Block. WhatsApp: +91-9632188999."
+        "notes": "Via KBL Mobile Plus app: Cards > Block. WhatsApp: +91-9632188999.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.karnatakabank.kblapp",
+        "iosApp": "https://apps.apple.com/in/app/kbl-app/id1289570665"
       },
       "debit": {
         "tollFree": "1800-425-1444",
@@ -647,7 +723,9 @@
         "email": "customercare@karnatakabank.com",
         "website": "https://www.karnatakabank.com",
         "reference": "https://karnatakabank.com/contact-us",
-        "notes": "For mini statement: 1800-425-1446. Via KBL Mobile Plus: Cards > Block."
+        "notes": "For mini statement: 1800-425-1446. Via KBL Mobile Plus: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.karnatakabank.kblapp",
+        "iosApp": "https://apps.apple.com/in/app/kbl-app/id1289570665"
       }
     },
     "sources": [
@@ -655,6 +733,14 @@
         "label": "Karnataka Bank Official - verified May 2026",
         "url": "https://karnatakabank.com/contact-us",
         "verified": true
+      },
+      {
+        "label": "Karnataka Bank Customer Care",
+        "url": "https://karnatakabank.com/customer-care.html"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
       }
     ],
     "lastVerified": "2026-05-12"
@@ -671,7 +757,9 @@
         "email": "csbcards@csb.co.in",
         "website": "https://www.csb.co.in",
         "reference": "https://www.csb.co.in/credit-cards",
-        "notes": "Via CSB Mobile app: Cards > Block."
+        "notes": "Via CSB Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.csb.becsapp",
+        "iosApp": "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
       },
       "debit": {
         "tollFree": "1800-419-6644",
@@ -679,7 +767,9 @@
         "email": "customercare@csb.co.in",
         "website": "https://www.csb.co.in",
         "reference": "https://www.csb.co.in",
-        "notes": "Via CSB Mobile app: Debit Card > Block. WhatsApp: +91-9496-999-111."
+        "notes": "Via CSB Mobile app: Debit Card > Block. WhatsApp: +91-9496-999-111.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.csb.becsapp",
+        "iosApp": "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
       }
     },
     "sources": [
@@ -687,6 +777,14 @@
         "label": "CSB Bank - cross-referenced",
         "url": "https://www.csb.co.in",
         "verified": false
+      },
+      {
+        "label": "CSB Bank Customer Care",
+        "url": "https://www.csb.co.in/contact-us"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
       }
     ],
     "lastVerified": "2026-05-12"
@@ -703,7 +801,9 @@
         "email": "customercare@cityunionbank.com",
         "website": "https://www.cityunionbank.com",
         "reference": "https://www.cityunionbank.com/customer-service",
-        "notes": "Via CUB Mobile app: Cards > Block. WhatsApp: +91-9282-112-225."
+        "notes": "Via CUB Mobile app: Cards > Block. WhatsApp: +91-9282-112-225.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.cs.bankcu",
+        "iosApp": "https://apps.apple.com/in/app/city-union-bank-mobile/id1237909662"
       },
       "debit": {
         "tollFree": "1800-120-5000",
@@ -711,7 +811,9 @@
         "email": "customercare@cityunionbank.com",
         "website": "https://www.cityunionbank.com",
         "reference": "https://www.cityunionbank.com/customer-service",
-        "notes": "Via CUB Mobile app: Debit Card > Block."
+        "notes": "Via CUB Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.cs.bankcu",
+        "iosApp": "https://apps.apple.com/in/app/city-union-bank-mobile/id1237909662"
       }
     },
     "sources": [
@@ -735,7 +837,9 @@
         "email": "customercare@jkbank.com",
         "website": "https://jkb.bank.in",
         "reference": "https://www.jkbank.com",
-        "notes": "Via Mera Bank Mobile app: Cards > Block."
+        "notes": "Via Mera Bank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.jkbank.app",
+        "iosApp": "https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053"
       },
       "debit": {
         "tollFree": "1800-180-0234",
@@ -743,7 +847,9 @@
         "email": "customercare@jkbank.com",
         "website": "https://jkb.bank.in",
         "reference": "https://www.jkbank.com",
-        "notes": "Via Mera Bank app: Debit Card > Block. IVR support available."
+        "notes": "Via Mera Bank app: Debit Card > Block. IVR support available.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.jkbank.app",
+        "iosApp": "https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053"
       }
     },
     "sources": [
@@ -751,6 +857,14 @@
         "label": "JK Bank - cross-referenced",
         "url": "https://www.jkbank.com",
         "verified": false
+      },
+      {
+        "label": "J&K Bank Customer Care",
+        "url": "https://www.jkb.com/contact-us"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
       }
     ],
     "lastVerified": "2026-05-12"
@@ -767,7 +881,9 @@
         "email": "customercare@canarabank.in",
         "website": "https://www.card.canarabank.in",
         "reference": "https://canarabank.in",
-        "notes": "Via Canara ai1 app: Credit Cards > Block. 24x7 toll-free."
+        "notes": "Via Canara ai1 app: Credit Cards > Block. 24x7 toll-free.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.cs.canara",
+        "iosApp": "https://apps.apple.com/in/app/candii/id1555647775"
       },
       "debit": {
         "tollFree": "1800-103-0000",
@@ -776,7 +892,9 @@
         "email": "customercare@canarabank.in",
         "website": "https://online.canarabank.in",
         "reference": "https://canarabank.in",
-        "notes": "Via Canara ai1 app: Debit Card > Block/Freeze. Also via NetBanking."
+        "notes": "Via Canara ai1 app: Debit Card > Block/Freeze. Also via NetBanking.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.cs.canara",
+        "iosApp": "https://apps.apple.com/in/app/candii/id1555647775"
       }
     },
     "sources": [
@@ -801,7 +919,9 @@
         "email": "customercare.unionbank@unionbankofindia.com",
         "website": "https://www.unionbankofindia.co.in",
         "reference": "https://www.unionbankofindia.co.in",
-        "notes": "Via UnionMobile Pay app: Credit Card > Block."
+        "notes": "Via UnionMobile Pay app: Credit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.cs.bankub2",
+        "iosApp": "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
       },
       "debit": {
         "tollFree": "1800-22-2244",
@@ -809,7 +929,9 @@
         "email": "customercare.unionbank@unionbankofindia.com",
         "website": "https://www.unionbankonline.co.in",
         "reference": "https://www.unionbankofindia.co.in",
-        "notes": "Via UnionMobile app: Debit Card > Block. Internet Banking at unionbankonline.co.in."
+        "notes": "Via UnionMobile app: Debit Card > Block. Internet Banking at unionbankonline.co.in.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.cs.bankub2",
+        "iosApp": "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
       }
     },
     "sources": [
@@ -834,7 +956,9 @@
         "email": "customercare@idbi.com",
         "website": "https://www.idbibank.in",
         "reference": "https://www.idbibank.in/contact-us.aspx",
-        "notes": "Via IDBI Go Mobile Plus app: Cards > Block."
+        "notes": "Via IDBI Go Mobile Plus app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.idbi.android",
+        "iosApp": "https://apps.apple.com/in/app/idbi-intouch/id528225563"
       },
       "debit": {
         "tollFree": "1800-209-4324",
@@ -842,7 +966,9 @@
         "email": "customercare@idbi.com",
         "website": "https://www.idbibank.in",
         "reference": "https://www.idbibank.in",
-        "notes": "Via IDBI Go Mobile Plus app: Debit Card > Block/Freeze."
+        "notes": "Via IDBI Go Mobile Plus app: Debit Card > Block/Freeze.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.idbi.android",
+        "iosApp": "https://apps.apple.com/in/app/idbi-intouch/id528225563"
       }
     },
     "sources": [
@@ -866,7 +992,9 @@
         "email": "support@equitasbank.com",
         "website": "https://www.equitasbank.com",
         "reference": "https://www.equitasbank.com",
-        "notes": "Via Equitas Mobile Banking app: Cards > Block."
+        "notes": "Via Equitas Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.equitas.equitasapp",
+        "iosApp": "https://apps.apple.com/in/app/equitas-sfb/id1172991126"
       },
       "debit": {
         "tollFree": "1800-209-1914",
@@ -874,7 +1002,9 @@
         "email": "support@equitasbank.com",
         "website": "https://www.equitasbank.com",
         "reference": "https://www.equitasbank.com",
-        "notes": "Via Equitas Mobile app: Cards > Block."
+        "notes": "Via Equitas Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.equitas.equitasapp",
+        "iosApp": "https://apps.apple.com/in/app/equitas-sfb/id1172991126"
       }
     },
     "sources": [
@@ -898,7 +1028,9 @@
         "email": "customercare@saraswatbank.com",
         "website": "https://www.saraswatbank.com",
         "reference": "https://www.saraswatbank.com/index.aspx/FAQ.aspx",
-        "notes": "Toll-free: 1800-266-5555 / 1800-22-9999 (was unavailable). Via Saraswat mBanking app."
+        "notes": "Toll-free: 1800-266-5555 / 1800-22-9999 (was unavailable). Via Saraswat mBanking app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.saraswat.saraswatapp",
+        "iosApp": "https://apps.apple.com/in/app/saraswat-bank/id1398870954"
       },
       "debit": {
         "tollFree": "1800-266-5555",
@@ -906,7 +1038,9 @@
         "email": "customercare@saraswatbank.com",
         "website": "https://www.saraswatbank.com",
         "reference": "https://www.saraswatbank.com/index.aspx/FAQ.aspx",
-        "notes": "Via Saraswat mBanking app: Cards > Block."
+        "notes": "Via Saraswat mBanking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.saraswat.saraswatapp",
+        "iosApp": "https://apps.apple.com/in/app/saraswat-bank/id1398870954"
       }
     },
     "sources": [
@@ -930,7 +1064,9 @@
         "email": "customercare@sbmbank.co.in",
         "website": "https://www.sbmbank.co.in",
         "reference": "https://www.sbmbank.co.in/contact-us",
-        "notes": "Via SBM Mobile Banking app: Cards > Block."
+        "notes": "Via SBM Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sbm.bank",
+        "iosApp": "https://apps.apple.com/in/app/sbm-mobile/id1448902433"
       },
       "debit": {
         "tollFree": "1800-2099-335",
@@ -938,7 +1074,9 @@
         "email": "customercare@sbmbank.co.in",
         "website": "https://www.sbmbank.co.in",
         "reference": "https://www.sbmbank.co.in/contact-us",
-        "notes": "Via SBM Mobile app: Debit Card > Block."
+        "notes": "Via SBM Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.sbm.bank",
+        "iosApp": "https://apps.apple.com/in/app/sbm-mobile/id1448902433"
       }
     },
     "sources": [
@@ -962,7 +1100,9 @@
         "email": "care@payments.bank.airtel.in",
         "website": "https://www.airtelyelp.com",
         "reference": "https://payments.bank.airtel.in",
-        "notes": "Via Airtel Thanks app: Cards > Block. Airtel Payments Bank debit card block via app."
+        "notes": "Via Airtel Thanks app: Cards > Block. Airtel Payments Bank debit card block via app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.airtel.app",
+        "iosApp": "https://apps.apple.com/in/app/airtel-thanks/id1110843544"
       }
     },
     "sources": [
@@ -987,7 +1127,9 @@
         "email": "customercare@centralbankofindia.co.in",
         "website": "https://www.centralbankofindia.co.in",
         "reference": "https://centralbankofindia.co.in",
-        "notes": "SMS LOST <Last4> to 917738002672 to block all cards. Also via Cent Mobile app."
+        "notes": "SMS LOST <Last4> to 917738002672 to block all cards. Also via Cent Mobile app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.centbankapp",
+        "iosApp": "https://apps.apple.com/in/app/cbs-cent-mobile/id1319066299"
       },
       "debit": {
         "tollFree": "1800-221-911",
@@ -997,7 +1139,9 @@
         "email": "customercare@centralbankofindia.co.in",
         "website": "https://www.centralbankofindia.co.in",
         "reference": "https://centralbankofindia.co.in",
-        "notes": "SMS LOST <space><card_number> or <account_number> to 917738002672. Via Cent Mobile app."
+        "notes": "SMS LOST <space><card_number> or <account_number> to 917738002672. Via Cent Mobile app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.centbankapp",
+        "iosApp": "https://apps.apple.com/in/app/cbs-cent-mobile/id1319066299"
       }
     },
     "sources": [
@@ -1021,7 +1165,9 @@
         "email": "customercare@bankofmaharashtra.in",
         "website": "https://www.bankofmaharashtra.in",
         "reference": "https://www.bankofmaharashtra.in",
-        "notes": "Via Maha Mobile app: Cards > Block. One Family, One Bank."
+        "notes": "Via Maha Mobile app: Cards > Block. One Family, One Bank.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bankofmaharashtraapp",
+        "iosApp": "https://apps.apple.com/in/app/bom-m-pay/id1318601311"
       },
       "debit": {
         "tollFree": "1800-233-4526",
@@ -1029,7 +1175,9 @@
         "email": "customercare@bankofmaharashtra.in",
         "website": "https://www.bankofmaharashtra.in",
         "reference": "https://www.bankofmaharashtra.in",
-        "notes": "Via Maha Mobile app: Cards > Block."
+        "notes": "Via Maha Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bankofmaharashtraapp",
+        "iosApp": "https://apps.apple.com/in/app/bom-m-pay/id1318601311"
       }
     },
     "sources": [
@@ -1053,7 +1201,9 @@
         "email": "customercare@indianbank.co.in",
         "website": "https://www.indianbank.in",
         "reference": "https://www.indianbank.in",
-        "notes": "Via Indian Bank Mobile app: Cards > Block."
+        "notes": "Via Indian Bank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.ib.eazypay",
+        "iosApp": "https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991"
       },
       "debit": {
         "tollFree": "1800-425-1070",
@@ -1061,7 +1211,9 @@
         "email": "customercare@indianbank.co.in",
         "website": "https://www.indianbank.in",
         "reference": "https://www.indianbank.in",
-        "notes": "Via Indian Bank Mobile app: Debit Card > Block. IVR: 1800-425-8450."
+        "notes": "Via Indian Bank Mobile app: Debit Card > Block. IVR: 1800-425-8450.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.ib.eazypay",
+        "iosApp": "https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991"
       }
     },
     "sources": [
@@ -1085,7 +1237,9 @@
         "email": "customercare@iobnet.co.in",
         "website": "https://www.iobnet.co.in",
         "reference": "https://www.iobnet.co.in",
-        "notes": "Via IOB Mobile Banking app: Cards > Block."
+        "notes": "Via IOB Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.ioe.iomb",
+        "iosApp": "https://apps.apple.com/in/app/iob-mobile/id1138679749"
       },
       "debit": {
         "tollFree": "1800-425-2293",
@@ -1093,7 +1247,9 @@
         "email": "customercare@iobnet.co.in",
         "website": "https://www.iobnet.co.in",
         "reference": "https://www.iobnet.co.in",
-        "notes": "Via IOB Mobile app: Debit Card > Hotlist."
+        "notes": "Via IOB Mobile app: Debit Card > Hotlist.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.ioe.iomb",
+        "iosApp": "https://apps.apple.com/in/app/iob-mobile/id1138679749"
       }
     },
     "sources": [
@@ -1117,7 +1273,9 @@
         "email": "customercare@ucobankonline.in",
         "website": "https://www.ucobankonline.in",
         "reference": "https://www.ucobankonline.in",
-        "notes": "Via UCO Mobile Banking app: Cards > Block."
+        "notes": "Via UCO Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking",
+        "iosApp": "https://apps.apple.com/in/app/uco-bank-mobile/id1205654706"
       },
       "debit": {
         "tollFree": "1800-103-0011",
@@ -1125,7 +1283,9 @@
         "email": "customercare@ucobankonline.in",
         "website": "https://www.ucobankonline.in",
         "reference": "https://www.ucobankonline.in",
-        "notes": "Via UCO Mobile app: Debit Card > Hotlist."
+        "notes": "Via UCO Mobile app: Debit Card > Hotlist.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking",
+        "iosApp": "https://apps.apple.com/in/app/uco-bank-mobile/id1205654706"
       }
     },
     "sources": [
@@ -1149,7 +1309,9 @@
         "email": "customercare@punjabandsindbank.co.in",
         "website": "https://www.punjabandsindbank.co.in",
         "reference": "https://www.punjabandsindbank.co.in/customer-care",
-        "notes": "Via PSB ONE digital banking app: Cards > Block."
+        "notes": "Via PSB ONE digital banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.punjabandsind.app",
+        "iosApp": "https://apps.apple.com/in/app/punjab-sind-bank/id1526327863"
       },
       "debit": {
         "tollFree": "1800-227-034",
@@ -1157,7 +1319,9 @@
         "email": "customercare@punjabandsindbank.co.in",
         "website": "https://www.punjabandsindbank.co.in",
         "reference": "https://www.punjabandsindbank.co.in/customer-care",
-        "notes": "Via PSB ONE app: Debit Card > Block."
+        "notes": "Via PSB ONE app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.punjabandsind.app",
+        "iosApp": "https://apps.apple.com/in/app/punjab-sind-bank/id1526327863"
       }
     },
     "sources": [
@@ -1181,7 +1345,9 @@
         "email": "customercare@nainitalbank.co.in",
         "website": "https://nainitalbank.co.in",
         "reference": "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free",
-        "notes": "Via Nainital Bank Mobile app: Cards > Block."
+        "notes": "Via Nainital Bank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.nainitalbank.app",
+        "iosApp": "https://apps.apple.com/in/app/nainital-bank/id1448902420"
       },
       "debit": {
         "tollFree": "1800-180-0251",
@@ -1189,7 +1355,9 @@
         "email": "customercare@nainitalbank.co.in",
         "website": "https://nainitalbank.co.in",
         "reference": "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free",
-        "notes": "Via Nainital Bank Mobile app: Debit Card > Block."
+        "notes": "Via Nainital Bank Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.nainitalbank.app",
+        "iosApp": "https://apps.apple.com/in/app/nainital-bank/id1448902420"
       }
     },
     "sources": [
@@ -1213,7 +1381,9 @@
         "email": "customercare@kvb.co.in",
         "website": "https://www.kvb.co.in",
         "reference": "https://www.kvb.co.in",
-        "notes": "Also known as Karnataka Bank. Via Karnataka Bank Mobile app."
+        "notes": "Also known as Karnataka Bank. Via Karnataka Bank Mobile app.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.kvb.mobilebanking",
+        "iosApp": "https://apps.apple.com/in/app/kvb-mobile-banking/id1162045282"
       },
       "debit": {
         "tollFree": "1800-102-6060",
@@ -1221,7 +1391,9 @@
         "email": "customercare@kvb.co.in",
         "website": "https://www.kvb.co.in",
         "reference": "https://www.kvb.co.in",
-        "notes": "Via KVB Mobile app: Cards > Block."
+        "notes": "Via KVB Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.kvb.mobilebanking",
+        "iosApp": "https://apps.apple.com/in/app/kvb-mobile-banking/id1162045282"
       }
     },
     "sources": [
@@ -1245,7 +1417,9 @@
         "email": "customercare@janabank.com",
         "website": "https://www.janabank.com",
         "reference": "https://www.janabank.com",
-        "notes": "Via Jana Bank Mobile app: Cards > Block."
+        "notes": "Via Jana Bank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.jana.app",
+        "iosApp": "https://apps.apple.com/in/app/jana-bank/id1267739401"
       },
       "debit": {
         "tollFree": "1800-102-3456",
@@ -1253,7 +1427,9 @@
         "email": "customercare@janabank.com",
         "website": "https://www.janabank.com",
         "reference": "https://www.janabank.com",
-        "notes": "Via Jana Bank Mobile app: Debit Card > Block."
+        "notes": "Via Jana Bank Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.jana.app",
+        "iosApp": "https://apps.apple.com/in/app/jana-bank/id1267739401"
       }
     },
     "sources": [
@@ -1277,7 +1453,9 @@
         "email": "care@utkarsh.bank",
         "website": "https://www.utkarsh.bank",
         "reference": "https://www.utkarsh.bank",
-        "notes": "Via Utkarsh Mobile Banking app: Cards > Block."
+        "notes": "Via Utkarsh Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.utkarsh.bankapp",
+        "iosApp": "https://apps.apple.com/in/app/utkarsh-bank/id1463458813"
       },
       "debit": {
         "tollFree": "1800-120-8080",
@@ -1285,7 +1463,9 @@
         "email": "care@utkarsh.bank",
         "website": "https://www.utkarsh.bank",
         "reference": "https://www.utkarsh.bank",
-        "notes": "Via Utkarsh Mobile app: Debit Card > Block."
+        "notes": "Via Utkarsh Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.utkarsh.bankapp",
+        "iosApp": "https://apps.apple.com/in/app/utkarsh-bank/id1463458813"
       }
     },
     "sources": [
@@ -1293,6 +1473,14 @@
         "label": "Utkarsh SFB - cross-referenced",
         "url": "https://www.utkarsh.bank",
         "verified": false
+      },
+      {
+        "label": "Utkarsh Bank Customer Care",
+        "url": "https://www.utkarsh.bank/customer-care"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
       }
     ],
     "lastVerified": "2026-05-12"
@@ -1309,7 +1497,9 @@
         "email": "customercare@capitalsbank.co.in",
         "website": "https://www.capitalsbank.co.in",
         "reference": "https://www.capitalsbank.co.in",
-        "notes": "Via Capital Bank Mobile app: Cards > Block."
+        "notes": "Via Capital Bank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.capital.sfb",
+        "iosApp": "https://apps.apple.com/in/app/capital-sfb/id1278209345"
       },
       "debit": {
         "tollFree": "1800-3000-0000",
@@ -1317,7 +1507,9 @@
         "email": "customercare@capitalsbank.co.in",
         "website": "https://www.capitalsbank.co.in",
         "reference": "https://www.capitalsbank.co.in",
-        "notes": "Via Capital Bank Mobile app: Cards > Block."
+        "notes": "Via Capital Bank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.capital.sfb",
+        "iosApp": "https://apps.apple.com/in/app/capital-sfb/id1278209345"
       }
     },
     "sources": [
@@ -1341,7 +1533,9 @@
         "email": "care@finobank.com",
         "website": "https://www.finobank.com",
         "reference": "https://www.finobank.com",
-        "notes": "Via Fino Mobile Banking app: Cards > Block."
+        "notes": "Via Fino Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.fino.finoapp",
+        "iosApp": "https://apps.apple.com/in/app/fino-payments-bank/id1238990817"
       },
       "debit": {
         "tollFree": "1800-210-0317",
@@ -1349,7 +1543,9 @@
         "email": "care@finobank.com",
         "website": "https://www.finobank.com",
         "reference": "https://www.finobank.com",
-        "notes": "Via Fino app: Cards > Block."
+        "notes": "Via Fino app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.fino.finoapp",
+        "iosApp": "https://apps.apple.com/in/app/fino-payments-bank/id1238990817"
       }
     },
     "sources": [
@@ -1372,7 +1568,9 @@
         "email": "customercare@svcbank.com",
         "website": "https://www.svcbank.com",
         "reference": "https://www.svcbank.com",
-        "notes": "Via SVC Bank Mobile app: Cards > Block."
+        "notes": "Via SVC Bank Mobile app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.svc.svcmobile",
+        "iosApp": "https://apps.apple.com/in/app/svc-bank-mobile/id1274016564"
       }
     },
     "sources": [
@@ -1396,7 +1594,9 @@
         "email": "support@paytmbank.com",
         "website": "https://paytmbank.com",
         "reference": "https://paytmbank.com",
-        "notes": "Via Paytm App: Passbook > Payment Bank > Help > Block Card."
+        "notes": "Via Paytm App: Passbook > Payment Bank > Help > Block Card.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.paytm.app",
+        "iosApp": "https://apps.apple.com/in/app/paytm/id540887043"
       }
     },
     "sources": [
@@ -1420,7 +1620,9 @@
         "email": "support@npb.co.in",
         "website": "https://www.npb.co.in",
         "reference": "https://www.npb.co.in",
-        "notes": "Via NSDL Payment Bank app: Cards > Block."
+        "notes": "Via NSDL Payment Bank app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.nsdl.n21",
+        "iosApp": "https://apps.apple.com/in/app/nsdl-bank/id1489539224"
       }
     },
     "sources": [
@@ -1444,7 +1646,9 @@
         "email": "customercare@adcbindia.com",
         "website": "https://www.adcbindia.com",
         "reference": "https://www.adcbindia.com",
-        "notes": "Via ADCB Mobile Banking app: Cards > Block."
+        "notes": "Via ADCB Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.adcb.mobilebanking",
+        "iosApp": "https://apps.apple.com/in/app/adcb-mobile/id1189468144"
       },
       "debit": {
         "tollFree": "+91-40-4633-1111",
@@ -1452,7 +1656,9 @@
         "email": "customercare@adcbindia.com",
         "website": "https://www.adcbindia.com",
         "reference": "https://www.adcbindia.com",
-        "notes": "Via ADCB Mobile app: Debit Card > Block."
+        "notes": "Via ADCB Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.adcb.mobilebanking",
+        "iosApp": "https://apps.apple.com/in/app/adcb-mobile/id1189468144"
       }
     },
     "sources": [
@@ -1477,7 +1683,9 @@
         "email": "contactus@federalbank.co.in",
         "website": "https://www.federalbank.co.in",
         "reference": "https://www.federalbank.co.in/about/contact-us",
-        "notes": "Via FedBook app or Feddy app: Cards > Block."
+        "notes": "Via FedBook app or Feddy app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.fed.fedmobile",
+        "iosApp": "https://apps.apple.com/in/app/fedbook/id1605869792"
       },
       "debit": {
         "tollFree": "1800-420-1199",
@@ -1485,7 +1693,9 @@
         "email": "contactus@federalbank.co.in",
         "website": "https://www.federalbank.co.in",
         "reference": "https://www.federalbank.co.in/about/contact-us",
-        "notes": "Via FedBook app: Cards > Block. Internet Banking at fedbook.federalbank.co.in."
+        "notes": "Via FedBook app: Cards > Block. Internet Banking at fedbook.federalbank.co.in.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.fed.fedmobile",
+        "iosApp": "https://apps.apple.com/in/app/fedbook/id1605869792"
       }
     },
     "sources": [
@@ -1509,7 +1719,9 @@
         "email": "customercare@ujjivansfb.in",
         "website": "https://www.ujjivansfb.in",
         "reference": "https://www.ujjivansfb.in",
-        "notes": "Via Ujjivan Mobile Bank app: Cards > Block."
+        "notes": "Via Ujjivan Mobile Bank app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
+        "iosApp": "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
       },
       "debit": {
         "tollFree": "1800-232-0303",
@@ -1517,7 +1729,9 @@
         "email": "customercare@ujjivansfb.in",
         "website": "https://www.ujjivansfb.in",
         "reference": "https://www.ujjivansfb.in",
-        "notes": "Via Ujjivan Mobile Bank app: Debit Card > Block."
+        "notes": "Via Ujjivan Mobile Bank app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
+        "iosApp": "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
       }
     },
     "sources": [
@@ -1541,7 +1755,9 @@
         "email": "customercare@suryodaybank.com",
         "website": "https://www.suryodaybank.com",
         "reference": "https://www.suryodaybank.com",
-        "notes": "Via Suryoday Mobile Banking app: Cards > Block."
+        "notes": "Via Suryoday Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.suryoday.bank",
+        "iosApp": "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
       },
       "debit": {
         "tollFree": "1800-308-0880",
@@ -1549,7 +1765,9 @@
         "email": "customercare@suryodaybank.com",
         "website": "https://www.suryodaybank.com",
         "reference": "https://www.suryodaybank.com",
-        "notes": "Via Suryoday Mobile app: Debit Card > Block."
+        "notes": "Via Suryoday Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.suryoday.bank",
+        "iosApp": "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
       }
     },
     "sources": [
@@ -1557,6 +1775,14 @@
         "label": "Suryoday SFB - cross-referenced",
         "url": "https://www.suryodaybank.com",
         "verified": false
+      },
+      {
+        "label": "Suryoday Bank Customer Care",
+        "url": "https://www.suryodaybank.com/contact-us"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
       }
     ],
     "lastVerified": "2026-05-12"
@@ -1573,7 +1799,9 @@
         "email": "customercare@esafbank.com",
         "website": "https://www.esafbank.com",
         "reference": "https://www.esafbank.com",
-        "notes": "Via ESAF Mobile Banking app: Cards > Block."
+        "notes": "Via ESAF Mobile Banking app: Cards > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.esaf.smallfinance",
+        "iosApp": "https://apps.apple.com/in/app/esaf-sfb/id1205152948"
       },
       "debit": {
         "tollFree": "1800-419-5555",
@@ -1581,7 +1809,9 @@
         "email": "customercare@esafbank.com",
         "website": "https://www.esafbank.com",
         "reference": "https://www.esafbank.com",
-        "notes": "Via ESAF Mobile app: Debit Card > Block."
+        "notes": "Via ESAF Mobile app: Debit Card > Block.",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.esaf.smallfinance",
+        "iosApp": "https://apps.apple.com/in/app/esaf-sfb/id1205152948"
       }
     },
     "sources": [
@@ -1592,5 +1822,386 @@
       }
     ],
     "lastVerified": "2026-05-12"
+  },
+  "bank_of_india": {
+    "id": "bank_of_india",
+    "name": "Bank of India",
+    "logo": "/static/logos/bank_of_india.svg",
+    "ifsc": "BKID0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-103-4664",
+        "number1": "1800-22-4466",
+        "email": "callcentre@bankofindia.co.in",
+        "website": "https://www.bankofindia.co.in/",
+        "reference": "https://www.bankofindia.co.in/",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.bkibank.boki",
+        "iosApp": "https://apps.apple.com/in/app/bank-of-india/id1068717540",
+        "notes": "Lost or stolen card? Call toll-free immediately or SMS BLOCK <last 4 digits> to 9611340405"
+      },
+      "debit": {
+        "tollFree": "1800-103-4664",
+        "number1": "1800-22-4466",
+        "email": "callcentre@bankofindia.co.in",
+        "website": "https://www.bankofindia.co.in/",
+        "reference": "https://www.bankofindia.co.in/",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.bkibank.boki",
+        "iosApp": "https://apps.apple.com/in/app/bank-of-india/id1068717540",
+        "notes": "Lost or stolen card? Call toll-free immediately or SMS BLOCK <last 4 digits> to 9611340405"
+      }
+    },
+    "sources": [
+      {
+        "label": "Bank of India Customer Care",
+        "url": "https://www.bankofindia.co.in/customer-care"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "dcb_bank": {
+    "id": "dcb_bank",
+    "name": "DCB Bank",
+    "logo": "/static/logos/dcb.svg",
+    "ifsc": "DCBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-103-4222",
+        "number1": "1800-3010-1001",
+        "email": "dcbhelp@dcbbank.com",
+        "website": "https://www.dcbbank.com/",
+        "reference": "https://www.dcbbank.com/",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.dcb.dcbapp",
+        "notes": "Block cards via DCB Mobile app or call toll-free",
+        "iosApp": "https://apps.apple.com/in/app/dcb-mobile/id1319066294"
+      },
+      "debit": {
+        "tollFree": "1800-103-4222",
+        "number1": "1800-3010-1001",
+        "email": "dcbhelp@dcbbank.com",
+        "website": "https://www.dcbbank.com/",
+        "reference": "https://www.dcbbank.com/",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.dcb.dcbapp",
+        "notes": "Block cards via DCB Mobile app or call toll-free",
+        "iosApp": "https://apps.apple.com/in/app/dcb-mobile/id1319066294"
+      }
+    },
+    "sources": [
+      {
+        "label": "DCB Bank Customer Care",
+        "url": "https://www.dcbbank.com/contact-us"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "dhanlaxmi_bank": {
+    "id": "dhanlaxmi_bank",
+    "name": "Dhanlaxmi Bank",
+    "logo": "/static/logos/dhanlaxmi.svg",
+    "ifsc": "DLXB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-120-6055",
+        "email": "service@dhanlaxmibank.in",
+        "website": "https://www.dhanlaxmibank.in/",
+        "reference": "https://www.dhanlaxmibank.in/",
+        "notes": "Block cards via net banking or call customer care",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.dhanlaxmi.mbanking",
+        "iosApp": "https://apps.apple.com/in/app/dhanlaxmi-bank/id1367961575"
+      },
+      "debit": {
+        "tollFree": "1800-120-6055",
+        "email": "service@dhanlaxmibank.in",
+        "website": "https://www.dhanlaxmibank.in/",
+        "reference": "https://www.dhanlaxmibank.in/",
+        "notes": "Block cards via net banking or call customer care",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.dhanlaxmi.mbanking",
+        "iosApp": "https://apps.apple.com/in/app/dhanlaxmi-bank/id1367961575"
+      }
+    },
+    "sources": [
+      {
+        "label": "Dhanlaxmi Bank Customer Care",
+        "url": "https://www.dhanlaxmibank.in/customer-care"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "north_east_sfb": {
+    "id": "north_east_sfb",
+    "name": "North East Small Finance Bank",
+    "logo": "/static/logos/north_east_sfb.svg",
+    "ifsc": "NESF0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-313-4444",
+        "email": "info@nesfb.in",
+        "website": "https://www.nesfb.in/",
+        "reference": "https://www.nesfb.in/",
+        "notes": "North East SFB - Block cards via mobile banking or call customer care",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.northeast.sfb"
+      },
+      "debit": {
+        "tollFree": "1800-313-4444",
+        "email": "info@nesfb.in",
+        "website": "https://www.nesfb.in/",
+        "reference": "https://www.nesfb.in/",
+        "notes": "North East SFB - Block cards via mobile banking or call customer care",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.northeast.sfb"
+      }
+    },
+    "sources": [
+      {
+        "label": "North East SFB Customer Care",
+        "url": "https://www.nesfb.in/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "kerala_gramin_bank": {
+    "id": "kerala_gramin_bank",
+    "name": "Kerala Gramin Bank",
+    "logo": "/static/logos/kerala_gramin.svg",
+    "ifsc": "KLGB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-1829",
+        "email": "customercare@keralagbank.in",
+        "website": "https://www.keralagbank.in/",
+        "reference": "https://www.keralagbank.in/",
+        "notes": "Block cards via mobile banking or contact customer care"
+      },
+      "debit": {
+        "tollFree": "1800-425-1829",
+        "email": "customercare@keralagbank.in",
+        "website": "https://www.keralagbank.in/",
+        "reference": "https://www.keralagbank.in/",
+        "notes": "Block cards via mobile banking or contact customer care"
+      }
+    },
+    "sources": [
+      {
+        "label": "Kerala Gramin Bank",
+        "url": "https://www.keralagbank.in/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "telangana_state_coop": {
+    "id": "telangana_state_coop",
+    "name": "Telangana State Co-operative Apex Bank (DCCB)",
+    "logo": "/static/logos/tsab.svg",
+    "ifsc": "TSAB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-100-4755",
+        "number1": "040-23268725",
+        "email": "info@tsabbank.com",
+        "website": "https://www.tsabbank.com/",
+        "reference": "https://www.tsabbank.com/",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.tsab.app",
+        "notes": "Block cards via mobile app or contact branch",
+        "iosApp": "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
+      },
+      "debit": {
+        "tollFree": "1800-100-4755",
+        "number1": "040-23268725",
+        "email": "info@tsabbank.com",
+        "website": "https://www.tsabbank.com/",
+        "reference": "https://www.tsabbank.com/",
+        "androidApp": "https://play.google.com/store/apps/details?id=com.tsab.app",
+        "notes": "Block cards via mobile app or contact branch",
+        "iosApp": "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
+      }
+    },
+    "sources": [
+      {
+        "label": "TSAB Bank",
+        "url": "https://www.tsabbank.com/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "rajasthan_state_coop": {
+    "id": "rajasthan_state_coop",
+    "name": "Rajasthan State Co-operative Bank",
+    "logo": "/static/logos/rajasthan_coop.svg",
+    "ifsc": "RSCB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-2150",
+        "number1": "0141-2601203",
+        "website": "https://www.rajcoop.org/",
+        "reference": "https://www.rajcoop.org/",
+        "notes": "Block cards via mobile app or contact customer care"
+      },
+      "debit": {
+        "tollFree": "1800-180-2150",
+        "number1": "0141-2601203",
+        "website": "https://www.rajcoop.org/",
+        "reference": "https://www.rajcoop.org/",
+        "notes": "Block cards via mobile app or contact customer care"
+      }
+    },
+    "sources": [
+      {
+        "label": "Rajasthan State Co-operative Bank",
+        "url": "https://www.rajcoop.org/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "apg": {
+    "id": "apg",
+    "name": "Andhra Pradesh Grameena Bank",
+    "logo": "/static/logos/apgb.svg",
+    "ifsc": "APBL0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-2030",
+        "website": "https://www.apgb.in/",
+        "reference": "https://www.apgb.in/",
+        "notes": "Block cards via mobile app or contact customer care"
+      },
+      "debit": {
+        "tollFree": "1800-180-2030",
+        "website": "https://www.apgb.in/",
+        "reference": "https://www.apgb.in/",
+        "notes": "Block cards via mobile app or contact customer care"
+      }
+    },
+    "sources": [
+      {
+        "label": "APGB",
+        "url": "https://www.apgb.in/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "wb_coop": {
+    "id": "wb_coop",
+    "name": "West Bengal State Co-operative Bank",
+    "logo": "/static/logos/wb_coop.svg",
+    "ifsc": "WBSC0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-345-0001",
+        "email": "info@wbpcb.co.in",
+        "website": "https://www.wbpcb.co.in/",
+        "reference": "https://www.wbpcb.co.in/",
+        "notes": "Block cards via mobile app or contact customer care"
+      },
+      "debit": {
+        "tollFree": "1800-345-0001",
+        "email": "info@wbpcb.co.in",
+        "website": "https://www.wbpcb.co.in/",
+        "reference": "https://www.wbpcb.co.in/",
+        "notes": "Block cards via mobile app or contact customer care"
+      }
+    },
+    "sources": [
+      {
+        "label": "WBPCB",
+        "url": "https://www.wbpcb.co.in/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "gujarat_coop": {
+    "id": "gujarat_coop",
+    "name": "Gujarat State Co-operative Bank",
+    "logo": "/static/logos/gscb.svg",
+    "ifsc": "GSCB0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1001",
+        "website": "https://www.gscbank.com/",
+        "reference": "https://www.gscbank.com/",
+        "notes": "Block cards via mobile app or contact customer care"
+      },
+      "debit": {
+        "tollFree": "1800-233-1001",
+        "website": "https://www.gscbank.com/",
+        "reference": "https://www.gscbank.com/",
+        "notes": "Block cards via mobile app or contact customer care"
+      }
+    },
+    "sources": [
+      {
+        "label": "Gujarat State Co-operative Bank",
+        "url": "https://www.gscbank.com/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "telangana_gramin": {
+    "id": "telangana_gramin",
+    "name": "Telangana Grameena Bank",
+    "logo": "/static/logos/tgb.svg",
+    "ifsc": "TGBR0000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-1154",
+        "website": "https://www.tgb.org.in/",
+        "reference": "https://www.tgb.org.in/",
+        "notes": "Block cards via mobile app or contact customer care"
+      },
+      "debit": {
+        "tollFree": "1800-425-1154",
+        "website": "https://www.tgb.org.in/",
+        "reference": "https://www.tgb.org.in/",
+        "notes": "Block cards via mobile app or contact customer care"
+      }
+    },
+    "sources": [
+      {
+        "label": "Telangana Grameena Bank",
+        "url": "https://www.tgb.org.in/"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
   }
 }
