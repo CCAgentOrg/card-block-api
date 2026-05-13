@@ -7,7 +7,7 @@ def banks_data():
         return json.load(f)
 
 def test_minimum_bank_count(banks_data):
-    assert len(banks_data) >= 10, "Should have at least 10 banks"
+    assert len(banks_data) >= 115, "Should have at least 10 banks"
 
 def test_no_duplicate_ids(banks_data):
     ids = [b["id"] for b in banks_data.values()]
