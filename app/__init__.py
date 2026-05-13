@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, Response, current_app
 from flask_restx import Api
 from .config import Config
 
@@ -55,6 +55,29 @@ def create_app(config_class=Config):
     @app.route('/static/<path:filename>')
     def serve_static(filename):
         return send_from_directory(app.static_folder, filename)
+
+    @app.route('/robots.txt')
+    def robots():
+        content = "User-agent: *\nAllow: /\nSitemap: https://cardblock.cashlessconsumer.in/sitemap.xml\n"
+        return Response(content, mimetype='text/plain')
+
+    @app.route('/sitemap.xml')
+    def sitemap():
+        banks_store = current_app.config['BANK_DATA']
+        bank_urls = ''
+        for bank_id, bank_data in banks_store.items():
+            name = bank_data.get('name', bank_id).lower().replace(' ', '-')
+            bank_urls += f'  <url>\n    <loc>https://cardblock.cashlessconsumer.in/bank/{name}</loc>\n  </url>\n'
+
+        xml = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cardblock.cashlessconsumer.in/</loc>
+    <priority>1.0</priority>
+  </url>
+{bank_urls.strip()}
+</urlset>'''
+        return Response(xml, mimetype='application/xml')
 
     app.logger.info("Card Block API application created successfully.")
     return app
