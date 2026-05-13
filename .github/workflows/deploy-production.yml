@@ -1,0 +1,36 @@
+name: Deploy — production
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['*.md', 'docs/**', '.github/**']
+
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+jobs:
+  deploy-production:
+    name: Deploy to production (Fly.io)
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy via flyctl
+        uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: fly deploy --app cardblockapi --remote-only
+
+      - name: Health check
+        run: |
+          URL="https://cardblockapi.fly.dev/api/v1/banks"
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL") && break || sleep 10
+          done
+          echo "Status: $STATUS"
+          [ "$STATUS" = "200" ] || exit 1
+
+      - name: Notify on Slack/Discord
+        if: always()
+        run: |
+          echo "Deployment finished with status: $STATUS"
+          # Add webhook notifications here if desired

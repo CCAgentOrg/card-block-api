@@ -1,0 +1,29 @@
+name: Deploy — dev
+
+on:
+  push:
+    branches: [dev]
+    paths-ignore: ['*.md', 'docs/**', '.github/**']
+
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+jobs:
+  deploy-dev:
+    name: Deploy to dev (Fly.io)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy via flyctl
+        uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: fly deploy -c fly.dev.toml --app cardblockapi-dev --remote-only
+
+      - name: Health check
+        run: |
+          URL="https://cardblockapi-dev.fly.dev/api/v1/banks"
+          for i in 1 2 3 4 5 6; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL") && break || sleep 10
+          done
+          echo "Status: $STATUS"
+          [ "$STATUS" = "200" ] || exit 1
