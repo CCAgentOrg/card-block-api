@@ -3,14 +3,13 @@ name: Deploy — dev
 on:
   push:
     branches: [dev]
-    paths-ignore: ['*.md', 'docs/**', '.github/**']
 
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 
 jobs:
-  deploy-dev:
-    name: Deploy to dev (Fly.io)
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,8 +19,12 @@ jobs:
           curl -L https://fly.io/install.sh | sh
           echo "$HOME/.fly/bin" >> "$GITHUB_PATH"
 
+      - name: Create app if missing
+        run: |
+          fly apps create cardblockapi-dev 2>/dev/null || echo "App already exists"
+
       - name: Deploy
-        run: fly deploy -c fly.dev.toml --app cardblockapi-dev
+        run: fly deploy -c fly.dev.toml --app cardblockapi-dev --detach
 
       - name: Health check
         run: |

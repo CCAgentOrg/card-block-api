@@ -3,14 +3,13 @@ name: Deploy — production
 on:
   push:
     branches: [main]
-    paths-ignore: ['*.md', 'docs/**', '.github/**']
 
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 
 jobs:
-  deploy-production:
-    name: Deploy to production (Fly.io)
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     if: github.repository == 'CCAgentOrg/card-block-api'
     environment: production
@@ -22,8 +21,12 @@ jobs:
           curl -L https://fly.io/install.sh | sh
           echo "$HOME/.fly/bin" >> "$GITHUB_PATH"
 
+      - name: Create app if missing
+        run: |
+          fly apps create cardblockapi 2>/dev/null || echo "App already exists"
+
       - name: Deploy
-        run: fly deploy --app cardblockapi
+        run: fly deploy --app cardblockapi --detach
 
       - name: Health check
         run: |
