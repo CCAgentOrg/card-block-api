@@ -3,7 +3,7 @@ import json
 from flask import Flask, send_from_directory
 from flask_restx import Api
 from .config import Config
-from .api.banks import api as banks_ns
+
 
 def load_bank_data(app):
     """Load bank data from JSON file into app config."""
@@ -22,6 +22,7 @@ def load_bank_data(app):
         app.config['BANK_DATA'] = {}
         app.logger.error(f"Error loading bank data: {e}")
 
+
 def create_app(config_class=Config):
     """Creates and configures the Flask application."""
     app = Flask(__name__, static_folder='static')
@@ -33,15 +34,17 @@ def create_app(config_class=Config):
     api = Api(
         app,
         version='1.0.0',
-        title='Card Blocking API',
-        description='API for accessing verified bank card blocking information for major Indian banks',
+        title='Card Block API',
+        description='API for accessing verified bank card blocking information for Indian banks',
         prefix='/api/v1',
         doc='/api/docs',
         contact='Cashless Consumer',
         contact_url='https://cashlessconsumer.in'
     )
 
+    from .api.banks import api as banks_ns, export_api as export_ns
     api.add_namespace(banks_ns, path='/banks')
+    api.add_namespace(export_ns, path='/export')
 
     @app.route('/')
     def serve_ui():
@@ -51,5 +54,5 @@ def create_app(config_class=Config):
     def serve_static(filename):
         return send_from_directory(app.static_folder, filename)
 
-    app.logger.info("Card Blocking API application created successfully.")
+    app.logger.info("Card Block API application created successfully.")
     return app

@@ -2203,5 +2203,1734 @@
       }
     ],
     "lastVerified": "2026-05-13"
+  },
+  "deutsche_bank": {
+    "id": "deutsche_bank",
+    "name": "Deutsche Bank",
+    "logo": "/static/logos/deutsche_bank.svg",
+    "ifsc": "DEUT000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-8888",
+        "number1": "1800-103-8888",
+        "notes": "https://www.db.com/india/default.htm",
+        "email": "customerindia@db.com",
+        "website": "https://www.db.com/"
+      },
+      "debit": {
+        "tollFree": "1800-103-8888",
+        "number1": "1800-103-8888",
+        "notes": "Block cards via DB Phone Banking or internet banking",
+        "email": "customerindia@db.com",
+        "website": "https://www.db.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "citi": {
+    "id": "citi",
+    "name": "Citi Bank India",
+    "logo": "/static/logos/citi.svg",
+    "ifsc": "CITI000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1860-210-0888",
+        "number1": "1860-210-0888",
+        "notes": "https://www.citibank.co.in/",
+        "email": "customer.india@citi.com",
+        "website": "https://www.citi.com/"
+      },
+      "debit": {
+        "tollFree": "1860-210-0888",
+        "number1": "1860-210-0888",
+        "notes": "Block cards via Citi Phone Banking or mobile app",
+        "email": "customer.india@citi.com",
+        "website": "https://www.citi.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "cosmos_coop": {
+    "id": "cosmos_coop",
+    "name": "Cosmos Co-operative Bank",
+    "logo": "/static/logos/cosmos_coop.svg",
+    "ifsc": "COSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-4070",
+        "number1": "1800-233-4070",
+        "email": "customercare@cosmosbank.com",
+        "notes": "https://www.cosmosbank.com/",
+        "website": "https://www.cosmosbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-4070",
+        "number1": "1800-233-4070",
+        "email": "customercare@cosmosbank.com",
+        "notes": "Block cards via Cosmos mobile banking app or phone banking",
+        "website": "https://www.cosmosbank.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "tjsb_bank": {
+    "id": "tjsb_bank",
+    "name": "TJSB Sahakari Bank",
+    "logo": "/static/logos/tjsb_bank.svg",
+    "ifsc": "TJSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-121-8005",
+        "number1": "1800-121-8005",
+        "email": "customercare@tjsbank.com",
+        "notes": "https://www.tjsbank.com/",
+        "website": "https://www.tjsbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-121-8005",
+        "number1": "1800-121-8005",
+        "email": "customercare@tjsbank.com",
+        "notes": "Block cards via TJSB net banking or visit nearest branch",
+        "website": "https://www.tjsbank.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "nkgsb_bank": {
+    "id": "nkgsb_bank",
+    "name": "NKGSB Co-operative Bank",
+    "logo": "/static/logos/nkgsb_bank.svg",
+    "ifsc": "NKGS000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-209-4444",
+        "number1": "1800-209-4444",
+        "email": "nkgsb@nkgsbank.com",
+        "notes": "https://www.nkgsbank.com/",
+        "website": "https://www.nkgsbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-209-4444",
+        "number1": "1800-209-4444",
+        "email": "nkgsb@nkgsbank.com",
+        "notes": "Block cards via NKGSB net banking or customer care",
+        "website": "https://www.nkgsbank.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "abhyudaya_bank": {
+    "id": "abhyudaya_bank",
+    "name": "Abhyudaya Co-operative Bank",
+    "logo": "/static/logos/abhyudaya_bank.svg",
+    "ifsc": "ABHY000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-4229",
+        "number1": "1800-233-4229",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.abhyudayabank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-4229",
+        "number1": "1800-233-4229",
+        "notes": "Block cards via Abhyudaya Bank net banking or branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "bharat_coop_bank": {
+    "id": "bharat_coop_bank",
+    "name": "Bharat Co-operative Bank",
+    "logo": "/static/logos/bharat_coop_bank.svg",
+    "ifsc": "BCBM000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-123-6262",
+        "number1": "1800-123-6262",
+        "email": "022-24440255",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.bharatbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-123-6262",
+        "number1": "1800-123-6262",
+        "email": "022-24440255",
+        "notes": "Block cards via Bharat Bank net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "surat_coop": {
+    "id": "surat_coop",
+    "name": "Surat District Co-operative Bank",
+    "logo": "/static/logos/surat_coop.svg",
+    "ifsc": "SDCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-7799",
+        "number1": "1800-233-7799",
+        "email": "0261-3048627",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.sdcbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-7799",
+        "number1": "1800-233-7799",
+        "email": "0261-3048627",
+        "notes": "Block cards via SDCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "akola_coop": {
+    "id": "akola_coop",
+    "name": "Akola District Central Co-operative Bank",
+    "logo": "/static/logos/akola_coop.svg",
+    "ifsc": "ADCC000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1010",
+        "number1": "1800-233-1010",
+        "email": "0724-2433606",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.adccbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1010",
+        "number1": "1800-233-1010",
+        "email": "0724-2433606",
+        "notes": "Block cards via ADCC Bank net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "karnataka_state_coop": {
+    "id": "karnataka_state_coop",
+    "name": "Karnataka State Co-operative Apex Bank",
+    "logo": "/static/logos/karnataka_state_coop.svg",
+    "ifsc": "KSCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-1004",
+        "number1": "1800-425-1004",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.karnatakastateapexbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-425-1004",
+        "number1": "1800-425-1004",
+        "notes": "Block cards via KSCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "thane_coop": {
+    "id": "thane_coop",
+    "name": "Thane District Central Co-operative Bank",
+    "logo": "/static/logos/thane_coop.svg",
+    "ifsc": "TDCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-7788",
+        "number1": "1800-233-7788",
+        "email": "022-25804451",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.tdcbank.org/"
+      },
+      "debit": {
+        "tollFree": "1800-233-7788",
+        "number1": "1800-233-7788",
+        "email": "022-25804451",
+        "notes": "Block cards via TDCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "parsik_bank": {
+    "id": "parsik_bank",
+    "name": "Gopinath Patil Parsik Janata Sahakari Bank",
+    "logo": "/static/logos/parsik_bank.svg",
+    "ifsc": "PJSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-123-0101",
+        "number1": "1800-123-0101",
+        "email": "022-27611010",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.parsikbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-123-0101",
+        "number1": "1800-123-0101",
+        "email": "022-27611010",
+        "notes": "Block cards via Parsik Bank net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "karad_urban": {
+    "id": "karad_urban",
+    "name": "Karad Urban Co-operative Bank",
+    "logo": "/static/logos/karad_urban.svg",
+    "ifsc": "KUCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-222-456",
+        "number1": "1800-222-456",
+        "email": "02164-220115",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.karadbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-222-456",
+        "number1": "1800-222-456",
+        "email": "02164-220115",
+        "notes": "Block cards via Karad Urban Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "nasik_merchants": {
+    "id": "nasik_merchants",
+    "name": "Nasik Merchants Co-operative Bank",
+    "logo": "/static/logos/nasik_merchants.svg",
+    "ifsc": "NMCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-209-5050",
+        "number1": "1800-209-5050",
+        "email": "0253-2360567",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.nasikmerchants.com/"
+      },
+      "debit": {
+        "tollFree": "1800-209-5050",
+        "number1": "1800-209-5050",
+        "email": "0253-2360567",
+        "notes": "Block cards via NMCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "dombivli_bank": {
+    "id": "dombivli_bank",
+    "name": "Dombivli Nagari Sahakari Bank",
+    "logo": "/static/logos/dombivli_bank.svg",
+    "ifsc": "DNSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-121-6060",
+        "number1": "1800-121-6060",
+        "email": "0251-2301080",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.dnsbank.in/"
+      },
+      "debit": {
+        "tollFree": "1800-121-6060",
+        "number1": "1800-121-6060",
+        "email": "0251-2301080",
+        "notes": "Block cards via Dombivli Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "mumbai_coop": {
+    "id": "mumbai_coop",
+    "name": "Mumbai District Central Co-operative Bank",
+    "logo": "/static/logos/mumbai_coop.svg",
+    "ifsc": "MDCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-123-0020",
+        "number1": "1800-123-0020",
+        "email": "022-22610512",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.mdcbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-123-0020",
+        "number1": "1800-123-0020",
+        "email": "022-22610512",
+        "notes": "Block cards via MDCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "jsb_pune": {
+    "id": "jsb_pune",
+    "name": "Janata Sahakari Bank (Pune)",
+    "logo": "/static/logos/jsb_pune.svg",
+    "ifsc": "JSBP000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-4545",
+        "number1": "1800-233-4545",
+        "email": "020-25533015",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.jsbankpune.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-4545",
+        "number1": "1800-233-4545",
+        "email": "020-25533015",
+        "notes": "Block cards via JSB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "mahanagar_bank": {
+    "id": "mahanagar_bank",
+    "name": "Mahanagar Co-operative Bank",
+    "logo": "/static/logos/mahanagar_bank.svg",
+    "ifsc": "MCBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-5050",
+        "number1": "1800-233-5050",
+        "email": "0253-2024567",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.mahanagarbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-5050",
+        "number1": "1800-233-5050",
+        "email": "0253-2024567",
+        "notes": "Block cards via Mahanagar Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "kalupur_bank": {
+    "id": "kalupur_bank",
+    "name": "Kalupur Commercial Co-operative Bank",
+    "logo": "/static/logos/kalupur_bank.svg",
+    "ifsc": "KCCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-0035",
+        "number1": "1800-233-0035",
+        "email": "079-25506460",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.kalupurbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-0035",
+        "number1": "1800-233-0035",
+        "email": "079-25506460",
+        "notes": "Block cards via KCCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "maharashtra_state_coop": {
+    "id": "maharashtra_state_coop",
+    "name": "Maharashtra State Co-operative Bank",
+    "logo": "/static/logos/maharashtra_state_coop.svg",
+    "ifsc": "MSCI000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-222-0030",
+        "number1": "1800-222-0030",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.mscbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-222-0030",
+        "number1": "1800-222-0030",
+        "notes": "Block cards via MSCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "almora_coop": {
+    "id": "almora_coop",
+    "name": "Almora Urban Co-operative Bank",
+    "logo": "/static/logos/almora_coop.svg",
+    "ifsc": "AUCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-1250",
+        "number1": "1800-180-1250",
+        "email": "05962-241879",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.almorabank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-180-1250",
+        "number1": "1800-180-1250",
+        "email": "05962-241879",
+        "notes": "Block cards via Almora Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "bassein_coop": {
+    "id": "bassein_coop",
+    "name": "Bassein Catholic Co-operative Bank",
+    "logo": "/static/logos/bassein_coop.svg",
+    "ifsc": "BACB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-121-4400",
+        "number1": "1800-121-4400",
+        "email": "0250-2332196",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.basseinbank.in/"
+      },
+      "debit": {
+        "tollFree": "1800-121-4400",
+        "number1": "1800-121-4400",
+        "email": "0250-2332196",
+        "notes": "Block cards via Bassein Bank net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "apna_bank": {
+    "id": "apna_bank",
+    "name": "Apna Sahakari Bank",
+    "logo": "/static/logos/apna_bank.svg",
+    "ifsc": "ASBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-266-8055",
+        "number1": "1800-266-8055",
+        "email": "info@apnabank.com",
+        "notes": "https://www.apnabank.com/",
+        "website": "https://www.apnabank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-266-8055",
+        "number1": "1800-266-8055",
+        "email": "info@apnabank.com",
+        "notes": "Block cards via Apna Bank mobile app or net banking",
+        "website": "https://www.apnabank.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "mehsana_urban": {
+    "id": "mehsana_urban",
+    "name": "Mehsana Urban Co-operative Bank",
+    "logo": "/static/logos/mehsana_urban.svg",
+    "ifsc": "MSNU000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-6200",
+        "number1": "1800-233-6200",
+        "email": "02762-244555",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.mucbank.co.in/"
+      },
+      "debit": {
+        "tollFree": "1800-233-6200",
+        "number1": "1800-233-6200",
+        "email": "02762-244555",
+        "notes": "Block cards via Mehsana Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "bombay_mercantile": {
+    "id": "bombay_mercantile",
+    "name": "Bombay Mercantile Co-operative Bank",
+    "logo": "/static/logos/bombay_mercantile.svg",
+    "ifsc": "BMCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-0101",
+        "number1": "1800-233-0101",
+        "email": "022-30407000",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.bombaymercbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-0101",
+        "number1": "1800-233-0101",
+        "email": "022-30407000",
+        "notes": "Block cards via BMCB net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "kurla_bank": {
+    "id": "kurla_bank",
+    "name": "Kurla Nagarik Sahakari Bank",
+    "logo": "/static/logos/kurla_bank.svg",
+    "ifsc": "KNSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1100",
+        "number1": "1800-233-1100",
+        "email": "022-26550600",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.kurlabank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1100",
+        "number1": "1800-233-1100",
+        "email": "022-26550600",
+        "notes": "Block cards via Kurla Bank net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "citizen_credit": {
+    "id": "citizen_credit",
+    "name": "Citizen Credit Co-operative Bank",
+    "logo": "/static/logos/citizen_credit.svg",
+    "ifsc": "CCBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1200",
+        "number1": "1800-233-1200",
+        "email": "079-25500974",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.ccbank.co.in/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1200",
+        "number1": "1800-233-1200",
+        "email": "079-25500974",
+        "notes": "Block cards via CC Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "rajarshi_shahu": {
+    "id": "rajarshi_shahu",
+    "name": "Shri Chhatrapati Rajashri Shahu Urban Co-operative Bank",
+    "logo": "/static/logos/rajarshi_shahu.svg",
+    "ifsc": "CRUB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1300",
+        "number1": "1800-233-1300",
+        "email": "0231-2600020",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.rajarshishahubank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1300",
+        "number1": "1800-233-1300",
+        "email": "0231-2600020",
+        "notes": "Block cards via RSB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "ichalkaranji_bank": {
+    "id": "ichalkaranji_bank",
+    "name": "Kallappanna Awade Ichalkaranji Janata Sahakari Bank",
+    "logo": "/static/logos/ichalkaranji_bank.svg",
+    "ifsc": "KAIJ000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1400",
+        "number1": "1800-233-1400",
+        "email": "0230-2603091",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.ichalkaranjibank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1400",
+        "number1": "1800-233-1400",
+        "email": "0230-2603091",
+        "notes": "Block cards via IJSB net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "ap_mahesh": {
+    "id": "ap_mahesh",
+    "name": "A.P. Mahesh Co-operative Urban Bank",
+    "logo": "/static/logos/ap_mahesh.svg",
+    "ifsc": "APMC000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-102-2290",
+        "number1": "1800-102-2290",
+        "email": "info@apmahesh.com",
+        "notes": "https://www.apmahesh.com/",
+        "website": "https://www.apmahesh.com/"
+      },
+      "debit": {
+        "tollFree": "1800-102-2290",
+        "number1": "1800-102-2290",
+        "email": "info@apmahesh.com",
+        "notes": "Block cards via AP Mahesh mobile app or net banking",
+        "website": "https://www.apmahesh.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "nagpur_coop": {
+    "id": "nagpur_coop",
+    "name": "Nagpur Nagarik Sahakari Bank",
+    "logo": "/static/logos/nagpur_coop.svg",
+    "ifsc": "NGSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1500",
+        "number1": "1800-233-1500",
+        "email": "0712-2524345",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.nagpurbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1500",
+        "number1": "1800-233-1500",
+        "email": "0712-2524345",
+        "notes": "Block cards via NGSB net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "jalgaon_bank": {
+    "id": "jalgaon_bank",
+    "name": "Jalgaon Janata Bank",
+    "logo": "/static/logos/jalgaon_bank.svg",
+    "ifsc": "JJSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-5222",
+        "number1": "1800-233-5222",
+        "email": "0257-2224652",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.jalgaonbank.in/"
+      },
+      "debit": {
+        "tollFree": "1800-233-5222",
+        "number1": "1800-233-5222",
+        "email": "0257-2224652",
+        "notes": "Block cards via JJ Bank net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "jalgaon_peoples": {
+    "id": "jalgaon_peoples",
+    "name": "Jalgaon Peoples Co-operative Bank",
+    "logo": "/static/logos/jalgaon_peoples.svg",
+    "ifsc": "JPCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1600",
+        "number1": "1800-233-1600",
+        "email": "0257-2232162",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.jpbank.co.in/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1600",
+        "number1": "1800-233-1600",
+        "email": "0257-2232162",
+        "notes": "Block cards via JP Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "kalyan_bank": {
+    "id": "kalyan_bank",
+    "name": "Kalyan Janata Sahakari Bank",
+    "logo": "/static/logos/kalyan_bank.svg",
+    "ifsc": "KJSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-2662",
+        "number1": "1800-233-2662",
+        "email": "0251-2088888",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.kalyanbank.co.in/"
+      },
+      "debit": {
+        "tollFree": "1800-233-2662",
+        "number1": "1800-233-2662",
+        "email": "0251-2088888",
+        "notes": "Block cards via KJSB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "prime_coop": {
+    "id": "prime_coop",
+    "name": "Prime Co-operative Bank",
+    "logo": "/static/logos/prime_coop.svg",
+    "ifsc": "PMEC000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1011",
+        "number1": "1800-233-1011",
+        "email": "022-26052180",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.primecbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1011",
+        "number1": "1800-233-1011",
+        "email": "022-26052180",
+        "notes": "Block cards via Prime Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "ankola_coop": {
+    "id": "ankola_coop",
+    "name": "Ankola Urban Co-operative Bank",
+    "logo": "/static/logos/ankola_coop.svg",
+    "ifsc": "TAUB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-480-1022",
+        "number1": "1800-480-1022",
+        "email": "08385-230099",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.ankolabank.in/"
+      },
+      "debit": {
+        "tollFree": "1800-480-1022",
+        "number1": "1800-480-1022",
+        "email": "08385-230099",
+        "notes": "Block cards via Ankola Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "ahmedabad_mercantile": {
+    "id": "ahmedabad_mercantile",
+    "name": "Ahmedabad Mercantile Co-operative Bank",
+    "logo": "/static/logos/ahmedabad_mercantile.svg",
+    "ifsc": "AMCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-2222",
+        "number1": "1800-233-2222",
+        "email": "079-22151036",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.ahmedabadmercbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-2222",
+        "number1": "1800-233-2222",
+        "email": "079-22151036",
+        "notes": "Block cards via AMC Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "surat_peoples": {
+    "id": "surat_peoples",
+    "name": "Surat People's Co-operative Bank",
+    "logo": "/static/logos/surat_peoples.svg",
+    "ifsc": "SPCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1700",
+        "number1": "1800-233-1700",
+        "email": "0261-2477375",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.spcbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1700",
+        "number1": "1800-233-1700",
+        "email": "0261-2477375",
+        "notes": "Block cards via SPC Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "tumkur_grain": {
+    "id": "tumkur_grain",
+    "name": "Tumkur Grain Merchant's Co-operative Bank",
+    "logo": "/static/logos/tumkur_grain.svg",
+    "ifsc": "TGMB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-1924",
+        "number1": "1800-425-1924",
+        "email": "0816-2251739",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.tgmbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-425-1924",
+        "number1": "1800-425-1924",
+        "email": "0816-2251739",
+        "notes": "Block cards via TGMB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "odisha_state_coop": {
+    "id": "odisha_state_coop",
+    "name": "Odisha State Co-operative Bank",
+    "logo": "/static/logos/odisha_state_coop.svg",
+    "ifsc": "ORCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-123-4000",
+        "number1": "1800-123-4000",
+        "email": "0674-2303610",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.oscb.in/"
+      },
+      "debit": {
+        "tollFree": "1800-123-4000",
+        "number1": "1800-123-4000",
+        "email": "0674-2303610",
+        "notes": "Block cards via OSCB net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "thane_bharat": {
+    "id": "thane_bharat",
+    "name": "Thane Bharat Sahakari Bank",
+    "logo": "/static/logos/thane_bharat.svg",
+    "ifsc": "TBSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1800",
+        "number1": "1800-233-1800",
+        "email": "022-25402470",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.thanebharatbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1800",
+        "number1": "1800-233-1800",
+        "email": "022-25402470",
+        "notes": "Block cards via Thane Bharat net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "vishweshwar": {
+    "id": "vishweshwar",
+    "name": "Vishweshwar Sahakari Bank",
+    "logo": "/static/logos/vishweshwar.svg",
+    "ifsc": "VSBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-121-2121",
+        "number1": "1800-121-2121",
+        "email": "02692-261011",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.vsbbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-121-2121",
+        "number1": "1800-121-2121",
+        "email": "02692-261011",
+        "notes": "Block cards via VSB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "janaseva_bank_pune": {
+    "id": "janaseva_bank_pune",
+    "name": "Janaseva Sahakari Bank (Pune)",
+    "logo": "/static/logos/janaseva_bank_pune.svg",
+    "ifsc": "JANA000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-8444",
+        "number1": "1800-233-8444",
+        "email": "info@janasevabank.com",
+        "notes": "https://www.janasevabank.com/",
+        "website": "https://www.janasevabank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-8444",
+        "number1": "1800-233-8444",
+        "email": "info@janasevabank.com",
+        "notes": "Block cards via Janaseva Bank mobile app or net banking",
+        "website": "https://www.janasevabank.com/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "tamilnadu_state_coop": {
+    "id": "tamilnadu_state_coop",
+    "name": "Tamilnadu State Apex Co-operative Bank",
+    "logo": "/static/logos/tamilnadu_state_coop.svg",
+    "ifsc": "TNSC000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-425-2001",
+        "number1": "1800-425-2001",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.tcmbank.tn.gov.in/"
+      },
+      "debit": {
+        "tollFree": "1800-425-2001",
+        "number1": "1800-425-2001",
+        "notes": "Block cards via TSCB net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "varachha_bank": {
+    "id": "varachha_bank",
+    "name": "Varachha Co-operative Bank",
+    "logo": "/static/logos/varachha_bank.svg",
+    "ifsc": "VARA000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-4949",
+        "number1": "1800-233-4949",
+        "email": "0261-2314705",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.varachhabank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-4949",
+        "number1": "1800-233-4949",
+        "email": "0261-2314705",
+        "notes": "Block cards via Varachha Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "janakalyan_bank": {
+    "id": "janakalyan_bank",
+    "name": "Janakalyan Sahakari Bank",
+    "logo": "/static/logos/janakalyan_bank.svg",
+    "ifsc": "JSBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-5229",
+        "number1": "1800-233-5229",
+        "email": "022-25602222",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.janakalyanbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-5229",
+        "number1": "1800-233-5229",
+        "email": "022-25602222",
+        "notes": "Block cards via Janakalyan Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "nutan_bank": {
+    "id": "nutan_bank",
+    "name": "Nutan Nagarik Sahakari Bank",
+    "logo": "/static/logos/nutan_bank.svg",
+    "ifsc": "NNSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-7676",
+        "number1": "1800-233-7676",
+        "email": "079-27544400",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.nutanbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-7676",
+        "number1": "1800-233-7676",
+        "email": "079-27544400",
+        "notes": "Block cards via Nutan Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "greater_bombay": {
+    "id": "greater_bombay",
+    "name": "Greater Bombay Co-operative Bank",
+    "logo": "/static/logos/greater_bombay.svg",
+    "ifsc": "GBCB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-0233",
+        "number1": "1800-233-0233",
+        "email": "022-30937000",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.greaterbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-0233",
+        "number1": "1800-233-0233",
+        "email": "022-30937000",
+        "notes": "Block cards via Greater Bank net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "hasti_coop": {
+    "id": "hasti_coop",
+    "name": "HASTI Co-operative Bank",
+    "logo": "/static/logos/hasti_coop.svg",
+    "ifsc": "HCBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-1919",
+        "number1": "1800-233-1919",
+        "email": "079-27548888",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.hastibank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-1919",
+        "number1": "1800-233-1919",
+        "email": "079-27548888",
+        "notes": "Block cards via Hasti Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "municipal_bank": {
+    "id": "municipal_bank",
+    "name": "Municipal Co-operative Bank",
+    "logo": "/static/logos/municipal_bank.svg",
+    "ifsc": "MUBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-102-1212",
+        "number1": "1800-102-1212",
+        "email": "info@mcbank.co.in",
+        "notes": "https://www.mcbank.co.in/",
+        "website": "https://www.mcbank.co.in/"
+      },
+      "debit": {
+        "tollFree": "1800-102-1212",
+        "number1": "1800-102-1212",
+        "email": "info@mcbank.co.in",
+        "notes": "Block cards via Municipal Bank net banking or visit branch",
+        "website": "https://www.mcbank.co.in/"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "vasai_vikas": {
+    "id": "vasai_vikas",
+    "name": "Vasai Vikas Sahakari Bank",
+    "logo": "/static/logos/vasai_vikas.svg",
+    "ifsc": "VVSB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-3434",
+        "number1": "1800-233-3434",
+        "email": "0250-2303330",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.vsaibank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-3434",
+        "number1": "1800-233-3434",
+        "email": "0250-2303330",
+        "notes": "Block cards via VVSB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "ghaziabad_coop": {
+    "id": "ghaziabad_coop",
+    "name": "Zila Sahakari Bank Ghaziabad",
+    "logo": "/static/logos/ghaziabad_coop.svg",
+    "ifsc": "ZSBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-180-5560",
+        "number1": "1800-180-5560",
+        "email": "0120-2790025",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.zsbgzb.in/"
+      },
+      "debit": {
+        "tollFree": "1800-180-5560",
+        "number1": "1800-180-5560",
+        "email": "0120-2790025",
+        "notes": "Block cards via ZSB Ghaziabad net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "sutex_bank": {
+    "id": "sutex_bank",
+    "name": "Sutex Co-operative Bank",
+    "logo": "/static/logos/sutex_bank.svg",
+    "ifsc": "SUTB000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-4040",
+        "number1": "1800-233-4040",
+        "email": "0261-2340256",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.sutexbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-4040",
+        "number1": "1800-233-4040",
+        "email": "0261-2340256",
+        "notes": "Block cards via Sutex Bank net banking"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
+  },
+  "zoroastrian_bank": {
+    "id": "zoroastrian_bank",
+    "name": "Zoroastrian Co-operative Bank",
+    "logo": "/static/logos/zoroastrian_bank.svg",
+    "ifsc": "ZCBL000001",
+    "blockingInstructions": {
+      "credit": {
+        "tollFree": "1800-233-0441",
+        "number1": "1800-233-0441",
+        "email": "022-61764100",
+        "notes": "Block cards via net banking or contact customer care",
+        "website": "https://www.zoroastrianbank.com/"
+      },
+      "debit": {
+        "tollFree": "1800-233-0441",
+        "number1": "1800-233-0441",
+        "email": "022-61764100",
+        "notes": "Block cards via ZCB net banking or visit branch"
+      }
+    },
+    "sources": [
+      {
+        "label": "RBI Customer Protection",
+        "url": "https://www.rbi.org.in/scripts/FAQsShow.aspx?Id=133"
+      },
+      {
+        "label": "RBI Ombudsman",
+        "url": "https://cms.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2026-05-13"
   }
 }
