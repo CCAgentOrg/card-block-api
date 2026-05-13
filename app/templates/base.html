@@ -24,6 +24,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
+        /* ── Flash prevention: apply saved theme before render ── */
+        (function(){var t=localStorage.getItem('theme');if(t){document.documentElement.setAttribute('data-theme',t)}})();
+
+        /* ── Light mode (default) ── */
         :root {
             --ink: #0f172a;
             --muted: #475569;
@@ -49,6 +53,32 @@
             --sidebar-w: 240px;
         }
 
+        /* ── Hero gradient (shared across pages) ── */
+        :root,
+        [data-theme="dark"] {
+            --hero-bg: linear-gradient(135deg, var(--ink) 0%, #1e293b 100%);
+        }
+        [data-theme="light"] {
+            --hero-bg: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        }
+
+        /* ── Dark mode ── */
+        [data-theme="dark"] {
+            --ink: #e2e8f0;
+            --muted: #94a3b8;
+            --subtle: #64748b;
+            --border: #1e293b;
+            --surface: #1e293b;
+            --bg: #0f172a;
+            --primary-50: #1e3a5f;
+            --primary-100: #162d4a;
+            --success-bg: #064e3b;
+            --success-border: #065f46;
+            --success-text: #6ee7b7;
+            --shadow: 0 1px 3px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.2);
+            --shadow-lg: 0 10px 25px -5px rgba(0,0,0,0.4), 0 4px 10px -5px rgba(0,0,0,0.3);
+        }
+
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
@@ -59,6 +89,7 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            transition: background 0.3s, color 0.3s;
         }
 
         /* ===== Top Nav Bar ===== */
@@ -211,6 +242,64 @@
         }
 
         @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ===== Theme Toggle ===== */
+        .theme-toggle-btn {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            border-radius: 8px;
+            width: 36px; height: 36px;
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer;
+            color: var(--subtle);
+            transition: all 0.15s;
+            position: relative;
+            overflow: hidden;
+        }
+        .theme-toggle-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+        .theme-toggle-btn svg { transition: transform 0.3s, opacity 0.3s; position: absolute; }
+        #icon-sun { opacity: 0; transform: rotate(90deg) scale(0.5); }
+        [data-theme="dark"] #icon-moon { opacity: 0; transform: rotate(-90deg) scale(0.5); }
+        [data-theme="dark"] #icon-sun { opacity: 1; transform: rotate(0deg) scale(1); }
+        @media (prefers-color-scheme: dark) {
+            #icon-sun { opacity: 1; transform: rotate(0deg) scale(1); }
+            #icon-moon { opacity: 0; transform: rotate(-90deg) scale(0.5); }
+        }
+
+        /* Card backgrounds need dark mode override */
+        [data-theme="dark"] .bank-card,
+        [data-theme="dark"] .quick-action {
+            background: var(--surface);
+        }
+        [data-theme="dark"] .call-card {
+            background: var(--success-bg);
+        }
+
+        /* ===== Utility ===== */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 7px;
+            border-radius: 999px;
+            background: var(--success-bg);
+            color: var(--success-text);
+        }
+
+        .badge svg { width: 10px; height: 10px; }
+
+        .spinner {
+            width: 32px; height: 32px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.7s linear infinite;
+            margin: 0 auto 12px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
     </style>
     {% block extra_head %}{% endblock %}
 </head>
@@ -234,6 +323,10 @@
     <div class="topnav-spacer"></div>
 
     <div class="topnav-right">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode" title="Toggle theme">
+            <svg id="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <svg id="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
         <span class="topnav-stat" id="nav-bank-count"></span>
         <span class="topnav-stat" id="nav-updated"></span>
     </div>
@@ -262,6 +355,36 @@
 <!-- Common JS -->
 <script defer src="/static/app.js"></script>
 <script>
+// ── Theme Toggle ──
+(function() {
+    var html = document.documentElement;
+    // Respect OS preference if no saved theme
+    var stored = localStorage.getItem('theme');
+    if (!stored) {
+        stored = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    html.setAttribute('data-theme', stored);
+
+    function setTheme(t) {
+        html.setAttribute('data-theme', t);
+        localStorage.setItem('theme', t);
+    }
+
+    var btn = document.getElementById('theme-toggle');
+    if (btn) {
+        btn.addEventListener('click', function() {
+            setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+        });
+    }
+
+    // Listen for OS changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        if (!localStorage.getItem('theme')) {
+            setTheme(e.matches ? 'dark' : 'light');
+        }
+    });
+})();
+
 // Fetch stats for nav bar
 (async () => {
     try {
