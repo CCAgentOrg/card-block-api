@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Flask, send_from_directory, Response, current_app
+from flask import Flask, send_from_directory, render_template, Response, current_app
 from flask_restx import Api
 from .config import Config
 
@@ -50,7 +50,23 @@ def create_app(config_class=Config):
 
     @app.route('/')
     def serve_ui():
-        return send_from_directory(app.static_folder, 'index.html')
+        return render_template('home.html', page='home')
+
+    @app.route('/bins')
+    def page_bins():
+        return render_template('bins.html', page='bins')
+
+    @app.route('/about')
+    def page_about():
+        return render_template('about.html', page='about')
+
+    @app.route('/disclaimer')
+    def page_disclaimer():
+        return render_template('disclaimer.html', page='disclaimer')
+
+    @app.route('/bank/<bank_id>')
+    def page_bank(bank_id):
+        return render_template('bank_detail.html', bank_id=bank_id, page='banks')
 
     @app.route('/static/<path:filename>')
     def serve_static(filename):

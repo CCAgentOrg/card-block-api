@@ -69,4 +69,4 @@ def test_ui_served_at_root(client):
 def test_static_assets_served(client):
     resp = client.get("/static/app.js")
     assert resp.status_code == 200
-    assert b"cardBlockApp" in resp.data
+    assert b"Alpine.data('bankApp'" in resp.data

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Card Block — Instant Bank Card Blocking{% endblock %}</title>
+    <meta name="description" content="Find lost/stolen credit & debit card blocking numbers for 115+ Indian banks. Search by bank name, get toll-free numbers instantly.">
+    <meta name="keywords" content="block credit card, block debit card, lost card, stolen card, bank toll free number, Indian banks, card blocking, HDFC, SBI, ICICI">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Cashless Consumer">
+    <link rel="canonical" href="https://cardblock.cashlessconsumer.in{{ request.path }}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% block og_title %}Card Block — Instant Bank Card Blocking{% endblock %}">
+    <meta property="og:description" content="Find card blocking numbers for 115+ Indian banks instantly.">
+    <meta property="og:url" content="https://cardblock.cashlessconsumer.in{{ request.path }}">
+    <meta property="og:site_name" content="Card Block">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% block twitter_title %}Card Block{% endblock %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #0f172a;
+            --muted: #475569;
+            --subtle: #94a3b8;
+            --border: #e2e8f0;
+            --surface: #f8fafc;
+            --bg: #f1f5f9;
+            --primary: #0ea5e9;
+            --primary-dark: #0284c7;
+            --primary-50: #f0f9ff;
+            --primary-100: #e0f2fe;
+            --success: #10b981;
+            --success-bg: #ecfdf5;
+            --success-border: #a7f3d0;
+            --success-text: #065f46;
+            --danger: #ef4444;
+            --radius: 12px;
+            --radius-lg: 16px;
+            --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04);
+            --shadow-lg: 0 10px 25px -5px rgba(0,0,0,0.08), 0 4px 10px -5px rgba(0,0,0,0.04);
+            --font: 'Inter', system-ui, -apple-system, sans-serif;
+            --header-h: 64px;
+            --sidebar-w: 240px;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ===== Top Nav Bar ===== */
+        .topnav {
+            position: sticky; top: 0; z-index: 100;
+            background: var(--ink);
+            height: var(--header-h);
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+            gap: 20px;
+        }
+
+        .topnav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #fff;
+            flex-shrink: 0;
+        }
+
+        .topnav-brand .icon {
+            width: 32px; height: 32px;
+            background: var(--primary);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .topnav-brand .icon svg { width: 18px; height: 18px; }
+
+        .topnav-brand span {
+            font-size: 17px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .topnav-links {
+            display: flex;
+            gap: 4px;
+            margin-left: 24px;
+        }
+
+        .topnav-link {
+            color: var(--subtle);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 8px;
+            transition: all 0.15s;
+        }
+
+        .topnav-link:hover { color: #fff; background: rgba(255,255,255,0.08); }
+        .topnav-link.active { color: #fff; background: var(--primary); }
+
+        .topnav-spacer { flex: 1; }
+
+        .topnav-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+
+        .topnav-stat {
+            font-size: 12px;
+            color: var(--subtle);
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .topnav-stat { display: block; }
+        }
+
+        /* ===== Main Layout ===== */
+        .page-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .content { padding: 32px 40px; }
+        }
+
+        /* ===== Footer ===== */
+        .footer {
+            background: var(--ink);
+            color: var(--subtle);
+            padding: 20px 24px;
+            font-size: 13px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 16px;
+            justify-content: space-between;
+        }
+
+        .footer a { color: var(--primary); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+
+        .footer-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.08);
+            font-size: 12px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        /* ===== Utility ===== */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 7px;
+            border-radius: 999px;
+            background: var(--success-bg);
+            color: var(--success-text);
+        }
+
+        .badge svg { width: 10px; height: 10px; }
+
+        .spinner {
+            width: 32px; height: 32px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.7s linear infinite;
+            margin: 0 auto 12px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+<nav class="topnav">
+    <a href="/" class="topnav-brand">
+        <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="3"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+        </div>
+        <span>Card Block</span>
+    </a>
+
+    <div class="topnav-links">
+        <a href="/" class="topnav-link {% block nav_home %}{% endblock %}">Banks</a>
+        <a href="/bins" class="topnav-link {% block nav_bins %}{% endblock %}">BIN Lookup</a>
+        <a href="/about" class="topnav-link {% block nav_about %}{% endblock %}">About</a>
+        <a href="/disclaimer" class="topnav-link {% block nav_disclaimer %}{% endblock %}">Disclaimer</a>
+    </div>
+
+    <div class="topnav-spacer"></div>
+
+    <div class="topnav-right">
+        <span class="topnav-stat" id="nav-bank-count"></span>
+        <span class="topnav-stat" id="nav-updated"></span>
+    </div>
+</nav>
+
+<main class="page-container">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <span>© 2026 <a href="https://cashlessconsumer.in">Cashless Consumer</a></span>
+        <span class="footer-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            Open Data · MIT License
+        </span>
+    </div>
+    <div class="footer-links">
+        <a href="/about">About</a>
+        <a href="/disclaimer">Disclaimer</a>
+        <a href="/api/v1/export/json" target="_blank">API</a>
+        <a href="https://github.com/CCAgentOrg/card-block-api" target="_blank">GitHub</a>
+    </div>
+</footer>
+
+<!-- Common JS -->
+<script defer src="/static/app.js"></script>
+<script>
+// Fetch stats for nav bar
+(async () => {
+    try {
+        const res = await fetch('/api/v1/banks');
+        if (res.ok) {
+            const banks = await res.json();
+            const el = document.getElementById('nav-bank-count');
+            if (el) el.textContent = banks.length + ' banks';
+            const updated = document.getElementById('nav-updated');
+            if (updated && banks[0]?.lastVerified) {
+                updated.textContent = 'Updated ' + banks[0].lastVerified;
+            }
+        }
+    } catch(e) {}
+})();
+</script>
+
+{% block extra_scripts %}{% endblock %}
+</body>
+</html>
