@@ -2,7 +2,7 @@ name: Deploy — production
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
     paths-ignore: ['*.md', 'docs/**', '.github/**']
 
 env:
@@ -12,21 +12,24 @@ jobs:
   deploy-production:
     name: Deploy to production (Fly.io)
     runs-on: ubuntu-latest
+    if: github.repository == 'CCAgentOrg/card-block-api'
     environment: production
     steps:
       - uses: actions/checkout@v4
 
-      - uses: superfly/flyctl-actions@master
-        with:
-          accessToken: ${{ secrets.FLY_API_TOKEN }}
+      - name: Install flyctl
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          echo "$HOME/.fly/bin" >> "$GITHUB_PATH"
 
       - name: Deploy
-        run: fly deploy --app cardblockapi --remote-only
+        run: fly deploy --app cardblockapi
 
       - name: Health check
         run: |
-          for i in $(seq 1 10); do
-            STATUS=$(curl -so /dev/null -w "%{http_code}" "https://cardblockapi.fly.dev/api/v1/banks") && break || sleep 10
+          URL="https://cardblockapi.fly.dev/api/v1/banks"
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            STATUS=$(curl -so /dev/null -w "%{http_code}" "$URL") && break || sleep 10
           done
           echo "Status: $STATUS"
           [ "$STATUS" = "200" ] || exit 1

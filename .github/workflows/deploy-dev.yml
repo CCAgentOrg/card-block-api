@@ -15,12 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: superfly/flyctl-actions@master
-        with:
-          accessToken: ${{ secrets.FLY_API_TOKEN }}
+      - name: Install flyctl
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          echo "$HOME/.fly/bin" >> "$GITHUB_PATH"
 
       - name: Deploy
-        run: fly deploy -c fly.dev.toml --app cardblockapi-dev --remote-only
+        run: fly deploy -c fly.dev.toml --app cardblockapi-dev
 
       - name: Health check
         run: |
