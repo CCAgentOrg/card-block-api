@@ -43,8 +43,10 @@ def create_app(config_class=Config):
     )
 
     from .api.banks import api as banks_ns, export_api as export_ns
+    from .api.bins import bins_ns
     api.add_namespace(banks_ns, path='/banks')
     api.add_namespace(export_ns, path='/export')
+    api.add_namespace(bins_ns, path='/bins')
 
     @app.route('/')
     def serve_ui():
