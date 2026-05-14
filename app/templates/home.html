@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+
+{% block nav_home %}active{% endblock %}
+
+{% block title %}Card Block — Banks{% endblock %}
+
+{% block extra_head %}
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<style>
+  [x-cloak] { display: none !important; }
+
+  .hero-home {
+    background: var(--hero-bg);
+    color: #fff; padding: 48px 24px 40px; text-align: center;
+  }
+  .hero-home h1 {
+    font-size: clamp(28px, 4vw, 44px); font-weight: 800;
+    letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 12px;
+  }
+  .hero-home h1 .accent { color: var(--primary); }
+  .hero-home .subtitle {
+    font-size: clamp(15px, 2vw, 18px);
+    color: var(--subtle); max-width: 580px;
+    margin: 0 auto 32px; line-height: 1.6;
+  }
+  .hero-search {
+    max-width: 520px; margin: 0 auto; position: relative;
+  }
+  .hero-search input {
+    width: 100%; padding: 14px 16px 14px 44px;
+    border: 2px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius);
+    background: rgba(255,255,255,0.08);
+    color: #fff; font-size: 16px; font-family: var(--font);
+    outline: none; transition: all 0.2s;
+  }
+  .hero-search input::placeholder { color: var(--subtle); }
+  .hero-search input:focus {
+    border-color: var(--primary);
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 0 0 4px rgba(14,165,233,0.15);
+  }
+  .s-icon {
+    position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    width: 20px; height: 20px; color: var(--subtle); pointer-events: none;
+  }
+  .search-count-line {
+    text-align: center; font-size: 13px; color: var(--subtle); margin-top: 10px;
+  }
+
+  .quick-actions {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px; margin-bottom: 28px;
+  }
+  .quick-action {
+    display: flex; align-items: center; gap: 10px;
+    padding: 14px 16px; border-radius: var(--radius);
+    background: #fff; border: 1px solid var(--border);
+    text-decoration: none; color: var(--ink); transition: all 0.15s;
+  }
+  .quick-action:hover {
+    border-color: var(--primary); box-shadow: var(--shadow-lg); transform: translateY(-1px);
+  }
+  .qa-icon {
+    width: 36px; height: 36px; border-radius: 8px;
+    background: var(--primary-50); color: var(--primary);
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .qa-icon svg { width: 18px; height: 18px; }
+  .qa-text .qa-title { font-weight: 600; font-size: 13px; }
+  .qa-text .qa-desc { font-size: 11px; color: var(--muted); margin-top: 1px; }
+
+  .section-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+  }
+  .section-header h2 { font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
+  .section-header .count { font-size: 13px; color: var(--muted); font-weight: 500; }
+
+  .filter-bar {
+    width: 100%; padding: 10px 14px; border: 1px solid var(--border);
+    border-radius: var(--radius); font-family: var(--font); font-size: 14px;
+    margin-bottom: 16px; outline: none; background: #fff;
+  }
+  .filter-bar:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(14,165,233,0.1); }
+
+  .bank-grid {
+    display: grid; grid-template-columns: 1fr; gap: 8px;
+  }
+  @media (min-width: 640px) { .bank-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1024px) { .bank-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .bank-card {
+    background: #fff; border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px;
+    display: flex; align-items: center; gap: 12px;
+    cursor: pointer; transition: all 0.15s;
+    text-decoration: none; color: var(--ink);
+  }
+  .bank-card:hover {
+    border-color: var(--primary); box-shadow: var(--shadow-lg); transform: translateY(-1px);
+  }
+  .bank-card .bl {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;
+  }
+  .bank-card .bl img { width: 26px; height: 26px; object-fit: contain; }
+  .bank-card .bi { flex: 1; min-width: 0; }
+  .bank-card .bn { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bank-card .bm { font-size: 11px; color: var(--muted); margin-top: 3px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .bank-card .ba { color: var(--subtle); transition: color 0.15s; flex-shrink: 0; }
+  .bank-card:hover .ba { color: var(--primary); }
+
+  .state { text-align: center; padding: 48px 20px; }
+  .empty-svg { width: 48px; height: 48px; color: var(--border); margin: 0 auto 12px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="hero-home">
+  <h1>Block Your <span class="accent">Lost Card</span> Instantly</h1>
+  <p class="subtitle">Search 115+ Indian banks. Get toll-free blocking numbers, email contacts, and app instructions in one click.</p>
+  <div class="hero-search" x-data>
+    <svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" placeholder="Search bank name..." x-data x-init="$watch('$store.bankApp.query', v => { if ($el.tagName === 'INPUT' && document.activeElement !== $el) $el.value = v }).$el.value = ''" @input="$store.bankApp.query = $event.target.value">
+  </div>
+  <p class="search-count-line" x-text="bankApp.showingCount"></p>
+</div>
+
+<div class="content"
+     x-data="bankApp"
+     x-init="loadBanks()">
+
+  <!-- Quick Actions -->
+  <div class="quick-actions">
+    <a href="/bins" class="quick-action">
+      <div class="qa-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="3"/><line x1="1" y1="10" x2="23" y2="10"/><circle cx="12" cy="15" r="1.5"/></svg></div>
+      <div class="qa-text"><div class="qa-title">BIN Lookup</div><div class="qa-desc">Find bank from card digits</div></div>
+    </a>
+    <a href="/api/v1/export/json" class="quick-action" target="_blank">
+      <div class="qa-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+      <div class="qa-text"><div class="qa-title">Export Data</div><div class="qa-desc">Download full JSON dataset</div></div>
+    </a>
+    <a href="/about" class="quick-action">
+      <div class="qa-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+      <div class="qa-text"><div class="qa-title">About</div><div class="qa-desc">Learn about Card Block</div></div>
+    </a>
+  </div>
+
+  <div class="section-header">
+    <h2>All Banks</h2>
+    <span class="count" x-text="loading ? 'Loading...' : showingCount"></span>
+  </div>
+
+  <input class="filter-bar" type="text" placeholder="Filter by bank name..." x-model="query">
+
+  <!-- Loading -->
+  <div class="state" x-show="loading">
+    <div class="spinner"></div>
+    <p class="state-text">Loading banks...</p>
+  </div>
+
+  <!-- Error -->
+  <div class="state" x-show="error" x-cloak>
+    <p class="state-text" style="color: var(--danger);">Error: <span x-text="error"></span></p>
+    <button @click="loadBanks()" style="margin-top:12px;padding:8px 20px;border:1px solid var(--border);border-radius:8px;background:#fff;cursor:pointer;font-family:var(--font);">Retry</button>
+  </div>
+
+  <!-- Bank Grid -->
+  <div class="bank-grid" x-show="!loading && !error" x-cloak>
+    <template x-for="bank in filteredBanks" :key="bank.id">
+      <a :href="bank.href || '/bank/' + bank.id" class="bank-card">
+        <div class="bl">
+          <template x-if="bank.logo"><img :src="bank.logo" :alt="bank.name" loading="lazy"></template>
+        </div>
+        <div class="bi">
+          <div class="bn" x-text="bank.name"></div>
+          <div class="bm">
+            <template x-if="bank.cardTypes?.includes('credit')">
+              <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Credit</span>
+            </template>
+            <template x-if="bank.cardTypes?.includes('debit')">
+              <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Debit</span>
+            </template>
+          </div>
+        </div>
+        <svg class="ba" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+    </template>
+  </div>
+
+  <!-- Empty State -->
+  <div class="state" x-show="!loading && !error && filteredBanks.length === 0 && banks.length > 0" x-cloak>
+    <svg class="empty-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <p class="state-text">No banks match "<span x-text="query"></span>"</p>
+  </div>
+</div>
+{% endblock %}

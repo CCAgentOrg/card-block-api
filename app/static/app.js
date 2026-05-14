@@ -1,93 +1,97 @@
-function cardBlockApp() {
-    return {
-        banks: [],
-        searchQuery: '',
-        showPanel: false,
-        currentBank: null,
-        activeCardType: 'credit',
-        loading: true,
-        loadingDetails: false,
-        error: null,
-        lastUpdated: '',
+/* Card Block — Alpine.js app shared across pages */
 
-        async init() {
-            await this.fetchBanks();
+document.addEventListener('alpine:init', () => {
+    /* ── Home / banks listing ── */
+    Alpine.data('bankApp', () => ({
+        banks: [],
+        query: '',
+        loading: true,
+        error: null,
+
+        get filteredBanks() {
+            if (!this.query) return this.banks;
+            const q = this.query.toLowerCase().trim();
+            return this.banks.filter(b =>
+                b.name.toLowerCase().includes(q) ||
+                (b.id || '').toLowerCase().includes(q)
+            );
         },
 
-        async fetchBanks() {
+        get showingCount() {
+            if (!this.banks.length) return '';
+            return this.query
+                ? `Showing ${this.filteredBanks.length} of ${this.banks.length} banks`
+                : `${this.banks.length} banks`;
+        },
+
+        async loadBanks() {
             this.loading = true;
             this.error = null;
             try {
-                const [banksRes, statsRes] = await Promise.all([
-                    fetch('/api/v1/banks/'),
-                    fetch('/api/v1/banks/stats').catch(() => ({ ok: false }))
-                ]);
-                
-                if (!banksRes.ok) throw new Error('Failed to load bank data');
-                const banksData = await banksRes.json();
-                
-                this.banks = banksData.map(bank => {
-                    let tollFree = '';
-                    let cardTypes = Object.keys(bank.blockingInstructions || {});
-                    for (const cardType of cardTypes) {
-                        if (bank.blockingInstructions[cardType].tollFree) {
-                            tollFree = bank.blockingInstructions[cardType].tollFree;
-                            break;
-                        }
-                    }
-                    return { ...bank, tollFree, cardTypes };
-                });
-                
-                if (statsRes.ok) {
-                    const stats = await statsRes.json();
-                    this.lastUpdated = stats.lastUpdated || (banksData[0]?.lastVerified?.slice(0, 10) || '');
-                } else if (banksData[0]?.lastVerified) {
-                    this.lastUpdated = banksData[0].lastVerified.slice(0, 10);
-                }
+                const res = await fetch('/api/v1/banks/');
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                this.banks = await res.json();
             } catch (e) {
                 this.error = e.message;
             } finally {
                 this.loading = false;
             }
-        },
-
-        async openBank(bankId) {
-            this.loadingDetails = true;
-            this.showPanel = true;
-            this.currentBank = null;
-            try {
-                const res = await fetch(`/api/v1/banks/${bankId}`);
-                if (!res.ok) throw new Error('Bank details not found');
-                this.currentBank = await res.json();
-                const cardTypes = Object.keys(this.currentBank.blockingInstructions || {});
-                this.activeCardType = cardTypes.includes('credit') ? 'credit' : (cardTypes[0] || '');
-            } catch (e) {
-                alert('Error loading bank details: ' + e.message);
-                this.closePanel();
-            } finally {
-                this.loadingDetails = false;
-            }
-        },
-
-        closePanel() {
-            this.showPanel = false;
-            setTimeout(() => { this.currentBank = null; }, 300);
-        },
-
-        get filteredBanks() {
-            if (!this.searchQuery) return this.banks;
-            const query = this.searchQuery.toLowerCase().trim();
-            return this.banks.filter(bank =>
-                bank.name.toLowerCase().includes(query) || bank.id.toLowerCase().includes(query)
-            );
-        },
-
-        formatPhone(phone) {
-            return phone ? phone.replace(/[^0-9+]/g, '') : '';
-        },
-
-        formatDisplayPhone(phone) {
-            return phone ? phone.replace(/-/g, ' - ').replace(/\s+/g, ' ') : '';
         }
-    };
-}
+    }));
+
+    /* ── BIN lookup ── */
+    Alpine.data('binApp', () => ({
+        binQuery: '',
+        result: null,
+        loading: false,
+        searched: false,
+
+        async lookup() {
+            const digits = this.binQuery.replace(/\D/g, '');
+            if (digits.length < 6) return;
+
+            this.loading = true;
+            this.searched = true;
+            this.result = null;
+
+            try {
+                const res = await fetch(`/api/v1/bins/${digits.slice(0, 6)}`);
+                if (!res.ok) { this.loading = false; return; }
+                const data = await res.json();
+                if (data && data.id) {
+                    this.result = data;
+                }
+            } catch (e) {
+                /* silently handle */
+            } finally {
+                this.loading = false;
+            }
+        }
+    }));
+
+    /* ── Bank detail page ── */
+    Alpine.data('detailApp', () => ({
+        bank: null,
+        loading: true,
+        error: null,
+        activeTab: 'credit',
+
+        async loadBank(id) {
+            this.loading = true;
+            this.error = null;
+            try {
+                const res = await fetch(`/api/v1/banks/${id}`);
+                if (!res.ok) throw new Error(`Bank "${id}" not found`);
+                this.bank = await res.json();
+                const types = Object.keys(this.bank.blockingInstructions || {});
+                this.activeTab = types.includes('credit')
+                    ? 'credit'
+                    : (types.includes('debit') ? 'debit' : types[0] || 'credit');
+            } catch (e) {
+                this.error = e.message;
+            } finally {
+                this.loading = false;
+            }
+        }
+    }));
+});

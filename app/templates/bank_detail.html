@@ -1,0 +1,257 @@
+{% extends "base.html" %}
+
+{% block extra_head %}
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<style>
+  [x-cloak] { display: none !important; }
+
+  .detail-body { max-width: 800px; margin: 0 auto; padding: 32px 24px 48px; }
+
+  .back-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 14px; color: var(--muted); text-decoration: none;
+    margin-bottom: 16px; transition: color 0.15s;
+  }
+  .back-link:hover { color: var(--primary); }
+
+  .detail-header {
+    display: flex; gap: 16px; align-items: center;
+    margin-bottom: 24px; padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .detail-header .dh-logo {
+    width: 56px; height: 56px; border-radius: 12px;
+    background: var(--surface); border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;
+  }
+  .detail-header .dh-logo img { width: 36px; height: 36px; object-fit: contain; }
+  .detail-header h1 { font-size: 24px; font-weight: 700; }
+  .detail-header .dh-meta { font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+  .tabs {
+    display: flex; gap: 4px; background: var(--surface);
+    padding: 4px; border-radius: 10px; margin-bottom: 24px;
+  }
+  .tab {
+    flex: 1; padding: 10px 16px; border: none; border-radius: 8px;
+    background: transparent; color: var(--muted); font-size: 14px;
+    font-weight: 600; font-family: var(--font); cursor: pointer;
+    transition: all 0.15s; text-transform: capitalize;
+  }
+  .tab.active { background: var(--primary); color: #fff; }
+  .tab:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .call-card {
+    background: var(--success-bg); border: 1px solid var(--success-border);
+    border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 20px;
+  }
+  .call-primary {
+    display: flex; align-items: center; gap: 14px;
+    padding: 20px; text-decoration: none; color: inherit;
+  }
+  .call-primary:hover { background: #d1fae5; }
+  .call-circle {
+    width: 48px; height: 48px; background: #d1fae5;
+    border-radius: 12px; display: flex; align-items: center;
+    justify-content: center; flex-shrink: 0;
+  }
+  .call-circle svg { width: 24px; height: 24px; color: var(--success); }
+  .call-label { font-size: 12px; font-weight: 600; color: var(--success-text); }
+  .call-num { font-size: 22px; font-weight: 700; color: var(--success-text); margin-top: 2px; }
+
+  .call-alt {
+    display: flex; align-items: center; gap: 10px;
+    padding: 14px 20px; border-top: 1px solid var(--success-border);
+    text-decoration: none; color: inherit; transition: background 0.15s;
+  }
+  .call-alt:hover { background: #d1fae5; }
+  .call-alt svg { width: 16px; height: 16px; color: var(--success); flex-shrink: 0; }
+  .call-alt span { font-size: 14px; font-weight: 500; color: var(--success-text); }
+
+  .info-grid { display: grid; gap: 12px; margin-bottom: 24px; }
+  .info-card {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 16px; border-radius: var(--radius);
+    transition: background 0.15s; text-decoration: none; color: inherit;
+  }
+  .info-card.email { background: var(--surface); border: 1px solid var(--border); }
+  .info-card.email:hover { background: #e2e8f0; }
+  .info-card.web { background: var(--primary-50); border: 1px solid var(--primary-100); }
+  .info-card.web:hover { background: var(--primary-100); }
+  .ic-icon {
+    width: 36px; height: 36px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .info-card.email .ic-icon { background: #e2e8f0; }
+  .info-card.web .ic-icon { background: var(--primary-100); color: var(--primary-dark); }
+  .ic-icon svg { width: 18px; height: 18px; }
+  .info-card.email svg { color: var(--muted); }
+  .info-card.web svg { color: var(--primary-dark); }
+  .ic-label { font-size: 11px; font-weight: 600; color: var(--subtle); text-transform: uppercase; letter-spacing: 0.04em; }
+  .ic-value { font-size: 14px; font-weight: 500; margin-top: 1px; word-break: break-all; }
+
+  .app-links { display: grid; gap: 10px; margin-bottom: 24px; }
+  .app-link {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 16px; border-radius: var(--radius);
+    background: var(--surface); border: 1px solid var(--border);
+    text-decoration: none; color: var(--ink);
+    transition: all 0.15s; font-size: 13px; font-weight: 500;
+  }
+  .app-link:hover { border-color: var(--primary); box-shadow: var(--shadow); }
+  .app-link svg { width: 18px; height: 18px; color: var(--muted); flex-shrink: 0; }
+
+  .notes-box {
+    padding: 16px; border-radius: var(--radius); margin-bottom: 24px;
+    background: var(--surface); border: 1px solid var(--border);
+  }
+  .notes-box p { font-size: 14px; color: var(--muted); line-height: 1.6; margin: 0; }
+
+  .sources-section { margin-top: 24px; }
+  .sources-section h3 { font-size: 14px; font-weight: 600; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .s-link { display: inline-block; font-size: 13px; color: var(--primary); text-decoration: none; margin-right: 8px; margin-bottom: 4px; }
+  .s-link:hover { text-decoration: underline; }
+
+  .loading-state { text-align: center; padding: 64px 20px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="detail-body" x-data="detailApp"
+     x-init="loadBank('{{ bank_id }}')">
+
+  <a href="/" class="back-link">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    Back to all banks
+  </a>
+
+  <!-- Loading -->
+  <div class="loading-state" x-show="loading">
+    <div class="spinner"></div>
+    <p style="font-size:14px;color:var(--muted);margin-top:12px;">Loading bank details...</p>
+  </div>
+
+  <!-- Error -->
+  <div class="loading-state" x-show="error" x-cloak>
+    <p style="font-size:16px;color:var(--danger);font-weight:600;">Bank not found</p>
+    <p style="font-size:14px;color:var(--muted);margin-top:8px;" x-text="error"></p>
+    <a href="/" style="margin-top:16px;display:inline-block;padding:10px 20px;border-radius:8px;background:var(--primary);color:#fff;text-decoration:none;font-weight:600;">Browse All Banks</a>
+  </div>
+
+  <!-- Detail content -->
+  <div x-show="bank && !loading" x-cloak>
+    <div class="detail-header">
+      <div class="dh-logo" x-show="bank.logo"><img :src="bank.logo" :alt="bank.name"></div>
+      <div>
+        <h1 x-text="bank.name"></h1>
+        <p class="dh-meta" x-show="bank.lastVerified">Last verified: <span x-text="bank.lastVerified"></span></p>
+      </div>
+    </div>
+
+    <!-- Card type tabs -->
+    <div class="tabs">
+      <button class="tab" :class="{active: activeTab === 'credit'}"
+              :disabled="!bank.blockingInstructions?.credit"
+              @click="activeTab = 'credit'">Credit Card</button>
+      <button class="tab" :class="{active: activeTab === 'debit'}"
+              :disabled="!bank.blockingInstructions?.debit"
+              @click="activeTab = 'debit'">Debit Card</button>
+    </div>
+
+    <template x-for="tabName in ['credit', 'debit']" :key="tabName">
+      <div x-show="activeTab === tabName && bank.blockingInstructions?.[tabName]">
+        <template x-if="inst = bank.blockingInstructions[tabName]">
+          <div>
+            <!-- Primary toll-free -->
+            <div class="call-card">
+              <a :href="'tel:' + (inst.tollFree || '').replace(/[^0-9+]/g,'')" class="call-primary">
+                <div class="call-circle">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="call-label">Toll-Free Number</div>
+                  <div class="call-num" x-text="inst.tollFree || '—'"></div>
+                </div>
+              </a>
+
+              <template x-if="inst.number1">
+                <a :href="'tel:' + (inst.number1).replace(/[^0-9+]/g,'')" class="call-alt">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <span>Alt: <span x-text="inst.number1"></span></span>
+                </a>
+              </template>
+              <template x-if="inst.number2">
+                <a :href="'tel:' + (inst.number2).replace(/[^0-9+]/g,'')" class="call-alt">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <span>Alt 2: <span x-text="inst.number2"></span></span>
+                </a>
+              </template>
+            </div>
+
+            <!-- Email & Website -->
+            <div class="info-grid">
+              <template x-if="inst.email">
+                <a class="info-card email" :href="'mailto:' + inst.email">
+                  <div class="ic-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div><div class="ic-label">Email</div><div class="ic-value" x-text="inst.email"></div></div>
+                </a>
+              </template>
+              <template x-if="inst.website">
+                <a class="info-card web" :href="inst.website" target="_blank">
+                  <div class="ic-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  </div>
+                  <div><div class="ic-label">Website</div><div class="ic-value" x-text="inst.website"></div></div>
+                </a>
+              </template>
+            </div>
+
+            <!-- App downloads -->
+            <div class="app-links">
+              <template x-if="inst.androidApp">
+                <a class="app-link" :href="inst.androidApp" target="_blank">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.182 21.544l8.463-4.886-8.463-4.886V21.544zm3.64-9.506L14.459 12l-7.637 4.004 4.723 7.534a.418.418 0 00.34.158.4.4 0 00.158-.04L23.138 12 .043.346A.394.394 0 000 .383v11.115zm14.858 1.031l2.852 1.647a.997.997 0 010 1.725l-2.852 1.648-3.614-2.51 3.614-2.51z"/></svg>
+                  Download Android App
+                </a>
+              </template>
+              <template x-if="inst.iosApp">
+                <a class="app-link" :href="inst.iosApp" target="_blank">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                  Download iOS App
+                </a>
+              </template>
+            </div>
+
+            <!-- Notes -->
+            <template x-if="inst.notes">
+              <div class="notes-box">
+                <p x-text="inst.notes"></p>
+              </div>
+            </template>
+
+            <!-- SMS command -->
+            <template x-if="inst.rmn">
+              <div class="notes-box">
+                <p><strong>SMS Command:</strong> <code x-text="inst.rmn"></code></p>
+              </div>
+            </template>
+          </div>
+        </template>
+      </div>
+    </template>
+
+    <!-- Sources -->
+    <div class="sources-section" x-show="bank.sources && bank.sources.length">
+      <h3>Sources</h3>
+      <template x-for="(src, i) in bank.sources" :key="i">
+        <div>
+          <a class="s-link" :href="src.url" target="_blank" x-text="src.label"></a>
+          <span x-show="src.verified" class="badge" style="margin-left:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Verified</span>
+        </div>
+      </template>
+    </div>
+  </div>
+</div>
+{% endblock %}
