@@ -354,6 +354,7 @@
 
 <!-- Common JS -->
 <script defer src="/static/app.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <script>
 // ── Theme Toggle ──
 (function() {
@@ -388,7 +389,7 @@
 // Fetch stats for nav bar
 (async () => {
     try {
-        const res = await fetch('/api/v1/banks');
+        const res = await fetch('/api/v1/banks/');
         if (res.ok) {
             const banks = await res.json();
             const el = document.getElementById('nav-bank-count');
