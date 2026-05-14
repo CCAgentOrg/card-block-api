@@ -1,137 +1,151 @@
 {% extends "base.html" %}
 
 {% block nav_about %}active{% endblock %}
+{% block nav_about_m %}active{% endblock %}
 
 {% block title %}Card Block — About{% endblock %}
 
 {% block extra_head %}
 <style>
-  .about-hero {
-    background: var(--hero-bg);
-    color: #fff; padding: 48px 24px 40px; text-align: center;
-  }
-  .about-hero h1 {
-    font-size: clamp(28px, 4vw, 40px); font-weight: 800;
-    letter-spacing: -0.03em; margin-bottom: 12px;
-  }
-  .about-hero .subtitle {
-    font-size: 17px; color: var(--subtle); max-width: 560px;
-    margin: 0 auto; line-height: 1.6;
-  }
+ .about-hero {
+ background: var(--hero-bg);
+ color: #fff; padding: 40px 16px 32px; text-align: center;
+ }
+ @media (min-width: 768px) {
+ .about-hero { padding: 48px 24px 40px; }
+ }
+ .about-hero h1 {
+ font-size: clamp(26px, 5vw, 40px); font-weight: 800;
+ letter-spacing: -0.03em; margin-bottom: 12px;
+ }
+ .about-hero .subtitle {
+ font-size: clamp(14px, 2vw, 17px); color: var(--subtle); max-width: 560px;
+ margin: 0 auto; line-height: 1.6;
+ }
 
-  .about-body { max-width: 720px; margin: 0 auto; padding-top: 32px; }
-  .about-body h2 { font-size: 20px; font-weight: 700; margin-top: 28px; margin-bottom: 12px; }
-  .about-body p { color: var(--muted); line-height: 1.7; margin-bottom: 16px; font-size: 15px; }
-  .about-body a { color: var(--primary); text-decoration: none; }
-  .about-body a:hover { text-decoration: underline; }
+ .about-body { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+ @media (min-width: 768px) {
+ .about-body { padding-top: 32px; padding-left: 0; padding-right: 0; }
+ }
+ .about-body h2 { font-size: 20px; font-weight: 700; margin-top: 28px; margin-bottom: 12px; }
+ .about-body p { color: var(--muted); line-height: 1.7; margin-bottom: 16px; font-size: 15px; }
+ .about-body a { color: var(--primary); text-decoration: none; }
+ .about-body a:hover { text-decoration: underline; }
 
-  .stat-row {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 12px; margin: 24px 0;
-  }
-  .stat-card {
-    padding: 20px; border-radius: var(--radius);
-    background: #fff; border: 1px solid var(--border); text-align: center;
-  }
-  .stat-card .sv { font-size: 28px; font-weight: 800; color: var(--primary); letter-spacing: -0.02em; }
-  .stat-card .sl { font-size: 13px; color: var(--muted); margin-top: 4px; }
+ .stat-row {
+ display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+ gap: 10px; margin: 24px 0;
+ }
+ .stat-card {
+ padding: 18px; border-radius: var(--radius);
+ background: var(--card); border: 1px solid var(--border); text-align: center;
+ }
+ .stat-card .sv { font-size: 28px; font-weight: 800; color: var(--primary); letter-spacing: -0.02em; }
+ .stat-card .sl { font-size: 13px; color: var(--muted); margin-top: 4px; }
 
-  .feature-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px; margin: 24px 0;
-  }
-  .feature-item {
-    padding: 16px; border-radius: var(--radius);
-    background: var(--primary-50); border: 1px solid var(--primary-100);
-  }
-  .feature-item h3 { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
-  .feature-item p { font-size: 13px; color: var(--muted); margin: 0; line-height: 1.5; }
+ .feature-grid {
+ display: grid; grid-template-columns: 1fr; gap: 12px; margin: 24px 0;
+ }
+ @media (min-width: 480px) {
+ .feature-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+ }
+ .feature-item {
+ padding: 16px; border-radius: var(--radius);
+ background: var(--primary-50); border: 1px solid var(--primary-100);
+ }
+ .feature-item h3 { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+ .feature-item p { font-size: 13px; color: var(--muted); margin: 0; line-height: 1.5; }
 
-  .cta-box {
-    display: flex; align-items: center; gap: 16px; padding: 20px;
-    border-radius: var(--radius-lg);
-    background: var(--ink); color: #fff; margin: 24px 0;
-  }
-  .cta-box .cta-text h3 { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
-  .cta-box .cta-text p { font-size: 13px; color: var(--subtle); margin: 0; }
-  .cta-btn {
-    margin-left: auto; padding: 10px 20px; border-radius: 8px;
-    background: var(--primary); color: #fff; text-decoration: none;
-    font-weight: 600; font-size: 14px; white-space: nowrap;
-  }
-  .cta-btn:hover { background: var(--primary-dark); text-decoration: none; }
+ .cta-box {
+ display: flex; flex-direction: column; gap: 16px; padding: 20px;
+ border-radius: var(--radius-lg);
+ background: var(--nav-bg); color: #fff; margin: 24px 0;
+ align-items: flex-start;
+ }
+ @media (min-width: 640px) {
+ .cta-box { flex-direction: row; align-items: center; }
+ }
+ .cta-box .cta-text h3 { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+ .cta-box .cta-text p { font-size: 13px; color: var(--subtle); margin: 0; }
+ .cta-btn {
+ padding: 10px 20px; border-radius: 8px;
+ background: var(--primary); color: #fff; text-decoration: none;
+ font-weight: 600; font-size: 14px; white-space: nowrap;
+ text-align: center;
+ }
+ .cta-btn:hover { background: var(--primary-dark); text-decoration: none; }
 </style>
 {% endblock %}
 
 {% block content %}
 <div class="about-hero">
-  <h1>About <span style="color:var(--primary)">Card Block</span></h1>
-  <p class="subtitle">A free, open-data tool to help Indian consumers quickly find card blocking numbers when their credit or debit cards are lost or stolen.</p>
+ <h1>About <span style="color:var(--primary)">Card Block</span></h1>
+ <p class="subtitle">A free, open-data tool to help Indian consumers quickly find card blocking numbers when their credit or debit cards are lost or stolen.</p>
 </div>
 
-<div class="about-body" style="padding-bottom:48px;">
-  <p>Every year, millions of bank cards in India are misplaced, lost, or stolen. The first 60 minutes after losing a card are critical — but most people waste time searching for the right toll-free number. Card Block solves this by providing a single, verified source of truth.</p>
+<div class="about-body">
+ <p>Every year, millions of bank cards in India are misplaced, lost, or stolen. The first 60 minutes after losing a card are critical — but most people waste time searching for the right toll-free number. Card Block solves this by providing a single, verified source of truth.</p>
 
-  <h2>Our Mission</h2>
-  <p>We believe financial emergency information should be free, open, and instantly accessible. Card Block is an open data project maintained by <a href="https://cashlessconsumer.in" target="_blank">Cashless Consumer</a> — a non-profit consumer advocacy group working to protect digital payment users in India.</p>
+ <h2>Our Mission</h2>
+ <p>We believe financial emergency information should be free, open, and instantly accessible. Card Block is an open data project maintained by <a href="https://cashlessconsumer.in" target="_blank">Cashless Consumer</a> — a non-profit consumer advocacy group working to protect digital payment users in India.</p>
 
-  <!-- Stats -->
-  <div class="stat-row" x-data x-init="
-    (async () => {
-      try { const r = await fetch('/api/v1/banks/stats'); if(r.ok){const d=await r.json();$store=a=$store||{}; d=$event.detail=d;}} catch(e){}
-    })()
-  ">
-    <div class="stat-card">
-      <div class="sv">115+</div>
-      <div class="sl">Banks Covered</div>
-    </div>
-    <div class="stat-card">
-      <div class="sv">🇮🇳</div>
-      <div class="sl">India-Wide</div>
-    </div>
-    <div class="stat-card">
-      <div class="sv">24×7</div>
-      <div class="sl">Always Accessible</div>
-    </div>
-  </div>
+ <!-- Stats -->
+ <div class="stat-row" x-data x-init="
+ (async () => {
+ try { const r = await fetch('/api/v1/banks/stats'); if(r.ok){const d=await r.json();$store=a=$store||{}; d=$event.detail=d;}} catch(e){}
+ })()
+ ">
+ <div class="stat-card">
+ <div class="sv">115+</div>
+ <div class="sl">Banks Covered</div>
+ </div>
+ <div class="stat-card">
+ <div class="sv">🇮🇳</div>
+ <div class="sl">India-Wide</div>
+ </div>
+ <div class="stat-card">
+ <div class="sv">24×7</div>
+ <div class="sl">Always Accessible</div>
+ </div>
+ </div>
 
-  <h2>What We Cover</h2>
-  <div class="feature-grid">
-    <div class="feature-item">
-      <h3>📞 Toll-Free Numbers</h3>
-      <p>Primary &amp; alternate card blocking hotlines for every bank.</p>
-    </div>
-    <div class="feature-item">
-      <h3>✉️ Email &amp; Website</h3>
-      <p>Official email addresses and online portals for card management.</p>
-    </div>
-    <div class="feature-item">
-      <h3>📱 App Instructions</h3>
-      <p>Direct links to bank apps with step-by-step blocking guides.</p>
-    </div>
-    <div class="feature-item">
-      <h3>🔍 BIN Lookup</h3>
-      <p>Enter first 6 digits of your card to find which bank issued it.</p>
-    </div>
-  </div>
+ <h2>What We Cover</h2>
+ <div class="feature-grid">
+ <div class="feature-item">
+ <h3>📞 Toll-Free Numbers</h3>
+ <p>Primary &amp; alternate card blocking hotlines for every bank.</p>
+ </div>
+ <div class="feature-item">
+ <h3>✉️ Email &amp; Website</h3>
+ <p>Official email addresses and online portals for card management.</p>
+ </div>
+ <div class="feature-item">
+ <h3>📱 App Instructions</h3>
+ <p>Direct links to bank apps with step-by-step blocking guides.</p>
+ </div>
+ <div class="feature-item">
+ <h3>🔍 BIN Lookup</h3>
+ <p>Enter first 6 digits of your card to find which bank issued it.</p>
+ </div>
+ </div>
 
-  <h2>How to Contribute</h2>
-  <p>Card Block is open-source under the MIT License. You can help by:</p>
-  <ul style="color:var(--muted);line-height:2;padding-left:20px;">
-    <li>Submitting updated bank numbers via <a href="https://cashlessconsumer.in" target="_blank">Cashless Consumer</a></li>
-    <li>Adding new banks to the dataset</li>
-    <li>Contributing code on <a href="https://github.com/CCAgentOrg/card-block-api" target="_blank">GitHub</a></li>
-    <li>Reporting outdated or incorrect information</li>
-  </ul>
+ <h2>How to Contribute</h2>
+ <p>Card Block is open-source under the MIT License. You can help by:</p>
+ <ul style="color:var(--muted);line-height:2;padding-left:20px;">
+ <li>Submitting updated bank numbers via <a href="https://cashlessconsumer.in" target="_blank">Cashless Consumer</a></li>
+ <li>Adding new banks to the dataset</li>
+ <li>Contributing code on <a href="https://github.com/CCAgentOrg/card-block-api" target="_blank">GitHub</a></li>
+ <li>Reporting outdated or incorrect information</li>
+ </ul>
 
-  <div class="cta-box">
-    <div class="cta-text">
-      <h3>Contribute on GitHub</h3>
-      <p>Help us keep this data accurate and up-to-date.</p>
-    </div>
-    <a href="https://github.com/CCAgentOrg/card-block-api" target="_blank" class="cta-btn">View Repo →</a>
-  </div>
+ <div class="cta-box">
+ <div class="cta-text">
+ <h3>Contribute on GitHub</h3>
+ <p>Help us keep this data accurate and up-to-date.</p>
+ </div>
+ <a href="https://github.com/CCAgentOrg/card-block-api" target="_blank" class="cta-btn">View Repo →</a>
+ </div>
 
-  <p style="font-size:13px;color:var(--subtle);margin-top:32px;">All data is verified through official bank sources and publicly available references. Last verified dates are listed per-bank. Data licensed under <a href="/disclaimer">MIT License</a>.</p>
+ <p style="font-size:13px;color:var(--subtle);margin-top:32px;">All data is verified through official bank sources and publicly available references. Last verified dates are listed per-bank. Data licensed under <a href="/disclaimer">MIT License</a>.</p>
 </div>
 {% endblock %}
