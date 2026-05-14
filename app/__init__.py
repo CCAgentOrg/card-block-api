@@ -1,7 +1,10 @@
 import os
 import json
-from flask import Flask, send_from_directory, render_template, Response, current_app
+import time
+from flask import Flask, send_from_directory, render_template, Response, current_app, request, g
 from flask_restx import Api
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 from .config import Config
 
 
@@ -47,6 +50,35 @@ def create_app(config_class=Config):
     api.add_namespace(banks_ns, path='/banks')
     api.add_namespace(export_ns, path='/export')
     api.add_namespace(bins_ns, path='/bins')
+
+    # ── Rate Limiting ──
+    limiter = Limiter(
+        app=app,
+        key_func=get_remote_address,
+        default_limits=["200 per day", "50 per hour"],
+        storage_uri="memory://",
+        strategy="fixed-window"
+    )
+
+    # ── Monitoring / Metrics ──
+    @app.after_request
+    def monitor_response(response):
+        response.headers['X-Response-Time'] = f'{(1000 * (time.time() - g.start)): .1f}ms' if hasattr(g, 'start') else ''
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        return response
+
+    @app.before_request
+    def before_req():
+        g.start = time.time()
+
+    @app.route('/api/v1/metrics')
+    def metrics():
+        """Health check + basic monitoring metrics."""
+        banks_store = current_app.config.get('BANK_DATA', {})
+        return {
+            'status': 'healthy',
+            'totalBanks': len(banks_store)
+        }
 
     @app.route('/')
     def serve_ui():
