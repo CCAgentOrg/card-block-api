@@ -95,18 +95,19 @@
 {% endblock %}
 
 {% block content %}
+<div x-data="binApp">
 <div class="hero-bin">
  <h1>Find Your <span class="accent">Bank by Card</span></h1>
  <p class="subtitle">Enter the first 6 digits of your card number (the BIN prefix) to find which bank issued it and how to block your card.</p>
  <div class="bin-input-wrap">
  <svg class="bin-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="3"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
  <input type="text" maxlength="6" inputmode="numeric" pattern="[0-9]*" placeholder="Enter 6-digit BIN"
- x-data x-model="binQuery" @input.debounce.400ms="if(binQuery.length >= 6) lookup()">
+ x-model="binQuery" @input.debounce.400ms="if(binQuery.length >= 6) lookup()">
  </div>
  <p class="bin-hint">Only the first 6 digits are needed — these identify the issuing bank.</p>
 </div>
 
-<div class="content" x-data="binApp">
+<div class="content">
  <div class="result-area">
  <!-- Loading -->
  <div class="state" x-show="loading">
@@ -166,5 +167,6 @@
  </a>
  </div>
  </div>
+</div>
 </div>
 {% endblock %}
