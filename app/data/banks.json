@@ -35,41 +35,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "410481",
-        "cardType": "Visa"
-      },
-      {
-        "start": "414366",
-        "cardType": "Visa"
-      },
-      {
-        "start": "453478",
-        "cardType": "Visa"
-      },
-      {
-        "start": "524632",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "527423",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "527978",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "652174",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "607161",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "bob": {
     "id": "bob",
@@ -106,21 +72,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "607152",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "652160",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "556598",
-        "cardType": "Mastercard"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "icici": {
     "id": "icici",
@@ -161,41 +113,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "438851",
-        "cardType": "Visa"
-      },
-      {
-        "start": "438852",
-        "cardType": "Visa"
-      },
-      {
-        "start": "468202",
-        "cardType": "Visa"
-      },
-      {
-        "start": "468203",
-        "cardType": "Visa"
-      },
-      {
-        "start": "537696",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "546376",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "652158",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "607190",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "kotak": {
     "id": "kotak",
@@ -231,33 +149,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "404270",
-        "cardType": "Visa"
-      },
-      {
-        "start": "418297",
-        "cardType": "Visa"
-      },
-      {
-        "start": "466966",
-        "cardType": "Visa"
-      },
-      {
-        "start": "537266",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "537685",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "652164",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "sbi": {
     "id": "sbi",
@@ -300,29 +192,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "420852",
-        "cardType": "Visa"
-      },
-      {
-        "start": "607152",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "607094",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "557331",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "652161",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "hdfc": {
     "id": "hdfc",
@@ -365,57 +235,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "403965",
-        "cardType": "Visa"
-      },
-      {
-        "start": "414366",
-        "cardType": "Visa"
-      },
-      {
-        "start": "414367",
-        "cardType": "Visa"
-      },
-      {
-        "start": "420791",
-        "cardType": "Visa"
-      },
-      {
-        "start": "427923",
-        "cardType": "Visa"
-      },
-      {
-        "start": "453478",
-        "cardType": "Visa"
-      },
-      {
-        "start": "491748",
-        "cardType": "Visa"
-      },
-      {
-        "start": "515676",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "515678",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "527870",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "652175",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "607052",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "yes_bank": {
     "id": "yes_bank",
@@ -452,17 +272,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "468211",
-        "cardType": "Visa"
-      },
-      {
-        "start": "550546",
-        "cardType": "Mastercard"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "indusind": {
     "id": "indusind",
@@ -498,25 +308,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "410999",
-        "cardType": "Visa"
-      },
-      {
-        "start": "468209",
-        "cardType": "Visa"
-      },
-      {
-        "start": "550534",
-        "cardType": "Mastercard"
-      },
-      {
-        "start": "652172",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "idfc_first": {
     "id": "idfc_first",
@@ -552,17 +344,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "403444",
-        "cardType": "Visa"
-      },
-      {
-        "start": "652176",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "pnb": {
     "id": "pnb",
@@ -600,21 +382,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "607046",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "652162",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "470001",
-        "cardType": "Visa"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "rbl": {
     "id": "rbl",
@@ -1136,21 +904,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "607093",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "652167",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "556560",
-        "cardType": "Mastercard"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "union": {
     "id": "union",
@@ -1187,17 +941,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "607091",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "652159",
-        "cardType": "RuPay"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "idbi": {
     "id": "idbi",
@@ -1234,17 +978,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12",
-    "binRanges": [
-      {
-        "start": "607190",
-        "cardType": "RuPay"
-      },
-      {
-        "start": "540227",
-        "cardType": "Mastercard"
-      }
-    ]
+    "lastVerified": "2026-05-12"
   },
   "equitas_small_finance": {
     "id": "equitas_small_finance",
