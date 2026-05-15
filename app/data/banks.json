@@ -3961,5 +3961,343 @@
       }
     ],
     "lastVerified": "2025-05-14"
+  },
+  "prathama_bank": {
+    "id": "prathama_bank",
+    "name": "Prathama UP Gramin Bank",
+    "logo": "/static/logos/prathama_bank.svg",
+    "ifsc": "PUNB0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-180-2222",
+        "number1": "0120-2461100",
+        "email": "info@prathamaupgb.com",
+        "website": "https://www.pragbank.in",
+        "notes": "Sponsored by Punjab National Bank. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Prathama Bank Official",
+        "url": "https://www.pragbank.in"
+      },
+      {
+        "label": "PNB RRB",
+        "url": "https://www.pnbindia.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "baroda_gujarat_gramin": {
+    "id": "baroda_gujarat_gramin",
+    "name": "Baroda Gujarat Gramin Bank",
+    "logo": "/static/logos/baroda_gujarat_gramin.svg",
+    "ifsc": "BARB0GUJA00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-233-4566",
+        "number1": "0265-2360650",
+        "email": "bggb@bankofbaroda.co.in",
+        "website": "https://www.bggb.in",
+        "notes": "Sponsored by Bank of Baroda. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Baroda Gujarat Gramin Bank",
+        "url": "https://www.bggb.in"
+      },
+      {
+        "label": "Bank of Baroda RRB",
+        "url": "https://www.bankofbaroda.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "baroda_rajasthan_gramin": {
+    "id": "baroda_rajasthan_gramin",
+    "name": "Baroda Rajasthan Gramin Bank",
+    "logo": "/static/logos/baroda_rajasthan_gramin.svg",
+    "ifsc": "BARB0RAJK00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-233-4566",
+        "number1": "0141-2741154",
+        "email": "brgb@bankofbaroda.co.in",
+        "website": "https://www.barodarajasthan.com",
+        "notes": "Sponsored by Bank of Baroda. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Baroda Rajasthan Kshetriya Gramin Bank",
+        "url": "https://www.barodarajasthan.com"
+      },
+      {
+        "label": "Bank of Baroda RRB",
+        "url": "https://www.bankofbaroda.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "madhya_pradesh_gramin": {
+    "id": "madhya_pradesh_gramin",
+    "name": "Madhya Pradesh Gramin Bank",
+    "logo": "/static/logos/madhya_pradesh_gramin.svg",
+    "ifsc": "SBIN0MPGB00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-425-3800",
+        "number1": "0731-2526161",
+        "email": "mpgbho@mpgb.in",
+        "website": "https://www.mpgb.in",
+        "notes": "Sponsored by State Bank of India. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "MP Gramin Bank Official",
+        "url": "https://www.mpgb.in"
+      },
+      {
+        "label": "SBI RRB",
+        "url": "https://www.sbi.co.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "maharashtra_gramin": {
+    "id": "maharashtra_gramin",
+    "name": "Maharashtra Gramin Bank",
+    "logo": "/static/logos/maharashtra_gramin.svg",
+    "ifsc": "MAHB0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-233-7905",
+        "number1": "0240-2337926",
+        "email": "mahagramin@mahagramin.in",
+        "website": "https://www.mahagramin.in",
+        "notes": "Sponsored by Bank of Maharashtra. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Maharashtra Gramin Bank",
+        "url": "https://www.mahagramin.in"
+      },
+      {
+        "label": "Bank of Maharashtra RRB",
+        "url": "https://www.bankofmaharashtra.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "rajasthan_marudhara_gramin": {
+    "id": "rajasthan_marudhara_gramin",
+    "name": "Rajasthan Marudhara Gramin Bank",
+    "logo": "/static/logos/rajasthan_marudhara_gramin.svg",
+    "ifsc": "RMGB0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-233-4526",
+        "number1": "01522-262048",
+        "email": "rmgb@rmgb.in",
+        "website": "https://www.rmgb.in",
+        "notes": "Sponsored by Bank of Maharashtra. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Rajasthan Marudhara Gramin Bank",
+        "url": "https://www.rmgb.in"
+      },
+      {
+        "label": "RBI RRB List",
+        "url": "https://www.rbi.org.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "bihar_gramin": {
+    "id": "bihar_gramin",
+    "name": "Bihar Gramin Bank",
+    "logo": "/static/logos/bihar_gramin.svg",
+    "ifsc": "UCBA0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-274-0123",
+        "number1": "0612-2220026",
+        "email": "contact@bihargraminbank.in",
+        "website": "https://www.bihargraminbank.in",
+        "notes": "Sponsored by UCO Bank. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Bihar Gramin Bank",
+        "url": "https://www.bihargraminbank.in"
+      },
+      {
+        "label": "UCO Bank RRB",
+        "url": "https://www.ucobank.com"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "purvanchal_gramin": {
+    "id": "purvanchal_gramin",
+    "name": "Purvanchal Gramin Bank",
+    "logo": "/static/logos/purvanchal_gramin.svg",
+    "ifsc": "PUNB0PVGB00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-180-2222",
+        "number1": "0551-2230066",
+        "email": "info@pgbonline.in",
+        "website": "https://www.pgbonline.in",
+        "notes": "Sponsored by Punjab National Bank. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Purvanchal Gramin Bank",
+        "url": "https://www.pgbonline.in"
+      },
+      {
+        "label": "PNB RRB",
+        "url": "https://www.pnbindia.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "dakshin_bihar_gramin": {
+    "id": "dakshin_bihar_gramin",
+    "name": "Dakshin Bihar Gramin Bank",
+    "logo": "/static/logos/dakshin_bihar_gramin.svg",
+    "ifsc": "UCBA0DBG00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-274-0123",
+        "number1": "0612-2500200",
+        "email": "info@dakshinbihargraminbank.com",
+        "website": "https://www.dbgb.in",
+        "notes": "Sponsored by UCO Bank. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Dakshin Bihar Gramin Bank",
+        "url": "https://www.dbgb.in"
+      },
+      {
+        "label": "UCO Bank RRB",
+        "url": "https://www.ucobank.com"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "aryavart_bank": {
+    "id": "aryavart_bank",
+    "name": "Aryavart Bank",
+    "logo": "/static/logos/aryavart_bank.svg",
+    "ifsc": "PUNB0ARYA00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-180-2222",
+        "number1": "0581-2521000",
+        "email": "info@aryavartbank.in",
+        "website": "https://www.aryavartbank.in",
+        "notes": "Merged RRB in UP (sponsored by PNB). Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Aryavart Bank Official",
+        "url": "https://www.aryavartbank.in"
+      },
+      {
+        "label": "PNB RRB",
+        "url": "https://www.pnbindia.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "chhattisgarh_rajya_gramin": {
+    "id": "chhattisgarh_rajya_gramin",
+    "name": "Chhattisgarh Rajya Gramin Bank",
+    "logo": "/static/logos/chhattisgarh_rajya_gramin.svg",
+    "ifsc": "SBIN0CRGB00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-425-3800",
+        "number1": "0771-2234515",
+        "email": "crsbi@cggb.in",
+        "website": "https://www.crrb.in",
+        "notes": "Sponsored by State Bank of India. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Chhattisgarh Rajya Gramin Bank",
+        "url": "https://www.crrb.in"
+      },
+      {
+        "label": "SBI RRB",
+        "url": "https://www.sbi.co.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "madhyanchal_gramin": {
+    "id": "madhyanchal_gramin",
+    "name": "Madhyanchal Gramin Bank",
+    "logo": "/static/logos/madhyanchal_gramin.svg",
+    "ifsc": "SBIN0JMGB00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-425-3800",
+        "number1": "0731-2529611",
+        "email": "mgbbhopal@sbi.co.in",
+        "website": "https://www.mgbbhopal.com",
+        "notes": "Sponsored by State Bank of India (MP region). Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Madhyanchal Gramin Bank",
+        "url": "https://www.mgbbhopal.com"
+      },
+      {
+        "label": "SBI RRB",
+        "url": "https://www.sbi.co.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
+  },
+  "jharkhand_rajya_gramin": {
+    "id": "jharkhand_rajya_gramin",
+    "name": "Jharkhand Rajya Gramin Bank",
+    "logo": "/static/logos/jharkhand_rajya_gramin.svg",
+    "ifsc": "SBIN0JRGB00",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-425-3800",
+        "number1": "0651-2330162",
+        "email": "jrgb@jrgb.in",
+        "website": "https://www.jrgb.in",
+        "notes": "Sponsored by State Bank of India. Issues RuPay debit cards only."
+      }
+    },
+    "sources": [
+      {
+        "label": "Jharkhand Rajya Gramin Bank",
+        "url": "https://www.jrgb.in"
+      },
+      {
+        "label": "SBI RRB",
+        "url": "https://www.sbi.co.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
   }
 }
