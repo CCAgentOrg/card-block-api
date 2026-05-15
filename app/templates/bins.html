@@ -7,8 +7,6 @@
 
 {% block extra_head %}
 <style>
- [x-cloak] { display: none !important; }
-
  .hero-bin {
  background: var(--hero-bg);
  color: #fff; padding: 40px 16px 32px; text-align: center;
@@ -20,153 +18,50 @@
  font-size: clamp(26px, 5vw, 40px); font-weight: 800;
  letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 12px;
  }
- .hero-bin h1 .accent { color: var(--primary); }
  .hero-bin .subtitle {
- font-size: clamp(14px, 2vw, 18px);
- color: var(--subtle); max-width: 540px;
- margin: 0 auto 28px; line-height: 1.6;
- }
- .bin-input-wrap {
- max-width: 440px; margin: 0 auto; position: relative;
- }
- .bin-input-wrap input {
- width: 100%; padding: 18px 20px 18px 52px;
- border: 2px solid rgba(255,255,255,0.12);
- border-radius: var(--radius);
- background: rgba(255,255,255,0.08);
- color: #fff; font-size: clamp(20px, 4vw, 24px); font-family: var(--font);
- letter-spacing: 0.15em; text-align: center;
- outline: none; transition: all 0.2s;
- }
- .bin-input-wrap input::placeholder { color: var(--subtle); letter-spacing: 0; font-size: 16px; }
- .bin-input-wrap input:focus {
- border-color: var(--primary);
- background: rgba(255,255,255,0.12);
- box-shadow: 0 0 0 4px rgba(14,165,233,0.15);
- }
- .bin-svg {
- position: absolute; left: 18px; top: 50%; transform: translateY(-50%);
- width: 22px; height: 22px; color: var(--subtle); pointer-events: none;
- }
- .bin-hint {
- text-align: center; font-size: 13px; color: var(--subtle); margin-top: 10px;
+ font-size: clamp(14px, 2vw, 17px); color: var(--subtle); max-width: 540px;
+ margin: 0 auto; line-height: 1.6;
  }
 
- .result-area { max-width: 600px; margin: 28px auto 0; }
-
- .bin-result-card {
- background: var(--card); border: 1px solid var(--border);
- border-radius: var(--radius-lg); padding: 20px; color: var(--ink);
+ .coming-soon {
+ max-width: 600px; margin: 48px auto; text-align: center; padding: 0 16px;
  }
- @media (min-width: 768px) {
- .bin-result-card { padding: 24px; }
+ .coming-soon-icon {
+ width: 64px; height: 64px; margin: 0 auto 20px;
+ border-radius: 16px; background: var(--primary-50);
+ display: flex; align-items: center; justify-content: center;
  }
- .bin-result-head { display: flex; gap: 14px; align-items: center; margin-bottom: 16px; }
- .bin-result-head .bl {
- width: 52px; height: 52px; border-radius: 10px;
- background: var(--surface); border: 1px solid var(--border);
- display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden;
+ .coming-soon-icon svg { width: 32px; height: 32px; color: var(--primary); }
+ .coming-soon h2 { font-size: 22px; font-weight: 700; margin-bottom: 12px; }
+ .coming-soon p { font-size: 15px; color: var(--muted); line-height: 1.7; margin-bottom: 16px; }
+ .coming-soon .hint {
+ font-size: 13px; color: var(--subtle); margin-top: 24px;
  }
- .bin-result-head .bl img { width: 32px; height: 32px; object-fit: contain; }
- .bin-result-head .rname { font-size: 18px; font-weight: 700; }
- .bin-result-head .rtype {
- display: inline-block; padding: 3px 10px; border-radius: 999px;
- background: var(--primary-100); color: var(--primary-dark);
- font-size: 12px; font-weight: 600; margin-top: 4px;
+ .back-link {
+ display: inline-flex; align-items: center; gap: 6px;
+ font-size: 14px; color: var(--muted); text-decoration: none; margin-top: 24px;
  }
- .bin-tollfree-link {
- display: block; padding: 14px 18px; border-radius: var(--radius);
- background: var(--success-bg); border: 1px solid var(--success-border);
- text-decoration: none; color: var(--success-text);
- font-weight: 700; font-size: clamp(18px, 4vw, 22px); margin-bottom: 8px;
- transition: background 0.15s; text-align: center;
- }
- .bin-tollfree-link:hover { background: var(--success-hover); }
- .bin-tollfree-label { font-size: 12px; font-weight: 600; text-align: center; color: var(--success-text); margin-bottom: 4px; }
-
- .bin-go-link {
- display: inline-flex; align-items: center; gap: 6px; margin-top: 16px;
- padding: 10px 18px; border-radius: 8px; background: var(--primary);
- color: #fff; text-decoration: none; font-weight: 600; font-size: 14px;
- transition: background 0.15s;
- }
- .bin-go-link:hover { background: var(--primary-dark); }
+ .back-link:hover { color: var(--primary); }
 </style>
 {% endblock %}
 
 {% block content %}
-<div x-data="binApp">
 <div class="hero-bin">
  <h1>Find Your <span class="accent">Bank by Card</span></h1>
  <p class="subtitle">Enter the first 6 digits of your card number (the BIN prefix) to find which bank issued it and how to block your card.</p>
- <div class="bin-input-wrap">
- <svg class="bin-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="3"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
- <input type="text" maxlength="6" inputmode="numeric" pattern="[0-9]*" placeholder="Enter 6-digit BIN"
- x-model="binQuery" @input.debounce.400ms="if(binQuery.length >= 6) lookup()">
- </div>
- <p class="bin-hint">Only the first 6 digits are needed — these identify the issuing bank.</p>
 </div>
 
-<div class="content">
- <div class="result-area">
- <!-- Loading -->
- <div class="state" x-show="loading">
- <div class="spinner"></div>
- <p class="state-text">Looking up BIN...</p>
+<div class="coming-soon">
+ <div class="coming-soon-icon">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="3"/><line x1="1" y1="10" x2="23" y2="10"/><circle cx="12" cy="15" r="1.5"/></svg>
  </div>
-
- <!-- No result -->
- <div class="state" x-show="searched && !result && !loading" x-cloak>
- <svg class="empty-svg" style="width:48px;height:48px;color:var(--border);margin:0 auto 12px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
- <p class="state-text">No bank found for BIN <strong x-text="binQuery"></strong></p>
- </div>
-
- <!-- Result -->
- <div x-show="result" x-cloak>
- <div class="bin-result-card">
- <div class="bin-result-head">
- <div class="bl">
- <template x-if="result.logo"><img :src="result.logo" :alt="result.name" loading="lazy"></template>
- </div>
- <div>
- <div class="rname" x-text="result.name"></div>
- <span class="rtype" x-text="'BIN ' + binQuery"></span>
- </div>
- </div>
-
- <!-- Credit card instructions -->
- <template x-if="result.blockingInstructions?.credit">
- <div style="margin-bottom:16px">
- <div class="bin-tollfree-label">Credit Card — Toll-Free</div>
- <a :href="'tel:' + result.blockingInstructions.credit.tollFree.replace(/[^0-9+]/g,'')" class="bin-tollfree-link" x-text="result.blockingInstructions.credit.tollFree"></a>
- <template x-if="result.blockingInstructions.credit.number1">
- <div style="text-align:center;font-size:13px;color:var(--muted)">
- Alt: <a :href="'tel:' + result.blockingInstructions.credit.number1.replace(/[^0-9+]/g,'')" style="color:var(--primary);" x-text="result.blockingInstructions.credit.number1"></a>
- </div>
- </template>
- </div>
- </template>
-
- <!-- Debit card instructions -->
- <template x-if="result.blockingInstructions?.debit">
- <div>
- <div class="bin-tollfree-label">Debit Card — Toll-Free</div>
- <a :href="'tel:' + result.blockingInstructions.debit.tollFree.replace(/[^0-9+]/g,'')" class="bin-tollfree-link" x-text="result.blockingInstructions.debit.tollFree"></a>
- <template x-if="result.blockingInstructions.debit.number1">
- <div style="text-align:center;font-size:13px;color:var(--muted)">
- Alt: <a :href="'tel:' + result.blockingInstructions.debit.number1.replace(/[^0-9+]/g,'')" style="color:var(--primary);" x-text="result.blockingInstructions.debit.number1"></a>
- </div>
- </template>
- </div>
- </template>
- </div>
-
- <a :href="'/bank/' + result.id" class="bin-go-link">
- <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
- View full blocking instructions
+ <h2>Coming Soon</h2>
+ <p>We're working on building a reliable, verified BIN lookup database for Indian banks. This feature will let you enter the first 6 digits of your card to instantly find your bank's blocking helpline.</p>
+ <p>In the meantime, you can <a href="/" style="color:var(--primary)">browse all banks</a> or search by bank name.</p>
+ <p class="hint">⚠️ We removed unverified BIN data to avoid directing users to the wrong bank's blocking number — safety first.</p>
+ <a href="/" class="back-link">
+ <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+ Back to all banks
  </a>
- </div>
- </div>
-</div>
 </div>
 {% endblock %}
