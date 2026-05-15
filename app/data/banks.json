@@ -1310,8 +1310,8 @@
         "website": "https://www.punjabandsindbank.co.in",
         "reference": "https://www.punjabandsindbank.co.in/customer-care",
         "notes": "Via PSB ONE digital banking app: Cards > Block.",
-        "androidApp": "https://play.google.com/store/apps/details?id=com.punjabandsind.app",
-        "iosApp": "https://apps.apple.com/in/app/punjab-sind-bank/id1526327863"
+        "androidApp": "https://play.google.com/store/apps/details?id=com.psb.omniretail",
+        "iosApp": "https://apps.apple.com/in/app/psb-unic/id1597657276"
       },
       "debit": {
         "tollFree": "1800-227-034",
@@ -1320,8 +1320,8 @@
         "website": "https://www.punjabandsindbank.co.in",
         "reference": "https://www.punjabandsindbank.co.in/customer-care",
         "notes": "Via PSB ONE app: Debit Card > Block.",
-        "androidApp": "https://play.google.com/store/apps/details?id=com.punjabandsind.app",
-        "iosApp": "https://apps.apple.com/in/app/punjab-sind-bank/id1526327863"
+        "androidApp": "https://play.google.com/store/apps/details?id=com.psb.omniretail",
+        "iosApp": "https://apps.apple.com/in/app/psb-unic/id1597657276"
       }
     },
     "sources": [
@@ -1621,8 +1621,8 @@
         "website": "https://www.npb.co.in",
         "reference": "https://www.npb.co.in",
         "notes": "Via NSDL Payment Bank app: Cards > Block.",
-        "androidApp": "https://play.google.com/store/apps/details?id=com.nsdl.n21",
-        "iosApp": "https://apps.apple.com/in/app/nsdl-bank/id1489539224"
+        "androidApp": "https://play.google.com/store/apps/details?id=com.nsdl.client_app",
+        "iosApp": "https://apps.apple.com/in/app/nsdl-jiffy/id1519816505"
       }
     },
     "sources": [
@@ -1720,8 +1720,8 @@
         "website": "https://www.ujjivansfb.in",
         "reference": "https://www.ujjivansfb.in",
         "notes": "Via Ujjivan Mobile Bank app: Cards > Block.",
-        "androidApp": "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
-        "iosApp": "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
+        "androidApp": "https://play.google.com/store/apps/details?id=com.ujjivanbank.mobilebanking",
+        "iosApp": "https://apps.apple.com/in/app/ujjivan-mobile-banking/id1219179030"
       },
       "debit": {
         "tollFree": "1800-232-0303",
@@ -1730,8 +1730,8 @@
         "website": "https://www.ujjivansfb.in",
         "reference": "https://www.ujjivansfb.in",
         "notes": "Via Ujjivan Mobile Bank app: Debit Card > Block.",
-        "androidApp": "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
-        "iosApp": "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
+        "androidApp": "https://play.google.com/store/apps/details?id=com.ujjivanbank.mobilebanking",
+        "iosApp": "https://apps.apple.com/in/app/ujjivan-mobile-banking/id1219179030"
       }
     },
     "sources": [
@@ -2018,9 +2018,8 @@
         "email": "info@tsabbank.com",
         "website": "https://www.tsabbank.com/",
         "reference": "https://www.tsabbank.com/",
-        "androidApp": "https://play.google.com/store/apps/details?id=com.tsab.app",
         "notes": "Block cards via mobile app or contact branch",
-        "iosApp": "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
+        "iosApp": "https://apps.apple.com/in/app/tgcab/id1415635104"
       },
       "debit": {
         "tollFree": "1800-100-4755",
@@ -2028,9 +2027,8 @@
         "email": "info@tsabbank.com",
         "website": "https://www.tsabbank.com/",
         "reference": "https://www.tsabbank.com/",
-        "androidApp": "https://play.google.com/store/apps/details?id=com.tsab.app",
         "notes": "Block cards via mobile app or contact branch",
-        "iosApp": "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
+        "iosApp": "https://apps.apple.com/in/app/tgcab/id1415635104"
       }
     },
     "sources": [
