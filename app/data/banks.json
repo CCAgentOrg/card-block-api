@@ -6,7 +6,7 @@
     "ifsc": "UTIB0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-209-5577",
+        "tollFree": "1800-419-5555",
         "number1": "1800-103-5577",
         "number2": "1860-419-5555",
         "email": "care@axisbank.com",
@@ -17,7 +17,7 @@
         "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
       },
       "debit": {
-        "tollFree": "1800-209-5577",
+        "tollFree": "1800-419-6666",
         "number1": "1800-103-5577",
         "number2": "1860-500-5555",
         "email": "care@axisbank.com",
@@ -35,7 +35,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12"
+    "lastVerified": "2025-05-14"
   },
   "bob": {
     "id": "bob",
@@ -44,7 +44,7 @@
     "ifsc": "BARB0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-5700",
+        "tollFree": "1800-425-8888",
         "number1": "1800-5000",
         "email": "customercare@bobcard.co.in",
         "website": "https://www.bobcard.co.in",
@@ -72,7 +72,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2026-05-12"
+    "lastVerified": "2025-05-14"
   },
   "icici": {
     "id": "icici",
@@ -201,7 +201,7 @@
     "ifsc": "HDFC0000001",
     "blockingInstructions": {
       "credit": {
-        "tollFree": "1800-1600",
+        "tollFree": "1800-266-6456",
         "number1": "1800-2600",
         "number2": "+91-22-6160-6160",
         "email": "customerservices.cards@hdfcbank.com",
@@ -235,7 +235,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12"
+    "lastVerified": "2025-05-14"
   },
   "yes_bank": {
     "id": "yes_bank",
@@ -924,7 +924,7 @@
         "iosApp": "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
       },
       "debit": {
-        "tollFree": "1800-22-2244",
+        "tollFree": "1800-208-2244",
         "number1": "1800-208-2244",
         "email": "customercare.unionbank@unionbankofindia.com",
         "website": "https://www.unionbankonline.co.in",
@@ -941,7 +941,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2026-05-12"
+    "lastVerified": "2025-05-14"
   },
   "idbi": {
     "id": "idbi",
@@ -3932,5 +3932,34 @@
       }
     ],
     "lastVerified": "2026-05-13"
+  },
+  "ippb": {
+    "id": "ippb",
+    "name": "India Post Payments Bank",
+    "logo": "/static/logos/ippb.svg",
+    "ifsc": "IPOS0000001",
+    "blockingInstructions": {
+      "debit": {
+        "tollFree": "1800-419-7474",
+        "number1": "155299",
+        "number2": "011-23302223",
+        "email": "support@ippbonline.in",
+        "website": "https://www.ippbonline.in",
+        "androidApp": "https://play.google.com/store/apps/details?id=in.gov.ippb.android",
+        "iosApp": "https://apps.apple.com/in/app/ippb-mobile-app/id1215698986",
+        "notes": "IPPB issues RuPay debit cards only (no credit cards). Block via app, helpline, or visit nearest post office."
+      }
+    },
+    "sources": [
+      {
+        "label": "IPPB Official - Customer Support",
+        "url": "https://www.ippbonline.in/page/customer-support"
+      },
+      {
+        "label": "IPPB Official Website",
+        "url": "https://www.ippbonline.in"
+      }
+    ],
+    "lastVerified": "2025-05-14"
   }
 }
