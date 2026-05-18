@@ -1,6 +1,15 @@
-from pydantic import BaseModel, Field
+import re
+from pydantic import BaseModel, Field, field_validator
 from typing import Optional
 from datetime import date
+
+# Validated patterns for app store URLs
+_PLAY_STORE_PATTERN = re.compile(
+    r'^https://play\.google\.com/store/apps/details\?id=[a-zA-Z0-9._-]+$'
+)
+_APP_STORE_PATTERN = re.compile(
+    r'^https://apps\.apple\.com/[a-z]{2}/app/[^/]+/id\d+$'
+)
 
 class BinRangeModel(BaseModel):
     """BIN/IIN range for identifying bank cards."""
@@ -25,6 +34,26 @@ class BlockingInstructionModel(BaseModel):
     androidApp: Optional[str] = Field(None, description="Google Play Store URL for the bank's app")
     iosApp: Optional[str] = Field(None, description="Apple App Store URL for the bank's app")
     notes: Optional[str] = Field(None, description="Additional notes")
+
+    @field_validator('androidApp')
+    @classmethod
+    def validate_android_url(cls, v: Optional[str]) -> Optional[str]:
+        if v and not _PLAY_STORE_PATTERN.match(v):
+            raise ValueError(
+                f"Invalid Google Play Store URL: {v}. "
+                "Expected format: https://play.google.com/store/apps/details?id=<package_id>"
+            )
+        return v
+
+    @field_validator('iosApp')
+    @classmethod
+    def validate_ios_url(cls, v: Optional[str]) -> Optional[str]:
+        if v and not _APP_STORE_PATTERN.match(v):
+            raise ValueError(
+                f"Invalid App Store URL: {v}. "
+                "Expected format: https://apps.apple.com/<country>/app/<app-name>/id<numeric_id>"
+            )
+        return v
 
 class BankModel(BaseModel, arbitrary_types_allowed=True):
     """Full bank information."""
