@@ -35,7 +35,7 @@
         "verified": true
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "bob": {
     "id": "bob",
@@ -67,12 +67,17 @@
     },
     "sources": [
       {
-        "label": "Bank of Baroda Official - verified May 2026",
+        "label": "Bank of Baroda Official",
         "url": "https://bankofbaroda.bank.in/contact-us",
+        "verified": true
+      },
+      {
+        "label": "BOBCARD",
+        "url": "https://www.bobcard.co.in",
         "verified": true
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "icici": {
     "id": "icici",
@@ -225,9 +230,14 @@
     },
     "sources": [
       {
-        "label": "BankBazaar (BankBazaar cross-referenced with multiple sources)",
+        "label": "HDFC Bank Official",
+        "url": "https://www.hdfcbank.com/personal/help",
+        "verified": true
+      },
+      {
+        "label": "BankBazaar",
         "url": "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-        "verified": false
+        "verified": true
       },
       {
         "label": "CreditMantri",
@@ -235,7 +245,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "yes_bank": {
     "id": "yes_bank",
@@ -941,7 +951,7 @@
         "verified": false
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "idbi": {
     "id": "idbi",
@@ -3958,7 +3968,7 @@
         "url": "https://www.ippbonline.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "prathama_bank": {
     "id": "prathama_bank",
@@ -3984,7 +3994,7 @@
         "url": "https://www.pnbindia.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "baroda_gujarat_gramin": {
     "id": "baroda_gujarat_gramin",
@@ -4010,7 +4020,7 @@
         "url": "https://www.bankofbaroda.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "baroda_rajasthan_gramin": {
     "id": "baroda_rajasthan_gramin",
@@ -4036,7 +4046,7 @@
         "url": "https://www.bankofbaroda.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "madhya_pradesh_gramin": {
     "id": "madhya_pradesh_gramin",
@@ -4062,7 +4072,7 @@
         "url": "https://www.sbi.co.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "maharashtra_gramin": {
     "id": "maharashtra_gramin",
@@ -4088,7 +4098,7 @@
         "url": "https://www.bankofmaharashtra.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "rajasthan_marudhara_gramin": {
     "id": "rajasthan_marudhara_gramin",
@@ -4114,7 +4124,7 @@
         "url": "https://www.rbi.org.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "bihar_gramin": {
     "id": "bihar_gramin",
@@ -4140,7 +4150,7 @@
         "url": "https://www.ucobank.com"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "purvanchal_gramin": {
     "id": "purvanchal_gramin",
@@ -4166,7 +4176,7 @@
         "url": "https://www.pnbindia.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "dakshin_bihar_gramin": {
     "id": "dakshin_bihar_gramin",
@@ -4192,7 +4202,7 @@
         "url": "https://www.ucobank.com"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "aryavart_bank": {
     "id": "aryavart_bank",
@@ -4218,7 +4228,7 @@
         "url": "https://www.pnbindia.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "chhattisgarh_rajya_gramin": {
     "id": "chhattisgarh_rajya_gramin",
@@ -4244,7 +4254,7 @@
         "url": "https://www.sbi.co.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "madhyanchal_gramin": {
     "id": "madhyanchal_gramin",
@@ -4270,7 +4280,7 @@
         "url": "https://www.sbi.co.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   },
   "jharkhand_rajya_gramin": {
     "id": "jharkhand_rajya_gramin",
@@ -4296,6 +4306,6 @@
         "url": "https://www.sbi.co.in"
       }
     ],
-    "lastVerified": "2025-05-14"
+    "lastVerified": "2026-05-19"
   }
 }
