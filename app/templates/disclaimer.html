@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block nav_disclaimer %}active{% endblock %}
+{% block nav_disclaimer_m %}active{% endblock %}
+
+{% block title %}Card Block — Disclaimer{% endblock %}
+
+{% block extra_head %}
+<style>
+ .disc-hero {
+ background: var(--hero-bg);
+ color: #fff; padding: 40px 16px 32px; text-align: center;
+ }
+ @media (min-width: 768px) {
+ .disc-hero { padding: 48px 24px 40px; }
+ }
+ .disc-hero h1 {
+ font-size: clamp(26px, 5vw, 40px); font-weight: 800;
+ letter-spacing: -0.03em; margin-bottom: 12px;
+ }
+ .disc-hero .subtitle {
+ font-size: clamp(14px, 2vw, 17px); color: var(--subtle); max-width: 520px;
+ margin: 0 auto; line-height: 1.6;
+ }
+
+ .disc-body { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+ @media (min-width: 768px) {
+ .disc-body { padding-top: 32px; padding-left: 0; padding-right: 0; }
+ }
+ .disc-body h2 { font-size: 20px; font-weight: 700; margin-top: 28px; margin-bottom: 12px; }
+ .disc-body p { color: var(--muted); line-height: 1.7; margin-bottom: 16px; font-size: 15px; }
+ .disc-body a { color: var(--primary); text-decoration: none; }
+ .disc-body a:hover { text-decoration: underline; }
+ .disc-body ul { color: var(--muted); line-height: 2; padding-left: 20px; margin-bottom: 16px; }
+
+ .notice-box {
+ padding: 20px; border-radius: var(--radius-lg); margin: 24px 0;
+ border-left: 4px solid var(--danger);
+ background: var(--danger-bg);
+ }
+ .notice-box h3 { font-size: 15px; font-weight: 700; color: var(--danger); margin-bottom: 8px; }
+ .notice-box p { font-size: 14px; color: var(--danger-text); margin: 0; line-height: 1.6; }
+
+ .license-box {
+ padding: 20px; border-radius: var(--radius-lg); margin: 24px 0;
+ background: var(--card); border: 1px solid var(--border);
+ }
+ .license-box h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+ .license-box p { font-size: 14px; color: var(--muted); margin: 0; line-height: 1.6; }
+ .license-box code { background: var(--surface); padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="disc-hero">
+ <h1>Disclaimer</h1>
+ <p class="subtitle">Please read this disclaimer carefully before using Card Block.</p>
+</div>
+
+<div class="disc-body">
+ <div class="notice-box">
+ <h3>⚠️ Important Notice</h3>
+ <p>Card Block is <strong>not affiliated with any bank, financial institution, or payment network</strong>. We are an independent open data project. All information is sourced from publicly available references and should always be verified directly with your bank.</p>
+ </div>
+
+ <h2>Information Accuracy</h2>
+ <p>While we make every effort to ensure the accuracy and timeliness of the information on Card Block:</p>
+ <ul>
+ <li>Toll-free numbers and contact details may change without notice</li>
+ <li>We cannot guarantee that all information is current or complete</li>
+ <li>Each bank listing shows a "last verified" date — please verify with your bank if the data is older</li>
+ <li>In case of any discrepancy, the official bank website or customer care should be considered authoritative</li>
+ </ul>
+
+ <h2>No Liability</h2>
+ <p>Card Block and its contributors shall not be held liable for any losses, damages, or inconvenience arising from the use of, or reliance on, the information provided on this platform. Users assume all risk when using the contact numbers, websites, or instructions listed.</p>
+
+ <h2>Card Security</h2>
+ <p>Never share your full card number, CVV, PIN, or OTP with anyone — including customer care representatives. Legitimate banks will never ask for this information. Only share the last 4 digits of your card when calling for blocking purposes.</p>
+
+ <h2>Third-Party Links</h2>
+ <p>Card Block may contain links to external websites, banking apps, and resources that are operated by third parties. We have no control over the content and availability of these external sites and accept no responsibility for them.</p>
+
+ <h2>Open Data License</h2>
+ <div class="license-box">
+ <h3>MIT License</h3>
+ <p>Card Block data is released under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the data, subject to the terms of the license.</p>
+ <p style="margin-top:8px;">The full license text can be found at: <a href="https://opensource.org/licenses/MIT" target="_blank">opensource.org/licenses/MIT</a></p>
+ <p style="margin-top:8px;font-size:12px;color:var(--subtle);">In short: Use the data however you like. No warranties. Attribute if you can, but it's not required.</p>
+ </div>
+
+ <h2>Contact</h2>
+ <p>If you notice incorrect or outdated information, please report it to us at <a href="https://cashlessconsumer.in" target="_blank">cashlessconsumer.in</a> or open an issue on our <a href="https://github.com/CCAgentOrg/card-block-api" target="_blank">GitHub repository</a>.</p>
+
+ <p style="font-size:13px;color:var(--subtle);margin-top:32px;">Last updated: May 2026</p>
+</div>
+{% endblock %}

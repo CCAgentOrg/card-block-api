@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block nav_bins %}active{% endblock %}
+{% block nav_bins_m %}active{% endblock %}
+
+{% block title %}Card Block — BIN Lookup{% endblock %}
+
+{% block extra_head %}
+<style>
+ .hero-bin {
+ background: var(--hero-bg);
+ color: #fff; padding: 40px 16px 32px; text-align: center;
+ }
+ @media (min-width: 768px) {
+ .hero-bin { padding: 48px 24px 40px; }
+ }
+ .hero-bin h1 {
+ font-size: clamp(26px, 5vw, 40px); font-weight: 800;
+ letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 12px;
+ }
+ .hero-bin .subtitle {
+ font-size: clamp(14px, 2vw, 17px); color: var(--subtle); max-width: 540px;
+ margin: 0 auto; line-height: 1.6;
+ }
+
+ .coming-soon {
+ max-width: 600px; margin: 48px auto; text-align: center; padding: 0 16px;
+ }
+ .coming-soon-icon {
+ width: 64px; height: 64px; margin: 0 auto 20px;
+ border-radius: 16px; background: var(--primary-50);
+ display: flex; align-items: center; justify-content: center;
+ }
+ .coming-soon-icon svg { width: 32px; height: 32px; color: var(--primary); }
+ .coming-soon h2 { font-size: 22px; font-weight: 700; margin-bottom: 12px; }
+ .coming-soon p { font-size: 15px; color: var(--muted); line-height: 1.7; margin-bottom: 16px; }
+ .coming-soon .hint {
+ font-size: 13px; color: var(--subtle); margin-top: 24px;
+ }
+ .back-link {
+ display: inline-flex; align-items: center; gap: 6px;
+ font-size: 14px; color: var(--muted); text-decoration: none; margin-top: 24px;
+ }
+ .back-link:hover { color: var(--primary); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="hero-bin">
+ <h1>Find Your <span class="accent">Bank by Card</span></h1>
+ <p class="subtitle">Enter the first 6 digits of your card number (the BIN prefix) to find which bank issued it and how to block your card.</p>
+</div>
+
+<div class="coming-soon">
+ <div class="coming-soon-icon">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="3"/><line x1="1" y1="10" x2="23" y2="10"/><circle cx="12" cy="15" r="1.5"/></svg>
+ </div>
+ <h2>Coming Soon</h2>
+ <p>We're working on building a reliable, verified BIN lookup database for Indian banks. This feature will let you enter the first 6 digits of your card to instantly find your bank's blocking helpline.</p>
+ <p>In the meantime, you can <a href="/" style="color:var(--primary)">browse all banks</a> or search by bank name.</p>
+ <p class="hint">⚠️ We removed unverified BIN data to avoid directing users to the wrong bank's blocking number — safety first.</p>
+ <a href="/" class="back-link">
+ <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+ Back to all banks
+ </a>
+</div>
+{% endblock %}

@@ -1,9 +1,12 @@
 import os
 import json
-from flask import Flask, send_from_directory
+import time
+from flask import Flask, send_from_directory, render_template, Response, current_app, request, g
 from flask_restx import Api
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 from .config import Config
-from .api.banks import api as banks_ns
+
 
 def load_bank_data(app):
     """Load bank data from JSON file into app config."""
@@ -22,6 +25,7 @@ def load_bank_data(app):
         app.config['BANK_DATA'] = {}
         app.logger.error(f"Error loading bank data: {e}")
 
+
 def create_app(config_class=Config):
     """Creates and configures the Flask application."""
     app = Flask(__name__, static_folder='static')
@@ -33,23 +37,95 @@ def create_app(config_class=Config):
     api = Api(
         app,
         version='1.0.0',
-        title='Card Blocking API',
-        description='API for accessing verified bank card blocking information for major Indian banks',
+        title='Card Block API',
+        description='API for accessing verified bank card blocking information for Indian banks',
         prefix='/api/v1',
         doc='/api/docs',
         contact='Cashless Consumer',
         contact_url='https://cashlessconsumer.in'
     )
 
+    from .api.banks import api as banks_ns, export_api as export_ns
+    from .api.bins import bins_ns
     api.add_namespace(banks_ns, path='/banks')
+    api.add_namespace(export_ns, path='/export')
+    api.add_namespace(bins_ns, path='/bins')
+
+    # ── Rate Limiting ──
+    limiter = Limiter(
+        app=app,
+        key_func=get_remote_address,
+        default_limits=["200 per day", "50 per hour"],
+        storage_uri="memory://",
+        strategy="fixed-window"
+    )
+
+    # ── Monitoring / Metrics ──
+    @app.after_request
+    def monitor_response(response):
+        response.headers['X-Response-Time'] = f'{(1000 * (time.time() - g.start)): .1f}ms' if hasattr(g, 'start') else ''
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        return response
+
+    @app.before_request
+    def before_req():
+        g.start = time.time()
+
+    @app.route('/api/v1/metrics')
+    def metrics():
+        """Health check + basic monitoring metrics."""
+        banks_store = current_app.config.get('BANK_DATA', {})
+        return {
+            'status': 'healthy',
+            'totalBanks': len(banks_store)
+        }
 
     @app.route('/')
     def serve_ui():
-        return send_from_directory(app.static_folder, 'index.html')
+        return render_template('home.html', page='home')
+
+    @app.route('/bins')
+    def page_bins():
+        return render_template('bins.html', page='bins')
+
+    @app.route('/about')
+    def page_about():
+        return render_template('about.html', page='about')
+
+    @app.route('/disclaimer')
+    def page_disclaimer():
+        return render_template('disclaimer.html', page='disclaimer')
+
+    @app.route('/bank/<bank_id>')
+    def page_bank(bank_id):
+        return render_template('bank_detail.html', bank_id=bank_id, page='banks')
 
     @app.route('/static/<path:filename>')
     def serve_static(filename):
         return send_from_directory(app.static_folder, filename)
 
-    app.logger.info("Card Blocking API application created successfully.")
+    @app.route('/robots.txt')
+    def robots():
+        content = "User-agent: *\nAllow: /\nSitemap: https://cardblock.cashlessconsumer.in/sitemap.xml\n"
+        return Response(content, mimetype='text/plain')
+
+    @app.route('/sitemap.xml')
+    def sitemap():
+        banks_store = current_app.config['BANK_DATA']
+        bank_urls = ''
+        for bank_id, bank_data in banks_store.items():
+            name = bank_data.get('name', bank_id).lower().replace(' ', '-')
+            bank_urls += f'  <url>\n    <loc>https://cardblock.cashlessconsumer.in/bank/{name}</loc>\n  </url>\n'
+
+        xml = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cardblock.cashlessconsumer.in/</loc>
+    <priority>1.0</priority>
+  </url>
+{bank_urls.strip()}
+</urlset>'''
+        return Response(xml, mimetype='application/xml')
+
+    app.logger.info("Card Block API application created successfully.")
     return app
