@@ -108,7 +108,21 @@ function buildMethods(inst, lastVerified, sources) {
   }));
 }
 
-const banks = JSON.parse(fs.readFileSync(SRC, "utf8"));
+// Loop 2 overrides: data/overrides/<slug>.json replaces the generated entry
+// wholesale for that slug (written by the data loop after live re-verification).
+// This keeps the generator the single regeneration path while letting the
+// data loop update banks without touching the legacy seed.
+const OVR_DIR = path.join(ROOT, "data", "overrides");
+const overrides = fs.existsSync(OVR_DIR)
+  ? Object.fromEntries(
+      fs.readdirSync(OVR_DIR).filter((f) => f.endsWith(".json")).map((f) => [
+        f.replace(/\.json$/, ""),
+        JSON.parse(fs.readFileSync(path.join(OVR_DIR, f), "utf8")),
+      ])
+    )
+  : {};
+const seedBanks = JSON.parse(fs.readFileSync(SRC, "utf8"));
+const banks = { ...seedBanks, ...overrides };
 const ids = Object.keys(banks);
 const indexEntries = [];
 // Freshness bands (VISION §3 / AGENTS.md): fresh <=30d, aging 30-90d, stale >90d from last_verified
@@ -126,6 +140,22 @@ ids.forEach((id) => {
   const b = banks[id];
   const bLastVerified = b.lastVerified || null;
   const slug = slugify(b.id || id);
+
+  if (overrides[slug]) {
+    const ovr = JSON.parse(fs.readFileSync(path.join(OVR_DIR, slug + ".json"), "utf8"));
+    fs.writeFileSync(path.join(OUT_DIR, slug + ".json"), JSON.stringify(ovr, null, 2) + "\n");
+    indexEntries.push({
+      slug: ovr.slug,
+      name: ovr.name,
+      type: ovr.type,
+      card_types: ovr.cards.map((c) => c.type),
+      method_count: ovr.cards.reduce((n, c) => n + c.blocking_methods.length, 0),
+      verification_status: ovr.verification.status,
+      last_verified: ovr.verification.last_verified,
+    });
+    freshnessAggregate[freshnessBand(ovr.verification.last_verified)]++;
+    return;
+  }
 
   const sources = (b.sources || []).map((src) => src.url).filter(Boolean);
   const cardTypes = [];
