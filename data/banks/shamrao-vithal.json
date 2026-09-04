@@ -1,0 +1,53 @@
+{
+  "name": "Shamrao Vithal Co-operative Bank (SVC Bank)",
+  "slug": "shamrao-vithal",
+  "type": "coop",
+  "website": "https://www.svcbank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 022-6180-0800 and follow the IVR to hotlist the card.",
+          "phone": "022-6180-0800",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@svcbank.com from your registered email to request card blocking.",
+          "email": "customercare@svcbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.svcbank.com and use the card block/hotlist option.",
+          "url": "https://www.svcbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.svc.svcmobile | iOS: https://apps.apple.com/in/app/svc-bank-mobile/id1274016564",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.svc.svcmobile",
+            "https://apps.apple.com/in/app/svc-bank-mobile/id1274016564"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.svcbank.com"
+    ]
+  }
+}

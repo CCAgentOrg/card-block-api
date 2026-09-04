@@ -1,0 +1,106 @@
+{
+  "name": "UCO Bank",
+  "slug": "uc-bank",
+  "type": "private",
+  "website": "https://www.ucobankonline.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-103-0011 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-0011",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-103-8867 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-8867",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@ucobankonline.in from your registered email to request card blocking.",
+          "email": "customercare@ucobankonline.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.ucobankonline.in and use the card block/hotlist option.",
+          "url": "https://www.ucobankonline.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking | iOS: https://apps.apple.com/in/app/uco-bank-mobile/id1205654706",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking",
+            "https://apps.apple.com/in/app/uco-bank-mobile/id1205654706"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-103-0011 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-0011",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 033-2235-0300 and follow the IVR to hotlist the card.",
+          "phone": "033-2235-0300",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@ucobankonline.in from your registered email to request card blocking.",
+          "email": "customercare@ucobankonline.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.ucobankonline.in and use the card block/hotlist option.",
+          "url": "https://www.ucobankonline.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking | iOS: https://apps.apple.com/in/app/uco-bank-mobile/id1205654706",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking",
+            "https://apps.apple.com/in/app/uco-bank-mobile/id1205654706"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.ucobankonline.in"
+    ]
+  }
+}

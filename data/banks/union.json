@@ -1,0 +1,114 @@
+{
+  "name": "Union Bank of India",
+  "slug": "union",
+  "type": "private",
+  "website": "https://www.unionbankofindia.co.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-22-2244 and follow the IVR to hotlist the card.",
+          "phone": "1800-22-2244",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-208-2244 and follow the IVR to hotlist the card.",
+          "phone": "1800-208-2244",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare.unionbank@unionbankofindia.com from your registered email to request card blocking.",
+          "email": "customercare.unionbank@unionbankofindia.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.unionbankonline.co.in and use the card block/hotlist option.",
+          "url": "https://www.unionbankonline.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.bankub2 | iOS: https://apps.apple.com/in/app/union-bank-of-india/id1216778634",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.cs.bankub2",
+            "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-208-2244 and follow the IVR to hotlist the card.",
+          "phone": "1800-208-2244",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-425-1515 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1515",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-425-3555 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-3555",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare.unionbank@unionbankofindia.com from your registered email to request card blocking.",
+          "email": "customercare.unionbank@unionbankofindia.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.unionbankofindia.co.in and use the card block/hotlist option.",
+          "url": "https://www.unionbankofindia.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.bankub2 | iOS: https://apps.apple.com/in/app/union-bank-of-india/id1216778634",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.cs.bankub2",
+            "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.unionbankofindia.co.in"
+    ]
+  }
+}

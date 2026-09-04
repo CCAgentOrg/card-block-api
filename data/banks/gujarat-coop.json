@@ -1,0 +1,57 @@
+{
+  "name": "Gujarat State Co-operative Bank",
+  "slug": "gujarat-coop",
+  "type": "coop",
+  "website": "https://www.gscbank.com/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-233-1001 and follow the IVR to hotlist the card.",
+          "phone": "1800-233-1001",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.gscbank.com/ and use the card block/hotlist option.",
+          "url": "https://www.gscbank.com/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-233-1001 and follow the IVR to hotlist the card.",
+          "phone": "1800-233-1001",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.gscbank.com/ and use the card block/hotlist option.",
+          "url": "https://www.gscbank.com/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.gscbank.com/",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

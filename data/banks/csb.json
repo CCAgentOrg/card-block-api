@@ -1,0 +1,108 @@
+{
+  "name": "CSB Bank (Catholic Syrian Bank)",
+  "slug": "csb",
+  "type": "private",
+  "website": "https://www.csb.co.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-419-6644 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-6644",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0487-6644-000 and follow the IVR to hotlist the card.",
+          "phone": "0487-6644-000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@csb.co.in from your registered email to request card blocking.",
+          "email": "customercare@csb.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.csb.co.in and use the card block/hotlist option.",
+          "url": "https://www.csb.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.csb.becsapp | iOS: https://apps.apple.com/in/app/csb-mobile-banking/id1382757209",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.csb.becsapp",
+            "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-419-6644 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-6644",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0487-6644-000 and follow the IVR to hotlist the card.",
+          "phone": "0487-6644-000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email csbcards@csb.co.in from your registered email to request card blocking.",
+          "email": "csbcards@csb.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.csb.co.in and use the card block/hotlist option.",
+          "url": "https://www.csb.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.csb.becsapp | iOS: https://apps.apple.com/in/app/csb-mobile-banking/id1382757209",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.csb.becsapp",
+            "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.csb.co.in",
+      "https://www.csb.co.in/contact-us",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

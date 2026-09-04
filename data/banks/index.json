@@ -1,0 +1,733 @@
+{
+  "updated": "2026-09-04",
+  "count": 61,
+  "banks": [
+    {
+      "slug": "abudhabi-commercial-bank",
+      "name": "Abu Dhabi Commercial Bank (India)",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "airtel-payments",
+      "name": "Airtel Payments Bank",
+      "type": "private",
+      "card_types": [
+        "debit"
+      ],
+      "method_count": 5,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "american-express",
+      "name": "American Express India",
+      "type": "private",
+      "card_types": [
+        "credit"
+      ],
+      "method_count": 5,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "apg",
+      "name": "Andhra Pradesh Grameena Bank",
+      "type": "coop",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 4,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "au-small-finance",
+      "name": "AU Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "axis",
+      "name": "Axis Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 12,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "bandhan",
+      "name": "Bandhan Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "bob",
+      "name": "Bank of Baroda",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "bank-of-india",
+      "name": "Bank of India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "bank-of-maharashtra",
+      "name": "Bank of Maharashtra",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "canara",
+      "name": "Canara Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "capital-small-finance",
+      "name": "Capital Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "central-bank",
+      "name": "Central Bank of India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 13,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "city-union",
+      "name": "City Union Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "csb",
+      "name": "CSB Bank (Catholic Syrian Bank)",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "dbs",
+      "name": "DBS Bank India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "dcb-bank",
+      "name": "DCB Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "dhanlaxmi-bank",
+      "name": "Dhanlaxmi Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 8,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "equitas-small-finance",
+      "name": "Equitas Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "esaf-small-finance",
+      "name": "ESAF Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "federal-bank",
+      "name": "Federal Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "fino",
+      "name": "Fino Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "gujarat-coop",
+      "name": "Gujarat State Co-operative Bank",
+      "type": "coop",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 4,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "hdfc",
+      "name": "HDFC Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 12,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "hsbc",
+      "name": "HSBC India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "icici",
+      "name": "ICICI Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "idbi",
+      "name": "IDBI Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "idfc-first",
+      "name": "IDFC FIRST Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "indian-bank",
+      "name": "Indian Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "indian-overseas",
+      "name": "Indian Overseas Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "indusind",
+      "name": "IndusInd Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "j-k-bank",
+      "name": "Jammu & Kashmir Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "shimoga",
+      "name": "Jana Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "karnataka-bank",
+      "name": "Karnataka Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "karur-vysya-bank",
+      "name": "Karur Vysya Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "kerala-gramin-bank",
+      "name": "Kerala Gramin Bank",
+      "type": "rrb",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 6,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "kotak",
+      "name": "Kotak Mahindra Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "nainital-bank",
+      "name": "Nainital Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "north-east-sfb",
+      "name": "North East Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 8,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "nordic-bank",
+      "name": "NSDL Payment Bank",
+      "type": "private",
+      "card_types": [
+        "debit"
+      ],
+      "method_count": 5,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "paytm-payments",
+      "name": "Paytm Payments Bank",
+      "type": "private",
+      "card_types": [
+        "debit"
+      ],
+      "method_count": 5,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "poc-bank",
+      "name": "Punjab and Sind Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "pnb",
+      "name": "Punjab National Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 12,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "rajasthan-state-coop",
+      "name": "Rajasthan State Co-operative Bank",
+      "type": "coop",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 6,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "rbl",
+      "name": "RBL Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "saraswat-bank",
+      "name": "Saraswat Bank",
+      "type": "coop",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "sbm",
+      "name": "SBM Bank India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "shamrao-vithal",
+      "name": "Shamrao Vithal Co-operative Bank (SVC Bank)",
+      "type": "coop",
+      "card_types": [
+        "debit"
+      ],
+      "method_count": 4,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "south-indian-bank",
+      "name": "South Indian Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "standard-chartered",
+      "name": "Standard Chartered Bank India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "sbi",
+      "name": "State Bank of India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 12,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "suryoday-small-finance",
+      "name": "Suryoday Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "tmb",
+      "name": "Tamilnad Mercantile Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "telangana-gramin",
+      "name": "Telangana Grameena Bank",
+      "type": "rrb",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 4,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "telangana-state-coop",
+      "name": "Telangana State Co-operative Apex Bank (DCCB)",
+      "type": "coop",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "uc-bank",
+      "name": "UCO Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "ujjivan-small-finance",
+      "name": "Ujjivan Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "union",
+      "name": "Union Bank of India",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "utkarsh",
+      "name": "Utkarsh Small Finance Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 10,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    },
+    {
+      "slug": "wb-coop",
+      "name": "West Bengal State Co-operative Bank",
+      "type": "coop",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 6,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-13"
+    },
+    {
+      "slug": "yes-bank",
+      "name": "Yes Bank",
+      "type": "private",
+      "card_types": [
+        "debit",
+        "credit"
+      ],
+      "method_count": 11,
+      "verification_status": "agent_verified",
+      "last_verified": "2026-05-12"
+    }
+  ]
+}

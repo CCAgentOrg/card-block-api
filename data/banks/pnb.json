@@ -1,0 +1,122 @@
+{
+  "name": "Punjab National Bank",
+  "slug": "pnb",
+  "type": "private",
+  "website": "https://pnbcard.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-2222 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2222",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-103-2222 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-2222",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-180-2223 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2223",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@pnbindia.in from your registered email to request card blocking.",
+          "email": "customercare@pnbindia.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://pnb.bank.in and use the card block/hotlist option.",
+          "url": "https://pnb.bank.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.punjabnational.bank | iOS: https://apps.apple.com/in/app/pnb-one/id1580876840",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
+            "https://apps.apple.com/in/app/pnb-one/id1580876840"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-2222 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2222",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-103-2222 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-2222",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-180-2345 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2345",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@pnbcard.in from your registered email to request card blocking.",
+          "email": "care@pnbcard.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://pnbcard.in and use the card block/hotlist option.",
+          "url": "https://pnbcard.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.punjabnational.bank | iOS: https://apps.apple.com/in/app/pnb-one/id1580876840",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
+            "https://apps.apple.com/in/app/pnb-one/id1580876840"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://pnb.bank.in/customer-care"
+    ]
+  }
+}

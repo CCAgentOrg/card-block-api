@@ -1,0 +1,123 @@
+{
+  "name": "State Bank of India",
+  "slug": "sbi",
+  "type": "private",
+  "website": "https://www.sbicard.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-111-2222 and follow the IVR to hotlist the card.",
+          "phone": "1800-111-2222",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-425-3800 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-3800",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-180-2211 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2211",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@sbi.co.in from your registered email to request card blocking.",
+          "email": "customercare@sbi.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.onlinesbi.sbi and use the card block/hotlist option.",
+          "url": "https://www.onlinesbi.sbi",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbi.lotusintouch | iOS: https://apps.apple.com/in/app/yono-sbi/id1554345797",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
+            "https://apps.apple.com/in/app/yono-sbi/id1554345797"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-1290 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-1290",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1860-180-1290 and follow the IVR to hotlist the card.",
+          "phone": "1860-180-1290",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 040-6717-7777 and follow the IVR to hotlist the card.",
+          "phone": "040-6717-7777",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email support@sbicard.com from your registered email to request card blocking.",
+          "email": "support@sbicard.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.sbicard.com and use the card block/hotlist option.",
+          "url": "https://www.sbicard.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbi.lotusintouch | iOS: https://apps.apple.com/in/app/yono-sbi/id1554345797",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
+            "https://apps.apple.com/in/app/yono-sbi/id1554345797"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.sbicard.com",
+      "https://www.onlinesbi.sbi/sbi/static/Card_Block_Debit_Faq.html"
+    ]
+  }
+}

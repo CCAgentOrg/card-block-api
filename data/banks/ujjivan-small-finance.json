@@ -1,0 +1,106 @@
+{
+  "name": "Ujjivan Small Finance Bank",
+  "slug": "ujjivan-small-finance",
+  "type": "private",
+  "website": "https://www.ujjivansfb.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-232-0303 and follow the IVR to hotlist the card.",
+          "phone": "1800-232-0303",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 080-2523-0033 and follow the IVR to hotlist the card.",
+          "phone": "080-2523-0033",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@ujjivansfb.in from your registered email to request card blocking.",
+          "email": "customercare@ujjivansfb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.ujjivansfb.in and use the card block/hotlist option.",
+          "url": "https://www.ujjivansfb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.federalbank.fedbook | iOS: https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
+            "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-232-0303 and follow the IVR to hotlist the card.",
+          "phone": "1800-232-0303",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 080-2523-0033 and follow the IVR to hotlist the card.",
+          "phone": "080-2523-0033",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@ujjivansfb.in from your registered email to request card blocking.",
+          "email": "customercare@ujjivansfb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.ujjivansfb.in and use the card block/hotlist option.",
+          "url": "https://www.ujjivansfb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.federalbank.fedbook | iOS: https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
+            "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.ujjivansfb.in"
+    ]
+  }
+}

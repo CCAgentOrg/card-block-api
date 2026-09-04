@@ -1,0 +1,106 @@
+{
+  "name": "Fino Small Finance Bank",
+  "slug": "fino",
+  "type": "private",
+  "website": "https://www.finobank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-210-0317 and follow the IVR to hotlist the card.",
+          "phone": "1800-210-0317",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-210-0317 and follow the IVR to hotlist the card.",
+          "phone": "1800-210-0317",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@finobank.com from your registered email to request card blocking.",
+          "email": "care@finobank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.finobank.com and use the card block/hotlist option.",
+          "url": "https://www.finobank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.fino.finoapp | iOS: https://apps.apple.com/in/app/fino-payments-bank/id1238990817",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.fino.finoapp",
+            "https://apps.apple.com/in/app/fino-payments-bank/id1238990817"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-210-0317 and follow the IVR to hotlist the card.",
+          "phone": "1800-210-0317",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022-6176-0000 and follow the IVR to hotlist the card.",
+          "phone": "022-6176-0000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@finobank.com from your registered email to request card blocking.",
+          "email": "care@finobank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.finobank.com and use the card block/hotlist option.",
+          "url": "https://www.finobank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.fino.finoapp | iOS: https://apps.apple.com/in/app/fino-payments-bank/id1238990817",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.fino.finoapp",
+            "https://apps.apple.com/in/app/fino-payments-bank/id1238990817"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.finobank.com"
+    ]
+  }
+}

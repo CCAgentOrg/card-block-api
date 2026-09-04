@@ -1,0 +1,107 @@
+{
+  "name": "DCB Bank",
+  "slug": "dcb-bank",
+  "type": "private",
+  "website": "https://www.dcbbank.com/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-103-4222 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-4222",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-3010-1001 and follow the IVR to hotlist the card.",
+          "phone": "1800-3010-1001",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email dcbhelp@dcbbank.com from your registered email to request card blocking.",
+          "email": "dcbhelp@dcbbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.dcbbank.com/ and use the card block/hotlist option.",
+          "url": "https://www.dcbbank.com/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dcb.dcbapp | iOS: https://apps.apple.com/in/app/dcb-mobile/id1319066294",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.dcb.dcbapp",
+            "https://apps.apple.com/in/app/dcb-mobile/id1319066294"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-103-4222 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-4222",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-3010-1001 and follow the IVR to hotlist the card.",
+          "phone": "1800-3010-1001",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email dcbhelp@dcbbank.com from your registered email to request card blocking.",
+          "email": "dcbhelp@dcbbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.dcbbank.com/ and use the card block/hotlist option.",
+          "url": "https://www.dcbbank.com/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dcb.dcbapp | iOS: https://apps.apple.com/in/app/dcb-mobile/id1319066294",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.dcb.dcbapp",
+            "https://apps.apple.com/in/app/dcb-mobile/id1319066294"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.dcbbank.com/contact-us",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Telangana State Co-operative Apex Bank (DCCB)",
+  "slug": "telangana-state-coop",
+  "type": "coop",
+  "website": "https://www.tsabbank.com/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-100-4755 and follow the IVR to hotlist the card.",
+          "phone": "1800-100-4755",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 040-23268725 and follow the IVR to hotlist the card.",
+          "phone": "040-23268725",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email info@tsabbank.com from your registered email to request card blocking.",
+          "email": "info@tsabbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.tsabbank.com/ and use the card block/hotlist option.",
+          "url": "https://www.tsabbank.com/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tsab.app | iOS: https://apps.apple.com/in/app/tsab-mobile/id1526327863",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.tsab.app",
+            "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-100-4755 and follow the IVR to hotlist the card.",
+          "phone": "1800-100-4755",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 040-23268725 and follow the IVR to hotlist the card.",
+          "phone": "040-23268725",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email info@tsabbank.com from your registered email to request card blocking.",
+          "email": "info@tsabbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.tsabbank.com/ and use the card block/hotlist option.",
+          "url": "https://www.tsabbank.com/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tsab.app | iOS: https://apps.apple.com/in/app/tsab-mobile/id1526327863",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.tsab.app",
+            "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.tsabbank.com/",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

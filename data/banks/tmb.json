@@ -1,0 +1,106 @@
+{
+  "name": "Tamilnad Mercantile Bank",
+  "slug": "tmb",
+  "type": "private",
+  "website": "https://www.tmb.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-419-9950 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-9950",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 04562-232323 and follow the IVR to hotlist the card.",
+          "phone": "04562-232323",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@tmb.in from your registered email to request card blocking.",
+          "email": "customercare@tmb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.tmb.in and use the card block/hotlist option.",
+          "url": "https://www.tmb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tmb.app | iOS: https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.tmb.app",
+            "https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-419-9950 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-9950",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 04562-232323 and follow the IVR to hotlist the card.",
+          "phone": "04562-232323",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@tmb.in from your registered email to request card blocking.",
+          "email": "customercare@tmb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.tmb.in and use the card block/hotlist option.",
+          "url": "https://www.tmb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tmb.app | iOS: https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.tmb.app",
+            "https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://tmb.in"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Rajasthan State Co-operative Bank",
+  "slug": "rajasthan-state-coop",
+  "type": "coop",
+  "website": "https://www.rajcoop.org/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-2150 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2150",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0141-2601203 and follow the IVR to hotlist the card.",
+          "phone": "0141-2601203",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.rajcoop.org/ and use the card block/hotlist option.",
+          "url": "https://www.rajcoop.org/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-2150 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2150",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0141-2601203 and follow the IVR to hotlist the card.",
+          "phone": "0141-2601203",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.rajcoop.org/ and use the card block/hotlist option.",
+          "url": "https://www.rajcoop.org/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.rajcoop.org/",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}
