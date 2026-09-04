@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "updated": "2026-09-04",
-  "count": 3,
-  "method_count": 13,
+  "count": 5,
+  "method_count": 21,
   "networks": [
     {
       "slug": "mastercard",
@@ -21,7 +21,19 @@
       "name": "Visa Global Customer Assistance (GCAS)",
       "method_count": 5,
       "last_verified": "2026-09-04"
+    },
+    {
+      "slug": "cybercrime-1930",
+      "name": "Cyber Crime Helpline 1930 (MHA / I4C)",
+      "method_count": 4,
+      "last_verified": "2026-09-04"
+    },
+    {
+      "slug": "upi-npci",
+      "name": "UPI / BHIM — NPCI Dispute Redressal & DigiSaathi",
+      "method_count": 4,
+      "last_verified": "2026-09-04"
     }
   ],
-  "note": "Network-level channels (Visa GCAS, Mastercard Global Service, RuPay/DigiSaathi). These work even when the issuing bank's own lines are jammed; they can block the card or connect you to the issuer. Per-bank data lives in /data/banks/."
+  "note": "Network-level channels (Visa GCAS, Mastercard MGS, RuPay/DigiSaathi) and national govt rails (1930, NPCI UPI redressal). These work even when the issuing bank's own lines are jammed. Per-bank data lives in /data/banks/."
 }
