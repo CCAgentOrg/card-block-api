@@ -32,10 +32,8 @@
           "last_verified": "2026-05-12"
         },
         {
-          "channel": "phone",
-          "label": "registered-mobile",
-          "instructions": "Call SMS LOST card_number to 917738002672 and follow the IVR to hotlist the card.",
-          "phone": "SMS LOST card_number to 917738002672",
+          "channel": "sms",
+          "instructions": "SMS SMS LOST card_number to 917738002672",
           "confidence": 0.85,
           "last_verified": "2026-05-12"
         },

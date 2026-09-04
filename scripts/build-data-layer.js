@@ -50,12 +50,19 @@ function buildMethods(inst, lastVerified) {
     ["tollFree", inst.tollFree],
     ["alternate", inst.number1],
     ["alternate", inst.number2],
-    ["registered-mobile", inst.rmn],
   ];
   phones.forEach(([label, num]) => {
     const m = phoneMethod(label, num);
     if (m) methods.push(m);
   });
+
+  if (inst.rmn) {
+    methods.push({
+      channel: "sms",
+      instructions: "SMS " + inst.rmn,
+      confidence: 0.85,
+    });
+  }
 
   if (inst.email) {
     methods.push({
