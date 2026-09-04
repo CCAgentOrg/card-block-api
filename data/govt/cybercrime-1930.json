@@ -1,0 +1,60 @@
+{
+  "name": "Cyber Crime Helpline 1930 (MHA / I4C)",
+  "slug": "cybercrime-1930",
+  "type": "govt",
+  "website": "https://www.cybercrime.gov.in",
+  "cards": [
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "govt",
+          "label": "1930-hotline",
+          "instructions": "Call 1930 within the golden hour (first ~60 min after money leaves your account). Cite the transaction ID (UTR) and the receiving account; the complaint is routed to the fraud-monitoring cell of the beneficiary bank, which freezes the amount in the receiving account. Money recovery via Lien flow, not card blocking — but for UPI/card fraud it is the fastest official freeze path. Web alternative: https://www.cybercrime.gov.in > Report Other Cybercrime > Financial Fraud.",
+          "phone": "1930",
+          "confidence": 0.9,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.cybercrime.gov.in"]
+        },
+        {
+          "channel": "website",
+          "label": "cybercrime-portal",
+          "instructions": "File at cybercrime.gov.in (National Cyber Crime Reporting Portal, I4C/MHA): 'Report Financial Fraud' > victim details > transaction details with bank, account/UTR, amount, time. Keep the acknowledgement number for bank follow-up. Works for UPI, card, and netbanking fraud alike.",
+          "url": "https://www.cybercrime.gov.in",
+          "confidence": 0.9,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.cybercrime.gov.in"]
+        }
+      ]
+    },
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "govt",
+          "label": "1930-card-fraud",
+          "instructions": "Card fraud (unauthorized transactions, not loss of card): call 1930 AND separately hotlist with the issuing bank — 1930 freezes the disputed amount trail; the bank hotlist kills the card. For lost/stolen card blocking itself, use bank or network (Visa/Mastercard/RuPay) channels first.",
+          "phone": "1930",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.cybercrime.gov.in"]
+        },
+        {
+          "channel": "website",
+          "label": "cybercrime-portal-card",
+          "instructions": "File the fraud complaint with transaction details at cybercrime.gov.in. RBI zero-liability rules (circular DPSS.CO.OD No.3225/06.08.005-2018-19) make prompt reporting (within 3 working days) the deciding factor for limited vs zero liability.",
+          "url": "https://www.cybercrime.gov.in",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.cybercrime.gov.in"]
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.9,
+    "last_verified": "2026-09-04",
+    "sources": ["https://www.cybercrime.gov.in"]
+  }
+}

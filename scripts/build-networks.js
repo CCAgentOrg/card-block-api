@@ -9,19 +9,23 @@ const fs = require("fs");
 const path = require("path");
 
 const DIR = path.join(__dirname, "..", "data", "networks");
+const GOVT_DIR = path.join(__dirname, "..", "data", "govt");
 const RUN_DATE = new Date().toISOString().slice(0, 10);
-const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && f !== "index.json");
+const files = [
+  ...fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && f !== "index.json").map((f) => path.join(DIR, f)),
+  ...(fs.existsSync(GOVT_DIR) ? fs.readdirSync(GOVT_DIR).filter((f) => f.endsWith(".json") && f !== "index.json").map((f) => path.join(GOVT_DIR, f)) : []),
+];
 if (!files.length) {
-  console.error("FAIL: no network files in data/networks/");
+  console.error("FAIL: no network/govt files");
   process.exit(1);
 }
 
-const CHANNELS = ["phone", "sms", "app", "website", "email"];
+const CHANNELS = ["phone", "sms", "app", "website", "email", "upi", "network", "govt", "branch", "other"];
 const entries = [];
 let methodCount = 0;
 
 for (const f of files) {
-  const p = path.join(DIR, f);
+  const p = f;
   let n;
   try {
     n = JSON.parse(fs.readFileSync(p, "utf8"));
@@ -32,7 +36,7 @@ for (const f of files) {
   for (const req of ["name", "slug", "type", "website", "cards", "verification"]) {
     if (!(req in n)) { console.error("FAIL " + f + ": missing " + req); process.exit(1); }
   }
-  if (n.type !== "network") { console.error("FAIL " + f + ": type must be 'network'"); process.exit(1); }
+  if (!["network", "govt"].includes(n.type)) { console.error("FAIL " + f + ": type must be network|govt"); process.exit(1); }
   const v = n.verification || {};
   if (!v.last_verified || !/^\d{4}-\d{2}-\d{2}$/.test(v.last_verified)) {
     console.error("FAIL " + f + ": verification.last_verified missing/malformed");
@@ -72,7 +76,7 @@ fs.writeFileSync(
       count: entries.length,
       method_count: methodCount,
       networks: entries,
-      note: "Network-level channels (Visa GCAS, Mastercard Global Service, RuPay/DigiSaathi). These work even when the issuing bank's own lines are jammed; they can block the card or connect you to the issuer. Per-bank data lives in /data/banks/.",
+      note: "Network-level channels (Visa GCAS, Mastercard MGS, RuPay/DigiSaathi) and national govt rails (1930, NPCI UPI redressal). These work even when the issuing bank's own lines are jammed. Per-bank data lives in /data/banks/.",
     },
     null,
     2

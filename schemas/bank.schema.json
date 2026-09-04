@@ -29,7 +29,9 @@
         "coop",
         "payments",
         "sfb",
-        "foreign"
+        "foreign",
+        "network",
+        "govt"
       ]
     },
     "website": {
