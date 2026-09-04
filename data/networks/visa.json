@@ -1,0 +1,88 @@
+{
+  "name": "Visa Global Customer Assistance (GCAS)",
+  "slug": "visa",
+  "type": "network",
+  "website": "https://www.visa.com/pay-with-visa/global-customer-assistance.html",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "gcas-india",
+          "instructions": "Visa Global Customer Assistance (India): 000-117 (access code) then 866-765-9644 (toll-free). 24x7 lost/stolen card reporting \u2014 Visa blocks the card within ~30 minutes or transfers you to the issuing bank.",
+          "phone": "000-117-866-765-9644",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.visakorea.com/dam/VCOM/regional/ap/documents/ap-gcas-tollfree-numbers.pdf"
+          ]
+        },
+        {
+          "channel": "phone",
+          "label": "gcas-collect",
+          "instructions": "If the toll-free number does not work, call collect from anywhere: +1-303-967-1096.",
+          "phone": "+1-303-967-1096",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.visa.com/pay-with-visa/global-customer-assistance.html"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "gcas-india",
+          "instructions": "Visa Global Customer Assistance (India): 000-117 (access code) then 866-765-9644 (toll-free). 24x7 lost/stolen reporting, emergency card replacement and cash disbursement.",
+          "phone": "000-117-866-765-9644",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.visakorea.com/dam/VCOM/regional/ap/documents/ap-gcas-tollfree-numbers.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "toll-free-india",
+          "instructions": "From India call the GCAS India toll-free access number 000-117, then 866-765-9644. From the US call 1-866-765-9644. Anywhere else, call collect +1-303-967-1096. 24x7: agents report lost/stolen cards to the issuer (blocked in ~30 min) and arrange emergency card replacement and cash.",
+          "phone": "+1-303-967-1096",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.visakorea.com/dam/VCOM/regional/ap/documents/ap-gcas-tollfree-numbers.pdf",
+            "https://africa.visa.com/pay-with-visa/benefits-and-offers/global-customer-assistance.html"
+          ]
+        },
+        {
+          "channel": "website",
+          "label": "global-number-lookup",
+          "instructions": "Country-by-country GCAS toll-free numbers: https://www.visa.com/pay-with-visa/benefits-and-offers/global-customer-assistance.html (dropdown) \u2014 pick the country you are in.",
+          "url": "https://www.visa.com/pay-with-visa/benefits-and-offers/global-customer-assistance.html",
+          "confidence": 0.9,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://africa.visa.com/pay-with-visa/benefits-and-offers/global-customer-assistance.html"
+          ]
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-09-04",
+    "sources": [
+      "https://www.visa.com/pay-with-visa/global-customer-assistance.html",
+      "https://www.visakorea.com/dam/VCOM/regional/ap/documents/ap-gcas-tollfree-numbers.pdf"
+    ]
+  }
+}

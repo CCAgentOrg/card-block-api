@@ -1,0 +1,100 @@
+{
+  "name": "Mastercard Global Service",
+  "slug": "mastercard",
+  "type": "network",
+  "website": "https://www.mastercard.co.in/en-in/personal/get-support.html",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "mgs-india",
+          "instructions": "Mastercard Global Service (India, toll-free): 000-800-100-1087. 24x7 lost/stolen card reporting, emergency card replacement, emergency cash advance. The representative can connect you to your issuing bank and can block the card.",
+          "phone": "000-800-100-1087",
+          "confidence": 0.9,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.mastercard.co.in/en-in/personal/find-a-card/platinum-mastercard-credit.html",
+            "https://www.mastercard.com/us/en/personal/protection-and-security.html"
+          ]
+        },
+        {
+          "channel": "phone",
+          "label": "mgs-global-collect",
+          "instructions": "From abroad or if the toll-free fails (collect/direct dial): +1-636-722-7111.",
+          "phone": "+1-636-722-7111",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.mastercard.com/us/en/personal/protection-and-security.html"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "mgs-india",
+          "instructions": "Mastercard Global Service (India, toll-free): 000-800-100-1087. 24x7 lost/stolen card reporting; emergency replacement/cash advance worldwide.",
+          "phone": "000-800-100-1087",
+          "confidence": 0.9,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.mastercard.co.in/en-in/personal/find-a-card/standard-mastercard-credit.html"
+          ]
+        },
+        {
+          "channel": "phone",
+          "label": "mgs-global-collect",
+          "instructions": "From abroad (collect/direct dial): +1-636-722-7111.",
+          "phone": "+1-636-722-7111",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.mastercard.com/us/en/personal/protection-and-security.html"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "toll-free-india",
+          "instructions": "From India call Mastercard Global Service toll-free 000-800-100-1087. From the US call 1-800-307-7309. Collect/direct from anywhere: +1-636-722-7111. 24x7, any language: report lost/stolen card, emergency replacement, emergency cash advance.",
+          "phone": "000-800-100-1087",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://specials.priceless.com/mastercard/benefits/global-services-phone-numbers-updated-16102019.pdf",
+            "https://www.mastercard.com/ca/en/personal/protection-and-security.html"
+          ]
+        },
+        {
+          "channel": "website",
+          "label": "global-number-lookup",
+          "instructions": "Country-specific MGS toll-free numbers in the official MGS PDF: https://specials.priceless.com/mastercard/benefits/global-services-phone-numbers-updated-16102019.pdf \u2014 India row: 000-800-100-1087.",
+          "url": "https://specials.priceless.com/mastercard/benefits/global-services-phone-numbers-updated-16102019.pdf",
+          "confidence": 0.9,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://specials.priceless.com/mastercard/benefits/global-services-phone-numbers-updated-16102019.pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.9,
+    "last_verified": "2026-09-04",
+    "sources": [
+      "https://www.mastercard.co.in/en-in/personal/get-support.html",
+      "https://specials.priceless.com/mastercard/benefits/global-services-phone-numbers-updated-16102019.pdf"
+    ]
+  }
+}

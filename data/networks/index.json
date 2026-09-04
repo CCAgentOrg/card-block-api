@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-09-04",
+  "count": 3,
+  "method_count": 13,
+  "networks": [
+    {
+      "slug": "mastercard",
+      "name": "Mastercard Global Service",
+      "method_count": 6,
+      "last_verified": "2026-09-04"
+    },
+    {
+      "slug": "rupay",
+      "name": "RuPay (NPCI) / DigiSaathi",
+      "method_count": 2,
+      "last_verified": "2026-09-04"
+    },
+    {
+      "slug": "visa",
+      "name": "Visa Global Customer Assistance (GCAS)",
+      "method_count": 5,
+      "last_verified": "2026-09-04"
+    }
+  ],
+  "note": "Network-level channels (Visa GCAS, Mastercard Global Service, RuPay/DigiSaathi). These work even when the issuing bank's own lines are jammed; they can block the card or connect you to the issuer. Per-bank data lives in /data/banks/."
+}

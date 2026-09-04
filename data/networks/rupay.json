@@ -1,0 +1,48 @@
+{
+  "name": "RuPay (NPCI) / DigiSaathi",
+  "slug": "rupay",
+  "type": "network",
+  "website": "https://www.npci.org.in/what-we-do/rupay/faqs",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "digisaathi",
+          "instructions": "DigiSaathi (NPCI 24x7 digital-payments helpline): 1800-891-3333. Provides guidance on blocking RuPay cards and routes you to your issuing bank \u2014 RuPay hotlisting itself is done by the issuing bank.",
+          "phone": "1800-891-3333",
+          "confidence": 0.8,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.npci.org.in/digisaathi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "digisaathi",
+          "instructions": "DigiSaathi (NPCI 24x7 helpline): 1800-891-3333. Guidance + routing to issuing bank for RuPay credit-card hotlisting.",
+          "phone": "1800-891-3333",
+          "confidence": 0.8,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.npci.org.in/digisaathi"
+          ]
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.8,
+    "last_verified": "2026-09-04",
+    "sources": [
+      "https://www.npci.org.in/digisaathi"
+    ]
+  }
+}

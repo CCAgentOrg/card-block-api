@@ -5,7 +5,9 @@
   "updated": "2026-09-04",
   "endpoints": {
     "bank_index": "/data/banks/index.json",
-    "bank": "/data/banks/<slug>.json"
+    "bank": "/data/banks/<slug>.json",
+    "network_index": "/data/networks/index.json",
+    "network": "/data/networks/<slug>.json"
   },
   "bank_count": 61,
   "freshness": {
@@ -19,11 +21,15 @@
     "credit"
   ],
   "channels": [
+    "sms",
     "phone",
-    "email",
-    "website",
     "app",
-    "other"
+    "website",
+    "email",
+    "branch",
+    "upi",
+    "network",
+    "govt"
   ],
   "schema_note": "See AGENTS.md for the full schema. verification.status: human_verified > agent_verified > unverified > disputed"
 }
