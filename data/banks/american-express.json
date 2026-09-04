@@ -13,7 +13,14 @@
           "instructions": "Call 1800-419-1030 and follow the IVR to hotlist the card.",
           "phone": "1800-419-1030",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,7 +28,14 @@
           "instructions": "Call 1800-419-0167 and follow the IVR to hotlist the card.",
           "phone": "1800-419-0167",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -29,14 +43,28 @@
           "instructions": "Call 1800-419-2122 and follow the IVR to hotlist the card.",
           "phone": "1800-419-2122",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.americanexpress.com/in and use the card block/hotlist option.",
           "url": "https://www.americanexpress.com/in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -46,7 +74,14 @@
             "https://apps.apple.com/in/app/amex/id974696351"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

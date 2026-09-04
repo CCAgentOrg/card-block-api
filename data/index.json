@@ -8,6 +8,11 @@
     "bank": "/data/banks/<slug>.json"
   },
   "bank_count": 61,
+  "freshness": {
+    "fresh": 0,
+    "aging": 0,
+    "stale": 61
+  },
   "total_methods": 569,
   "card_types": [
     "debit",

@@ -13,7 +13,16 @@
           "instructions": "Call 1800-425-1444 and follow the IVR to hotlist the card.",
           "phone": "1800-425-1444",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +30,48 @@
           "instructions": "Call 1800-572-8031 and follow the IVR to hotlist the card.",
           "phone": "1800-572-8031",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@karnatakabank.com from your registered email to request card blocking.",
           "email": "customercare@karnatakabank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.karnatakabank.com and use the card block/hotlist option.",
           "url": "https://www.karnatakabank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +81,16 @@
             "https://apps.apple.com/in/app/kbl-app/id1289570665"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +103,16 @@
           "instructions": "Call 1800-425-1444 and follow the IVR to hotlist the card.",
           "phone": "1800-425-1444",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +120,48 @@
           "instructions": "Call +91-824-2444-100 and follow the IVR to hotlist the card.",
           "phone": "+91-824-2444-100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@karnatakabank.com from your registered email to request card blocking.",
           "email": "customercare@karnatakabank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.karnatakabank.com and use the card block/hotlist option.",
           "url": "https://www.karnatakabank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +171,16 @@
             "https://apps.apple.com/in/app/kbl-app/id1289570665"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

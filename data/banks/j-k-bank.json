@@ -13,7 +13,16 @@
           "instructions": "Call 1800-180-0234 and follow the IVR to hotlist the card.",
           "phone": "1800-180-0234",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +30,48 @@
           "instructions": "Call 0194-247-6666 and follow the IVR to hotlist the card.",
           "phone": "0194-247-6666",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@jkbank.com from your registered email to request card blocking.",
           "email": "customercare@jkbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://jkb.bank.in and use the card block/hotlist option.",
           "url": "https://jkb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +81,16 @@
             "https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +103,16 @@
           "instructions": "Call 1800-180-0234 and follow the IVR to hotlist the card.",
           "phone": "1800-180-0234",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +120,48 @@
           "instructions": "Call 0194-247-6666 and follow the IVR to hotlist the card.",
           "phone": "0194-247-6666",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@jkbank.com from your registered email to request card blocking.",
           "email": "customercare@jkbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://jkb.bank.in and use the card block/hotlist option.",
           "url": "https://jkb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +171,16 @@
             "https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

@@ -13,7 +13,16 @@
           "instructions": "Call 1800-419-6644 and follow the IVR to hotlist the card.",
           "phone": "1800-419-6644",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +30,48 @@
           "instructions": "Call 0487-6644-000 and follow the IVR to hotlist the card.",
           "phone": "0487-6644-000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@csb.co.in from your registered email to request card blocking.",
           "email": "customercare@csb.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.csb.co.in and use the card block/hotlist option.",
           "url": "https://www.csb.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +81,16 @@
             "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +103,16 @@
           "instructions": "Call 1800-419-6644 and follow the IVR to hotlist the card.",
           "phone": "1800-419-6644",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +120,48 @@
           "instructions": "Call 0487-6644-000 and follow the IVR to hotlist the card.",
           "phone": "0487-6644-000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email csbcards@csb.co.in from your registered email to request card blocking.",
           "email": "csbcards@csb.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.csb.co.in and use the card block/hotlist option.",
           "url": "https://www.csb.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +171,16 @@
             "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

@@ -13,7 +13,14 @@
           "instructions": "Call 1800-123-7777 and follow the IVR to hotlist the card.",
           "phone": "1800-123-7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +28,42 @@
           "instructions": "Call 1800-209-3333 and follow the IVR to hotlist the card.",
           "phone": "1800-209-3333",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customer@rblbank.com from your registered email to request card blocking.",
           "email": "customer@rblbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.rblbank.com and use the card block/hotlist option.",
           "url": "https://www.rblbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +73,14 @@
             "https://apps.apple.com/in/app/rbl-mobank/id1116633059"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +93,14 @@
           "instructions": "Call +91-22-6232-7777 and follow the IVR to hotlist the card.",
           "phone": "+91-22-6232-7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,7 +108,14 @@
           "instructions": "Call 1800-123-7777 and follow the IVR to hotlist the card.",
           "phone": "1800-123-7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -74,21 +123,42 @@
           "instructions": "Call +91-22-7118-7777 and follow the IVR to hotlist the card.",
           "phone": "+91-22-7118-7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email cardservices@rblbank.com from your registered email to request card blocking.",
           "email": "cardservices@rblbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.rblbank.com and use the card block/hotlist option.",
           "url": "https://www.rblbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -98,7 +168,14 @@
             "https://apps.apple.com/in/app/rbl-mobank/id1116633059"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

@@ -13,7 +13,14 @@
           "instructions": "Call 1800-5700 and follow the IVR to hotlist the card.",
           "phone": "1800-5700",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,7 +28,14 @@
           "instructions": "Call 1800-5000 and follow the IVR to hotlist the card.",
           "phone": "1800-5000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -29,21 +43,42 @@
           "instructions": "Call 080-66676000 and follow the IVR to hotlist the card.",
           "phone": "080-66676000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@bankofbaroda.com from your registered email to request card blocking.",
           "email": "customercare@bankofbaroda.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx and use the card block/hotlist option.",
           "url": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -53,7 +88,14 @@
             "https://apps.apple.com/in/app/bob-world/id1507878760"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -66,7 +108,14 @@
           "instructions": "Call 1800-5700 and follow the IVR to hotlist the card.",
           "phone": "1800-5700",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -74,21 +123,42 @@
           "instructions": "Call 1800-5000 and follow the IVR to hotlist the card.",
           "phone": "1800-5000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@bobcard.co.in from your registered email to request card blocking.",
           "email": "customercare@bobcard.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.bobcard.co.in and use the card block/hotlist option.",
           "url": "https://www.bobcard.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -98,7 +168,14 @@
             "https://apps.apple.com/in/app/bob-world/id1507878760"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://bankofbaroda.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

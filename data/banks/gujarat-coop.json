@@ -13,14 +13,30 @@
           "instructions": "Call 1800-233-1001 and follow the IVR to hotlist the card.",
           "phone": "1800-233-1001",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.gscbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.gscbank.com/ and use the card block/hotlist option.",
           "url": "https://www.gscbank.com/",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.gscbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -33,14 +49,30 @@
           "instructions": "Call 1800-233-1001 and follow the IVR to hotlist the card.",
           "phone": "1800-233-1001",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.gscbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.gscbank.com/ and use the card block/hotlist option.",
           "url": "https://www.gscbank.com/",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.gscbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

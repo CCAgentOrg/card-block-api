@@ -13,7 +13,16 @@
           "instructions": "Call 1800-120-8080 and follow the IVR to hotlist the card.",
           "phone": "1800-120-8080",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +30,48 @@
           "instructions": "Call 1800-120-8081 and follow the IVR to hotlist the card.",
           "phone": "1800-120-8081",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email care@utkarsh.bank from your registered email to request card blocking.",
           "email": "care@utkarsh.bank",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.utkarsh.bank and use the card block/hotlist option.",
           "url": "https://www.utkarsh.bank",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +81,16 @@
             "https://apps.apple.com/in/app/utkarsh-bank/id1463458813"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +103,16 @@
           "instructions": "Call 1800-120-8080 and follow the IVR to hotlist the card.",
           "phone": "1800-120-8080",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +120,48 @@
           "instructions": "Call 0562-712-3000 and follow the IVR to hotlist the card.",
           "phone": "0562-712-3000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email care@utkarsh.bank from your registered email to request card blocking.",
           "email": "care@utkarsh.bank",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.utkarsh.bank and use the card block/hotlist option.",
           "url": "https://www.utkarsh.bank",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +171,16 @@
             "https://apps.apple.com/in/app/utkarsh-bank/id1463458813"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }
