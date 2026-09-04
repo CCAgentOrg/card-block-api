@@ -1,0 +1,106 @@
+{
+  "name": "ESAF Small Finance Bank",
+  "slug": "esaf-small-finance",
+  "type": "private",
+  "website": "https://www.esafbank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-419-5555 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-5555",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-419-5555 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-5555",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@esafbank.com from your registered email to request card blocking.",
+          "email": "customercare@esafbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.esafbank.com and use the card block/hotlist option.",
+          "url": "https://www.esafbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.esaf.smallfinance | iOS: https://apps.apple.com/in/app/esaf-sfb/id1205152948",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.esaf.smallfinance",
+            "https://apps.apple.com/in/app/esaf-sfb/id1205152948"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-419-5555 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-5555",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0484-7150-888 and follow the IVR to hotlist the card.",
+          "phone": "0484-7150-888",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@esafbank.com from your registered email to request card blocking.",
+          "email": "customercare@esafbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.esafbank.com and use the card block/hotlist option.",
+          "url": "https://www.esafbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.esaf.smallfinance | iOS: https://apps.apple.com/in/app/esaf-sfb/id1205152948",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.esaf.smallfinance",
+            "https://apps.apple.com/in/app/esaf-sfb/id1205152948"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.esafbank.com"
+    ]
+  }
+}

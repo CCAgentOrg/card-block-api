@@ -1,0 +1,106 @@
+{
+  "name": "Indian Bank",
+  "slug": "indian-bank",
+  "type": "private",
+  "website": "https://www.indianbank.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1070 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1070",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-425-8450 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-8450",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@indianbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@indianbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.indianbank.in and use the card block/hotlist option.",
+          "url": "https://www.indianbank.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ib.eazypay | iOS: https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.ib.eazypay",
+            "https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1070 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1070",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 044-2535-3000 and follow the IVR to hotlist the card.",
+          "phone": "044-2535-3000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@indianbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@indianbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.indianbank.in and use the card block/hotlist option.",
+          "url": "https://www.indianbank.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ib.eazypay | iOS: https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.ib.eazypay",
+            "https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.indianbank.in"
+    ]
+  }
+}

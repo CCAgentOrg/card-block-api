@@ -1,0 +1,61 @@
+{
+  "name": "Airtel Payments Bank",
+  "slug": "airtel-payments",
+  "type": "private",
+  "website": "https://www.airtelyelp.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 9262626999 and follow the IVR to hotlist the card.",
+          "phone": "9262626999",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 8292327367 and follow the IVR to hotlist the card.",
+          "phone": "8292327367",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@payments.bank.airtel.in from your registered email to request card blocking.",
+          "email": "care@payments.bank.airtel.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.airtelyelp.com and use the card block/hotlist option.",
+          "url": "https://www.airtelyelp.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.airtel.app | iOS: https://apps.apple.com/in/app/airtel-thanks/id1110843544",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.airtel.app",
+            "https://apps.apple.com/in/app/airtel-thanks/id1110843544"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.airtelyelp.com"
+    ]
+  }
+}

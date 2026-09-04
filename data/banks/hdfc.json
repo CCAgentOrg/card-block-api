@@ -1,0 +1,123 @@
+{
+  "name": "HDFC Bank",
+  "slug": "hdfc",
+  "type": "private",
+  "website": "https://netbanking.hdfcbank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-266-4060 and follow the IVR to hotlist the card.",
+          "phone": "1800-266-4060",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-1600 and follow the IVR to hotlist the card.",
+          "phone": "1800-1600",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 040-6608-8388 and follow the IVR to hotlist the card.",
+          "phone": "040-6608-8388",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customerservices.cards@hdfcbank.com from your registered email to request card blocking.",
+          "email": "customerservices.cards@hdfcbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://netbanking.hdfcbank.com and use the card block/hotlist option.",
+          "url": "https://netbanking.hdfcbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.hdfcbank.mobile | iOS: https://apps.apple.com/in/app/hdfc-bank/id657927626",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
+            "https://apps.apple.com/in/app/hdfc-bank/id657927626"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-1600 and follow the IVR to hotlist the card.",
+          "phone": "1800-1600",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-2600 and follow the IVR to hotlist the card.",
+          "phone": "1800-2600",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-22-6160-6160 and follow the IVR to hotlist the card.",
+          "phone": "+91-22-6160-6160",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customerservices.cards@hdfcbank.com from your registered email to request card blocking.",
+          "email": "customerservices.cards@hdfcbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://netbanking.hdfcbank.com and use the card block/hotlist option.",
+          "url": "https://netbanking.hdfcbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.hdfcbank.mobile | iOS: https://apps.apple.com/in/app/hdfc-bank/id657927626",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
+            "https://apps.apple.com/in/app/hdfc-bank/id657927626"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+      "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+    ]
+  }
+}

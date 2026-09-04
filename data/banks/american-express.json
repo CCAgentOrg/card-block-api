@@ -1,0 +1,62 @@
+{
+  "name": "American Express India",
+  "slug": "american-express",
+  "type": "private",
+  "website": "https://www.americanexpress.com/in",
+  "cards": [
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-419-1030 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-1030",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-419-0167 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-0167",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-419-2122 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-2122",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.americanexpress.com/in and use the card block/hotlist option.",
+          "url": "https://www.americanexpress.com/in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.amex.android | iOS: https://apps.apple.com/in/app/amex/id974696351",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.amex.android",
+            "https://apps.apple.com/in/app/amex/id974696351"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.americanexpress.com/in/support/contact-us.html"
+    ]
+  }
+}

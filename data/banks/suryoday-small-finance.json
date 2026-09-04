@@ -1,0 +1,108 @@
+{
+  "name": "Suryoday Small Finance Bank",
+  "slug": "suryoday-small-finance",
+  "type": "private",
+  "website": "https://www.suryodaybank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-308-0880 and follow the IVR to hotlist the card.",
+          "phone": "1800-308-0880",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-209-8008 and follow the IVR to hotlist the card.",
+          "phone": "1800-209-8008",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@suryodaybank.com from your registered email to request card blocking.",
+          "email": "customercare@suryodaybank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.suryodaybank.com and use the card block/hotlist option.",
+          "url": "https://www.suryodaybank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.suryoday.bank | iOS: https://apps.apple.com/in/app/suryoday-mobile/id1443185260",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.suryoday.bank",
+            "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-308-0880 and follow the IVR to hotlist the card.",
+          "phone": "1800-308-0880",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022-7180-1500 and follow the IVR to hotlist the card.",
+          "phone": "022-7180-1500",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@suryodaybank.com from your registered email to request card blocking.",
+          "email": "customercare@suryodaybank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.suryodaybank.com and use the card block/hotlist option.",
+          "url": "https://www.suryodaybank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.suryoday.bank | iOS: https://apps.apple.com/in/app/suryoday-mobile/id1443185260",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.suryoday.bank",
+            "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.suryodaybank.com",
+      "https://www.suryodaybank.com/contact-us",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Telangana Grameena Bank",
+  "slug": "telangana-gramin",
+  "type": "rrb",
+  "website": "https://www.tgb.org.in/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1154 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1154",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.tgb.org.in/ and use the card block/hotlist option.",
+          "url": "https://www.tgb.org.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1154 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1154",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.tgb.org.in/ and use the card block/hotlist option.",
+          "url": "https://www.tgb.org.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.tgb.org.in/",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "SBM Bank India",
+  "slug": "sbm",
+  "type": "private",
+  "website": "https://www.sbmbank.co.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-2099-335 and follow the IVR to hotlist the card.",
+          "phone": "1800-2099-335",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-1033-817 and follow the IVR to hotlist the card.",
+          "phone": "1800-1033-817",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@sbmbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@sbmbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.sbmbank.co.in and use the card block/hotlist option.",
+          "url": "https://www.sbmbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbm.bank | iOS: https://apps.apple.com/in/app/sbm-mobile/id1448902433",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.sbm.bank",
+            "https://apps.apple.com/in/app/sbm-mobile/id1448902433"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-2099-335 and follow the IVR to hotlist the card.",
+          "phone": "1800-2099-335",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-1033-817 and follow the IVR to hotlist the card.",
+          "phone": "1800-1033-817",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@sbmbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@sbmbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.sbmbank.co.in and use the card block/hotlist option.",
+          "url": "https://www.sbmbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbm.bank | iOS: https://apps.apple.com/in/app/sbm-mobile/id1448902433",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.sbm.bank",
+            "https://apps.apple.com/in/app/sbm-mobile/id1448902433"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.sbmbank.co.in/contact-us"
+    ]
+  }
+}

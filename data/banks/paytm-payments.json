@@ -1,0 +1,61 @@
+{
+  "name": "Paytm Payments Bank",
+  "slug": "paytm-payments",
+  "type": "private",
+  "website": "https://paytmbank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 0120-3888-388 and follow the IVR to hotlist the card.",
+          "phone": "0120-3888-388",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-1800-1091 and follow the IVR to hotlist the card.",
+          "phone": "1800-1800-1091",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email support@paytmbank.com from your registered email to request card blocking.",
+          "email": "support@paytmbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://paytmbank.com and use the card block/hotlist option.",
+          "url": "https://paytmbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.paytm.app | iOS: https://apps.apple.com/in/app/paytm/id540887043",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.paytm.app",
+            "https://apps.apple.com/in/app/paytm/id540887043"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://paytmbank.com"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "DBS Bank India",
+  "slug": "dbs",
+  "type": "private",
+  "website": "https://www.dbs.com/india",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1860-267-6789 and follow the IVR to hotlist the card.",
+          "phone": "1860-267-6789",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-44-6904-6789 and follow the IVR to hotlist the card.",
+          "phone": "+91-44-6904-6789",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customer.care@dbs.com from your registered email to request card blocking.",
+          "email": "customer.care@dbs.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.dbs.com/india and use the card block/hotlist option.",
+          "url": "https://www.dbs.com/india",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dbs.digibank | iOS: https://apps.apple.com/in/app/dbs-digibank/id1133705384",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.dbs.digibank",
+            "https://apps.apple.com/in/app/dbs-digibank/id1133705384"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1860-267-6789 and follow the IVR to hotlist the card.",
+          "phone": "1860-267-6789",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-44-6904-6789 and follow the IVR to hotlist the card.",
+          "phone": "+91-44-6904-6789",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customer.care@dbs.com from your registered email to request card blocking.",
+          "email": "customer.care@dbs.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.dbs.com/india and use the card block/hotlist option.",
+          "url": "https://www.dbs.com/india",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dbs.digibank | iOS: https://apps.apple.com/in/app/dbs-digibank/id1133705384",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.dbs.digibank",
+            "https://apps.apple.com/in/app/dbs-digibank/id1133705384"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.dbs.com"
+    ]
+  }
+}

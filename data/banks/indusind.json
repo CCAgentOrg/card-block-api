@@ -1,0 +1,106 @@
+{
+  "name": "IndusInd Bank",
+  "slug": "indusind",
+  "type": "private",
+  "website": "https://cardshub.indusind.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-209-4333 and follow the IVR to hotlist the card.",
+          "phone": "1800-209-4333",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 020-6901-9000 and follow the IVR to hotlist the card.",
+          "phone": "020-6901-9000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@indusind.com from your registered email to request card blocking.",
+          "email": "care@indusind.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.indusind.com and use the card block/hotlist option.",
+          "url": "https://www.indusind.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=in.org.indusind.indusapp | iOS: https://apps.apple.com/in/app/indusind-bank/id389114565",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
+            "https://apps.apple.com/in/app/indusind-bank/id389114565"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1860-2100-400 and follow the IVR to hotlist the card.",
+          "phone": "1860-2100-400",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-209-4333 and follow the IVR to hotlist the card.",
+          "phone": "1800-209-4333",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@indusind.com from your registered email to request card blocking.",
+          "email": "care@indusind.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://cardshub.indusind.com and use the card block/hotlist option.",
+          "url": "https://cardshub.indusind.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=in.org.indusind.indusapp | iOS: https://apps.apple.com/in/app/indusind-bank/id389114565",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
+            "https://apps.apple.com/in/app/indusind-bank/id389114565"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://cardshub.indusind.com"
+    ]
+  }
+}

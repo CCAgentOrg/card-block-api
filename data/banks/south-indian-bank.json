@@ -1,0 +1,106 @@
+{
+  "name": "South Indian Bank",
+  "slug": "south-indian-bank",
+  "type": "private",
+  "website": "https://www.southindianbank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1444 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1444",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-487-2456-999 and follow the IVR to hotlist the card.",
+          "phone": "+91-487-2456-999",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@southindianbank.com from your registered email to request card blocking.",
+          "email": "customercare@southindianbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.southindianbank.com and use the card block/hotlist option.",
+          "url": "https://www.southindianbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sib.mirrorplus | iOS: https://apps.apple.com/in/app/sib-mirror/id1166471522",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.sib.mirrorplus",
+            "https://apps.apple.com/in/app/sib-mirror/id1166471522"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1444 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1444",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-487-2456-999 and follow the IVR to hotlist the card.",
+          "phone": "+91-487-2456-999",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@southindianbank.com from your registered email to request card blocking.",
+          "email": "customercare@southindianbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.southindianbank.com and use the card block/hotlist option.",
+          "url": "https://www.southindianbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sib.mirrorplus | iOS: https://apps.apple.com/in/app/sib-mirror/id1166471522",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.sib.mirrorplus",
+            "https://apps.apple.com/in/app/sib-mirror/id1166471522"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.southindianbank.com"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Axis Bank",
+  "slug": "axis",
+  "type": "private",
+  "website": "https://www.axisbank.com",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-209-5577 and follow the IVR to hotlist the card.",
+          "phone": "1800-209-5577",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-103-5577 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-5577",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1860-500-5555 and follow the IVR to hotlist the card.",
+          "phone": "1860-500-5555",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@axisbank.com from your registered email to request card blocking.",
+          "email": "care@axisbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.axisbank.com and use the card block/hotlist option.",
+          "url": "https://www.axisbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.axis.mobile | iOS: https://apps.apple.com/in/app/axis-mobile/id879519813",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.axis.mobile",
+            "https://apps.apple.com/in/app/axis-mobile/id879519813"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-209-5577 and follow the IVR to hotlist the card.",
+          "phone": "1800-209-5577",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-103-5577 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-5577",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1860-419-5555 and follow the IVR to hotlist the card.",
+          "phone": "1860-419-5555",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email care@axisbank.com from your registered email to request card blocking.",
+          "email": "care@axisbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.axisbank.com and use the card block/hotlist option.",
+          "url": "https://www.axisbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.axis.mobile | iOS: https://apps.apple.com/in/app/axis-mobile/id879519813",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.axis.mobile",
+            "https://apps.apple.com/in/app/axis-mobile/id879519813"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.axisbank.com/contact-us"
+    ]
+  }
+}

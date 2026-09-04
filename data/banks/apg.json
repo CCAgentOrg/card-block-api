@@ -1,0 +1,57 @@
+{
+  "name": "Andhra Pradesh Grameena Bank",
+  "slug": "apg",
+  "type": "coop",
+  "website": "https://www.apgb.in/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-2030 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2030",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.apgb.in/ and use the card block/hotlist option.",
+          "url": "https://www.apgb.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-2030 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-2030",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.apgb.in/ and use the card block/hotlist option.",
+          "url": "https://www.apgb.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.apgb.in/",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

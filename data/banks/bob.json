@@ -1,0 +1,114 @@
+{
+  "name": "Bank of Baroda",
+  "slug": "bob",
+  "type": "private",
+  "website": "https://www.bobcard.co.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-5700 and follow the IVR to hotlist the card.",
+          "phone": "1800-5700",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-5000 and follow the IVR to hotlist the card.",
+          "phone": "1800-5000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 080-66676000 and follow the IVR to hotlist the card.",
+          "phone": "080-66676000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@bankofbaroda.com from your registered email to request card blocking.",
+          "email": "customercare@bankofbaroda.com",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx and use the card block/hotlist option.",
+          "url": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.bobapp | iOS: https://apps.apple.com/in/app/bob-world/id1507878760",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
+            "https://apps.apple.com/in/app/bob-world/id1507878760"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-5700 and follow the IVR to hotlist the card.",
+          "phone": "1800-5700",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-5000 and follow the IVR to hotlist the card.",
+          "phone": "1800-5000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@bobcard.co.in from your registered email to request card blocking.",
+          "email": "customercare@bobcard.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.bobcard.co.in and use the card block/hotlist option.",
+          "url": "https://www.bobcard.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.bobapp | iOS: https://apps.apple.com/in/app/bob-world/id1507878760",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
+            "https://apps.apple.com/in/app/bob-world/id1507878760"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://bankofbaroda.bank.in/contact-us"
+    ]
+  }
+}

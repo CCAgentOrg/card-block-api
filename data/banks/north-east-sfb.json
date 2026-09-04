@@ -1,0 +1,89 @@
+{
+  "name": "North East Small Finance Bank",
+  "slug": "north-east-sfb",
+  "type": "private",
+  "website": "https://www.nesfb.in/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-313-4444 and follow the IVR to hotlist the card.",
+          "phone": "1800-313-4444",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email info@nesfb.in from your registered email to request card blocking.",
+          "email": "info@nesfb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.nesfb.in/ and use the card block/hotlist option.",
+          "url": "https://www.nesfb.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.northeast.sfb",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.northeast.sfb"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-313-4444 and follow the IVR to hotlist the card.",
+          "phone": "1800-313-4444",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email info@nesfb.in from your registered email to request card blocking.",
+          "email": "info@nesfb.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.nesfb.in/ and use the card block/hotlist option.",
+          "url": "https://www.nesfb.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.northeast.sfb",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.northeast.sfb"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.nesfb.in/",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Capital Small Finance Bank",
+  "slug": "capital-small-finance",
+  "type": "private",
+  "website": "https://www.capitalsbank.co.in",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-3000-0000 and follow the IVR to hotlist the card.",
+          "phone": "1800-3000-0000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-300-0001 and follow the IVR to hotlist the card.",
+          "phone": "1800-300-0001",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@capitalsbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@capitalsbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.capitalsbank.co.in and use the card block/hotlist option.",
+          "url": "https://www.capitalsbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.capital.sfb | iOS: https://apps.apple.com/in/app/capital-sfb/id1278209345",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.capital.sfb",
+            "https://apps.apple.com/in/app/capital-sfb/id1278209345"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-3000-0000 and follow the IVR to hotlist the card.",
+          "phone": "1800-3000-0000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0181-2276000 and follow the IVR to hotlist the card.",
+          "phone": "0181-2276000",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@capitalsbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@capitalsbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.capitalsbank.co.in and use the card block/hotlist option.",
+          "url": "https://www.capitalsbank.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.capital.sfb | iOS: https://apps.apple.com/in/app/capital-sfb/id1278209345",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.capital.sfb",
+            "https://apps.apple.com/in/app/capital-sfb/id1278209345"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-12",
+    "sources": [
+      "https://www.capitalsbank.co.in"
+    ]
+  }
+}

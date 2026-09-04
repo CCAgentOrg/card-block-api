@@ -1,0 +1,71 @@
+{
+  "name": "Kerala Gramin Bank",
+  "slug": "kerala-gramin-bank",
+  "type": "rrb",
+  "website": "https://www.keralagbank.in/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1829 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1829",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@keralagbank.in from your registered email to request card blocking.",
+          "email": "customercare@keralagbank.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.keralagbank.in/ and use the card block/hotlist option.",
+          "url": "https://www.keralagbank.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-425-1829 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1829",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email customercare@keralagbank.in from your registered email to request card blocking.",
+          "email": "customercare@keralagbank.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.keralagbank.in/ and use the card block/hotlist option.",
+          "url": "https://www.keralagbank.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.keralagbank.in/",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

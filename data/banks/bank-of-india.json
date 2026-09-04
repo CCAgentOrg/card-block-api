@@ -1,0 +1,107 @@
+{
+  "name": "Bank of India",
+  "slug": "bank-of-india",
+  "type": "private",
+  "website": "https://www.bankofindia.co.in/",
+  "cards": [
+    {
+      "type": "debit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-103-4664 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-4664",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-22-4466 and follow the IVR to hotlist the card.",
+          "phone": "1800-22-4466",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email callcentre@bankofindia.co.in from your registered email to request card blocking.",
+          "email": "callcentre@bankofindia.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.bankofindia.co.in/ and use the card block/hotlist option.",
+          "url": "https://www.bankofindia.co.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.bkibank.boki | iOS: https://apps.apple.com/in/app/bank-of-india/id1068717540",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.bkibank.boki",
+            "https://apps.apple.com/in/app/bank-of-india/id1068717540"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-103-4664 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-4664",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-22-4466 and follow the IVR to hotlist the card.",
+          "phone": "1800-22-4466",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "email",
+          "instructions": "Email callcentre@bankofindia.co.in from your registered email to request card blocking.",
+          "email": "callcentre@bankofindia.co.in",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://www.bankofindia.co.in/ and use the card block/hotlist option.",
+          "url": "https://www.bankofindia.co.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.bkibank.boki | iOS: https://apps.apple.com/in/app/bank-of-india/id1068717540",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.bkibank.boki",
+            "https://apps.apple.com/in/app/bank-of-india/id1068717540"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-05-13",
+    "sources": [
+      "https://www.bankofindia.co.in/customer-care",
+      "https://sachet.rbi.org.in"
+    ]
+  }
+}

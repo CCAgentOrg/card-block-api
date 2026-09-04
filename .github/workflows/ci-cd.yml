@@ -35,17 +35,22 @@ jobs:
             node -e "JSON.parse(require('fs').readFileSync('$f'))"
             echo "✓ $f is valid"
           done
+          for f in data/banks/*.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f'))" || exit 1
+          done
+          echo "✓ $(ls data/banks/*.json | wc -l) bank data files are valid"
       
       - name: Check required fields
         run: |
           node -e "
-          const data = JSON.parse(require('fs').readFileSync('data/india.json'));
-          const required = ['country', 'banks'];
-          required.forEach(field => {
-            if (!data[field]) throw new Error('Missing: ' + field);
+          const index = JSON.parse(require('fs').readFileSync('data/banks/index.json'));
+          const fs = require('fs');
+          if (!index.banks || !Array.isArray(index.banks) || index.banks.length === 0) throw new Error('Missing: index.banks');
+          index.banks.forEach(b => {
+            if (!fs.existsSync('data/banks/' + b.slug + '.json')) throw new Error('Missing per-bank file: ' + b.slug);
           });
           console.log('✓ Required fields present');
-          console.log('✓ Total banks:', data.banks.length);
+          console.log('✓ Total banks:', index.count || index.banks.length);
           "
 
   verify-urls:
@@ -61,18 +66,23 @@ jobs:
         run: |
           # Basic URL check - just verify structure
           node -e "
-          const data = JSON.parse(require('fs').readFileSync('data/india.json'));
+          const fs = require('fs');
+          const index = JSON.parse(fs.readFileSync('data/banks/index.json'));
           let issues = [];
-          data.banks.forEach(bank => {
+          let methods = 0;
+          index.banks.forEach(entry => {
+            const bank = JSON.parse(fs.readFileSync('data/banks/' + entry.slug + '.json'));
             if (!bank.website) issues.push(bank.name + ': missing website');
             bank.cards.forEach(card => {
-              card.blocking_methods.forEach(method => {
+              (card.blocking_methods || []).forEach(method => {
+                methods++;
                 if (method.url && !method.url.startsWith('http')) {
                   issues.push(bank.name + ': invalid URL for ' + method.channel);
                 }
               });
             });
           });
+          console.log('✓ Total blocking methods:', methods);
           if (issues.length > 0) {
             console.log('Issues found:');
             issues.forEach(i => console.log('  - ' + i));
@@ -96,13 +106,13 @@ jobs:
           test -f index.html && echo "✓ index.html exists"
           test -f about.html && echo "✓ about.html exists"
           test -f policy.html && echo "✓ policy.html exists"
-          test -f data/india.json && echo "✓ data/india.json exists"
+          test -f data/banks/index.json && echo "✓ data/banks/index.json exists"
       
       - name: Verify links in HTML
         run: |
           # Check for basic HTML structure
           grep -q "Card Block API" index.html && echo "✓ index.html has title"
-          grep -q "data/india.json" index.html && echo "✓ index.html references data"
+          grep -q "data/banks/index.json" index.html && echo "✓ index.html references data"
 
   deploy:
     name: Deploy to GitHub Pages
