@@ -1,0 +1,38 @@
+{
+  "id": "pnb",
+  "name": "Punjab National Bank",
+  "logo": "/static/logos/pnb.svg",
+  "ifsc": "PUNB0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-180-2222",
+      "number1": "1800-103-2222",
+      "number2": "1800-180-2345",
+      "email": "care@pnbcard.in",
+      "website": "https://pnbcard.in",
+      "reference": "https://pnb.bank.in/customer-care",
+      "notes": "Credit cards managed by PNB Card services. .",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
+      "iosApp": "https://apps.apple.com/in/app/pnb-one/id1580876840",
+      "sms": "BLOCK <Last4> to 5607040"
+    },
+    "debit": {
+      "tollFree": "1800-180-2222",
+      "number1": "1800-103-2222",
+      "number2": "1800-180-2223",
+      "email": "customercare@pnbindia.in",
+      "website": "https://pnb.bank.in",
+      "reference": "https://pnb.bank.in/customer-care",
+      "notes": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
+      "iosApp": "https://apps.apple.com/in/app/pnb-one/id1580876840"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://pnb.bank.in/contact-us",
+      "label": "PNB contact-us (live fetch: ATM/debit card 1800 180 2222 + 1800 103 2222)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

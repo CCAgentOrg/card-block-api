@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via SBM Mobile app: Debit Card > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.sbmbank.co.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.sbm.bank",
             "https://apps.apple.com/in/app/sbm-mobile/id1448902433"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.sbmbank.co.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via SBM Mobile Banking app: Cards > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

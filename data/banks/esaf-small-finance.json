@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via ESAF Mobile app: Debit Card > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.esafbank.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.esaf.smallfinance",
             "https://apps.apple.com/in/app/esaf-sfb/id1205152948"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.esafbank.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via ESAF Mobile Banking app: Cards > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

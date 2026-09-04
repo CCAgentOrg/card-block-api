@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via HSBC India NetBanking: Cards > Manage > Block. Premier: 1800-266-3456.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -167,6 +180,19 @@
             "https://play.google.com/store/apps/details?id=com.hsbc.hsbcnet",
             "https://apps.apple.com/in/app/hsbc-hk/id1188660034"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Premier cardholders: 1800-266-3456 / +91-40-6511-8001.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

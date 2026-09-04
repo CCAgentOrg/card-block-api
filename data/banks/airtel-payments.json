@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Airtel Thanks app: Cards > Block. Airtel Payments Bank debit card block via app.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.airtelyelp.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

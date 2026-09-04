@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via DBS digibank Mobile app: Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.dbs.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.dbs.digibank",
             "https://apps.apple.com/in/app/dbs-digibank/id1133705384"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.dbs.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "24-hour credit card service for Bajaj Finserv DBS SuperCard & DBS Spark Card.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

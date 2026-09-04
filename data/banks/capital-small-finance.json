@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Capital Bank Mobile app: Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.capitalsbank.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.capital.sfb",
             "https://apps.apple.com/in/app/capital-sfb/id1278209345"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.capitalsbank.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Capital Bank Mobile app: Cards > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

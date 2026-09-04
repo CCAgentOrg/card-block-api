@@ -91,6 +91,21 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Utkarsh Mobile app: Debit Card > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -170,6 +185,21 @@
             "https://play.google.com/store/apps/details?id=com.utkarsh.bankapp",
             "https://apps.apple.com/in/app/utkarsh-bank/id1463458813"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.utkarsh.bank",
+            "https://www.utkarsh.bank/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Utkarsh Mobile Banking app: Cards > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

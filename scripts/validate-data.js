@@ -8,7 +8,7 @@ const path = require("path");
 const DIR = path.join(__dirname, "..", "data", "banks");
 const REQUIRED_BANK = ["name", "slug", "type", "website", "cards", "verification"];
 const BANK_TYPES = ["public", "private", "rrb", "coop"];
-const CHANNELS = ["sms", "phone", "app", "website", "email", "branch", "upi", "network", "govt"];
+const CHANNELS = ["sms", "phone", "app", "website", "email", "branch", "upi", "network", "govt", "other"];
 const STATUSES = ["human_verified", "agent_verified", "unverified", "disputed"];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 

@@ -13,10 +13,11 @@
           "instructions": "Call 1800-1080 and follow the IVR to hotlist the card.",
           "phone": "1800-1080",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -29,10 +30,11 @@
           "instructions": "Call +91-22-3366-7777 and follow the IVR to hotlist the card.",
           "phone": "+91-22-3366-7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -44,10 +46,11 @@
           "instructions": "Email customer.care@icicibank.com from your registered email to request card blocking.",
           "email": "customer.care@icicibank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -59,10 +62,11 @@
           "instructions": "Log in to internet banking at https://www.icicibank.com and use the card block/hotlist option.",
           "url": "https://www.icicibank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -77,10 +81,26 @@
             "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via iMobile Pay: Cards > Debit Card > Block. Internet Banking also available.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -98,10 +118,11 @@
           "instructions": "Call 1800-1080 and follow the IVR to hotlist the card.",
           "phone": "1800-1080",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -114,10 +135,11 @@
           "instructions": "Call +91-22-41007777 and follow the IVR to hotlist the card.",
           "phone": "+91-22-41007777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -129,10 +151,11 @@
           "instructions": "Email customer.care@icicibank.com from your registered email to request card blocking.",
           "email": "customer.care@icicibank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -144,10 +167,11 @@
           "instructions": "Log in to internet banking at https://www.icicibank.com and use the card block/hotlist option.",
           "url": "https://www.icicibank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -162,10 +186,26 @@
             "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://icicibank.in/customer-care",
-            "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "24x7. Fraud reporting: 1800-266-2 (separate line). Also via iMobile Pay app: Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.icicibank.com/customer-care.page",
+            "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+            "https://www.icicibank.com/terms-condition/block-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -178,10 +218,11 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-04",
     "sources": [
-      "https://icicibank.in/customer-care",
-      "https://www.bankbazaar.com/credit-card/how-to-block-icici-credit-card.html"
+      "https://www.icicibank.com/customer-care.page",
+      "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+      "https://www.icicibank.com/terms-condition/block-credit-card"
     ]
   }
 }

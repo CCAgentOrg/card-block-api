@@ -70,6 +70,20 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Block cards via net banking or call customer care",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.dhanlaxmibank.in/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -129,6 +143,20 @@
             "https://play.google.com/store/apps/details?id=com.dhanlaxmi.mbanking",
             "https://apps.apple.com/in/app/dhanlaxmi-bank/id1367961575"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.dhanlaxmibank.in/customer-care",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Block cards via net banking or call customer care",
           "confidence": 0.85,
           "last_verified": "2026-05-13",
           "sources": [

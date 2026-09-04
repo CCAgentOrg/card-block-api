@@ -91,6 +91,21 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via CSB Mobile app: Debit Card > Block. WhatsApp: +91-9496-999-111.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -170,6 +185,21 @@
             "https://play.google.com/store/apps/details?id=com.csb.becsapp",
             "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.csb.co.in",
+            "https://www.csb.co.in/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via CSB Mobile app: Cards > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

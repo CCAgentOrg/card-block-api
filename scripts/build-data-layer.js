@@ -92,10 +92,16 @@ function buildMethods(inst, lastVerified, sources) {
     });
   }
 
-  if (methods.length === 0 && inst.notes) {
+  if (inst.sms) {
+    methods.push({
+      channel: "sms",
+      instructions: "SMS " + inst.sms + " from your registered mobile number.",
+    });
+  }
+  if (inst.notes) {
     methods.push({
       channel: "other",
-      instructions: inst.notes,
+      instructions: inst.notes.replace(/\s*\.\s*\./g, ".").replace(/\s+/g, " ").trim(),
     });
   }
 
@@ -140,22 +146,6 @@ ids.forEach((id) => {
   const b = banks[id];
   const bLastVerified = b.lastVerified || null;
   const slug = slugify(b.id || id);
-
-  if (overrides[slug]) {
-    const ovr = JSON.parse(fs.readFileSync(path.join(OVR_DIR, slug + ".json"), "utf8"));
-    fs.writeFileSync(path.join(OUT_DIR, slug + ".json"), JSON.stringify(ovr, null, 2) + "\n");
-    indexEntries.push({
-      slug: ovr.slug,
-      name: ovr.name,
-      type: ovr.type,
-      card_types: ovr.cards.map((c) => c.type),
-      method_count: ovr.cards.reduce((n, c) => n + c.blocking_methods.length, 0),
-      verification_status: ovr.verification.status,
-      last_verified: ovr.verification.last_verified,
-    });
-    freshnessAggregate[freshnessBand(ovr.verification.last_verified)]++;
-    return;
-  }
 
   const sources = (b.sources || []).map((src) => src.url).filter(Boolean);
   const cardTypes = [];

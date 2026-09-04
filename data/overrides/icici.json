@@ -1,0 +1,43 @@
+{
+  "id": "icici",
+  "name": "ICICI Bank",
+  "logo": "/static/logos/icici.svg",
+  "ifsc": "ICIC0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-1080",
+      "number1": "+91-22-41007777",
+      "email": "customer.care@icicibank.com",
+      "website": "https://www.icicibank.com",
+      "reference": "https://icicibank.in/customer-care",
+      "notes": "24x7. Fraud reporting: 1800-266-2 (separate line). Also via iMobile Pay app: Cards > Block.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile",
+      "iosApp": "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
+    },
+    "debit": {
+      "tollFree": "1800-1080",
+      "number1": "+91-22-3366-7777",
+      "email": "customer.care@icicibank.com",
+      "website": "https://www.icicibank.com",
+      "reference": "https://icicibank.in/customer-care",
+      "notes": "Via iMobile Pay: Cards > Debit Card > Block. Internet Banking also available.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile",
+      "iosApp": "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.icicibank.com/customer-care.page",
+      "label": "ICICI customer care (live fetch: 1800 1080)"
+    },
+    {
+      "url": "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
+      "label": "Debit card FAQ (block via iMobile/NetBanking/1800 1080)"
+    },
+    {
+      "url": "https://www.icicibank.com/terms-condition/block-credit-card",
+      "label": "Block credit card page (live fetch)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

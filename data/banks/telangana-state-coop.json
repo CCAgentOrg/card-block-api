@@ -86,6 +86,20 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Block cards via mobile app or contact branch",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -161,6 +175,20 @@
             "https://play.google.com/store/apps/details?id=com.tsab.app",
             "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Block cards via mobile app or contact branch",
           "confidence": 0.85,
           "last_verified": "2026-05-13",
           "sources": [

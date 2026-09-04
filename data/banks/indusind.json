@@ -13,9 +13,9 @@
           "instructions": "Call 1800-209-4333 and follow the IVR to hotlist the card.",
           "phone": "1800-209-4333",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +25,12 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 020-6901-9000 and follow the IVR to hotlist the card.",
-          "phone": "020-6901-9000",
+          "instructions": "Call 1860-267-7777 and follow the IVR to hotlist the card.",
+          "phone": "1860-267-7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -42,9 +42,9 @@
           "instructions": "Email care@indusind.com from your registered email to request card blocking.",
           "email": "care@indusind.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,9 +56,9 @@
           "instructions": "Log in to internet banking at https://www.indusind.com and use the card block/hotlist option.",
           "url": "https://www.indusind.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -73,9 +73,22 @@
             "https://apps.apple.com/in/app/indusind-bank/id389114565"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Phone banking 1860-267-7777. SMS 'LOST <DOB MMDDYYYY>' to 9223512966 (single-card holders). IndusNet + Indus Mobile app also supported.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -93,9 +106,9 @@
           "instructions": "Call 1860-2100-400 and follow the IVR to hotlist the card.",
           "phone": "1860-2100-400",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -105,12 +118,12 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-209-4333 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-4333",
+          "instructions": "Call 1860-267-7777 and follow the IVR to hotlist the card.",
+          "phone": "1860-267-7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -122,9 +135,9 @@
           "instructions": "Email care@indusind.com from your registered email to request card blocking.",
           "email": "care@indusind.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -136,9 +149,9 @@
           "instructions": "Log in to internet banking at https://cardshub.indusind.com and use the card block/hotlist option.",
           "url": "https://cardshub.indusind.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -153,9 +166,35 @@
             "https://apps.apple.com/in/app/indusind-bank/id389114565"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://cardshub.indusind.com"
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS 'BLOCK <Last4>' to 5676757 from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Phone banking 1860-267-7777. IndusNet + Indus Mobile app also supported.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -168,9 +207,9 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-04",
     "sources": [
-      "https://cardshub.indusind.com"
+      "https://www.indusind.com/in/en/personal/customer-limited-liability.html"
     ]
   }
 }

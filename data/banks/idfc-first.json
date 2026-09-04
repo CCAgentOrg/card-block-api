@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via IDFC FIRST Mobile app: Debit Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.idfcfirstbank.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=in.idfc.bank2",
             "https://apps.apple.com/in/app/idfc-first-bank/id1116565210"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.idfcfirstbank.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "24x7. Via IDFC FIRST Mobile app: Credit Cards > Manage > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

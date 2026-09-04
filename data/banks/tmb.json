@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "To block ATM/Debit: Give missed call to 08467974343 from registered mobile. Also via TMB Mobile app.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://tmb.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.tmb.app",
             "https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://tmb.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "To block credit card: Give missed call to 09211937373 from registered mobile.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

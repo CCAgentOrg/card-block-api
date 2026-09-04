@@ -91,6 +91,21 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Mera Bank app: Debit Card > Block. IVR support available.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -170,6 +185,21 @@
             "https://play.google.com/store/apps/details?id=com.jkbank.app",
             "https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.jkbank.com",
+            "https://www.jkb.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Mera Bank Mobile app: Cards > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

@@ -1,0 +1,37 @@
+{
+  "id": "bob",
+  "name": "Bank of Baroda",
+  "logo": "/static/logos/bob.svg",
+  "ifsc": "BARB0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-5700",
+      "number1": "1800-5000",
+      "email": "customercare@bobcard.co.in",
+      "website": "https://www.bobcard.co.in",
+      "reference": "https://bankofbaroda.bank.in/contact-us",
+      "notes": "BOBCARD manages credit cards. Report loss: same numbers, select option 1.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
+      "iosApp": "https://apps.apple.com/in/app/bob-world/id1507878760",
+      "number2": "1800-102-5627"
+    },
+    "debit": {
+      "tollFree": "1800-5700",
+      "number1": "1800-5000",
+      "number2": "1800-102-5627",
+      "email": "customercare@bankofbaroda.com",
+      "website": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
+      "reference": "https://bankofbaroda.bank.in/contact-us",
+      "notes": "Self-service freeze/debit card block via portal. Also via bob World app.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
+      "iosApp": "https://apps.apple.com/in/app/bob-world/id1507878760"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.bankofbaroda.in/contact-us",
+      "label": "BoB contact-us (live fetch: JSON-LD 1800 5700, 1800 5000; card contact 1800 102 5627)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

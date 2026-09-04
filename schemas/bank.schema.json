@@ -93,7 +93,8 @@
             "branch",
             "upi",
             "network",
-            "govt"
+            "govt",
+            "other"
           ]
         },
         "label": {

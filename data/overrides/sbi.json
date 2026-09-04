@@ -1,0 +1,41 @@
+{
+  "id": "sbi",
+  "name": "State Bank of India",
+  "logo": "/static/logos/sbi.svg",
+  "ifsc": "SBIN0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-180-1290",
+      "number1": "1860-180-1290",
+      "number2": "040-6717-7777",
+      "email": "support@sbicard.com",
+      "website": "https://www.sbicard.com",
+      "reference": "https://www.sbicard.com",
+      "notes": "SBI Cards managed by SBI Card (separate subsidiary). Also via SBI Card app: Block Card. NRI: +91-40-6717-7777.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
+      "iosApp": "https://apps.apple.com/in/app/yono-sbi/id1554345797"
+    },
+    "debit": {
+      "tollFree": "1800-111-2211",
+      "number1": "1800-425-3800",
+      "number2": "1800-111-1109",
+      "email": "customercare@sbi.co.in",
+      "website": "https://www.onlinesbi.sbi",
+      "reference": "https://www.onlinesbi.sbi",
+      "notes": "YONO app: Cards > Block. SMS BLOCK <Last4> to 56767 from registered mobile. ATM hotlist option available.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
+      "iosApp": "https://apps.apple.com/in/app/yono-sbi/id1554345797"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://sbi.co.in/web/customer-care",
+      "label": "SBI contact page (live fetch, JSON-LD)"
+    },
+    {
+      "url": "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+      "label": "SBI Card lost/stolen FAQ"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

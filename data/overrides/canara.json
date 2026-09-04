@@ -1,0 +1,36 @@
+{
+  "id": "canara",
+  "name": "Canara Bank",
+  "logo": "/static/logos/canara.svg",
+  "ifsc": "CNRB0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-103-0000",
+      "number1": "1800-1030",
+      "email": "customercare@canarabank.in",
+      "website": "https://www.card.canarabank.in",
+      "reference": "https://canarabank.in",
+      "notes": "Email: subject 'BLOCKCC <Last6>' to blockchannels@canarabank.com from registered email. Canara ai1 app + NetBanking also available.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.cs.canara",
+      "iosApp": "https://apps.apple.com/in/app/candii/id1555647775"
+    },
+    "debit": {
+      "tollFree": "1800-103-0000",
+      "number1": "1800-1030",
+      "number2": "080-2888-6000",
+      "email": "customercare@canarabank.in",
+      "website": "https://online.canarabank.in",
+      "reference": "https://canarabank.in",
+      "notes": "Canara ai1 app: Debit Card > Block/Freeze. NetBanking also available. Email: subject 'BLOCKDC <Last6>' to blockchannels@canarabank.com from registered email.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.cs.canara",
+      "iosApp": "https://apps.apple.com/in/app/candii/id1555647775"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
+      "label": "Canara hotlisting page (live fetch: 18001030, BLOCKDC/BLOCKCC email to blockchannels@canarabank.com)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

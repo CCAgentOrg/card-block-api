@@ -13,9 +13,10 @@
           "instructions": "Call 1800-4100 and follow the IVR to hotlist the card.",
           "phone": "1800-4100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -28,9 +29,10 @@
           "instructions": "Call 1860-266-2666 and follow the IVR to hotlist the card.",
           "phone": "1860-266-2666",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -42,9 +44,10 @@
           "instructions": "Email kec@kotak.com from your registered email to request card blocking.",
           "email": "kec@kotak.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,9 +59,10 @@
           "instructions": "Log in to internet banking at https://www.kotak.com and use the card block/hotlist option.",
           "url": "https://www.kotak.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -73,9 +77,24 @@
             "https://apps.apple.com/in/app/kotak-mobile-banking/id739646230"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "24x7 IVR blocking. Kotak Mobile app: Settings > Debit Card > Block. 24x7 fraud reporting helpline: 1800-209-0000.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -93,9 +112,10 @@
           "instructions": "Call 1800-4100 and follow the IVR to hotlist the card.",
           "phone": "1800-4100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,9 +128,10 @@
           "instructions": "Call 1860-266-2666 and follow the IVR to hotlist the card.",
           "phone": "1860-266-2666",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -122,9 +143,10 @@
           "instructions": "Email kec@kotak.com from your registered email to request card blocking.",
           "email": "kec@kotak.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -136,9 +158,10 @@
           "instructions": "Log in to internet banking at https://www.kotak.com and use the card block/hotlist option.",
           "url": "https://www.kotak.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -153,9 +176,24 @@
             "https://apps.apple.com/in/app/kotak-mobile-banking/id739646230"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.kotak.com/en/customer-service.html"
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "24x7 IVR blocking. Fraud reporting helpline: 1800-209-0000.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.kotak.com/en/customer-service/contact-us.html",
+            "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
           ],
           "confirmations": {
             "worked": 0,
@@ -168,9 +206,10 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-04",
     "sources": [
-      "https://www.kotak.com/en/customer-service.html"
+      "https://www.kotak.com/en/customer-service/contact-us.html",
+      "https://www.kotak.com/en/customer-service/contact-us.html#fraud"
     ]
   }
 }

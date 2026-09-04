@@ -82,6 +82,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Lost/ stolen card: 1800-258-6040. Platinum: 1800-419-1030, Gold: 1800-419-0167, Rewards: 1800-419-0167, Platinum Corporate: 1800-419-1092.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }
