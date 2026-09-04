@@ -5,6 +5,7 @@ Running log of loop-executed work. One line per merged PR: date, issue, what lan
 | Date | PR | Issue | Summary |
 | --- | --- | --- | --- |
 | 2026-09-04 | #30 | — | API-first VISION.md + three-loop AGENTS.md guide |
+| 2026-09-04 | #50 | #32 (batch 1) | Top-10 banks re-verified vs official pages; 10 fresh, corrections: SBI 111-2211, HDFC SMS 7308080808, IndusInd 1860-267-7777, Canara BLOCKDC/BLOCKCC email, BoB +5627, Kotak fraud 209-0000 |
 | 2026-09-04 | #45 | #31, #26 | Per-bank data layer: 61 banks, 569 methods, generator + validator, Data CI (validate + rebuild-drift gate) |
 | 2026-09-04 | #46 | #36 | JSON Schema contract (bank + index), ajv validator, schema gate in Data CI, schema_version 1.0.0 |
 | 2026-09-04 | #47 | #37 | Freshness semantics (fresh/aging/stale), per-method confirmations, freshness aggregate in index |
