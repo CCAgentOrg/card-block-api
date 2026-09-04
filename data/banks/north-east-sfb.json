@@ -13,21 +13,45 @@
           "instructions": "Call 1800-313-4444 and follow the IVR to hotlist the card.",
           "phone": "1800-313-4444",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email info@nesfb.in from your registered email to request card blocking.",
           "email": "info@nesfb.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.nesfb.in/ and use the card block/hotlist option.",
           "url": "https://www.nesfb.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -36,7 +60,15 @@
             "https://play.google.com/store/apps/details?id=com.northeast.sfb"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -49,21 +81,45 @@
           "instructions": "Call 1800-313-4444 and follow the IVR to hotlist the card.",
           "phone": "1800-313-4444",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email info@nesfb.in from your registered email to request card blocking.",
           "email": "info@nesfb.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.nesfb.in/ and use the card block/hotlist option.",
           "url": "https://www.nesfb.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -72,7 +128,15 @@
             "https://play.google.com/store/apps/details?id=com.northeast.sfb"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

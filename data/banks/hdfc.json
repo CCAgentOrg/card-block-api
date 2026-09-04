@@ -13,7 +13,15 @@
           "instructions": "Call 1800-266-4060 and follow the IVR to hotlist the card.",
           "phone": "1800-266-4060",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,7 +29,15 @@
           "instructions": "Call 1800-1600 and follow the IVR to hotlist the card.",
           "phone": "1800-1600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -29,21 +45,45 @@
           "instructions": "Call 040-6608-8388 and follow the IVR to hotlist the card.",
           "phone": "040-6608-8388",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customerservices.cards@hdfcbank.com from your registered email to request card blocking.",
           "email": "customerservices.cards@hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://netbanking.hdfcbank.com and use the card block/hotlist option.",
           "url": "https://netbanking.hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -53,7 +93,15 @@
             "https://apps.apple.com/in/app/hdfc-bank/id657927626"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -66,7 +114,15 @@
           "instructions": "Call 1800-1600 and follow the IVR to hotlist the card.",
           "phone": "1800-1600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -74,7 +130,15 @@
           "instructions": "Call 1800-2600 and follow the IVR to hotlist the card.",
           "phone": "1800-2600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -82,21 +146,45 @@
           "instructions": "Call +91-22-6160-6160 and follow the IVR to hotlist the card.",
           "phone": "+91-22-6160-6160",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customerservices.cards@hdfcbank.com from your registered email to request card blocking.",
           "email": "customerservices.cards@hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://netbanking.hdfcbank.com and use the card block/hotlist option.",
           "url": "https://netbanking.hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -106,7 +194,15 @@
             "https://apps.apple.com/in/app/hdfc-bank/id657927626"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
+            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

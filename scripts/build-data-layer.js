@@ -43,7 +43,7 @@ function phoneMethod(label, num) {
   };
 }
 
-function buildMethods(inst, lastVerified) {
+function buildMethods(inst, lastVerified, sources) {
   if (!inst) return [];
   const methods = [];
 
@@ -103,12 +103,23 @@ function buildMethods(inst, lastVerified) {
     ...m,
     confidence: DEFAULT_CONFIDENCE,
     last_verified: inst.lastVerified || lastVerified,
+    sources: sources,
+    confirmations: { worked: 0, failed: 0 },
   }));
 }
 
 const banks = JSON.parse(fs.readFileSync(SRC, "utf8"));
 const ids = Object.keys(banks);
 const indexEntries = [];
+// Freshness bands (VISION §3 / AGENTS.md): fresh <=30d, aging 30-90d, stale >90d from last_verified
+function freshnessBand(dateStr) {
+  if (!dateStr) return "stale";
+  const days = (new Date(RUN_DATE + "T00:00:00Z").getTime() - new Date(dateStr + "T00:00:00Z").getTime()) / 86400000;
+  if (days <= 30) return "fresh";
+  if (days <= 90) return "aging";
+  return "stale";
+}
+const freshnessAggregate = { fresh: 0, aging: 0, stale: 0 };
 const errors = [];
 
 ids.forEach((id) => {
@@ -116,11 +127,12 @@ ids.forEach((id) => {
   const bLastVerified = b.lastVerified || null;
   const slug = slugify(b.id || id);
 
+  const sources = (b.sources || []).map((src) => src.url).filter(Boolean);
   const cardTypes = [];
   ["debit", "credit"].forEach((t) => {
     const inst = b.blockingInstructions && b.blockingInstructions[t];
     if (!inst) return;
-    const methods = buildMethods(inst, bLastVerified);
+    const methods = buildMethods(inst, bLastVerified, sources);
     if (!methods.length) {
       errors.push(slug + "/" + t + ": no methods derived");
       return;
@@ -133,7 +145,6 @@ ids.forEach((id) => {
     return;
   }
 
-  const sources = (b.sources || []).map((s) => s.url).filter(Boolean);
   const entry = {
     name: b.name,
     slug: slug,
@@ -168,6 +179,7 @@ ids.forEach((id) => {
     verification_status: entry.verification.status,
     last_verified: entry.verification.last_verified,
   });
+  freshnessAggregate[freshnessBand(entry.verification.last_verified)]++;
 });
 
 function typeFor(slug) {
@@ -191,9 +203,10 @@ fs.writeFileSync(
   path.join(OUT_DIR, "index.json"),
   JSON.stringify(
     {
-      schema_version: SCHEMA_VERSION,
+      schema_version: "1.0.0",
       updated: RUN_DATE,
       count: indexEntries.length,
+      freshness: freshnessAggregate,
       banks: indexEntries,
     },
     null,
@@ -213,7 +226,9 @@ fs.writeFileSync(
         bank_index: "/data/banks/index.json",
         bank: "/data/banks/<slug>.json",
       },
+      schema_version: "1.0.0",
       bank_count: indexEntries.length,
+      freshness: freshnessAggregate,
       total_methods: indexEntries.reduce((n, e) => n + e.method_count, 0),
       card_types: ["debit", "credit"],
       channels: ["phone", "email", "website", "app", "other"],

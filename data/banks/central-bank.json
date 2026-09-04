@@ -13,7 +13,14 @@
           "instructions": "Call 1800-221-911 and follow the IVR to hotlist the card.",
           "phone": "1800-221-911",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,7 +28,14 @@
           "instructions": "Call 1800-103-1911 and follow the IVR to hotlist the card.",
           "phone": "1800-103-1911",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -29,27 +43,55 @@
           "instructions": "Call +91-22-2262-2222 and follow the IVR to hotlist the card.",
           "phone": "+91-22-2262-2222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "sms",
           "instructions": "SMS SMS LOST card_number to 917738002672",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@centralbankofindia.co.in from your registered email to request card blocking.",
           "email": "customercare@centralbankofindia.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.centralbankofindia.co.in and use the card block/hotlist option.",
           "url": "https://www.centralbankofindia.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -59,7 +101,14 @@
             "https://apps.apple.com/in/app/cbs-cent-mobile/id1319066299"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -72,7 +121,14 @@
           "instructions": "Call 1800-221-911 and follow the IVR to hotlist the card.",
           "phone": "1800-221-911",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -80,7 +136,14 @@
           "instructions": "Call 1800-103-1911 and follow the IVR to hotlist the card.",
           "phone": "1800-103-1911",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -88,21 +151,42 @@
           "instructions": "Call +91-22-2262-2222 and follow the IVR to hotlist the card.",
           "phone": "+91-22-2262-2222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@centralbankofindia.co.in from your registered email to request card blocking.",
           "email": "customercare@centralbankofindia.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.centralbankofindia.co.in and use the card block/hotlist option.",
           "url": "https://www.centralbankofindia.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -112,7 +196,14 @@
             "https://apps.apple.com/in/app/cbs-cent-mobile/id1319066299"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

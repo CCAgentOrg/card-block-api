@@ -13,7 +13,14 @@
           "instructions": "Call 1800-209-0209 and follow the IVR to hotlist the card.",
           "phone": "1800-209-0209",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +28,42 @@
           "instructions": "Call 0141-663-4000 and follow the IVR to hotlist the card.",
           "phone": "0141-663-4000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@aubank.in from your registered email to request card blocking.",
           "email": "customercare@aubank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.aubank.in and use the card block/hotlist option.",
           "url": "https://www.aubank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +73,14 @@
             "https://apps.apple.com/in/app/au-bank/id1050017613"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +93,14 @@
           "instructions": "Call 1800-209-0209 and follow the IVR to hotlist the card.",
           "phone": "1800-209-0209",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +108,42 @@
           "instructions": "Call +91-141-663-4000 and follow the IVR to hotlist the card.",
           "phone": "+91-141-663-4000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@aubank.in from your registered email to request card blocking.",
           "email": "customercare@aubank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.aubank.in and use the card block/hotlist option.",
           "url": "https://www.aubank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +153,14 @@
             "https://apps.apple.com/in/app/au-bank/id1050017613"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.aubank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

@@ -13,7 +13,14 @@
           "instructions": "Call 1800-209-4324 and follow the IVR to hotlist the card.",
           "phone": "1800-209-4324",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +28,42 @@
           "instructions": "Call 1800-103-4344 and follow the IVR to hotlist the card.",
           "phone": "1800-103-4344",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@idbi.com from your registered email to request card blocking.",
           "email": "customercare@idbi.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.idbibank.in and use the card block/hotlist option.",
           "url": "https://www.idbibank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +73,14 @@
             "https://apps.apple.com/in/app/idbi-intouch/id528225563"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +93,14 @@
           "instructions": "Call 1800-209-4324 and follow the IVR to hotlist the card.",
           "phone": "1800-209-4324",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,7 +108,14 @@
           "instructions": "Call 1800-200-1947 and follow the IVR to hotlist the card.",
           "phone": "1800-200-1947",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -74,21 +123,42 @@
           "instructions": "Call 022-6233-5000 and follow the IVR to hotlist the card.",
           "phone": "022-6233-5000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@idbi.com from your registered email to request card blocking.",
           "email": "customercare@idbi.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.idbibank.in and use the card block/hotlist option.",
           "url": "https://www.idbibank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -98,7 +168,14 @@
             "https://apps.apple.com/in/app/idbi-intouch/id528225563"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

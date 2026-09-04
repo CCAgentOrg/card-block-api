@@ -13,7 +13,14 @@
           "instructions": "Call 1800-180-0251 and follow the IVR to hotlist the card.",
           "phone": "1800-180-0251",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +28,42 @@
           "instructions": "Call 1800-180-2292 and follow the IVR to hotlist the card.",
           "phone": "1800-180-2292",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@nainitalbank.co.in from your registered email to request card blocking.",
           "email": "customercare@nainitalbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://nainitalbank.co.in and use the card block/hotlist option.",
           "url": "https://nainitalbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +73,14 @@
             "https://apps.apple.com/in/app/nainital-bank/id1448902420"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +93,14 @@
           "instructions": "Call 1800-180-0251 and follow the IVR to hotlist the card.",
           "phone": "1800-180-0251",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +108,42 @@
           "instructions": "Call 05942-230001 and follow the IVR to hotlist the card.",
           "phone": "05942-230001",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@nainitalbank.co.in from your registered email to request card blocking.",
           "email": "customercare@nainitalbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://nainitalbank.co.in and use the card block/hotlist option.",
           "url": "https://nainitalbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +153,14 @@
             "https://apps.apple.com/in/app/nainital-bank/id1448902420"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

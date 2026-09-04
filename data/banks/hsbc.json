@@ -13,7 +13,14 @@
           "instructions": "Call 1800-267-3456 and follow the IVR to hotlist the card.",
           "phone": "1800-267-3456",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +28,42 @@
           "instructions": "Call 1800-121-2208 and follow the IVR to hotlist the card.",
           "phone": "1800-121-2208",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@hsbc.co.in from your registered email to request card blocking.",
           "email": "customercare@hsbc.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.hsbc.co.in and use the card block/hotlist option.",
           "url": "https://www.hsbc.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +73,14 @@
             "https://apps.apple.com/in/app/hsbc-hk/id1188660034"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +93,14 @@
           "instructions": "Call 1800-267-3456 and follow the IVR to hotlist the card.",
           "phone": "1800-267-3456",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,7 +108,14 @@
           "instructions": "Call 1800-121-2208 and follow the IVR to hotlist the card.",
           "phone": "1800-121-2208",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -74,21 +123,42 @@
           "instructions": "Call +91-40-6511-8002 and follow the IVR to hotlist the card.",
           "phone": "+91-40-6511-8002",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@hsbc.co.in from your registered email to request card blocking.",
           "email": "customercare@hsbc.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.hsbc.co.in and use the card block/hotlist option.",
           "url": "https://www.hsbc.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -98,7 +168,14 @@
             "https://apps.apple.com/in/app/hsbc-hk/id1188660034"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.hsbc.co.in/help/contact"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

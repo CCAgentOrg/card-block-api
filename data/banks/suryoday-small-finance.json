@@ -13,7 +13,16 @@
           "instructions": "Call 1800-308-0880 and follow the IVR to hotlist the card.",
           "phone": "1800-308-0880",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +30,48 @@
           "instructions": "Call 1800-209-8008 and follow the IVR to hotlist the card.",
           "phone": "1800-209-8008",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@suryodaybank.com from your registered email to request card blocking.",
           "email": "customercare@suryodaybank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.suryodaybank.com and use the card block/hotlist option.",
           "url": "https://www.suryodaybank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +81,16 @@
             "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +103,16 @@
           "instructions": "Call 1800-308-0880 and follow the IVR to hotlist the card.",
           "phone": "1800-308-0880",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +120,48 @@
           "instructions": "Call 022-7180-1500 and follow the IVR to hotlist the card.",
           "phone": "022-7180-1500",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@suryodaybank.com from your registered email to request card blocking.",
           "email": "customercare@suryodaybank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.suryodaybank.com and use the card block/hotlist option.",
           "url": "https://www.suryodaybank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +171,16 @@
             "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.suryodaybank.com",
+            "https://www.suryodaybank.com/contact-us",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

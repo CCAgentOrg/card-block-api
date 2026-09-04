@@ -13,7 +13,14 @@
           "instructions": "Call 1800-266-5555 and follow the IVR to hotlist the card.",
           "phone": "1800-266-5555",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +28,42 @@
           "instructions": "Call 1800-22-9999 and follow the IVR to hotlist the card.",
           "phone": "1800-22-9999",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@saraswatbank.com from your registered email to request card blocking.",
           "email": "customercare@saraswatbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.saraswatbank.com and use the card block/hotlist option.",
           "url": "https://www.saraswatbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +73,14 @@
             "https://apps.apple.com/in/app/saraswat-bank/id1398870954"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +93,14 @@
           "instructions": "Call 1800-266-5555 and follow the IVR to hotlist the card.",
           "phone": "1800-266-5555",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +108,42 @@
           "instructions": "Call 022-2830-3900 and follow the IVR to hotlist the card.",
           "phone": "022-2830-3900",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email customercare@saraswatbank.com from your registered email to request card blocking.",
           "email": "customercare@saraswatbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.saraswatbank.com and use the card block/hotlist option.",
           "url": "https://www.saraswatbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +153,14 @@
             "https://apps.apple.com/in/app/saraswat-bank/id1398870954"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12"
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }

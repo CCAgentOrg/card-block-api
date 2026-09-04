@@ -13,7 +13,15 @@
           "instructions": "Call 1800-100-4755 and follow the IVR to hotlist the card.",
           "phone": "1800-100-4755",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -21,21 +29,45 @@
           "instructions": "Call 040-23268725 and follow the IVR to hotlist the card.",
           "phone": "040-23268725",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email info@tsabbank.com from your registered email to request card blocking.",
           "email": "info@tsabbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.tsabbank.com/ and use the card block/hotlist option.",
           "url": "https://www.tsabbank.com/",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -45,7 +77,15 @@
             "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -58,7 +98,15 @@
           "instructions": "Call 1800-100-4755 and follow the IVR to hotlist the card.",
           "phone": "1800-100-4755",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "phone",
@@ -66,21 +114,45 @@
           "instructions": "Call 040-23268725 and follow the IVR to hotlist the card.",
           "phone": "040-23268725",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "email",
           "instructions": "Email info@tsabbank.com from your registered email to request card blocking.",
           "email": "info@tsabbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.tsabbank.com/ and use the card block/hotlist option.",
           "url": "https://www.tsabbank.com/",
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         },
         {
           "channel": "app",
@@ -90,7 +162,15 @@
             "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13"
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.tsabbank.com/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     }
