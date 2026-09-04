@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "ifsc": "^2.0.50"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
   }
 }

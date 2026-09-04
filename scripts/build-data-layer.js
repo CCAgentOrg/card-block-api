@@ -26,6 +26,7 @@ const SRC = path.join(ROOT, "app", "data", "banks.json");
 const OUT_DIR = path.join(ROOT, "data", "banks");
 
 const RUN_DATE = process.argv[2] || new Date().toISOString().slice(0, 10);
+const SCHEMA_VERSION = "1.0.0";
 const DEFAULT_CONFIDENCE = 0.85;
 
 function slugify(id) {
@@ -190,6 +191,7 @@ fs.writeFileSync(
   path.join(OUT_DIR, "index.json"),
   JSON.stringify(
     {
+      schema_version: SCHEMA_VERSION,
       updated: RUN_DATE,
       count: indexEntries.length,
       banks: indexEntries,
@@ -205,6 +207,7 @@ fs.writeFileSync(
     {
       name: "card-block-api",
       description: "Verified payment-instrument blocking methods. India pilot.",
+      schema_version: SCHEMA_VERSION,
       updated: RUN_DATE,
       endpoints: {
         bank_index: "/data/banks/index.json",
