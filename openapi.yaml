@@ -1,0 +1,213 @@
+openapi: 3.1.0
+info:
+  title: Card Block API
+  description: >
+    Open, machine-readable directory of payment-instrument blocking methods
+    (debit/credit cards, UPI) for Indian banks. Static JSON on GitHub Pages.
+    Pilot scope: India. Reports flow through GitHub issues (feedback loop),
+    which is documented but served by GitHub, not this surface.
+  version: 1.0.0
+  license:
+    name: MIT
+    url: https://github.com/CCAgentOrg/card-block-api/blob/main/LICENSE
+
+servers:
+  - url: https://ccagentorg.github.io/card-block-api
+    description: GitHub Pages (production)
+
+paths:
+  /data/index.json:
+    get:
+      operationId: getIndex
+      summary: API manifest
+      description: Version, endpoint map, bank count, freshness aggregate, channel list.
+      responses:
+        "200":
+          description: Manifest JSON
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [name, description, schema_version, updated, endpoints, bank_count, freshness, total_methods]
+                properties:
+                  name: { type: string }
+                  description: { type: string }
+                  schema_version: { type: string }
+                  updated: { type: string, pattern: '^\d{4}-\d{2}-\d{2}$' }
+                  endpoints:
+                    type: object
+                    properties:
+                      bank_index: { type: string }
+                      bank: { type: string }
+                  bank_count: { type: integer, minimum: 1 }
+                  freshness: { $ref: "#/components/schemas/Freshness" }
+                  total_methods: { type: integer, minimum: 0 }
+                  card_types: { type: array, items: { $ref: "#/components/schemas/CardType" } }
+                  channels: { type: array, items: { type: string } }
+                  schema_note: { type: string }
+
+  /data/banks/index.json:
+    get:
+      operationId: listBanks
+      summary: Bank index
+      description: Summary of all banks. Enumerate slugs and check freshness before fetching full entries.
+      responses:
+        "200":
+          description: Bank index JSON
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [schema_version, updated, count, banks]
+                properties:
+                  schema_version: { type: string }
+                  updated: { type: string, pattern: '^\d{4}-\d{2}-\d{2}$' }
+                  count: { type: integer, minimum: 1 }
+                  freshness: { $ref: "#/components/schemas/Freshness" }
+                  banks:
+                    type: array
+                    items:
+                      type: object
+                      required: [slug, name, type, card_types, method_count, verification_status, last_verified]
+                      properties:
+                        slug: { type: string, pattern: '^[a-z0-9]+(-[a-z0-9]+)*$' }
+                        name: { type: string }
+                        type: { $ref: "#/components/schemas/BankType" }
+                        card_types: { type: array, minItems: 1, items: { $ref: "#/components/schemas/CardType" } }
+                        method_count: { type: integer, minimum: 1 }
+                        verification_status: { $ref: "#/components/schemas/VerificationStatus" }
+                        last_verified: { type: string, pattern: '^\d{4}-\d{2}-\d{2}$' }
+
+  /data/banks/{slug}.json:
+    get:
+      operationId: getBank
+      summary: Full blocking data for one bank
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema: { type: string, pattern: '^[a-z0-9]+(-[a-z0-9]+)*$' }
+          description: Bank slug from the index (e.g. axis, hdfc).
+      responses:
+        "200":
+          description: Bank JSON
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Bank" }
+        "404":
+          description: Unknown slug
+
+  /schemas/bank.schema.json:
+    get:
+      operationId: getBankSchema
+      summary: JSON Schema for per-bank files
+      responses:
+        "200":
+          description: JSON Schema draft 2020-12 document
+          content:
+            application/json:
+              schema: { type: object }
+
+  /schemas/index.schema.json:
+    get:
+      operationId: getIndexSchema
+      summary: JSON Schema for the bank index
+      responses:
+        "200":
+          description: JSON Schema draft 2020-12 document
+          content:
+            application/json:
+              schema: { type: object }
+
+components:
+  schemas:
+    Freshness:
+      type: object
+      description: Count of banks by staleness band computed from last_verified (fresh <=30d, aging 30-90d, stale >90d).
+      required: [fresh, aging, stale]
+      properties:
+        fresh: { type: integer, minimum: 0 }
+        aging: { type: integer, minimum: 0 }
+        stale: { type: integer, minimum: 0 }
+
+    BankType:
+      type: string
+      enum: [public, private, rrb, coop, payments, sfb, foreign]
+
+    CardType:
+      type: string
+      enum: [debit, credit, prepaid, forex]
+
+    VerificationStatus:
+      type: string
+      enum: [human_verified, agent_verified, unverified, disputed]
+      description: human_verified > agent_verified > unverified > disputed (suppressed pending re-verification).
+
+    Channel:
+      type: string
+      enum: [sms, phone, app, website, email, branch, upi, network, govt]
+
+    Confirmations:
+      type: object
+      description: Outcome counts from the feedback loop. Populated as reports arrive; zero until then.
+      properties:
+        worked: { type: integer, minimum: 0 }
+        failed: { type: integer, minimum: 0 }
+        last_confirmation: { type: string, pattern: '^\d{4}-\d{2}-\d{2}$' }
+
+    Method:
+      type: object
+      required: [channel, instructions, confidence, last_verified]
+      properties:
+        channel: { $ref: "#/components/schemas/Channel" }
+        label: { type: string, maxLength: 40 }
+        instructions: { type: string, minLength: 10 }
+        phone: { type: string }
+        email: { type: string, format: email }
+        url: { type: string, format: uri }
+        urls: { type: array, minItems: 1, items: { type: string, format: uri } }
+        confidence: { type: number, minimum: 0, maximum: 1 }
+        last_verified: { type: string, pattern: '^\d{4}-\d{2}-\d{2}$' }
+        sources: { type: array, minItems: 1, items: { type: string, format: uri } }
+        confirmations: { $ref: "#/components/schemas/Confirmations" }
+
+    Card:
+      type: object
+      required: [type, blocking_methods]
+      properties:
+        type: { $ref: "#/components/schemas/CardType" }
+        blocking_methods:
+          type: array
+          minItems: 1
+          items: { $ref: "#/components/schemas/Method" }
+
+    Verification:
+      type: object
+      required: [status, confidence, last_verified, sources]
+      properties:
+        status: { $ref: "#/components/schemas/VerificationStatus" }
+        confidence: { type: number, minimum: 0, maximum: 1 }
+        last_verified: { type: string, pattern: '^\d{4}-\d{2}-\d{2}$' }
+        sources: { type: array, minItems: 1, items: { type: string, format: uri } }
+
+    Bank:
+      type: object
+      required: [name, slug, type, cards, verification]
+      properties:
+        name: { type: string, minLength: 2 }
+        slug: { type: string, pattern: '^[a-z0-9]+(-[a-z0-9]+)*$' }
+        type: { $ref: "#/components/schemas/BankType" }
+        website: { type: string, format: uri }
+        cards: { type: array, minItems: 1, items: { $ref: "#/components/schemas/Card" } }
+        verification: { $ref: "#/components/schemas/Verification" }
+
+  x-feedback-loop:
+    summary: Report flow (served via GitHub Issues, not this HTTP surface)
+    description: |
+      File an issue at https://github.com/CCAgentOrg/card-block-api/issues/new
+      using the "Data Report" template. Title: data-report: <bank slug> — <what is wrong>.
+      Body: the specific field, the correct value, a source URL. Reports never mutate
+      data directly; they flag the bank needs-reverify and the data loop lands the
+      correction as a PR with fresh sources. 2-3 independent reports on the same field
+      suppress the method pending human review. Never include card numbers, PINs, OTPs,
+      CVV, or passwords.

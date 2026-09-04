@@ -1,0 +1,48 @@
+# Card Block API — llms.txt
+
+Card Block API is an open, machine-readable directory of how to block a lost or stolen payment instrument (debit card, credit card, UPI) at any Indian bank. Pilot scope: India. Goal: universal.
+
+## What this is
+
+- A static JSON data layer: one file per bank, plus an index. Hosted on GitHub Pages, versioned in git.
+- Every blocking method carries `confidence`, `last_verified`, `sources`, and `confirmations` so agents and humans can judge freshness before acting.
+- Data changes only through pull requests — the git history is the audit trail.
+
+## What this is not
+
+- Not a blocking service. This API cannot block your card; it tells you exactly how to do it through the bank's official channels.
+- Not a UI project. Websites, MCP servers, and apps are derived surfaces built on top of this data, maintained elsewhere.
+
+## Endpoints
+
+- GET /data/index.json — API manifest: version, endpoint map, bank count, freshness aggregate, channel list.
+- GET /data/banks/index.json — summary of all banks (slug, name, type, card_types, method_count, verification_status, last_verified, freshness bands).
+- GET /data/banks/{slug}.json — full blocking data for one bank. Slug list from the index.
+- GET /schemas/bank.schema.json — JSON Schema (draft 2020-12) for per-bank files.
+- GET /schemas/index.schema.json — JSON Schema for the bank index.
+
+## Freshness semantics
+
+Computed client-side from `last_verified` (ISO date):
+
+- fresh: verified within 30 days
+- aging: 31–90 days
+- stale: over 90 days
+
+Treat `stale` as "verify through a second source before relying on this". The index carries a pre-computed `freshness` aggregate: `{ fresh, aging, stale }`.
+
+## Verification status ladder
+
+`human_verified` > `agent_verified` > `unverified` > `disputed` (suppressed pending re-verification).
+
+## Reporting a correction
+
+Reports go through GitHub issues (transport layer; see docs/API.md for the flow). A report never mutates data directly — it flags the bank `needs_reverify` and the data loop re-verifies and commits the change with fresh sources. Never include card numbers, PINs, OTPs, or passwords in a report.
+
+## Versioning
+
+- `schema_version` in /data/index.json follows semver. Patch: doc fixes. Minor: additive fields. Major: breaking field changes — clients should pin on minor and re-check the index before bulk reads.
+
+## License
+
+Open data — see LICENSE in the repository.
