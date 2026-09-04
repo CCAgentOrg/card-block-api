@@ -22,6 +22,11 @@ jobs:
 
       - name: Validate per-bank JSON files
         run: node scripts/validate-data.js
+      - name: Install schema validator deps
+        run: npm install --no-save ajv ajv-formats
+
+      - name: Validate against JSON Schema contract (issue #36)
+        run: node scripts/validate-schema.js
 
       - name: Rebuild data layer and detect drift
         run: |
