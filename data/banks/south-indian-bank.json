@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via SIB Mirror+ app: Debit Card > Block. For balance confirmation: 1800-425-1445.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.southindianbank.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.sib.mirrorplus",
             "https://apps.apple.com/in/app/sib-mirror/id1166471522"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.southindianbank.com"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via SIB Mirror+ app: Cards > Block. SIBerNet internet banking also supports card blocking.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

@@ -53,6 +53,20 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Block cards via mobile app or contact customer care",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.rajcoop.org/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -95,6 +109,20 @@
           "channel": "website",
           "instructions": "Log in to internet banking at https://www.rajcoop.org/ and use the card block/hotlist option.",
           "url": "https://www.rajcoop.org/",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.rajcoop.org/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Block cards via mobile app or contact customer care",
           "confidence": 0.85,
           "last_verified": "2026-05-13",
           "sources": [

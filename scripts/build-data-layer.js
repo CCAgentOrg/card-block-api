@@ -92,10 +92,16 @@ function buildMethods(inst, lastVerified, sources) {
     });
   }
 
-  if (methods.length === 0 && inst.notes) {
+  if (inst.sms) {
+    methods.push({
+      channel: "sms",
+      instructions: "SMS " + inst.sms + " from your registered mobile number.",
+    });
+  }
+  if (inst.notes) {
     methods.push({
       channel: "other",
-      instructions: inst.notes,
+      instructions: inst.notes.replace(/\s*\.\s*\./g, ".").replace(/\s+/g, " ").trim(),
     });
   }
 
@@ -108,7 +114,21 @@ function buildMethods(inst, lastVerified, sources) {
   }));
 }
 
-const banks = JSON.parse(fs.readFileSync(SRC, "utf8"));
+// Loop 2 overrides: data/overrides/<slug>.json replaces the generated entry
+// wholesale for that slug (written by the data loop after live re-verification).
+// This keeps the generator the single regeneration path while letting the
+// data loop update banks without touching the legacy seed.
+const OVR_DIR = path.join(ROOT, "data", "overrides");
+const overrides = fs.existsSync(OVR_DIR)
+  ? Object.fromEntries(
+      fs.readdirSync(OVR_DIR).filter((f) => f.endsWith(".json")).map((f) => [
+        f.replace(/\.json$/, ""),
+        JSON.parse(fs.readFileSync(path.join(OVR_DIR, f), "utf8")),
+      ])
+    )
+  : {};
+const seedBanks = JSON.parse(fs.readFileSync(SRC, "utf8"));
+const banks = { ...seedBanks, ...overrides };
 const ids = Object.keys(banks);
 const indexEntries = [];
 // Freshness bands (VISION §3 / AGENTS.md): fresh <=30d, aging 30-90d, stale >90d from last_verified

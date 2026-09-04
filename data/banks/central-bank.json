@@ -109,6 +109,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "SMS LOST <space><card_number> or <account_number> to 917738002672. Via Cent Mobile app.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -195,6 +208,19 @@
             "https://play.google.com/store/apps/details?id=com.mgs.centbankapp",
             "https://apps.apple.com/in/app/cbs-cent-mobile/id1319066299"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://centralbankofindia.co.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "SMS LOST <Last4> to 917738002672 to block all cards. Also via Cent Mobile app.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

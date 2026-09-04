@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via Saraswat mBanking app: Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.saraswat.saraswatapp",
             "https://apps.apple.com/in/app/saraswat-bank/id1398870954"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Toll-free: 1800-266-5555 / 1800-22-9999 (was unavailable). Via Saraswat mBanking app.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

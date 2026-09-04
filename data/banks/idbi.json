@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via IDBI Go Mobile Plus app: Debit Card > Block/Freeze.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -167,6 +180,19 @@
             "https://play.google.com/store/apps/details?id=com.mgs.idbi.android",
             "https://apps.apple.com/in/app/idbi-intouch/id528225563"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via IDBI Go Mobile Plus app: Cards > Block.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

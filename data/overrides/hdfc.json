@@ -1,0 +1,43 @@
+{
+  "id": "hdfc",
+  "name": "HDFC Bank",
+  "logo": "/static/logos/hdfc.svg",
+  "ifsc": "HDFC0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-1600",
+      "number1": "1800-2600",
+      "number2": "+91-22-6160-6160",
+      "email": "customerservices.cards@hdfcbank.com",
+      "website": "https://netbanking.hdfcbank.com",
+      "reference": "https://www.hdfcbank.com",
+      "notes": "Phone banking 1800-1600/1800-2600; abroad +91-22-61606160. MyCards + app supported.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
+      "iosApp": "https://apps.apple.com/in/app/hdfc-bank/id657927626",
+      "sms": "'Block CC <Last4>' to 7308080808"
+    },
+    "debit": {
+      "tollFree": "1800-266-4060",
+      "number1": "1800-1600",
+      "number2": "040-6608-8388",
+      "email": "customerservices.cards@hdfcbank.com",
+      "website": "https://netbanking.hdfcbank.com",
+      "reference": "https://www.hdfcbank.com",
+      "notes": "Via NetBanking: Cards > Block. . MobileBanking app + MyCards also supported.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
+      "iosApp": "https://apps.apple.com/in/app/hdfc-bank/id657927626",
+      "sms": "'Block DC <Last4>' to 7308080808"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+      "label": "Debit card block page (live fetch)"
+    },
+    {
+      "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf",
+      "label": "CC hotlisting PDF (via search index)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

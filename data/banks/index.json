@@ -3,9 +3,9 @@
   "updated": "2026-09-04",
   "count": 61,
   "freshness": {
-    "fresh": 0,
+    "fresh": 10,
     "aging": 0,
-    "stale": 61
+    "stale": 51
   },
   "banks": [
     {
@@ -16,7 +16,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -27,7 +27,7 @@
       "card_types": [
         "debit"
       ],
-      "method_count": 5,
+      "method_count": 6,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -38,7 +38,7 @@
       "card_types": [
         "credit"
       ],
-      "method_count": 5,
+      "method_count": 6,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -50,7 +50,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 4,
+      "method_count": 6,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -62,7 +62,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -74,9 +74,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "bandhan",
@@ -86,7 +86,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -98,9 +98,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "bank-of-india",
@@ -110,7 +110,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -122,7 +122,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -134,9 +134,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "capital-small-finance",
@@ -146,7 +146,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -158,7 +158,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 13,
+      "method_count": 15,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -170,7 +170,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -182,7 +182,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -194,7 +194,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -206,7 +206,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -218,7 +218,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 8,
+      "method_count": 10,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -230,7 +230,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -242,7 +242,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -254,7 +254,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 13,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -266,7 +266,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -278,7 +278,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 4,
+      "method_count": 6,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -290,9 +290,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 16,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "hsbc",
@@ -302,7 +302,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 13,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -314,9 +314,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "idbi",
@@ -326,7 +326,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 13,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -338,7 +338,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -350,7 +350,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -362,7 +362,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -374,9 +374,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "j-k-bank",
@@ -386,7 +386,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -398,7 +398,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -410,7 +410,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -422,7 +422,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -434,7 +434,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 6,
+      "method_count": 8,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -446,9 +446,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "nainital-bank",
@@ -458,7 +458,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -470,7 +470,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 8,
+      "method_count": 10,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -481,7 +481,7 @@
       "card_types": [
         "debit"
       ],
-      "method_count": 5,
+      "method_count": 6,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -492,7 +492,7 @@
       "card_types": [
         "debit"
       ],
-      "method_count": 5,
+      "method_count": 6,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -504,7 +504,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -516,9 +516,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 15,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "rajasthan-state-coop",
@@ -528,7 +528,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 6,
+      "method_count": 8,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -540,7 +540,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 13,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -552,7 +552,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -564,7 +564,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -575,7 +575,7 @@
       "card_types": [
         "debit"
       ],
-      "method_count": 4,
+      "method_count": 5,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -587,7 +587,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -599,7 +599,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -611,9 +611,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "suryoday-small-finance",
@@ -623,7 +623,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -635,7 +635,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -647,7 +647,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 4,
+      "method_count": 6,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -659,7 +659,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -671,7 +671,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -683,7 +683,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -695,9 +695,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-04"
     },
     {
       "slug": "utkarsh",
@@ -707,7 +707,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     },
@@ -719,7 +719,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 6,
+      "method_count": 8,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-13"
     },
@@ -731,7 +731,7 @@
         "debit",
         "credit"
       ],
-      "method_count": 11,
+      "method_count": 13,
       "verification_status": "agent_verified",
       "last_verified": "2026-05-12"
     }

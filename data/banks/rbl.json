@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via RBL Mobile app: Debit Card > Block. Internet Banking also available.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -167,6 +180,19 @@
             "https://play.google.com/store/apps/details?id=com.rbank.mobile",
             "https://apps.apple.com/in/app/rbl-mobank/id1116633059"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.rblbank.com/personal-banking/ways-to-bank/bank-by-phone/phone-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Credit card queries: 1800-123-7777. Via RBL MyCard app or RBL Bank Mobile app: Cards > Block. Switch on/off cards in app.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

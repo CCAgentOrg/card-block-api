@@ -13,9 +13,9 @@
           "instructions": "Call 1800-180-2222 and follow the IVR to hotlist the card.",
           "phone": "1800-180-2222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -28,9 +28,9 @@
           "instructions": "Call 1800-103-2222 and follow the IVR to hotlist the card.",
           "phone": "1800-103-2222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -43,9 +43,9 @@
           "instructions": "Call 1800-180-2223 and follow the IVR to hotlist the card.",
           "phone": "1800-180-2223",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -57,9 +57,9 @@
           "instructions": "Email customercare@pnbindia.in from your registered email to request card blocking.",
           "email": "customercare@pnbindia.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,9 +71,9 @@
           "instructions": "Log in to internet banking at https://pnb.bank.in and use the card block/hotlist option.",
           "url": "https://pnb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -88,9 +88,22 @@
             "https://apps.apple.com/in/app/pnb-one/id1580876840"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,9 +121,9 @@
           "instructions": "Call 1800-180-2222 and follow the IVR to hotlist the card.",
           "phone": "1800-180-2222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -123,9 +136,9 @@
           "instructions": "Call 1800-103-2222 and follow the IVR to hotlist the card.",
           "phone": "1800-103-2222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -138,9 +151,9 @@
           "instructions": "Call 1800-180-2345 and follow the IVR to hotlist the card.",
           "phone": "1800-180-2345",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -152,9 +165,9 @@
           "instructions": "Email care@pnbcard.in from your registered email to request card blocking.",
           "email": "care@pnbcard.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -166,9 +179,9 @@
           "instructions": "Log in to internet banking at https://pnbcard.in and use the card block/hotlist option.",
           "url": "https://pnbcard.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -183,9 +196,35 @@
             "https://apps.apple.com/in/app/pnb-one/id1580876840"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://pnb.bank.in/customer-care"
+            "https://pnb.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS BLOCK <Last4> to 5607040 from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://pnb.bank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Credit cards managed by PNB Card services.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://pnb.bank.in/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -198,9 +237,9 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-04",
     "sources": [
-      "https://pnb.bank.in/customer-care"
+      "https://pnb.bank.in/contact-us"
     ]
   }
 }

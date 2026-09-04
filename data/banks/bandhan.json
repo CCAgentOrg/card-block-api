@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via mBandhan app: Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bandhanbank.com/grievance-redressal-old"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -152,6 +165,19 @@
             "https://play.google.com/store/apps/details?id=com.bandhanbank.bblapp",
             "https://apps.apple.com/in/app/bandhan-bank/id1477984093"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.bandhanbank.com/grievance-redressal-old"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via mBandhan Mobile app. Toll-free available from mobile and landlines.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

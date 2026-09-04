@@ -13,9 +13,9 @@
           "instructions": "Call 1800-22-2244 and follow the IVR to hotlist the card.",
           "phone": "1800-22-2244",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -28,9 +28,9 @@
           "instructions": "Call 1800-208-2244 and follow the IVR to hotlist the card.",
           "phone": "1800-208-2244",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -42,9 +42,9 @@
           "instructions": "Email customercare.unionbank@unionbankofindia.com from your registered email to request card blocking.",
           "email": "customercare.unionbank@unionbankofindia.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,9 +56,9 @@
           "instructions": "Log in to internet banking at https://www.unionbankonline.co.in and use the card block/hotlist option.",
           "url": "https://www.unionbankonline.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -73,9 +73,22 @@
             "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via UnionMobile app: Debit Card > Block. Internet Banking at unionbankonline.co.in.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -93,9 +106,9 @@
           "instructions": "Call 1800-208-2244 and follow the IVR to hotlist the card.",
           "phone": "1800-208-2244",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,9 +121,9 @@
           "instructions": "Call 1800-425-1515 and follow the IVR to hotlist the card.",
           "phone": "1800-425-1515",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -123,9 +136,9 @@
           "instructions": "Call 1800-425-3555 and follow the IVR to hotlist the card.",
           "phone": "1800-425-3555",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -137,9 +150,9 @@
           "instructions": "Email customercare.unionbank@unionbankofindia.com from your registered email to request card blocking.",
           "email": "customercare.unionbank@unionbankofindia.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -151,9 +164,9 @@
           "instructions": "Log in to internet banking at https://www.unionbankofindia.co.in and use the card block/hotlist option.",
           "url": "https://www.unionbankofindia.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -168,9 +181,22 @@
             "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.unionbankofindia.co.in"
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via UnionMobile Pay app: Credit Card > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.unionbankofindia.co.in/english/contact-us.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -183,9 +209,9 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-04",
     "sources": [
-      "https://www.unionbankofindia.co.in"
+      "https://www.unionbankofindia.co.in/english/contact-us.aspx"
     ]
   }
 }

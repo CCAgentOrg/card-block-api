@@ -13,10 +13,10 @@
           "instructions": "Call 1800-266-4060 and follow the IVR to hotlist the card.",
           "phone": "1800-266-4060",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -29,10 +29,10 @@
           "instructions": "Call 1800-1600 and follow the IVR to hotlist the card.",
           "phone": "1800-1600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -45,10 +45,10 @@
           "instructions": "Call 040-6608-8388 and follow the IVR to hotlist the card.",
           "phone": "040-6608-8388",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -60,10 +60,10 @@
           "instructions": "Email customerservices.cards@hdfcbank.com from your registered email to request card blocking.",
           "email": "customerservices.cards@hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -75,10 +75,10 @@
           "instructions": "Log in to internet banking at https://netbanking.hdfcbank.com and use the card block/hotlist option.",
           "url": "https://netbanking.hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -93,10 +93,38 @@
             "https://apps.apple.com/in/app/hdfc-bank/id657927626"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS 'Block DC <Last4>' to 7308080808 from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via NetBanking: Cards > Block. MobileBanking app + MyCards also supported.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -114,10 +142,10 @@
           "instructions": "Call 1800-1600 and follow the IVR to hotlist the card.",
           "phone": "1800-1600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -130,10 +158,10 @@
           "instructions": "Call 1800-2600 and follow the IVR to hotlist the card.",
           "phone": "1800-2600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,10 +174,10 @@
           "instructions": "Call +91-22-6160-6160 and follow the IVR to hotlist the card.",
           "phone": "+91-22-6160-6160",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -161,10 +189,10 @@
           "instructions": "Email customerservices.cards@hdfcbank.com from your registered email to request card blocking.",
           "email": "customerservices.cards@hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -176,10 +204,10 @@
           "instructions": "Log in to internet banking at https://netbanking.hdfcbank.com and use the card block/hotlist option.",
           "url": "https://netbanking.hdfcbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,10 +222,38 @@
             "https://apps.apple.com/in/app/hdfc-bank/id657927626"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-            "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS 'Block CC <Last4>' to 7308080808 from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Phone banking 1800-1600/1800-2600; abroad +91-22-61606160. MyCards + app supported.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+            "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -210,10 +266,10 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-04",
     "sources": [
-      "https://www.bankbazaar.com/hdfc-bank-credit-card-customer-care-number.html",
-      "https://www.creditmantri.com/article-how-to-block-your-hdfc-credit-card/"
+      "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
+      "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf"
     ]
   }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "kotak",
+  "name": "Kotak Mahindra Bank",
+  "logo": "/static/logos/kotak.svg",
+  "ifsc": "KKBK0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-4100",
+      "number1": "1860-266-2666",
+      "email": "kec@kotak.com",
+      "website": "https://www.kotak.com",
+      "reference": "https://www.kotak.com/en/customer-service.html",
+      "notes": "24x7 IVR blocking. Fraud reporting helpline: 1800-209-0000.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.msf.kbx.mobile",
+      "iosApp": "https://apps.apple.com/in/app/kotak-mobile-banking/id739646230"
+    },
+    "debit": {
+      "tollFree": "1800-4100",
+      "number1": "1860-266-2666",
+      "email": "kec@kotak.com",
+      "website": "https://www.kotak.com",
+      "reference": "https://www.kotak.com/en/customer-service.html",
+      "notes": "24x7 IVR blocking. Kotak Mobile app: Settings > Debit Card > Block. 24x7 fraud reporting helpline: 1800-209-0000.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.msf.kbx.mobile",
+      "iosApp": "https://apps.apple.com/in/app/kotak-mobile-banking/id739646230"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.kotak.com/en/customer-service/contact-us.html",
+      "label": "Kotak contact-us (live fetch: 1800 4100)"
+    },
+    {
+      "url": "https://www.kotak.com/en/customer-service/contact-us.html#fraud",
+      "label": "24x7 fraud reporting helpline 1800 209 0000 (live fetch)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

@@ -69,6 +69,20 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "North East SFB - Block cards via mobile banking or call customer care",
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -127,6 +141,20 @@
           "urls": [
             "https://play.google.com/store/apps/details?id=com.northeast.sfb"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-13",
+          "sources": [
+            "https://www.nesfb.in/",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "North East SFB - Block cards via mobile banking or call customer care",
           "confidence": 0.85,
           "last_verified": "2026-05-13",
           "sources": [

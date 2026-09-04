@@ -1,0 +1,37 @@
+{
+  "id": "axis",
+  "name": "Axis Bank",
+  "logo": "/static/logos/axis.svg",
+  "ifsc": "UTIB0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800-209-5577",
+      "number1": "1800-103-5577",
+      "number2": "1860-419-5555",
+      "email": "care@axisbank.com",
+      "website": "https://www.axisbank.com",
+      "reference": "https://www.axisbank.com/contact-us",
+      "notes": "24x7. Also via Axis Mobile (Axis App): Cards > Block.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.axis.mobile",
+      "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
+    },
+    "debit": {
+      "tollFree": "1800-209-5577",
+      "number1": "1800-103-5577",
+      "number2": "1860-500-5555",
+      "email": "care@axisbank.com",
+      "website": "https://www.axisbank.com",
+      "reference": "https://www.axisbank.com/contact-us",
+      "notes": "Via Axis Mobile app: Cards > Block. Also via Internet Banking.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.axis.mobile",
+      "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.axisbank.com/contact-us",
+      "label": "Axis contact-us (live fetch: retail phone banking 1800 209 5577 / 1800 103 5577)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

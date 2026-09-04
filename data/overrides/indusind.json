@@ -1,0 +1,36 @@
+{
+  "id": "indusind",
+  "name": "IndusInd Bank",
+  "logo": "/static/logos/indusind.svg",
+  "ifsc": "INDB0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1860-2100-400",
+      "number1": "1860-267-7777",
+      "email": "care@indusind.com",
+      "website": "https://cardshub.indusind.com",
+      "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
+      "notes": "Phone banking 1860-267-7777. . IndusNet + Indus Mobile app also supported.",
+      "androidApp": "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
+      "iosApp": "https://apps.apple.com/in/app/indusind-bank/id389114565",
+      "sms": "'BLOCK <Last4>' to 5676757"
+    },
+    "debit": {
+      "tollFree": "1800-209-4333",
+      "number1": "1860-267-7777",
+      "email": "care@indusind.com",
+      "website": "https://www.indusind.com",
+      "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
+      "notes": "Phone banking 1860-267-7777. SMS 'LOST <DOB MMDDYYYY>' to 9223512966 (single-card holders). IndusNet + Indus Mobile app also supported.",
+      "androidApp": "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
+      "iosApp": "https://apps.apple.com/in/app/indusind-bank/id389114565"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.indusind.com/in/en/personal/customer-limited-liability.html",
+      "label": "IndusInd unauthorized transaction page (live fetch: 1860 267 7777, SMS BLOCK to 5676757, LOST to 9223512966)"
+    }
+  ],
+  "lastVerified": "2026-09-04"
+}

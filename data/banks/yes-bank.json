@@ -81,6 +81,19 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "Same toll-free for both card types. Via Yes Mobile app: Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.yesbank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -167,6 +180,19 @@
             "https://play.google.com/store/apps/details?id=com.yesbank.bankapp",
             "https://apps.apple.com/in/app/yes-first-bank-app/id1535769494"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://www.yesbank.in/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "24x7 toll-free: 1800-1200. Unauthorized transactions also at 1800-102-3357.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [

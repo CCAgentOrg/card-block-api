@@ -13,9 +13,9 @@
           "instructions": "Call 1800-103-0000 and follow the IVR to hotlist the card.",
           "phone": "1800-103-0000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -28,9 +28,9 @@
           "instructions": "Call 1800-1030 and follow the IVR to hotlist the card.",
           "phone": "1800-1030",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -43,9 +43,9 @@
           "instructions": "Call 080-2888-6000 and follow the IVR to hotlist the card.",
           "phone": "080-2888-6000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -57,9 +57,9 @@
           "instructions": "Email customercare@canarabank.in from your registered email to request card blocking.",
           "email": "customercare@canarabank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,9 +71,9 @@
           "instructions": "Log in to internet banking at https://online.canarabank.in and use the card block/hotlist option.",
           "url": "https://online.canarabank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -88,9 +88,22 @@
             "https://apps.apple.com/in/app/candii/id1555647775"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Canara ai1 app: Debit Card > Block/Freeze. NetBanking also available. Email: subject 'BLOCKDC <Last6>' to blockchannels@canarabank.com from registered email.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,9 +121,9 @@
           "instructions": "Call 1800-103-0000 and follow the IVR to hotlist the card.",
           "phone": "1800-103-0000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -123,9 +136,9 @@
           "instructions": "Call 1800-1030 and follow the IVR to hotlist the card.",
           "phone": "1800-1030",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -137,9 +150,9 @@
           "instructions": "Email customercare@canarabank.in from your registered email to request card blocking.",
           "email": "customercare@canarabank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -151,9 +164,9 @@
           "instructions": "Log in to internet banking at https://www.card.canarabank.in and use the card block/hotlist option.",
           "url": "https://www.card.canarabank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -168,9 +181,22 @@
             "https://apps.apple.com/in/app/candii/id1555647775"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-04",
           "sources": [
-            "https://canarabank.in"
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Email: subject 'BLOCKCC <Last6>' to blockchannels@canarabank.com from registered email. Canara ai1 app + NetBanking also available.",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": [
+            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -183,9 +209,9 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-04",
     "sources": [
-      "https://canarabank.in"
+      "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards"
     ]
   }
 }

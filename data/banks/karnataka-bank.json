@@ -91,6 +91,21 @@
             "worked": 0,
             "failed": 0
           }
+        },
+        {
+          "channel": "other",
+          "instructions": "For mini statement: 1800-425-1446. Via KBL Mobile Plus: Cards > Block.",
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
         }
       ]
     },
@@ -170,6 +185,21 @@
             "https://play.google.com/store/apps/details?id=com.karnatakabank.kblapp",
             "https://apps.apple.com/in/app/kbl-app/id1289570665"
           ],
+          "confidence": 0.85,
+          "last_verified": "2026-05-12",
+          "sources": [
+            "https://karnatakabank.com/contact-us",
+            "https://karnatakabank.com/customer-care.html",
+            "https://sachet.rbi.org.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Via KBL Mobile Plus app: Cards > Block. WhatsApp: +91-9632188999.",
           "confidence": 0.85,
           "last_verified": "2026-05-12",
           "sources": [
