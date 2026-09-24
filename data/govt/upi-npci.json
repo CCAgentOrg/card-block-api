@@ -1,0 +1,59 @@
+{
+  "name": "UPI / BHIM — NPCI Dispute Redressal & DigiSaathi",
+  "slug": "upi-npci",
+  "type": "govt",
+  "website": "https://www.npci.org.in/what-we-do/upi/dispute-redressal-mechanism",
+  "cards": [
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "govt",
+          "label": "digisaathi",
+          "instructions": "Call DigiSaathi (NPCI's 24x7 digital-payments helpline) for guidance on freezing UPI access and raising disputes: 1800-891-3333.",
+          "phone": "1800-891-3333",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.npci.org.in/digisaathi"]
+        },
+        {
+          "channel": "website",
+          "label": "npci-dispute",
+          "instructions": "Raise a UPI transaction dispute with the 12-digit transaction reference at the PSP/TPAP app first; escalate PSP bank > account bank > NPCI via https://www.npci.org.in/what-we-do/upi/dispute-redressal-mechanism. For fraud, also call 1930 immediately — the NPCI complaint route recovers money, it does not freeze in-flight transactions.",
+          "url": "https://www.npci.org.in/what-we-do/upi/dispute-redressal-mechanism",
+          "confidence": 0.85,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.npci.org.in/what-we-do/upi/dispute-redressal-mechanism"]
+        },
+        {
+          "channel": "phone",
+          "label": "1930-cross-ref",
+          "instructions": "For unauthorized UPI transactions, call 1930 within the golden hour (see the cybercrime-1930 entry) — UPI fraud freeze flows through the same MHA-bank fraud-monitoring path.",
+          "phone": "1930",
+          "confidence": 0.9,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.cybercrime.gov.in", "https://www.npci.org.in/register-a-complaint"]
+        },
+        {
+          "channel": "email",
+          "label": "bhim-support",
+          "instructions": "BHIM app-specific issues: bhim.support@npci.org.in (NPCI BHIM Services Limited). Complaints can also be filed with screenshots via https://www.bhimupi.org.in/get-in-touch.",
+          "email": "bhim.support@npci.org.in",
+          "confidence": 0.8,
+          "last_verified": "2026-09-04",
+          "sources": ["https://www.bhimupi.org.in/get-in-touch"]
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "status": "agent_verified",
+    "confidence": 0.85,
+    "last_verified": "2026-09-04",
+    "sources": [
+      "https://www.npci.org.in/digisaathi",
+      "https://www.npci.org.in/what-we-do/upi/dispute-redressal-mechanism",
+      "https://www.bhimupi.org.in/get-in-touch"
+    ]
+  }
+}

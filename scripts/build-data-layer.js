@@ -25,7 +25,6 @@ const ROOT = path.join(__dirname, "..");
 const SRC = path.join(ROOT, "app", "data", "banks.json");
 const OUT_DIR = path.join(ROOT, "data", "banks");
 
-const RUN_DATE = process.argv[2] || new Date().toISOString().slice(0, 10);
 const SCHEMA_VERSION = "1.0.0";
 const DEFAULT_CONFIDENCE = 0.85;
 
@@ -130,6 +129,16 @@ const overrides = fs.existsSync(OVR_DIR)
 const seedBanks = JSON.parse(fs.readFileSync(SRC, "utf8"));
 const banks = { ...seedBanks, ...overrides };
 const ids = Object.keys(banks);
+
+// Deterministic build clock: as-of date = newest lastVerified in the data, so a
+// rebuild with unchanged inputs is byte-identical (data-ci drift check). argv[2]
+// overrides; wall clock is only a last-resort fallback for a dateless dataset.
+const DATA_MAX_DATE = Object.values(banks)
+  .map((b) => b.lastVerified)
+  .filter(Boolean)
+  .sort()
+  .pop();
+const RUN_DATE = process.argv[2] || DATA_MAX_DATE || new Date().toISOString().slice(0, 10);
 const indexEntries = [];
 // Freshness bands (VISION §3 / AGENTS.md): fresh <=30d, aging 30-90d, stale >90d from last_verified
 function freshnessBand(dateStr) {
