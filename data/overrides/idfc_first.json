@@ -1,0 +1,27 @@
+{
+  "id": "idfc_first",
+  "name": "IDFC FIRST Bank",
+  "logo": "/static/logos/idfc-first.svg",
+  "ifsc": "IDFB0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800 10 888",
+      "website": "https://www.idfcfirstbank.com",
+      "reference": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+      "notes": "Customer service page: 'Block your Credit Card - Call us on 1800 10 888'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking."
+    },
+    "debit": {
+      "tollFree": "1800 266 9970",
+      "website": "https://www.idfcfirstbank.com",
+      "reference": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+      "notes": "Customer service page: 'Block your Debit Card - Call us on 1800 266 9970'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+      "label": "IDFC FIRST Bank Customer Service (live fetch 2026-09-25: block credit card 1800 10 888, block debit card 1800 266 9970)"
+    }
+  ],
+  "lastVerified": "2026-09-25"
+}

@@ -10,41 +10,12 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-10-888 and follow the IVR to hotlist the card.",
-          "phone": "1800-10-888",
+          "instructions": "Call 1800 266 9970 and follow the IVR to hotlist the card.",
+          "phone": "1800 266 9970",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirstbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call +91-22-7146-6300 and follow the IVR to hotlist the card.",
-          "phone": "+91-22-7146-6300",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.idfcfirstbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@idfcfirstbank.com from your registered email to request card blocking.",
-          "email": "customercare@idfcfirstbank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.idfcfirstbank.com"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,26 +27,9 @@
           "instructions": "Log in to internet banking at https://www.idfcfirstbank.com and use the card block/hotlist option.",
           "url": "https://www.idfcfirstbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirstbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=in.idfc.bank2 | iOS: https://apps.apple.com/in/app/idfc-first-bank/id1116565210",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=in.idfc.bank2",
-            "https://apps.apple.com/in/app/idfc-first-bank/id1116565210"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.idfcfirstbank.com"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +38,11 @@
         },
         {
           "channel": "other",
-          "instructions": "Via IDFC FIRST Mobile app: Debit Cards > Block.",
+          "instructions": "Customer service page: 'Block your Debit Card - Call us on 1800 266 9970'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirstbank.com"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,41 +57,12 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-10-888 and follow the IVR to hotlist the card.",
-          "phone": "1800-10-888",
+          "instructions": "Call 1800 10 888 and follow the IVR to hotlist the card.",
+          "phone": "1800 10 888",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirstbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call +91-22-7146-6300 and follow the IVR to hotlist the card.",
-          "phone": "+91-22-7146-6300",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.idfcfirstbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@idfcfirstbank.com from your registered email to request card blocking.",
-          "email": "customercare@idfcfirstbank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.idfcfirstbank.com"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
           ],
           "confirmations": {
             "worked": 0,
@@ -149,26 +74,9 @@
           "instructions": "Log in to internet banking at https://www.idfcfirstbank.com and use the card block/hotlist option.",
           "url": "https://www.idfcfirstbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirstbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=in.idfc.bank2 | iOS: https://apps.apple.com/in/app/idfc-first-bank/id1116565210",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=in.idfc.bank2",
-            "https://apps.apple.com/in/app/idfc-first-bank/id1116565210"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.idfcfirstbank.com"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +85,11 @@
         },
         {
           "channel": "other",
-          "instructions": "24x7. Via IDFC FIRST Mobile app: Credit Cards > Manage > Block.",
+          "instructions": "Customer service page: 'Block your Credit Card - Call us on 1800 10 888'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirstbank.com"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +102,9 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-25",
     "sources": [
-      "https://www.idfcfirstbank.com"
+      "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
     ]
   }
 }
