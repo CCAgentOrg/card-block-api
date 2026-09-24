@@ -63,7 +63,8 @@
             "debit",
             "credit",
             "prepaid",
-            "forex"
+            "forex",
+            "upi"
           ]
         },
         "blocking_methods": {

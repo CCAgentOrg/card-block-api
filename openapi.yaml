@@ -132,11 +132,11 @@ components:
 
     BankType:
       type: string
-      enum: [public, private, rrb, coop, payments, sfb, foreign]
+      enum: [public, private, rrb, coop, payments, sfb, foreign, network, govt]
 
     CardType:
       type: string
-      enum: [debit, credit, prepaid, forex]
+      enum: [debit, credit, prepaid, forex, upi]
 
     VerificationStatus:
       type: string
@@ -145,7 +145,7 @@ components:
 
     Channel:
       type: string
-      enum: [sms, phone, app, website, email, branch, upi, network, govt]
+      enum: [sms, phone, app, website, email, branch, upi, network, govt, other]
 
     Confirmations:
       type: object
