@@ -10,12 +10,12 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-2099-335 and follow the IVR to hotlist the card.",
-          "phone": "1800-2099-335",
+          "instructions": "Call 1800 2099 335 and follow the IVR to hotlist the card.",
+          "phone": "1800 2099 335",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.sbmbank.co.in/contact-us"
+            "https://www.sbmbank.co.in/block-lost-or-stolen-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,26 +25,12 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-1033-817 and follow the IVR to hotlist the card.",
-          "phone": "1800-1033-817",
+          "instructions": "Call 1800 1033 817 and follow the IVR to hotlist the card.",
+          "phone": "1800 1033 817",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@sbmbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@sbmbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
+            "https://www.sbmbank.co.in/block-lost-or-stolen-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,26 +42,9 @@
           "instructions": "Log in to internet banking at https://www.sbmbank.co.in and use the card block/hotlist option.",
           "url": "https://www.sbmbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbm.bank | iOS: https://apps.apple.com/in/app/sbm-mobile/id1448902433",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.sbm.bank",
-            "https://apps.apple.com/in/app/sbm-mobile/id1448902433"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
+            "https://www.sbmbank.co.in/block-lost-or-stolen-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,104 +53,11 @@
         },
         {
           "channel": "other",
-          "instructions": "Via SBM Mobile app: Debit Card > Block.",
+          "instructions": "24x7 toll-free customer care. Mobile Banking: Menu > My Cards > Debit > select card > Card Lock > OTP. Internet Banking: same path (My Cards > Debit > Card Lock > OTP). Credit/Debit: immediately report loss/theft/misuse on the 24x7 toll-free helpline.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        }
-      ]
-    },
-    {
-      "type": "credit",
-      "blocking_methods": [
-        {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-2099-335 and follow the IVR to hotlist the card.",
-          "phone": "1800-2099-335",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-1033-817 and follow the IVR to hotlist the card.",
-          "phone": "1800-1033-817",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@sbmbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@sbmbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.sbmbank.co.in and use the card block/hotlist option.",
-          "url": "https://www.sbmbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbm.bank | iOS: https://apps.apple.com/in/app/sbm-mobile/id1448902433",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.sbm.bank",
-            "https://apps.apple.com/in/app/sbm-mobile/id1448902433"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "other",
-          "instructions": "Via SBM Mobile Banking app: Cards > Block.",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.sbmbank.co.in/contact-us"
+            "https://www.sbmbank.co.in/block-lost-or-stolen-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +70,9 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-25",
     "sources": [
-      "https://www.sbmbank.co.in/contact-us"
+      "https://www.sbmbank.co.in/block-lost-or-stolen-card"
     ]
   }
 }

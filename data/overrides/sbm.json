@@ -1,0 +1,22 @@
+{
+  "id": "sbm",
+  "name": "SBM Bank India",
+  "logo": "/static/logos/sbm.svg",
+  "ifsc": "SBIL0000001",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 2099 335",
+      "number1": "1800 1033 817",
+      "website": "https://www.sbmbank.co.in",
+      "reference": "https://www.sbmbank.co.in/block-lost-or-stolen-card",
+      "notes": "24x7 toll-free customer care. Mobile Banking: Menu > My Cards > Debit > select card > Card Lock > OTP. Internet Banking: same path (My Cards > Debit > Card Lock > OTP). Credit/Debit: immediately report loss/theft/misuse on the 24x7 toll-free helpline."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.sbmbank.co.in/block-lost-or-stolen-card",
+      "label": "SBM Bank - Block your Lost/Stolen Credit or Debit Card (live fetch 2026-09-25: 1800 2099 335 / 1800 1033 817 24x7 toll-free, Card Lock app/netbanking steps)"
+    }
+  ],
+  "lastVerified": "2026-09-25"
+}
