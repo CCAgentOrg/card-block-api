@@ -1,0 +1,31 @@
+{
+  "id": "rbl",
+  "name": "RBL Bank",
+  "logo": "/static/logos/rbl.svg",
+  "ifsc": "RATN0000001",
+  "blockingInstructions": {
+    "credit": {
+      "number1": "+91 22 6232 7777",
+      "website": "https://www.rbl.bank.in",
+      "reference": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
+      "notes": "Block immediately via any channel: Website 'block or reissue your credit card using your mobile number'; Helpline +91 22 6232 7777; RBL MyCard App > My Account > Settings > Profile settings > Report Dispute or Fraud > Fraud > BLOCK & REPLACE/BLOCK CARD; SMS 'BLKRBL <last two digits of card>' to +91 9223366333 from registered mobile (block + replacement); WhatsApp 'Hi RBL' to 84335 98888 > Credit Card Services > Switch-off Card Transaction; Chatbot RBL Cares > Menu > Insta Services > Block and Reissue Credit Card."
+    },
+    "debit": {
+      "number1": "+91 22 6232 7777",
+      "website": "https://www.rbl.bank.in",
+      "reference": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+      "notes": "Block immediately via any channel: Website 'block your debit card using your CIF number'; Helpline +91 22 6232 7777; SMS to 9223366333 from registered mobile - Temporary Block: 'TBLOCK <last four digits of card> <Customer ID>' / Permanent Block: 'BLOCK <last four digits of card> <Customer ID>'; RBL MyBank app > Manage Your Cards > Block/Unblock Card > OTP; NetBanking > Requests > Block Debit Card; WhatsApp 'Hi RBL' to 84335 98888 > Banking Services."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
+      "label": "RBL Bank - Report loss or unauthorised use of Credit Card (live fetch 2026-09-25: helpline +91 22 6232 7777, SMS BLKRBL to +91 9223366333, MyCard app path)"
+    },
+    {
+      "url": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+      "label": "RBL Bank - Report loss or unauthorised use of Debit Card (live fetch 2026-09-25: TBLOCK/BLOCK SMS to 9223366333, helpline, MyBank app path)"
+    }
+  ],
+  "lastVerified": "2026-09-25"
+}

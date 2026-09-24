@@ -1,0 +1,35 @@
+{
+  "id": "hsbc",
+  "name": "HSBC India",
+  "logo": "/static/logos/hsbc.svg",
+  "ifsc": "HSBC0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800 267 3456",
+      "number1": "1800 121 2208",
+      "number2": "+91 40 65118002",
+      "website": "https://www.hsbc.co.in",
+      "reference": "https://www.hsbc.bank.in/help/contact",
+      "notes": "PhoneBanking 1800 267 3456 / 1800 121 2208 (toll-free from India; 6:30am-8:30pm IST, 7 days). Emergency services - reporting unauthorised transactions, blocking or cancelling your card - are available 24/7. From outside India: +91 40 65118002 / +91 22 71728002. SMS 'BLOCK' to 575750 from registered mobile. Report loss in writing: The Manager, Credit Cards, Post Box Number 5080, Chennai - 600 028."
+    },
+    "debit": {
+      "tollFree": "1800 267 3456",
+      "number1": "1800 121 2208",
+      "number2": "+91 40 65118002",
+      "website": "https://www.hsbc.co.in",
+      "reference": "https://www.hsbc.bank.in/help/contact",
+      "notes": "PhoneBanking 1800 267 3456 / 1800 121 2208 (toll-free from India). Emergency card blocking available 24/7. From outside India: +91 40 65118002 / +91 22 71728002."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.hsbc.bank.in/help/contact",
+      "label": "HSBC India Contact Us (live fetch 2026-09-25: 1800 267 3456 / 1800 121 2208 personal banking & credit cards; emergency card blocking 24/7)"
+    },
+    {
+      "url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+      "label": "HSBC Credit Card Key Fact Statement (SMS 'BLOCK' to 575750; report lost/stolen to PhoneBanking 1800 267 3456 / 1800 121 2208)"
+    }
+  ],
+  "lastVerified": "2026-09-25"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "yes_bank",
+  "name": "Yes Bank",
+  "logo": "/static/logos/yes-bank.svg",
+  "ifsc": "YESB0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800 103 1212",
+      "number1": "1860 210 1200",
+      "number2": "+91 22 4935 0000",
+      "website": "https://www.yesbank.in",
+      "reference": "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+      "notes": "24x7 PhoneBanking. 1800 103 6000 applies to select Marquee/Raree credit cards. From outside India: +91 22 4935 0000. Block also available via YES Mobile / iris app card controls. National cybercrime helpline 1930 for online fraud."
+    },
+    "debit": {
+      "tollFree": "1800 1200",
+      "number1": "1860 210 1200",
+      "number2": "+91 22 5079 5101",
+      "website": "https://www.yesbank.in",
+      "reference": "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+      "notes": "Debit card cum ATM card lost/stolen: call PhoneBanking 1800 1200 (toll free) or 1860 210 1200 immediately. From outside India: +91 22 5079 5101 / 1833 800 0149 (USA) / 1833 491 0559 (Canada) / 8000 46 9153 (UK) / 8000 3570 2510 (UAE). Block also via NetBanking / YES Mobile."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+      "label": "YES Bank - Guide to an Unauthorized Transaction (live fetch 2026-09-25: credit 1800 103 1212 / 1860 210 1200, debit 1800 1200 / 1860 210 1200, overseas lines)"
+    },
+    {
+      "url": "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+      "label": "YES Bank Customer Care (live fetch 2026-09-25: credit cards 1800 103 1212 / 1800 103 6000 for select cards; 022 5079 5101 from outside India)"
+    }
+  ],
+  "lastVerified": "2026-09-25"
+}

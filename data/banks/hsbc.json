@@ -10,12 +10,13 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-267-3456 and follow the IVR to hotlist the card.",
-          "phone": "1800-267-3456",
+          "instructions": "Call 1800 267 3456 and follow the IVR to hotlist the card.",
+          "phone": "1800 267 3456",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +26,13 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-121-2208 and follow the IVR to hotlist the card.",
-          "phone": "1800-121-2208",
+          "instructions": "Call 1800 121 2208 and follow the IVR to hotlist the card.",
+          "phone": "1800 121 2208",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -38,13 +40,15 @@
           }
         },
         {
-          "channel": "email",
-          "instructions": "Email customercare@hsbc.co.in from your registered email to request card blocking.",
-          "email": "customercare@hsbc.co.in",
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 40 65118002 and follow the IVR to hotlist the card.",
+          "phone": "+91 40 65118002",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,26 +60,10 @@
           "instructions": "Log in to internet banking at https://www.hsbc.co.in and use the card block/hotlist option.",
           "url": "https://www.hsbc.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.hsbc.hsbcnet | iOS: https://apps.apple.com/in/app/hsbc-hk/id1188660034",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.hsbc.hsbcnet",
-            "https://apps.apple.com/in/app/hsbc-hk/id1188660034"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +72,12 @@
         },
         {
           "channel": "other",
-          "instructions": "Via HSBC India NetBanking: Cards > Manage > Block. Premier: 1800-266-3456.",
+          "instructions": "PhoneBanking 1800 267 3456 / 1800 121 2208 (toll-free from India). Emergency card blocking available 24/7. From outside India: +91 40 65118002 / +91 22 71728002.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +92,13 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-267-3456 and follow the IVR to hotlist the card.",
-          "phone": "1800-267-3456",
+          "instructions": "Call 1800 267 3456 and follow the IVR to hotlist the card.",
+          "phone": "1800 267 3456",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +108,13 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-121-2208 and follow the IVR to hotlist the card.",
-          "phone": "1800-121-2208",
+          "instructions": "Call 1800 121 2208 and follow the IVR to hotlist the card.",
+          "phone": "1800 121 2208",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -133,26 +124,13 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-40-6511-8002 and follow the IVR to hotlist the card.",
-          "phone": "+91-40-6511-8002",
+          "instructions": "Call +91 40 65118002 and follow the IVR to hotlist the card.",
+          "phone": "+91 40 65118002",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@hsbc.co.in from your registered email to request card blocking.",
-          "email": "customercare@hsbc.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -164,26 +142,10 @@
           "instructions": "Log in to internet banking at https://www.hsbc.co.in and use the card block/hotlist option.",
           "url": "https://www.hsbc.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.hsbc.hsbcnet | iOS: https://apps.apple.com/in/app/hsbc-hk/id1188660034",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.hsbc.hsbcnet",
-            "https://apps.apple.com/in/app/hsbc-hk/id1188660034"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -192,11 +154,12 @@
         },
         {
           "channel": "other",
-          "instructions": "Premier cardholders: 1800-266-3456 / +91-40-6511-8001.",
+          "instructions": "PhoneBanking 1800 267 3456 / 1800 121 2208 (toll-free from India; 6:30am-8:30pm IST, 7 days). Emergency services - reporting unauthorised transactions, blocking or cancelling your card - are available 24/7. From outside India: +91 40 65118002 / +91 22 71728002. SMS 'BLOCK' to 575750 from registered mobile. Report loss in writing: The Manager, Credit Cards, Post Box Number 5080, Chennai - 600 028.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.hsbc.co.in/help/contact"
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -209,9 +172,10 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-25",
     "sources": [
-      "https://www.hsbc.co.in/help/contact"
+      "https://www.hsbc.bank.in/help/contact",
+      "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
     ]
   }
 }
