@@ -10,7 +10,6 @@ const path = require("path");
 
 const DIR = path.join(__dirname, "..", "data", "networks");
 const GOVT_DIR = path.join(__dirname, "..", "data", "govt");
-const RUN_DATE = new Date().toISOString().slice(0, 10);
 const files = [
   ...fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && f !== "index.json").map((f) => path.join(DIR, f)),
   ...(fs.existsSync(GOVT_DIR) ? fs.readdirSync(GOVT_DIR).filter((f) => f.endsWith(".json") && f !== "index.json").map((f) => path.join(GOVT_DIR, f)) : []),
@@ -25,10 +24,9 @@ const entries = [];
 let methodCount = 0;
 
 for (const f of files) {
-  const p = f;
   let n;
   try {
-    n = JSON.parse(fs.readFileSync(p, "utf8"));
+    n = JSON.parse(fs.readFileSync(f, "utf8"));
   } catch (e) {
     console.error("FAIL " + f + ": " + e.message);
     process.exit(1);
@@ -72,7 +70,8 @@ fs.writeFileSync(
   JSON.stringify(
     {
       schema_version: "1.0.0",
-      updated: RUN_DATE,
+      // Deterministic rebuild: derive from the data, not the wall clock.
+      updated: entries.reduce((max, e) => (e.last_verified > max ? e.last_verified : max), entries[0].last_verified),
       count: entries.length,
       method_count: methodCount,
       networks: entries,
