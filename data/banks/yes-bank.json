@@ -10,12 +10,13 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-1200 and follow the IVR to hotlist the card.",
-          "phone": "1800-1200",
+          "instructions": "Call 1800 1200 and follow the IVR to hotlist the card.",
+          "phone": "1800 1200",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +26,13 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-1212 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-1212",
+          "instructions": "Call 1860 210 1200 and follow the IVR to hotlist the card.",
+          "phone": "1860 210 1200",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -38,13 +40,15 @@
           }
         },
         {
-          "channel": "email",
-          "instructions": "Email care@yesbank.in from your registered email to request card blocking.",
-          "email": "care@yesbank.in",
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 22 5079 5101 and follow the IVR to hotlist the card.",
+          "phone": "+91 22 5079 5101",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,26 +60,10 @@
           "instructions": "Log in to internet banking at https://www.yesbank.in and use the card block/hotlist option.",
           "url": "https://www.yesbank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.yesbank.bankapp | iOS: https://apps.apple.com/in/app/yes-first-bank-app/id1535769494",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.yesbank.bankapp",
-            "https://apps.apple.com/in/app/yes-first-bank-app/id1535769494"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +72,12 @@
         },
         {
           "channel": "other",
-          "instructions": "Same toll-free for both card types. Via Yes Mobile app: Cards > Block.",
+          "instructions": "Debit card cum ATM card lost/stolen: call PhoneBanking 1800 1200 (toll free) or 1860 210 1200 immediately. From outside India: +91 22 5079 5101 / 1833 800 0149 (USA) / 1833 491 0559 (Canada) / 8000 46 9153 (UK) / 8000 3570 2510 (UAE). Block also via NetBanking / YES Mobile.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +92,13 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-1200 and follow the IVR to hotlist the card.",
-          "phone": "1800-1200",
+          "instructions": "Call 1800 103 1212 and follow the IVR to hotlist the card.",
+          "phone": "1800 103 1212",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +108,13 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-1212 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-1212",
+          "instructions": "Call 1860 210 1200 and follow the IVR to hotlist the card.",
+          "phone": "1860 210 1200",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -133,26 +124,13 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-22-5079-5173 and follow the IVR to hotlist the card.",
-          "phone": "+91-22-5079-5173",
+          "instructions": "Call +91 22 4935 0000 and follow the IVR to hotlist the card.",
+          "phone": "+91 22 4935 0000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email care@yesbank.in from your registered email to request card blocking.",
-          "email": "care@yesbank.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -164,26 +142,10 @@
           "instructions": "Log in to internet banking at https://www.yesbank.in and use the card block/hotlist option.",
           "url": "https://www.yesbank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.yesbank.bankapp | iOS: https://apps.apple.com/in/app/yes-first-bank-app/id1535769494",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.yesbank.bankapp",
-            "https://apps.apple.com/in/app/yes-first-bank-app/id1535769494"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -192,11 +154,12 @@
         },
         {
           "channel": "other",
-          "instructions": "24x7 toll-free: 1800-1200. Unauthorized transactions also at 1800-102-3357.",
+          "instructions": "24x7 PhoneBanking. 1800 103 6000 applies to select Marquee/Raree credit cards. From outside India: +91 22 4935 0000. Block also available via YES Mobile / iris app card controls. National cybercrime helpline 1930 for online fraud.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.yesbank.in/contact-us"
+            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
           ],
           "confirmations": {
             "worked": 0,
@@ -209,9 +172,10 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-25",
     "sources": [
-      "https://www.yesbank.in/contact-us"
+      "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
+      "https://www.yesbank.in/personal-banking/yes-individual/customer-care"
     ]
   }
 }
