@@ -2,7 +2,7 @@
   "name": "American Express India",
   "slug": "american-express",
   "type": "private",
-  "website": "https://www.americanexpress.com/in",
+  "website": "https://www.americanexpress.com/in/",
   "cards": [
     {
       "type": "credit",
@@ -10,12 +10,13 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-419-1030 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-1030",
+          "instructions": "Call 1800 419 2122 and follow the IVR to hotlist the card.",
+          "phone": "1800 419 2122",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.americanexpress.com/in/support/contact-us.html"
+            "https://www.americanexpress.com/in/support/contact-us.html",
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,27 +26,13 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-419-0167 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-0167",
+          "instructions": "Call 0124 670 2929 and follow the IVR to hotlist the card.",
+          "phone": "0124 670 2929",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.americanexpress.com/in/support/contact-us.html"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-419-2122 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-2122",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.americanexpress.com/in/support/contact-us.html"
+            "https://www.americanexpress.com/in/support/contact-us.html",
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -54,29 +41,13 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.americanexpress.com/in and use the card block/hotlist option.",
-          "url": "https://www.americanexpress.com/in",
+          "instructions": "Log in to internet banking at https://www.americanexpress.com/in/ and use the card block/hotlist option.",
+          "url": "https://www.americanexpress.com/in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.americanexpress.com/in/support/contact-us.html"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.amex.android | iOS: https://apps.apple.com/in/app/amex/id974696351",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.amex.android",
-            "https://apps.apple.com/in/app/amex/id974696351"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.americanexpress.com/in/support/contact-us.html"
+            "https://www.americanexpress.com/in/support/contact-us.html",
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -85,11 +56,12 @@
         },
         {
           "channel": "other",
-          "instructions": "Lost/ stolen card: 1800-258-6040. Platinum: 1800-419-1030, Gold: 1800-419-0167, Rewards: 1800-419-0167, Platinum Corporate: 1800-419-1092.",
+          "instructions": "To report a lost/stolen card, request a replacement via your Online Account or call Customer Care. Toll-free from India: 1800 419 2122 (Platinum Travel; general Card Account line). Product-specific lines: Platinum Reserve 1800 419 1030, Membership Rewards 1800 419 0167. From outside India: replace the 0 of our 0124 numbers with +91 (e.g. +91 124 670 2929). 24x7 via Mobile Messaging: Chat icon in the Amex App.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-09-25",
           "sources": [
-            "https://www.americanexpress.com/in/support/contact-us.html"
+            "https://www.americanexpress.com/in/support/contact-us.html",
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
           ],
           "confirmations": {
             "worked": 0,
@@ -102,9 +74,10 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-09-25",
     "sources": [
-      "https://www.americanexpress.com/in/support/contact-us.html"
+      "https://www.americanexpress.com/in/support/contact-us.html",
+      "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
     ]
   }
 }

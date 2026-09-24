@@ -1,0 +1,26 @@
+{
+  "id": "american_express",
+  "name": "American Express India",
+  "logo": "/static/logos/american-express.svg",
+  "ifsc": "AMEX0000001",
+  "blockingInstructions": {
+    "credit": {
+      "tollFree": "1800 419 2122",
+      "number1": "0124 670 2929",
+      "website": "https://www.americanexpress.com/in/",
+      "reference": "https://www.americanexpress.com/in/support/contact-us.html",
+      "notes": "To report a lost/stolen card, request a replacement via your Online Account or call Customer Care. Toll-free from India: 1800 419 2122 (Platinum Travel; general Card Account line). Product-specific lines: Platinum Reserve 1800 419 1030, Membership Rewards 1800 419 0167. From outside India: replace the 0 of our 0124 numbers with +91 (e.g. +91 124 670 2929). 24x7 via Mobile Messaging: Chat icon in the Amex App."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.americanexpress.com/in/support/contact-us.html",
+      "label": "American Express India Contact Us (live fetch 2026-09-25: 1800 419 2122 toll-free, per-card lines, +91 0124 overseas dialing rule)"
+    },
+    {
+      "url": "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+      "label": "Amex India FAQ: How do I report a lost, stolen or damaged Card (live fetch 2026-09-25: request replacement via Online Account or call Customer Care)"
+    }
+  ],
+  "lastVerified": "2026-09-25"
+}
