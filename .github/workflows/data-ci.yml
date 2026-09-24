@@ -31,9 +31,10 @@ jobs:
       - name: Rebuild data layer and detect drift
         run: |
           node scripts/build-data-layer.js
-          if [ -n "$(git status --porcelain data/banks)" ]; then
-            echo "::error::data/banks is out of sync with app/data/banks.json — run 'node scripts/build-data-layer.js' and commit"
-            git status --porcelain data/banks
+          node scripts/build-networks.js
+          if [ -n "$(git status --porcelain data)" ]; then
+            echo "::error::data/ is out of sync with generators — run 'node scripts/build-data-layer.js && node scripts/build-networks.js' and commit"
+            git status --porcelain data
             exit 1
           fi
           echo "data layer in sync"
