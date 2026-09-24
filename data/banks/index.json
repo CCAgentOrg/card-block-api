@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-09-04",
+  "updated": "2026-09-25",
   "count": 61,
   "freshness": {
-    "fresh": 10,
+    "fresh": 16,
     "aging": 0,
-    "stale": 51
+    "stale": 45
   },
   "banks": [
     {
@@ -38,9 +38,9 @@
       "card_types": [
         "credit"
       ],
-      "method_count": 6,
+      "method_count": 4,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-25"
     },
     {
       "slug": "apg",
@@ -302,9 +302,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 13,
+      "method_count": 10,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-25"
     },
     {
       "slug": "icici",
@@ -338,9 +338,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-25"
     },
     {
       "slug": "indian-bank",
@@ -540,9 +540,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 13,
+      "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-25"
     },
     {
       "slug": "saraswat-bank",
@@ -561,12 +561,11 @@
       "name": "SBM Bank India",
       "type": "private",
       "card_types": [
-        "debit",
-        "credit"
+        "debit"
       ],
-      "method_count": 12,
+      "method_count": 4,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-25"
     },
     {
       "slug": "shamrao-vithal",
@@ -731,9 +730,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 13,
+      "method_count": 10,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-09-25"
     }
   ]
 }
