@@ -1,0 +1,46 @@
+{
+  "id": "city_union",
+  "name": "City Union Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "18001205000",
+      "number1": "044 7122 5000",
+      "email": "customercare@cityunionbank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.cub.plus.gui",
+      "iosApp": "https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617",
+      "website": "https://online.cub.bank.in/",
+      "reference": "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+      "notes": "Customer care shown as \"Call CUB's 24 X 7 Customer Care\" with the Call Us popup labelling the lines \"Domestic 18001205000\" (customer-care page: \"18001205000 - All States\") and \"International 044 7122 5000\"; the bank's WhatsApp banking contact is +91 44 7122 5000 (site widget links api.whatsapp.com/send?phone=914471225000). Verified block path (debit page, verbatim): \"Now you can choose to block or activate your Debit card through CUB Net, CUB Mobile banking for transactions Online or at ATM and PoS\"; the page links the CUB mobile banking apps Android com.cub.plus.gui and iOS id1054779617. No SMS block keyword/short code is published (the bank's pages list official SMS headers CUBANK-T/S/P and CUBLTD-T/S/P only as a fraud caution). Migration: existing internet & mobile banking is discontinued from 30-Oct-2026 — new net banking https://online.cub.bank.in/ and new app \"CUB New All in One\" (no store link for the new app is published on the pages fetched). The website navigation also carries a call button dialing 18009997788, and the bank's transaction-monitoring number is 1600118005 — \"Always attend calls from these numbers\". Report unauthorized transactions: https://ccm.cub.bank.in/portal/en/home. 1930 is not mentioned on the bank's pages."
+    },
+    "credit": {
+      "tollFree": "18001205000",
+      "number1": "1800-309-1442",
+      "number2": "044 7122 5000",
+      "email": "creditcard@cityunionbank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.cub.plus.gui",
+      "iosApp": "https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617",
+      "website": "https://online.cub.bank.in/",
+      "reference": "https://www.cityunionbank.com/Creditcard",
+      "notes": "Credit-card FAQ \"What should I do if I lose my Credit Card?\" (Dhi CUB Visa Signature Credit Card page): \"on your notifying us we will immediately to block your credit card from being further misused\" and \"Customers may also block their credit card through their mobile/ internet banking application\"; \"You can conveniently manage your Dhi CUB Visa Signature Credit Card through Net Banking or Mobile Banking App\". Credit-card customer care 1800-309-1442 handles lost/stolen/damaged card replacement (\"Card replacement charges of Rs 500+ taxes are applicable\") and statement disputes; disputes may also be emailed to creditcard@cityunionbank.in (general customer care: customercare@cityunionbank.in). Bank-wide contact lines (site Call Us popup / customer-care page): \"Domestic 18001205000\" (\"18001205000 - All States\") and \"International 044 7122 5000\"; WhatsApp banking contact +91 44 7122 5000. No SMS block keyword/short code is published. Migration: existing internet & mobile banking is discontinued from 30-Oct-2026 — new net banking https://online.cub.bank.in/; new app \"CUB New All in One\" (no store link for the new app is published on the pages fetched). Report unauthorized transactions: https://ccm.cub.bank.in/portal/en/home. 1930 is not mentioned on the bank's pages."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.cityunionbank.com/",
+      "label": "live fetch 2026-10-27 (homepage — the deep link /customer-service serves this same page): site-wide \"Call Us\" popup — Domestic tel:18001205000, International tel:04471225000 shown as \"044 7122 5000\"; \"Call CUB's 24 X 7 Customer Care\"; \"Write to us: customercare@cityunionbank.in\"; CUB WhatsApp banking widget links api.whatsapp.com/send?phone=914471225000; \"Click here to report an unauthorized transaction\" → https://ccm.cub.bank.in/portal/en/home; marquee notice: \"go to Google Play / App Store for downloading the new app \\\"CUB New All in One\\\" to register. Existing Net and Mobile banking services will be discontinued from 30th October 2026\"; site navigation (stellarnav phoneBtn) dials 18009997788"
+    },
+    {
+      "url": "https://www.cityunionbank.com/cub-customer-care-support-help",
+      "label": "live fetch 2026-10-27: \"Customer Care E-MAIL : customercare@cityunionbank.in\"; \"18001205000 - All States\"; \"Transaction Monitoring: City Union Bank's transaction monitoring number is 1600118005 Always attend calls from these numbers\"; official SMS headers listed as caution only — CUBANK-T, CUBANK-S, CUBANK-P, CUBLTD-T, CUBLTD-S, CUBLTD-P (no SMS block keyword or short code anywhere on the page)"
+    },
+    {
+      "url": "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+      "label": "live fetch 2026-10-27: \"Now you can choose to block or activate your Debit card through CUB Net, CUB Mobile banking for transactions Online or at ATM and PoS\"; page carries app links https://play.google.com/store/apps/details?id=com.cub.plus.gui and https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617"
+    },
+    {
+      "url": "https://www.cityunionbank.com/Creditcard",
+      "label": "live fetch 2026-10-27: Dhi CUB Visa Signature Credit Card FAQ — \"What should I do if I lose my Credit Card?\": \"on your notifying us we will immediately to block your credit card from being further misused\" and \"Customers may also block their credit card through their mobile/ internet banking application\"; replacement: \"Please call our customer care 1800-309-1442 and place the request\" (\"Card replacement charges of Rs 500+ taxes are applicable\"); disputes: \"calling us our 1800-309-1442 or send an email to creditcard@cityunionbank.in\"; \"manage your Dhi CUB Visa Signature Credit Card through Net Banking or Mobile Banking App\"; page's netbanking modal opens New Net Banking https://online.cub.bank.in/ (old IB posts to https://www.onlinebanking.cub.bank.in/servlet/ibs.servlets.IBSLoginServlet) with banner \"existing Internet Banking/Mobile Banking app will be discontinued from 30-Oct-2026\""
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

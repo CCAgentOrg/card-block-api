@@ -1,0 +1,47 @@
+{
+  "id": "au_small_finance",
+  "name": "AU Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 1200 1200",
+      "number1": "1800 26 66677",
+      "number2": "1860 1200 1200",
+      "email": "customercare@aubank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb",
+      "iosApp": "https://apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687",
+      "website": "https://netbanking.au.bank.in/drb/",
+      "reference": "https://www.au.bank.in/report-unauthorised-transactions",
+      "notes": "24x7 customer care (page states \"Call us – 24*7 Customer Care\"). To block: call 1800 1200 1200 / 1800 26 66677, select language, press 2 to block card; or AU 0101 app / AU 0101 NetBanking > Debit Card > 'Block this Card' > Permanent/Temporary > OTP (debit FAQ also lists Auro Chatbot as a block channel). No SMS block format is published for debit cards. Banking-services non-toll-free line: 1860 1200 1200 (contact page also lists toll-free 1800 313 313 under Banking Services). Overseas/NRI (non-toll-free, calling from overseas): +91 141-7141000, +91 141-6673220. Report unauthorised debit/ATM transactions: same IVR, press 1, or email customercare@aubank.in; the bank's page points online-fraud victims to cybercrime.gov.in. 1930 is not mentioned on the bank's pages."
+    },
+    "credit": {
+      "tollFree": "1800 1200 1500",
+      "number1": "0141-7141100",
+      "sms": "Send SMS \"TBLOCK<Space><Credit Card Last 4 digit><Space><Customer ID>\" on 5676767 from registered mobile number to temporarily block; send SMS \"PBLOCK<Space><Credit Card Last 4 digit><Space><Customer ID>\" on 5676767 from registered mobile number to permanently block",
+      "email": "creditcard.support@aubank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb",
+      "iosApp": "https://apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687",
+      "website": "https://netbanking.au.bank.in/drb/",
+      "reference": "https://www.au.bank.in/personal-banking/credit-cards",
+      "notes": "24x7 credit-card helpline 1800 1200 1500 (toll-free); non-toll-free 0141-7141100. Block via IVR: call 1800 1200 1500 and select the prompt \"Report Lost or Stolen card\" (report page: dial 2 for lost/stolen); AU 0101 app: Cards > Credit Card > 'Block/Unblock Credit Card'; AURO chatbot: Cards > Credit Card Services > 'Block and Reissue Lost/Stolen Card'; website credit-cards section 'Block Lost/Stolen Card'; AU 0101 NetBanking can block debit or credit cards immediately. SMS block from registered mobile number to 5676767: TBLOCK (temporary) or PBLOCK (permanent) with last 4 digits + Customer ID. Email creditcard.support@aubank.in; premium cards (Vetta, Zenith & Zenith+): creditcard.priority@aubank.in. Overseas/NRI (non-toll-free, calling from overseas): +91 141-7141000, +91 141-6673220. 1930 is not mentioned on the bank's pages."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.au.bank.in/report-unauthorised-transactions",
+      "label": "live fetch 2026-10-27: 'Ways to Block or Report Unauthorised Transactions' — debit block: call 1800 1200 1200 / 1800 26 66677 > select language > press 2, or AU 0101 app / AU 0101 NetBanking > Debit Card > 'Block this Card' > Permanent/Temporary > OTP; credit block: AU 0101 app > Block/Unblock Credit Card, AURO chatbot > Cards > Credit Card Services > Report and Block Lost/Stolen Card, call 180012001500 > dial 2 for lost/stolen; unauthorised-transaction reporting: same IVR press 1 (debit) / dial 0 (credit), email customercare@aubank.in, and cybercrime.gov.in for online fraud; states 'You can use NetBanking to block your debit or credit card immediately'"
+    },
+    {
+      "url": "https://www.au.bank.in/support/contact-us",
+      "label": "live fetch 2026-10-27: 'Call us – 24*7 Customer Care' — Banking Services: 1800 1200 1200, 1800 26 66677, 1800 313 313 (toll-free) and 1860 1200 1200 (non-toll-free); Credit Cards: 1800 1200 1500 (toll-free) and 0141-7141100 (non-toll-free); Forex Card (India): 1800 1200 1200 / 1860 1200 1200; NRI Services non-toll-free (calling from overseas phone numbers): +91 141-7141000, +91 141-6673220; Forex Card (Domestic Customer Travelling Abroad): +91 141 – 6133000; emails: customercare@aubank.in (Customer Care), creditcard.support@aubank.in (Credit Cards), creditcard.priority@aubank.in (Premium Credit Cards), corpcc.support@aubank.in (Commercial Credit Cards), nriservices@aubank.in (NRI Services)"
+    },
+    {
+      "url": "https://www.au.bank.in/personal-banking/credit-cards",
+      "label": "live fetch 2026-10-27: credit-card FAQ 'How can I place a request for blocking my card?' — AU 0101: 'Block/Unblock Credit Card' in Cards->Credit Card section; ChatBot: 'Block and Reissue Lost/Stolen Card' in Credit Card services; IVR: call 180012001500 and select prompt 'Report Lost or Stolen card'; Email: creditcard.support@aubank.in / creditcard.priority@aubank.in (for Vetta, Zenith & Zenith+ customers) to place block request; Website: 'Block Lost/Stolen Card' option in Credit Cards section; SMS: 'TBLOCK<Space><Credit Card Last 4 digit><Space><Customer ID>' on 5676767 from registered mobile number to temporarily block, 'PBLOCK<Space><Credit Card Last 4 digit><Space><Customer ID>' on 5676767 to permanently block; card replacement via Customer Care 1800 1200 1500"
+    },
+    {
+      "url": "https://www.au.bank.in/personal-banking/debit-cards",
+      "label": "live fetch 2026-10-27: debit FAQ 'What can I do if the Debit Card is stolen?' — 'Block your Debit Card instantly via AU 0101 App, NetBanking, Auro Chatbot or by calling the customer care at 1800 1200 1200'; page links AU 0101 NetBanking login https://netbanking.au.bank.in/drb/ and official app stores: play.google.com/store/apps/details?id=com.ausmallfinancebank.amb and apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

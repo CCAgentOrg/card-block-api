@@ -1,0 +1,45 @@
+{
+  "id": "csb",
+  "name": "CSB Bank (Catholic Syrian Bank)",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-266-9090",
+      "number1": "+91-22-69578555",
+      "number2": "022-45393950",
+      "website": "https://online.csb.bank.in/ODR/Complaint",
+      "email": "atm@csb.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.csbbank.csbmobile",
+      "iosApp": "https://apps.apple.com/in/app/csbmobile-smart-banking/id6745396597",
+      "reference": "https://www.csb.bank.in/contact-us",
+      "notes": "Phone banking is 24/7; the contact page directs debit-card fraud reports and card blocking to the direct customer care line +91-22-69578555, with chargeable alternates 022-45393950 and 022-69578500. From abroad call +91-22-45393939 or +91-22-69578505 (ISD charges), or toll-free from KSA 8008501339, Qatar 800101098, USA 18339753958, UAE 8000181017. In the CSB Mobile+ app: Card Management & Control - Block your Card, plus Card On/Off, PIN and transaction limits. Lost-card email atm@csb.bank.in (ATM Switch Center 0484-6451631, 2368032); digital-payment-fraud FRM Cell 9072600128 / 0484-6690850. Bank pages' footer lists the 1930 national cybercrime helpline and NPCI DigiSaathi 1800-891-3333 / 14431. No SMS block format is published on official pages."
+    },
+    "credit": {
+      "tollFree": "1800-210-9111",
+      "number1": "080-45219280",
+      "number2": "1800-266-9090",
+      "website": "https://online.csb.bank.in/ODR/Complaint",
+      "email": "csbone@getonecard.app",
+      "reference": "https://www.csb.bank.in/credit-card",
+      "notes": "CSB credit cards are co-branded, with per-partner channels. CSB OneCard: helpline 1800-210-9111, email csbone@getonecard.app, or use the OneCard app (select 'Need Help?' from the Profile section). CSB Bank Edge card (Jupiter): chat via the top-right help icon in the Jupiter app, email edge-csb-support@jupiter.money, or call 080-45219280. Both co-brands escalate to the bank at customercare@csb.bank.in / 1800-266-9090. Unauthorized transactions can be reported on the bank's ODR complaint form, and the bank footer lists the 1930 national cybercrime helpline. No separate CSB credit-card block SMS or netbanking block path is published on official pages."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.csb.bank.in/contact-us",
+      "label": "live fetch 2026-10-27: Contact Us page proves 24/7 CSB Phone Banking - toll-free 1800 266 9090; chargeable 022-45393950 / 022-69578500; international +91-22-45393939 / +91-22-69578505; NRI toll-free KSA 8008501339, Qatar 800101098, USA 18339753958, UAE 8000181017; 'For reporting fraud or blocking your debit card' direct line +91-22-69578555; email customercare@csb.bank.in; 'For ATM related queries and Lost Cards' email atm@csb.bank.in, Switch Center 0484-6451631 / 2368032; FRM Cell (digital payment frauds) 9072600128 / 0484-6690850; footer lists National Cyber Crime Helpline 1930, DigiSaathi 1800-891-3333 / 14431, links 'Report Unauthorized Transaction' to online.csb.bank.in/ODR/Complaint, and carries the Android/iOS app badges (com.csbbank.csbmobile, csbmobile-smart-banking id6745396597)."
+    },
+    {
+      "url": "https://www.csb.bank.in/mobile-banking",
+      "label": "live fetch 2026-10-27: Mobile Banking page proves the CSB Mobile+ app self-service card path - 'Card Management & Control - Block your Card, Set PIN, Card On/Off, Set Transaction Limits, Manage Domestic/International Card Activity' - and links the official app stores: play.google.com/store/apps/details?id=com.csbbank.csbmobile and apps.apple.com/in/app/csbmobile-smart-banking/id6745396597."
+    },
+    {
+      "url": "https://www.csb.bank.in/credit-card",
+      "label": "live fetch 2026-10-27: CSB OneCard co-brand credit card page proves the 'CSB One Credit Card: Block/Report Unauthorized Transaction/Card Closure' entry (an in-page anchor with no href - the page states no external target for it) and the grievance ladder: 1st level - 'Need Help?' in the OneCard app Profile, csbone@getonecard.app, helpline 1800-210-9111; 2nd level grievances@fplabs.tech; 3rd level customercare@csb.bank.in / 1800-266-9090."
+    },
+    {
+      "url": "https://www.csb.bank.in/csb-bank-edge-credit-card",
+      "label": "live fetch 2026-10-27: CSB Bank Edge Credit Card page proves the Edge/Jupiter grievance ladder: 1st level - chat via the top-right help icon in the Jupiter app, email edge-csb-support@jupiter.money, call credit card support 080-45219280; 2nd level csb.grievance@jupiter.money; 3rd level customercare@csb.bank.in / 1800-266-9090."
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

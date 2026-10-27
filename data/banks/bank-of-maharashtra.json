@@ -2,7 +2,7 @@
   "name": "Bank of Maharashtra",
   "slug": "bank-of-maharashtra",
   "type": "private",
-  "website": "https://www.bankofmaharashtra.in",
+  "website": "https://www.mahaconnect.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-233-4526 and follow the IVR to hotlist the card.",
-          "phone": "1800-233-4526",
+          "instructions": "Call 1800 233 4526 and follow the IVR to hotlist the card.",
+          "phone": "1800 233 4526",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bankofmaharashtra.in"
+            "https://bankofmaharashtra.bank.in/debit-cards",
+            "https://bankofmaharashtra.bank.in/atm-service",
+            "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+            "https://bankofmaharashtra.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-102-2636 and follow the IVR to hotlist the card.",
-          "phone": "1800-102-2636",
+          "instructions": "Call 1800 102 2636 and follow the IVR to hotlist the card.",
+          "phone": "1800 102 2636",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bankofmaharashtra.in"
+            "https://bankofmaharashtra.bank.in/debit-cards",
+            "https://bankofmaharashtra.bank.in/atm-service",
+            "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+            "https://bankofmaharashtra.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@bankofmaharashtra.in from your registered email to request card blocking.",
-          "email": "customercare@bankofmaharashtra.in",
+          "instructions": "Email mahaconnect@bankofmaharashtra.bank.in from your registered email to request card blocking.",
+          "email": "mahaconnect@bankofmaharashtra.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bankofmaharashtra.in"
+            "https://bankofmaharashtra.bank.in/debit-cards",
+            "https://bankofmaharashtra.bank.in/atm-service",
+            "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+            "https://bankofmaharashtra.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,29 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.bankofmaharashtra.in and use the card block/hotlist option.",
-          "url": "https://www.bankofmaharashtra.in",
+          "instructions": "Log in to internet banking at https://www.mahaconnect.bank.in/ and use the card block/hotlist option.",
+          "url": "https://www.mahaconnect.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bankofmaharashtra.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.bankofmaharashtraapp | iOS: https://apps.apple.com/in/app/bom-m-pay/id1318601311",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.mgs.bankofmaharashtraapp",
-            "https://apps.apple.com/in/app/bom-m-pay/id1318601311"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.bankofmaharashtra.in"
+            "https://bankofmaharashtra.bank.in/debit-cards",
+            "https://bankofmaharashtra.bank.in/atm-service",
+            "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+            "https://bankofmaharashtra.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +79,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Maha Mobile app: Cards > Block.",
+          "instructions": "24x7 customer care toll-free lines for hotlisting: 1800 233 4526 or 1800 102 2636 (debit-card page lists them as '1800 102 2636 / 1800 233 4526'); no chargeable alternate and no overseas line is published. Internet Banking (MahaConnect, www.mahaconnect.bank.in) and the Zen Lyfe mobile app are listed as hotlist channels, but no menu path and no app-store links are published on the bank's pages. WhatsApp Banking 917066036640 and a branch visit are also listed as channels. No SMS hotlist keyword or short code is published. mahaconnect@bankofmaharashtra.bank.in is the email shown on the bank's hotlisting page for ATM card issues (ATM Card Cell, Pune; card or account number to be furnished). After a fraudulent transaction the bank directs customers to dial 1930 or report at cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bankofmaharashtra.in"
+            "https://bankofmaharashtra.bank.in/debit-cards",
+            "https://bankofmaharashtra.bank.in/atm-service",
+            "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+            "https://bankofmaharashtra.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -106,69 +104,12 @@
           "instructions": "Call 1800-233-4526 and follow the IVR to hotlist the card.",
           "phone": "1800-233-4526",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bankofmaharashtra.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-102-2636 and follow the IVR to hotlist the card.",
-          "phone": "1800-102-2636",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.bankofmaharashtra.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@bankofmaharashtra.in from your registered email to request card blocking.",
-          "email": "customercare@bankofmaharashtra.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.bankofmaharashtra.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.bankofmaharashtra.in and use the card block/hotlist option.",
-          "url": "https://www.bankofmaharashtra.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.bankofmaharashtra.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.bankofmaharashtraapp | iOS: https://apps.apple.com/in/app/bom-m-pay/id1318601311",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.mgs.bankofmaharashtraapp",
-            "https://apps.apple.com/in/app/bom-m-pay/id1318601311"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.bankofmaharashtra.in"
+            "https://bankofmaharashtra.bank.in/debit-cards",
+            "https://bankofmaharashtra.bank.in/atm-service",
+            "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+            "https://bankofmaharashtra.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +118,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Maha Mobile app: Cards > Block. One Family, One Bank.",
+          "instructions": "Bank of Maharashtra has taken a strategic decision to exit from the credit card business; new cards are BOM SBI co-branded cards 'jointly issued by SBI Cards and Bank of Maharashtra', and the bank's credit-card page directs cardholders to the Bank of Maharashtra call centre at 1800-233-4526. No dedicated credit-card hotlist line, email, SMS format, or overseas number is published on the bank's own pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bankofmaharashtra.in"
+            "https://bankofmaharashtra.bank.in/debit-cards",
+            "https://bankofmaharashtra.bank.in/atm-service",
+            "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+            "https://bankofmaharashtra.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +138,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.bankofmaharashtra.in"
+      "https://bankofmaharashtra.bank.in/debit-cards",
+      "https://bankofmaharashtra.bank.in/atm-service",
+      "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+      "https://bankofmaharashtra.bank.in/"
     ]
   }
 }

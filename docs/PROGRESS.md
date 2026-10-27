@@ -14,9 +14,11 @@ Running log of loop-executed work. One line per merged PR: date, issue, what lan
 | 2026-09-04 | #51 | #33 | Network-level entries: Visa GCAS, Mastercard MGS, RuPay/DigiSaathi |
 | 2026-09-25 | #52 | #35 | National rails: 1930 cybercrime + NPCI UPI/BHIM redressal (govt entries); contract sync (upi card type, network/govt bank types), validate-schema covers rail entities, deterministic rebuild (RUN_DATE from data) |
 | 2026-09-25 | #54 | #53 | CI: drop duplicate Pages deploy job (missing environment) — pages.yml is the single deploy path |
+| 2026-09-25 | #56 | #32 | C2 batch 2: 6 banks re-verified against live official pages |
+| 2026-10-27 | #57 | #32 | C2 batch 3: 8 banks re-verified (Airtel, AU, Bandhan, BoM, Capital SFB, City Union, CSB, DBS) via verify-stale-banks workflow (per-bank researcher + independent auditor + validation gate); ADCB escalated (India retail exit evidence — human decision needed), CBI deferred (infra error); freshness 8 fresh / 16 aging / 37 stale |
 
-## Milestone state (2026-09-25)
+## Milestone state (2026-10-27)
 
-- **M1 — Coverage**: 61 banks / 691 bank methods + 21 rail methods (Visa GCAS, Mastercard MGS, RuPay/DigiSaathi, 1930, NPCI UPI/BHIM) on main; top-10 banks verified (C2 batch 1). Remaining: C2 batches 2–5 (#32), per-PSP UPI freeze paths (C4, #34), RRB sweep.
+- **M1 — Coverage**: 61 banks / 664 bank methods + 21 rail methods on main; 24 banks live-verified (C2 batches 1–3). Loop 2 wired as durable automation: saved workflow `verify-stale-banks` + every-2-days schedule with adversarial-review-before-merge. Remaining: C2 batches 4–5 (~37 stale, #32), ADCB suppression decision, per-PSP UPI freeze paths (C4, #34), RRB sweep.
 - **M2 — Accuracy & Freshness**: schema contract + freshness semantics + API contract landed. Remaining: report capture API (A3, #38), sanctity gate (A4, #39).
 - **M3 — Agentic Loops**: loop protocol exercised by hand (PRs #45–#52); Pages deploy fixed (#53/#54). Remaining: verification worker + scheduler (L2, #42), feedback triage (L3, #43), fork + legacy strip (L4, #44).

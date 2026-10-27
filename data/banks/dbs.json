@@ -2,7 +2,7 @@
   "name": "DBS Bank India",
   "slug": "dbs",
   "type": "private",
-  "website": "https://www.dbs.com/india",
+  "website": "https://internet-banking.dbs.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1860-267-6789 and follow the IVR to hotlist the card.",
-          "phone": "1860-267-6789",
+          "instructions": "Call 1860 210 3456 and follow the IVR to hotlist the card.",
+          "phone": "1860 210 3456",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-44-6904-6789 and follow the IVR to hotlist the card.",
-          "phone": "+91-44-6904-6789",
+          "instructions": "Call 1860 267 4567 and follow the IVR to hotlist the card.",
+          "phone": "1860 267 4567",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 44 6685 4555 and follow the IVR to hotlist the card.",
+          "phone": "+91 44 6685 4555",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customer.care@dbs.com from your registered email to request card blocking.",
-          "email": "customer.care@dbs.com",
+          "instructions": "Email customercareindia@dbs.com from your registered email to request card blocking.",
+          "email": "customercareindia@dbs.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.dbs.com/india and use the card block/hotlist option.",
-          "url": "https://www.dbs.com/india",
+          "instructions": "Log in to internet banking at https://internet-banking.dbs.bank.in and use the card block/hotlist option.",
+          "url": "https://internet-banking.dbs.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dbs.digibank | iOS: https://apps.apple.com/in/app/dbs-digibank/id1133705384",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank | iOS: https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.dbs.digibank",
-            "https://apps.apple.com/in/app/dbs-digibank/id1133705384"
+            "https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank",
+            "https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS 'HOTLIST <last 4 digit of debit card>' to 7065154444 from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +133,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via DBS digibank Mobile app: Cards > Block.",
+          "instructions": "Customer care 24/7 (grievance page: 'Customer Care Contact number (24/7): 1860 210 3456'); overseas +91 44 6685 4555; debit-card page also lists +91 44 4902 1180. App/netbanking path: DBS digibank app or internet banking > Accounts > 'Debit Cards' tab > select card > 'Permanently Block/Unblock' (temporary block: 'Temporary Block/Unblock'; SMS 'TBLK <last 4 digit of debit card>' to 7065154444, unblock 'TUNBLK <last 4 digit of debit card>'). Branch visits also accepted. Bank's pages ask online-fraud victims to call National Cyber Crime helpline 1930 / report at cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +155,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1860-267-6789 and follow the IVR to hotlist the card.",
-          "phone": "1860-267-6789",
+          "instructions": "Call 1860 267 6789 and follow the IVR to hotlist the card.",
+          "phone": "1860 267 6789",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +173,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-44-6904-6789 and follow the IVR to hotlist the card.",
-          "phone": "+91-44-6904-6789",
+          "instructions": "Call 1800 209 4555 and follow the IVR to hotlist the card.",
+          "phone": "1800 209 4555",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 44 6904 6789 and follow the IVR to hotlist the card.",
+          "phone": "+91 44 6904 6789",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,26 +208,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customer.care@dbs.com from your registered email to request card blocking.",
-          "email": "customer.care@dbs.com",
+          "instructions": "Email cardcareindia@dbs.com from your registered email to request card blocking.",
+          "email": "cardcareindia@dbs.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.dbs.com/india and use the card block/hotlist option.",
-          "url": "https://www.dbs.com/india",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +225,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dbs.digibank | iOS: https://apps.apple.com/in/app/dbs-digibank/id1133705384",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank | iOS: https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.dbs.digibank",
-            "https://apps.apple.com/in/app/dbs-digibank/id1133705384"
+            "https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank",
+            "https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +245,14 @@
         },
         {
           "channel": "other",
-          "instructions": "24-hour credit card service for Bajaj Finserv DBS SuperCard & DBS Spark Card.",
+          "instructions": "24/7 (grievance page: 'Call Us (24/7) - DBS Credit Card helpline: 1860 267 6789'; overseas +91 44 6904 6789). DBS Vantage Credit Card dedicated helpline: 1800 209 4555 (overseas Vantage: +91 44 6685 4555; Vantage email vantagecareindia@dbs.com). Report page: 'You can also login to your DBS mobile app to block your debit card/credit card immediately' (digibank app). Bank's pages ask online-fraud victims to call National Cyber Crime helpline 1930 / report at cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.dbs.com"
+            "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+            "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+            "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+            "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +265,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.dbs.com"
+      "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+      "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+      "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+      "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking"
     ]
   }
 }

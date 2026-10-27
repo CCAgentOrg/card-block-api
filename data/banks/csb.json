@@ -2,7 +2,7 @@
   "name": "CSB Bank (Catholic Syrian Bank)",
   "slug": "csb",
   "type": "private",
-  "website": "https://www.csb.co.in",
+  "website": "https://online.csb.bank.in/ODR/Complaint",
   "cards": [
     {
       "type": "debit",
@@ -10,14 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-419-6644 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-6644",
+          "instructions": "Call 1800-266-9090 and follow the IVR to hotlist the card.",
+          "phone": "1800-266-9090",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -27,14 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0487-6644-000 and follow the IVR to hotlist the card.",
-          "phone": "0487-6644-000",
+          "instructions": "Call +91-22-69578555 and follow the IVR to hotlist the card.",
+          "phone": "+91-22-69578555",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022-45393950 and follow the IVR to hotlist the card.",
+          "phone": "022-45393950",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -43,14 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@csb.co.in from your registered email to request card blocking.",
-          "email": "customercare@csb.co.in",
+          "instructions": "Email atm@csb.bank.in from your registered email to request card blocking.",
+          "email": "atm@csb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -59,14 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.csb.co.in and use the card block/hotlist option.",
-          "url": "https://www.csb.co.in",
+          "instructions": "Log in to internet banking at https://online.csb.bank.in/ODR/Complaint and use the card block/hotlist option.",
+          "url": "https://online.csb.bank.in/ODR/Complaint",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -75,17 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.csb.becsapp | iOS: https://apps.apple.com/in/app/csb-mobile-banking/id1382757209",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.csbbank.csbmobile | iOS: https://apps.apple.com/in/app/csbmobile-smart-banking/id6745396597",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.csb.becsapp",
-            "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
+            "https://play.google.com/store/apps/details?id=com.csbbank.csbmobile",
+            "https://apps.apple.com/in/app/csbmobile-smart-banking/id6745396597"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -94,13 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via CSB Mobile app: Debit Card > Block. WhatsApp: +91-9496-999-111.",
+          "instructions": "Phone banking is 24/7; the contact page directs debit-card fraud reports and card blocking to the direct customer care line +91-22-69578555, with chargeable alternates 022-45393950 and 022-69578500. From abroad call +91-22-45393939 or +91-22-69578505 (ISD charges), or toll-free from KSA 8008501339, Qatar 800101098, USA 18339753958, UAE 8000181017. In the CSB Mobile+ app: Card Management & Control - Block your Card, plus Card On/Off, PIN and transaction limits. Lost-card email atm@csb.bank.in (ATM Switch Center 0484-6451631, 2368032); digital-payment-fraud FRM Cell 9072600128 / 0484-6690850. Bank pages' footer lists the 1930 national cybercrime helpline and NPCI DigiSaathi 1800-891-3333 / 14431. No SMS block format is published on official pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -115,14 +139,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-419-6644 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-6644",
+          "instructions": "Call 1800-210-9111 and follow the IVR to hotlist the card.",
+          "phone": "1800-210-9111",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,14 +157,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0487-6644-000 and follow the IVR to hotlist the card.",
-          "phone": "0487-6644-000",
+          "instructions": "Call 080-45219280 and follow the IVR to hotlist the card.",
+          "phone": "080-45219280",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-266-9090 and follow the IVR to hotlist the card.",
+          "phone": "1800-266-9090",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -148,14 +192,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email csbcards@csb.co.in from your registered email to request card blocking.",
-          "email": "csbcards@csb.co.in",
+          "instructions": "Email csbone@getonecard.app from your registered email to request card blocking.",
+          "email": "csbone@getonecard.app",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -164,33 +209,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.csb.co.in and use the card block/hotlist option.",
-          "url": "https://www.csb.co.in",
+          "instructions": "Log in to internet banking at https://online.csb.bank.in/ODR/Complaint and use the card block/hotlist option.",
+          "url": "https://online.csb.bank.in/ODR/Complaint",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.csb.becsapp | iOS: https://apps.apple.com/in/app/csb-mobile-banking/id1382757209",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.csb.becsapp",
-            "https://apps.apple.com/in/app/csb-mobile-banking/id1382757209"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -199,13 +226,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via CSB Mobile app: Cards > Block.",
+          "instructions": "CSB credit cards are co-branded, with per-partner channels. CSB OneCard: helpline 1800-210-9111, email csbone@getonecard.app, or use the OneCard app (select 'Need Help?' from the Profile section). CSB Bank Edge card (Jupiter): chat via the top-right help icon in the Jupiter app, email edge-csb-support@jupiter.money, or call 080-45219280. Both co-brands escalate to the bank at customercare@csb.bank.in / 1800-266-9090. Unauthorized transactions can be reported on the bank's ODR complaint form, and the bank footer lists the 1930 national cybercrime helpline. No separate CSB credit-card block SMS or netbanking block path is published on official pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.csb.co.in",
-            "https://www.csb.co.in/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.csb.bank.in/contact-us",
+            "https://www.csb.bank.in/mobile-banking",
+            "https://www.csb.bank.in/credit-card",
+            "https://www.csb.bank.in/csb-bank-edge-credit-card"
           ],
           "confirmations": {
             "worked": 0,
@@ -218,11 +246,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.csb.co.in",
-      "https://www.csb.co.in/contact-us",
-      "https://sachet.rbi.org.in"
+      "https://www.csb.bank.in/contact-us",
+      "https://www.csb.bank.in/mobile-banking",
+      "https://www.csb.bank.in/credit-card",
+      "https://www.csb.bank.in/csb-bank-edge-credit-card"
     ]
   }
 }

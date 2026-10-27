@@ -2,7 +2,7 @@
   "name": "City Union Bank",
   "slug": "city-union",
   "type": "private",
-  "website": "https://www.cityunionbank.com",
+  "website": "https://online.cub.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-120-5000 and follow the IVR to hotlist the card.",
-          "phone": "1800-120-5000",
+          "instructions": "Call 18001205000 and follow the IVR to hotlist the card.",
+          "phone": "18001205000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-999-7788 and follow the IVR to hotlist the card.",
-          "phone": "1800-999-7788",
+          "instructions": "Call 044 7122 5000 and follow the IVR to hotlist the card.",
+          "phone": "044 7122 5000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@cityunionbank.com from your registered email to request card blocking.",
-          "email": "customercare@cityunionbank.com",
+          "instructions": "Email customercare@cityunionbank.in from your registered email to request card blocking.",
+          "email": "customercare@cityunionbank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.cityunionbank.com and use the card block/hotlist option.",
-          "url": "https://www.cityunionbank.com",
+          "instructions": "Log in to internet banking at https://online.cub.bank.in/ and use the card block/hotlist option.",
+          "url": "https://online.cub.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +79,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.bankcu | iOS: https://apps.apple.com/in/app/city-union-bank-mobile/id1237909662",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cub.plus.gui | iOS: https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.cs.bankcu",
-            "https://apps.apple.com/in/app/city-union-bank-mobile/id1237909662"
+            "https://play.google.com/store/apps/details?id=com.cub.plus.gui",
+            "https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +99,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via CUB Mobile app: Debit Card > Block.",
+          "instructions": "Customer care shown as \"Call CUB's 24 X 7 Customer Care\" with the Call Us popup labelling the lines \"Domestic 18001205000\" (customer-care page: \"18001205000 - All States\") and \"International 044 7122 5000\"; the bank's WhatsApp banking contact is +91 44 7122 5000 (site widget links api.whatsapp.com/send?phone=914471225000). Verified block path (debit page, verbatim): \"Now you can choose to block or activate your Debit card through CUB Net, CUB Mobile banking for transactions Online or at ATM and PoS\"; the page links the CUB mobile banking apps Android com.cub.plus.gui and iOS id1054779617. No SMS block keyword/short code is published (the bank's pages list official SMS headers CUBANK-T/S/P and CUBLTD-T/S/P only as a fraud caution). Migration: existing internet & mobile banking is discontinued from 30-Oct-2026 — new net banking https://online.cub.bank.in/ and new app \"CUB New All in One\" (no store link for the new app is published on the pages fetched). The website navigation also carries a call button dialing 18009997788, and the bank's transaction-monitoring number is 1600118005 — \"Always attend calls from these numbers\". Report unauthorized transactions: https://ccm.cub.bank.in/portal/en/home. 1930 is not mentioned on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +121,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-120-5000 and follow the IVR to hotlist the card.",
-          "phone": "1800-120-5000",
+          "instructions": "Call 18001205000 and follow the IVR to hotlist the card.",
+          "phone": "18001205000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +139,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 044-7122-5000 and follow the IVR to hotlist the card.",
-          "phone": "044-7122-5000",
+          "instructions": "Call 1800-309-1442 and follow the IVR to hotlist the card.",
+          "phone": "1800-309-1442",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 044 7122 5000 and follow the IVR to hotlist the card.",
+          "phone": "044 7122 5000",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +174,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@cityunionbank.com from your registered email to request card blocking.",
-          "email": "customercare@cityunionbank.com",
+          "instructions": "Email creditcard@cityunionbank.in from your registered email to request card blocking.",
+          "email": "creditcard@cityunionbank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +191,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.cityunionbank.com and use the card block/hotlist option.",
-          "url": "https://www.cityunionbank.com",
+          "instructions": "Log in to internet banking at https://online.cub.bank.in/ and use the card block/hotlist option.",
+          "url": "https://online.cub.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +208,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.bankcu | iOS: https://apps.apple.com/in/app/city-union-bank-mobile/id1237909662",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cub.plus.gui | iOS: https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.cs.bankcu",
-            "https://apps.apple.com/in/app/city-union-bank-mobile/id1237909662"
+            "https://play.google.com/store/apps/details?id=com.cub.plus.gui",
+            "https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +228,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via CUB Mobile app: Cards > Block. WhatsApp: +91-9282-112-225.",
+          "instructions": "Credit-card FAQ \"What should I do if I lose my Credit Card?\" (Dhi CUB Visa Signature Credit Card page): \"on your notifying us we will immediately to block your credit card from being further misused\" and \"Customers may also block their credit card through their mobile/ internet banking application\"; \"You can conveniently manage your Dhi CUB Visa Signature Credit Card through Net Banking or Mobile Banking App\". Credit-card customer care 1800-309-1442 handles lost/stolen/damaged card replacement (\"Card replacement charges of Rs 500+ taxes are applicable\") and statement disputes; disputes may also be emailed to creditcard@cityunionbank.in (general customer care: customercare@cityunionbank.in). Bank-wide contact lines (site Call Us popup / customer-care page): \"Domestic 18001205000\" (\"18001205000 - All States\") and \"International 044 7122 5000\"; WhatsApp banking contact +91 44 7122 5000. No SMS block keyword/short code is published. Migration: existing internet & mobile banking is discontinued from 30-Oct-2026 — new net banking https://online.cub.bank.in/; new app \"CUB New All in One\" (no store link for the new app is published on the pages fetched). Report unauthorized transactions: https://ccm.cub.bank.in/portal/en/home. 1930 is not mentioned on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.cityunionbank.com/customer-service"
+            "https://www.cityunionbank.com/",
+            "https://www.cityunionbank.com/cub-customer-care-support-help",
+            "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+            "https://www.cityunionbank.com/Creditcard"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +248,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.cityunionbank.com/customer-service"
+      "https://www.cityunionbank.com/",
+      "https://www.cityunionbank.com/cub-customer-care-support-help",
+      "https://www.cityunionbank.com/cub-debit-cards-prepaid-cards-for-individuals",
+      "https://www.cityunionbank.com/Creditcard"
     ]
   }
 }

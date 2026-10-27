@@ -1,0 +1,41 @@
+{
+  "id": "capital_small_finance",
+  "name": "Capital Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 120 1600",
+      "sms": "Send BLOCK to +919222655555 from the registered mobile no. If multiple ATM/Debit cards in the same account: Send BLOCK <Account No> to +919222655555, then Send BLOCK <Account No> <Last 4 Digits of your ATM/Debit Card> to +919222655555.",
+      "email": "customerrelations@capitalbank.co.in",
+      "website": "https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex",
+      "reference": "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+      "notes": "Toll-free 1800 120 1600 is the bank's 24*7 Customer Care / dedicated CSFB helpline; only this toll-free is published for blocking (no chargeable or overseas line). SMS 'BLOCK' to +919222655555 blocks the ATM/Debit card permanently - reissue via parent branch (subject to re-issuance charges). NetBanking: Customer Services > Service Requests > Bank Accounts > More > 'Block Debit / ATM Card' under 'ATM/ Debit Card Related' > select card, reason, Submit. The bank's fraud PDF also lists blocking via Capital Mobile+ app or Internet Banking > Debit Card Management > Card Status > disallow the transaction limit via ATM, E-Com, POS, and Contactless. Bank's own pages direct online-fraud victims to the national cybercrime helpline 1930 / cybercrime.gov.in.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.lcode.clabmbanking",
+      "iosApp": "https://apps.apple.com/in/app/capital-mobile/id1448233198"
+    },
+    "credit": {
+      "tollFree": "1800 120 1600",
+      "website": "https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex",
+      "reference": "https://www.capital.bank.in/report-an-unauthorized-transaction",
+      "notes": "The bank's report-an-unauthorized-transaction page publishes a NetBanking credit-card block path: Customer Services > Service Requests > Credit Card > More > choose 'Block Credit Card' under 'Credit Card Dispatch Related' > select card > Submit; the same page gives the dedicated CSFB helpline 1800 120 1600 and directs online-fraud victims to 1930 / cybercrime.gov.in. Caveat: the site's CARDS menu lists only debit-card products (no consumer credit-card product page), and no credit-card-specific SMS, email or app menu is published."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+      "label": "live fetch 2026-10-27: 'Ways to Block or Report Unauthorized Transactions' - 24*7 Customer Care number 1800 120 1600; SMS: Send BLOCK to +919222655555 from the registered mobile no (multiple cards: BLOCK <Account No>, then BLOCK <Account No> <Last 4 Digits of your ATM/Debit Card>); block via Capital Mobile+ app or Internet Banking (Debit Card Management > Card Status > disallow ATM/E-Com/POS/Contactless); email customerrelations@capitalbank.co.in; 'call the helpline on 1930' / cybercrime.gov.in"
+    },
+    {
+      "url": "https://www.capital.bank.in/report-an-unauthorized-transaction",
+      "label": "live fetch 2026-10-27: dedicated CSFB helpline 1800 120 1600; NetBanking block steps for Debit (Customer Services > Service Requests > Bank Accounts > More > 'Block Debit / ATM Card') and Credit ('Block Credit Card' under 'Credit Card Dispatch Related'); 1930 / cybercrime.gov.in; customerrelations@capitalbank.co.in; prepaid card deactivation via 1800 120 1600"
+    },
+    {
+      "url": "https://www.capital.bank.in/",
+      "label": "live fetch 2026-10-27: homepage storeBox pairs 'Capital Mobile + App' with App Store https://apps.apple.com/in/app/capital-mobile/id1448233198 and Google Play com.lcode.clabmbanking; Net Banking link https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex; CARDS menu lists debit cards only; Play/App Store listings titled 'Capital Mobile+'/'Capital Mobile+ App' under developer Capital Small Finance Bank Limited confirm the pairing (footer text swaps the two Play links, a site bug)"
+    },
+    {
+      "url": "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms",
+      "label": "live fetch 2026-10-27: 'Blocking of Card by sending SMS' - 'Send BLOCK to +919222655555 from the registered mobile no', confirmation SMS follows; multiple-card variant BLOCK <Account No>; block is permanent, reissue via parent branch"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

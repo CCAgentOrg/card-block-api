@@ -2,7 +2,7 @@
   "name": "Capital Small Finance Bank",
   "slug": "capital-small-finance",
   "type": "private",
-  "website": "https://www.capitalsbank.co.in",
+  "website": "https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex",
   "cards": [
     {
       "type": "debit",
@@ -10,27 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-3000-0000 and follow the IVR to hotlist the card.",
-          "phone": "1800-3000-0000",
+          "instructions": "Call 1800 120 1600 and follow the IVR to hotlist the card.",
+          "phone": "1800 120 1600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-300-0001 and follow the IVR to hotlist the card.",
-          "phone": "1800-300-0001",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +27,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@capitalsbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@capitalsbank.co.in",
+          "instructions": "Email customerrelations@capitalbank.co.in from your registered email to request card blocking.",
+          "email": "customerrelations@capitalbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +44,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.capitalsbank.co.in and use the card block/hotlist option.",
-          "url": "https://www.capitalsbank.co.in",
+          "instructions": "Log in to internet banking at https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex and use the card block/hotlist option.",
+          "url": "https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +61,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.capital.sfb | iOS: https://apps.apple.com/in/app/capital-sfb/id1278209345",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.lcode.clabmbanking | iOS: https://apps.apple.com/in/app/capital-mobile/id1448233198",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.capital.sfb",
-            "https://apps.apple.com/in/app/capital-sfb/id1278209345"
+            "https://play.google.com/store/apps/details?id=com.lcode.clabmbanking",
+            "https://apps.apple.com/in/app/capital-mobile/id1448233198"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Send BLOCK to +919222655555 from the registered mobile no. If multiple ATM/Debit cards in the same account: Send BLOCK <Account No> to +919222655555, then Send BLOCK <Account No> <Last 4 Digits of your ATM/Debit Card> to +919222655555. from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +97,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Capital Bank Mobile app: Cards > Block.",
+          "instructions": "Toll-free 1800 120 1600 is the bank's 24*7 Customer Care / dedicated CSFB helpline; only this toll-free is published for blocking (no chargeable or overseas line). SMS 'BLOCK' to +919222655555 blocks the ATM/Debit card permanently - reissue via parent branch (subject to re-issuance charges). NetBanking: Customer Services > Service Requests > Bank Accounts > More > 'Block Debit / ATM Card' under 'ATM/ Debit Card Related' > select card, reason, Submit. The bank's fraud PDF also lists blocking via Capital Mobile+ app or Internet Banking > Debit Card Management > Card Status > disallow the transaction limit via ATM, E-Com, POS, and Contactless. Bank's own pages direct online-fraud victims to the national cybercrime helpline 1930 / cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,41 +119,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-3000-0000 and follow the IVR to hotlist the card.",
-          "phone": "1800-3000-0000",
+          "instructions": "Call 1800 120 1600 and follow the IVR to hotlist the card.",
+          "phone": "1800 120 1600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 0181-2276000 and follow the IVR to hotlist the card.",
-          "phone": "0181-2276000",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.capitalsbank.co.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@capitalsbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@capitalsbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,29 +136,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.capitalsbank.co.in and use the card block/hotlist option.",
-          "url": "https://www.capitalsbank.co.in",
+          "instructions": "Log in to internet banking at https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex and use the card block/hotlist option.",
+          "url": "https://netbanking.capital.bank.in/ReachIB/inetbanking/webindex",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.capital.sfb | iOS: https://apps.apple.com/in/app/capital-sfb/id1278209345",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.capital.sfb",
-            "https://apps.apple.com/in/app/capital-sfb/id1278209345"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +153,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Capital Bank Mobile app: Cards > Block.",
+          "instructions": "The bank's report-an-unauthorized-transaction page publishes a NetBanking credit-card block path: Customer Services > Service Requests > Credit Card > More > choose 'Block Credit Card' under 'Credit Card Dispatch Related' > select card > Submit; the same page gives the dedicated CSFB helpline 1800 120 1600 and directs online-fraud victims to 1930 / cybercrime.gov.in. Caveat: the site's CARDS menu lists only debit-card products (no consumer credit-card product page), and no credit-card-specific SMS, email or app menu is published.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.capitalsbank.co.in"
+            "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+            "https://www.capital.bank.in/report-an-unauthorized-transaction",
+            "https://www.capital.bank.in/",
+            "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +173,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.capitalsbank.co.in"
+      "https://www.capital.bank.in/assets/Capital_SFB_Unauthorized_Transaction_Reporting.pdf",
+      "https://www.capital.bank.in/report-an-unauthorized-transaction",
+      "https://www.capital.bank.in/",
+      "https://www.capital.bank.in/debit-cards/blocking-of-card-by-sending-sms"
     ]
   }
 }

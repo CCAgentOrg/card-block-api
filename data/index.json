@@ -2,7 +2,7 @@
   "name": "card-block-api",
   "description": "Verified payment-instrument blocking methods. India pilot.",
   "schema_version": "1.0.0",
-  "updated": "2026-09-25",
+  "updated": "2026-10-27",
   "endpoints": {
     "bank_index": "/data/banks/index.json",
     "bank": "/data/banks/<slug>.json",
@@ -11,11 +11,11 @@
   },
   "bank_count": 61,
   "freshness": {
-    "fresh": 16,
-    "aging": 0,
-    "stale": 45
+    "fresh": 8,
+    "aging": 16,
+    "stale": 37
   },
-  "total_methods": 662,
+  "total_methods": 664,
   "card_types": [
     "debit",
     "credit"

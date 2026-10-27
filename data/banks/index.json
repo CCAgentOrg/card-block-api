@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-09-25",
+  "updated": "2026-10-27",
   "count": 61,
   "freshness": {
-    "fresh": 16,
-    "aging": 0,
-    "stale": 45
+    "fresh": 8,
+    "aging": 16,
+    "stale": 37
   },
   "banks": [
     {
@@ -29,7 +29,7 @@
       ],
       "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "american-express",
@@ -62,9 +62,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "axis",
@@ -86,9 +86,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 16,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "bob",
@@ -122,9 +122,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 7,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "canara",
@@ -146,9 +146,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 9,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "central-bank",
@@ -170,9 +170,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "csb",
@@ -182,9 +182,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "dbs",
@@ -194,9 +194,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "dcb-bank",

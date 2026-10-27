@@ -2,7 +2,7 @@
   "name": "Bandhan Bank",
   "slug": "bandhan",
   "type": "private",
-  "website": "https://www.bandhanbank.com",
+  "website": "https://bandhan.bank.in/internet-banking-login",
   "cards": [
     {
       "type": "debit",
@@ -13,9 +13,12 @@
           "instructions": "Call 1800-258-8181 and follow the IVR to hotlist the card.",
           "phone": "1800-258-8181",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -28,9 +31,46 @@
           "instructions": "Call 033-6633-3333 and follow the IVR to hotlist the card.",
           "phone": "033-6633-3333",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 033-4409-9090 and follow the IVR to hotlist the card.",
+          "phone": "033-4409-9090",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Call our customer care at 18002588181 (toll free) from your registered mobile number and follow the steps/instructions by the Interactive Voice Response (IVR); SMS: \"Send this SMS to 9920311246 from your mobile number registered with the Bank.\"",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +79,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email info@bandhanbank.com from your registered email to request card blocking.",
-          "email": "info@bandhanbank.com",
+          "instructions": "Email customercare@bandhanbank.com from your registered email to request card blocking.",
+          "email": "customercare@bandhanbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +96,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.bandhanbank.com and use the card block/hotlist option.",
-          "url": "https://www.bandhanbank.com",
+          "instructions": "Log in to internet banking at https://bandhan.bank.in/internet-banking-login and use the card block/hotlist option.",
+          "url": "https://bandhan.bank.in/internet-banking-login",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +113,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.bandhanbank.bblapp | iOS: https://apps.apple.com/in/app/bandhan-bank/id1477984093",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.bandhan.mBandhanN | iOS: https://apps.apple.com/us/app/mbandhan-2-0/id6758432075",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.bandhanbank.bblapp",
-            "https://apps.apple.com/in/app/bandhan-bank/id1477984093"
+            "https://play.google.com/store/apps/details?id=com.bandhan.mBandhanN",
+            "https://apps.apple.com/us/app/mbandhan-2-0/id6758432075"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Permanent block: type BLOCKDC <space> <Last 4 digits of your Bandhan Bank Debit Card number> and send to 9920311246 (example: BLOCKDC 1234). Temporary block: type TBLCKDC <space> <Last 4 digits> and send to 9920311246 (example: TBLCKDC 1234). from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +149,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via mBandhan app: Cards > Block.",
+          "instructions": "IVR self-service on the toll-free line from your registered mobile: press 2 for temporary block (OTP required) or 1 for permanent block, select the card from the prompted list; a confirmation SMS follows. SMS banking to 9920311246: BLOCKDC (permanent) or TBLCKDC (temporary) plus last 4 digits. Internet Banking or mBandhan 2.0 app path: Discover Product > Debit Card > Manage Card > Block/Unblock Card > Temporary or Permanent Block (Hotlist) > Submit; email customercare@bandhanbank.com for a permanent block; branch permanent block needs a written consent application (Customer ID, Account Number, Card Number last four digits). Alternate customer-care lines: 033-6633-3333 (the bank's fraud-awareness page says it can be used from India and abroad) and 033-4409-9090 (listed with 18002588181 / 03366333333 / 03340903333 as customer-care numbers in the bank's FAQ, and shown as 'Customer care no.' in the credit-card microsite footer). No explicit hotline service hours are stated on the bank's live contact, grievance or FAQ pages (checked 2026-10-27); the credit-card microsite's fraud-safety article states 'Bandhan Bank has 24/7 customer support'. The bank's fraud-awareness page directs fraud victims to the National Cyber Crime Reporting Portal 1930 and cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -106,9 +174,12 @@
           "instructions": "Call 1800-258-8181 and follow the IVR to hotlist the card.",
           "phone": "1800-258-8181",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -121,9 +192,30 @@
           "instructions": "Call 033-6633-3333 and follow the IVR to hotlist the card.",
           "phone": "033-6633-3333",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 033-4409-9090 and follow the IVR to hotlist the card.",
+          "phone": "033-4409-9090",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +224,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email info@bandhanbank.com from your registered email to request card blocking.",
-          "email": "info@bandhanbank.com",
+          "instructions": "Email creditcard.customercare@bandhanbank.com from your registered email to request card blocking.",
+          "email": "creditcard.customercare@bandhanbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +241,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.bandhanbank.com and use the card block/hotlist option.",
-          "url": "https://www.bandhanbank.com",
+          "instructions": "Log in to internet banking at https://bandhan.bank.in/internet-banking-login and use the card block/hotlist option.",
+          "url": "https://bandhan.bank.in/internet-banking-login",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -159,16 +257,15 @@
           }
         },
         {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.bandhanbank.bblapp | iOS: https://apps.apple.com/in/app/bandhan-bank/id1477984093",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.bandhanbank.bblapp",
-            "https://apps.apple.com/in/app/bandhan-bank/id1477984093"
-          ],
+          "channel": "sms",
+          "instructions": "SMS SMS BLOCKCC followed by last 4 digits of your card to 9920311246 (official example: BLOCKCC1234 to 9920311246). from your registered mobile number.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +274,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via mBandhan Mobile app. Toll-free available from mobile and landlines.",
+          "instructions": "Block via Internet Banking, mBandhan 2.0 app, or Customer Service on 1800-258-8181; SMS option BLOCKCC + last 4 digits to 9920311246 (bank's credit-card FAQ). App/netbanking menu path (bank's main-site FAQ): hamburger menu > Discover Products > Credit Cards > block/unblock card page > select card > 'Temporary Block' or 'Permanent Block' from the dropdown > Submit > Confirm, with 6-digit OTP (Internet Banking) or 6-digit mPIN (mBandhan 2.0 app); the FAQ states a permanent credit-card block cannot be unblocked. Lost/stolen: report immediately to Customer Service at 1800-258-8181; the card can also be blocked and replaced from the mBandhan 2.0 app or Internet Banking. For suspicious/fraudulent transactions the bank publishes email creditcard.customercare@bandhanbank.com alongside the 1800-258-8181 line. Alternate customer-care lines: 033-6633-3333 (usable 'India and abroad' per the bank's fraud-awareness page) and 033-4409-9090 (listed with 18002588181 / 03366333333 / 03340903333 in the bank's FAQ and shown as 'Customer care no.' in the credit-card microsite footer). No explicit hotline service hours are stated on the bank's live pages (checked 2026-10-27); the microsite's fraud-safety article states 'Bandhan Bank has 24/7 customer support'. The bank's fraud-awareness page directs fraud victims to the National Cyber Crime Reporting Portal 1930 and cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.bandhanbank.com/grievance-redressal-old"
+            "https://bandhan.bank.in/debit-card-block-unblock",
+            "https://creditcards.bandhan.bank.in/faq/",
+            "https://bandhan.bank.in/faq",
+            "https://bandhan.bank.in/fraud-awareness"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +294,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.bandhanbank.com/grievance-redressal-old"
+      "https://bandhan.bank.in/debit-card-block-unblock",
+      "https://creditcards.bandhan.bank.in/faq/",
+      "https://bandhan.bank.in/faq",
+      "https://bandhan.bank.in/fraud-awareness"
     ]
   }
 }
