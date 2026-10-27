@@ -2,7 +2,7 @@
   "name": "Indian Bank",
   "slug": "indian-bank",
   "type": "private",
-  "website": "https://www.indianbank.in",
+  "website": "https://indianbank.bank.in/en/internet-banking",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-425-1070 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-1070",
+          "instructions": "Call 1800 1700 and follow the IVR to hotlist the card.",
+          "phone": "1800 1700",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-425-8450 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-8450",
+          "instructions": "Call +91 22 4444 2888 and follow the IVR to hotlist the card.",
+          "phone": "+91 22 4444 2888",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@indianbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@indianbank.co.in",
+          "instructions": "Email atmhotlist@indianbank.bank.in from your registered email to request card blocking.",
+          "email": "atmhotlist@indianbank.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.indianbank.in and use the card block/hotlist option.",
-          "url": "https://www.indianbank.in",
+          "instructions": "Log in to internet banking at https://indianbank.bank.in/en/internet-banking and use the card block/hotlist option.",
+          "url": "https://indianbank.bank.in/en/internet-banking",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +79,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ib.eazypay | iOS: https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod | iOS: https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.ib.eazypay",
-            "https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991"
+            "https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod",
+            "https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +99,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Indian Bank Mobile app: Debit Card > Block. IVR: 1800-425-8450.",
+          "instructions": "1800 1700 is the National Helpline, published as 'functioning all 24 hours 365 days'; +91 22 4444 2888 is the non-toll-free 24x7 customer care line for NR/overseas customers. Netbanking path: Value Added Service > Debit Card Services > Debit Card Hot-listing (login via the bank's Net Banking page). App path: IndSMART App > Cards menu. A second official email for hot-list requests is hoatmmonitoring@indianbank.bank.in; the page prints both addresses in [at]/[dot] anti-spam form. www.indianbank.in now 301-redirects to indianbank.bank.in; no SMS blocking channel is published for ATM/debit cards.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +121,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-425-1070 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-1070",
+          "instructions": "Call 1800 1700 and follow the IVR to hotlist the card.",
+          "phone": "1800 1700",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +139,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 044-2535-3000 and follow the IVR to hotlist the card.",
-          "phone": "044-2535-3000",
+          "instructions": "Call +91 22 4444 2888 and follow the IVR to hotlist the card.",
+          "phone": "+91 22 4444 2888",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +156,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@indianbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@indianbank.co.in",
+          "instructions": "Email creditcard@indianbank.bank.in from your registered email to request card blocking.",
+          "email": "creditcard@indianbank.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -145,30 +172,15 @@
           }
         },
         {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.indianbank.in and use the card block/hotlist option.",
-          "url": "https://www.indianbank.in",
+          "channel": "sms",
+          "instructions": "SMS Please type the message 'BLOCKCC' and send the SMS to 56767 from your registered mobile to immediately block the card. You will get a confirmation message after blocking the card. from your registered mobile number.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ib.eazypay | iOS: https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.ib.eazypay",
-            "https://apps.apple.com/in/app/indian-bank-anywhere/id1315716991"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +189,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Indian Bank Mobile app: Cards > Block.",
+          "instructions": "The bank's page (last modified May 30, 2026) lists exactly three hot-listing methods: SMS BLOCKCC to 56767, the '24 hours toll free Customer Care number' 1800 1700, and email handled 'during working days'. No netbanking or mobile-app blocking path is published for credit cards. +91 22 4444 2888 is the bank's non-toll-free 24x7 customer care line for NR/overseas customers (published on the quick-contact page), usable when the toll-free number is unreachable from abroad.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.indianbank.in"
+            "https://indianbank.bank.in/en/block-lost-atm-card",
+            "https://indianbank.bank.in/en/block-lost-credit-card",
+            "https://indianbank.bank.in/en/quick-contact",
+            "https://indianbank.bank.in/en/indsmart"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +209,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.indianbank.in"
+      "https://indianbank.bank.in/en/block-lost-atm-card",
+      "https://indianbank.bank.in/en/block-lost-credit-card",
+      "https://indianbank.bank.in/en/quick-contact",
+      "https://indianbank.bank.in/en/indsmart"
     ]
   }
 }

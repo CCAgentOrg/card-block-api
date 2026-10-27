@@ -1,0 +1,43 @@
+{
+  "id": "indian_bank",
+  "name": "Indian Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 1700",
+      "number1": "+91 22 4444 2888",
+      "website": "https://indianbank.bank.in/en/internet-banking",
+      "email": "atmhotlist@indianbank.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod",
+      "iosApp": "https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872",
+      "reference": "https://indianbank.bank.in/en/block-lost-atm-card",
+      "notes": "1800 1700 is the National Helpline, published as 'functioning all 24 hours 365 days'; +91 22 4444 2888 is the non-toll-free 24x7 customer care line for NR/overseas customers. Netbanking path: Value Added Service > Debit Card Services > Debit Card Hot-listing (login via the bank's Net Banking page). App path: IndSMART App > Cards menu. A second official email for hot-list requests is hoatmmonitoring@indianbank.bank.in; the page prints both addresses in [at]/[dot] anti-spam form. www.indianbank.in now 301-redirects to indianbank.bank.in; no SMS blocking channel is published for ATM/debit cards."
+    },
+    "credit": {
+      "tollFree": "1800 1700",
+      "number1": "+91 22 4444 2888",
+      "sms": "Please type the message 'BLOCKCC' and send the SMS to 56767 from your registered mobile to immediately block the card. You will get a confirmation message after blocking the card.",
+      "email": "creditcard@indianbank.bank.in",
+      "reference": "https://indianbank.bank.in/en/block-lost-credit-card",
+      "notes": "The bank's page (last modified May 30, 2026) lists exactly three hot-listing methods: SMS BLOCKCC to 56767, the '24 hours toll free Customer Care number' 1800 1700, and email handled 'during working days'. No netbanking or mobile-app blocking path is published for credit cards. +91 22 4444 2888 is the bank's non-toll-free 24x7 customer care line for NR/overseas customers (published on the quick-contact page), usable when the toll-free number is unreachable from abroad."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://indianbank.bank.in/en/block-lost-atm-card",
+      "label": "live fetch 2026-10-27: 'HOT LIST ATM/DEBIT CARD' — 'To block the lost ATM Card, Contact our National Toll Free No.1800 1700'; 'Customers can also Block the Cards using Internet Banking and IndSMART App'; 'Internet Banking: Value Added Service > Debit Card Services > Debit Card Hot-listing'; 'IndSMART App: Cards Menu'; request emails atmhotlist@indianbank.bank.in and hoatmmonitoring@indianbank.bank.in (printed [at]/[dot]); page footer's Net Banking link = /en/internet-banking; last modified May 30, 2026"
+    },
+    {
+      "url": "https://indianbank.bank.in/en/block-lost-credit-card",
+      "label": "live fetch 2026-10-27: three hot-listing methods for lost credit cards — 'Blocking through SMS: Please type the message BLOCKCC and send the SMS to 56767 from your registered mobile'; 'Through 24 hours toll free Customer Care number : 1800 1700'; 'Send email to our Email ID [during working days] : creditcard@indianbank.bank.in'; no netbanking or app path published; last modified May 30, 2026"
+    },
+    {
+      "url": "https://indianbank.bank.in/en/quick-contact",
+      "label": "live fetch 2026-10-27: '24x7 National Customer Care Contact Details' — National Helpline No. 1800 1700 'functioning all 24 hours 365 days'; 'NR customers 24*7 Customer Care Number — Non-Toll-Free Number +91 22 4444 2888'; Corporate Office 044 28134300"
+    },
+    {
+      "url": "https://indianbank.bank.in/en/indsmart",
+      "label": "live fetch 2026-10-27: IndSMART mobile banking app page — official store links 'Google Play Store' https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod and 'iOS App Store' https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872; IndSMART is the app the block-lost-atm-card page directs to for card blocking (Cards menu)"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}
