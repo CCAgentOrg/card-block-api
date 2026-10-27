@@ -2,7 +2,7 @@
   "name": "Airtel Payments Bank",
   "slug": "airtel-payments",
   "type": "private",
-  "website": "https://www.airtelyelp.com",
+  "website": "https://www.airtelpayments.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 9262626999 and follow the IVR to hotlist the card.",
-          "phone": "9262626999",
+          "instructions": "Call 1800-23400 and follow the IVR to hotlist the card.",
+          "phone": "1800-23400",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.airtelyelp.com"
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 8292327367 and follow the IVR to hotlist the card.",
-          "phone": "8292327367",
+          "instructions": "Call 18002033330 and follow the IVR to hotlist the card.",
+          "phone": "18002033330",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.airtelyelp.com"
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email care@payments.bank.airtel.in from your registered email to request card blocking.",
-          "email": "care@payments.bank.airtel.in",
+          "instructions": "Email wecare@airtelbank.com from your registered email to request card blocking.",
+          "email": "wecare@airtelbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.airtelyelp.com"
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.airtelyelp.com and use the card block/hotlist option.",
-          "url": "https://www.airtelyelp.com",
+          "instructions": "Log in to internet banking at https://www.airtelpayments.bank.in and use the card block/hotlist option.",
+          "url": "https://www.airtelpayments.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.airtelyelp.com"
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +79,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.airtel.app | iOS: https://apps.apple.com/in/app/airtel-thanks/id1110843544",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.myairtelapp | iOS: https://apps.apple.com/us/app/airtel-thanks-recharge-bank/id543184334",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.airtel.app",
-            "https://apps.apple.com/in/app/airtel-thanks/id1110843544"
+            "https://play.google.com/store/apps/details?id=com.myairtelapp",
+            "https://apps.apple.com/us/app/airtel-thanks-recharge-bank/id543184334"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.airtelyelp.com"
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +99,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Airtel Thanks app: Cards > Block. Airtel Payments Bank debit card block via app.",
+          "instructions": "24X7 hotline (bank's help-and-support page: \"Get 24X7 assistance at our customer service hotline\" on 1800 23400). Debit-card policy: block the card on the Airtel Thanks app or call 1800-23400, the bank's call-centre number for hotlisting the debit card; no SMS block format and no netbanking block path are published on the bank's pages. 18002033330 is the bank's Report-a-Fraud contact number (contact-us), alongside fraud.reporting@airtelbank.com and the online fraud-reporting form at https://i.airtel.in/AIRBNK/fraudreporting-web; the contact-us page also points to the National Cyber Crime Helpline at 1930 / cybercrime.gov.in. Card range is debit/prepaid only (RuPay ON-THE-GO NCMC, debit, Insta EMI, virtual) — the bank issues no credit card, so no credit section is included.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.airtelyelp.com"
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -101,9 +119,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.airtelyelp.com"
+      "https://www.airtelpayments.bank.in/static/debit-card-policy",
+      "https://www.airtelpayments.bank.in/help-and-support",
+      "https://www.airtelpayments.bank.in/static/contact-us",
+      "https://www.airtelpayments.bank.in/products/cards"
     ]
   }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "airtel_payments",
+  "name": "Airtel Payments Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-23400",
+      "number1": "18002033330",
+      "email": "wecare@airtelbank.com",
+      "website": "https://www.airtelpayments.bank.in",
+      "reference": "https://www.airtelpayments.bank.in/static/debit-card-policy",
+      "notes": "24X7 hotline (bank's help-and-support page: \"Get 24X7 assistance at our customer service hotline\" on 1800 23400). Debit-card policy: block the card on the Airtel Thanks app or call 1800-23400, the bank's call-centre number for hotlisting the debit card; no SMS block format and no netbanking block path are published on the bank's pages. 18002033330 is the bank's Report-a-Fraud contact number (contact-us), alongside fraud.reporting@airtelbank.com and the online fraud-reporting form at https://i.airtel.in/AIRBNK/fraudreporting-web; the contact-us page also points to the National Cyber Crime Helpline at 1930 / cybercrime.gov.in. Card range is debit/prepaid only (RuPay ON-THE-GO NCMC, debit, Insta EMI, virtual) — the bank issues no credit card, so no credit section is included.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.myairtelapp",
+      "iosApp": "https://apps.apple.com/us/app/airtel-thanks-recharge-bank/id543184334"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.airtelpayments.bank.in/static/debit-card-policy",
+      "label": "live fetch 2026-10-27: debit-card policy — \"block the card on his app or call the following number available for hot listing the Debit Card. Telephone Number of our Bank's Call Centre: 1800-23400.\""
+    },
+    {
+      "url": "https://www.airtelpayments.bank.in/help-and-support",
+      "label": "live fetch 2026-10-27: \"1800 23400 — Get 24X7 assistance at our customer service hotline\"; footer links Airtel Thanks app (play.google.com ...com.myairtelapp, apps.apple.com ...id543184334)"
+    },
+    {
+      "url": "https://www.airtelpayments.bank.in/static/contact-us",
+      "label": "live fetch 2026-10-27: \"Call Customer Care (toll-free): 180023400\"; Email Customer Care: wecare@airtelbank.com; Report a Fraud — Contact Number 18002033330, fraud.reporting@airtelbank.com, complaint link https://i.airtel.in/AIRBNK/fraudreporting-web; National Cyber Crime Helpline 1930 / www.cybercrime.gov.in"
+    },
+    {
+      "url": "https://www.airtelpayments.bank.in/products/cards",
+      "label": "live fetch 2026-10-27: card range is RuPay ON-THE-GO NCMC card, Debit Card, Insta EMI Card, virtual card — no credit-card product; Airtel Thanks app-store links com.myairtelapp / id543184334"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}
