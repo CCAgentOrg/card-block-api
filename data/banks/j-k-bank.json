@@ -2,7 +2,7 @@
   "name": "Jammu & Kashmir Bank",
   "slug": "j-k-bank",
   "type": "private",
-  "website": "https://jkb.bank.in",
+  "website": "https://custcare.jkb.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,14 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-0234 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-0234",
+          "instructions": "Call 1800-890-2122 and follow the IVR to hotlist the card.",
+          "phone": "1800-890-2122",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -27,14 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0194-247-6666 and follow the IVR to hotlist the card.",
-          "phone": "0194-247-6666",
+          "instructions": "Call 1800-890-2922 and follow the IVR to hotlist the card.",
+          "phone": "1800-890-2922",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-194-2481936, 2481953 and follow the IVR to hotlist the card.",
+          "phone": "+91-194-2481936, 2481953",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -43,14 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@jkbank.com from your registered email to request card blocking.",
-          "email": "customercare@jkbank.com",
+          "instructions": "Email helpdesk@jkbmail.com from your registered email to request card blocking.",
+          "email": "helpdesk@jkbmail.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -59,33 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://jkb.bank.in and use the card block/hotlist option.",
-          "url": "https://jkb.bank.in",
+          "instructions": "Log in to internet banking at https://custcare.jkb.bank.in and use the card block/hotlist option.",
+          "url": "https://custcare.jkb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.jkbank.app | iOS: https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.jkbank.app",
-            "https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -94,13 +97,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Mera Bank app: Debit Card > Block. IVR support available.",
+          "instructions": "24x7. The debit-cards page's card-loss instruction is to report immediately to the J&K Bank 24x7 Personalised Helpdesk — helpdesk@jkbmail.com, +91-194-2481936, 2481953 / Toll Free Number 1800-890-2922 — or the nearest Business Unit; it also states 'You can block your Card and ask for a replacement through J&K Bank Mobile App or by calling up the call-center on 1800-890-2122 / +91-194-2482463, 2486424'. Overseas callers: Inbound International Voice Services +91 194 2713434, +91 194 2713435 & +91 194 2481936 (contact page). The grievance page adds online fraud/unauthorised-transaction reporting at custcare.jkb.bank.in, in-app 'Report Fraud'/'Block Digital Channels' under mPay Delight Plus > Services & Requests, and the National Cyber Crime Helpline 1930 / cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -115,14 +119,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-0234 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-0234",
+          "instructions": "Call 1800 890 2122 and follow the IVR to hotlist the card.",
+          "phone": "1800 890 2122",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,14 +137,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0194-247-6666 and follow the IVR to hotlist the card.",
-          "phone": "0194-247-6666",
+          "instructions": "Call 0194 2481936 or 0194-2481953 and follow the IVR to hotlist the card.",
+          "phone": "0194 2481936 or 0194-2481953",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0194-2482463, 2486424 and follow the IVR to hotlist the card.",
+          "phone": "0194-2482463, 2486424",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -148,14 +172,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@jkbank.com from your registered email to request card blocking.",
-          "email": "customercare@jkbank.com",
+          "instructions": "Email jkbcustomercare@jkbmail.com from your registered email to request card blocking.",
+          "email": "jkbcustomercare@jkbmail.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -164,33 +189,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://jkb.bank.in and use the card block/hotlist option.",
-          "url": "https://jkb.bank.in",
+          "instructions": "Log in to internet banking at https://custcare.jkb.bank.in and use the card block/hotlist option.",
+          "url": "https://custcare.jkb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.jkbank.app | iOS: https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.jkbank.app",
-            "https://apps.apple.com/in/app/j-k-bank-mobile/id1089578053"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -199,13 +206,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Mera Bank Mobile app: Cards > Block.",
+          "instructions": "24-hour helpline. The credit-cards page says to 'notify the lost/stolen Card to the Bank immediately on 24-hour Toll Free Help Line 1800 890 2122' or the 24-hour help desk 0194 2481936 / 0194-2481953 (additional card lines 0194-2482463, 2486424 per the contact page), and that 'The block/Stoplist option for Credit Cards is also available on Mobile Banking Application M-Pay Delight+ of the Bank'; the page also allows notifying the concerned branch/DAC, Corporate Headquarters, M.A. Road, Srinagar, advises reporting loss/theft to police (FIR), and gives nil liability post reporting. Disputes: grievance.creditcards@jkbmail.com, Grievance Redressal Officer +91 194-2713563. Online fraud/unauthorised-transaction reporting: custcare.jkb.bank.in; National Cyber Crime Helpline 1930 (both per the grievance page).",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.jkbank.com",
-            "https://www.jkb.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://jkb.bank.in/transactions/services/debit-cards",
+            "https://jkb.bank.in/transactions/services/credit-cards",
+            "https://jkb.bank.in/contactUs",
+            "https://jkb.bank.in/grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -218,11 +226,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.jkbank.com",
-      "https://www.jkb.com/contact-us",
-      "https://sachet.rbi.org.in"
+      "https://jkb.bank.in/transactions/services/debit-cards",
+      "https://jkb.bank.in/transactions/services/credit-cards",
+      "https://jkb.bank.in/contactUs",
+      "https://jkb.bank.in/grievance-redressal"
     ]
   }
 }
