@@ -1,0 +1,38 @@
+{
+  "id": "bank_of_maharashtra",
+  "name": "Bank of Maharashtra",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 233 4526",
+      "number1": "1800 102 2636",
+      "website": "https://www.mahaconnect.bank.in/",
+      "email": "mahaconnect@bankofmaharashtra.bank.in",
+      "reference": "https://bankofmaharashtra.bank.in/debit-cards",
+      "notes": "24x7 customer care toll-free lines for hotlisting: 1800 233 4526 or 1800 102 2636 (debit-card page lists them as '1800 102 2636 / 1800 233 4526'); no chargeable alternate and no overseas line is published. Internet Banking (MahaConnect, www.mahaconnect.bank.in) and the Zen Lyfe mobile app are listed as hotlist channels, but no menu path and no app-store links are published on the bank's pages. WhatsApp Banking 917066036640 and a branch visit are also listed as channels. No SMS hotlist keyword or short code is published. mahaconnect@bankofmaharashtra.bank.in is the email shown on the bank's hotlisting page for ATM card issues (ATM Card Cell, Pune; card or account number to be furnished). After a fraudulent transaction the bank directs customers to dial 1930 or report at cybercrime.gov.in."
+    },
+    "credit": {
+      "tollFree": "1800-233-4526",
+      "reference": "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+      "notes": "Bank of Maharashtra has taken a strategic decision to exit from the credit card business; new cards are BOM SBI co-branded cards 'jointly issued by SBI Cards and Bank of Maharashtra', and the bank's credit-card page directs cardholders to the Bank of Maharashtra call centre at 1800-233-4526. No dedicated credit-card hotlist line, email, SMS format, or overseas number is published on the bank's own pages."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://bankofmaharashtra.bank.in/debit-cards",
+      "label": "live fetch 2026-10-27: debit-card page lists hotlist channels — customer care 24x7 at '1800 102 2636 / 1800 233 4526', Internet Banking, Zen Lyfe (Mobile App), WhatsApp Banking 917066036640, and branch visit; no SMS keyword or email published on the page."
+    },
+    {
+      "url": "https://bankofmaharashtra.bank.in/atm-service",
+      "label": "live fetch 2026-10-27: ATM service helpdesk states 'For Hotlisting and ATM cash withdrawal failure complaints: 1800 233 4526 or 1800 102 2636'; ATM Card Cell (HO Lokmangal, Pune) with email mahaconnect@bankofmaharashtra.bank.in and note '(Card number or a/c number to be furnished)'."
+    },
+    {
+      "url": "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
+      "label": "live fetch 2026-10-27: credit-card FAQ states cards are 'jointly issued by SBI Cards and Bank of Maharashtra', that the bank 'has taken a strategic decision to exit from credit card business', and 'Contact Bank of Maharashtra Call Centre at [1800-233-4526]'; no dedicated block line for credit cards."
+    },
+    {
+      "url": "https://bankofmaharashtra.bank.in/",
+      "label": "live fetch 2026-10-27: homepage shows 'Customer Service Toll Free No: 1800-233-4526', links internet banking at //www.mahaconnect.bank.in/ (3 occurrences), and says 'For reporting incidents post cyber frauds, Dial 1930 or report cybercrime at https://cybercrime.gov.in'; no app-store links on the page."
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}
