@@ -1,0 +1,45 @@
+{
+  "id": "esaf_small_finance",
+  "name": "ESAF Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1-800-103-3723",
+      "number1": "080-4552-0100",
+      "email": "customercare@esafbank.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.esaf.mobileBanking",
+      "iosApp": "https://apps.apple.com/in/app/esaf-bank/id1223831586",
+      "website": "https://www.esaf.bank.in/support/block-card/",
+      "reference": "https://www.esaf.bank.in/support/block-card/",
+      "notes": "To block a debit card the bank's dedicated 'Block Card' page says to call 1-800-103-3723 (toll-free) or 080-4552-0100, email customercare@esafbank.com, or visit the nearest ESAF branch. The contact page labels 080-4552-0100 'Paid line for NRI customers' (no other overseas number published) and no call-centre hours are stated on any page fetched. No SMS block keyword or netbanking card-block path is published, and no page documents an in-app card-block menu: the footer of every page links the bank's 'ESAF Bank' mobile banking app on Google Play (com.esaf.mobileBanking) and the App Store (id1223831586), while the site banner says the newer ESAF JOY PLUS app is live on Android with iOS 'awaiting Apple's approval' and carries no store link. The bank's cyber-fraud page directs online-fraud victims to the national cybercrime helpline 1930 / cybercrime.gov.in."
+    },
+    "credit": {
+      "tollFree": "1-800-103-3723",
+      "number1": "080-4552-0100",
+      "email": "customercare@esafbank.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.esaf.mobileBanking",
+      "iosApp": "https://apps.apple.com/in/app/esaf-bank/id1223831586",
+      "website": "https://www.esaf.bank.in/support/block-card/",
+      "reference": "https://www.esaf.bank.in/support/block-card/",
+      "notes": "The bank's 'Block Card' page explicitly covers blocking a credit card ('Debit, Credit or any other card issued by the bank'): call 1-800-103-3723 (toll-free) or 080-4552-0100, email customercare@esafbank.com, or visit the nearest ESAF branch - no separate credit-card helpline is published. The contact page labels 080-4552-0100 'Paid line for NRI customers' (no dedicated overseas number) and no call-centre hours are stated. No credit-card SMS block keyword or netbanking block path is published, and no page documents an in-app card-block menu: the footer of every page links the bank's 'ESAF Bank' mobile banking app on Google Play (com.esaf.mobileBanking) and the App Store (id1223831586), while the banner's newer ESAF JOY PLUS app (Android; iOS 'awaiting Apple's approval') carries no store link. The bank's cyber-fraud page directs online-fraud victims to the national cybercrime helpline 1930 / cybercrime.gov.in."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.esaf.bank.in/support/block-card/",
+      "label": "live fetch 2026-10-27: dedicated 'Block Card' page - 'To block your Debit, Credit or any other card issued by the bank, Please contact us on 1-800-103-3723 (1-800-103 - ESAF) or 080-4552-0100 (080-4552 - ESAF)'; 'Please email us at customercare@esafbank.com'; 'Please visit the nearest ESAF Bank branch'; page header shows '1-800-103-3723 / 080-4552-0100' and the ESAF JOY PLUS banner; page footer links Google Play com.esaf.mobileBanking and App Store id1223831586 (twice each) for the 'ESAF Bank' app"
+    },
+    {
+      "url": "https://www.esaf.bank.in/contact-us/",
+      "label": "live fetch 2026-10-27: 'CONTACT CENTRE: 1-800-103-3723 which is (1-800-103 - ESAF) - Toll free. 080-4552-0100 - Paid line for NRI customers'; 'EMAIL US: customercare@esafbank.com'; corporate office TEL 0487 7123456 (HQ phone, not a card helpline)"
+    },
+    {
+      "url": "https://www.esaf.bank.in/cyber-fraud-reporting/",
+      "label": "live fetch 2026-10-27: bank's Cyber & Fraud Reporting page directs online-fraud victims to the National Cyber Crime Helpline 1930 and cybercrime.gov.in"
+    },
+    {
+      "url": "https://www.esaf.bank.in/",
+      "label": "live fetch 2026-10-27: header shows '1-800-103-3723 / 080-4552-0100'; banner: 'Our digital banking services are now live. ESAF JOY PLUS app is available on Android, while the iOS app is awaiting Apple's approval. iOS users may use Retail Internet Banking in the meantime.'; footer carries the bank's app-store links https://play.google.com/store/apps/details?id=com.esaf.mobileBanking and https://apps.apple.com/in/app/esaf-bank/id1223831586 (twice each, for the 'ESAF Bank' app); no store link for the JOY PLUS app appears; old esafbank.com domain 301-redirects here"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

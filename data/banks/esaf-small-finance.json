@@ -2,7 +2,7 @@
   "name": "ESAF Small Finance Bank",
   "slug": "esaf-small-finance",
   "type": "private",
-  "website": "https://www.esafbank.com",
+  "website": "https://www.esaf.bank.in/support/block-card/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-419-5555 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-5555",
+          "instructions": "Call 1-800-103-3723 and follow the IVR to hotlist the card.",
+          "phone": "1-800-103-3723",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-419-5555 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-5555",
+          "instructions": "Call 080-4552-0100 and follow the IVR to hotlist the card.",
+          "phone": "080-4552-0100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -42,9 +48,12 @@
           "instructions": "Email customercare@esafbank.com from your registered email to request card blocking.",
           "email": "customercare@esafbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.esafbank.com and use the card block/hotlist option.",
-          "url": "https://www.esafbank.com",
+          "instructions": "Log in to internet banking at https://www.esaf.bank.in/support/block-card/ and use the card block/hotlist option.",
+          "url": "https://www.esaf.bank.in/support/block-card/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +79,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.esaf.smallfinance | iOS: https://apps.apple.com/in/app/esaf-sfb/id1205152948",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.esaf.mobileBanking | iOS: https://apps.apple.com/in/app/esaf-bank/id1223831586",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.esaf.smallfinance",
-            "https://apps.apple.com/in/app/esaf-sfb/id1205152948"
+            "https://play.google.com/store/apps/details?id=com.esaf.mobileBanking",
+            "https://apps.apple.com/in/app/esaf-bank/id1223831586"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +99,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via ESAF Mobile app: Debit Card > Block.",
+          "instructions": "To block a debit card the bank's dedicated 'Block Card' page says to call 1-800-103-3723 (toll-free) or 080-4552-0100, email customercare@esafbank.com, or visit the nearest ESAF branch. The contact page labels 080-4552-0100 'Paid line for NRI customers' (no other overseas number published) and no call-centre hours are stated on any page fetched. No SMS block keyword or netbanking card-block path is published, and no page documents an in-app card-block menu: the footer of every page links the bank's 'ESAF Bank' mobile banking app on Google Play (com.esaf.mobileBanking) and the App Store (id1223831586), while the site banner says the newer ESAF JOY PLUS app is live on Android with iOS 'awaiting Apple's approval' and carries no store link. The bank's cyber-fraud page directs online-fraud victims to the national cybercrime helpline 1930 / cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +121,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-419-5555 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-5555",
+          "instructions": "Call 1-800-103-3723 and follow the IVR to hotlist the card.",
+          "phone": "1-800-103-3723",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +139,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0484-7150-888 and follow the IVR to hotlist the card.",
-          "phone": "0484-7150-888",
+          "instructions": "Call 080-4552-0100 and follow the IVR to hotlist the card.",
+          "phone": "080-4552-0100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -135,9 +159,12 @@
           "instructions": "Email customercare@esafbank.com from your registered email to request card blocking.",
           "email": "customercare@esafbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +173,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.esafbank.com and use the card block/hotlist option.",
-          "url": "https://www.esafbank.com",
+          "instructions": "Log in to internet banking at https://www.esaf.bank.in/support/block-card/ and use the card block/hotlist option.",
+          "url": "https://www.esaf.bank.in/support/block-card/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +190,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.esaf.smallfinance | iOS: https://apps.apple.com/in/app/esaf-sfb/id1205152948",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.esaf.mobileBanking | iOS: https://apps.apple.com/in/app/esaf-bank/id1223831586",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.esaf.smallfinance",
-            "https://apps.apple.com/in/app/esaf-sfb/id1205152948"
+            "https://play.google.com/store/apps/details?id=com.esaf.mobileBanking",
+            "https://apps.apple.com/in/app/esaf-bank/id1223831586"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +210,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via ESAF Mobile Banking app: Cards > Block.",
+          "instructions": "The bank's 'Block Card' page explicitly covers blocking a credit card ('Debit, Credit or any other card issued by the bank'): call 1-800-103-3723 (toll-free) or 080-4552-0100, email customercare@esafbank.com, or visit the nearest ESAF branch - no separate credit-card helpline is published. The contact page labels 080-4552-0100 'Paid line for NRI customers' (no dedicated overseas number) and no call-centre hours are stated. No credit-card SMS block keyword or netbanking block path is published, and no page documents an in-app card-block menu: the footer of every page links the bank's 'ESAF Bank' mobile banking app on Google Play (com.esaf.mobileBanking) and the App Store (id1223831586), while the banner's newer ESAF JOY PLUS app (Android; iOS 'awaiting Apple's approval') carries no store link. The bank's cyber-fraud page directs online-fraud victims to the national cybercrime helpline 1930 / cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.esafbank.com"
+            "https://www.esaf.bank.in/support/block-card/",
+            "https://www.esaf.bank.in/contact-us/",
+            "https://www.esaf.bank.in/cyber-fraud-reporting/",
+            "https://www.esaf.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +230,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.esafbank.com"
+      "https://www.esaf.bank.in/support/block-card/",
+      "https://www.esaf.bank.in/contact-us/",
+      "https://www.esaf.bank.in/cyber-fraud-reporting/",
+      "https://www.esaf.bank.in/"
     ]
   }
 }
