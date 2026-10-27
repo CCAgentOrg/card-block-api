@@ -1,0 +1,48 @@
+{
+  "id": "bandhan",
+  "name": "Bandhan Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-258-8181",
+      "number1": "033-6633-3333",
+      "number2": "033-4409-9090",
+      "rmn": "Call our customer care at 18002588181 (toll free) from your registered mobile number and follow the steps/instructions by the Interactive Voice Response (IVR); SMS: \"Send this SMS to 9920311246 from your mobile number registered with the Bank.\"",
+      "sms": "Permanent block: type BLOCKDC <space> <Last 4 digits of your Bandhan Bank Debit Card number> and send to 9920311246 (example: BLOCKDC 1234). Temporary block: type TBLCKDC <space> <Last 4 digits> and send to 9920311246 (example: TBLCKDC 1234).",
+      "email": "customercare@bandhanbank.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.bandhan.mBandhanN",
+      "iosApp": "https://apps.apple.com/us/app/mbandhan-2-0/id6758432075",
+      "website": "https://bandhan.bank.in/internet-banking-login",
+      "reference": "https://bandhan.bank.in/debit-card-block-unblock",
+      "notes": "IVR self-service on the toll-free line from your registered mobile: press 2 for temporary block (OTP required) or 1 for permanent block, select the card from the prompted list; a confirmation SMS follows. SMS banking to 9920311246: BLOCKDC (permanent) or TBLCKDC (temporary) plus last 4 digits. Internet Banking or mBandhan 2.0 app path: Discover Product > Debit Card > Manage Card > Block/Unblock Card > Temporary or Permanent Block (Hotlist) > Submit; email customercare@bandhanbank.com for a permanent block; branch permanent block needs a written consent application (Customer ID, Account Number, Card Number last four digits). Alternate customer-care lines: 033-6633-3333 (the bank's fraud-awareness page says it can be used from India and abroad) and 033-4409-9090 (listed with 18002588181 / 03366333333 / 03340903333 as customer-care numbers in the bank's FAQ, and shown as 'Customer care no.' in the credit-card microsite footer). No explicit hotline service hours are stated on the bank's live contact, grievance or FAQ pages (checked 2026-10-27); the credit-card microsite's fraud-safety article states 'Bandhan Bank has 24/7 customer support'. The bank's fraud-awareness page directs fraud victims to the National Cyber Crime Reporting Portal 1930 and cybercrime.gov.in."
+    },
+    "credit": {
+      "tollFree": "1800-258-8181",
+      "number1": "033-6633-3333",
+      "number2": "033-4409-9090",
+      "sms": "SMS BLOCKCC followed by last 4 digits of your card to 9920311246 (official example: BLOCKCC1234 to 9920311246).",
+      "email": "creditcard.customercare@bandhanbank.com",
+      "website": "https://bandhan.bank.in/internet-banking-login",
+      "reference": "https://creditcards.bandhan.bank.in/faq/",
+      "notes": "Block via Internet Banking, mBandhan 2.0 app, or Customer Service on 1800-258-8181; SMS option BLOCKCC + last 4 digits to 9920311246 (bank's credit-card FAQ). App/netbanking menu path (bank's main-site FAQ): hamburger menu > Discover Products > Credit Cards > block/unblock card page > select card > 'Temporary Block' or 'Permanent Block' from the dropdown > Submit > Confirm, with 6-digit OTP (Internet Banking) or 6-digit mPIN (mBandhan 2.0 app); the FAQ states a permanent credit-card block cannot be unblocked. Lost/stolen: report immediately to Customer Service at 1800-258-8181; the card can also be blocked and replaced from the mBandhan 2.0 app or Internet Banking. For suspicious/fraudulent transactions the bank publishes email creditcard.customercare@bandhanbank.com alongside the 1800-258-8181 line. Alternate customer-care lines: 033-6633-3333 (usable 'India and abroad' per the bank's fraud-awareness page) and 033-4409-9090 (listed with 18002588181 / 03366333333 / 03340903333 in the bank's FAQ and shown as 'Customer care no.' in the credit-card microsite footer). No explicit hotline service hours are stated on the bank's live pages (checked 2026-10-27); the microsite's fraud-safety article states 'Bandhan Bank has 24/7 customer support'. The bank's fraud-awareness page directs fraud victims to the National Cyber Crime Reporting Portal 1930 and cybercrime.gov.in."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://bandhan.bank.in/debit-card-block-unblock",
+      "label": "live fetch 2026-10-27 (bandhanbank.com 302-redirects here; identical 143044-byte page fetched on both domains): 'Choose how to block your debit card' — IVR: 'Call our customer care at 18002588181 (toll free) from your registered mobile number' (temporary block press 2 with OTP, permanent press 1); SMS Banking: 'BLOCKDC <space> <Last 4 digits of your Bandhan Bank Debit Card number>' and 'TBLCKDC <space> <Last 4 digits>' sent to 9920311246 from the registered mobile; 'Block via Email ID (permanent block): customercare@bandhanbank.com'; 'Block using Internet Banking or mBandhan 2.0 app': Log in > Discover Product > Debit Card > Manage Card > 'Block/Unblock Card' > 'Temporary or Permanent Block (Hotlist)'; branch block via written consent; page links play.google.com/store/apps/details?id=com.bandhan.mBandhanN and apps.apple.com/us/app/mbandhan-2-0/id6758432075; footer shows 033-6633-3333."
+    },
+    {
+      "url": "https://creditcards.bandhan.bank.in/faq/",
+      "label": "live fetch 2026-10-27: credit-card FAQ answers in page payload — 'How do I block my Bandhan Bank Credit Card?': 'You can block your Bandhan Bank Credit Card via Internet Banking, mBandhan 2.0 app or by reaching out to our Customer Service on 1800-258-8181 ... SMS BLOCKCC followed by last 4 digits of your card to 9920311246 ... BLOCKCC1234 to 9920311246'; 'What should I do if my Bandhan Bank Credit Card is lost or stolen?': report immediately to Customer Service at 1800-258-8181, block and replace from mBandhan 2.0 app or Internet Banking, same SMS option; 'How can I prevent and report fraud on my Bandhan Bank Credit Card?': report on 1800-258-8181 or email creditcard.customercare@bandhanbank.com; microsite footer: 'Toll-free no. 1800-258-8181', 'Customer care no. 033-4409-9090'; the microsite's fraud-safety article (creditcards.bandhan.bank.in home, fetched same day) states 'Bandhan Bank has 24/7 customer support'."
+    },
+    {
+      "url": "https://bandhan.bank.in/faq",
+      "label": "live fetch 2026-10-27 (2026491-byte page, verified on bandhan.bank.in and www.bandhanbank.com): 'How to temporarily block my credit card? Click on the hamburger menu (3 lines at the top right) corner of the dashboard and go to Discover Products, then click on Credit Cards ... Select \"Temporary Block\" from the dropdown. Click on \"Submit\" ... Enter the 6-digit OTP sent to you via SMS for new Internet Banking or the 6-digit mPIN for mBandhan 2.0 app'; 'How to permanently block my credit card? ... Select Permanent Block from the drop-down menu ...'; 'Can I unblock my credit card if I have placed a permanent block on it? No, you cannot unblock a permanently blocked credit card.'; e-mandate FAQs: 'raise a complaint with customer care by emailing to customercare@bandhanbank.com or calling 18002588181 / 03366333333 / 03344099090 / 03340903333'."
+    },
+    {
+      "url": "https://bandhan.bank.in/fraud-awareness",
+      "label": "live fetch 2026-10-27: 'please call the National Cyber Crime Reporting Portal at 1930 to report or visit https://www.cybercrime.gov.in/ immediately' and 'You may also contact us at 1800 258 8181 (toll free) or +91 33 6633 3333 (India and abroad)'."
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}
