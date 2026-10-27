@@ -2,7 +2,7 @@
   "name": "AU Small Finance Bank",
   "slug": "au-small-finance",
   "type": "private",
-  "website": "https://www.aubank.in",
+  "website": "https://netbanking.au.bank.in/drb/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-209-0209 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-0209",
+          "instructions": "Call 1800 1200 1200 and follow the IVR to hotlist the card.",
+          "phone": "1800 1200 1200",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0141-663-4000 and follow the IVR to hotlist the card.",
-          "phone": "0141-663-4000",
+          "instructions": "Call 1800 26 66677 and follow the IVR to hotlist the card.",
+          "phone": "1800 26 66677",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1860 1200 1200 and follow the IVR to hotlist the card.",
+          "phone": "1860 1200 1200",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -42,9 +66,12 @@
           "instructions": "Email customercare@aubank.in from your registered email to request card blocking.",
           "email": "customercare@aubank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.aubank.in and use the card block/hotlist option.",
-          "url": "https://www.aubank.in",
+          "instructions": "Log in to internet banking at https://netbanking.au.bank.in/drb/ and use the card block/hotlist option.",
+          "url": "https://netbanking.au.bank.in/drb/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.aubank.mobile | iOS: https://apps.apple.com/in/app/au-bank/id1050017613",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb | iOS: https://apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.aubank.mobile",
-            "https://apps.apple.com/in/app/au-bank/id1050017613"
+            "https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb",
+            "https://apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via AU Mobile app: Debit Card > Block. Internet Banking also available.",
+          "instructions": "24x7 customer care (page states \"Call us – 24*7 Customer Care\"). To block: call 1800 1200 1200 / 1800 26 66677, select language, press 2 to block card; or AU 0101 app / AU 0101 NetBanking > Debit Card > 'Block this Card' > Permanent/Temporary > OTP (debit FAQ also lists Auro Chatbot as a block channel). No SMS block format is published for debit cards. Banking-services non-toll-free line: 1860 1200 1200 (contact page also lists toll-free 1800 313 313 under Banking Services). Overseas/NRI (non-toll-free, calling from overseas): +91 141-7141000, +91 141-6673220. Report unauthorised debit/ATM transactions: same IVR, press 1, or email customercare@aubank.in; the bank's page points online-fraud victims to cybercrime.gov.in. 1930 is not mentioned on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +139,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-209-0209 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-0209",
+          "instructions": "Call 1800 1200 1500 and follow the IVR to hotlist the card.",
+          "phone": "1800 1200 1500",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +157,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-141-663-4000 and follow the IVR to hotlist the card.",
-          "phone": "+91-141-663-4000",
+          "instructions": "Call 0141-7141100 and follow the IVR to hotlist the card.",
+          "phone": "0141-7141100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +174,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@aubank.in from your registered email to request card blocking.",
-          "email": "customercare@aubank.in",
+          "instructions": "Email creditcard.support@aubank.in from your registered email to request card blocking.",
+          "email": "creditcard.support@aubank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +191,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.aubank.in and use the card block/hotlist option.",
-          "url": "https://www.aubank.in",
+          "instructions": "Log in to internet banking at https://netbanking.au.bank.in/drb/ and use the card block/hotlist option.",
+          "url": "https://netbanking.au.bank.in/drb/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +208,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.aubank.mobile | iOS: https://apps.apple.com/in/app/au-bank/id1050017613",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb | iOS: https://apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.aubank.mobile",
-            "https://apps.apple.com/in/app/au-bank/id1050017613"
+            "https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb",
+            "https://apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Send SMS \"TBLOCK<Space><Credit Card Last 4 digit><Space><Customer ID>\" on 5676767 from registered mobile number to temporarily block; send SMS \"PBLOCK<Space><Credit Card Last 4 digit><Space><Customer ID>\" on 5676767 from registered mobile number to permanently block from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +244,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via AU Mobile app: Cards > Block. 24x7 phone banking.",
+          "instructions": "24x7 credit-card helpline 1800 1200 1500 (toll-free); non-toll-free 0141-7141100. Block via IVR: call 1800 1200 1500 and select the prompt \"Report Lost or Stolen card\" (report page: dial 2 for lost/stolen); AU 0101 app: Cards > Credit Card > 'Block/Unblock Credit Card'; AURO chatbot: Cards > Credit Card Services > 'Block and Reissue Lost/Stolen Card'; website credit-cards section 'Block Lost/Stolen Card'; AU 0101 NetBanking can block debit or credit cards immediately. SMS block from registered mobile number to 5676767: TBLOCK (temporary) or PBLOCK (permanent) with last 4 digits + Customer ID. Email creditcard.support@aubank.in; premium cards (Vetta, Zenith & Zenith+): creditcard.priority@aubank.in. Overseas/NRI (non-toll-free, calling from overseas): +91 141-7141000, +91 141-6673220. 1930 is not mentioned on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.aubank.in/contact-us"
+            "https://www.au.bank.in/report-unauthorised-transactions",
+            "https://www.au.bank.in/support/contact-us",
+            "https://www.au.bank.in/personal-banking/credit-cards",
+            "https://www.au.bank.in/personal-banking/debit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +264,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.aubank.in/contact-us"
+      "https://www.au.bank.in/report-unauthorised-transactions",
+      "https://www.au.bank.in/support/contact-us",
+      "https://www.au.bank.in/personal-banking/credit-cards",
+      "https://www.au.bank.in/personal-banking/debit-cards"
     ]
   }
 }
