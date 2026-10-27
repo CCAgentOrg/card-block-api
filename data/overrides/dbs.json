@@ -1,0 +1,47 @@
+{
+  "id": "dbs",
+  "name": "DBS Bank India",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1860 210 3456",
+      "number1": "1860 267 4567",
+      "number2": "+91 44 6685 4555",
+      "email": "customercareindia@dbs.com",
+      "website": "https://internet-banking.dbs.bank.in",
+      "reference": "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+      "notes": "Customer care 24/7 (grievance page: 'Customer Care Contact number (24/7): 1860 210 3456'); overseas +91 44 6685 4555; debit-card page also lists +91 44 4902 1180. App/netbanking path: DBS digibank app or internet banking > Accounts > 'Debit Cards' tab > select card > 'Permanently Block/Unblock' (temporary block: 'Temporary Block/Unblock'; SMS 'TBLK <last 4 digit of debit card>' to 7065154444, unblock 'TUNBLK <last 4 digit of debit card>'). Branch visits also accepted. Bank's pages ask online-fraud victims to call National Cyber Crime helpline 1930 / report at cybercrime.gov.in.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank",
+      "iosApp": "https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974",
+      "sms": "'HOTLIST <last 4 digit of debit card>' to 7065154444"
+    },
+    "credit": {
+      "tollFree": "1860 267 6789",
+      "number1": "1800 209 4555",
+      "number2": "+91 44 6904 6789",
+      "email": "cardcareindia@dbs.com",
+      "reference": "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+      "notes": "24/7 (grievance page: 'Call Us (24/7) - DBS Credit Card helpline: 1860 267 6789'; overseas +91 44 6904 6789). DBS Vantage Credit Card dedicated helpline: 1800 209 4555 (overseas Vantage: +91 44 6685 4555; Vantage email vantagecareindia@dbs.com). Report page: 'You can also login to your DBS mobile app to block your debit card/credit card immediately' (digibank app). Bank's pages ask online-fraud victims to call National Cyber Crime helpline 1930 / report at cybercrime.gov.in.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank",
+      "iosApp": "https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.dbs.bank.in/digibank/in/cards/debit-cards/digibank-debit-card",
+      "label": "live fetch 2026-10-27: debit-card FAQ proved permanent block via app/internet banking (Accounts > 'Debit Cards' > 'Permanently Block/Unblock'); customer care 1860 210 3456 / 1860 267 4567 (within India) or +91 44 6685 4555 (overseas), plus 18602103456/+91 44 4902 1180; SMS 'HOTLIST <last 4 digit of debit card>' to 7065154444; TBLK/TUNBLK to 7065154444; email customercareindia@dbs.com"
+    },
+    {
+      "url": "https://www.dbs.bank.in/digibank/in/report-unauthorised-transaction.page",
+      "label": "live fetch 2026-10-27: proved 'Internet Banking/Debit Card: Calling from India 1860 210 3456 / 1860 267 4567; Calling from overseas: +91 44 6685 4555', 'DBS Spark/Supercard: Calling from India 1860 267 6789; Calling from overseas: +91 4469046789', 'DBS Vantage: Calling from India 1800 209 4555'; 'login to your DBS mobile app to block your debit card/credit card immediately'; National Cyber Crime 1930 / cybercrime.gov.in"
+    },
+    {
+      "url": "https://www.dbs.bank.in/in/treasures/common/redressal-of-complaints-and-grievances.page",
+      "label": "live fetch 2026-10-27: proved 'Call Us (24/7) - DBS Credit Card helpline: 1860 267 6789', 'Overseas customer service helpline: +91 44 6904 6789', 'DBS Vantage Credit Card dedicated helpline: 1800 209 4555' (overseas Vantage +91 44 6685 4555); 'Customer Care Contact number (24/7): 1860 210 3456' with overseas +91-44-66854555; emails cardcareindia@dbs.com, vantagecareindia@dbs.com, customercareindia@dbs.com; 1930"
+    },
+    {
+      "url": "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking",
+      "label": "live fetch 2026-10-27: proved internet-banking Login link https://internet-banking.dbs.bank.in and official digibank app links (Android package com.dbs.in.digitalbank, iOS app id1057836974; listings verified live as 'digibank by DBS India')"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}
