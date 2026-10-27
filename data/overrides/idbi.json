@@ -1,0 +1,44 @@
+{
+  "id": "idbi",
+  "name": "IDBI Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-22-6999",
+      "number1": "1800-209-4324",
+      "number2": "022-67719100",
+      "sms": "SMS BLOCK <Customer ID> to 5676777 (Eg: SMS BLOCK 12345678 to 5676777). If you remember your card number: SMS BLOCK <Customer ID> <Card Number> to 5676777 (Eg: SMS BLOCK 12345678 4587XXXXXXXXXXXX to 5676777).",
+      "website": "https://unauthorisedtran.idbi.bank.in/",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.snapwork.IDBI",
+      "iosApp": "https://apps.apple.com/in/app/idbi-bank-go-mobile/id1318206368",
+      "reference": "https://www.idbibank.in/customer-care-centre.aspx",
+      "notes": "1800-22-6999 is the bank's dedicated toll-free digital-channel blocking/hotlisting hotline; phone banking is a 24x7 service with toll-free lines 1800-209-4324 and 1800-22-1070, and 022-67719100 (call charges applicable; 0091-22-67719100 from outside India) — the phone banking representative blocks the channel on request. In Internet Banking: Cards > Debit Card Hotlisting (select card number, reason, remarks, then transaction password). In the Go mobile+ app: Cards > Debit Card Hotlisting (choose card, remarks, confirm, OTP); the Abhay Card Control app also has a Card Hotlisting option. Unauthorized/fraudulent debit-card, UPI, internet- or mobile-banking transactions can also be reported and the channel blocked via www.idbibank.in > reporting of unauthorized digital transactions (unauthorisedtran.idbi.bank.in). No debit-card block email is published. The bank's pages do not mention the 1930 helpline."
+    },
+    "credit": {
+      "tollFree": "1800-209-4324",
+      "number1": "1800226999",
+      "number2": "022-67719100",
+      "email": "customercare@idbi.co.in",
+      "reference": "https://www.idbibank.in/credit-card-contact-us.aspx",
+      "notes": "Credit Card Customer Care for hotlisting/queries/complaints is a 24x7 service: toll-free 1800-209-4324, non-toll-free 022-67719100 (call charges applicable; +91-22-67719100 from outside India), and dedicated Credit Card Hotlisting Number 1800226999. customercare@idbi.co.in is the published email for credit-card queries. 1800 208 1947 (membersupport@idbidelight.com) is published for Delight Points reward queries only, not card blocking. No netbanking or app path for credit-card blocking is published on the bank's contact pages."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.idbibank.in/customer-care-centre.aspx",
+      "label": "live fetch 2026-10-27: debit-card FAQ — 'Call our digital channel blocking hotline 1800226999 (toll free) or phone banking numbers 18002094324 & +9122-67719100 (chargeable)'; 'You can hotlist/block your debit card through the following channels': SMS BLOCK <Customer ID> to 5676777; Internet Banking Cards > Debit Card Hotlisting; Abhay Card Control App (Android & iOS) Card Hotlisting; Go mobile+ app Cards > Debit Card Hotlisting with OTP; blocking/reporting via www.idbibank.in > reporting of unauthorized digital transactions (https://unauthorisedtran.idbi.bank.in/); Credit Card Queries block: 24-Hour toll-free 1800-209-4324, 022-67719100 (call charges), Credit Card Hotlisting Number 1800226999, customercare@idbi.co.in"
+    },
+    {
+      "url": "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+      "label": "live fetch 2026-10-27: phone banking numbers page — toll-free 1800-209-4324 and 1800-22-1070; call-centre (chargeable) 022-67719100 and 0091-22-67719100; Hotlisting 1800-22-6999; debit SMS blocking: 'SMS BLOCK <Customer ID> <Card Number> to 5676777' if card number remembered, else 'SMS BLOCK <Customer ID> to 5676777'; agents do hotlisting of debit card and digital channels, report fraudulent transactions and take replacement-card requests; credit card block: 1800-209-4324, 022-67719100, hotlisting 1800226999, customercare@idbi.co.in; 1800 208 1947 Delight Points queries only"
+    },
+    {
+      "url": "https://www.idbibank.in/credit-card-contact-us.aspx",
+      "label": "live fetch 2026-10-27: credit-card contact page — 'Credit Card or Billing or others Queries': 24-Hour Customer Care toll-free 1800-209-4324, non-toll-free 022-67719100 (call charges applicable), Credit Card Hotlisting Number 1800226999, 'Email us at customercare@idbi.co.in'; Delight Points 1800 208 1947 / membersupport@idbidelight.com only"
+    },
+    {
+      "url": "https://www.idbibank.in/go_mobile_app_android_version.aspx",
+      "label": "live fetch 2026-10-27: official Go mobile+ app page — banner 'Go Mobile+ App (Android and iOS)' linking Google Play (com.snapwork.IDBI) and the App Store (IDBI Bank Go Mobile, id1318206368); the app's Cards > Debit Card Hotlisting path is documented on customer-care-centre.aspx"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}
