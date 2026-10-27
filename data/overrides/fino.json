@@ -1,0 +1,37 @@
+{
+  "id": "fino",
+  "name": "Fino Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 268 3930",
+      "number1": "1800 268 1000",
+      "number2": "022-6868 1414",
+      "sms": "SMS <CARDBLOCK> to 70220 75566",
+      "email": "reportfraud@fino.bank.in",
+      "website": "https://fino.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.finopaymentbank.mobile&pli=1",
+      "iosApp": "https://apps.apple.com/in/app/finopay/id6474030952",
+      "reference": "https://www.fino.bank.in/support/contact-us",
+      "notes": "The contact page lists, verbatim, 'For blocking account or hotlisting debit card' the number 1800 268 1000 '(between 9 am to 7 pm, 365 days)' and the SMS route 'SMS <CARDBLOCK> to 70220 75566'; for a debit freeze it gives 'SMS <FRAUD> to 70220 75566'. Emergencies outside those hours: the dedicated toll-free fraud line 1800 268 3930 runs '24/7x365 days' with fraud mail reportfraud@fino.bank.in (general queries: customercare@fino.bank.in); customer helpdesk 022-6868 1414 serves 9 AM to 7 PM and the FAQ directs lost/stolen prepaid-card calls to 022-68681414. No overseas helpline is published. After blocking, a replacement debit card goes to the registered address or a branch can issue an Insta debit card; the FinoPay app (links from the bank's cards/FAQ pages) handles card management such as 'Your Card' > 'Set debit card PIN', but no explicit in-app block menu or netbanking block path is published - netbanking at https://netbanking.fino.bank.in/ is a bare login page. The bank's own page carries 'National Cyber Crime Reporting Number: 1930'. Legacy domain finobank.com 307-redirects to fino.bank.in."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.fino.bank.in/support/contact-us",
+      "label": "live fetch 2026-10-27: 'For blocking account or hotlisting debit card' -> 1800 268 1000 '(between 9 am to 7 pm, 365 days)' and 'SMS <CARDBLOCK> to 70220 75566'; debit freeze -> 'SMS <FRAUD> to 70220 75566'; 'Call Us On Our Dedicated Toll-Free Number to Report Fraud' 1800 268 3930 '24/7x365 days'; 'To report fraud, write us at' reportfraud@fino.bank.in and 'For general queries, write us at' customercare@fino.bank.in; 'Merchant - 1800 268 1000 Customer - 022-6868 1414' with 'Customer: 9 AM to 7 PM'; footer 'National Cyber Crime Reporting Number: 1930'"
+    },
+    {
+      "url": "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+      "label": "live fetch 2026-10-27: lost/stolen prepaid card - 'call the customer care at 022-68681414 and get the card blocked immediately'; damaged card - hotlist via customer care; replacement card to registered address or branch 'Insta debit card'; FinoPay app card management 'Your Card' > 'Set debit card PIN'; only debit and prepaid card products appear (no credit cards); page footer carries Android https://play.google.com/store/apps/details?id=com.finopaymentbank.mobile&pli=1, iOS https://apps.apple.com/in/app/finopay/id6474030952 and netbanking https://netbanking.fino.bank.in/"
+    },
+    {
+      "url": "https://www.fino.bank.in/cards",
+      "label": "live fetch 2026-10-27: card lineup is RuPay Platinum Debit Card plus prepaid/gift/GPR cards - no credit card product; page publishes the same Google Play and App Store links for the FinoPay app"
+    },
+    {
+      "url": "https://fino.bank.in/",
+      "label": "live fetch 2026-10-27 (https://www.finobank.com returns 307 redirect here): homepage shows customer care 022-6868 1414, merchant helpdesk 1800 268 1000, WhatsApp +91 8657008036; links the contact-us and FAQ pages used above"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

@@ -3,9 +3,9 @@
   "updated": "2026-10-27",
   "count": 61,
   "freshness": {
-    "fresh": 8,
+    "fresh": 15,
     "aging": 16,
-    "stale": 37
+    "stale": 30
   },
   "banks": [
     {
@@ -230,9 +230,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "esaf-small-finance",
@@ -244,7 +244,7 @@
       ],
       "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "federal-bank",
@@ -256,19 +256,18 @@
       ],
       "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "fino",
       "name": "Fino Small Finance Bank",
       "type": "private",
       "card_types": [
-        "debit",
-        "credit"
+        "debit"
       ],
-      "method_count": 12,
+      "method_count": 8,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "gujarat-coop",
@@ -326,9 +325,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 13,
+      "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "idfc-first",
@@ -350,9 +349,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 11,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "indian-overseas",
@@ -388,7 +387,7 @@
       ],
       "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-27"
     },
     {
       "slug": "shimoga",

@@ -2,7 +2,7 @@
   "name": "IDBI Bank",
   "slug": "idbi",
   "type": "private",
-  "website": "https://www.idbibank.in",
+  "website": "https://unauthorisedtran.idbi.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-209-4324 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-4324",
+          "instructions": "Call 1800-22-6999 and follow the IVR to hotlist the card.",
+          "phone": "1800-22-6999",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-4344 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-4344",
+          "instructions": "Call 1800-209-4324 and follow the IVR to hotlist the card.",
+          "phone": "1800-209-4324",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -38,13 +44,17 @@
           }
         },
         {
-          "channel": "email",
-          "instructions": "Email customercare@idbi.com from your registered email to request card blocking.",
-          "email": "customercare@idbi.com",
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022-67719100 and follow the IVR to hotlist the card.",
+          "phone": "022-67719100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +63,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.idbibank.in and use the card block/hotlist option.",
-          "url": "https://www.idbibank.in",
+          "instructions": "Log in to internet banking at https://unauthorisedtran.idbi.bank.in/ and use the card block/hotlist option.",
+          "url": "https://unauthorisedtran.idbi.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +80,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.idbi.android | iOS: https://apps.apple.com/in/app/idbi-intouch/id528225563",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.snapwork.IDBI | iOS: https://apps.apple.com/in/app/idbi-bank-go-mobile/id1318206368",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.mgs.idbi.android",
-            "https://apps.apple.com/in/app/idbi-intouch/id528225563"
+            "https://play.google.com/store/apps/details?id=com.snapwork.IDBI",
+            "https://apps.apple.com/in/app/idbi-bank-go-mobile/id1318206368"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS SMS BLOCK <Customer ID> to 5676777 (Eg: SMS BLOCK 12345678 to 5676777). If you remember your card number: SMS BLOCK <Customer ID> <Card Number> to 5676777 (Eg: SMS BLOCK 12345678 4587XXXXXXXXXXXX to 5676777). from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +116,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via IDBI Go Mobile Plus app: Debit Card > Block/Freeze.",
+          "instructions": "1800-22-6999 is the bank's dedicated toll-free digital-channel blocking/hotlisting hotline; phone banking is a 24x7 service with toll-free lines 1800-209-4324 and 1800-22-1070, and 022-67719100 (call charges applicable; 0091-22-67719100 from outside India) — the phone banking representative blocks the channel on request. In Internet Banking: Cards > Debit Card Hotlisting (select card number, reason, remarks, then transaction password). In the Go mobile+ app: Cards > Debit Card Hotlisting (choose card, remarks, confirm, OTP); the Abhay Card Control app also has a Card Hotlisting option. Unauthorized/fraudulent debit-card, UPI, internet- or mobile-banking transactions can also be reported and the channel blocked via www.idbibank.in > reporting of unauthorized digital transactions (unauthorisedtran.idbi.bank.in). No debit-card block email is published. The bank's pages do not mention the 1930 helpline.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -106,9 +141,12 @@
           "instructions": "Call 1800-209-4324 and follow the IVR to hotlist the card.",
           "phone": "1800-209-4324",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +156,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-200-1947 and follow the IVR to hotlist the card.",
-          "phone": "1800-200-1947",
+          "instructions": "Call 1800226999 and follow the IVR to hotlist the card.",
+          "phone": "1800226999",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -133,12 +174,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-6233-5000 and follow the IVR to hotlist the card.",
-          "phone": "022-6233-5000",
+          "instructions": "Call 022-67719100 and follow the IVR to hotlist the card.",
+          "phone": "022-67719100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -147,43 +191,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@idbi.com from your registered email to request card blocking.",
-          "email": "customercare@idbi.com",
+          "instructions": "Email customercare@idbi.co.in from your registered email to request card blocking.",
+          "email": "customercare@idbi.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.idbibank.in and use the card block/hotlist option.",
-          "url": "https://www.idbibank.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.idbi.android | iOS: https://apps.apple.com/in/app/idbi-intouch/id528225563",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.mgs.idbi.android",
-            "https://apps.apple.com/in/app/idbi-intouch/id528225563"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -192,11 +208,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via IDBI Go Mobile Plus app: Cards > Block.",
+          "instructions": "Credit Card Customer Care for hotlisting/queries/complaints is a 24x7 service: toll-free 1800-209-4324, non-toll-free 022-67719100 (call charges applicable; +91-22-67719100 from outside India), and dedicated Credit Card Hotlisting Number 1800226999. customercare@idbi.co.in is the published email for credit-card queries. 1800 208 1947 (membersupport@idbidelight.com) is published for Delight Points reward queries only, not card blocking. No netbanking or app path for credit-card blocking is published on the bank's contact pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+            "https://www.idbibank.in/customer-care-centre.aspx",
+            "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+            "https://www.idbibank.in/credit-card-contact-us.aspx",
+            "https://www.idbibank.in/go_mobile_app_android_version.aspx"
           ],
           "confirmations": {
             "worked": 0,
@@ -209,9 +228,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.creditmantri.com/idbi-bank-credit-card-customer-care/"
+      "https://www.idbibank.in/customer-care-centre.aspx",
+      "https://www.idbibank.in/idbi-bank-phone-banking-no.aspx",
+      "https://www.idbibank.in/credit-card-contact-us.aspx",
+      "https://www.idbibank.in/go_mobile_app_android_version.aspx"
     ]
   }
 }

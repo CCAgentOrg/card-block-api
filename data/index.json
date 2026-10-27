@@ -11,11 +11,11 @@
   },
   "bank_count": 61,
   "freshness": {
-    "fresh": 8,
+    "fresh": 15,
     "aging": 16,
-    "stale": 37
+    "stale": 30
   },
-  "total_methods": 664,
+  "total_methods": 660,
   "card_types": [
     "debit",
     "credit"

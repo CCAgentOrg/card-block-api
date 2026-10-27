@@ -16,6 +16,7 @@ Running log of loop-executed work. One line per merged PR: date, issue, what lan
 | 2026-09-25 | #54 | #53 | CI: drop duplicate Pages deploy job (missing environment) — pages.yml is the single deploy path |
 | 2026-09-25 | #56 | #32 | C2 batch 2: 6 banks re-verified against live official pages |
 | 2026-10-27 | #57 | #32 | C2 batch 3: 8 banks re-verified (Airtel, AU, Bandhan, BoM, Capital SFB, City Union, CSB, DBS) via verify-stale-banks workflow (per-bank researcher + independent auditor + validation gate); ADCB escalated (India retail exit evidence — human decision needed), CBI deferred (infra error); freshness 8 fresh / 16 aging / 37 stale |
+| 2026-10-27 | #59 | #32 | C2 batch 4: 7 banks re-verified (Equitas, ESAF, Federal, Fino, IDBI, Indian, J&K); escalated: ADCB (#58 — RBI gazette ceased ADCB PJSC in India 2023), CBI debit-SMS number conflict (#60), IOB overseas-hotline conflict (#61); freshness 15 fresh / 16 aging / 30 stale |
 
 ## Milestone state (2026-10-27)
 

@@ -2,7 +2,7 @@
   "name": "Equitas Small Finance Bank",
   "slug": "equitas-small-finance",
   "type": "private",
-  "website": "https://www.equitasbank.com",
+  "website": "https://ib.equip.equitasbank.com/login",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-209-1914 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-1914",
+          "instructions": "Call 1800-103-1222 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-1222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 044-2536-2536 and follow the IVR to hotlist the card.",
-          "phone": "044-2536-2536",
+          "instructions": "Call +91-44-6965-4600 and follow the IVR to hotlist the card.",
+          "phone": "+91-44-6965-4600",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-44-4004-8500 and follow the IVR to hotlist the card.",
+          "phone": "+91-44-4004-8500",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email support@equitasbank.com from your registered email to request card blocking.",
-          "email": "support@equitasbank.com",
+          "instructions": "Email customerservice@equitas.bank.in from your registered email to request card blocking.",
+          "email": "customerservice@equitas.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.equitasbank.com and use the card block/hotlist option.",
-          "url": "https://www.equitasbank.com",
+          "instructions": "Log in to internet banking at https://ib.equip.equitasbank.com/login and use the card block/hotlist option.",
+          "url": "https://ib.equip.equitasbank.com/login",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.equitas.equitasapp | iOS: https://apps.apple.com/in/app/equitas-sfb/id1172991126",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.equitas.elevate | iOS: https://apps.apple.com/in/app/equitas-2-0/id6449971923",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.equitas.equitasapp",
-            "https://apps.apple.com/in/app/equitas-sfb/id1172991126"
+            "https://play.google.com/store/apps/details?id=com.equitas.elevate",
+            "https://apps.apple.com/in/app/equitas-2-0/id6449971923"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS To Block your Card, send SMS to 7045030000 by typing BLOCK CARD XXXX (Last 4 digits of card) from your registered mobile number. from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +133,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Equitas Mobile app: Cards > Block.",
+          "instructions": "Debit-card FAQ: block a lost/stolen/damaged card by calling the 24-hr phone banking centre at 1800 103 1222, or via internet banking (ib.equip.equitasbank.com/login), the Equitas 2.0 mobile app (Card Management: freeze, block, set limits) or a branch. +91-44-6965-4600 is the published line for calls from outside India; +91-44-4004-8500 is the international number for unauthorized-transaction queries. SMS BLOCK CARD works from the registered mobile number. For unauthorized transactions the bank also advises emailing unauthtrnx@equitas.bank.in and the national cybercrime helpline 1930. The bank's site now lives at equitas.bank.in (www.equitasbank.com redirects there).",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +155,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-209-1914 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-1914",
+          "instructions": "Call 1800-103-2977 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-2977",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +173,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 044-2536-2536 and follow the IVR to hotlist the card.",
-          "phone": "044-2536-2536",
+          "instructions": "Call 1800-103-1222 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-1222",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-44-6965-4600 and follow the IVR to hotlist the card.",
+          "phone": "+91-44-6965-4600",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +208,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email support@equitasbank.com from your registered email to request card blocking.",
-          "email": "support@equitasbank.com",
+          "instructions": "Email customerservice@equitas.bank.in from your registered email to request card blocking.",
+          "email": "customerservice@equitas.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -145,30 +224,15 @@
           }
         },
         {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.equitasbank.com and use the card block/hotlist option.",
-          "url": "https://www.equitasbank.com",
+          "channel": "sms",
+          "instructions": "SMS To Block your Credit Card, send SMS to 7045030000 by typing BLOCK CC XXXX (Last 4 digits of card) from your registered mobile number. from your registered mobile number.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.equitas.equitasapp | iOS: https://apps.apple.com/in/app/equitas-sfb/id1172991126",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.equitas.equitasapp",
-            "https://apps.apple.com/in/app/equitas-sfb/id1172991126"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +241,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Equitas Mobile Banking app: Cards > Block.",
+          "instructions": "Site-wide footer labels 1800-103-2977 'Loans/Credit Card related'; the credit-cards page contact module also publishes 'Call us at 1800 103 1222' and email customerservice@equitas.bank.in; no separate hours are stated for credit cards (the 1800 103 1222 line is published as 24-hr for banking). +91-44-6965-4600 for calls from outside India. SMS BLOCK CC works from the registered mobile number; report unauthorized card transactions to unauthtrnx@equitas.bank.in; the bank's page also advises the national cybercrime helpline 1930.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.equitasbank.com"
+            "https://equitas.bank.in/debit-card-faqs/",
+            "https://equitas.bank.in/unauthorized-transaction/",
+            "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+            "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +261,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.equitasbank.com"
+      "https://equitas.bank.in/debit-card-faqs/",
+      "https://equitas.bank.in/unauthorized-transaction/",
+      "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+      "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/"
     ]
   }
 }

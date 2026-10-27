@@ -1,0 +1,46 @@
+{
+  "id": "equitas_small_finance",
+  "name": "Equitas Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-103-1222",
+      "number1": "+91-44-6965-4600",
+      "number2": "+91-44-4004-8500",
+      "sms": "To Block your Card, send SMS to 7045030000 by typing BLOCK CARD XXXX (Last 4 digits of card) from your registered mobile number.",
+      "website": "https://ib.equip.equitasbank.com/login",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.equitas.elevate",
+      "iosApp": "https://apps.apple.com/in/app/equitas-2-0/id6449971923",
+      "email": "customerservice@equitas.bank.in",
+      "reference": "https://equitas.bank.in/debit-card-faqs/",
+      "notes": "Debit-card FAQ: block a lost/stolen/damaged card by calling the 24-hr phone banking centre at 1800 103 1222, or via internet banking (ib.equip.equitasbank.com/login), the Equitas 2.0 mobile app (Card Management: freeze, block, set limits) or a branch. +91-44-6965-4600 is the published line for calls from outside India; +91-44-4004-8500 is the international number for unauthorized-transaction queries. SMS BLOCK CARD works from the registered mobile number. For unauthorized transactions the bank also advises emailing unauthtrnx@equitas.bank.in and the national cybercrime helpline 1930. The bank's site now lives at equitas.bank.in (www.equitasbank.com redirects there)."
+    },
+    "credit": {
+      "tollFree": "1800-103-2977",
+      "number1": "1800-103-1222",
+      "number2": "+91-44-6965-4600",
+      "sms": "To Block your Credit Card, send SMS to 7045030000 by typing BLOCK CC XXXX (Last 4 digits of card) from your registered mobile number.",
+      "email": "customerservice@equitas.bank.in",
+      "reference": "https://equitas.bank.in/unauthorized-transaction/",
+      "notes": "Site-wide footer labels 1800-103-2977 'Loans/Credit Card related'; the credit-cards page contact module also publishes 'Call us at 1800 103 1222' and email customerservice@equitas.bank.in; no separate hours are stated for credit cards (the 1800 103 1222 line is published as 24-hr for banking). +91-44-6965-4600 for calls from outside India. SMS BLOCK CC works from the registered mobile number; report unauthorized card transactions to unauthtrnx@equitas.bank.in; the bank's page also advises the national cybercrime helpline 1930."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://equitas.bank.in/debit-card-faqs/",
+      "label": "live fetch 2026-10-27: debit-card FAQ — 'How can I block the Equitas Debit Card if the same is lost/ stolen or damaged? ... Calling our 24 hrs phone banking Centre at 1800 103 1222 Or Block the debit card using Internet banking / Mobile Banking / visiting a nearby Equitas Bank branch'; page footer (site-wide) lists 'Banking related : 1800-103-1222', 'Loans/Credit Card related : 1800-103-2977', 'For Countries outside India : +91-44-6965-4600'; contact module lists customerservice@equitas.bank.in and unauthtrnx@equitas.bank.in; www.equitasbank.com 301-redirects to equitas.bank.in, which the bank states is its only registered web portal"
+    },
+    {
+      "url": "https://equitas.bank.in/unauthorized-transaction/",
+      "label": "live fetch 2026-10-27: exact SMS block formats to 7045030000 from the registered mobile number — 'BLOCK CARD XXXX (Last 4 digits of card)' for cards, 'BLOCK CC XXXX (Last 4 digits of card)' for credit cards, plus BLOCK IB / BLOCK MB / BLOCK UPI / BLOCK ACT; 'You may call our toll free number 18001031222 / International number: +91-44-4004-8500 for other queries'; advises reporting to National Cyber Crime Helpline 1930"
+    },
+    {
+      "url": "https://equitas.bank.in/personal-banking/pay/credit-cards/",
+      "label": "live fetch 2026-10-27: credit-cards page contact module — 'Speak to a banker Call us at 1800 103 1222', 'Send us an email customerservice@equitas.bank.in', 'For Unauthorized Transaction unauthtrnx@equitas.bank.in'; footer carries 'Loans/Credit Card related : 1800-103-2977' and overseas line +91-44-6965-4600"
+    },
+    {
+      "url": "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/",
+      "label": "live fetch 2026-10-27: Equitas 2.0 app store links — https://play.google.com/store/apps/details?id=com.equitas.elevate and https://apps.apple.com/in/app/equitas-2-0/id6449971923; app 'Card Management' section: 'Manage your debit cards ... Freeze, block, set limits & much more'"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

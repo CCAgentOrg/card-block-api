@@ -1,0 +1,44 @@
+{
+  "id": "federal_bank",
+  "name": "Federal Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-425-1199",
+      "number1": "1800-420-1199",
+      "number2": "+91-484-2630994 / +91-484-2630995 (from abroad)",
+      "sms": "'BLOCK <space> Last four digits of Debit Card' to 5676762 or 9895088888",
+      "website": "https://www.federal.bank.in",
+      "reference": "https://www.federal.bank.in/block-atm",
+      "notes": "Pan-India toll-free Contact Centre numbers per the dedicated block-ATM/debit-card page, which also states: 'Customers from abroad can dial +91-484-2630994 or +91-484-2630995'. SMS 'BLOCK <space> last four digits of the debit card' to 5676762 or 9895088888 gets an instant confirmation on the registered mobile number. FedMobile app path: Menu > Self Service > Block Debit Card (the bank's ways-to-block page words it Account Services > Manage Debit Cards > Block This Card). Netbanking (FedNet) path: Debit Card Services > Block Debit Card, select card, Submit. Branch visit is listed as a last resort."
+    },
+    "credit": {
+      "tollFree": "1800-425-1199",
+      "number1": "1800-420-1199",
+      "number2": "+91-484-2630994 (from abroad / NRI)",
+      "sms": "'FBCCBLOCK<Last 4 digits of credit card number>' to +91-9008915353",
+      "email": "creditcards@federalbank.co.in",
+      "website": "https://www.federal.bank.in",
+      "reference": "https://www.federal.bank.in/ways-to-block-a-lost-federal-bank-card",
+      "notes": "Same 24x7 Contact Centre numbers as debit; the credit-cards FAQ lists 'Resident Customers: 1800 420 1199, 1800 425 1199 - Non-Resident Customers: 0484 2630994'. SMS keyword FBCCBLOCK (bank's sms-banking table: 'Blocking credit card due to loss/theft/fraud transactions') goes to dedicated number +91-9008915353; the separate CCCANCEL keyword to +91-9873662838 is card cancellation/closure, not loss-theft blocking. Email card details to creditcards@federalbank.co.in. Netbanking (FedNet) path: Credit Card module on home screen > Manage Credit Card > Report Credit Card; the credit-cards page words it Credit Cards Tab > Manage Card > Manage Credit Card (block/unblock also via FedMobile)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.federal.bank.in/block-atm",
+      "label": "live fetch 2026-10-27: dedicated debit-card block page — 'Dial the pan India toll free number 1800-425-1199 Or 1800-420-1199'; 'Customers from abroad can dial +91-484-2630994 or +91-484-2630995'; SMS 'BLOCK <space> Last Four Digits of Debit Card' to 5676762 or 919895088888 with instant confirmation; FedMobile 'Menu > Self Service > Block Debit Card'; branch as last resort"
+    },
+    {
+      "url": "https://www.federal.bank.in/ways-to-block-a-lost-federal-bank-card",
+      "label": "live fetch 2026-10-27: 'Ways to Block a Lost Federal Bank Card' — debit FedNet path 'Debit Card Services' then 'Block Debit Card'; debit FedMobile 'Account Services > Manage Debit Cards > Block This Card'; credit: same toll-free numbers, abroad +91-484-2630994, email creditcards@federalbank.co.in 'the details of the card', FedNet 'Credit Card' module > 'Manage Credit Card' > 'Report Credit Card'"
+    },
+    {
+      "url": "https://www.federal.bank.in/sms-banking",
+      "label": "live fetch 2026-10-27: SMS Banking page — debit: 'BLOCK <space> Last four digits of Debit Card' to '9895088888 (OR) 5676762'; credit table: keyword FBCCBLOCK, format 'FBCCBLOCK<Last 4 digits of credit card number>', dedicated number +91-9008915353, described as 'Blocking credit card due to loss/theft/fraud transactions'; CCCANCEL to +91-9873662838 is cancellation; page header shows toll-free 1800-420-1199 and 1800-425-1199 (abroad numbers 2630994/2630995 are on the block-atm and ways-to-block pages, not here)"
+    },
+    {
+      "url": "https://www.federal.bank.in/credit-cards",
+      "label": "live fetch 2026-10-27: credit-cards page — 'Call our 24x7 customer care numbers: Resident Customers: 1800 420 1199, 1800 425 1199 - Non-Resident Customers: 0484 2630994'; grievance email creditcards@federalbank.co.in; 'Easily manage PIN, block/unblock card, and track transactions via FedMobile/FedNet' with path Credit Cards Tab > Manage Card > Manage Credit Card"
+    }
+  ],
+  "lastVerified": "2026-10-27"
+}

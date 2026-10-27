@@ -2,7 +2,7 @@
   "name": "Fino Small Finance Bank",
   "slug": "fino",
   "type": "private",
-  "website": "https://www.finobank.com",
+  "website": "https://fino.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-210-0317 and follow the IVR to hotlist the card.",
-          "phone": "1800-210-0317",
+          "instructions": "Call 1800 268 3930 and follow the IVR to hotlist the card.",
+          "phone": "1800 268 3930",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.finobank.com"
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,90 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-210-0317 and follow the IVR to hotlist the card.",
-          "phone": "1800-210-0317",
+          "instructions": "Call 1800 268 1000 and follow the IVR to hotlist the card.",
+          "phone": "1800 268 1000",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.finobank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email care@finobank.com from your registered email to request card blocking.",
-          "email": "care@finobank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.finobank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.finobank.com and use the card block/hotlist option.",
-          "url": "https://www.finobank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.finobank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.fino.finoapp | iOS: https://apps.apple.com/in/app/fino-payments-bank/id1238990817",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.fino.finoapp",
-            "https://apps.apple.com/in/app/fino-payments-bank/id1238990817"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.finobank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "other",
-          "instructions": "Via Fino app: Cards > Block.",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.finobank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        }
-      ]
-    },
-    {
-      "type": "credit",
-      "blocking_methods": [
-        {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-210-0317 and follow the IVR to hotlist the card.",
-          "phone": "1800-210-0317",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.finobank.com"
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +46,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-6176-0000 and follow the IVR to hotlist the card.",
-          "phone": "022-6176-0000",
+          "instructions": "Call 022-6868 1414 and follow the IVR to hotlist the card.",
+          "phone": "022-6868 1414",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.finobank.com"
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email care@finobank.com from your registered email to request card blocking.",
-          "email": "care@finobank.com",
+          "instructions": "Email reportfraud@fino.bank.in from your registered email to request card blocking.",
+          "email": "reportfraud@fino.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.finobank.com"
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.finobank.com and use the card block/hotlist option.",
-          "url": "https://www.finobank.com",
+          "instructions": "Log in to internet banking at https://fino.bank.in and use the card block/hotlist option.",
+          "url": "https://fino.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.finobank.com"
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +97,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.fino.finoapp | iOS: https://apps.apple.com/in/app/fino-payments-bank/id1238990817",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.finopaymentbank.mobile&pli=1 | iOS: https://apps.apple.com/in/app/finopay/id6474030952",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.fino.finoapp",
-            "https://apps.apple.com/in/app/fino-payments-bank/id1238990817"
+            "https://play.google.com/store/apps/details?id=com.finopaymentbank.mobile&pli=1",
+            "https://apps.apple.com/in/app/finopay/id6474030952"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.finobank.com"
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS SMS <CARDBLOCK> to 70220 75566 from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-27",
+          "sources": [
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +133,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Fino Mobile Banking app: Cards > Block.",
+          "instructions": "The contact page lists, verbatim, 'For blocking account or hotlisting debit card' the number 1800 268 1000 '(between 9 am to 7 pm, 365 days)' and the SMS route 'SMS <CARDBLOCK> to 70220 75566'; for a debit freeze it gives 'SMS <FRAUD> to 70220 75566'. Emergencies outside those hours: the dedicated toll-free fraud line 1800 268 3930 runs '24/7x365 days' with fraud mail reportfraud@fino.bank.in (general queries: customercare@fino.bank.in); customer helpdesk 022-6868 1414 serves 9 AM to 7 PM and the FAQ directs lost/stolen prepaid-card calls to 022-68681414. No overseas helpline is published. After blocking, a replacement debit card goes to the registered address or a branch can issue an Insta debit card; the FinoPay app (links from the bank's cards/FAQ pages) handles card management such as 'Your Card' > 'Set debit card PIN', but no explicit in-app block menu or netbanking block path is published - netbanking at https://netbanking.fino.bank.in/ is a bare login page. The bank's own page carries 'National Cyber Crime Reporting Number: 1930'. Legacy domain finobank.com 307-redirects to fino.bank.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-27",
           "sources": [
-            "https://www.finobank.com"
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +153,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-27",
     "sources": [
-      "https://www.finobank.com"
+      "https://www.fino.bank.in/support/contact-us",
+      "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+      "https://www.fino.bank.in/cards",
+      "https://fino.bank.in/"
     ]
   }
 }
