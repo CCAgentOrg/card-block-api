@@ -1,0 +1,39 @@
+{
+  "id": "nainital_bank",
+  "name": "Nainital Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-180-4031",
+      "number1": "05946-250152",
+      "number2": "8069840140",
+      "email": "atmhelpdesk@nainitalbank.co.in",
+      "website": "https://cms.nainitalbank.bank.in/",
+      "androidApp": "https://play.google.com/store/apps",
+      "iosApp": "https://www.apple.com/in/app-store/",
+      "reference": "https://www.nainitalbank.bank.in/en/debit-card",
+      "notes": "Debit Card Help Desk toll-free 1800-180-4031 (also printed '1800 180 4031') is the 24x7 line for ATM/unauthorised/fraudulent-transaction grievances; landline 05946-250152 is the alternate 'To Block Debit Card instantly' number; 8069840140 is only for non-ATM queries, 10 AM-6 PM, dial with 0/+91 prefix, closed 2nd/4th Saturdays, Sundays and bank holidays. Lost-card FAQ action: call 1800-180-4031 or 05946-250152 to get the card blocked, or set the card limit to 'zero' temporarily via the Sarvatra CardSafe app (also shows card status active/block); androidApp/iosApp are the generic store links the debit-card page publishes, no app-specific deep link. Card T&C require a police report for lost/stolen cards, and the bank hotlists/cancels during working hours on a working day after intimation. The Debit Card Help Desk email atmhelpdesk@nainitalbank.co.in is published alongside the instant-block numbers. Unauthorised electronic transactions can be reported online via the bank's CGRMS portal cms.nainitalbank.bank.in (Digital Complaint: ATM/UPI/E-Com/POS/Mobile Banking). No SMS block format, no overseas numbers, and no netbanking card-block path are published; the bank's own pages do not mention 1930."
+    },
+    "credit": {
+      "notes": "No credit-card product or credit-card blocking channel is published on the bank's official site: product navigation on every page and the sitemap list only a debit card and Kisan Credit Card agri-loan schemes. The old entry's credit channels (1800-180-0251, 05942-230001, customercare@nainitalbank.co.in) appear nowhere on the live official site. For any card-fraud grievance the bank's published general contact is the 24x7 line 1800 180 4031."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.nainitalbank.bank.in/en/debit-card",
+      "label": "live fetch 2026-10-30: 'Debit Card Help Desk Number & E-mail ID' and 'To Block Debit Card instantly:' blocks prove TOLL FREE no: 1800-180-4031, Land Line no: 05946-250152, E-mail id atmhelpdesk@nainitalbank.co.in; lost-card FAQ Q10 proves 'immediately call at Bank's Toll Free number 1800 180 4031 or land Line Number 05946-250152 to get the card blocked or customer may set the card limit to zero temporarily with the help of Sarvatra CardSafe application'; CardSafe steps prove card status (active/block) and daily ATM/ECOM/POS limit control; store links https://play.google.com/store/apps and https://www.apple.com/in/app-store/; LOST OR STOLEN CARDS T&C prove police report + hotlist during working hours."
+    },
+    {
+      "url": "https://www.nainitalbank.bank.in/en/pages/contact-us",
+      "label": "live fetch 2026-10-30: Customer Care block proves 'For ATM/Other Unauthorised /fraudulent transactions related grievance: 1800 180 4031 (24*7 Support)' and 8069840140 for queries other than ATM, 10 AM to 6 PM, add prefix 0 or +91, not available 2nd/4th Saturdays, Sundays and bank holidays; footer labels https://cms.nainitalbank.bank.in/ as 'Reporting of Un authorized Electronic Transaction'."
+    },
+    {
+      "url": "https://www.nainitalbank.bank.in/en/pages/faq",
+      "label": "live fetch 2026-10-30: ATM/debit-card FAQ 'What if the card is lost?' proves call 1800 180 4031 or land Line Number 05946-250152 to get the card blocked or set the limit to zero via CardSafe application; SMS-alert FAQs list alert types only - no SMS block keyword exists."
+    },
+    {
+      "url": "https://cms.nainitalbank.bank.in/",
+      "label": "live fetch 2026-10-30: bank's CGRMS complaint portal landing proves the web channel with categories 'Digital Complaint (ATM/UPI/E-Com/POS/Mobile Banking etc.)' and 'Other Complaint (Branch Level, Service Related etc.)', plus Track Status; publishes complaints@nainitalbank.co.in as Head Office Principal Nodal Officer contact."
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}
