@@ -1,0 +1,41 @@
+{
+  "id": "south_indian_bank",
+  "name": "South Indian Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 425 1809",
+      "number1": "1800 102 9408",
+      "number2": "+91 484 2388555",
+      "email": "ceghotlisting@sib.bank.in",
+      "website": "https://online.southindianbank.bank.in/OnlineCardBlock",
+      "reference": "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+      "notes": "Customer Care Centre runs 24/7: inbound toll-free 1800 425 1809 and 1800 102 9408; NRI service centre (chargeable, for customers abroad) +91 484 6689600 / +91 484 2388555. Web: the OnlineCardBlock portal hotlists a Debit Card/Net Banking/Mobile Banking without login, validating account number + nationality + registered mobile number + captcha. Hotlisting email is ceghotlisting@sib.bank.in (the page's visible text; its mailto href still points at legacy ceghotlisting@sib.co.in); general 24/7 email customercare@sib.bank.in; nearest branch is the stated fallback. App: SIB Mirror+ is the bank's mobile-banking app (official page carries e-Lock lock/unlock and links only a Google Play search for 'SIB Mirror' — no direct app-store listing or in-app block menu path is published). No SMS block format is published on official pages; 1930 is not mentioned on the bank's pages."
+    },
+    "credit": {
+      "number1": "18002109111",
+      "email": "help@getonecard.app",
+      "website": "https://onecard.southindianbank.bank.in",
+      "reference": "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+      "notes": "SIB's retail credit card is the SIB OneCard co-brand. The bank's fraud-reporting page lists its block options: the onecard.southindianbank.bank.in credit-card services portal, the OneCard app (official deep link https://1cardapp.page.link/cardControls), IVR 18002109111, and email help@getonecard.app / reportfraud@fplabs.tech. The bank-level 24/7 toll-free numbers (1800 425 1809 / 1800 102 9408) are offered for reporting unauthorized transactions generally; no separate overseas line is published for OneCard. No SMS block format is published on official pages."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+      "label": "live fetch 2026-10-30: report/block options page — 'Contact our Customer Care Centre (24/7) - 1800 425 1809 / 1800 102 9408 / 91-484-2388555 (For NRIs)'; hotlisting email shown as ceghotlisting@sib.bank.in (mailto href: ceghotlisting@sib.co.in); 'Block Debit Card/Net Banking/Mobile Banking/Report an unauthorized transaction' → https://online.southindianbank.bank.in/OnlineCardBlock; 'Block Credit Card / Report Credit Card Un authorized Transaction' → https://onecard.southindianbank.bank.in; 'SIB OneCard Credit Card block through OneCard app' https://1cardapp.page.link/cardControls, 'IVR number: 18002109111', email help@getonecard.app / reportfraud@fplabs.tech; Lock/Unlock Prepaid DigiCash/Gift Card → https://prepaidcards.southindianbank.bank.in/noneportal/sib/html; branch visit listed as a reporting option"
+    },
+    {
+      "url": "https://www.southindianbank.bank.in/help-desk/customer-care",
+      "label": "live fetch 2026-10-30: 'CUSTOMER CARE CENTRE (24/7)' table — Outbound Sales 1409250014; Service/Transaction 1600109250 / 1600308127 / 1600308503; Inbound Toll Free 1800 425 1809 / 1800 102 9408; NRI service centre +91 484 6689600 / +91 484 2388555; Customer Care Centre Email ID customercare@sib.bank.in; Law Enforcement cell lea@sib.bank.in; Suspected Fraud Risk Reporting email fmcell@sib.bank.in, Ph 0487-2421297 (HO Inspection & Vigilance)"
+    },
+    {
+      "url": "https://online.southindianbank.bank.in/OnlineCardBlock",
+      "label": "live fetch 2026-10-30: live self-service portal titled 'Block My Debit Card/Net Banking/Credit Card/Mobile Banking' — form fields Account Number, Nationality (Indian/Others), Registered Mobile Number and captcha, then 'Validate my account'; no login required"
+    },
+    {
+      "url": "https://www.southindianbank.bank.in/personal/other-services/mobile-banking",
+      "label": "live fetch 2026-10-30: 'Mobile Banking - SIB MIRROR+' page presents SIB Mirror+ as the bank's mobile banking app with e-Lock ('Lock or unlock Your account instantly to protect against unauthorised transactions'); the only app-store link on this page is Google Play search https://play.google.com/store/search?q=SIB%20Mirror&c=apps (re-checked in rendered DOM 2026-10-30: exactly 1 'play.google' occurrence; no apps.apple anchor) — no direct app-store listing and no iOS link is published; the homepage https://www.southindianbank.bank.in/ has no app-store link at all (re-checked in rendered DOM 2026-10-30: 0 'play.google' and 0 'apps.apple' occurrences; only app-related anchor is https://onecard.southindianbank.bank.in/)"
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}
