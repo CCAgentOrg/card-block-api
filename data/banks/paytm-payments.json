@@ -2,49 +2,22 @@
   "name": "Paytm Payments Bank",
   "slug": "paytm-payments",
   "type": "private",
-  "website": "https://paytmbank.com",
+  "website": "https://www.paytm.bank.in",
   "cards": [
     {
       "type": "debit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 0120-3888-388 and follow the IVR to hotlist the card.",
-          "phone": "0120-3888-388",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://paytmbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-1800-1091 and follow the IVR to hotlist the card.",
-          "phone": "1800-1800-1091",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://paytmbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "email",
-          "instructions": "Email support@paytmbank.com from your registered email to request card blocking.",
-          "email": "support@paytmbank.com",
+          "instructions": "Email ol@paytmbank.com from your registered email to request card blocking.",
+          "email": "ol@paytmbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://paytmbank.com"
+            "https://www.paytm.bank.in/",
+            "https://www.paytm.bank.in/assets/RBI-cancels-Licence-of-Paytm-Payments-Bank-Limited-Bank.pdf",
+            "https://www.paytm.bank.in/assets/Order-08.07.2026-High-Court-of-Delhi.pdf",
+            "https://clearance-desk.paytmbank.com/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,29 +26,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://paytmbank.com and use the card block/hotlist option.",
-          "url": "https://paytmbank.com",
+          "instructions": "Log in to internet banking at https://www.paytm.bank.in and use the card block/hotlist option.",
+          "url": "https://www.paytm.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://paytmbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.paytm.app | iOS: https://apps.apple.com/in/app/paytm/id540887043",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.paytm.app",
-            "https://apps.apple.com/in/app/paytm/id540887043"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://paytmbank.com"
+            "https://www.paytm.bank.in/",
+            "https://www.paytm.bank.in/assets/RBI-cancels-Licence-of-Paytm-Payments-Bank-Limited-Bank.pdf",
+            "https://www.paytm.bank.in/assets/Order-08.07.2026-High-Court-of-Delhi.pdf",
+            "https://clearance-desk.paytmbank.com/"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +43,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Paytm App: Passbook > Payment Bank > Help > Block Card.",
+          "instructions": "Bank is in liquidation — no blocking channel is published anywhere on its live official site. RBI cancelled PPBL's banking licence under Section 22(4) BR Act effective close of business 24 Apr 2026 (Press Release 2026-2027/143), and the Delhi High Court ordered its winding up on 8 Jul 2026 (Official Liquidator: Girikumar M. Nair). The only live official page (www.paytm.bank.in — paytmbank.com redirects there; every other path returns CloudFront 403 and all footer links such as Contact Us / Report a Fraud / Debit & ATM Card are dead javascript:void(0)) publishes no phone number, no SMS short code, no netbanking and no block/hotlist instruction; it states 'The PPBL mobile application is currently not available for use'. Write to ol@paytmbank.com or nodalofficer@paytmbank.com 'about your concerns'; depositor claims are deemed filed in the winding up and customers must wait for the official claim-process communication on paytm.bank.in. The old 0120-3888-388, 1800-1800-1091 and support@paytmbank.com no longer appear on any official page and were dropped. Payments bank: its own FAQ says it 'cannot issue loans or credit cards', so no credit section. The bank's pages do not mention 1930.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://paytmbank.com"
+            "https://www.paytm.bank.in/",
+            "https://www.paytm.bank.in/assets/RBI-cancels-Licence-of-Paytm-Payments-Bank-Limited-Bank.pdf",
+            "https://www.paytm.bank.in/assets/Order-08.07.2026-High-Court-of-Delhi.pdf",
+            "https://clearance-desk.paytmbank.com/"
           ],
           "confirmations": {
             "worked": 0,
@@ -101,9 +63,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://paytmbank.com"
+      "https://www.paytm.bank.in/",
+      "https://www.paytm.bank.in/assets/RBI-cancels-Licence-of-Paytm-Payments-Bank-Limited-Bank.pdf",
+      "https://www.paytm.bank.in/assets/Order-08.07.2026-High-Court-of-Delhi.pdf",
+      "https://clearance-desk.paytmbank.com/"
     ]
   }
 }

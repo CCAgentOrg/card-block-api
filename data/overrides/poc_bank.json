@@ -1,0 +1,40 @@
+{
+  "id": "poc_bank",
+  "name": "Punjab and Sind Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-419-8300",
+      "number1": "1800 569 5577",
+      "number2": "011-25788401 +91-2245899049 (Call Centre 24*7)",
+      "sms": "LOST <space> <last 4 digits of your card number> (e.g.: LOST 1234) or LOST <space> <complete 14 digits account number> — send to 8828554038 from your registered mobile number for permanent blocking (hotlist); temporary block/unblock: TBLOCK <last 4 digits> / UBLOCK <last 4 digits> to 8828554038.",
+      "website": "https://psbunic.punjabandsind.bank.in/PSB/#/nliLanding",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.psb.omnicorporate",
+      "iosApp": "https://apps.apple.com/in/app/psb-unic/id1597657276",
+      "email": "ho.customerexcellence@psb.co.in",
+      "reference": "https://www.punjabandsind.bank.in/content/cardblockfacility",
+      "notes": "The Card Block/Hotlisting page: for permanent blocking (lost/stolen) of an ATM/Debit card, SMS 'LOST <last 4 digits of card>' or 'LOST <14-digit account number>' to 8828554038 from the registered mobile number, or call 1800-419-8300, or use PSB UnIC Mobile or Internet Banking, or contact any PSB branch; temporary block/unblock via TBLOCK/UBLOCK SMS or PSB UnIC/branch. The customer-care page is titled 'PSB Customer Care - 24x7 Helpline & Support' and the footer marks the NRI overseas line 'Call Centre 24*7'. NRI lines: 1800 569 5577 toll-free (within India, NRI customers only) and 011-25788401 +91-2245899049 (outside India only). A WhatsApp number +91 77999 62838 sits beside the toll-free in the sitewide header. No app menu path for blocking is published — pages only say 'PSB UnIC Mobile or Internet Banking'; the homepage's 'Download PSB UnIC app' Google Play button targets the 'PSB UnIC Biz' listing (com.psb.omnicorporate) and the App Store button the PSB UnIC app. The Contact Us page publishes the HO customer-excellence email (shown obfuscated as ho[dot]customerexcellence[at]psb[dot]co[dot]in) — no dedicated card-block email is published. The footer also publishes 'In Case of Cyber Fraud Debit Freeze Your Account: 5616118'. The bank's site now lives at punjabandsind.bank.in; the former punjabandsindbank.co.in no longer resolves (NXDOMAIN on Google and Cloudflare DoH)."
+    },
+    "credit": {
+      "notes": "No credit-card blocking channel is published on the bank's own pages. Punjab & Sind Bank's credit cards are the 'PSB SBI Co-branded Credit Card' (PRIME/ELITE); its credit-cards page lists only fees and rewards — no block instructions, no credit-card helpline and no SBI Card contact — while the Card Block/Hotlisting page and the Contact page's hot-listing entry cover only ATM/Debit (RuPay) cards. The old entry's credit numbers (1800-227-034, 011-2718-0000) and email customercare@punjabandsindbank.co.in appear nowhere on the current official site; the all-India toll-free 1800-419-8300 listed under debit is the bank's published customer-care line, but no official page states it as a credit-card block channel."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.punjabandsind.bank.in/content/cardblockfacility",
+      "label": "live fetch 2026-10-30: 'Hotlisting (Permanent Blocking) your Debit Card in case LOST/STOLEN by simple sending an SMS' — 'send an SMS to 8828554038 from your registered mobile number': 'LOST <space> <last 4 digits of your card number> (e.g.: LOST 1234)' or 'LOST <space> <complete 14 digits account number>'; 'For Permanent Blocking of ATM/Debit Card, Customer may also Call on 1800-419-8300 or use PSB UnIC Mobile or Internet Banking or contact any PSB Branch'; temporary block 'TBLOCK <space> last 4 digits' and 'UBLOCK <space> last 4 digits' to 8828554038; footer 'Toll Free Number 1800-419-8300', 'Toll-Free for NRI customers only (Within India) 1800 569 5577', 'Landline for NRI Customers only (Outside India) 011-25788401 +91-2245899049 (Call Centre 24*7)', 'For Blocking ATM/Debit Card SMS 8828554038', 'In Case of Cyber Fraud Debit Freeze Your Account 5616118'; header shows 1800-419-8300 and WhatsApp +91 77999 62838; page links PSB UniC digital banking login https://psbunic.punjabandsind.bank.in/PSB/#/nliLanding"
+    },
+    {
+      "url": "https://www.punjabandsind.bank.in/content/contact",
+      "label": "live fetch 2026-10-30: Contact Us page — 'Call Centre 1800-419-8300 All India Toll Free Number'; 'Hot Listing (Blocking) SMS to 8828554038' — 'For ATM/Rupay Card Blocking, send SMS in the following format: LOST <space> Last 4 digits of your card number or LOST <space> 14-digit account number through your registered mobile number'; 'Balance Enquiry 7039035156 By Missed Call'; footer 'Toll Free Number 1800-419-8300', NRI within India '1800 569 5577', NRI overseas '011-25788401 +91-2245899049 (Call Centre 24*7)'; HO email shown obfuscated as ho[dot]customerexcellence[at]psb[dot]co[dot]in; no dedicated card-block email"
+    },
+    {
+      "url": "https://www.punjabandsind.bank.in/",
+      "label": "live fetch 2026-10-30: homepage — 'Download PSB UnIC app from Apple App Store' links https://apps.apple.com/in/app/psb-unic/id1597657276 and 'Download PSB UnIC app from Google Play Store' links https://play.google.com/store/apps/details?id=com.psb.omnicorporate (that listing is titled 'PSB UnIC Biz'); header phone icon tel:1800-419-8300 beside WhatsApp icon tel:+917799962838 ('+91 77999 62838'); card menu links the Card Block/Hotlisting page"
+    },
+    {
+      "url": "https://www.punjabandsind.bank.in/content/credit-cards",
+      "label": "live fetch 2026-10-30: 'PSB Credit Cards' page shows only the PSB SBI Co-branded Credit Cards (PRIME/ELITE) with fees, rewards and offers ('PSB SBI Co Branded Credit Card Offers') — no blocking instructions, no credit-card helpline and no sbicard.com link anywhere on the page"
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}

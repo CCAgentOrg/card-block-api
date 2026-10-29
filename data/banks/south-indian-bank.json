@@ -2,7 +2,7 @@
   "name": "South Indian Bank",
   "slug": "south-indian-bank",
   "type": "private",
-  "website": "https://www.southindianbank.com",
+  "website": "https://onecard.southindianbank.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-425-1444 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-1444",
+          "instructions": "Call 1800 425 1809 and follow the IVR to hotlist the card.",
+          "phone": "1800 425 1809",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-487-2456-999 and follow the IVR to hotlist the card.",
-          "phone": "+91-487-2456-999",
+          "instructions": "Call 1800 102 9408 and follow the IVR to hotlist the card.",
+          "phone": "1800 102 9408",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 484 2388555 and follow the IVR to hotlist the card.",
+          "phone": "+91 484 2388555",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@southindianbank.com from your registered email to request card blocking.",
-          "email": "customercare@southindianbank.com",
+          "instructions": "Email ceghotlisting@sib.bank.in from your registered email to request card blocking.",
+          "email": "ceghotlisting@sib.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,29 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.southindianbank.com and use the card block/hotlist option.",
-          "url": "https://www.southindianbank.com",
+          "instructions": "Log in to internet banking at https://online.southindianbank.bank.in/OnlineCardBlock and use the card block/hotlist option.",
+          "url": "https://online.southindianbank.bank.in/OnlineCardBlock",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sib.mirrorplus | iOS: https://apps.apple.com/in/app/sib-mirror/id1166471522",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.sib.mirrorplus",
-            "https://apps.apple.com/in/app/sib-mirror/id1166471522"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +97,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via SIB Mirror+ app: Debit Card > Block. For balance confirmation: 1800-425-1445.",
+          "instructions": "Customer Care Centre runs 24/7: inbound toll-free 1800 425 1809 and 1800 102 9408; NRI service centre (chargeable, for customers abroad) +91 484 6689600 / +91 484 2388555. Web: the OnlineCardBlock portal hotlists a Debit Card/Net Banking/Mobile Banking without login, validating account number + nationality + registered mobile number + captcha. Hotlisting email is ceghotlisting@sib.bank.in (the page's visible text; its mailto href still points at legacy ceghotlisting@sib.co.in); general 24/7 email customercare@sib.bank.in; nearest branch is the stated fallback. App: SIB Mirror+ is the bank's mobile-banking app (official page carries e-Lock lock/unlock and links only a Google Play search for 'SIB Mirror' — no direct app-store listing or in-app block menu path is published). No SMS block format is published on official pages; 1930 is not mentioned on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -102,28 +118,16 @@
       "blocking_methods": [
         {
           "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-425-1444 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-1444",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.southindianbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-487-2456-999 and follow the IVR to hotlist the card.",
-          "phone": "+91-487-2456-999",
+          "instructions": "Call 18002109111 and follow the IVR to hotlist the card.",
+          "phone": "18002109111",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +136,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@southindianbank.com from your registered email to request card blocking.",
-          "email": "customercare@southindianbank.com",
+          "instructions": "Email help@getonecard.app from your registered email to request card blocking.",
+          "email": "help@getonecard.app",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,29 +153,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.southindianbank.com and use the card block/hotlist option.",
-          "url": "https://www.southindianbank.com",
+          "instructions": "Log in to internet banking at https://onecard.southindianbank.bank.in and use the card block/hotlist option.",
+          "url": "https://onecard.southindianbank.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sib.mirrorplus | iOS: https://apps.apple.com/in/app/sib-mirror/id1166471522",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.sib.mirrorplus",
-            "https://apps.apple.com/in/app/sib-mirror/id1166471522"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +170,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via SIB Mirror+ app: Cards > Block. SIBerNet internet banking also supports card blocking.",
+          "instructions": "SIB's retail credit card is the SIB OneCard co-brand. The bank's fraud-reporting page lists its block options: the onecard.southindianbank.bank.in credit-card services portal, the OneCard app (official deep link https://1cardapp.page.link/cardControls), IVR 18002109111, and email help@getonecard.app / reportfraud@fplabs.tech. The bank-level 24/7 toll-free numbers (1800 425 1809 / 1800 102 9408) are offered for reporting unauthorized transactions generally; no separate overseas line is published for OneCard. No SMS block format is published on official pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.southindianbank.com"
+            "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+            "https://www.southindianbank.bank.in/help-desk/customer-care",
+            "https://online.southindianbank.bank.in/OnlineCardBlock",
+            "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +190,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.southindianbank.com"
+      "https://www.southindianbank.bank.in/help-desk/how-to-report-unauthorized-fraudulent-electronic-transaction",
+      "https://www.southindianbank.bank.in/help-desk/customer-care",
+      "https://online.southindianbank.bank.in/OnlineCardBlock",
+      "https://www.southindianbank.bank.in/personal/other-services/mobile-banking"
     ]
   }
 }

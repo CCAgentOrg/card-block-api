@@ -2,7 +2,7 @@
   "name": "Karur Vysya Bank",
   "slug": "karur-vysya-bank",
   "type": "private",
-  "website": "https://www.kvb.co.in",
+  "website": "https://www.kvb.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-102-6060 and follow the IVR to hotlist the card.",
-          "phone": "1800-102-6060",
+          "instructions": "Call 1800 572 1916 and follow the IVR to hotlist the card.",
+          "phone": "1800 572 1916",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-425-6060 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-6060",
+          "instructions": "Call 1860 258 1916 and follow the IVR to hotlist the card.",
+          "phone": "1860 258 1916",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 44 - 66217600 and follow the IVR to hotlist the card.",
+          "phone": "+91 44 - 66217600",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,26 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@kvb.co.in from your registered email to request card blocking.",
-          "email": "customercare@kvb.co.in",
+          "instructions": "Email customersupport@kvb.bank.in from your registered email to request card blocking.",
+          "email": "customersupport@kvb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.kvb.co.in and use the card block/hotlist option.",
-          "url": "https://www.kvb.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +80,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.kvb.mobilebanking | iOS: https://apps.apple.com/in/app/kvb-mobile-banking/id1162045282",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.kvb.mobilebanking | iOS: https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937",
           "urls": [
             "https://play.google.com/store/apps/details?id=com.kvb.mobilebanking",
-            "https://apps.apple.com/in/app/kvb-mobile-banking/id1162045282"
+            "https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS SMS KVBCARD XXXX BLOCK to 56161, 9643739643 (or) 9643999643 (XXXX = Last 4 digits of your debit card) from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +116,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via KVB Mobile app: Cards > Block.",
+          "instructions": "Debit-card hotlisting page (verbatim): \"HOTLIST THROUGH SMS - SMS KVBCARD XXXX BLOCK to 56161, 9643739643 (or) 9643999643 (XXXX = Last 4 digits of your debit card)\" (page does not say the SMS must come from the registered mobile number); \"Instant hot listing contact our HELPDESK at 1800 572 1916 (Toll free)\"; hotlisting can also be done through the \"KVB DLite\" or \"KVB e-book\" mobile applications (download and self-registration required) or at any nearby KVB branch. Contact page, \"Lost or Stolen Debit Card\": helpline 1860 258 1916 (Local charges Applicable) and email customersupport@kvb.bank.in; \"You can also contact the VISA Global Assistance Helpline if you are overseas\" (no number published) and the loss must be confirmed in writing. Bank-wide: \"Helpline (Domestic): 1860 258 1916 (Local charges Applicable)\", \"Helpline (Outside India): +91 44 - 66217600\", \"To report unauthorized / suspicious transactions / Loss / theft of card : 1800 572 1916 (Toll Free)\", and the \"National Cyber Crime Helpline Number: 1930\" is mentioned on the bank's homepage footer. No net-banking channel is listed for debit-card hotlisting on the fetched pages, and no 24x7/24-hours label is published for these lines (the only \"24 hours\" label found is the corporate credit-card line 1800 419 6500). KVB's corporate site has migrated from www.kvb.co.in to www.kvb.bank.in; the old domain's DNS zone currently publishes no web records.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +138,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-102-6060 and follow the IVR to hotlist the card.",
-          "phone": "1800-102-6060",
+          "instructions": "Call 1800-419-6500 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-6500",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +156,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 04562-286888 and follow the IVR to hotlist the card.",
-          "phone": "04562-286888",
+          "instructions": "Call 1800 572 1916 and follow the IVR to hotlist the card.",
+          "phone": "1800 572 1916",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 44 - 66217600 and follow the IVR to hotlist the card.",
+          "phone": "+91 44 - 66217600",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +191,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@kvb.co.in from your registered email to request card blocking.",
-          "email": "customercare@kvb.co.in",
+          "instructions": "Email creditcardsupport@kvbmail.com from your registered email to request card blocking.",
+          "email": "creditcardsupport@kvbmail.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +208,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.kvb.co.in and use the card block/hotlist option.",
-          "url": "https://www.kvb.co.in",
+          "instructions": "Log in to internet banking at https://www.kvb.bank.in and use the card block/hotlist option.",
+          "url": "https://www.kvb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +225,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.kvb.mobilebanking | iOS: https://apps.apple.com/in/app/kvb-mobile-banking/id1162045282",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.kvb.mobilebanking | iOS: https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937",
           "urls": [
             "https://play.google.com/store/apps/details?id=com.kvb.mobilebanking",
-            "https://apps.apple.com/in/app/kvb-mobile-banking/id1162045282"
+            "https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +245,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Also known as Karnataka Bank. Via Karnataka Bank Mobile app.",
+          "instructions": "KVB Credit Cards (Retail/Corporate), per the bank's hotlisting PDF (verbatim): \"Request to block & reissue of card can be made through following channels: Mobile Banking (Dlite)/ Net Banking: Credit Cards -> My Cards -> Block Card -> Select Reason (Lost/ Stolen/ Damaged) -> Block Permanently; Helpline Number: 1800-419-6500 (Toll free); E-mail: creditcardsupport@kvbmail.com (Only on bank working days 10:00 AM-6:00 PM)\". Contact page, \"For Grievances Related to Corporate Credit Card\": \"24 hours helpline numbers: 1800 419 6500 (Local charges Applicable)\", e-mail creditcardsupport@kvb.bank.in and customersupport@kvb.bank.in. Bank-wide lines also apply: \"To report unauthorized / suspicious transactions / Loss / theft of card : 1800 572 1916 (Toll Free)\", \"Helpline (Domestic): 1860 258 1916 (Local charges Applicable)\", \"Helpline (Outside India): +91 44 - 66217600\"; the homepage footer mentions the \"National Cyber Crime Helpline Number: 1930\". No SMS block keyword/short code is published for KVB-issued credit cards on the fetched pages; the net-banking route above is the PDF's verbatim menu path and the PDF names no portal URL. The bank's homepage also links a separate hot-listing FAQ for co-branded KVB SBI credit cards (/docs/sbi-card-hot-listing-and-reissuance-faq.pdf).",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.kvb.co.in"
+            "https://www.kvb.bank.in/",
+            "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+            "https://www.kvb.bank.in/contact-us/",
+            "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +265,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.kvb.co.in"
+      "https://www.kvb.bank.in/",
+      "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+      "https://www.kvb.bank.in/contact-us/",
+      "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf"
     ]
   }
 }

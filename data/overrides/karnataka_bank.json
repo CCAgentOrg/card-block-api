@@ -1,0 +1,43 @@
+{
+  "id": "karnataka_bank",
+  "name": "Karnataka Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 425 1444",
+      "number1": "1800 572 8031",
+      "number2": "080-220 21555",
+      "website": "https://moneyclick.kbl.bank.in/BankAwayRetail/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=KBL&LANGUAGE_ID=001",
+      "email": "info@ktkbank.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.lcode.kblmbank",
+      "iosApp": "https://apps.apple.com/in/app/kbl-mobile-plus/id1448228023",
+      "reference": "https://www.karnatakabank.bank.in/customer-awareness",
+      "notes": "Customer care is 24x7 (the bank advertises a '24/7 Helpdesk at +91 1800 425 1444 (Toll-free)'); both 1800 lines are toll-free within India, 080-220 21555 is the published NRI line, and +91 802 202 1500 is the chargeable contact-centre number named in the bank's debit-card loss guidance. The bank instructs blocking a lost/stolen debit card 'using the Internet, mobile banking channels' (KBL MoneyClick netbanking or the KBL Mobile Plus app) but publishes no app menu path. No SMS hotlist format is published on official pages; missed-call lines 1800 425 1445 (balance) and 1800 425 1446 (mini statement) are not card-block channels."
+    },
+    "credit": {
+      "tollFree": "1800 425 1444",
+      "number1": "1800 572 8031",
+      "email": "info@ktkbank.com",
+      "reference": "https://www.karnatakabank.bank.in/support/faqs",
+      "notes": "The bank's lost/stolen guidance covers credit cards jointly with debit cards: email info@ktkbank.com detailing the situation or call the two toll-free numbers, which are advertised as a 24/7 helpdesk. No netbanking, app or SMS block path is published for credit cards. WhatsApp chat +91 9632188999 is listed on the contact page but is not advertised as a card-block channel."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.karnatakabank.bank.in/support/contact-us",
+      "label": "live fetch 2026-10-30: 'Call us' lists 1800 425 1444 (Toll free within India), 1800 572 8031 (Toll free within India), 080-220 21555 (NRI); WhatsApp 'Send a Hi to +91 9632188999'; Write-to-us email image info@ktkbank.com; missed-call numbers 1800 425 1445 (balance confirmation) and 1800 425 1446 (mini statement)."
+    },
+    {
+      "url": "https://www.karnatakabank.bank.in/support/faqs",
+      "label": "live fetch 2026-10-30: FAQ 'How can I report a lost or stolen debit/credit card?' — 'You can send an email to info@ktkbank.com detailing the situation ... call our toll-free customer numbers at 1800 425 1444 or 1800 572 8031.'"
+    },
+    {
+      "url": "https://www.karnatakabank.bank.in/customer-awareness",
+      "label": "live fetch 2026-10-30: 'Block the debit card immediately if it is lost or stolen using the Internet, mobile banking channels or contact our nearest branch or contact center at +91 1800 425 1444 (Toll-free), +91 802 202 1500'; '24/7 Helpdesk at +91 1800 425 1444 (Toll-free)'; fraud-email reports to isecurity@ktkbank.com; page header links the MoneyClick retail internet-banking login at moneyclick.kbl.bank.in."
+    },
+    {
+      "url": "https://www.karnatakabank.bank.in/support/raise-your-concerns",
+      "label": "live fetch 2026-10-30: 'Toll free numbers' +91 1800 425 1444 and +91 1800 572 8031; 'Download the KBL Mobile Plus app today' links Play Store com.lcode.kblmbank and App Store apps.apple.com/in/app/kbl-mobile-plus/id1448228023."
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}

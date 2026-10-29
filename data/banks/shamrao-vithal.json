@@ -2,7 +2,7 @@
   "name": "Shamrao Vithal Co-operative Bank (SVC Bank)",
   "slug": "shamrao-vithal",
   "type": "coop",
-  "website": "https://www.svcbank.com",
+  "website": "https://www.svc.bank.in/personal-netbanking",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 022-6180-0800 and follow the IVR to hotlist the card.",
-          "phone": "022-6180-0800",
+          "instructions": "Call 1800 313 2120 and follow the IVR to hotlist the card.",
+          "phone": "1800 313 2120",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.svcbank.com"
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -23,13 +26,35 @@
           }
         },
         {
-          "channel": "email",
-          "instructions": "Email customercare@svcbank.com from your registered email to request card blocking.",
-          "email": "customercare@svcbank.com",
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022 6699 9999 and follow the IVR to hotlist the card.",
+          "phone": "022 6699 9999",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.svcbank.com"
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022 7199 1000 and follow the IVR to hotlist the card.",
+          "phone": "022 7199 1000",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -38,12 +63,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.svcbank.com and use the card block/hotlist option.",
-          "url": "https://www.svcbank.com",
+          "instructions": "Log in to internet banking at https://www.svc.bank.in/personal-netbanking and use the card block/hotlist option.",
+          "url": "https://www.svc.bank.in/personal-netbanking",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.svcbank.com"
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -52,15 +80,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.svc.svcmobile | iOS: https://apps.apple.com/in/app/svc-bank-mobile/id1274016564",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.svcmobile.main | iOS: https://apps.apple.com/in/app/svc-mobile/id1143472268",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.svc.svcmobile",
-            "https://apps.apple.com/in/app/svc-bank-mobile/id1274016564"
+            "https://play.google.com/store/apps/details?id=com.svcmobile.main",
+            "https://apps.apple.com/in/app/svc-mobile/id1143472268"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.svcbank.com"
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Send the SMS 'STOPCARD' to 9820620454 from your Registered Mobile Number from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -69,11 +116,35 @@
         },
         {
           "channel": "other",
-          "instructions": "Via SVC Bank Mobile app: Cards > Block.",
+          "instructions": "SVC Care 1800 313 2120 is the bank's 24/7 toll-free helpline; the Block Debit Card page states 'Call SVC Bank's 24/7 toll-free helpline, SVC Care, on 1800 313 2120, to block your Debit Card'. 022 6699 9999 (Mumbai Head Office) and 022 7199 1000 (Thane Regional Office) are chargeable office lines published on the Contact Us page, not 24x7 hotlines; no overseas/NRI number is published on the pages fetched. SMS block: 'STOPCARD' to 9820620454 from the registered mobile number. NetBanking: log in and go Services -> 'Stop Debit Card' -> select the Account and Debit Card from the dropdowns -> click 'Blocked' against 'Status - Temporary' or 'Status - Permanent' -> OK on the confirmation prompt; the web channel is the Personal NetBanking page linked site-wide. Mobile app: the SVC Mobile app supports in-app blocking - 'Stop Debit Card: User can now permanently stop / block their Debit Card online via Mobile Application in case of suspicious / fraudulent Debit Card transaction/s'; the same page also links the newer SVC NXT app (Android com.svc.mobilenxt, Apple id6747172772). No email address for card-block requests is published on the pages fetched. The bank's own homepage does mention the national cybercrime helpline: 'Dial 1930 for online Financial Fraud' / 'Report scam: 1930 or Cyber Crime Portal'.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.svcbank.com"
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "credit",
+      "blocking_methods": [
+        {
+          "channel": "other",
+          "instructions": "SVC Bank issues a RuPay Credit Card - the homepage promotes 'Flat INR 2000 off on purchases above INR30,000 using RuPay Credit Card' (offer validity 31st December 2026) - but the official site publishes no credit-card product page and no credit-card-specific blocking channel: the only card service request listed in the site menu is 'Block Debit Card', and the STOPCARD SMS and card-redressal flows are documented for Debit Cards. The bank-wide 24/7 SVC Care helpline 1800 313 2120 (under 'debit') is the only published line applicable to a credit-card emergency. The old entry carried no credit section, so no credit channel was dropped.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -86,9 +157,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.svcbank.com"
+      "https://www.svc.bank.in/block-debit-card",
+      "https://www.svc.bank.in/contact-us",
+      "https://www.svc.bank.in/mobile-banking",
+      "https://www.svc.bank.in/"
     ]
   }
 }

@@ -1,0 +1,47 @@
+{
+  "id": "karur_vysya_bank",
+  "name": "Karur Vysya Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 572 1916",
+      "number1": "1860 258 1916",
+      "number2": "+91 44 - 66217600",
+      "sms": "SMS KVBCARD XXXX BLOCK to 56161, 9643739643 (or) 9643999643 (XXXX = Last 4 digits of your debit card)",
+      "email": "customersupport@kvb.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.kvb.mobilebanking",
+      "iosApp": "https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937",
+      "reference": "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+      "notes": "Debit-card hotlisting page (verbatim): \"HOTLIST THROUGH SMS - SMS KVBCARD XXXX BLOCK to 56161, 9643739643 (or) 9643999643 (XXXX = Last 4 digits of your debit card)\" (page does not say the SMS must come from the registered mobile number); \"Instant hot listing contact our HELPDESK at 1800 572 1916 (Toll free)\"; hotlisting can also be done through the \"KVB DLite\" or \"KVB e-book\" mobile applications (download and self-registration required) or at any nearby KVB branch. Contact page, \"Lost or Stolen Debit Card\": helpline 1860 258 1916 (Local charges Applicable) and email customersupport@kvb.bank.in; \"You can also contact the VISA Global Assistance Helpline if you are overseas\" (no number published) and the loss must be confirmed in writing. Bank-wide: \"Helpline (Domestic): 1860 258 1916 (Local charges Applicable)\", \"Helpline (Outside India): +91 44 - 66217600\", \"To report unauthorized / suspicious transactions / Loss / theft of card : 1800 572 1916 (Toll Free)\", and the \"National Cyber Crime Helpline Number: 1930\" is mentioned on the bank's homepage footer. No net-banking channel is listed for debit-card hotlisting on the fetched pages, and no 24x7/24-hours label is published for these lines (the only \"24 hours\" label found is the corporate credit-card line 1800 419 6500). KVB's corporate site has migrated from www.kvb.co.in to www.kvb.bank.in; the old domain's DNS zone currently publishes no web records."
+    },
+    "credit": {
+      "tollFree": "1800-419-6500",
+      "number1": "1800 572 1916",
+      "number2": "+91 44 - 66217600",
+      "email": "creditcardsupport@kvbmail.com",
+      "website": "https://www.kvb.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.kvb.mobilebanking",
+      "iosApp": "https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937",
+      "reference": "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf",
+      "notes": "KVB Credit Cards (Retail/Corporate), per the bank's hotlisting PDF (verbatim): \"Request to block & reissue of card can be made through following channels: Mobile Banking (Dlite)/ Net Banking: Credit Cards -> My Cards -> Block Card -> Select Reason (Lost/ Stolen/ Damaged) -> Block Permanently; Helpline Number: 1800-419-6500 (Toll free); E-mail: creditcardsupport@kvbmail.com (Only on bank working days 10:00 AM-6:00 PM)\". Contact page, \"For Grievances Related to Corporate Credit Card\": \"24 hours helpline numbers: 1800 419 6500 (Local charges Applicable)\", e-mail creditcardsupport@kvb.bank.in and customersupport@kvb.bank.in. Bank-wide lines also apply: \"To report unauthorized / suspicious transactions / Loss / theft of card : 1800 572 1916 (Toll Free)\", \"Helpline (Domestic): 1860 258 1916 (Local charges Applicable)\", \"Helpline (Outside India): +91 44 - 66217600\"; the homepage footer mentions the \"National Cyber Crime Helpline Number: 1930\". No SMS block keyword/short code is published for KVB-issued credit cards on the fetched pages; the net-banking route above is the PDF's verbatim menu path and the PDF names no portal URL. The bank's homepage also links a separate hot-listing FAQ for co-branded KVB SBI credit cards (/docs/sbi-card-hot-listing-and-reissuance-faq.pdf)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.kvb.bank.in/",
+      "label": "live fetch 2026-10-30 (homepage): footer contact block — \"Helpline (Domestic) : 1860 258 1916 (Local charges Applicable)\", \"Helpline (Outside India) : +91 44 - 66217600\", \"National Cyber Crime Helpline Number : 1930\", \"Contact : customersupport@kvb.bank.in\" (also customersupport@kvbmail.com), \"To report unauthorized / suspicious transactions / Loss / theft of card : 1800 572 1916 (Toll Free)\"; footer QR/store links to KVB DLite Android https://play.google.com/store/apps/details?id=com.kvb.mobilebanking and iOS https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937; footer links \"Debit Card Hotlisting\" (/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/), \"KVB Credit Card Hotlisting (Retail/Corporate)\" (/docs/kvb-credit-card-hotlisting.pdf) and \"KVB SBI Co branded Credit Card Hotlisting\" (/docs/sbi-card-hot-listing-and-reissuance-faq.pdf)"
+    },
+    {
+      "url": "https://www.kvb.bank.in/secure-banking/secure-banking-tips/secure-debit-cards/debit-card-hotlisting/",
+      "label": "live fetch 2026-10-30: \"IS YOUR CARD LOST / STOLEN?\" — \"HOTLIST THROUGH SMS: SMS KVBCARD XXXX BLOCK to 56161, 9643739643 (or) 9643999643 (XXXX = Last 4 digits of your debit card)\" (tel: links to 56161, 9643739643, 9643999643); \"Instant hot listing contact our HELPDESK at 1800 572 1916 (Toll free)\" (tel:18005721916); \"Card Hotlisting can also be done through 'KVB DLite' mobile application\" and \"through 'KVB e-book' mobile application (Requires mobile application download and self-registration)\"; \"You can also reach to the nearby KVB branches to hotlist / block your Debit card\""
+    },
+    {
+      "url": "https://www.kvb.bank.in/contact-us/",
+      "label": "live fetch 2026-10-30: \"Helpline (Domestic): 1860 258 1916 (Local charges Applicable)\"; \"Helpline (Outside India): +91 44 - 66217600\"; \"To report unauthorized / suspicious transactions / Loss / theft of card kindly contact our toll free number 1800 572 1916\"; \"Lost or Stolen Debit Card — Helpline Number: 1860 258 1916 (Local charges Applicable), E-mail: customersupport@kvb.bank.in; You can also contact the VISA Global Assistance Helpline if you are overseas. You must also confirm the loss in writing to KVB as soon as possible\"; \"For Grievances Related to Corporate Credit Card — 24 hours helpline numbers: 1800 419 6500 (Local charges Applicable), E-mail: creditcardsupport@kvb.bank.in, customersupport@kvb.bank.in\"; registered/central office phone 04324 - 269000; FASTag toll free 1800 102 1916"
+    },
+    {
+      "url": "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf",
+      "label": "live fetch 2026-10-30: \"KVB Credit Cards (Retail/Corporate) — How do I block my credit card? ... Request to block & reissue of card can be made through following channels: Mobile Banking (Dlite)/ Net Banking: Credit Cards -> My Cards -> Block Card -> Select Reason (Lost/ Stolen/ Damaged) -> Block Permanently; Helpline Number: 1800-419-6500 (Toll free); E-mail: creditcardsupport@kvbmail.com (Only on bank working days 10:00 AM-6:00 PM)\""
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}

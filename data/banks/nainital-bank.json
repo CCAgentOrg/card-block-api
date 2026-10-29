@@ -2,7 +2,7 @@
   "name": "Nainital Bank",
   "slug": "nainital-bank",
   "type": "private",
-  "website": "https://nainitalbank.co.in",
+  "website": "https://cms.nainitalbank.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-0251 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-0251",
+          "instructions": "Call 1800-180-4031 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-4031",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-180-2292 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-2292",
+          "instructions": "Call 05946-250152 and follow the IVR to hotlist the card.",
+          "phone": "05946-250152",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 8069840140 and follow the IVR to hotlist the card.",
+          "phone": "8069840140",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@nainitalbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@nainitalbank.co.in",
+          "instructions": "Email atmhelpdesk@nainitalbank.co.in from your registered email to request card blocking.",
+          "email": "atmhelpdesk@nainitalbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://nainitalbank.co.in and use the card block/hotlist option.",
-          "url": "https://nainitalbank.co.in",
+          "instructions": "Log in to internet banking at https://cms.nainitalbank.bank.in/ and use the card block/hotlist option.",
+          "url": "https://cms.nainitalbank.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.nainitalbank.app | iOS: https://apps.apple.com/in/app/nainital-bank/id1448902420",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps | iOS: https://www.apple.com/in/app-store/",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.nainitalbank.app",
-            "https://apps.apple.com/in/app/nainital-bank/id1448902420"
+            "https://play.google.com/store/apps",
+            "https://www.apple.com/in/app-store/"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Nainital Bank Mobile app: Debit Card > Block.",
+          "instructions": "Debit Card Help Desk toll-free 1800-180-4031 (also printed '1800 180 4031') is the 24x7 line for ATM/unauthorised/fraudulent-transaction grievances; landline 05946-250152 is the alternate 'To Block Debit Card instantly' number; 8069840140 is only for non-ATM queries, 10 AM-6 PM, dial with 0/+91 prefix, closed 2nd/4th Saturdays, Sundays and bank holidays. Lost-card FAQ action: call 1800-180-4031 or 05946-250152 to get the card blocked, or set the card limit to 'zero' temporarily via the Sarvatra CardSafe app (also shows card status active/block); androidApp/iosApp are the generic store links the debit-card page publishes, no app-specific deep link. Card T&C require a police report for lost/stolen cards, and the bank hotlists/cancels during working hours on a working day after intimation. The Debit Card Help Desk email atmhelpdesk@nainitalbank.co.in is published alongside the instant-block numbers. Unauthorised electronic transactions can be reported online via the bank's CGRMS portal cms.nainitalbank.bank.in (Digital Complaint: ATM/UPI/E-Com/POS/Mobile Banking). No SMS block format, no overseas numbers, and no netbanking card-block path are published; the bank's own pages do not mention 1930.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -101,87 +137,15 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-180-0251 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-0251",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 05942-230001 and follow the IVR to hotlist the card.",
-          "phone": "05942-230001",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@nainitalbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@nainitalbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://nainitalbank.co.in and use the card block/hotlist option.",
-          "url": "https://nainitalbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.nainitalbank.app | iOS: https://apps.apple.com/in/app/nainital-bank/id1448902420",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.nainitalbank.app",
-            "https://apps.apple.com/in/app/nainital-bank/id1448902420"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Via Nainital Bank Mobile app: Cards > Block.",
+          "instructions": "No credit-card product or credit-card blocking channel is published on the bank's official site: product navigation on every page and the sitemap list only a debit card and Kisan Credit Card agri-loan schemes. The old entry's credit channels (1800-180-0251, 05942-230001, customercare@nainitalbank.co.in) appear nowhere on the live official site. For any card-fraud grievance the bank's published general contact is the 24x7 line 1800 180 4031.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +158,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.nainitalbank.co.in/english/Contact_Us.aspx#Toll_Free"
+      "https://www.nainitalbank.bank.in/en/debit-card",
+      "https://www.nainitalbank.bank.in/en/pages/contact-us",
+      "https://www.nainitalbank.bank.in/en/pages/faq",
+      "https://cms.nainitalbank.bank.in/"
     ]
   }
 }

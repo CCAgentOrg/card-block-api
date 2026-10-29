@@ -2,7 +2,7 @@
   "name": "Saraswat Bank",
   "slug": "saraswat-bank",
   "type": "coop",
-  "website": "https://www.saraswatbank.com",
+  "website": "https://ebankingretail.saraswat.bank.in/mrb/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-266-5555 and follow the IVR to hotlist the card.",
-          "phone": "1800-266-5555",
+          "instructions": "Call 18002665555 / 1800229999 and follow the IVR to hotlist the card.",
+          "phone": "18002665555 / 1800229999",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-22-9999 and follow the IVR to hotlist the card.",
-          "phone": "1800-22-9999",
+          "instructions": "Call 022 41572070 and follow the IVR to hotlist the card.",
+          "phone": "022 41572070",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022 69933333 and follow the IVR to hotlist the card.",
+          "phone": "022 69933333",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@saraswatbank.com from your registered email to request card blocking.",
-          "email": "customercare@saraswatbank.com",
+          "instructions": "Email customersupport@saraswatbank.com from your registered email to request card blocking.",
+          "email": "customersupport@saraswatbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.saraswatbank.com and use the card block/hotlist option.",
-          "url": "https://www.saraswatbank.com",
+          "instructions": "Log in to internet banking at https://ebankingretail.saraswat.bank.in/mrb/ and use the card block/hotlist option.",
+          "url": "https://ebankingretail.saraswat.bank.in/mrb/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.saraswat.saraswatapp | iOS: https://apps.apple.com/in/app/saraswat-bank/id1398870954",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.saraswatbank.retailbanking | iOS: https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.saraswat.saraswatapp",
-            "https://apps.apple.com/in/app/saraswat-bank/id1398870954"
+            "https://play.google.com/store/apps/details?id=com.saraswatbank.retailbanking",
+            "https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS BLOCK (space) (last four digits of the specific card number) to 9223810000; example - BLOCK 1234 from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +133,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Saraswat mBanking app: Cards > Block.",
+          "instructions": "24/7 phone banking on toll-free 18002665555 / 1800229999 lists Card Hotlisting among its services. Separately, a 24-hour Help Desk for Visa Debit Card/Internet Banking/Mobile Banking queries answers 022 41572070 / 022 69933333 and reads customersupport@saraswatbank.com / customerservicecentre@saraswatbank.com. SMS Banking: 'BLOCK (space) (last four digits of the specific card number)' to 9223810000 permanently blocks that card and a fresh card must be applied for; 'BLOCK' alone permanently blocks all cards linked to the same Customer Number; 'UNLOCKCARD' to 9223810000 unblocks. Mobile path: the GOMO NxT app (published store links above, Application Name 'Saraswat Bank GOMO NxT') lists 'Mobile Banking Card Block' and 'Debit Card/ Credit Card services & limit management for cards'; netbanking publishes an 'Internet Banking Card Blocking' service at the New Retail Internet Banking login. No overseas helpline number is published on the pages fetched and no page mentions the 1930 national helpline.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,27 +155,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-266-5555 and follow the IVR to hotlist the card.",
-          "phone": "1800-266-5555",
+          "instructions": "Call 18002669545 and follow the IVR to hotlist the card.",
+          "phone": "18002669545",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 022-2830-3900 and follow the IVR to hotlist the card.",
-          "phone": "022-2830-3900",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +172,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@saraswatbank.com from your registered email to request card blocking.",
-          "email": "customercare@saraswatbank.com",
+          "instructions": "Email creditcards@saraswatbank.com from your registered email to request card blocking.",
+          "email": "creditcards@saraswatbank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +189,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.saraswatbank.com and use the card block/hotlist option.",
-          "url": "https://www.saraswatbank.com",
+          "instructions": "Log in to internet banking at https://ebankingretail.saraswat.bank.in/mrb/ and use the card block/hotlist option.",
+          "url": "https://ebankingretail.saraswat.bank.in/mrb/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +206,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.saraswat.saraswatapp | iOS: https://apps.apple.com/in/app/saraswat-bank/id1398870954",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.saraswatbank.retailbanking | iOS: https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.saraswat.saraswatapp",
-            "https://apps.apple.com/in/app/saraswat-bank/id1398870954"
+            "https://play.google.com/store/apps/details?id=com.saraswatbank.retailbanking",
+            "https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +226,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Toll-free: 1800-266-5555 / 1800-22-9999 (was unavailable). Via Saraswat mBanking app.",
+          "instructions": "Contact Us publishes the dedicated credit-card channel: write creditcards@saraswatbank.com or call the help line 18002669545; the general 24/7 phone-banking line 18002665555 / 1800229999 also lists Card Hotlisting among its services. The bank publishes no credit-card-specific SMS keyword. Credit-card blocking runs through the same GOMO NxT mobile app ('Mobile Banking Card Block', 'Debit Card/ Credit Card services & limit management for cards') and the New Retail Internet Banking login ('Internet Banking Card Blocking', 'Debit Card/ Credit Card services & limit management for cards'). No overseas helpline number is published on the pages fetched and no page mentions the 1930 national helpline.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+            "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+            "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+            "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +246,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.saraswatbank.com/index.aspx/FAQ.aspx"
+      "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+      "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+      "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+      "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application"
     ]
   }
 }

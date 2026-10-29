@@ -1,0 +1,39 @@
+{
+  "id": "shamrao_vithal",
+  "name": "Shamrao Vithal Co-operative Bank (SVC Bank)",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 313 2120",
+      "number1": "022 6699 9999",
+      "number2": "022 7199 1000",
+      "sms": "Send the SMS 'STOPCARD' to 9820620454 from your Registered Mobile Number",
+      "website": "https://www.svc.bank.in/personal-netbanking",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.svcmobile.main",
+      "iosApp": "https://apps.apple.com/in/app/svc-mobile/id1143472268",
+      "reference": "https://www.svc.bank.in/block-debit-card",
+      "notes": "SVC Care 1800 313 2120 is the bank's 24/7 toll-free helpline; the Block Debit Card page states 'Call SVC Bank's 24/7 toll-free helpline, SVC Care, on 1800 313 2120, to block your Debit Card'. 022 6699 9999 (Mumbai Head Office) and 022 7199 1000 (Thane Regional Office) are chargeable office lines published on the Contact Us page, not 24x7 hotlines; no overseas/NRI number is published on the pages fetched. SMS block: 'STOPCARD' to 9820620454 from the registered mobile number. NetBanking: log in and go Services -> 'Stop Debit Card' -> select the Account and Debit Card from the dropdowns -> click 'Blocked' against 'Status - Temporary' or 'Status - Permanent' -> OK on the confirmation prompt; the web channel is the Personal NetBanking page linked site-wide. Mobile app: the SVC Mobile app supports in-app blocking - 'Stop Debit Card: User can now permanently stop / block their Debit Card online via Mobile Application in case of suspicious / fraudulent Debit Card transaction/s'; the same page also links the newer SVC NXT app (Android com.svc.mobilenxt, Apple id6747172772). No email address for card-block requests is published on the pages fetched. The bank's own homepage does mention the national cybercrime helpline: 'Dial 1930 for online Financial Fraud' / 'Report scam: 1930 or Cyber Crime Portal'."
+    },
+    "credit": {
+      "notes": "SVC Bank issues a RuPay Credit Card - the homepage promotes 'Flat INR 2000 off on purchases above INR30,000 using RuPay Credit Card' (offer validity 31st December 2026) - but the official site publishes no credit-card product page and no credit-card-specific blocking channel: the only card service request listed in the site menu is 'Block Debit Card', and the STOPCARD SMS and card-redressal flows are documented for Debit Cards. The bank-wide 24/7 SVC Care helpline 1800 313 2120 (under 'debit') is the only published line applicable to a credit-card emergency. The old entry carried no credit section, so no credit channel was dropped."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.svc.bank.in/block-debit-card",
+      "label": "live fetch 2026-10-30: bank's official 'Block Debit Card' service-request page proves three channels - SMS: 'Send the SMS STOPCARD to 9820620454 from your Registered Mobile Number'; SVC Care: 'Call SVC Bank's 24/7 toll-free helpline, SVC Care, on 1800 313 2120, to block your Debit Card'; NetBanking: 'Log into SVC Bank NetBanking Account / Click on Services / Select Stop Debit Card / Select the Account from dropdown / Choose Debit Card from dropdown / Click on Blocked against Status - Temporary or Status - Permanent as per requirement / Click OK on prompt that confirms if you wish to block the card'."
+    },
+    {
+      "url": "https://www.svc.bank.in/contact-us",
+      "label": "live fetch 2026-10-30: Contact Numbers block proves 'SVC Care 1800 313 2120', 'Mumbai Head Office 022 6699 9999' and 'Thane Regional Office 022 7199 1000'; fraud advisory proves 'For Debit Card : STOPCARD to 9820620454' (alongside STOPUPI and STOPIB to the same number); the page publishes no email address and no overseas/NRI number."
+    },
+    {
+      "url": "https://www.svc.bank.in/mobile-banking",
+      "label": "live fetch 2026-10-30: page proves official store links for the SVC Mobile app https://play.google.com/store/apps/details?id=com.svcmobile.main and https://apps.apple.com/in/app/svc-mobile/id1143472268, and for the newer SVC NXT app https://play.google.com/store/apps/details?id=com.svc.mobilenxt and https://apps.apple.com/app/id6747172772; its service list proves in-app blocking: 'Stop Debit Card: User can now permanently stop / block their Debit Card online via Mobile Application in case of suspicious / fraudulent Debit Card transaction/s'."
+    },
+    {
+      "url": "https://www.svc.bank.in/",
+      "label": "live fetch 2026-10-30: homepage carousel proves the bank's own 1930 mentions - 'Dial 1930 for online Financial Fraud' and 'Report scam: 1930 or Cyber Crime Portal'; RuPay Credit Card promo 'Flat INR 2000 off on purchases above INR30,000 using RuPay Credit Card' with 'Offer Validity: 31st December 2026' proves credit-card issuance; site navigation links Personal NetBanking (https://www.svc.bank.in/personal-netbanking), the same SVC Mobile store links, and lists only 'Block Debit Card' as a card service request - no credit-card product or blocking page exists in the navigation."
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}
