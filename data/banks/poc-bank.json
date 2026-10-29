@@ -2,7 +2,7 @@
   "name": "Punjab and Sind Bank",
   "slug": "poc-bank",
   "type": "private",
-  "website": "https://www.punjabandsindbank.co.in",
+  "website": "https://psbunic.punjabandsind.bank.in/PSB/#/nliLanding",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-227-034 and follow the IVR to hotlist the card.",
-          "phone": "1800-227-034",
+          "instructions": "Call 1800-419-8300 and follow the IVR to hotlist the card.",
+          "phone": "1800-419-8300",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-180-8888 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-8888",
+          "instructions": "Call 1800 569 5577 and follow the IVR to hotlist the card.",
+          "phone": "1800 569 5577",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 011-25788401 +91-2245899049 (Call Centre 24*7) and follow the IVR to hotlist the card.",
+          "phone": "011-25788401 +91-2245899049 (Call Centre 24*7)",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@punjabandsindbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@punjabandsindbank.co.in",
+          "instructions": "Email ho.customerexcellence@psb.co.in from your registered email to request card blocking.",
+          "email": "ho.customerexcellence@psb.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.punjabandsindbank.co.in and use the card block/hotlist option.",
-          "url": "https://www.punjabandsindbank.co.in",
+          "instructions": "Log in to internet banking at https://psbunic.punjabandsind.bank.in/PSB/#/nliLanding and use the card block/hotlist option.",
+          "url": "https://psbunic.punjabandsind.bank.in/PSB/#/nliLanding",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.punjabandsind.app | iOS: https://apps.apple.com/in/app/punjab-sind-bank/id1526327863",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.psb.omnicorporate | iOS: https://apps.apple.com/in/app/psb-unic/id1597657276",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.punjabandsind.app",
-            "https://apps.apple.com/in/app/punjab-sind-bank/id1526327863"
+            "https://play.google.com/store/apps/details?id=com.psb.omnicorporate",
+            "https://apps.apple.com/in/app/psb-unic/id1597657276"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS LOST <space> <last 4 digits of your card number> (e.g.: LOST 1234) or LOST <space> <complete 14 digits account number> — send to 8828554038 from your registered mobile number for permanent blocking (hotlist); temporary block/unblock: TBLOCK <last 4 digits> / UBLOCK <last 4 digits> to 8828554038. from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +133,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via PSB ONE app: Debit Card > Block.",
+          "instructions": "The Card Block/Hotlisting page: for permanent blocking (lost/stolen) of an ATM/Debit card, SMS 'LOST <last 4 digits of card>' or 'LOST <14-digit account number>' to 8828554038 from the registered mobile number, or call 1800-419-8300, or use PSB UnIC Mobile or Internet Banking, or contact any PSB branch; temporary block/unblock via TBLOCK/UBLOCK SMS or PSB UnIC/branch. The customer-care page is titled 'PSB Customer Care - 24x7 Helpline & Support' and the footer marks the NRI overseas line 'Call Centre 24*7'. NRI lines: 1800 569 5577 toll-free (within India, NRI customers only) and 011-25788401 +91-2245899049 (outside India only). A WhatsApp number +91 77999 62838 sits beside the toll-free in the sitewide header. No app menu path for blocking is published — pages only say 'PSB UnIC Mobile or Internet Banking'; the homepage's 'Download PSB UnIC app' Google Play button targets the 'PSB UnIC Biz' listing (com.psb.omnicorporate) and the App Store button the PSB UnIC app. The Contact Us page publishes the HO customer-excellence email (shown obfuscated as ho[dot]customerexcellence[at]psb[dot]co[dot]in) — no dedicated card-block email is published. The footer also publishes 'In Case of Cyber Fraud Debit Freeze Your Account: 5616118'. The bank's site now lives at punjabandsind.bank.in; the former punjabandsindbank.co.in no longer resolves (NXDOMAIN on Google and Cloudflare DoH).",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -101,87 +153,15 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-227-034 and follow the IVR to hotlist the card.",
-          "phone": "1800-227-034",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 011-2718-0000 and follow the IVR to hotlist the card.",
-          "phone": "011-2718-0000",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@punjabandsindbank.co.in from your registered email to request card blocking.",
-          "email": "customercare@punjabandsindbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.punjabandsindbank.co.in and use the card block/hotlist option.",
-          "url": "https://www.punjabandsindbank.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.punjabandsind.app | iOS: https://apps.apple.com/in/app/punjab-sind-bank/id1526327863",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.punjabandsind.app",
-            "https://apps.apple.com/in/app/punjab-sind-bank/id1526327863"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Via PSB ONE digital banking app: Cards > Block.",
+          "instructions": "No credit-card blocking channel is published on the bank's own pages. Punjab & Sind Bank's credit cards are the 'PSB SBI Co-branded Credit Card' (PRIME/ELITE); its credit-cards page lists only fees and rewards — no block instructions, no credit-card helpline and no SBI Card contact — while the Card Block/Hotlisting page and the Contact page's hot-listing entry cover only ATM/Debit (RuPay) cards. The old entry's credit numbers (1800-227-034, 011-2718-0000) and email customercare@punjabandsindbank.co.in appear nowhere on the current official site; the all-India toll-free 1800-419-8300 listed under debit is the bank's published customer-care line, but no official page states it as a credit-card block channel.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.punjabandsindbank.co.in/customer-care"
+            "https://www.punjabandsind.bank.in/content/cardblockfacility",
+            "https://www.punjabandsind.bank.in/content/contact",
+            "https://www.punjabandsind.bank.in/",
+            "https://www.punjabandsind.bank.in/content/credit-cards"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +174,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.punjabandsindbank.co.in/customer-care"
+      "https://www.punjabandsind.bank.in/content/cardblockfacility",
+      "https://www.punjabandsind.bank.in/content/contact",
+      "https://www.punjabandsind.bank.in/",
+      "https://www.punjabandsind.bank.in/content/credit-cards"
     ]
   }
 }
