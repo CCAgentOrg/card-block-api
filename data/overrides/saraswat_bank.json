@@ -1,0 +1,46 @@
+{
+  "id": "saraswat_bank",
+  "name": "Saraswat Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "18002665555 / 1800229999",
+      "number1": "022 41572070",
+      "number2": "022 69933333",
+      "sms": "BLOCK (space) (last four digits of the specific card number) to 9223810000; example - BLOCK 1234",
+      "email": "customersupport@saraswatbank.com",
+      "website": "https://ebankingretail.saraswat.bank.in/mrb/",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.saraswatbank.retailbanking",
+      "iosApp": "https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982",
+      "reference": "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+      "notes": "24/7 phone banking on toll-free 18002665555 / 1800229999 lists Card Hotlisting among its services. Separately, a 24-hour Help Desk for Visa Debit Card/Internet Banking/Mobile Banking queries answers 022 41572070 / 022 69933333 and reads customersupport@saraswatbank.com / customerservicecentre@saraswatbank.com. SMS Banking: 'BLOCK (space) (last four digits of the specific card number)' to 9223810000 permanently blocks that card and a fresh card must be applied for; 'BLOCK' alone permanently blocks all cards linked to the same Customer Number; 'UNLOCKCARD' to 9223810000 unblocks. Mobile path: the GOMO NxT app (published store links above, Application Name 'Saraswat Bank GOMO NxT') lists 'Mobile Banking Card Block' and 'Debit Card/ Credit Card services & limit management for cards'; netbanking publishes an 'Internet Banking Card Blocking' service at the New Retail Internet Banking login. No overseas helpline number is published on the pages fetched and no page mentions the 1930 national helpline."
+    },
+    "credit": {
+      "tollFree": "18002669545",
+      "email": "creditcards@saraswatbank.com",
+      "website": "https://ebankingretail.saraswat.bank.in/mrb/",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.saraswatbank.retailbanking",
+      "iosApp": "https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982",
+      "reference": "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+      "notes": "Contact Us publishes the dedicated credit-card channel: write creditcards@saraswatbank.com or call the help line 18002669545; the general 24/7 phone-banking line 18002665555 / 1800229999 also lists Card Hotlisting among its services. The bank publishes no credit-card-specific SMS keyword. Credit-card blocking runs through the same GOMO NxT mobile app ('Mobile Banking Card Block', 'Debit Card/ Credit Card services & limit management for cards') and the New Retail Internet Banking login ('Internet Banking Card Blocking', 'Debit Card/ Credit Card services & limit management for cards'). No overseas helpline number is published on the pages fetched and no page mentions the 1930 national helpline."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
+      "label": "live fetch 2026-10-30: '24/7 Phone Banking Service - Toll Free No.: 18002665555 / 1800229999 - Services: Card Hotlisting ...' proves the toll-free hotlist lines; 'For queries related to Visa Debit Card/Internet Banking/Mobile Banking, contact Help Desk (24 - hour): Call: 022 41572070 / 022 69933333, Email: customersupport@saraswatbank.com, customerservicecentre@saraswatbank.com' proves the debit help desk numbers and emails; 'For Credit Card related queries Write us on creditcards@saraswatbank.com or call on our help line number 18002669545' proves the credit helpline and email; header e-Banking dropdown links 'New Retail Internet Banking' to https://ebankingretail.saraswat.bank.in/mrb/."
+    },
+    {
+      "url": "https://www.saraswat.bank.in/content.aspx?id=SMS-Banking",
+      "label": "live fetch 2026-10-30: SMS Based Services table proves 'Blocking of Specific Card: Send keyword as BLOCK (space) (last four digits of the specific card number) to 9223810000, Example - BLOCK 1234' (card permanently blocked, fresh card to be applied for), 'Blocking of Multiple Cards (Permanent Block): Send keyword as BLOCK to 9223810000' (all cards on the same Customer Number) and 'Unblocking of card: Send keyword as UNLOCKCARD to 9223810000'; adjacent rows are Debit Card services (e.g. ONLINE <space> last 4 digits of the Debit Card)."
+    },
+    {
+      "url": "https://www.saraswat.bank.in/content.aspx?id=GOMO-NxT-Mobile-Banking",
+      "label": "live fetch 2026-10-30: GOMO NxT service list proves 'Mobile Banking Card Block' and key feature 'Debit Card/ Credit Card services & limit management for cards'; download section proves Android link https://play.google.com/store/apps/details?id=com.saraswatbank.retailbanking (Application Name: Saraswat Bank GOMO NxT, SHA-256 checksum published) and iOS link https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982."
+    },
+    {
+      "url": "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application",
+      "label": "live fetch 2026-10-30: New Retail Internet Banking service list proves 'Internet Banking Card Blocking' and 'Debit Card/ Credit Card services & limit management for cards'; page links the retail netbanking login https://ebankingretail.saraswat.bank.in/mrb/."
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}
