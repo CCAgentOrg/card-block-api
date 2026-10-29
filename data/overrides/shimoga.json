@@ -1,0 +1,39 @@
+{
+  "id": "shimoga",
+  "name": "Jana Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 2080",
+      "number1": "1800 4200",
+      "number2": "+91 8065 662000",
+      "website": "https://ebanking.jana.bank.in/ib-retail-web/tenant/index",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.janabank.mtc",
+      "iosApp": "https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8",
+      "email": "customercare@jana.bank.in",
+      "reference": "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+      "notes": "Banking Customer Care toll-free 1800 2080 is published as 24x7 and is the number the debit-card page names for blocking ('You can also block your debit card by calling our Customer Care at: 1800 2080 (Toll-free)'). The fraud-reporting page gives both published numbers for reporting a fraudulent transaction: Banking Toll Free 1800 2080 (24/7) or MFI Toll Free 1800 4200 (7 a.m. to 10 p.m.). Customers calling from abroad are directed to +91 8065 662000. No SMS block format is published. In the mobile app or internet banking (ebanking.jana.bank.in): Services -> Debit Card Management -> 'Block Card' (temporary) or 'Hotlist Card' (permanent), select the card number, enter the OTP sent to the registered mobile number and Submit. The published customer-care email is customercare@jana.bank.in. The bank's site now lives at jana.bank.in (www.janabank.com redirects there). The bank's own pages do not mention the national cybercrime helpline 1930."
+    },
+    "credit": {
+      "notes": "No credit-card product or credit-card blocking channel is published: the bank's Cards section lists only the RuPay Debit Card, https://www.jana.bank.in/credit-cards/ returned 404 in the same live check, and the only 'credit card' mentions on the FAQ page are generic mobile-banking copy (e.g. changing a 'debit/credit card pin'). The earlier entry's credit-card numbers (1800-102-3456, 080-6956-8800) appear nowhere on the current official site; the banking customer-care lines under 'debit' are the bank's published reporting channels."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+      "label": "live fetch 2026-10-30: 'Lost or Misplaced Your Debit Card? Here's How to Block It' — block instantly via Mobile Banking (MB) or Internet Banking (IB): Login -> 'Services' -> 'Debit Card Management' -> 'Block Card' (temporary) / 'Hotlist Card' (permanent) -> select card number -> OTP on registered mobile -> Submit; 'Need Help? You can also block your debit card by calling our Customer Care at: 1800 2080 (Toll-free)'; footer: 'Customer Care Banking Toll-free No.: 1800 2080 (24x7)', email customercare@jana.bank.in, 'Registered Office No.: 080-46020100', 'MFI Toll Free No.: 1800 4200 (7 a.m. to 10 p.m.)'; page links internet banking login https://ebanking.jana.bank.in/ib-retail-web/tenant/index"
+    },
+    {
+      "url": "https://www.jana.bank.in/contact-us/",
+      "label": "live fetch 2026-10-30: 'Customer Care Banking Toll-free No.: 1800 2080 (24x7)'; 'MFI Toll Free: 1800 4200'; 'Customers calling from abroad can reach us on +91 8065 662000'; email customercare@jana.bank.in; Grievance.redressal@jana.bank.in and nodal.officer@jana.bank.in; NEFT/RTGS queries toll-free 18002080; the '+91 80 4152 5770' fax line is commented out in the page HTML and not published"
+    },
+    {
+      "url": "https://www.jana.bank.in/fraud-reporting-page/",
+      "label": "live fetch 2026-10-30: 'To report a fraudulent transaction, kindly call our customer care for immediate action. Banking Toll Free Number: 1800 2080 (24/7) OR MFI Toll Free Number: 1800 4200 (7 a.m. to 10 p.m.)'; plus a web form ('Fill in the below form to report a fraud') and the advisory to notify the bank at the earliest about unauthorized electronic banking transactions; no mention of 1930"
+    },
+    {
+      "url": "https://www.jana.bank.in/online-banking/mobile-banking/",
+      "label": "live fetch 2026-10-30: official app links https://play.google.com/store/apps/details?id=com.janabank.mtc and https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8; visible Debit Card Management features include 'Temporary Block/ Unblock Debit Card' and 'Permanent Block Debit Card'; the page's Service Request list shows only 'Raise Request for Cheque Book / Stop issued cheque / Request for change in Email ID / Positive Pay' — a 'Block Card' item exists only inside an HTML comment and is not published, so it is not cited"
+    }
+  ],
+  "lastVerified": "2026-10-30"
+}

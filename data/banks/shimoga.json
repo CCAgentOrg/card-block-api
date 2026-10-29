@@ -2,7 +2,7 @@
   "name": "Jana Small Finance Bank",
   "slug": "shimoga",
   "type": "private",
-  "website": "https://www.janabank.com",
+  "website": "https://ebanking.jana.bank.in/ib-retail-web/tenant/index",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-102-3456 and follow the IVR to hotlist the card.",
-          "phone": "1800-102-3456",
+          "instructions": "Call 1800 2080 and follow the IVR to hotlist the card.",
+          "phone": "1800 2080",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.janabank.com"
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-419-3456 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-3456",
+          "instructions": "Call 1800 4200 and follow the IVR to hotlist the card.",
+          "phone": "1800 4200",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.janabank.com"
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91 8065 662000 and follow the IVR to hotlist the card.",
+          "phone": "+91 8065 662000",
+          "confidence": 0.85,
+          "last_verified": "2026-10-30",
+          "sources": [
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@janabank.com from your registered email to request card blocking.",
-          "email": "customercare@janabank.com",
+          "instructions": "Email customercare@jana.bank.in from your registered email to request card blocking.",
+          "email": "customercare@jana.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.janabank.com"
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.janabank.com and use the card block/hotlist option.",
-          "url": "https://www.janabank.com",
+          "instructions": "Log in to internet banking at https://ebanking.jana.bank.in/ib-retail-web/tenant/index and use the card block/hotlist option.",
+          "url": "https://ebanking.jana.bank.in/ib-retail-web/tenant/index",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.janabank.com"
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.jana.app | iOS: https://apps.apple.com/in/app/jana-bank/id1267739401",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.janabank.mtc | iOS: https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.jana.app",
-            "https://apps.apple.com/in/app/jana-bank/id1267739401"
+            "https://play.google.com/store/apps/details?id=com.janabank.mtc",
+            "https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.janabank.com"
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Jana Bank Mobile app: Debit Card > Block.",
+          "instructions": "Banking Customer Care toll-free 1800 2080 is published as 24x7 and is the number the debit-card page names for blocking ('You can also block your debit card by calling our Customer Care at: 1800 2080 (Toll-free)'). The fraud-reporting page gives both published numbers for reporting a fraudulent transaction: Banking Toll Free 1800 2080 (24/7) or MFI Toll Free 1800 4200 (7 a.m. to 10 p.m.). Customers calling from abroad are directed to +91 8065 662000. No SMS block format is published. In the mobile app or internet banking (ebanking.jana.bank.in): Services -> Debit Card Management -> 'Block Card' (temporary) or 'Hotlist Card' (permanent), select the card number, enter the OTP sent to the registered mobile number and Submit. The published customer-care email is customercare@jana.bank.in. The bank's site now lives at jana.bank.in (www.janabank.com redirects there). The bank's own pages do not mention the national cybercrime helpline 1930.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.janabank.com"
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -101,87 +137,15 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-102-3456 and follow the IVR to hotlist the card.",
-          "phone": "1800-102-3456",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.janabank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 080-6956-8800 and follow the IVR to hotlist the card.",
-          "phone": "080-6956-8800",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.janabank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@janabank.com from your registered email to request card blocking.",
-          "email": "customercare@janabank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.janabank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.janabank.com and use the card block/hotlist option.",
-          "url": "https://www.janabank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.janabank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.jana.app | iOS: https://apps.apple.com/in/app/jana-bank/id1267739401",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.jana.app",
-            "https://apps.apple.com/in/app/jana-bank/id1267739401"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.janabank.com"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Via Jana Bank Mobile app: Cards > Block.",
+          "instructions": "No credit-card product or credit-card blocking channel is published: the bank's Cards section lists only the RuPay Debit Card, https://www.jana.bank.in/credit-cards/ returned 404 in the same live check, and the only 'credit card' mentions on the FAQ page are generic mobile-banking copy (e.g. changing a 'debit/credit card pin'). The earlier entry's credit-card numbers (1800-102-3456, 080-6956-8800) appear nowhere on the current official site; the banking customer-care lines under 'debit' are the bank's published reporting channels.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.janabank.com"
+            "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+            "https://www.jana.bank.in/contact-us/",
+            "https://www.jana.bank.in/fraud-reporting-page/",
+            "https://www.jana.bank.in/online-banking/mobile-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +158,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.janabank.com"
+      "https://www.jana.bank.in/debit-cards/rupay-debit-card/",
+      "https://www.jana.bank.in/contact-us/",
+      "https://www.jana.bank.in/fraud-reporting-page/",
+      "https://www.jana.bank.in/online-banking/mobile-banking/"
     ]
   }
 }
