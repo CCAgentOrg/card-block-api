@@ -2,20 +2,23 @@
   "name": "NSDL Payment Bank",
   "slug": "nordic-bank",
   "type": "private",
-  "website": "https://www.npb.co.in",
+  "website": "https://nsdlpayments.bank.in",
   "cards": [
     {
       "type": "debit",
       "blocking_methods": [
         {
           "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-222-880 and follow the IVR to hotlist the card.",
-          "phone": "1800-222-880",
+          "label": "alternate",
+          "instructions": "Call 022-42022100 and follow the IVR to hotlist the card.",
+          "phone": "022-42022100",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.npb.co.in"
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-22-2432-8800 and follow the IVR to hotlist the card.",
-          "phone": "+91-22-2432-8800",
+          "instructions": "Call 022-69787301 and follow the IVR to hotlist the card.",
+          "phone": "022-69787301",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.npb.co.in"
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email support@npb.co.in from your registered email to request card blocking.",
-          "email": "support@npb.co.in",
+          "instructions": "Email care@nsdlbank.co.in from your registered email to request card blocking.",
+          "email": "care@nsdlbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.npb.co.in"
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.npb.co.in and use the card block/hotlist option.",
-          "url": "https://www.npb.co.in",
+          "instructions": "Log in to internet banking at https://nsdlpayments.bank.in and use the card block/hotlist option.",
+          "url": "https://nsdlpayments.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.npb.co.in"
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +79,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.nsdl.n21 | iOS: https://apps.apple.com/in/app/nsdl-bank/id1489539224",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.nsdlpb.jiffy | iOS: https://apps.apple.com/in/app/nsdl-jiffy/id1519816505",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.nsdl.n21",
-            "https://apps.apple.com/in/app/nsdl-bank/id1489539224"
+            "https://play.google.com/store/apps/details?id=com.nsdlpb.jiffy",
+            "https://apps.apple.com/in/app/nsdl-jiffy/id1519816505"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.npb.co.in"
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +99,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via NSDL Payment Bank app: Cards > Block.",
+          "instructions": "No toll-free line and no SMS block shortcode are published; customer care is the chargeable Mumbai pair 022-42022100 / 022-69787301 (contact page labels them 'Banking:', available Monday-Sunday 9.00 am-9.00 pm). The blocking PDF's IVR flow: press 1 English / 2 Hindi, press 0 to report a lost card or suspicious transaction, press 1 to temporarily block or 2 to permanently block (then 1 to continue) - an SMS confirmation is sent to the registered mobile number. A separate 'Debit card (IVR)' line 02269160500 (Monday-Sunday 9.00 am-9.00 pm) carries 'Block Card - Temporary/Permanent' and 'To temporary block Debit card' among options the bank says are available 24X7. No overseas helpline is published. App path (NSDL Jiffy): Menu (3 lines, top left) > Cards > Manage Card > Temporary Block Card > Confirm; FAQ lists unblock at Card Section | Manage your card | Unblock, and a permanent block cannot be reversed. No separate netbanking block path is published - the PDF footer's www.nsdlbank.com redirects to nsdlpayments.bank.in, whose portal link is https://nsdljiffy.co.in/jiffyservice/home. Prepaid cards (separate product): +91 22-42022190 / +91 22-69787303, prepaid-card unauthorized-transaction reports to prepaid.service@nsdlbank.co.in. The bank's own pages direct fraud victims to the National Cyber Crime helpline 1930 and https://cybercrime.gov.in. Card products are RuPay Platinum and Visa Classic debit cards plus prepaid cards only - as a payments bank it issues no credit cards, so no credit section is recorded. Old npb.co.in domain no longer serves the bank's site; current domain identified from RBI's official Banks-in-India registry (nsdlpayments.bank.in).",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-30",
           "sources": [
-            "https://www.npb.co.in"
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -101,9 +119,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-30",
     "sources": [
-      "https://www.npb.co.in"
+      "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+      "https://nsdlpayments.bank.in/contact_us.php",
+      "https://nsdlpayments.bank.in/reporting_transactions.php",
+      "https://nsdlpayments.bank.in/frequently_asked_questions.php"
     ]
   }
 }
