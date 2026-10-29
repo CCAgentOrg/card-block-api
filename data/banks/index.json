@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-27",
+  "updated": "2026-10-30",
   "count": 61,
   "freshness": {
-    "fresh": 15,
+    "fresh": 25,
     "aging": 16,
-    "stale": 30
+    "stale": 20
   },
   "banks": [
     {
@@ -397,9 +397,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 8,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "karnataka-bank",
@@ -409,9 +409,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 11,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "karur-vysya-bank",
@@ -421,9 +421,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "kerala-gramin-bank",
@@ -457,9 +457,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 8,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "north-east-sfb",
@@ -482,7 +482,7 @@
       ],
       "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "paytm-payments",
@@ -491,9 +491,9 @@
       "card_types": [
         "debit"
       ],
-      "method_count": 6,
+      "method_count": 3,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "poc-bank",
@@ -503,9 +503,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 9,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "pnb",
@@ -551,9 +551,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "sbm",
@@ -571,11 +571,12 @@
       "name": "Shamrao Vithal Co-operative Bank (SVC Bank)",
       "type": "coop",
       "card_types": [
-        "debit"
+        "debit",
+        "credit"
       ],
-      "method_count": 5,
+      "method_count": 8,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "south-indian-bank",
@@ -585,9 +586,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 10,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-30"
     },
     {
       "slug": "standard-chartered",
