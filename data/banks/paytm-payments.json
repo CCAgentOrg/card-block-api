@@ -9,25 +9,8 @@
       "blocking_methods": [
         {
           "channel": "email",
-          "instructions": "Email ol@paytmbank.com from your registered email to request card blocking.",
+          "instructions": "Email ol@paytmbank.com for queries (see notes).",
           "email": "ol@paytmbank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-10-30",
-          "sources": [
-            "https://www.paytm.bank.in/",
-            "https://www.paytm.bank.in/assets/RBI-cancels-Licence-of-Paytm-Payments-Bank-Limited-Bank.pdf",
-            "https://www.paytm.bank.in/assets/Order-08.07.2026-High-Court-of-Delhi.pdf",
-            "https://clearance-desk.paytmbank.com/"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.paytm.bank.in and use the card block/hotlist option.",
-          "url": "https://www.paytm.bank.in",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
           "sources": [

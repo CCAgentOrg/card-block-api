@@ -26,7 +26,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1860 210 1200 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1860 210 1200 (alternate line — see notes).",
           "phone": "1860 210 1200",
           "confidence": 0.85,
           "last_verified": "2026-09-25",
@@ -42,7 +42,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91 22 5079 5101 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91 22 5079 5101 (alternate line — see notes).",
           "phone": "+91 22 5079 5101",
           "confidence": 0.85,
           "last_verified": "2026-09-25",
@@ -108,7 +108,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1860 210 1200 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1860 210 1200 (alternate line — see notes).",
           "phone": "1860 210 1200",
           "confidence": 0.85,
           "last_verified": "2026-09-25",
@@ -124,7 +124,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91 22 4935 0000 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91 22 4935 0000 (alternate line — see notes).",
           "phone": "+91 22 4935 0000",
           "confidence": 0.85,
           "last_verified": "2026-09-25",

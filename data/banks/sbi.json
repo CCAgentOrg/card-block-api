@@ -26,7 +26,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-425-3800 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800-425-3800 (alternate line — see notes).",
           "phone": "1800-425-3800",
           "confidence": 0.85,
           "last_verified": "2026-09-04",
@@ -42,7 +42,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-111-1109 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800-111-1109 (alternate line — see notes).",
           "phone": "1800-111-1109",
           "confidence": 0.85,
           "last_verified": "2026-09-04",
@@ -141,7 +141,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1860-180-1290 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1860-180-1290 (alternate line — see notes).",
           "phone": "1860-180-1290",
           "confidence": 0.85,
           "last_verified": "2026-09-04",
@@ -157,7 +157,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 040-6717-7777 and follow the IVR to hotlist the card.",
+          "instructions": "Call 040-6717-7777 (alternate line — see notes).",
           "phone": "040-6717-7777",
           "confidence": 0.85,
           "last_verified": "2026-09-04",

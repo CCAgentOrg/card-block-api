@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 033-6633-3333 and follow the IVR to hotlist the card.",
+          "instructions": "Call 033-6633-3333 (alternate line — see notes).",
           "phone": "033-6633-3333",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 033-4409-9090 and follow the IVR to hotlist the card.",
+          "instructions": "Call 033-4409-9090 (alternate line — see notes).",
           "phone": "033-4409-9090",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -189,7 +189,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 033-6633-3333 and follow the IVR to hotlist the card.",
+          "instructions": "Call 033-6633-3333 (alternate line — see notes).",
           "phone": "033-6633-3333",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -207,7 +207,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 033-4409-9090 and follow the IVR to hotlist the card.",
+          "instructions": "Call 033-4409-9090 (alternate line — see notes).",
           "phone": "033-4409-9090",
           "confidence": 0.85,
           "last_verified": "2026-10-27",

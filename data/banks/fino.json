@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800 268 1000 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800 268 1000 (alternate line — see notes).",
           "phone": "1800 268 1000",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-6868 1414 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022-6868 1414 (alternate line — see notes).",
           "phone": "022-6868 1414",
           "confidence": 0.85,
           "last_verified": "2026-10-27",

@@ -475,7 +475,7 @@
     },
     {
       "slug": "nordic-bank",
-      "name": "NSDL Payment Bank",
+      "name": "NSDL Payments Bank",
       "type": "private",
       "card_types": [
         "debit"
@@ -491,7 +491,7 @@
       "card_types": [
         "debit"
       ],
-      "method_count": 3,
+      "method_count": 2,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-30"
     },

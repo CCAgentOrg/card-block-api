@@ -15,7 +15,7 @@
     "aging": 16,
     "stale": 20
   },
-  "total_methods": 649,
+  "total_methods": 648,
   "card_types": [
     "debit",
     "credit"

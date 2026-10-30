@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-890-2922 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800-890-2922 (alternate line — see notes).",
           "phone": "1800-890-2922",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-194-2481936, 2481953 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91-194-2481936, 2481953 (alternate line — see notes).",
           "phone": "+91-194-2481936, 2481953",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -137,7 +137,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0194 2481936 or 0194-2481953 and follow the IVR to hotlist the card.",
+          "instructions": "Call 0194 2481936 or 0194-2481953 (alternate line — see notes).",
           "phone": "0194 2481936 or 0194-2481953",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -155,7 +155,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0194-2482463, 2486424 and follow the IVR to hotlist the card.",
+          "instructions": "Call 0194-2482463, 2486424 (alternate line — see notes).",
           "phone": "0194-2482463, 2486424",
           "confidence": 0.85,
           "last_verified": "2026-10-27",

@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-209-4324 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800-209-4324 (alternate line — see notes).",
           "phone": "1800-209-4324",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-67719100 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022-67719100 (alternate line — see notes).",
           "phone": "022-67719100",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -156,7 +156,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800226999 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800226999 (alternate line — see notes).",
           "phone": "1800226999",
           "confidence": 0.85,
           "last_verified": "2026-10-27",
@@ -174,7 +174,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-67719100 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022-67719100 (alternate line — see notes).",
           "phone": "022-67719100",
           "confidence": 0.85,
           "last_verified": "2026-10-27",

@@ -6,25 +6,26 @@
       "website": "https://www.paytm.bank.in",
       "email": "ol@paytmbank.com",
       "reference": "https://www.paytm.bank.in/",
-      "notes": "Bank is in liquidation — no blocking channel is published anywhere on its live official site. RBI cancelled PPBL's banking licence under Section 22(4) BR Act effective close of business 24 Apr 2026 (Press Release 2026-2027/143), and the Delhi High Court ordered its winding up on 8 Jul 2026 (Official Liquidator: Girikumar M. Nair). The only live official page (www.paytm.bank.in — paytmbank.com redirects there; every other path returns CloudFront 403 and all footer links such as Contact Us / Report a Fraud / Debit & ATM Card are dead javascript:void(0)) publishes no phone number, no SMS short code, no netbanking and no block/hotlist instruction; it states 'The PPBL mobile application is currently not available for use'. Write to ol@paytmbank.com or nodalofficer@paytmbank.com 'about your concerns'; depositor claims are deemed filed in the winding up and customers must wait for the official claim-process communication on paytm.bank.in. The old 0120-3888-388, 1800-1800-1091 and support@paytmbank.com no longer appear on any official page and were dropped. Payments bank: its own FAQ says it 'cannot issue loans or credit cards', so no credit section. The bank's pages do not mention 1930."
+      "notes": "Bank is in liquidation \u2014 no blocking channel is published anywhere on its live official site. RBI cancelled PPBL's banking licence under Section 22(4) BR Act effective close of business 24 Apr 2026 (Press Release 2026-2027/143), and the Delhi High Court ordered its winding up on 8 Jul 2026 (Official Liquidator: Girikumar M. Nair). The only live official page (www.paytm.bank.in \u2014 paytmbank.com redirects there; every other path returns CloudFront 403 and all footer links such as Contact Us / Report a Fraud / Debit & ATM Card are dead javascript:void(0)) publishes no phone number, no SMS short code, no netbanking and no block/hotlist instruction; it states 'The PPBL mobile application is currently not available for use'. Write to ol@paytmbank.com or nodalofficer@paytmbank.com 'about your concerns'; depositor claims are deemed filed in the winding up and customers must wait for the official claim-process communication on paytm.bank.in. The old 0120-3888-388, 1800-1800-1091 and support@paytmbank.com no longer appear on any official page and were dropped. Payments bank: its own FAQ says it 'cannot issue loans or credit cards', so no credit section. The bank's pages do not mention 1930.",
+      "inactive": true
     }
   },
   "sources": [
     {
       "url": "https://www.paytm.bank.in/",
-      "label": "live fetch 2026-10-30: winding-up homepage — RBI licence cancelled effective close of business 24 Apr 2026; Delhi HC winding-up order dated 8 Jul 2026, OL Girikumar M. Nair; 'The PPBL mobile application is currently not available for use'; 'You may write to us about your concerns at ol@paytmbank.com or nodalofficer@paytmbank.com'; page contains no phone number, SMS code or card block/hotlist instruction (verified by grep: zero phone-pattern matches); footer Contact Us / Report a Fraud / Debit & ATM Card links are javascript:void(0); FAQ: a payments bank 'cannot issue loans or credit cards'"
+      "label": "live fetch 2026-10-30: winding-up homepage \u2014 RBI licence cancelled effective close of business 24 Apr 2026; Delhi HC winding-up order dated 8 Jul 2026, OL Girikumar M. Nair; 'The PPBL mobile application is currently not available for use'; 'You may write to us about your concerns at ol@paytmbank.com or nodalofficer@paytmbank.com'; page contains no phone number, SMS code or card block/hotlist instruction (verified by grep: zero phone-pattern matches); footer Contact Us / Report a Fraud / Debit & ATM Card links are javascript:void(0); FAQ: a payments bank 'cannot issue loans or credit cards'"
     },
     {
       "url": "https://www.paytm.bank.in/assets/RBI-cancels-Licence-of-Paytm-Payments-Bank-Limited-Bank.pdf",
-      "label": "live fetch 2026-10-30: RBI Press Release 2026-2027/143 dated 24 Apr 2026 — banking licence cancelled under Section 22(4) BR Act; PPBL 'prohibited from conducting the business of banking ... with immediate effect'"
+      "label": "live fetch 2026-10-30: RBI Press Release 2026-2027/143 dated 24 Apr 2026 \u2014 banking licence cancelled under Section 22(4) BR Act; PPBL 'prohibited from conducting the business of banking ... with immediate effect'"
     },
     {
       "url": "https://www.paytm.bank.in/assets/Order-08.07.2026-High-Court-of-Delhi.pdf",
-      "label": "live fetch 2026-10-30: Delhi High Court order dated 8 Jul 2026 in CO.PET. 3/2026 — winding up under Sections 38 and 39 BR Act; Shri Girikumar M. Nair appointed Official Liquidator with all powers of the Board"
+      "label": "live fetch 2026-10-30: Delhi High Court order dated 8 Jul 2026 in CO.PET. 3/2026 \u2014 winding up under Sections 38 and 39 BR Act; Shri Girikumar M. Nair appointed Official Liquidator with all powers of the Board"
     },
     {
       "url": "https://clearance-desk.paytmbank.com/",
-      "label": "live fetch 2026-10-30: official creditor-claim portal ('Creditor Claim Submission — Paytm Payments Bank Limited'), claims-submission SPA only — no customer-care or card-block content"
+      "label": "live fetch 2026-10-30: official creditor-claim portal ('Creditor Claim Submission \u2014 Paytm Payments Bank Limited'), claims-submission SPA only \u2014 no customer-care or card-block content"
     }
   ],
   "lastVerified": "2026-10-30"

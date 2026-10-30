@@ -1610,7 +1610,7 @@
   },
   "nordic_bank": {
     "id": "nordic_bank",
-    "name": "NSDL Payment Bank",
+    "name": "NSDL Payments Bank",
     "logo": "/static/logos/nordic_bank.svg",
     "ifsc": "NPB0000001",
     "blockingInstructions": {

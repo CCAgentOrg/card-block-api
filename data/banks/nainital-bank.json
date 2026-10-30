@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 05946-250152 and follow the IVR to hotlist the card.",
+          "instructions": "Call 05946-250152 (alternate line — see notes).",
           "phone": "05946-250152",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 8069840140 and follow the IVR to hotlist the card.",
+          "instructions": "Call 8069840140 (alternate line — see notes).",
           "phone": "8069840140",
           "confidence": 0.85,
           "last_verified": "2026-10-30",

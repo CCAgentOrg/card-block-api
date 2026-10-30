@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800 102 9408 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800 102 9408 (alternate line — see notes).",
           "phone": "1800 102 9408",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91 484 2388555 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91 484 2388555 (alternate line — see notes).",
           "phone": "+91 484 2388555",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -119,7 +119,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 18002109111 and follow the IVR to hotlist the card.",
+          "instructions": "Call 18002109111 (alternate line — see notes).",
           "phone": "18002109111",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
