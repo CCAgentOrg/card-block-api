@@ -23,6 +23,13 @@
       "notes": "24x7 IVR blocking. Kotak Mobile app: Settings > Debit Card > Block. 24x7 fraud reporting helpline: 1800-209-0000.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.msf.kbx.mobile",
       "iosApp": "https://apps.apple.com/in/app/kotak-mobile-banking/id739646230"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.kotak.bank.mobile",
+      "iosApp": "https://apps.apple.com/in/app/kotak-mobile-banking-lite/id6471392908",
+      "tollFree": "1800 4100",
+      "notes": "No dedicated UPI freeze/deregister menu path is published on Kotak's official pages (help-centre and UPI pages swept 2026-10-31). Published in-app UPI controls (Kotak Mobile Banking app): menu path 'BHIM UPI' under 'Pay & Transfer' section > 'Pending Money Requests' > 'Reject & Block' rejects and blocks a fraudulent collect request — the only published UPI-ID block ('If you receive any fraudulent Collect Request, you can reject it, and then you will get an option to block the UPI ID'). Fraud emergency: 'You can then ask to block your debit / credit card & other channels like Net banking and Mobile banking by calling our 24x7 helpline number 1800 209 0000' (fraud FAQ; UPI is not named in that channel list). General 24x7 toll-free helpline 1800 4100 (contact-us page). androidApp/iosApp are the official store listings of the Kotak Bank app (publisher Kotak Mahindra Bank Ltd) whose store description covers UPI. No netbanking UPI manage path and no SMS/USSD UPI channel published.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
@@ -33,6 +40,18 @@
     {
       "url": "https://www.kotak.com/en/customer-service/contact-us.html#fraud",
       "label": "24x7 fraud reporting helpline 1800 209 0000 (live fetch)"
+    },
+    {
+      "url": "https://www.kotak.bank.in/en/help-center/bill-payment-and-recharge/block-unblock-upi-id/q1.html",
+      "label": "UPI freeze live fetch 2026-10-31: only published UPI block is a fraudster's UPI ID after rejecting a fraudulent Collect Request; no self-UPI freeze; 1800 4100"
+    },
+    {
+      "url": "https://www.kotak.bank.in/en/stories-in-focus/channel-red/block-a-money-transfer-request-on-kotak-upi.html",
+      "label": "UPI freeze live fetch 2026-10-31: in-app path — BHIM UPI under 'Pay & Transfer' > 'Pending Money Requests' > 'Reject & Block'"
+    },
+    {
+      "url": "https://www.kotak.bank.in/en/help-center/bank-account/debit-card-and-atm/fraud-or-suspected-disputed-transaction/how-can-i-report-a-fraud-transaction-on-my-account-.html",
+      "label": "UPI freeze live fetch 2026-10-31: fraud FAQ — 'ask to block your debit / credit card & other channels like Net banking and Mobile banking' via 24x7 helpline 1800 209 0000; page names no UPI freeze step"
     }
   ],
   "lastVerified": "2026-09-04"

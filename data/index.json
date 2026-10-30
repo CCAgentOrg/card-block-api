@@ -15,10 +15,11 @@
     "aging": 16,
     "stale": 20
   },
-  "total_methods": 648,
+  "total_methods": 676,
   "card_types": [
     "debit",
-    "credit"
+    "credit",
+    "upi"
   ],
   "channels": [
     "sms",

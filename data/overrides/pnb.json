@@ -26,12 +26,31 @@
       "notes": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
       "iosApp": "https://apps.apple.com/in/app/pnb-one/id1580876840"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.Version1",
+      "tollFree": "1800 1800, 1800 2021",
+      "website": "https://ibanking.pnb.bank.in",
+      "notes": "UPI FAQ ('I have faced unauthorized debit through UPI'): 'In case of unauthorized debit through PNB account linked on any UPI enabled app, please block UPI through following channels: Branch, Call centre, Forwarding debit SMS to 92640 92640, Internet Banking, PNB one.' PNB One feature list publishes 'UPI Blocking' under UPI Services; the UPI module is reached by 'Click UPI icon under Pay & Transfer module' (bank FAQ). Lost phone: 'Open Internet banking URL - https://ibanking.pnb.bank.in Choose Retail Internet Banking Enter User ID Disable Mobile/Internet Banking' (freezes mobile/internet banking; UPI itself uses the block channels above); or call '1800 1800, 1800 2021, 0120-2490000'; or SMS 'BLOCK MBS CUSTID' to 9264092640; or WhatsApp 9264092640 emergency menu. *99# (NPCI USSD) is a published PNB UPI platform but only for payments/UPI PIN setup, not blocking. Bank's own UPI app: 'PNB UPI App has now been renamed to BHIM PNB' (Play link on bank's UPI page: https://play.google.com/store/apps/details?id=com.fss.pnbpsp). Digital-products care line: 1800-330-3333. No iOS store URL published on fetched pages.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
     {
       "url": "https://pnb.bank.in/contact-us",
       "label": "PNB contact-us (live fetch: ATM/debit card 1800 180 2222 + 1800 103 2222)"
+    },
+    {
+      "url": "https://pnb.bank.in/UPI-FAQ.html",
+      "label": "UPI freeze live fetch 2026-10-31: 'unauthorized debit' answer lists block channels verbatim — Branch, Call centre, Forwarding debit SMS to 92640 92640, Internet Banking, PNB one; also lists Dialling *99# as a UPI platform"
+    },
+    {
+      "url": "https://pnb.bank.in/mobile-banking.html",
+      "label": "UPI freeze live fetch 2026-10-31: PNB One features include 'UPI Blocking'; UPI module under Pay & Transfer; FAQ #16 lost phone — ibanking.pnb.bank.in Disable Mobile/Internet Banking, call 1800 1800 / 1800 2021 / 0120-2490000, SMS BLOCK MBS CUSTID to 9264092640, WhatsApp 9264092640; PNB One Play link com.Version1"
+    },
+    {
+      "url": "https://pnb.bank.in/Unified-Payments-Interface.html",
+      "label": "UPI freeze live fetch 2026-10-31: 'PNB UPI App has now been renamed to BHIM PNB'; BHIM PNB Play Store link com.fss.pnbpsp; fraud guidance — get in touch with bank immediately"
     }
   ],
   "lastVerified": "2026-09-04"

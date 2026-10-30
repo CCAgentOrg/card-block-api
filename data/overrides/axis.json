@@ -25,12 +25,29 @@
       "notes": "Via Axis Mobile app: Cards > Block. Also via Internet Banking.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.axis.mobile",
       "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
+    },
+    "upi": {
+      "tollFree": "1800-4030 / 1800-8911 (Retail Phone Banking, toll free)",
+      "notes": "SMS freeze (send from your registered mobile number): BLOCKUPI <Customer ID> (example BLOCKUPI 123456) — 'Helps you block your UPI access'; BLOCKALL <Customer ID> (example BLOCKALL 123456) — 'Helps you block your Internet Banking, Mobile Banking and UPI access'; send keywords to SMS Banking numbers 56161600 or +91 9951860002. NPCI UPI Help (upihelp.npci.org.in, linked from Axis's UPI page) offers a Safety Switch to 'pause outgoing UPI debit transactions from the selected account' — 'Outgoing UPI debit transactions from the selected account are blocked. Incoming UPI credits continue.'; it cannot be resumed there: 'contact Axis Bank Phone Banking or visit your nearest Axis Bank branch to request the resumption of outgoing UPI payments'. Phone Banking (toll free): 1800 4030 / 1800 8911. For a fraudulent UPI transaction, report immediately to Axis Bank 'through the available customer service channels' and also lodge a complaint 'on the National Cyber Crime Reporting Portal or through the National Cyber Crime Helpline at 1930'. No netbanking UPI-manage path, in-app UPI lock menu path or app-store link is published on Axis pages; *99# is not mentioned.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
     {
       "url": "https://www.axisbank.com/contact-us",
       "label": "Axis contact-us (live fetch: retail phone banking 1800 209 5577 / 1800 103 5577)"
+    },
+    {
+      "url": "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
+      "label": "UPI freeze live fetch 2026-10-31: SMS keywords BLOCKUPI <Customer ID> ('Helps you block your UPI access') and BLOCKALL <Customer ID> (Internet Banking + Mobile Banking + UPI), sent to 56161600 / +919951860002"
+    },
+    {
+      "url": "https://www.axis.bank.in/payments/payment-methods/upi",
+      "label": "UPI freeze live fetch 2026-10-31: UPI Help 'Safety Switch' FAQ — pause outgoing UPI debit transactions (incoming credits continue), resume via Axis Phone Banking or branch; fraud also reportable at National Cyber Crime Helpline 1930"
+    },
+    {
+      "url": "https://www.axis.bank.in/contact-us",
+      "label": "UPI freeze live fetch 2026-10-31: Retail Phone Banking numbers 1800 4030 / 1800 8911 (toll free)"
     }
   ],
   "lastVerified": "2026-09-04"
