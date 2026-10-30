@@ -81,7 +81,8 @@
                 "debit",
                 "credit",
                 "prepaid",
-                "forex"
+                "forex",
+                "upi"
               ]
             },
             "minItems": 1
