@@ -23,6 +23,13 @@
       "notes": "Via iMobile Pay: Cards > Debit Card > Block. Internet Banking also available.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile",
       "iosApp": "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/app/imobile-by-icici-bank/id375276006",
+      "tollFree": "1800-1080",
+      "notes": "Freeze UPI in the iMobile app: go to 'UPI Payments', click 'My UPI ID'; to delink a bank account click the account and click 'Delink' in the 'Account details' page, or to remove a UPI ID/number click the UPI number and click the 'Remove' button (a removed UPI number can be reclaimed within 6 months). Fraudulent transaction: 'Call 1800 1080 immediately' (toll-free 1800 1080; overseas +91-22-33667777; fraud helpline 1800 2662). Entering the wrong UPI PIN three consecutive times blocks the account for the next 24 hours for debit UPI transactions. No netbanking UPI-manage path, SMS keyword or *99# channel is published; ICICI's UPI terms reserve the bank's right to suspend the UPI facility.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
@@ -37,6 +44,22 @@
     {
       "url": "https://www.icicibank.com/terms-condition/block-credit-card",
       "label": "Block credit card page (live fetch)"
+    },
+    {
+      "url": "https://www.icici.bank.in/personal-banking/ways-to-bank/mobile-banking/imobile/payer-upi-faqs",
+      "label": "UPI freeze live fetch 2026-10-31: iMobile 'UPI Payments > My UPI ID' Delink/Remove steps; 'Fraudulent Transaction: Call 1800 1080 immediately'"
+    },
+    {
+      "url": "https://www.icici.bank.in/customer-care.page",
+      "label": "UPI freeze live fetch 2026-10-31: toll-free 1800 1080; fraud helpline 1800 2662; overseas +91-22-33667777"
+    },
+    {
+      "url": "https://www.icici.bank.in/personal-banking/ways-to-bank/mobile-banking/imobile",
+      "label": "UPI freeze live fetch 2026-10-31: official iMobile app store links (Google Play, App Store)"
+    },
+    {
+      "url": "https://www.icici.bank.in/personal-banking/payments/money-transfer/upi/terms-and-conditions",
+      "label": "UPI freeze live fetch 2026-10-31: UPI terms — ICICI Bank may suspend or terminate the UPI or UPI Plug-in Facility without prior notice (linked from the payer UPI FAQ)"
     }
   ],
   "lastVerified": "2026-09-04"
