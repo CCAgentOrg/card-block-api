@@ -245,7 +245,7 @@ function researchAsk(b: BankTarget): string {
 function auditAsk(b: BankTarget): string {
   return (
     `Audit the upi section added for ${b.name} in ${b.ovrPath}. Verification date: ${verifyDate}.\n\n` +
-    `1. Read ${b.ovrPath} and run git diff on it (git diff -- ${b.ovrPath}).\n` +
+    `1. Read ${b.ovrPath} and run git diff on it (git diff -- ${b.ovrPath}); if the diff is empty the file may be untracked — in that case verify preservation directly against the seed entry in app/data/banks.json (key "${b.id}") instead.\n` +
     `2. PRESERVATION CHECK: the diff must show only (a) a new/changed blockingInstructions.upi object and (b) appended entries in the top-level sources array${b.hasOverride ? "" : " — for a seed-constructed file instead verify its debit/credit sections and sources match app/data/banks.json key \"" + b.id + "\" exactly"}. Any other change is an issue.\n` +
     `3. Fetch each upi source URL live. Confirm the menu path, numbers and channels in blockingInstructions.upi appear on the cited pages (verbatim menu wording where quoted; formatting differences fine, different steps/digits not).\n` +
     `4. Confirm the upi section's lastVerified is "${verifyDate}", that no claim lacks a cited source, and that androidApp/iosApp/website values belong to the bank's official domain or its app-store listings.\n` +
