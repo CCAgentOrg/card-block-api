@@ -32,12 +32,21 @@ function slugify(id) {
   return id.replace(/_/g, "-");
 }
 
-function phoneMethod(label, num) {
+function phoneMethod(label, num, inactive) {
   if (!num) return null;
+  // Only tollFree is asserted to be a hotlist line; alternates may be MFI
+  // fraud lines, overseas or office lines (batch 3-5 review findings) — the
+  // notes method carries each number's actual purpose.
+  const instructions =
+    label === "tollFree" && !inactive
+      ? "Call " + num + " and follow the IVR to hotlist the card."
+      : inactive
+        ? "Call " + num + "."
+        : "Call " + num + " (alternate line — see notes).";
   return {
     channel: "phone",
     label: label,
-    instructions: "Call " + num + " and follow the IVR to hotlist the card.",
+    instructions: instructions,
     phone: num,
   };
 }
@@ -52,7 +61,7 @@ function buildMethods(inst, lastVerified, sources) {
     ["alternate", inst.number2],
   ];
   phones.forEach(([label, num]) => {
-    const m = phoneMethod(label, num);
+    const m = phoneMethod(label, num, !!inst.inactive);
     if (m) methods.push(m);
   });
 
@@ -67,12 +76,16 @@ function buildMethods(inst, lastVerified, sources) {
   if (inst.email) {
     methods.push({
       channel: "email",
-      instructions: "Email " + inst.email + " from your registered email to request card blocking.",
+      instructions: inst.inactive
+        ? "Email " + inst.email + " for queries (see notes)."
+        : "Email " + inst.email + " from your registered email to request card blocking.",
       email: inst.email,
     });
   }
 
-  if (inst.website) {
+  // Inactive/liquidated banks: the site may not exist or may publish no
+  // blocking flow — never render blocking-claim boilerplate for them (issue #63).
+  if (inst.website && !inst.inactive) {
     methods.push({
       channel: "website",
       instructions: "Log in to internet banking at " + inst.website + " and use the card block/hotlist option.",
@@ -81,8 +94,8 @@ function buildMethods(inst, lastVerified, sources) {
   }
 
   const appUrls = [];
-  if (inst.androidApp) appUrls.push("Android: " + inst.androidApp);
-  if (inst.iosApp) appUrls.push("iOS: " + inst.iosApp);
+  if (inst.androidApp && !inst.inactive) appUrls.push("Android: " + inst.androidApp);
+  if (inst.iosApp && !inst.inactive) appUrls.push("iOS: " + inst.iosApp);
   if (appUrls.length) {
     methods.push({
       channel: "app",
