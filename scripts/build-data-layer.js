@@ -32,16 +32,18 @@ function slugify(id) {
   return id.replace(/_/g, "-");
 }
 
-function phoneMethod(label, num, inactive) {
+function phoneMethod(label, num, inactive, cardType) {
   if (!num) return null;
   // Only tollFree is asserted to be a hotlist line; alternates may be MFI
   // fraud lines, overseas or office lines (batch 3-5 review findings) — the
   // notes method carries each number's actual purpose.
   const instructions =
-    label === "tollFree" && !inactive
-      ? "Call " + num + " and follow the IVR to hotlist the card."
-      : inactive
-        ? "Call " + num + "."
+    inactive
+      ? "Call " + num + "."
+      : label === "tollFree"
+        ? cardType === "upi"
+          ? "Call " + num + " for UPI block/freeze assistance."
+          : "Call " + num + " and follow the IVR to hotlist the card."
         : "Call " + num + " (alternate line — see notes).";
   return {
     channel: "phone",
@@ -51,7 +53,8 @@ function phoneMethod(label, num, inactive) {
   };
 }
 
-function buildMethods(inst, lastVerified, sources) {
+function buildMethods(inst, lastVerified, sources, cardType) {
+  const upi = cardType === "upi";
   if (!inst) return [];
   const methods = [];
 
@@ -61,7 +64,7 @@ function buildMethods(inst, lastVerified, sources) {
     ["alternate", inst.number2],
   ];
   phones.forEach(([label, num]) => {
-    const m = phoneMethod(label, num, !!inst.inactive);
+    const m = phoneMethod(label, num, !!inst.inactive, cardType);
     if (m) methods.push(m);
   });
 
@@ -78,7 +81,7 @@ function buildMethods(inst, lastVerified, sources) {
       channel: "email",
       instructions: inst.inactive
         ? "Email " + inst.email + " for queries (see notes)."
-        : "Email " + inst.email + " from your registered email to request card blocking.",
+        : "Email " + inst.email + " from your registered email to request " + (upi ? "UPI blocking" : "card blocking") + ".",
       email: inst.email,
     });
   }
@@ -88,7 +91,7 @@ function buildMethods(inst, lastVerified, sources) {
   if (inst.website && !inst.inactive) {
     methods.push({
       channel: "website",
-      instructions: "Log in to internet banking at " + inst.website + " and use the card block/hotlist option.",
+      instructions: "Log in to internet banking at " + inst.website + " and use the " + (upi ? "UPI block/freeze" : "card block/hotlist") + " option.",
       url: inst.website,
     });
   }
@@ -99,7 +102,7 @@ function buildMethods(inst, lastVerified, sources) {
   if (appUrls.length) {
     methods.push({
       channel: "app",
-      instructions: "Block via the bank's mobile app (Cards > Block/Hotlist). " + appUrls.join(" | "),
+      instructions: (upi ? "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). " : "Block via the bank's mobile app (Cards > Block/Hotlist). ") + appUrls.join(" | "),
       urls: [inst.androidApp, inst.iosApp].filter(Boolean),
     });
   }
@@ -171,10 +174,10 @@ ids.forEach((id) => {
 
   const sources = (b.sources || []).map((src) => src.url).filter(Boolean);
   const cardTypes = [];
-  ["debit", "credit"].forEach((t) => {
+  ["debit", "credit", "upi"].forEach((t) => {
     const inst = b.blockingInstructions && b.blockingInstructions[t];
     if (!inst) return;
-    const methods = buildMethods(inst, bLastVerified, sources);
+    const methods = buildMethods(inst, bLastVerified, sources, t);
     if (!methods.length) {
       errors.push(slug + "/" + t + ": no methods derived");
       return;
@@ -273,7 +276,7 @@ fs.writeFileSync(
       bank_count: indexEntries.length,
       freshness: freshnessAggregate,
       total_methods: indexEntries.reduce((n, e) => n + e.method_count, 0),
-      card_types: ["debit", "credit"],
+      card_types: [...new Set(indexEntries.flatMap((e) => e.card_types))],
       channels: ["sms", "phone", "app", "website", "email", "branch", "upi", "network", "govt"],
       schema_note: "See AGENTS.md for the full schema. verification.status: human_verified > agent_verified > unverified > disputed",
     },

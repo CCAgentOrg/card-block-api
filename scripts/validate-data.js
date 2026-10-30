@@ -42,7 +42,7 @@ for (const file of files) {
 
   let methodCount = 0;
   for (const card of bank.cards || []) {
-    if (!["debit", "credit"].includes(card.type)) fail(rel + ": unknown card type " + card.type);
+    if (!["debit", "credit", "upi"].includes(card.type)) fail(rel + ": unknown card type " + card.type);
     if (!Array.isArray(card.blocking_methods) || !card.blocking_methods.length) warn(rel + ": card " + card.type + " has no blocking_methods");
     for (const [i, m] of (card.blocking_methods || []).entries()) {
       methodCount++;
