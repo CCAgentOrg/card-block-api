@@ -24,12 +24,31 @@
       "notes": "Canara ai1 app: Debit Card > Block/Freeze. NetBanking also available. Email: subject 'BLOCKDC <Last6>' to blockchannels@canarabank.com from registered email.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.cs.canara",
       "iosApp": "https://apps.apple.com/in/app/candii/id1555647775"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/developer/canara-bank/id854427899",
+      "tollFree": "1800 1030",
+      "notes": "Emergency freeze: from your registered e-mail id send subject 'BLOCKUPI <Space> <Mobile Number prefixed with Country Code>' (e.g. 'BLOCKUPI 911234567891') to blockchannels@canarabank.com, or 'block the channel by calling our 24*7 Toll free number: 1800 1030'; unblocking needs a branch visit ('Kindly visit the home branch for unblocking the accounts after blocking through email'). In-app: Canara ai1 app 'Profile > De-Register > Select Mobile Banking, UPI or Both > Continue'; lost handset — report to nearest branch, 'Toll Free Helpline 18001030 can also be used for blocking the Mobile Banking / Accounts'. Canara ai1Pe UPI app: 'What if UPI shows Blocked/Frozen? Customer must contact respective Bank/branch where debit account is maintained'; lost phone — 'Block your mobile number immediately... Contact your Bank customer support immediately'; withdraw consent via Settings > 'Deregister/Revoke Your Consent'; branch support ai1pe@canarabank.com, customers: toll free 1800 1030. No netbanking UPI-manage path and no SMS/*99# keyword published on the pages checked; app links above are the bank's developer listings — bank pages say to search 'Canara ai1' / install ai1Pe from the Play Store / App Store.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
     {
       "url": "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
       "label": "Canara hotlisting page (live fetch: 18001030, BLOCKDC/BLOCKCC email to blockchannels@canarabank.com)"
+    },
+    {
+      "url": "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
+      "label": "UPI freeze live fetch 2026-10-31: 'BLOCKUPI <Space> <Mobile Number prefixed with Country Code>' email to blockchannels@canarabank.com from registered e-mail id; channel block also via 24*7 toll free 1800 1030; home-branch visit needed to unblock"
+    },
+    {
+      "url": "https://www.canarabank.bank.in/pages/mobile-banking",
+      "label": "UPI freeze live fetch 2026-10-31: Canara ai1 in-app deregistration 'Profile > De-Register > Select Mobile Banking, UPI or Both > Continue'; lost-handset blocking via Toll Free Helpline 18001030"
+    },
+    {
+      "url": "https://www.canarabank.bank.in/canara-ai1pe",
+      "label": "UPI freeze live fetch 2026-10-31: Canara ai1Pe UPI app — UPI 'Blocked/Frozen' → contact bank/branch of debit account; lost phone → block mobile number and contact bank support; Settings > 'Deregister/Revoke Your Consent'; customers toll free 1800 1030"
     }
   ],
   "lastVerified": "2026-09-04"
