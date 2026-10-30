@@ -72,9 +72,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 14,
+      "method_count": 16,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -96,9 +97,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 14,
+      "method_count": 18,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -132,9 +134,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 13,
+      "method_count": 16,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -311,9 +314,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 12,
+      "method_count": 15,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -443,9 +447,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 12,
+      "method_count": 15,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -513,9 +518,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 15,
+      "method_count": 19,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -608,9 +614,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 14,
+      "method_count": 17,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -692,9 +699,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 13,
+      "method_count": 16,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-04"
     },
@@ -728,9 +736,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 10,
+      "method_count": 13,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-25"
     }
