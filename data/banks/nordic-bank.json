@@ -1,5 +1,5 @@
 {
-  "name": "NSDL Payment Bank",
+  "name": "NSDL Payments Bank",
   "slug": "nordic-bank",
   "type": "private",
   "website": "https://nsdlpayments.bank.in",
@@ -10,7 +10,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-42022100 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022-42022100 (alternate line — see notes).",
           "phone": "022-42022100",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-69787301 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022-69787301 (alternate line — see notes).",
           "phone": "022-69787301",
           "confidence": 0.85,
           "last_verified": "2026-10-30",

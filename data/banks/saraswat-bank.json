@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022 41572070 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022 41572070 (alternate line — see notes).",
           "phone": "022 41572070",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022 69933333 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022 69933333 (alternate line — see notes).",
           "phone": "022 69933333",
           "confidence": 0.85,
           "last_verified": "2026-10-30",

@@ -26,7 +26,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800 121 2208 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800 121 2208 (alternate line — see notes).",
           "phone": "1800 121 2208",
           "confidence": 0.85,
           "last_verified": "2026-09-25",
@@ -42,7 +42,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91 40 65118002 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91 40 65118002 (alternate line — see notes).",
           "phone": "+91 40 65118002",
           "confidence": 0.85,
           "last_verified": "2026-09-25",
@@ -108,7 +108,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800 121 2208 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800 121 2208 (alternate line — see notes).",
           "phone": "1800 121 2208",
           "confidence": 0.85,
           "last_verified": "2026-09-25",
@@ -124,7 +124,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91 40 65118002 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91 40 65118002 (alternate line — see notes).",
           "phone": "+91 40 65118002",
           "confidence": 0.85,
           "last_verified": "2026-09-25",

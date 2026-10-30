@@ -25,7 +25,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800 1033 817 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800 1033 817 (alternate line — see notes).",
           "phone": "1800 1033 817",
           "confidence": 0.85,
           "last_verified": "2026-09-25",

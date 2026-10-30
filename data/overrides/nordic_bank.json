@@ -1,6 +1,6 @@
 {
   "id": "nordic_bank",
-  "name": "NSDL Payment Bank",
+  "name": "NSDL Payments Bank",
   "blockingInstructions": {
     "debit": {
       "number1": "022-42022100",

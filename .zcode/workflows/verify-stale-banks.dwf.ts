@@ -17,6 +17,10 @@ args:
     type: json
     description: Optional JSON array of slugs to restrict the batch to (e.g.
       ["dbs","federal-bank"]).
+  excludeSlugs:
+    type: json
+    description: Optional JSON array of slugs to skip (escalated banks with open
+      issues, e.g. ["abudhabi-commercial-bank","central-bank","indian-overseas"]).
   verifyDate:
     type: string
     description: Date of this verification cycle (YYYY-MM-DD); stamped as
@@ -113,6 +117,7 @@ if (argsDate !== verifyDate) {
 }
 const batchSize = typeof args.batchSize === "number" ? args.batchSize : 10;
 const onlySlugs = Array.isArray(args.onlySlugs) ? args.onlySlugs.map(String) : null;
+const excludeSlugs = Array.isArray(args.excludeSlugs) ? args.excludeSlugs.map(String) : [];
 
 const idx = JSON.parse(await files.read("data/banks/index.json")) as {
   banks: Array<{ slug: string; name: string; last_verified?: string }>;
@@ -136,6 +141,7 @@ for (const b of pool) {
   const id = idForSlug.get(b.slug);
   if (!id) continue;
   if (onlySlugs && !onlySlugs.includes(b.slug)) continue;
+  if (excludeSlugs.includes(b.slug)) continue;
   batch.push({ id, slug: b.slug, name: b.name, updating: overridden.has(id), ovrPath: `data/overrides/${id}.json`, staleSince: String(b.last_verified ?? "?") });
 }
 
@@ -196,6 +202,7 @@ function researchAsk(b: BankTarget): string {
     `- Include a key only when an official page you fetched supports it; omit keys you could not verify — never carry a channel over from the old entry without a live source.\n` +
     `- Keep numbers verbatim as the page shows them. "reference" = the strongest official page for blocking. "notes" = one tight paragraph: hours, overseas lines, app menu path, the 1930 national helpline only if the bank's own page mentions it.\n` +
     `- "rmn"/"sms" keys only with exact official wording; "email"/"androidApp"/"iosApp" only when official pages state them.\n` +
+    `- If the bank is wound up / liquidated / has surrendered its licence (verify from official notices on its site), set "inactive": true on the card type and keep only contacts the official winding-up notices actually publish; the generator then suppresses blocking-claim boilerplate.\n` +
     `- 1-4 source entries; every claim in the file must be traceable to at least one of them.\n` +
     `- Do not edit any other file.\n` +
     `5. Return the structured outcome: what changed vs the old entry (including channels you dropped), and the URLs you fetched live.\n\n` +

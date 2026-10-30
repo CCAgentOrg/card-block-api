@@ -26,7 +26,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0141-2601203 and follow the IVR to hotlist the card.",
+          "instructions": "Call 0141-2601203 (alternate line — see notes).",
           "phone": "0141-2601203",
           "confidence": 0.85,
           "last_verified": "2026-05-13",
@@ -92,7 +92,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0141-2601203 and follow the IVR to hotlist the card.",
+          "instructions": "Call 0141-2601203 (alternate line — see notes).",
           "phone": "0141-2601203",
           "confidence": 0.85,
           "last_verified": "2026-05-13",

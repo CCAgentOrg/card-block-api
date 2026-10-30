@@ -26,7 +26,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-1600 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800-1600 (alternate line — see notes).",
           "phone": "1800-1600",
           "confidence": 0.85,
           "last_verified": "2026-09-04",
@@ -42,7 +42,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 040-6608-8388 and follow the IVR to hotlist the card.",
+          "instructions": "Call 040-6608-8388 (alternate line — see notes).",
           "phone": "040-6608-8388",
           "confidence": 0.85,
           "last_verified": "2026-09-04",
@@ -155,7 +155,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-2600 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800-2600 (alternate line — see notes).",
           "phone": "1800-2600",
           "confidence": 0.85,
           "last_verified": "2026-09-04",
@@ -171,7 +171,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-22-6160-6160 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91-22-6160-6160 (alternate line — see notes).",
           "phone": "+91-22-6160-6160",
           "confidence": 0.85,
           "last_verified": "2026-09-04",

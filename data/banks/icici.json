@@ -27,7 +27,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-22-3366-7777 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91-22-3366-7777 (alternate line — see notes).",
           "phone": "+91-22-3366-7777",
           "confidence": 0.85,
           "last_verified": "2026-09-04",
@@ -132,7 +132,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91-22-41007777 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91-22-41007777 (alternate line — see notes).",
           "phone": "+91-22-41007777",
           "confidence": 0.85,
           "last_verified": "2026-09-04",

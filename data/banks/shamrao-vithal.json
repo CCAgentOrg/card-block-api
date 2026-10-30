@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022 6699 9999 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022 6699 9999 (alternate line — see notes).",
           "phone": "022 6699 9999",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022 7199 1000 and follow the IVR to hotlist the card.",
+          "instructions": "Call 022 7199 1000 (alternate line — see notes).",
           "phone": "022 7199 1000",
           "confidence": 0.85,
           "last_verified": "2026-10-30",

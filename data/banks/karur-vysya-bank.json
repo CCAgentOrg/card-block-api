@@ -28,7 +28,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1860 258 1916 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1860 258 1916 (alternate line — see notes).",
           "phone": "1860 258 1916",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -46,7 +46,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91 44 - 66217600 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91 44 - 66217600 (alternate line — see notes).",
           "phone": "+91 44 - 66217600",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -156,7 +156,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800 572 1916 and follow the IVR to hotlist the card.",
+          "instructions": "Call 1800 572 1916 (alternate line — see notes).",
           "phone": "1800 572 1916",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
@@ -174,7 +174,7 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call +91 44 - 66217600 and follow the IVR to hotlist the card.",
+          "instructions": "Call +91 44 - 66217600 (alternate line — see notes).",
           "phone": "+91 44 - 66217600",
           "confidence": 0.85,
           "last_verified": "2026-10-30",
