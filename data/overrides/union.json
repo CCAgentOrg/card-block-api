@@ -24,12 +24,27 @@
       "notes": "Via UnionMobile app: Debit Card > Block. Internet Banking at unionbankonline.co.in.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.cs.bankub2",
       "iosApp": "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.infrasoft.uboi",
+      "iosApp": "https://apps.apple.com/in/app/vyom/id1446060299",
+      "tollFree": "1800 208 2244",
+      "notes": "UPI runs on the Union ease app (container app for Mobile Banking + UPI). Temporary UPI lock: \"Log in to the Union ease application. Navigate to My Profile section & click on Smart Lock. Select the desired channel. Choose Lock or Unlock as required.\" — lockable channels: Mobile Banking, Internet Banking, UPI, Debit Card, Credit Card (reversible in-app anytime). Hard stop for UPI on the account: \"Block My Mobile Number\" under the Block UPI IDs area of Manage UPI ID (My Profile section); FAQ: \"'Block My Mobile Number' facility is available in Union ease app using which customers can block their mobile number for UPI transactions. However, for unblocking the same, customers should visit their home branch and submit the unblocking request.\" Unrestricting UPI likewise requires a home-branch request. Suspicious collect requests can be block-&-marked-as-spam; blocked UPI IDs are listed under Blocked UPI IDs. Emergency: the Kill Switch feature immediately blocks digital debit transactions through operative accounts and hotlists active credit cards (separate control from Smart Lock). Toll-free for UPI support per the UPI page structured data: 1800 208 2244 (site header also lists 1800 22 22 44 / 1800 22 22 43 / 1800 425 1515; charged 080-61817110; NRI +918061817110). No netbanking UPI manage path and no USSD (*99#) or SMS UPI-disable keyword published on official pages.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
     {
       "url": "https://www.unionbankofindia.co.in/english/contact-us.aspx",
       "label": "Union Bank contact-us (live fetch)"
+    },
+    {
+      "url": "https://www.unionbankofindia.bank.in/en/details/upi",
+      "label": "UPI freeze live fetch 2026-10-31: FAQ 'How to block UPI transactions in my account?' — 'Block My Mobile Number' facility in Union ease app; unblock/unrestrict via home branch request; block/unblock UPI IDs + collect-request spam under Manage UPI ID (My Profile); UPI Services under Payments section; JSON-LD contactPoint TollFree 1800 208 2244; site-wide header numbers 1800 22 22 44 / 1800 22 22 43."
+    },
+    {
+      "url": "https://www.unionbankofindia.bank.in/en/details/union-ease",
+      "label": "UPI freeze live fetch 2026-10-31: Smart Lock FAQ — 'Navigate to My Profile section & click on Smart Lock. Select the desired channel. Choose Lock or Unlock' with UPI among lockable channels; Kill Switch blocks digital debit transactions; bank's own store links (Play com.infrasoft.uboi, App Store vyom id1446060299)."
     }
   ],
   "lastVerified": "2026-09-04"
