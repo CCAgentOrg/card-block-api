@@ -19,6 +19,12 @@
       "website": "https://www.yesbank.in",
       "reference": "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
       "notes": "Debit card cum ATM card lost/stolen: call PhoneBanking 1800 1200 (toll free) or 1860 210 1200 immediately. From outside India: +91 22 5079 5101 / 1833 800 0149 (USA) / 1833 491 0559 (Canada) / 8000 46 9153 (UK) / 8000 3570 2510 (UAE). Block also via NetBanking / YES Mobile."
+    },
+    "upi": {
+      "androidApp": "https://d257chzpxwl4bu.cloudfront.net/yp2app-android/download/index.html",
+      "tollFree": "1800 1200",
+      "notes": "PhoneBanking is the bank's published freeze path for its UPI channel: 'To block NetBanking, Mobile Banking, YES Pay channels, YES Robot, YES TRANSACT Smart Pay or WhatsApp Banking, please make a call to the YES BANK PhoneBanking', and 'To report Debit Card / NetBanking / Mobile Banking / YES Robot / WhatsApp Banking / Prepaid Card / YES Pay transactions not done by you, call the YES BANK PhoneBanking' — YES Pay / YES Pay Next is Yes Bank's UPI app. PhoneBanking: 1860 210 1200 (charges apply) or 1800 1200 (toll free); from outside India +91 22 5079 5101 / 1833 380 0149 (USA) / 1833 491 0559 (Canada) / 8000 48 9153 (UK) / 8000 3570 2510 (UAE). 'Credit Line on UPI' product support: +91 (22) 5089 5333 (9:30 AM to 5:00 PM) / yestouchclou@yes.bank.in. National Cyber Crime helpline 1930 (cybercrime.gov.in) for unauthorized transactions. Caveats: no UPI-specific SMS keyword is published (BLKRNB/BLKMB/BLKDC/BLKCC/BLKROBOT/BLKWA cover NetBanking/Mobile Banking/cards/robot/WhatsApp only); no in-app UPI freeze menu path or NetBanking UPI disable path is published on official pages; androidApp is the bank's published Android download landing page for YES Pay Next (no Play Store/App Store URL published).",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
@@ -29,6 +35,18 @@
     {
       "url": "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
       "label": "YES Bank Customer Care (live fetch 2026-09-25: credit cards 1800 103 1212 / 1800 103 6000 for select cards; 022 5079 5101 from outside India)"
+    },
+    {
+      "url": "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+      "label": "UPI freeze live fetch 2026-10-31: page states YES Pay (UPI app) channels are blocked by calling YES BANK PhoneBanking (1860 210 1200 / 1800 1200 toll free; overseas +91 22 5079 5101 etc.); YES Pay transactions reported via PhoneBanking; 1930 cyber helpline; no UPI-specific SMS keyword published"
+    },
+    {
+      "url": "https://www.yes.bank.in/contact-us",
+      "label": "UPI freeze live fetch 2026-10-31: General Inquiries 1860 210 1200 / 1800 1200 toll free; Credit Line on UPI support +91 (22) 5089 5333 (9:30 AM-5:00 PM) / yestouchclou@yes.bank.in; overseas common +91 (22) 5079 5101"
+    },
+    {
+      "url": "https://www.yes.bank.in/digital-banking/yes-pay-next",
+      "label": "UPI freeze live fetch 2026-10-31: YES Pay Next is Yes Bank's UPI payments app; bank-published Android download landing link (Download Now); on-page UPI FAQs contain no block/freeze/deregister path"
     }
   ],
   "lastVerified": "2026-09-25"
