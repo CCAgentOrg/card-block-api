@@ -25,12 +25,28 @@
       "notes": "Self-service freeze/debit card block via portal. Also via bob World app.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
       "iosApp": "https://apps.apple.com/in/app/bob-world/id1507878760"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.bankofbaroda.upi",
+      "iosApp": "https://apps.apple.com/in/app/bhim-baroda-pay/id1359652055",
+      "tollFree": "1800-5700",
+      "sms": "BOBUPIBLK to 8422009988",
+      "notes": "Instant freeze: SMS 'BOBUPIBLK' to 8422009988 — 'To block UPI services instantly: Go to SMS option in your registered mobile device. Type BOBUPIBLK in the message content (keyword is not case sensitive). Send the SMS to 8422009988 (Service Mobile Number).' bob इ Pay (bank's own UPI app, ex-BHIM Baroda Pay): freeze via De-register — 'You can go to the option De-register available in side-menu'; caveat per bank FAQ: 'once de-registered you cannot register with same Virtual ID', fresh registration required. Entering wrong UPI PIN 3+ times: 'Account will be blocked for 24 hrs'; repeat blocks permanently. Phone: 1800 5700 / 1800 5000 (24x7 toll-free; contact-centre services list includes 'UPI & digital banking assistance'); IVR: 'Select option 1, To Report loss of card, to report a fraud or to report an Unauthorized transaction not done by you'. On fraud the bank says to 'immediately block respective channel or Freeze the Account for Debit Transactions by calling Bank's Toll-Free No. 1800 5700 / 1800 5000 or visiting Bank's Web Portal or Branch'; channel-block email channelblock@bankofbaroda.bank.in, UPI desk upi.bcc@bankofbaroda.co.in. The page's transaction-limits table lists 'USSD (*99#)' as a Pay channel (₹5,000 per txn/day) — a payment mention, not a block mechanism. No netbanking UPI-disable path is published on the bank's pages.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
     {
       "url": "https://www.bankofbaroda.in/contact-us",
       "label": "BoB contact-us (live fetch: JSON-LD 1800 5700, 1800 5000; card contact 1800 102 5627)"
+    },
+    {
+      "url": "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
+      "label": "UPI freeze live fetch 2026-10-31: bob Pay UPI-app page proved instant SMS block ('To block UPI services instantly' — BOBUPIBLK, keyword not case sensitive, to 8422009988 Service Mobile Number), De-register option in side-menu FAQ, wrong-PIN 24h/permanent block, app store links com.bankofbaroda.upi + bhim-baroda-pay iOS, upi.bcc@bankofbaroda.co.in, 1800 5700/5000, 'USSD (*99#)' Pay row in limits table"
+    },
+    {
+      "url": "https://bankofbaroda.bank.in/contact-us",
+      "label": "UPI freeze live fetch 2026-10-31: toll-free 1800 5700/1800 5000 services list includes 'UPI & digital banking assistance'; IVR option 1 reports fraud/unauthorized transaction; fraud section 'block respective channel or Freeze the Account for Debit Transactions' + channelblock@bankofbaroda.bank.in"
     }
   ],
   "lastVerified": "2026-09-04"
