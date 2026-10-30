@@ -25,6 +25,13 @@
       "notes": "YONO app: Cards > Block. SMS BLOCK <Last4> to 56767 from registered mobile. ATM hotlist option available.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
       "iosApp": "https://apps.apple.com/in/app/yono-sbi/id1554345797"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch&hl=en&gl=US",
+      "iosApp": "https://apps.apple.com/us/app/yono-sbi-banking-and-lifestyle/id1231393474",
+      "tollFree": "1800 1234 / 1800 2100",
+      "notes": "UPI FAQ (Disable/Re-enable): a) BHIM SBI Pay (Disabling): \"Log in BHIM SBI Pay > hamburger menu > Disable UPI Services > Select Account\"; b) Contact Centre: \"call on 1800 1234/1800 2100\" with registered mobile no/account no; c) \"visit any nearest SBI branch\" (BHIM SBI Pay FAQ: \"stop the facility by contacting your home branch and giving a written request\"). Lost phone: \"Immediately you need to disable the UPI services by contacting SBI contact center or by approaching nearest any SBI branch.\" De-register VPA: BHIM SBI Pay app \"main menu and use the De-Register option to de-register the UPI facility\". UPI also runs on YONO SBI (YONO Pay UPI); complaints via crcf.sbi.co.in, support.upi@sbi.co.in, or toll-free 1800112211 / 18004253800. No netbanking UPI manage path and no USSD/SMS keyword published on official pages.",
+      "lastVerified": "2026-10-31"
     }
   },
   "sources": [
@@ -35,6 +42,14 @@
     {
       "url": "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
       "label": "SBI Card lost/stolen FAQ"
+    },
+    {
+      "url": "https://sbi.bank.in/web/customer-care/upi1",
+      "label": "UPI freeze live fetch 2026-10-31: FAQ 63 — disable channels: BHIM SBI Pay > hamburger menu > Disable UPI Services > Select Account; Contact Centre 1800 1234/1800 2100; any SBI branch. FAQ 30 lost-phone disable; FAQ 33 De-Register VPA."
+    },
+    {
+      "url": "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay",
+      "label": "UPI freeze live fetch 2026-10-31: BHIM SBI Pay FAQ — home-branch written request to stop UPI facility; De-Register option; support.upi@sbi.co.in; toll-free 1800112211 & 18004253800; YONO SBI app store URLs (Google Play / App Store)."
     }
   ],
   "lastVerified": "2026-09-04"
