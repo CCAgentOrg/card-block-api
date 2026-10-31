@@ -2,7 +2,7 @@
   "name": "Suryoday Small Finance Bank",
   "slug": "suryoday-small-finance",
   "type": "private",
-  "website": "https://www.suryodaybank.com",
+  "website": "https://ib.suryoday.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,14 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-308-0880 and follow the IVR to hotlist the card.",
-          "phone": "1800-308-0880",
+          "instructions": "Call 1800 266 7711 and follow the IVR to hotlist the card.",
+          "phone": "1800 266 7711",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -27,14 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-209-8008 (alternate line — see notes).",
-          "phone": "1800-209-8008",
+          "instructions": "Call 022-69045666 (alternate line — see notes).",
+          "phone": "022-69045666",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022-62298799 (alternate line — see notes).",
+          "phone": "022-62298799",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -43,14 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@suryodaybank.com from your registered email to request card blocking.",
-          "email": "customercare@suryodaybank.com",
+          "instructions": "Email smile@suryodaybank.com from your registered email to request card blocking.",
+          "email": "smile@suryodaybank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -59,14 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.suryodaybank.com and use the card block/hotlist option.",
-          "url": "https://www.suryodaybank.com",
+          "instructions": "Log in to internet banking at https://ib.suryoday.bank.in/ and use the card block/hotlist option.",
+          "url": "https://ib.suryoday.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -75,17 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.suryoday.bank | iOS: https://apps.apple.com/in/app/suryoday-mobile/id1443185260",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.suryoday.MB | iOS: https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.suryoday.bank",
-            "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
+            "https://play.google.com/store/apps/details?id=com.suryoday.MB",
+            "https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -94,13 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Suryoday Mobile app: Debit Card > Block.",
+          "instructions": "Contact page labels 1800 266 7711 as the '24*7 Toll free number' (Smile Centre, 24x7), and the site-wide footer says 'Please notify any unauthorized transaction on 1800 266 7711 or email at smile@suryodaybank.com immediately.' Debit-card FAQ: 'Debit card can be hot listed instantly through Mobile Banking, Internet Banking, SMS, Smile Centre, TARA Chat Bot or Visiting the bank Branch' — no SMS keyword or short code is published for debit cards, and no debit-specific app menu path is given. Internet-banking portal https://ib.suryoday.bank.in/ is published as the Login CTA's 'redirection_link' in the static-query data bundles served on the bank's internet-banking page (it does not appear in the page's raw HTML or JS bundles). Overseas/NRI lines 022-69045666 and 022-62298799 are both marked '24*7 Available Number' (nri@suryodaybank.com); WhatsApp 'Hi' to 8422890082.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -115,14 +139,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-308-0880 and follow the IVR to hotlist the card.",
-          "phone": "1800-308-0880",
+          "instructions": "Call 1800 266 7711 and follow the IVR to hotlist the card.",
+          "phone": "1800 266 7711",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,14 +157,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 022-7180-1500 (alternate line — see notes).",
-          "phone": "022-7180-1500",
+          "instructions": "Call 022-69045666 (alternate line — see notes).",
+          "phone": "022-69045666",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 022-62298799 (alternate line — see notes).",
+          "phone": "022-62298799",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -148,30 +192,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@suryodaybank.com from your registered email to request card blocking.",
-          "email": "customercare@suryodaybank.com",
+          "instructions": "Email scc@suryodaybank.com from your registered email to request card blocking.",
+          "email": "scc@suryodaybank.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.suryodaybank.com and use the card block/hotlist option.",
-          "url": "https://www.suryodaybank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -180,17 +209,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.suryoday.bank | iOS: https://apps.apple.com/in/app/suryoday-mobile/id1443185260",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.suryoday.MB | iOS: https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.suryoday.bank",
-            "https://apps.apple.com/in/app/suryoday-mobile/id1443185260"
+            "https://play.google.com/store/apps/details?id=com.suryoday.MB",
+            "https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Send an SMS, BLOCK CC to 7289044500 from your registered mobile number. from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -199,13 +245,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Suryoday Mobile Banking app: Cards > Block.",
+          "instructions": "FAQ identical on both secured (FD-backed) RuPay credit cards (Platinum and Select): to temporarily block, 'Select the Temporarily Block option inside Suryoday SFB Mobile Banking App', 'Send an SMS, BLOCK CC to 7289044500 from your registered mobile number', email scc@suryodaybank.com, or call the toll-free number 18002667711; permanent block/unblock — 'Go to the Manage Card section in the Suryoday SFB Mobile Banking app and select Block or Unblock Card', choose permanent block and enter the OTP sent to the registered mobile number. Disputes can be raised in the app, via scc@suryodaybank.com or on 1800 266 7711. Overseas/NRI lines 022-69045666 / 022-62298799 ('24*7 Available Number'). No internet-banking path for credit-card blocking is published.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.suryodaybank.com",
-            "https://www.suryodaybank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://suryoday.bank.in/contact-us/",
+            "https://suryoday.bank.in/personal/cards/debit-cards/",
+            "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+            "https://suryoday.bank.in/ways-to-bank/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -218,11 +265,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.suryodaybank.com",
-      "https://www.suryodaybank.com/contact-us",
-      "https://sachet.rbi.org.in"
+      "https://suryoday.bank.in/contact-us/",
+      "https://suryoday.bank.in/personal/cards/debit-cards/",
+      "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+      "https://suryoday.bank.in/ways-to-bank/internet-banking/"
     ]
   }
 }
