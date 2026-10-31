@@ -1,0 +1,36 @@
+{
+  "id": "apg",
+  "name": "Andhra Pradesh Grameena Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "18004256708",
+      "website": "https://netbanking.apgb.bank.in/",
+      "reference": "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+      "notes": "Call the toll-free Call Center 18004256708 from your registered mobile number to block a lost/stolen/damaged debit card, or visit your home branch; per the bank's Customer Advisory FAQ (eAPGB & eAPGVB to APGB migration, v3.0 dated 10-10-2025) this is the documented blocking procedure, and the toll-free numbers printed on erstwhile eAPGB/eAPGVB debit cards no longer work post-migration. The Call Center is available 24/7. Internet banking at https://netbanking.apgb.bank.in/ (linked as 'Click Here' from the bank's NetBanking page) has a 'Debit Card Services' page, and the mobile banking app 'APGB Money' has a 'Debit Card Services' menu, both documented in the same advisory for card services; no SMS block keyword is published on the bank's pages. The bank's cyber-security page asks customers to report cyber crime by dialling 1930 or visiting www.cybercrime.gov.in / https://sancharsaathi.gov.in/. No overseas helpline is published on these pages.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.finacus.cggbproduction",
+      "iosApp": "https://apps.apple.com/in/app/apgb-money/id6754071416"
+    },
+    "credit": {
+      "notes": "No credit-card programme or credit-card-specific blocking channel appears anywhere on the bank's official pages fetched live on 2026-10-31 (homepage, NetBanking page, cyber-security page and the Customer Advisory FAQ); only RuPay debit (ATM) card procedures are documented, so credit-card blocking is not offered/not documented by this bank. Customers would use the same 24/7 Call Center 18004256708 or home-branch channels."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+      "label": "live fetch 2026-10-31: Customer Advisory FAQ 'DEBIT CARDS/ECOM/POS' Q4 - \"What is the procedure if my debit card got lost/stolen/damaged? Please call to toll free number \"18004256708\" for blocking your debit card with your registered Mobile number (Or) Visit Home branch for blocking your card. The Toll free numbers in the debit card of eAPGB & eAPGVB will not be worked post migration.\"; Q3 documents card-service paths: ATM centres, \"Internet Banking : Visit Andhra Pradesh Grameena Bank Internet Banking 'Debit Card Services' page\" and \"Mobile Banking: Visit \"APGB Money\" -> Application 'Debit Card Services' menu\""
+    },
+    {
+      "url": "https://apgb.bank.in/",
+      "label": "live fetch 2026-10-31: homepage of the amalgamated Andhra Pradesh Grameena Bank - header and Call Center popup \"Toll-Free Number: 1800 425 6708 (Available 24/7)\", footer contact \"Toll Free 18004256708\"; notice \"01-05-2025 1800 425 6708 (Toll free number)\"; app download links https://play.google.com/store/apps/details?id=com.finacus.cggbproduction (Play listing titled \"APGB Money\", developer Andhra Pradesh Grameena Bank) and https://apps.apple.com/in/app/apgb-money/id6754071416; WhatsApp Banking \"Send 'Hi' to 9090290912\"; note the bank's former domain apgb.in is dead/blocked (403 at root) - content lives on apgb.bank.in"
+    },
+    {
+      "url": "https://apgb.bank.in/netbanking",
+      "label": "live fetch 2026-10-31: NetBanking page - \"Andhra Pradesh Grameena Bank - Internet Banking\" section with 'Click Here' button linking to https://netbanking.apgb.bank.in/ (verified live: HTTP 200, title \"Andhra Pradesh Grameena Bank\"); retail and corporate net banking offered"
+    },
+    {
+      "url": "https://apgb.bank.in/cyber-security-tips",
+      "label": "live fetch 2026-10-31: Cyber Security Tips page - \"To report any Cyber Crime Dial 1930 or visit www.cybercrime.gov.in / https://sancharsaathi.gov.in/\""
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}
