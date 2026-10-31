@@ -1,0 +1,45 @@
+{
+  "id": "tmb",
+  "name": "Tamilnad Mercantile Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-425-0426",
+      "number1": "+91 9842 461 461",
+      "number2": "044-26223106 / 26223109",
+      "website": "https://www.ib.tmbonline.bank.in/obmb/?bank_id=TMB",
+      "email": "customercare@tmb.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.tmb.mbank",
+      "iosApp": "https://apps.apple.com/in/app/tmb-mbank/id1585648913",
+      "reference": "https://www.tmb.bank.in/contact-us",
+      "notes": "Customer care hours are 08:00am to 10:00pm (all days of the week); 1800-425-0426 is the national toll-free line and +91 9842 461 461 the chargeable all-services customer-care number. The bank's contact-page FAQ directs holders of a lost or compromised ATM/debit card to call 044-26223106 / 26223109 immediately to block it. No overseas hotline is published; NRIs are given the email desk nricell@tmb.bank.in. Online blocking runs through internet banking via the site's 'Online Service Requests (Stop Payment, Card Block/Unblock)' page; the TMB MBank app lists debit card management among its features, but no app menu path is published. No SMS hotlist format appears on official pages."
+    },
+    "credit": {
+      "tollFree": "1800-425-0426",
+      "number1": "+91 9842 461 461",
+      "number2": "0461-2383346",
+      "email": "creditcardcell@tmb.bank.in",
+      "website": "https://apps.tmbdigital.bank.in/crcrdonline/",
+      "reference": "https://www.tmb.bank.in/contact-us",
+      "notes": "Credit-card queries share the general customer-care lines (1800-425-0426 toll-free, +91 9842 461 461; hours 08:00am to 10:00pm all days). The same contact-page FAQ that covers 'ATM/Debit/Credit cards' says to call 044-26223106 / 26223109 immediately for a lost or compromised card, and gives the credit-card-specific line 0461-2383346 with email creditcardcell@tmb.bank.in. The bank's 'Credit Card Portal' self-service web channel is at apps.tmbdigital.bank.in/crcrdonline/; no mobile-app blocking path or SMS hotlist format is published for credit cards. No overseas hotline is published (NRI email nricell@tmb.bank.in)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.tmb.bank.in/contact-us",
+      "label": "live fetch 2026-10-31: FAQ 'Whom should I contact for lost or blocked ATM/Debit/Credit cards?' — 'If your card is lost or compromised, call 044-26223106 / 26223109 immediately to block it. For credit card–specific concerns, contact 0461-2383346 or email creditcardcell@tmb.bank.in'; contact grid: Customer care (All services) +919842461461 / 18004250426 (All India) with customercare@tmb.bank.in; Credit card queries creditcardcell@tmb.bank.in; General/service queries 0461-2383325/26/27; Fraud line 044-69297034 / 04469297000, frm@tmb.bank.in."
+    },
+    {
+      "url": "https://www.tmb.bank.in/customer-care-support",
+      "label": "live fetch 2026-10-31: 'National Toll fee number : 180 0425 0426'; 'Customer care working hours: 08:00am to 10:00pm (All days of the week). To report ATM card lost, call: +91 (44) 2622 3106 / 2622 3109'; 'TMB customer care: +91 9842 461 461'; narrative email customercare@tmb.bank.in; NRI help desk nricell@tmb.bank.in; outbound call-centre IDs 91-1600318426/91-1600308426/91-1600318505/91-1600303426."
+    },
+    {
+      "url": "https://www.tmb.bank.in/personal/services/online-service-request",
+      "label": "live fetch 2026-10-31: page 'Online Service Requests (Stop Payment, Card Block/Unblock)' under Personal > Services; its offerings grid links internet banking https://www.ib.tmbonline.bank.in/obmb/?bank_id=TMB for online service requests and lists 'Credit Card Portal' at https://apps.tmbdigital.bank.in/crcrdonline/."
+    },
+    {
+      "url": "https://www.tmb.bank.in/personal/services/mobile-banking",
+      "label": "live fetch 2026-10-31: TMB MBank mobile-banking page — service list includes 'Debit card management'; site header Login dropdown links the official stores https://play.google.com/store/apps/details?id=com.tmb.mbank and https://apps.apple.com/in/app/tmb-mbank/id1585648913."
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}

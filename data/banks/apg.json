@@ -2,7 +2,7 @@
   "name": "Andhra Pradesh Grameena Bank",
   "slug": "apg",
   "type": "coop",
-  "website": "https://www.apgb.in/",
+  "website": "https://netbanking.apgb.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,13 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-2030 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-2030",
+          "instructions": "Call 18004256708 and follow the IVR to hotlist the card.",
+          "phone": "18004256708",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.apgb.in/",
-            "https://sachet.rbi.org.in"
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/",
+            "https://apgb.bank.in/netbanking",
+            "https://apgb.bank.in/cyber-security-tips"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,13 +27,35 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.apgb.in/ and use the card block/hotlist option.",
-          "url": "https://www.apgb.in/",
+          "instructions": "Log in to internet banking at https://netbanking.apgb.bank.in/ and use the card block/hotlist option.",
+          "url": "https://netbanking.apgb.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.apgb.in/",
-            "https://sachet.rbi.org.in"
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/",
+            "https://apgb.bank.in/netbanking",
+            "https://apgb.bank.in/cyber-security-tips"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.finacus.cggbproduction | iOS: https://apps.apple.com/in/app/apgb-money/id6754071416",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.finacus.cggbproduction",
+            "https://apps.apple.com/in/app/apgb-money/id6754071416"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/",
+            "https://apgb.bank.in/netbanking",
+            "https://apgb.bank.in/cyber-security-tips"
           ],
           "confirmations": {
             "worked": 0,
@@ -40,12 +64,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact customer care",
+          "instructions": "Call the toll-free Call Center 18004256708 from your registered mobile number to block a lost/stolen/damaged debit card, or visit your home branch; per the bank's Customer Advisory FAQ (eAPGB & eAPGVB to APGB migration, v3.0 dated 10-10-2025) this is the documented blocking procedure, and the toll-free numbers printed on erstwhile eAPGB/eAPGVB debit cards no longer work post-migration. The Call Center is available 24/7. Internet banking at https://netbanking.apgb.bank.in/ (linked as 'Click Here' from the bank's NetBanking page) has a 'Debit Card Services' page, and the mobile banking app 'APGB Money' has a 'Debit Card Services' menu, both documented in the same advisory for card services; no SMS block keyword is published on the bank's pages. The bank's cyber-security page asks customers to report cyber crime by dialling 1930 or visiting www.cybercrime.gov.in / https://sancharsaathi.gov.in/. No overseas helpline is published on these pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.apgb.in/",
-            "https://sachet.rbi.org.in"
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/",
+            "https://apgb.bank.in/netbanking",
+            "https://apgb.bank.in/cyber-security-tips"
           ],
           "confirmations": {
             "worked": 0,
@@ -58,44 +84,15 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-180-2030 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-2030",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.apgb.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.apgb.in/ and use the card block/hotlist option.",
-          "url": "https://www.apgb.in/",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.apgb.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact customer care",
+          "instructions": "No credit-card programme or credit-card-specific blocking channel appears anywhere on the bank's official pages fetched live on 2026-10-31 (homepage, NetBanking page, cyber-security page and the Customer Advisory FAQ); only RuPay debit (ATM) card procedures are documented, so credit-card blocking is not offered/not documented by this bank. Customers would use the same 24/7 Call Center 18004256708 or home-branch channels.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.apgb.in/",
-            "https://sachet.rbi.org.in"
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/",
+            "https://apgb.bank.in/netbanking",
+            "https://apgb.bank.in/cyber-security-tips"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,10 +105,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.apgb.in/",
-      "https://sachet.rbi.org.in"
+      "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+      "https://apgb.bank.in/",
+      "https://apgb.bank.in/netbanking",
+      "https://apgb.bank.in/cyber-security-tips"
     ]
   }
 }

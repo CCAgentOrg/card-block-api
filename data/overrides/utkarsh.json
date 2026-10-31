@@ -1,0 +1,46 @@
+{
+  "id": "utkarsh",
+  "name": "Utkarsh Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-123-9878",
+      "number1": "1800 208 1788",
+      "website": "https://www.utkarsh.bank.in",
+      "reference": "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+      "notes": "Customer Care 1800-123-9878 is available 24x7 (365 days) for blocking/hotlisting; it is also the IVR number to call from your registered mobile number. SMS block: send \"BLOCK <space> Last 4 Digits of your Card Number\" (e.g. BLOCK 1234) to 8108256256 from your registered mobile number; an acknowledgement SMS confirms the request. Netbanking path: www.utkarsh.bank.in > Login > Personal Banking > Cards > Debit Cards > Block Debit Card. Utkarsh Mobile Banking app path: More > Cards > Debit Cards > Block Debit Card. Site-footer toll-free list: 1800 123 9878 (Service), 1800 208 1788 (Micro Banking), 1800 570 3988 (Sales); general customer-care email customercare@utkarsh.bank.in and the Report Unauthorised Transaction portal odr.utkarsh.bank.in/utkarsh-mbank are published in the footer. No overseas helpline is published on these pages.",
+      "sms": "BLOCK <space> Last 4 Digits of your Card Number (e.g. BLOCK 1234) - send to 8108256256 from your registered mobile number",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share",
+      "iosApp": "https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370"
+    },
+    "credit": {
+      "tollFree": "1800-309-3665",
+      "number1": "1800-309-7986",
+      "number2": "1800-123-9878",
+      "website": "https://onlinebanking.utkarsh.bank.in",
+      "reference": "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+      "notes": "Credit Card Support 1800-309-3665: the Eternal card page says to call it or email creditcards@utkarsh.bank.in to get the card hot-listed on loss/theft or fraudulent transaction, and its FAQ confirms blocking through Internet Banking and Mobile Banking; no SMS keyword is published for credit cards. PhonePe co-branded Wish secured card: block or freeze via the 'Block and Replace' feature under card settings > Manage in the PhonePe app, or call Secured Card Support 1800-309-7986 / email securedcc@utkarsh.bank.in. 1800-123-9878 is the bank's generic Service line (24x7, 365 days). No overseas helpline is published on these pages.",
+      "email": "creditcards@utkarsh.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share",
+      "iosApp": "https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+      "label": "live fetch 2026-10-31: Block Debit Card page - block/hotlist channels Internet Banking, Mobile Banking, Customer Care, SMS Banking; \"Customer Care Number 1800-123-9878 which is available 24x7 (365 days)\"; SMS \"BLOCK <space> Last 4 Digits of your Card Number\" e.g. BLOCK 1234 to 8108256256 from registered mobile number with acknowledgement SMS; netbanking steps (Login > Personal Banking > Cards > Debit Cards > Block Debit Card) and app steps (More > Cards > Debit Cards > Block Debit Card); footer Toll Free 1800 123 9878 (Service), 1800 208 1788 (Micro Banking), 1800 570 3988 (Sales), Credit Card Support 1800 309 3665, Secured Card Support 1800-309-7986, emails customercare@utkarsh.bank.in / securedcc@utkarsh.bank.in, Report Unauthorised Transaction link odr.utkarsh.bank.in/utkarsh-mbank"
+    },
+    {
+      "url": "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+      "label": "live fetch 2026-10-31: Eternal credit card - \"In case of loss/theft of card, fraudulent transaction, call our customer care number - 1800-309-3665 or send an email to creditcards@utkarsh.bank and get your card hot-listed\"; FAQ \"How can I block my Credit Card?\": \"through Internet Banking or Mobile Banking ... call 1800 309 3665 or email creditcards@utkarsh.bank.in to request card blocking\"; lost/stolen and fraud FAQs repeat 1800 309 3665 / creditcards@utkarsh.bank.in"
+    },
+    {
+      "url": "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+      "label": "live fetch 2026-10-31: Wish (PhonePe) secured credit card - \"In case of loss/theft of card, Block or Freeze card from PhonePe app or call our customer care number 1800-309-7986 or send an email to securedcc@utkarsh.bank and get your card hot-listed\"; fraud FAQ: 'Block and Replace' feature under card settings in the Manage section in PhonePe app"
+    },
+    {
+      "url": "https://www.utkarsh.bank.in/digital-banking",
+      "label": "live fetch 2026-10-31: digital-banking page - internet-banking portal https://onlinebanking.utkarsh.bank.in; Mobile Banking app links labelled \"Mobile Banking-Google Play\" https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share and \"Mobile Banking-Apple Store\" https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370"
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}

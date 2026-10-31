@@ -2,7 +2,7 @@
   "name": "UCO Bank",
   "slug": "uc-bank",
   "type": "private",
-  "website": "https://www.ucobankonline.in",
+  "website": "https://ebanking.uco.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-103-0011 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-0011",
+          "instructions": "Call 1800-103-0123 and follow the IVR to hotlist the card.",
+          "phone": "1800-103-0123",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-8867 (alternate line — see notes).",
-          "phone": "1800-103-8867",
+          "instructions": "Call 1800 8910 (alternate line — see notes).",
+          "phone": "1800 8910",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-26-78729 (alternate line — see notes).",
+          "phone": "1800-26-78729",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@ucobankonline.in from your registered email to request card blocking.",
-          "email": "customercare@ucobankonline.in",
+          "instructions": "Email uco.custcare@ucobank.co.in from your registered email to request card blocking.",
+          "email": "uco.custcare@ucobank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.ucobankonline.in and use the card block/hotlist option.",
-          "url": "https://www.ucobankonline.in",
+          "instructions": "Log in to internet banking at https://ebanking.uco.bank.in/ and use the card block/hotlist option.",
+          "url": "https://ebanking.uco.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -66,16 +96,15 @@
           }
         },
         {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking | iOS: https://apps.apple.com/in/app/uco-bank-mobile/id1205654706",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking",
-            "https://apps.apple.com/in/app/uco-bank-mobile/id1205654706"
-          ],
+          "channel": "sms",
+          "instructions": "SMS SMS 'HOT' to 9230192301 from the registered mobile: 'HOT' hot-lists all cards attached to that mobile no.; 'HOT' + last 4 digits hot-lists the specific card; 'HOT'<14 digit account no.> hot-lists all cards linked to that account. from your registered mobile number.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +113,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via UCO Mobile app: Debit Card > Hotlist.",
+          "instructions": "Hotlisting is available 24x7 - the bank's own wording is 'at any point of time'. The toll-free appears as '1800 8910' site-wide (site header and hotlist instructions) while the FAQ spells the Customer Service Hotline as 1800-103-0123; a 24x7 multilingual assistance toll-free, 1800-26-78729, also appears on the debit-card page. App path: hotlist through the UCO M-Banking Plus app; the UCO Secure app can additionally disable a card's ATM/POS/e-commerce services. WhatsApp channel 8334001234 also hotlists debit cards. Netbanking: log in at ebanking.uco.bank.in, where 'Debit Card Hotlisting' and 'Enable/Disable ADC Channel' are listed retail services. Lost/stolen cards can also be reported by email to uco.custcare@ucobank.co.in. No overseas helpline is published on the official pages verified; the 1930 national helpline is not mentioned on them.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +135,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-103-0011 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-0011",
+          "instructions": "Call 1800 180 1290 and follow the IVR to hotlist the card.",
+          "phone": "1800 180 1290",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +153,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 033-2235-0300 (alternate line — see notes).",
-          "phone": "033-2235-0300",
+          "instructions": "Call 1860 500 1290 (alternate line — see notes).",
+          "phone": "1860 500 1290",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1860 180 1290 (alternate line — see notes).",
+          "phone": "1860 180 1290",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,43 +188,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@ucobankonline.in from your registered email to request card blocking.",
-          "email": "customercare@ucobankonline.in",
+          "instructions": "Email customercare@sbicard.com from your registered email to request card blocking.",
+          "email": "customercare@sbicard.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.ucobankonline.in and use the card block/hotlist option.",
-          "url": "https://www.ucobankonline.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ucobankonline.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking | iOS: https://apps.apple.com/in/app/uco-bank-mobile/id1205654706",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.mobfin.ucobank.mbanking",
-            "https://apps.apple.com/in/app/uco-bank-mobile/id1205654706"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +205,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via UCO Mobile Banking app: Cards > Block.",
+          "instructions": "UCO Bank publishes SBI Cards' 'Policy for the issuance and conduct of credit cards' on its website and routes credit-card servicing through SBI Card's dedicated 24x7 call centre: 1860 500 1290, 1860 180 1290 or 39 02 02 02 (prefix local STD code); 1800 180 1290 is toll-free. Executives answer 8 AM - 8 PM Monday to Saturday, with lines open 24x7 for emergency and premium services. Requests can also be emailed to customercare@sbicard.com or sent via www.sbicard.com/email and the SBI Card mobile app. No UCO-side SMS keyword, netbanking block path or overseas number is published for credit cards.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ucobankonline.in"
+            "https://uco.bank.in/en/web/guest/debit-card",
+            "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+            "https://uco.bank.in/en/web/guest/internet-banking",
+            "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +225,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.ucobankonline.in"
+      "https://uco.bank.in/en/web/guest/debit-card",
+      "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+      "https://uco.bank.in/en/web/guest/internet-banking",
+      "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023"
     ]
   }
 }

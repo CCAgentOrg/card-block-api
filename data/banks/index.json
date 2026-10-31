@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "count": 61,
   "freshness": {
-    "fresh": 25,
+    "fresh": 34,
     "aging": 16,
-    "stale": 20
+    "stale": 11
   },
   "banks": [
     {
@@ -50,9 +50,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 6,
+      "method_count": 5,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "au-small-finance",
@@ -211,7 +211,7 @@
       ],
       "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "dhanlaxmi-bank",
@@ -221,9 +221,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 10,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "equitas-small-finance",
@@ -606,7 +606,7 @@
       ],
       "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "sbi",
@@ -629,9 +629,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "tmb",
@@ -641,9 +641,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "telangana-gramin",
@@ -679,19 +679,18 @@
       ],
       "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "ujjivan-small-finance",
       "name": "Ujjivan Small Finance Bank",
       "type": "private",
       "card_types": [
-        "debit",
-        "credit"
+        "debit"
       ],
-      "method_count": 12,
+      "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "union",
@@ -714,9 +713,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-12"
+      "last_verified": "2026-10-31"
     },
     {
       "slug": "wb-coop",

@@ -2,7 +2,7 @@
   "name": "Dhanlaxmi Bank",
   "slug": "dhanlaxmi-bank",
   "type": "private",
-  "website": "https://www.dhanlaxmibank.in/",
+  "website": "https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock",
   "cards": [
     {
       "type": "debit",
@@ -10,13 +10,51 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-120-6055 and follow the IVR to hotlist the card.",
-          "phone": "1800-120-6055",
+          "instructions": "Call 1800-425-1747 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1747",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 044 42413000 (alternate line — see notes).",
+          "phone": "044 42413000",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +91-88-93553553 (alternate line — see notes).",
+          "phone": "+91-88-93553553",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,13 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email service@dhanlaxmibank.in from your registered email to request card blocking.",
-          "email": "service@dhanlaxmibank.in",
+          "instructions": "Email customercare@dhanbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@dhanbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -40,13 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.dhanlaxmibank.in/ and use the card block/hotlist option.",
-          "url": "https://www.dhanlaxmibank.in/",
+          "instructions": "Log in to internet banking at https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock and use the card block/hotlist option.",
+          "url": "https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -55,16 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dhanlaxmi.mbanking | iOS: https://apps.apple.com/in/app/dhanlaxmi-bank/id1367961575",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc | iOS: https://apps.apple.com/in/app/dhansmart/id1061588821",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.dhanlaxmi.mbanking",
-            "https://apps.apple.com/in/app/dhanlaxmi-bank/id1367961575"
+            "https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc",
+            "https://apps.apple.com/in/app/dhansmart/id1061588821"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -73,12 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via net banking or call customer care",
+          "instructions": "Customer Care Centre runs 24/7 on toll-free 1800-425-1747 and chargeable line 044 42413000; the debit-card IVR menu is language -> account related -> savings/current -> 1 block / 2 temporary unblock. number2 is not a call line: the bank publishes a missed-call self-service — give a missed call from your registered mobile to +91-88-93553553 to disable/enable all debit cards on that number, confirmed by SMS. Website: on www.dhan.bank.in use the pre-login Retail Banking 'Block Card -> Debit Card' flow or, after login, Menu -> Block/Unblock & PIN Generation -> Card block (Debit/Credit); the bank's site nav carries a dedicated 'Card Block (Debit/Credit)' link to delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock. DhanSmart app / DhanDelight retail netbanking menu path for a permanent hotlist: Services -> Debit Cards -> Select Card -> Hot list (temporary block/unblock: Services -> Debit Cards -> Select Card -> Block/Unblock Card). Fraudulent-transaction reports may also be emailed to support@dhanbank.co.in (that address is for fraud reports only). No SMS hotlist keyword exists for cards — the bank's SMS keywords BLOCKUPI / BLOCKIBMB to 918105754333 block only the UPI and mobile/netbanking channels. No overseas hotline is published. The bank's own page additionally directs fraud complaints to the MHA cyber helpline 1930 or cybercrime.gov.in.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -93,13 +139,33 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-120-6055 and follow the IVR to hotlist the card.",
-          "phone": "1800-120-6055",
+          "instructions": "Call 1800-425-1747 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-1747",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 044 42413000 (alternate line — see notes).",
+          "phone": "044 42413000",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,13 +174,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email service@dhanlaxmibank.in from your registered email to request card blocking.",
-          "email": "service@dhanlaxmibank.in",
+          "instructions": "Email customercare@dhanbank.co.in from your registered email to request card blocking.",
+          "email": "customercare@dhanbank.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -123,13 +191,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.dhanlaxmibank.in/ and use the card block/hotlist option.",
-          "url": "https://www.dhanlaxmibank.in/",
+          "instructions": "Log in to internet banking at https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock and use the card block/hotlist option.",
+          "url": "https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -138,16 +208,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dhanlaxmi.mbanking | iOS: https://apps.apple.com/in/app/dhanlaxmi-bank/id1367961575",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc | iOS: https://apps.apple.com/in/app/dhansmart/id1061588821",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.dhanlaxmi.mbanking",
-            "https://apps.apple.com/in/app/dhanlaxmi-bank/id1367961575"
+            "https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc",
+            "https://apps.apple.com/in/app/dhansmart/id1061588821"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -156,12 +228,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via net banking or call customer care",
+          "instructions": "Credit-card blocking goes through the same 24/7 Customer Care Centre (toll-free 1800-425-1747, chargeable 044 42413000); no missed-call or SMS self-service is published for credit cards. Website: on www.dhan.bank.in use the pre-login Retail Banking 'Block Card -> Credit Card' flow or, after login, Menu -> Block/Unblock & PIN Generation -> Card block (Debit/Credit); the bank's site nav carries a dedicated 'Card Block (Debit/Credit)' link to delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock. DhanSmart app / DhanDelight netbanking menu path for a permanent hotlist: Services -> Credit Cards -> Card Hot listing (temporary block/unblock: Services -> Credit Cards -> Block/Unblock Cards). Fraudulent-transaction reports may also be emailed to support@dhanbank.co.in (fraud reports only), and the bank's own page directs fraud complaints additionally to the MHA cyber helpline 1930 or cybercrime.gov.in. No overseas hotline is published.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dhanlaxmibank.in/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+            "https://www.dhan.bank.in/customer-care/",
+            "https://www.dhan.bank.in/visa-debit-card/",
+            "https://www.dhan.bank.in/credit-card/"
           ],
           "confirmations": {
             "worked": 0,
@@ -174,10 +248,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.dhanlaxmibank.in/customer-care",
-      "https://sachet.rbi.org.in"
+      "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+      "https://www.dhan.bank.in/customer-care/",
+      "https://www.dhan.bank.in/visa-debit-card/",
+      "https://www.dhan.bank.in/credit-card/"
     ]
   }
 }

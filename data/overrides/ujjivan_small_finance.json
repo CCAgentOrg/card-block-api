@@ -1,0 +1,34 @@
+{
+  "id": "ujjivan_small_finance",
+  "name": "Ujjivan Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 208 2121",
+      "number1": "080 6868 2121",
+      "email": "customercare@ujjivan.bank.in",
+      "website": "https://netbankingezy.ujjivansfb.bank.in/RetailBanking/",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.ujjivanbank.voice",
+      "reference": "https://www.ujjivansfb.bank.in/phone-banking",
+      "notes": "Phone banking on toll-free 1800 208 2121 runs 24x7 all days; the IVR self-service menu explicitly includes 'Block your debit card in case of theft/emergency' and 'Block your UPI Services in case of theft/emergency'. For cards-related issues from outside India the bank publishes 080 6868 2121. Netbanking: log in to Ujjivan EZY Internet Banking (netbankingezy.ujjivansfb.bank.in/RetailBanking/) and use the 'Hotlist' function under Debit Card > Cards Actions to block the card permanently ('Manage Debit Card: Hotlist cards, Block/unblock cards, manage limits, and reset PIN anytime'). Mobile: the Hello Ujjivan app offers debit-card services including 'hotlist card'. Card complaints by email go to customercare@ujjivan.bank.in. The bank publishes no credit-card product and no SMS keyword for blocking a debit card."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.ujjivansfb.bank.in/cards/debit-cards",
+      "label": "live fetch 2026-10-31: 'Customer care number for any cards related issues: Within India: 1800 208 2121 Outside India: 080 6868 2121 Email ID: customercare@ujjivan.bank.in'; page lists only RuPay debit-card variants (no credit-card product anywhere on the site; /cards/credit-cards returns 404). www.ujjivansfb.in 302-redirects to www.ujjivansfb.bank.in"
+    },
+    {
+      "url": "https://www.ujjivansfb.bank.in/phone-banking",
+      "label": "live fetch 2026-10-31: 'toll-free number 1800 208 2121' — 'Ujjivan SFB Phone Banking service is available 24*7 days a week'; IVR service list includes 'Block your debit card in case of theft/emergency' and 'Block your UPI Services in case of theft/emergency'"
+    },
+    {
+      "url": "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+      "label": "live fetch 2026-10-31: Ujjivan EZY Internet Banking portal https://netbankingezy.ujjivansfb.bank.in/RetailBanking/; 'Manage Debit Card: Hotlist cards, Block/unblock cards, manage limits, and reset PIN anytime'; FAQ Q24: 'You can permanently block/unblock your debit card using the functionality - Hotlist within Cards Actions section under Debit Card'"
+    },
+    {
+      "url": "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+      "label": "live fetch 2026-10-31: 'To Download Mobile Banking application' links https://play.google.com/store/apps/details?id=com.ujjivanbank.voice (Google Play listing resolves as 'Hello Ujjivan Mobile Banking'; the footer's other Play link com.ujjivanbank.mobilebanking is dead); app feature list includes 'Debit card services - set debit card pin, hotlist card and request a new card'"
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}

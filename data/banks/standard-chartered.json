@@ -2,20 +2,23 @@
   "name": "Standard Chartered Bank India",
   "slug": "standard-chartered",
   "type": "private",
-  "website": "https://www.sc.com/in",
+  "website": "https://retail.sc.com/in/nfs/login.htm",
   "cards": [
     {
       "type": "debit",
       "blocking_methods": [
         {
           "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-180-1188 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-1188",
+          "label": "alternate",
+          "instructions": "Call *66014444 (prefix your local STD code) / 080-49248444 / 044-47628444 — Personal Banking helpline (alternate line — see notes).",
+          "phone": "*66014444 (prefix your local STD code) / 080-49248444 / 044-47628444 — Personal Banking helpline",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 044-2816-7777 (alternate line — see notes).",
-          "phone": "044-2816-7777",
+          "instructions": "Call *66012424 (prefix your local STD code) / 080-49248000 / 044-47628000 — Priority Banking & Beyond Card 24-hour contact centre (alternate line — see notes).",
+          "phone": "*66012424 (prefix your local STD code) / 080-49248000 / 044-47628000 — Priority Banking & Beyond Card 24-hour contact centre",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email call.centre@sc.com from your registered email to request card blocking.",
-          "email": "call.centre@sc.com",
+          "instructions": "Email customer.care@sc.com from your registered email to request card blocking.",
+          "email": "customer.care@sc.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.sc.com/in and use the card block/hotlist option.",
-          "url": "https://www.sc.com/in",
+          "instructions": "Log in to internet banking at https://retail.sc.com/in/nfs/login.htm and use the card block/hotlist option.",
+          "url": "https://retail.sc.com/in/nfs/login.htm",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +79,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sc.mobilebanking.in | iOS: https://apps.apple.com/in/app/sc-bank-in/id1354682009",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=air.app.scb.breeze.android.main.in.prod | iOS: https://apps.apple.com/in/app/sc-mobile-india/id460909294?ls=1",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.sc.mobilebanking.in",
-            "https://apps.apple.com/in/app/sc-bank-in/id1354682009"
+            "https://play.google.com/store/apps/details?id=air.app.scb.breeze.android.main.in.prod",
+            "https://apps.apple.com/in/app/sc-mobile-india/id460909294?ls=1"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +99,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via SC Mobile app: Cards > Manage > Block.",
+          "instructions": "Block via Online Banking or SC Mobile: log in, select Help & Services > Card Management > Report Lost/Stolen Card; the card is blocked and a replacement sent to the registered mailing address. Hours: Personal Banking helpline is 8am-8pm IST but emergency services (report of loss card, unauthorised transaction, charge dispute, stop payment) continue to be serviced; Priority Banking & Beyond Card (*66012424 / 080-49248000 / 044-47628000) and Premium Banking (*66011500 / 080-49248500 / 044-47628500) lines are 24-hour contact centres. Overseas (International Banking helpline): Bahrain 80000448, UAE 8000177750, Hong Kong 800905108, Singapore 8001012407, Malaysia 1800815063, UK 8081019144, Philippines 180011101121, USA (New York) 8773021657, Canada 8772185618, Nigeria 7080601549. customer.care@sc.com is the published customer-care email for all other accounts. No SMS block keyword is published on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -102,13 +120,16 @@
       "blocking_methods": [
         {
           "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-180-1188 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-1188",
+          "label": "alternate",
+          "instructions": "Call *66014444 (prefix your local STD code) / 080-49248444 / 044-47628444 — Personal Banking helpline (alternate line — see notes).",
+          "phone": "*66014444 (prefix your local STD code) / 080-49248444 / 044-47628444 — Personal Banking helpline",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +139,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 044-2816-7777 (alternate line — see notes).",
-          "phone": "044-2816-7777",
+          "instructions": "Call *66012424 (prefix your local STD code) / 080-49248000 / 044-47628000 — Priority Banking & Beyond Card 24-hour contact centre (alternate line — see notes).",
+          "phone": "*66012424 (prefix your local STD code) / 080-49248000 / 044-47628000 — Priority Banking & Beyond Card 24-hour contact centre",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +156,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email call.centre@sc.com from your registered email to request card blocking.",
-          "email": "call.centre@sc.com",
+          "instructions": "Email customer.care@sc.com from your registered email to request card blocking.",
+          "email": "customer.care@sc.com",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,12 +173,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.sc.com/in and use the card block/hotlist option.",
-          "url": "https://www.sc.com/in",
+          "instructions": "Log in to internet banking at https://retail.sc.com/in/nfs/login.htm and use the card block/hotlist option.",
+          "url": "https://retail.sc.com/in/nfs/login.htm",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -160,15 +190,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sc.mobilebanking.in | iOS: https://apps.apple.com/in/app/sc-bank-in/id1354682009",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=air.app.scb.breeze.android.main.in.prod | iOS: https://apps.apple.com/in/app/sc-mobile-india/id460909294?ls=1",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.sc.mobilebanking.in",
-            "https://apps.apple.com/in/app/sc-bank-in/id1354682009"
+            "https://play.google.com/store/apps/details?id=air.app.scb.breeze.android.main.in.prod",
+            "https://apps.apple.com/in/app/sc-mobile-india/id460909294?ls=1"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +210,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Priority Banking: 1800-102-1188. Via SC Mobile India app: Cards > Block.",
+          "instructions": "Block via Online Banking or SC Mobile: log in, select Help & Services > Card Management > Report Lost/Stolen Card; the card is blocked and a replacement sent to the registered mailing address. Hours: Personal Banking helpline is 8am-8pm IST but emergency services (report of loss card, unauthorised transaction, charge dispute, stop payment) continue to be serviced; Priority Banking & Beyond Card (*66012424 / 080-49248000 / 044-47628000) and Premium Banking (*66011500 / 080-49248500 / 044-47628500) lines are 24-hour contact centres. Overseas (International Banking helpline): Bahrain 80000448, UAE 8000177750, Hong Kong 800905108, Singapore 8001012407, Malaysia 1800815063, UK 8081019144, Philippines 180011101121, USA (New York) 8773021657, Canada 8772185618, Nigeria 7080601549. customer.care@sc.com is the published customer-care email for all other accounts. No SMS block keyword is published on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.sc.com/in/contact-us/"
+            "https://www.sc.bank.in/bank-with-us/phone-banking/",
+            "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+            "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+            "https://www.sc.bank.in/contact-us/"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +230,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.sc.com/in/contact-us/"
+      "https://www.sc.bank.in/bank-with-us/phone-banking/",
+      "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+      "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+      "https://www.sc.bank.in/contact-us/"
     ]
   }
 }

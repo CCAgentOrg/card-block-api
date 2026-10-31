@@ -2,7 +2,7 @@
   "name": "Tamilnad Mercantile Bank",
   "slug": "tmb",
   "type": "private",
-  "website": "https://www.tmb.in",
+  "website": "https://apps.tmbdigital.bank.in/crcrdonline/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-419-9950 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-9950",
+          "instructions": "Call 1800-425-0426 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-0426",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 04562-232323 (alternate line — see notes).",
-          "phone": "04562-232323",
+          "instructions": "Call +91 9842 461 461 (alternate line — see notes).",
+          "phone": "+91 9842 461 461",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 044-26223106 / 26223109 (alternate line — see notes).",
+          "phone": "044-26223106 / 26223109",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@tmb.in from your registered email to request card blocking.",
-          "email": "customercare@tmb.in",
+          "instructions": "Email customercare@tmb.bank.in from your registered email to request card blocking.",
+          "email": "customercare@tmb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.tmb.in and use the card block/hotlist option.",
-          "url": "https://www.tmb.in",
+          "instructions": "Log in to internet banking at https://www.ib.tmbonline.bank.in/obmb/?bank_id=TMB and use the card block/hotlist option.",
+          "url": "https://www.ib.tmbonline.bank.in/obmb/?bank_id=TMB",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tmb.app | iOS: https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tmb.mbank | iOS: https://apps.apple.com/in/app/tmb-mbank/id1585648913",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.tmb.app",
-            "https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152"
+            "https://play.google.com/store/apps/details?id=com.tmb.mbank",
+            "https://apps.apple.com/in/app/tmb-mbank/id1585648913"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,11 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "To block ATM/Debit: Give missed call to 08467974343 from registered mobile. Also via TMB Mobile app.",
+          "instructions": "Customer care hours are 08:00am to 10:00pm (all days of the week); 1800-425-0426 is the national toll-free line and +91 9842 461 461 the chargeable all-services customer-care number. The bank's contact-page FAQ directs holders of a lost or compromised ATM/debit card to call 044-26223106 / 26223109 immediately to block it. No overseas hotline is published; NRIs are given the email desk nricell@tmb.bank.in. Online blocking runs through internet banking via the site's 'Online Service Requests (Stop Payment, Card Block/Unblock)' page; the TMB MBank app lists debit card management among its features, but no app menu path is published. No SMS hotlist format appears on official pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -103,12 +139,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-419-9950 and follow the IVR to hotlist the card.",
-          "phone": "1800-419-9950",
+          "instructions": "Call 1800-425-0426 and follow the IVR to hotlist the card.",
+          "phone": "1800-425-0426",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -118,12 +157,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 04562-232323 (alternate line — see notes).",
-          "phone": "04562-232323",
+          "instructions": "Call +91 9842 461 461 (alternate line — see notes).",
+          "phone": "+91 9842 461 461",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0461-2383346 (alternate line — see notes).",
+          "phone": "0461-2383346",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,12 +192,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@tmb.in from your registered email to request card blocking.",
-          "email": "customercare@tmb.in",
+          "instructions": "Email creditcardcell@tmb.bank.in from your registered email to request card blocking.",
+          "email": "creditcardcell@tmb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -146,29 +209,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.tmb.in and use the card block/hotlist option.",
-          "url": "https://www.tmb.in",
+          "instructions": "Log in to internet banking at https://apps.tmbdigital.bank.in/crcrdonline/ and use the card block/hotlist option.",
+          "url": "https://apps.tmbdigital.bank.in/crcrdonline/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tmb.app | iOS: https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.tmb.app",
-            "https://apps.apple.com/in/app/tmb-mobile-banking/id1241703152"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,11 +226,14 @@
         },
         {
           "channel": "other",
-          "instructions": "To block credit card: Give missed call to 09211937373 from registered mobile.",
+          "instructions": "Credit-card queries share the general customer-care lines (1800-425-0426 toll-free, +91 9842 461 461; hours 08:00am to 10:00pm all days). The same contact-page FAQ that covers 'ATM/Debit/Credit cards' says to call 044-26223106 / 26223109 immediately for a lost or compromised card, and gives the credit-card-specific line 0461-2383346 with email creditcardcell@tmb.bank.in. The bank's 'Credit Card Portal' self-service web channel is at apps.tmbdigital.bank.in/crcrdonline/; no mobile-app blocking path or SMS hotlist format is published for credit cards. No overseas hotline is published (NRI email nricell@tmb.bank.in).",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://tmb.in"
+            "https://www.tmb.bank.in/contact-us",
+            "https://www.tmb.bank.in/customer-care-support",
+            "https://www.tmb.bank.in/personal/services/online-service-request",
+            "https://www.tmb.bank.in/personal/services/mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +246,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://tmb.in"
+      "https://www.tmb.bank.in/contact-us",
+      "https://www.tmb.bank.in/customer-care-support",
+      "https://www.tmb.bank.in/personal/services/online-service-request",
+      "https://www.tmb.bank.in/personal/services/mobile-banking"
     ]
   }
 }

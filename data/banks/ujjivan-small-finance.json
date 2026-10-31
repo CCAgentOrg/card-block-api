@@ -2,7 +2,7 @@
   "name": "Ujjivan Small Finance Bank",
   "slug": "ujjivan-small-finance",
   "type": "private",
-  "website": "https://www.ujjivansfb.in",
+  "website": "https://netbankingezy.ujjivansfb.bank.in/RetailBanking/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-232-0303 and follow the IVR to hotlist the card.",
-          "phone": "1800-232-0303",
+          "instructions": "Call 1800 208 2121 and follow the IVR to hotlist the card.",
+          "phone": "1800 208 2121",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ujjivansfb.in"
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,12 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 080-2523-0033 (alternate line — see notes).",
-          "phone": "080-2523-0033",
+          "instructions": "Call 080 6868 2121 (alternate line — see notes).",
+          "phone": "080 6868 2121",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ujjivansfb.in"
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -39,12 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@ujjivansfb.in from your registered email to request card blocking.",
-          "email": "customercare@ujjivansfb.in",
+          "instructions": "Email customercare@ujjivan.bank.in from your registered email to request card blocking.",
+          "email": "customercare@ujjivan.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ujjivansfb.in"
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,12 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.ujjivansfb.in and use the card block/hotlist option.",
-          "url": "https://www.ujjivansfb.in",
+          "instructions": "Log in to internet banking at https://netbankingezy.ujjivansfb.bank.in/RetailBanking/ and use the card block/hotlist option.",
+          "url": "https://netbankingezy.ujjivansfb.bank.in/RetailBanking/",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ujjivansfb.in"
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -67,15 +79,17 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.federalbank.fedbook | iOS: https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ujjivanbank.voice",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
-            "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
+            "https://play.google.com/store/apps/details?id=com.ujjivanbank.voice"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ujjivansfb.in"
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -84,104 +98,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Ujjivan Mobile Bank app: Debit Card > Block.",
+          "instructions": "Phone banking on toll-free 1800 208 2121 runs 24x7 all days; the IVR self-service menu explicitly includes 'Block your debit card in case of theft/emergency' and 'Block your UPI Services in case of theft/emergency'. For cards-related issues from outside India the bank publishes 080 6868 2121. Netbanking: log in to Ujjivan EZY Internet Banking (netbankingezy.ujjivansfb.bank.in/RetailBanking/) and use the 'Hotlist' function under Debit Card > Cards Actions to block the card permanently ('Manage Debit Card: Hotlist cards, Block/unblock cards, manage limits, and reset PIN anytime'). Mobile: the Hello Ujjivan app offers debit-card services including 'hotlist card'. Card complaints by email go to customercare@ujjivan.bank.in. The bank publishes no credit-card product and no SMS keyword for blocking a debit card.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.ujjivansfb.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        }
-      ]
-    },
-    {
-      "type": "credit",
-      "blocking_methods": [
-        {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-232-0303 and follow the IVR to hotlist the card.",
-          "phone": "1800-232-0303",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ujjivansfb.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 080-2523-0033 (alternate line — see notes).",
-          "phone": "080-2523-0033",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ujjivansfb.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@ujjivansfb.in from your registered email to request card blocking.",
-          "email": "customercare@ujjivansfb.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ujjivansfb.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.ujjivansfb.in and use the card block/hotlist option.",
-          "url": "https://www.ujjivansfb.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ujjivansfb.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.federalbank.fedbook | iOS: https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.federalbank.fedbook",
-            "https://apps.apple.com/in/app/ujjivan-sfb-app/id1500468340"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ujjivansfb.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "other",
-          "instructions": "Via Ujjivan Mobile Bank app: Cards > Block.",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.ujjivansfb.in"
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -194,9 +118,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.ujjivansfb.in"
+      "https://www.ujjivansfb.bank.in/cards/debit-cards",
+      "https://www.ujjivansfb.bank.in/phone-banking",
+      "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+      "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
     ]
   }
 }

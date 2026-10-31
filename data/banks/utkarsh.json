@@ -2,7 +2,7 @@
   "name": "Utkarsh Small Finance Bank",
   "slug": "utkarsh",
   "type": "private",
-  "website": "https://www.utkarsh.bank",
+  "website": "https://onlinebanking.utkarsh.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,14 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-120-8080 and follow the IVR to hotlist the card.",
-          "phone": "1800-120-8080",
+          "instructions": "Call 1800-123-9878 and follow the IVR to hotlist the card.",
+          "phone": "1800-123-9878",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -27,30 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-120-8081 (alternate line — see notes).",
-          "phone": "1800-120-8081",
+          "instructions": "Call 1800 208 1788 (alternate line — see notes).",
+          "phone": "1800 208 1788",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email care@utkarsh.bank from your registered email to request card blocking.",
-          "email": "care@utkarsh.bank",
-          "confidence": 0.85,
-          "last_verified": "2026-05-12",
-          "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -59,14 +45,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.utkarsh.bank and use the card block/hotlist option.",
-          "url": "https://www.utkarsh.bank",
+          "instructions": "Log in to internet banking at https://www.utkarsh.bank.in and use the card block/hotlist option.",
+          "url": "https://www.utkarsh.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -75,17 +62,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.utkarsh.bankapp | iOS: https://apps.apple.com/in/app/utkarsh-bank/id1463458813",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share | iOS: https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.utkarsh.bankapp",
-            "https://apps.apple.com/in/app/utkarsh-bank/id1463458813"
+            "https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share",
+            "https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS BLOCK <space> Last 4 Digits of your Card Number (e.g. BLOCK 1234) - send to 8108256256 from your registered mobile number from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -94,13 +98,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Utkarsh Mobile app: Debit Card > Block.",
+          "instructions": "Customer Care 1800-123-9878 is available 24x7 (365 days) for blocking/hotlisting; it is also the IVR number to call from your registered mobile number. SMS block: send \"BLOCK <space> Last 4 Digits of your Card Number\" (e.g. BLOCK 1234) to 8108256256 from your registered mobile number; an acknowledgement SMS confirms the request. Netbanking path: www.utkarsh.bank.in > Login > Personal Banking > Cards > Debit Cards > Block Debit Card. Utkarsh Mobile Banking app path: More > Cards > Debit Cards > Block Debit Card. Site-footer toll-free list: 1800 123 9878 (Service), 1800 208 1788 (Micro Banking), 1800 570 3988 (Sales); general customer-care email customercare@utkarsh.bank.in and the Report Unauthorised Transaction portal odr.utkarsh.bank.in/utkarsh-mbank are published in the footer. No overseas helpline is published on these pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -115,14 +120,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-120-8080 and follow the IVR to hotlist the card.",
-          "phone": "1800-120-8080",
+          "instructions": "Call 1800-309-3665 and follow the IVR to hotlist the card.",
+          "phone": "1800-309-3665",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,14 +138,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0562-712-3000 (alternate line — see notes).",
-          "phone": "0562-712-3000",
+          "instructions": "Call 1800-309-7986 (alternate line — see notes).",
+          "phone": "1800-309-7986",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800-123-9878 (alternate line — see notes).",
+          "phone": "1800-123-9878",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -148,14 +173,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email care@utkarsh.bank from your registered email to request card blocking.",
-          "email": "care@utkarsh.bank",
+          "instructions": "Email creditcards@utkarsh.bank.in from your registered email to request card blocking.",
+          "email": "creditcards@utkarsh.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -164,14 +190,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.utkarsh.bank and use the card block/hotlist option.",
-          "url": "https://www.utkarsh.bank",
+          "instructions": "Log in to internet banking at https://onlinebanking.utkarsh.bank.in and use the card block/hotlist option.",
+          "url": "https://onlinebanking.utkarsh.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -180,17 +207,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.utkarsh.bankapp | iOS: https://apps.apple.com/in/app/utkarsh-bank/id1463458813",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share | iOS: https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.utkarsh.bankapp",
-            "https://apps.apple.com/in/app/utkarsh-bank/id1463458813"
+            "https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share",
+            "https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -199,13 +227,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Utkarsh Mobile Banking app: Cards > Block.",
+          "instructions": "Credit Card Support 1800-309-3665: the Eternal card page says to call it or email creditcards@utkarsh.bank.in to get the card hot-listed on loss/theft or fraudulent transaction, and its FAQ confirms blocking through Internet Banking and Mobile Banking; no SMS keyword is published for credit cards. PhonePe co-branded Wish secured card: block or freeze via the 'Block and Replace' feature under card settings > Manage in the PhonePe app, or call Secured Card Support 1800-309-7986 / email securedcc@utkarsh.bank.in. 1800-123-9878 is the bank's generic Service line (24x7, 365 days). No overseas helpline is published on these pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-12",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.utkarsh.bank",
-            "https://www.utkarsh.bank/customer-care",
-            "https://sachet.rbi.org.in"
+            "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+            "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+            "https://www.utkarsh.bank.in/digital-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -218,11 +247,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-12",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.utkarsh.bank",
-      "https://www.utkarsh.bank/customer-care",
-      "https://sachet.rbi.org.in"
+      "https://www.utkarsh.bank.in/personal/cards/card-services/block-debit-card",
+      "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+      "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+      "https://www.utkarsh.bank.in/digital-banking"
     ]
   }
 }

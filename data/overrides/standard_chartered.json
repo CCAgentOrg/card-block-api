@@ -1,0 +1,45 @@
+{
+  "id": "standard_chartered",
+  "name": "Standard Chartered Bank India",
+  "blockingInstructions": {
+    "debit": {
+      "number1": "*66014444 (prefix your local STD code) / 080-49248444 / 044-47628444 — Personal Banking helpline",
+      "number2": "*66012424 (prefix your local STD code) / 080-49248000 / 044-47628000 — Priority Banking & Beyond Card 24-hour contact centre",
+      "website": "https://retail.sc.com/in/nfs/login.htm",
+      "reference": "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+      "notes": "Block via Online Banking or SC Mobile: log in, select Help & Services > Card Management > Report Lost/Stolen Card; the card is blocked and a replacement sent to the registered mailing address. Hours: Personal Banking helpline is 8am-8pm IST but emergency services (report of loss card, unauthorised transaction, charge dispute, stop payment) continue to be serviced; Priority Banking & Beyond Card (*66012424 / 080-49248000 / 044-47628000) and Premium Banking (*66011500 / 080-49248500 / 044-47628500) lines are 24-hour contact centres. Overseas (International Banking helpline): Bahrain 80000448, UAE 8000177750, Hong Kong 800905108, Singapore 8001012407, Malaysia 1800815063, UK 8081019144, Philippines 180011101121, USA (New York) 8773021657, Canada 8772185618, Nigeria 7080601549. customer.care@sc.com is the published customer-care email for all other accounts. No SMS block keyword is published on the bank's pages.",
+      "email": "customer.care@sc.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=air.app.scb.breeze.android.main.in.prod",
+      "iosApp": "https://apps.apple.com/in/app/sc-mobile-india/id460909294?ls=1"
+    },
+    "credit": {
+      "number1": "*66014444 (prefix your local STD code) / 080-49248444 / 044-47628444 — Personal Banking helpline",
+      "number2": "*66012424 (prefix your local STD code) / 080-49248000 / 044-47628000 — Priority Banking & Beyond Card 24-hour contact centre",
+      "website": "https://retail.sc.com/in/nfs/login.htm",
+      "reference": "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+      "notes": "Block via Online Banking or SC Mobile: log in, select Help & Services > Card Management > Report Lost/Stolen Card; the card is blocked and a replacement sent to the registered mailing address. Hours: Personal Banking helpline is 8am-8pm IST but emergency services (report of loss card, unauthorised transaction, charge dispute, stop payment) continue to be serviced; Priority Banking & Beyond Card (*66012424 / 080-49248000 / 044-47628000) and Premium Banking (*66011500 / 080-49248500 / 044-47628500) lines are 24-hour contact centres. Overseas (International Banking helpline): Bahrain 80000448, UAE 8000177750, Hong Kong 800905108, Singapore 8001012407, Malaysia 1800815063, UK 8081019144, Philippines 180011101121, USA (New York) 8773021657, Canada 8772185618, Nigeria 7080601549. customer.care@sc.com is the published customer-care email for all other accounts. No SMS block keyword is published on the bank's pages.",
+      "email": "customer.care@sc.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=air.app.scb.breeze.android.main.in.prod",
+      "iosApp": "https://apps.apple.com/in/app/sc-mobile-india/id460909294?ls=1"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.sc.bank.in/bank-with-us/phone-banking/",
+      "label": "live fetch 2026-10-31: Phone Banking numbers — Priority Banking & Beyond Card 24-hour contact centre *66012424 / 080-49248000/ 044-47628000; Personal Banking *66014444 / 080-49248444/ 044-47628444 (8am-8pm; emergency services incl. report of loss card, unauthorised transaction, stop payment continue to be serviced); Premium Banking 24 hours *66011500 / 080-49248500/ 044-47628500; International Banking helpline Bahrain 80000448, UAE 8000177750, Hong Kong 800905108, Singapore 8001012407, Malaysia 1800815063, UK 8081019144, Philippines 180011101121, USA (NY) 8773021657, Canada 8772185618, Nigeria 7080601549; 'prefix your local STD code' note for * lines"
+    },
+    {
+      "url": "https://www.sc.bank.in/help/debitcard/lostandstolen/",
+      "label": "live fetch 2026-10-31: debit lost/stolen blocking steps — log in to Online Banking or SC Mobile > Help & Services > Card Management > Report Lost/Stolen Card; card blocked and replacement sent to registered mailing address; footer 'Download Our App Now' links to SC Mobile India (App Store id460909294, Play Store air.app.scb.breeze.android.main.in.prod); nav 'Login to Online Banking' -> https://retail.sc.com/in/nfs/login.htm"
+    },
+    {
+      "url": "https://www.sc.bank.in/help/creditcard/lostandstolen/",
+      "label": "live fetch 2026-10-31: credit card lost/stolen FAQ 'How do I block lost or stolen credit card' — same 5 steps (Online Banking or SC Mobile > Help & Services > Card Management > Report Lost/Stolen Card); unauthorised-transaction reporting via contact-us#talk-to-us link"
+    },
+    {
+      "url": "https://www.sc.bank.in/contact-us/",
+      "label": "live fetch 2026-10-31: 'Write to us' emails — customer.care@sc.com (all other accounts), Priority.Banking@sc.com, NRI.Banking@sc.com, customercare.business@sc.com; postal address Customer Care Unit, 19 Rajaji Salai, Chennai 600 001; links to Phone Banking numbers page"
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}

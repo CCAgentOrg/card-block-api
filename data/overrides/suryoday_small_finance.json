@@ -1,0 +1,47 @@
+{
+  "id": "suryoday_small_finance",
+  "name": "Suryoday Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 266 7711",
+      "number1": "022-69045666",
+      "number2": "022-62298799",
+      "website": "https://ib.suryoday.bank.in/",
+      "email": "smile@suryodaybank.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.suryoday.MB",
+      "iosApp": "https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119",
+      "reference": "https://suryoday.bank.in/personal/cards/debit-cards/",
+      "notes": "Contact page labels 1800 266 7711 as the '24*7 Toll free number' (Smile Centre, 24x7), and the site-wide footer says 'Please notify any unauthorized transaction on 1800 266 7711 or email at smile@suryodaybank.com immediately.' Debit-card FAQ: 'Debit card can be hot listed instantly through Mobile Banking, Internet Banking, SMS, Smile Centre, TARA Chat Bot or Visiting the bank Branch' — no SMS keyword or short code is published for debit cards, and no debit-specific app menu path is given. Internet-banking portal https://ib.suryoday.bank.in/ is published as the Login CTA's 'redirection_link' in the static-query data bundles served on the bank's internet-banking page (it does not appear in the page's raw HTML or JS bundles). Overseas/NRI lines 022-69045666 and 022-62298799 are both marked '24*7 Available Number' (nri@suryodaybank.com); WhatsApp 'Hi' to 8422890082."
+    },
+    "credit": {
+      "tollFree": "1800 266 7711",
+      "number1": "022-69045666",
+      "number2": "022-62298799",
+      "sms": "Send an SMS, BLOCK CC to 7289044500 from your registered mobile number.",
+      "email": "scc@suryodaybank.com",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.suryoday.MB",
+      "iosApp": "https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119",
+      "reference": "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+      "notes": "FAQ identical on both secured (FD-backed) RuPay credit cards (Platinum and Select): to temporarily block, 'Select the Temporarily Block option inside Suryoday SFB Mobile Banking App', 'Send an SMS, BLOCK CC to 7289044500 from your registered mobile number', email scc@suryodaybank.com, or call the toll-free number 18002667711; permanent block/unblock — 'Go to the Manage Card section in the Suryoday SFB Mobile Banking app and select Block or Unblock Card', choose permanent block and enter the OTP sent to the registered mobile number. Disputes can be raised in the app, via scc@suryodaybank.com or on 1800 266 7711. Overseas/NRI lines 022-69045666 / 022-62298799 ('24*7 Available Number'). No internet-banking path for credit-card blocking is published."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://suryoday.bank.in/contact-us/",
+      "label": "live fetch 2026-10-31: 'Accessible across India — 24*7 Toll free number 1800 266 7711'; 'Write to us smile@suryodaybank.com'; 'Send a \"Hi\" on Whatsapp 8422890082'; 'Accessible For NRIs — 24*7 Available Number 022-69045666 / 022-62298799' and 'Write Us to nri@suryodaybank.com'; site-wide footer 'Please notify any unauthorized transaction on 1800 266 7711 or email at smile@suryodaybank.com immediately'; FAQ 'You can reach out to our Smile Center on 1800 266 7711'"
+    },
+    {
+      "url": "https://suryoday.bank.in/personal/cards/debit-cards/",
+      "label": "live fetch 2026-10-31: FAQ (JSON-LD) 'What channels are available to request for hot listing of a debit card?' — answer 'Debit card can be hot listed instantly through Mobile Banking, Internet Banking, SMS, Smile Centre, TARA Chat Bot or Visiting the bank Branch'; page/nav publishes app links https://play.google.com/store/apps/details?id=com.suryoday.MB and https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119"
+    },
+    {
+      "url": "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+      "label": "live fetch 2026-10-31: FAQ 'Can I temporarily or permanently deactivate (Block) my credit card?' — 'Select the Temporarily Block option inside Suryoday SFB Mobile Banking App. Send an SMS, BLOCK CC to 7289044500 from your registered mobile number. Contact our Customer Service on mail: scc@suryodaybank.com or by calling our toll-free number: 18002667711. ... Go to the Manage Card section in the Suryoday SFB Mobile Banking app and select Block or Unblock Card ... enter the OTP'; same FAQ verified verbatim on the Rupay Select page; dispute FAQ names app / scc@suryodaybank.com / 18002667711"
+    },
+    {
+      "url": "https://suryoday.bank.in/ways-to-bank/internet-banking/",
+      "label": "live fetch 2026-10-31 (re-fetched twice the same day): the bank's 'Convenient and Secure Internet Banking' page (raw HTML 277,967 B); its static-query data bundles served on the same domain — https://suryoday.bank.in/page-data/sq/d/2158051747.json (also 2837364371, 439164760, 943435563) — publish the Login CTA {\"lable\": \"Login\", \"redirection_link\": \"https://ib.suryoday.bank.in/\"}; the URL does not appear in the page's raw HTML or JS bundles"
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}
