@@ -1,0 +1,45 @@
+{
+  "id": "dcb_bank",
+  "name": "DCB Bank",
+  "blockingInstructions": {
+    "debit": {
+      "number1": "+91 22 6899 7777",
+      "number2": "+91 40 6815 7777",
+      "sms": "BLOCKCARD (mention last four digits of Debit Card number) — DCB SMS Banking; SMS 'H' to 9821878789 for the full keyword list",
+      "website": "https://pib.dcb.bank.in/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=072&LANGUAGE_ID=001",
+      "reference": "https://www.dcb.bank.in/customer-care/contact-us",
+      "notes": "DCB Bank customer care: +91 22 6899 7777 / +91 40 6815 7777 (Resident Indians, IST 8am-8pm; domestic liability accounts 8am-8pm all days), with Emergency Services — card blocking, card PIN generation, stop cheque, blocking of DCB Internet/Mobile Banking and UPI, and reporting of fraudulent transactions — listed as Available 24x7. NRIs: +91 22 6127 1000 (Available 24x7) or +91 22 6899 7777, email nri@dcb.bank.in. SMS block (debit card): send BLOCKCARD with the last four digits of the Debit Card number via DCB SMS Banking (keyword list via SMS 'H' to 9821878789; requires registered mobile number). DCB Mobile Banking app: Block/ unblock Debit Card in Highlights; Cards section offers temporary block and unblock, manage international/domestic transactions, card limit and PIN generation — Android com.dcb, iOS dcb-bank-mobile-banking/id853661430. DCB Personal Internet Banking lists Block Debit Card. Cyber crime or cyber fraud can be reported to the National Cyber Crime helpline at cybercrime.gov.in, helpline 1930, or DCB Bank Customer Care. No toll-free (1800) block line is published on the bank's live pages.",
+      "email": "customercare@dcb.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dcb&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/app/dcb-bank-mobile-banking/id853661430"
+    },
+    "credit": {
+      "number1": "+91 22 6899 7777",
+      "number2": "+91 40 6815 7777",
+      "reference": "https://www.dcb.bank.in/customer-care/contact-us",
+      "notes": "DCB Bank credit cards (DCB ZET, DCB novio, DCB Niyo, DCB PayLess Platinum/Select secured cards): no credit-card-specific SMS block keyword, netbanking block path or dedicated block line is published on the bank's live pages — block a card by calling customer care: +91 22 6899 7777 / +91 40 6815 7777 (Resident Indians, IST 8am-8pm; domestic liability accounts 8am-8pm all days), with Emergency Services — card blocking and reporting of fraudulent transactions — listed as Available 24x7. NRIs: +91 22 6127 1000 (Available 24x7) or +91 22 6899 7777, email nri@dcb.bank.in. DCB Mobile Banking app services list 'Cards — Temporary block and unblock' (Highlights call out Block/ unblock Debit Card specifically) — Android com.dcb, iOS dcb-bank-mobile-banking/id853661430. Cyber crime or cyber fraud can be reported to the National Cyber Crime helpline at cybercrime.gov.in, helpline 1930, or DCB Bank Customer Care. No toll-free (1800) block line is published on the bank's live pages; the 1800-26-78729 number on the PayLess card page is a concierge line only.",
+      "email": "customercare@dcb.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dcb&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/app/dcb-bank-mobile-banking/id853661430"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.dcb.bank.in/customer-care/contact-us",
+      "label": "live fetch 2026-10-31: DCB Customer Care — Resident Indians (IST 8am-8pm) +91 22 6899 7777, +91 40 6815 7777, customercare@dcb.bank.in; NRIs +91 22 6127 1000 (Available 24x7) and +91 22 6899 7777, nri@dcb.bank.in; service-hours table: Loans (Asset) 8AM-8PM Mon-Sat, Domestic Accounts (Liability) 8AM-8PM all days, NRI Customers Available 24x7, Emergency Services (Card blocking, Card PIN generation, Stop cheque request, Blocking of alternate channels viz. DCB Internet or Mobile Banking, UPI, Reporting of fraudulent transactions in the account) Available 24x7; cyber fraud reporting via cybercrime.gov.in helpline 1930 or DCB Bank Customer Care"
+    },
+    {
+      "url": "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+      "label": "live fetch 2026-10-31: DCB SMS Banking key SMS texts — 'To block DCB Debit Card BLOCKCARD (mention last four digits of Debit Card number)'; 'Simply SMS H to 9821878789' for the keyword list; lost/stolen phone FAQ says contact 022 6899 7777 or 040 6815 7777 immediately"
+    },
+    {
+      "url": "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+      "label": "live fetch 2026-10-31: DCB Mobile Banking App — Highlights 'Block/ unblock Debit Card'; services list 'Cards — Temporary block and unblock. Manage international and domestic transactions. Manage Card limit. Generate PIN.'; download links https://play.google.com/store/apps/details?id=com.dcb&hl=en_IN and https://apps.apple.com/in/app/dcb-bank-mobile-banking/id853661430"
+    },
+    {
+      "url": "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking",
+      "label": "live fetch 2026-10-31: DCB Personal Internet Banking features include 'Block Debit Card' and 'Generate Debit Card PIN'; site nav Login > DCB Personal Internet Banking links to https://pib.dcb.bank.in/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=072&LANGUAGE_ID=001 (fetched without tracking params, HTTP 200 login page)"
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}

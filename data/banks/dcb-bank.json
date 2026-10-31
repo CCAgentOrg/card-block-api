@@ -2,21 +2,23 @@
   "name": "DCB Bank",
   "slug": "dcb-bank",
   "type": "private",
-  "website": "https://www.dcbbank.com/",
+  "website": "https://pib.dcb.bank.in/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=072&LANGUAGE_ID=001",
   "cards": [
     {
       "type": "debit",
       "blocking_methods": [
         {
           "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-103-4222 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-4222",
+          "label": "alternate",
+          "instructions": "Call +91 22 6899 7777 (alternate line — see notes).",
+          "phone": "+91 22 6899 7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -26,13 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-3010-1001 (alternate line — see notes).",
-          "phone": "1800-3010-1001",
+          "instructions": "Call +91 40 6815 7777 (alternate line — see notes).",
+          "phone": "+91 40 6815 7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -41,13 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email dcbhelp@dcbbank.com from your registered email to request card blocking.",
-          "email": "dcbhelp@dcbbank.com",
+          "instructions": "Email customercare@dcb.bank.in from your registered email to request card blocking.",
+          "email": "customercare@dcb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,13 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.dcbbank.com/ and use the card block/hotlist option.",
-          "url": "https://www.dcbbank.com/",
+          "instructions": "Log in to internet banking at https://pib.dcb.bank.in/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=072&LANGUAGE_ID=001 and use the card block/hotlist option.",
+          "url": "https://pib.dcb.bank.in/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=072&LANGUAGE_ID=001",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,16 +79,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dcb.dcbapp | iOS: https://apps.apple.com/in/app/dcb-mobile/id1319066294",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dcb&hl=en_IN | iOS: https://apps.apple.com/in/app/dcb-bank-mobile-banking/id853661430",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.dcb.dcbapp",
-            "https://apps.apple.com/in/app/dcb-mobile/id1319066294"
+            "https://play.google.com/store/apps/details?id=com.dcb&hl=en_IN",
+            "https://apps.apple.com/in/app/dcb-bank-mobile-banking/id853661430"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS BLOCKCARD (mention last four digits of Debit Card number) — DCB SMS Banking; SMS 'H' to 9821878789 for the full keyword list from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-10-31",
+          "sources": [
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -89,12 +115,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via DCB Mobile app or call toll-free",
+          "instructions": "DCB Bank customer care: +91 22 6899 7777 / +91 40 6815 7777 (Resident Indians, IST 8am-8pm; domestic liability accounts 8am-8pm all days), with Emergency Services — card blocking, card PIN generation, stop cheque, blocking of DCB Internet/Mobile Banking and UPI, and reporting of fraudulent transactions — listed as Available 24x7. NRIs: +91 22 6127 1000 (Available 24x7) or +91 22 6899 7777, email nri@dcb.bank.in. SMS block (debit card): send BLOCKCARD with the last four digits of the Debit Card number via DCB SMS Banking (keyword list via SMS 'H' to 9821878789; requires registered mobile number). DCB Mobile Banking app: Block/ unblock Debit Card in Highlights; Cards section offers temporary block and unblock, manage international/domestic transactions, card limit and PIN generation — Android com.dcb, iOS dcb-bank-mobile-banking/id853661430. DCB Personal Internet Banking lists Block Debit Card. Cyber crime or cyber fraud can be reported to the National Cyber Crime helpline at cybercrime.gov.in, helpline 1930, or DCB Bank Customer Care. No toll-free (1800) block line is published on the bank's live pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,14 +136,16 @@
       "blocking_methods": [
         {
           "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-103-4222 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-4222",
+          "label": "alternate",
+          "instructions": "Call +91 22 6899 7777 (alternate line — see notes).",
+          "phone": "+91 22 6899 7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -125,13 +155,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-3010-1001 (alternate line — see notes).",
-          "phone": "1800-3010-1001",
+          "instructions": "Call +91 40 6815 7777 (alternate line — see notes).",
+          "phone": "+91 40 6815 7777",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -140,28 +172,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email dcbhelp@dcbbank.com from your registered email to request card blocking.",
-          "email": "dcbhelp@dcbbank.com",
+          "instructions": "Email customercare@dcb.bank.in from your registered email to request card blocking.",
+          "email": "customercare@dcb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.dcbbank.com/ and use the card block/hotlist option.",
-          "url": "https://www.dcbbank.com/",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -170,16 +189,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dcb.dcbapp | iOS: https://apps.apple.com/in/app/dcb-mobile/id1319066294",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.dcb&hl=en_IN | iOS: https://apps.apple.com/in/app/dcb-bank-mobile-banking/id853661430",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.dcb.dcbapp",
-            "https://apps.apple.com/in/app/dcb-mobile/id1319066294"
+            "https://play.google.com/store/apps/details?id=com.dcb&hl=en_IN",
+            "https://apps.apple.com/in/app/dcb-bank-mobile-banking/id853661430"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -188,12 +209,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via DCB Mobile app or call toll-free",
+          "instructions": "DCB Bank credit cards (DCB ZET, DCB novio, DCB Niyo, DCB PayLess Platinum/Select secured cards): no credit-card-specific SMS block keyword, netbanking block path or dedicated block line is published on the bank's live pages — block a card by calling customer care: +91 22 6899 7777 / +91 40 6815 7777 (Resident Indians, IST 8am-8pm; domestic liability accounts 8am-8pm all days), with Emergency Services — card blocking and reporting of fraudulent transactions — listed as Available 24x7. NRIs: +91 22 6127 1000 (Available 24x7) or +91 22 6899 7777, email nri@dcb.bank.in. DCB Mobile Banking app services list 'Cards — Temporary block and unblock' (Highlights call out Block/ unblock Debit Card specifically) — Android com.dcb, iOS dcb-bank-mobile-banking/id853661430. Cyber crime or cyber fraud can be reported to the National Cyber Crime helpline at cybercrime.gov.in, helpline 1930, or DCB Bank Customer Care. No toll-free (1800) block line is published on the bank's live pages; the 1800-26-78729 number on the PayLess card page is a concierge line only.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-10-31",
           "sources": [
-            "https://www.dcbbank.com/contact-us",
-            "https://sachet.rbi.org.in"
+            "https://www.dcb.bank.in/customer-care/contact-us",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+            "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -206,10 +229,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-10-31",
     "sources": [
-      "https://www.dcbbank.com/contact-us",
-      "https://sachet.rbi.org.in"
+      "https://www.dcb.bank.in/customer-care/contact-us",
+      "https://www.dcb.bank.in/ways-to-bank/dcb-sms-banking",
+      "https://www.dcb.bank.in/ways-to-bank/dcb-mobile-banking-app",
+      "https://www.dcb.bank.in/ways-to-bank/dcb-personal-internet-banking"
     ]
   }
 }
