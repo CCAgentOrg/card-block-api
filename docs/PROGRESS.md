@@ -21,6 +21,7 @@ Running log of loop-executed work. One line per merged PR: date, issue, what lan
 | 2026-10-31 | #64 | #63 | Generator boilerplate fixes: tollFree-only hotlist claim, (alternate line — see notes) phrasing, `inactive` bank handling (Paytm), NSDL Payments Bank name; excludeSlugs workflow arg |
 | 2026-10-31 | #65 | #34 | C4 plumbing: upi card type in generator + validator, instrument-aware phrasing, derived card_types; verify-upi-paths saved workflow (researcher + auditor with merge-preservation git-diff check, UPI-volume priority order, Paytm excluded) |
 | 2026-10-31 | #66 | #34 | C4 UPI batch 1: UPI freeze paths live for 9/10 top-UPI banks (SBI, Yes, Axis, ICICI, Kotak, PNB, BoB, Canara, Union) — in-app menu paths, SMS/email blocks, phone fallbacks, each with own lastVerified; HDFC deferred (escalated, no reason); index-schema card_types enum fixed (missed in #65); total methods 676 |
+| 2026-10-31 | #68 | #32 | C2 batch 6: 9 banks re-verified (Std Chartered, Suryoday, TMB, UCO, Ujjivan, Utkarsh, AP Grameena, DCB, Dhanlaxmi); escalated: Bank of India (#67 — all domains behind interactive Cloudflare Turnstile, needs human browser session); freshness 34 fresh / 16 aging / 11 stale; first run using native excludeSlugs |
 
 ## Milestone state (2026-10-27)
 
