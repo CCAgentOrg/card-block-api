@@ -1,0 +1,46 @@
+{
+  "id": "dhanlaxmi_bank",
+  "name": "Dhanlaxmi Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-425-1747",
+      "number1": "044 42413000",
+      "number2": "+91-88-93553553",
+      "website": "https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock",
+      "email": "customercare@dhanbank.co.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc",
+      "iosApp": "https://apps.apple.com/in/app/dhansmart/id1061588821",
+      "reference": "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+      "notes": "Customer Care Centre runs 24/7 on toll-free 1800-425-1747 and chargeable line 044 42413000; the debit-card IVR menu is language -> account related -> savings/current -> 1 block / 2 temporary unblock. number2 is not a call line: the bank publishes a missed-call self-service — give a missed call from your registered mobile to +91-88-93553553 to disable/enable all debit cards on that number, confirmed by SMS. Website: on www.dhan.bank.in use the pre-login Retail Banking 'Block Card -> Debit Card' flow or, after login, Menu -> Block/Unblock & PIN Generation -> Card block (Debit/Credit); the bank's site nav carries a dedicated 'Card Block (Debit/Credit)' link to delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock. DhanSmart app / DhanDelight retail netbanking menu path for a permanent hotlist: Services -> Debit Cards -> Select Card -> Hot list (temporary block/unblock: Services -> Debit Cards -> Select Card -> Block/Unblock Card). Fraudulent-transaction reports may also be emailed to support@dhanbank.co.in (that address is for fraud reports only). No SMS hotlist keyword exists for cards — the bank's SMS keywords BLOCKUPI / BLOCKIBMB to 918105754333 block only the UPI and mobile/netbanking channels. No overseas hotline is published. The bank's own page additionally directs fraud complaints to the MHA cyber helpline 1930 or cybercrime.gov.in."
+    },
+    "credit": {
+      "tollFree": "1800-425-1747",
+      "number1": "044 42413000",
+      "website": "https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock",
+      "email": "customercare@dhanbank.co.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc",
+      "iosApp": "https://apps.apple.com/in/app/dhansmart/id1061588821",
+      "reference": "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+      "notes": "Credit-card blocking goes through the same 24/7 Customer Care Centre (toll-free 1800-425-1747, chargeable 044 42413000); no missed-call or SMS self-service is published for credit cards. Website: on www.dhan.bank.in use the pre-login Retail Banking 'Block Card -> Credit Card' flow or, after login, Menu -> Block/Unblock & PIN Generation -> Card block (Debit/Credit); the bank's site nav carries a dedicated 'Card Block (Debit/Credit)' link to delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock. DhanSmart app / DhanDelight netbanking menu path for a permanent hotlist: Services -> Credit Cards -> Card Hot listing (temporary block/unblock: Services -> Credit Cards -> Block/Unblock Cards). Fraudulent-transaction reports may also be emailed to support@dhanbank.co.in (fraud reports only), and the bank's own page directs fraud complaints additionally to the MHA cyber helpline 1930 or cybercrime.gov.in. No overseas hotline is published."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+      "label": "live fetch 2026-10-31: 'Contact our Customer Care Centre (24/7): 044 42413000 / 1800-425-1747' under both 'Blocking your Debit card' and 'Blocking of Credit Card'; IVR: 044 42413000 (language -> account -> 1 block / 2 unblock temporary); debit-card self-service missed call to +91-88-93553553 from registered mobile disables/enables all debit cards with SMS confirmation; fraud email support@dhanbank.co.in ('To report fraudulent transactions only'); website paths www.dhan.bank.in -> Pre-login Retail Banking -> Block Card -> Debit/Credit Card and Menu -> Block/Unblock & PIN Generation -> Card block (Debit/Credit); DhanSmart/DhanDelight paths Services -> Debit Cards -> Select Card -> Hot list (permanent) / Block/Unblock Card, Services -> Credit Cards -> Card Hot listing / Block/Unblock Cards; SMS BLOCKUPI and BLOCKIBMB to 918105754333 for UPI and mobile/retail-internet-banking channels; page directs complaints to Cyber helpline 1930 and https://cybercrime.gov.in."
+    },
+    {
+      "url": "https://www.dhan.bank.in/customer-care/",
+      "label": "live fetch 2026-10-31: Phone Banking 'Official Inbound No: 044 42413000', 'Official Outbound No: 1600 308065' (outbound only), 'Email: customercare@dhanbank.co.in', with the warning 'Phone numbers and email addresses mentioned here are the only Customer Care numbers of Dhanlaxmi Bank'; helpline covers 'Bank Accounts, Credit Cards, Loans'; missed-call balance number +91 80-67747700 (balance only); footer 'Download our Mobile Banking DhanSmart App' links https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc and https://apps.apple.com/in/app/dhansmart/id1061588821; nav 'Card Block (Debit/Credit)' -> https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock."
+    },
+    {
+      "url": "https://www.dhan.bank.in/visa-debit-card/",
+      "label": "live fetch 2026-10-31: 'Our Helplines — Customer Service Number 044 42 41 30 00; Customer Service Email customercare@dhanbank.co.in; Toll Free Number 1800 425 1747'; feature-tiles list shows 'Block Cards' as an unlinked tile (no hyperlink); the page nav carries 'Card Block (Debit/Credit)' -> https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock; page confirms the bank issues the International Visa Debit Card usable at ATMs in India and overseas."
+    },
+    {
+      "url": "https://www.dhan.bank.in/credit-card/",
+      "label": "live fetch 2026-10-31: page confirms the bank issues credit cards (Dhan Namaste VISA Platinum, Dhan Vriddhi RuPay Platinum, Dhan Samriddhi RuPay Select); same unlinked 'Block Cards' feature tile (no hyperlink); the page nav carries 'Card Block (Debit/Credit)' -> https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock."
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}
