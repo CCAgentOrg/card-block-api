@@ -1,0 +1,43 @@
+{
+  "id": "uc_bank",
+  "name": "UCO Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-103-0123",
+      "number1": "1800 8910",
+      "number2": "1800-26-78729",
+      "sms": "SMS 'HOT' to 9230192301 from the registered mobile: 'HOT' hot-lists all cards attached to that mobile no.; 'HOT' + last 4 digits hot-lists the specific card; 'HOT'<14 digit account no.> hot-lists all cards linked to that account.",
+      "website": "https://ebanking.uco.bank.in/",
+      "email": "uco.custcare@ucobank.co.in",
+      "reference": "https://uco.bank.in/en/web/guest/debit-card",
+      "notes": "Hotlisting is available 24x7 - the bank's own wording is 'at any point of time'. The toll-free appears as '1800 8910' site-wide (site header and hotlist instructions) while the FAQ spells the Customer Service Hotline as 1800-103-0123; a 24x7 multilingual assistance toll-free, 1800-26-78729, also appears on the debit-card page. App path: hotlist through the UCO M-Banking Plus app; the UCO Secure app can additionally disable a card's ATM/POS/e-commerce services. WhatsApp channel 8334001234 also hotlists debit cards. Netbanking: log in at ebanking.uco.bank.in, where 'Debit Card Hotlisting' and 'Enable/Disable ADC Channel' are listed retail services. Lost/stolen cards can also be reported by email to uco.custcare@ucobank.co.in. No overseas helpline is published on the official pages verified; the 1930 national helpline is not mentioned on them."
+    },
+    "credit": {
+      "tollFree": "1800 180 1290",
+      "number1": "1860 500 1290",
+      "number2": "1860 180 1290",
+      "email": "customercare@sbicard.com",
+      "reference": "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023",
+      "notes": "UCO Bank publishes SBI Cards' 'Policy for the issuance and conduct of credit cards' on its website and routes credit-card servicing through SBI Card's dedicated 24x7 call centre: 1860 500 1290, 1860 180 1290 or 39 02 02 02 (prefix local STD code); 1800 180 1290 is toll-free. Executives answer 8 AM - 8 PM Monday to Saturday, with lines open 24x7 for emergency and premium services. Requests can also be emailed to customercare@sbicard.com or sent via www.sbicard.com/email and the SBI Card mobile app. No UCO-side SMS keyword, netbanking block path or overseas number is published for credit cards."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://uco.bank.in/en/web/guest/debit-card",
+      "label": "live fetch 2026-10-31: 'Debit Card Hotlisting Process' section - SMS 'HOT' to 9230192301 in three variants (all cards on the sending mobile no.; 'HOT' + last 4 digits for a specific card; 'HOT'<14 digit account no.> for all cards on an account); 'Customer can hotlist the debit card at any point of time by dialling Bank's Toll free no 1800 8910'; hotlisting also 'through UCO M-banking Plus App as well as through UCO Bank's WhatsApp Channel(8334001234)'; 24x7 assistance toll-free 1800-26-78729 on the card concierge slide."
+    },
+    {
+      "url": "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+      "label": "live fetch 2026-10-31: lost/stolen debit-card FAQ - 'customer can hotlist the card immediately by calling UCO Bank Customer Service Hotline at 1800-103-0123 or sending e-mail at uco[dot]custcare[at]ucobank[dot]co[dot]in or through UCO M-Banking Plus APP or sending SMS HOT to 9230192301 through his/her registered Mobile'; card's ATM/POS/E-Comm services can be disabled through the UCO Secure app; 'save UCO Bank customer care no 1800 8910 ... for reporting fraud issue'; UPI dispute 'Toll Free Customer Care: 1800 103 0123'."
+    },
+    {
+      "url": "https://uco.bank.in/en/web/guest/internet-banking",
+      "label": "live fetch 2026-10-31: retail e-banking services list item '8.2 Debit Card Hotlisting' and '8.10 Enable/Disable ADC Channel'; the page's 'Internet Banking Login' link points to https://ebanking.uco.bank.in/ (retail login UserType=R served on the same host)."
+    },
+    {
+      "url": "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023",
+      "label": "live fetch 2026-10-31: SBI Cards' 'Policy for the issuance and conduct of credit cards' PDF hosted on uco.bank.in and linked from the bank's Credit Card page - 'Dedicated 24*7 call center at 1860 500 1290, 1860 180 1290, 39 02 02 02(Prefix local the STD code) or 1800 180 1290 (toll free)'; executives available 8 AM - 8 PM Monday to Saturday, lines open 24*7 for emergency & premium services; email customercare@sbicard.com, www.sbicard.com/email, SBI Card mobile app."
+    }
+  ],
+  "lastVerified": "2026-10-31"
+}
