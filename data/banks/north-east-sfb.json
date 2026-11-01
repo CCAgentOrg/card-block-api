@@ -2,7 +2,7 @@
   "name": "North East Small Finance Bank",
   "slug": "north-east-sfb",
   "type": "private",
-  "website": "https://www.nesfb.in/",
+  "website": "https://slice.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,13 +10,33 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-313-4444 and follow the IVR to hotlist the card.",
-          "phone": "1800-313-4444",
+          "instructions": "Call 1800-121-1905 and follow the IVR to hotlist the card.",
+          "phone": "1800-121-1905",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 08048329999 (alternate line — see notes).",
+          "phone": "08048329999",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,13 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email info@nesfb.in from your registered email to request card blocking.",
-          "email": "info@nesfb.in",
+          "instructions": "Email help@slice.bank.in from your registered email to request card blocking.",
+          "email": "help@slice.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -40,13 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.nesfb.in/ and use the card block/hotlist option.",
-          "url": "https://www.nesfb.in/",
+          "instructions": "Log in to internet banking at https://slice.bank.in and use the card block/hotlist option.",
+          "url": "https://slice.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -55,15 +79,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.northeast.sfb",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=app.imps.north_east | iOS: https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.northeast.sfb"
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -72,12 +99,14 @@
         },
         {
           "channel": "other",
-          "instructions": "North East SFB - Block cards via mobile banking or call customer care",
+          "instructions": "The bank now operates as 'slice': www.nesfb.in 301-redirects to www.nesfb.com and on to slice.bank.in, where page footers read 'slice small finance bank ltd'. The fraud page states 'Our customer care helpline is 08048329999/ 1800-121-1905. We have no other call centre numbers.', directs customers to the Help & Support section of the slice app or to help@slice.bank.in, and says to report any suspicious activity immediately. The NESFB Mobile Banking app links published on slice.bank.in/online-banking state 'Block your cards.' in both their Google Play and App Store listings. Retail netbanking exists (https://nb.slice.bank.in/retail/login) but no card-block path is published for it. As checked 2026-11-01 no SMS block keyword, no overseas line, no published hours, and no mention of the 1930 national helpline appear anywhere on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -92,13 +121,33 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-313-4444 and follow the IVR to hotlist the card.",
-          "phone": "1800-313-4444",
+          "instructions": "Call 1800-121-1905 and follow the IVR to hotlist the card.",
+          "phone": "1800-121-1905",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 08048329999 (alternate line — see notes).",
+          "phone": "08048329999",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -107,45 +156,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email info@nesfb.in from your registered email to request card blocking.",
-          "email": "info@nesfb.in",
+          "instructions": "Email help@slice.bank.in from your registered email to request card blocking.",
+          "email": "help@slice.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.nesfb.in/ and use the card block/hotlist option.",
-          "url": "https://www.nesfb.in/",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.northeast.sfb",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.northeast.sfb"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -154,12 +173,14 @@
         },
         {
           "channel": "other",
-          "instructions": "North East SFB - Block cards via mobile banking or call customer care",
+          "instructions": "No credit-card-specific block channel is published as checked 2026-11-01: the bank's site and help centre carry no SMS keyword, no card-block app menu path, no netbanking step and no credit-card block email. The bank-wide emergency/fraud channels - helpline 08048329999/ 1800-121-1905, email help@slice.bank.in, and the Help & Support section of the slice app - are the only published route. No overseas line, no published hours, and no mention of the 1930 national helpline.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.nesfb.in/",
-            "https://sachet.rbi.org.in"
+            "https://slice.bank.in/beware-of-fraud",
+            "https://slice.bank.in/online-banking",
+            "https://play.google.com/store/apps/details?id=app.imps.north_east",
+            "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
           ],
           "confirmations": {
             "worked": 0,
@@ -172,10 +193,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.nesfb.in/",
-      "https://sachet.rbi.org.in"
+      "https://slice.bank.in/beware-of-fraud",
+      "https://slice.bank.in/online-banking",
+      "https://play.google.com/store/apps/details?id=app.imps.north_east",
+      "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
     ]
   }
 }

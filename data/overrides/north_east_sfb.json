@@ -1,0 +1,42 @@
+{
+  "id": "north_east_sfb",
+  "name": "North East Small Finance Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-121-1905",
+      "number1": "08048329999",
+      "email": "help@slice.bank.in",
+      "website": "https://slice.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=app.imps.north_east",
+      "iosApp": "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549",
+      "reference": "https://slice.bank.in/beware-of-fraud",
+      "notes": "The bank now operates as 'slice': www.nesfb.in 301-redirects to www.nesfb.com and on to slice.bank.in, where page footers read 'slice small finance bank ltd'. The fraud page states 'Our customer care helpline is 08048329999/ 1800-121-1905. We have no other call centre numbers.', directs customers to the Help & Support section of the slice app or to help@slice.bank.in, and says to report any suspicious activity immediately. The NESFB Mobile Banking app links published on slice.bank.in/online-banking state 'Block your cards.' in both their Google Play and App Store listings. Retail netbanking exists (https://nb.slice.bank.in/retail/login) but no card-block path is published for it. As checked 2026-11-01 no SMS block keyword, no overseas line, no published hours, and no mention of the 1930 national helpline appear anywhere on the bank's pages."
+    },
+    "credit": {
+      "tollFree": "1800-121-1905",
+      "number1": "08048329999",
+      "email": "help@slice.bank.in",
+      "reference": "https://slice.bank.in/beware-of-fraud",
+      "notes": "No credit-card-specific block channel is published as checked 2026-11-01: the bank's site and help centre carry no SMS keyword, no card-block app menu path, no netbanking step and no credit-card block email. The bank-wide emergency/fraud channels - helpline 08048329999/ 1800-121-1905, email help@slice.bank.in, and the Help & Support section of the slice app - are the only published route. No overseas line, no published hours, and no mention of the 1930 national helpline."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://slice.bank.in/beware-of-fraud",
+      "label": "live fetch 2026-11-01: page 'Reporting Fraud Transactions | Emergency Services' (reached via live redirect chain www.nesfb.in -> www.nesfb.com -> slice.bank.in): 'Our customer care helpline is 08048329999/ 1800-121-1905. We have no other call centre numbers.'; 'You can also get in touch with us via the Help & Support section of the slice app or by writing in to us at' help@slice.bank.in (Cloudflare-obfuscated mailto decoded from the page HTML); 'Please report any suspicious activity to us immediately.'; footer brands the bank 'slice small finance bank ltd'"
+    },
+    {
+      "url": "https://slice.bank.in/online-banking",
+      "label": "live fetch 2026-11-01: 'Online Banking (NESFB)' page publishes links - Retail netbanking (NESFB) https://nb.slice.bank.in/retail/login, Corporate internet banking (NESFB) https://nb.slice.bank.in/corporate/login, Mobile banking Android https://play.google.com/store/apps/details?id=app.imps.north_east, Mobile banking iOS https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=app.imps.north_east",
+      "label": "live fetch 2026-11-01 (fetched with hl=en_IN): 'NESFB Mobile Banking' Google Play listing - feature list includes '• Block your cards.' alongside account summary, FD/RD opening and NEFT/RTGS payments"
+    },
+    {
+      "url": "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549",
+      "label": "live fetch 2026-11-01: App Store listing 'NESFB Mobile Banking App' - description includes '• Block your cards.'"
+    }
+  ],
+  "lastVerified": "2026-11-01"
+}
