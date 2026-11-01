@@ -27,6 +27,13 @@
       "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
       "iosApp": "https://apps.apple.com/in/app/hdfc-bank/id657927626",
       "sms": "'Block DC <Last4>' to 7308080808"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.android.now",
+      "iosApp": "https://apps.apple.com/in/app/hdfc-bank-app-banking-cards/id6504402552",
+      "tollFree": "1800-258-6161",
+      "notes": "HDFC publishes no in-app MobileBanking or NetBanking UPI lock. Bank-side deactivation: 'banks do not facilitate the removal of UPI IDs directly from their mobile applications. If you wish to remove the IDs, visit your bank branch and submit a UPI deactivation request.' Fastest self-service freeze: deregister in your UPI app — 'Under settings, you will find the deregister option; click on it' and confirm; 'Once you confirm deregistration, your bank account will be unlinked from the UPI app' (re-linking later creates a new UPI ID). Unauthorised UPI transactions: 'To report any unauthorised Credit Card, Debit Card, NetBanking, or UPI transactions, please call 1800 258 6161' — have mobile number, Customer ID, account number, transaction date/time and amount ready. Compromised UPI account: 'quickly update your UPI PIN and contact your bank. You may also need to disable UPI transactions if necessary.' Partner-app customer care published by HDFC: Google Pay 1-800-419-0157, WhatsApp 1-800-212-8552, Mobikwik 011-61266390. No SMS/USSD (*99#) UPI block keyword published on HDFC pages. Current official app listings, verified live 2026-11-01 on the bank's MobileBanking app page: Android com.hdfcbank.android.now and iOS id6504402552 ('HDFC Bank App: Banking & Cards', seller HDFC Bank Ltd — the page publishes the /us/ form of the same listing; both fetched HTTP 200). The app itself offers no UPI freeze. Pre-existing credit/debit androidApp/iosApp links com.hdfcbank.mobile and id657927626 verified dead 2026-11-01 (HTTP 404; iTunes lookup resultCount 0), as are blog links com.snapwork.hdfc and id515891771 — those sections need Loop 2 re-verification.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -37,6 +44,18 @@
     {
       "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf",
       "label": "CC hotlisting PDF (via search index)"
+    },
+    {
+      "url": "https://www.hdfc.bank.in/upi/report-frauds",
+      "label": "UPI freeze live fetch 2026-11-01: PhoneBanking 1800 258 6161 published for unauthorised Credit/Debit/NetBanking/UPI transactions with details-to-keep-ready; FAQ says update UPI PIN and disable UPI if compromised; partner-app care numbers (Google Pay, WhatsApp, Mobikwik)"
+    },
+    {
+      "url": "https://www.hdfc.bank.in/blogs/upi/how-to-unlink-your-bank-account-from-upi-app",
+      "label": "UPI freeze live fetch 2026-11-01: UPI-app deregistration steps (settings > deregister > confirm); bank-side UPI deactivation is branch-only — banks do not facilitate UPI ID removal via their mobile apps; no netbanking UPI manage path"
+    },
+    {
+      "url": "https://www.hdfc.bank.in/ways-to-bank/mobilebanking/hdfc-bank-mobilebanking-app",
+      "label": "UPI freeze live fetch 2026-11-01: official MobileBanking app page publishes current store links — Play com.hdfcbank.android.now (HTTP 200) and App Store id6504402552 (HTTP 200; iTunes lookup country=in resultCount 1, 'HDFC Bank App: Banking & Cards', seller HDFC Bank Ltd). Legacy links com.hdfcbank.mobile, id657927626, com.snapwork.hdfc, id515891771 all verified dead (HTTP 404 / lookup resultCount 0)"
     }
   ],
   "lastVerified": "2026-09-04"

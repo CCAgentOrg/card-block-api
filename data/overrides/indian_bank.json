@@ -19,6 +19,13 @@
       "email": "creditcard@indianbank.bank.in",
       "reference": "https://indianbank.bank.in/en/block-lost-credit-card",
       "notes": "The bank's page (last modified May 30, 2026) lists exactly three hot-listing methods: SMS BLOCKCC to 56767, the '24 hours toll free Customer Care number' 1800 1700, and email handled 'during working days'. No netbanking or mobile-app blocking path is published for credit cards. +91 22 4444 2888 is the bank's non-toll-free 24x7 customer care line for NR/overseas customers (published on the quick-contact page), usable when the toll-free number is unreachable from abroad."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod",
+      "iosApp": "https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872",
+      "tollFree": "1800 1700",
+      "notes": "No UPI-only freeze is published. IndSMART app's published UPI feature list includes 'Block / Unblock UPI', 'De-register UPI', 'Manage VPA / PIN' and 'UPI Number Active/Inactive' (store links above; page last modified Sep 07, 2026). Emergency freeze-all: 'Customer can send a SMS BLOCK to 9289592895 from registered mobile number to block all digital channels' — blocking 'Debit card, Net Banking, Mobile Banking and UPI' — per the bank's Customer Complaints/Awareness (UEBT) page, which lists UEBT reporting via 'Making a call to our Toll Free no. 1800 1700', typing 'complaint' and sending SMS to 56677, Home Branch, mobile banking/net banking, and email cfrm@indianbank.bank.in; National Cyber Crime Helpline 1930 also cited. WhatsApp Banking 8754424242 ('Just send Hi' to 8754424242) offers 'Block All Transactions' (Main Menu->Block Card/Trxn->Block All Txn) — 'Customer CIF will be blocked for any transaction' — plus Card Blocking and Lodging of Complaint. No netbanking UPI manage/disable path is published. The bank's USSD SOP publishes *99# (send/request money, balance, set/change UPI PIN) but its published menu lists no block/deregister option. NR/overseas 24x7 line: +91 22 4444 2888.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -37,6 +44,22 @@
     {
       "url": "https://indianbank.bank.in/en/indsmart",
       "label": "live fetch 2026-10-27: IndSMART mobile banking app page — official store links 'Google Play Store' https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod and 'iOS App Store' https://apps.apple.com/us/app/indsmart-indianbank-mobile-app/id6479515872; IndSMART is the app the block-lost-atm-card page directs to for card blocking (Cards menu)"
+    },
+    {
+      "url": "https://indianbank.bank.in/en/customer-complaints-/-awareness",
+      "label": "UPI freeze live fetch 2026-11-01: 'Customer can send a SMS BLOCK to 9289592895 from registered mobile number to block all digital channels' — blocks 'Debit card, Net Banking, Mobile Banking and UPI'; UEBT report channels: 'Making a call to our Toll Free no. 1800 1700', SMS 'complaint' to 56677, Home Branch, mobile banking/net banking, email cfrm[at]indianbank[dot]bank[dot]in; National Cyber Crime Helpline 1930; WhatsApp Banking +91 87544 24242 supports Card Blocking and Lodging of Complaint"
+    },
+    {
+      "url": "https://indianbank.bank.in/en/indsmart",
+      "label": "UPI freeze live fetch 2026-11-01: IndSMART UPI feature list includes 'Block / Unblock UPI', 'De-register UPI', 'Manage VPA / PIN', 'UPI Number Active/Inactive', 'UPI Number deregistration/reregistration'; official store links Google Play com.iexceed.ib.digitalbankingprod and iOS App Store id6479515872; page last modified Sep 07, 2026"
+    },
+    {
+      "url": "https://indianbank.bank.in/en/whatsapp-banking",
+      "label": "UPI freeze live fetch 2026-11-01: WhatsApp Banking number 8754424242 ('Just send Hi to Indian Bank's WhatsApp Banking number (8754424242)'); 'Block All Transactions (Main Menu->Block Card/Trxn->Block All Txn) – Customer CIF will be blocked for any transaction' — CIF-wide freeze covering UPI; no UPI-only WhatsApp option published"
+    },
+    {
+      "url": "https://indianbank.bank.in/documents/d/guest/ussd-sop",
+      "label": "UPI freeze live fetch 2026-11-01: Indian Bank 'UPI through USSD — Standard Operating Procedure' (20-page PDF) — banking via '*99#' ('customers can avail this service by dialing *99# on their mobile phone and transact through an interactive menu'); published services: 'Sending money using Mobile No/UPI ID/Account No. + IFSC', 'Requesting money using UPI ID / Mobile No.', 'Account Balance Enquiry', 'Set UPI PIN', 'Change UPI PIN', 'Last 5 transactions (Mini Statement)' — no block/freeze/deregister option in the published USSD menu"
     }
   ],
   "lastVerified": "2026-10-27"

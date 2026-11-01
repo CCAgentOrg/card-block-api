@@ -20,6 +20,14 @@
       "email": "customercare@idbi.co.in",
       "reference": "https://www.idbibank.in/credit-card-contact-us.aspx",
       "notes": "Credit Card Customer Care for hotlisting/queries/complaints is a 24x7 service: toll-free 1800-209-4324, non-toll-free 022-67719100 (call charges applicable; +91-22-67719100 from outside India), and dedicated Credit Card Hotlisting Number 1800226999. customercare@idbi.co.in is the published email for credit-card queries. 1800 208 1947 (membersupport@idbidelight.com) is published for Delight Points reward queries only, not card blocking. No netbanking or app path for credit-card blocking is published on the bank's contact pages."
+    },
+    "upi": {
+      "tollFree": "1800-22-6999",
+      "website": "https://unauthorisedtran.idbi.bank.in/",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.snapwork.IDBI",
+      "iosApp": "https://apps.apple.com/in/app/idbi-bank-go-mobile/id1318206368",
+      "notes": "No bank-published self-service UPI lock; the published freeze path is the digital-channel block: for 'unauthorized/fraudulent transactions ... through any of the channels viz. debit card, UPI, internet or mobile banking', 'Call our digital channel blocking hotline 1800226999 (toll free) or phone banking numbers 18002094324 & +9122-67719100 (chargeable)' — 'The phone banking representative will block the channel as per your request'. A block request for any digital channel can also be filed via www.idbibank.in >> 'reporting of unauthorized digital transactions' (https://unauthorisedtran.idbi.bank.in/); the portal itself returned HTTP 503 on the 2026-11-01 fetch — the link is live on customer-care-centre.aspx. No netbanking UPI manage path and no in-app UPI lock/deregister path is published; the Go Mobile+ app pages document only card control/hotlisting. The bank documents the *99#/*99*49# NUUP USSD UPI channel (UPI PIN set/change/reset) but publishes no deactivate path there; SMS 'MBBLCK <Space> <Customer Id>' to 9560853000 blocks the mobile-banking service, not UPI specifically.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -38,6 +46,18 @@
     {
       "url": "https://www.idbibank.in/go_mobile_app_android_version.aspx",
       "label": "live fetch 2026-10-27: official Go mobile+ app page — banner 'Go Mobile+ App (Android and iOS)' linking Google Play (com.snapwork.IDBI) and the App Store (IDBI Bank Go Mobile, id1318206368); the app's Cards > Debit Card Hotlisting path is documented on customer-care-centre.aspx"
+    },
+    {
+      "url": "https://www.idbi.bank.in/customer-care-centre.aspx",
+      "label": "UPI freeze live fetch 2026-11-01: FAQ 'How do I block / cancel my IDBI Bank digital banking channels viz. debit card, UPI, internet or mobile banking & report unauthorized/fraud transactions?' — 'Call our digital channel blocking hotline 1800226999 (toll free) or phone banking numbers 18002094324 & +9122-67719100 (chargeable)'; 'The phone banking representative will block the channel as per your request'; blocking of any digital channel also via www.idbibank.in >> 'reporting of unauthorized digital transactions' linking https://unauthorisedtran.idbi.bank.in/ (portal returned HTTP 503 on this fetch); SMS 'MBBLCK <Space> <Customer Id>' to 9560853000 blocks the mobile-banking service"
+    },
+    {
+      "url": "https://www.idbi.bank.in/idbi-bank-mobile-banking-ussd.aspx",
+      "label": "UPI freeze live fetch 2026-11-01: NUUP *99#/*99*49# USSD UPI page — documents *99*49# first-time registration, UPI PIN set/change/reset and VPA/profile management; no self-service UPI deactivate/block path published on the page"
+    },
+    {
+      "url": "https://www.idbi.bank.in/go_mobile_app_android_version.aspx",
+      "label": "UPI freeze live fetch 2026-11-01: official Go Mobile+ app page — live Google Play (com.snapwork.IDBI) and App Store (id1318206368) links; app feature list shows 'Debit Card Control – Set Card On / Off, Set ATM / POS limit, International Usage On / Off and Hotlist Card' only, no in-app UPI lock/deregister path published"
     }
   ],
   "lastVerified": "2026-10-27"

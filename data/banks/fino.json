@@ -18,7 +18,10 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +39,10 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -54,7 +60,10 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,7 +80,10 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -88,7 +100,10 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,7 +123,10 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -124,7 +142,10 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -140,7 +161,78 @@
             "https://www.fino.bank.in/support/contact-us",
             "https://www.fino.bank.in/customer-care-frequently-asked-questions",
             "https://www.fino.bank.in/cards",
-            "https://fino.bank.in/"
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 022-6868 1414 for UPI block/freeze assistance.",
+          "phone": "022-6868 1414",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.finopaymentbank.mobile&pli=1 | iOS: https://apps.apple.com/in/app/finopay/id6474030952",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.finopaymentbank.mobile&pli=1",
+            "https://apps.apple.com/in/app/finopay/id6474030952"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Fino publishes no customer-facing UPI block/freeze path on any official page: no in-app UPI lock, no netbanking UPI manage option (netbanking at https://netbanking.fino.bank.in/ is a bare login page), and no SMS/USSD keyword for UPI - the published SMS routes are card/account-level only ('SMS <CARDBLOCK> to 70220 75566', debit freeze 'SMS <FRAUD> to 70220 75566') and no bank page mentions *99#. Consumer UPI is offered through the bank's FinoPay application ('Under the FinoPay application, you are allowed to send up to ₹40,000 for person to person transactions and ₹1,00,000 for person to merchant transactions within a 24-hour period'); the only UPI menu the FAQ documents is 'Manage UPI' for VPA creation ('1. Open the FinoPay Application on your device. 2. Navigate to the Manage UPI section..'), not freezing. The sole published self-service deletion is merchant-side: 'The merchant can click on 'De-Register' and proceed. The VPA ID and UPI merchant account will be deleted.' Emergency fallback: the contact page's 'Call Us On Our Dedicated Toll-Free Number to Report Fraud' card shows '24/7x365 days' 022-6868 1414 (the page's only tel: link) with 'To report fraud, write us at' reportfraud@fino.bank.in (general queries customercare@fino.bank.in); the same page lists 'Merchant - 1800 268 1000 Customer - 022-6868 1414' with 'Customer: 9 AM to 7 PM' and carries 'National Cyber Crime Reporting Number: 1930'. A full account freeze is branch-assisted - FAQ: 'To unfreeze your bank account, visit nearest Fino Point'. The UPI terms and conditions state only that the bank 'has the right to suspend the transactions with respect to the UPI Facility'.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/cards",
+            "https://fino.bank.in/",
+            "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+            "https://www.fino.bank.in/support/contact-us",
+            "https://www.fino.bank.in/regulatory/term-and-conditions"
           ],
           "confirmations": {
             "worked": 0,
@@ -158,7 +250,10 @@
       "https://www.fino.bank.in/support/contact-us",
       "https://www.fino.bank.in/customer-care-frequently-asked-questions",
       "https://www.fino.bank.in/cards",
-      "https://fino.bank.in/"
+      "https://fino.bank.in/",
+      "https://www.fino.bank.in/customer-care-frequently-asked-questions",
+      "https://www.fino.bank.in/support/contact-us",
+      "https://www.fino.bank.in/regulatory/term-and-conditions"
     ]
   }
 }

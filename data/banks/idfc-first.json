@@ -15,7 +15,10 @@
           "confidence": 0.85,
           "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
           ],
           "confirmations": {
             "worked": 0,
@@ -29,7 +32,10 @@
           "confidence": 0.85,
           "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
           ],
           "confirmations": {
             "worked": 0,
@@ -42,7 +48,10 @@
           "confidence": 0.85,
           "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
           ],
           "confirmations": {
             "worked": 0,
@@ -62,7 +71,10 @@
           "confidence": 0.85,
           "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
           ],
           "confirmations": {
             "worked": 0,
@@ -76,7 +88,10 @@
           "confidence": 0.85,
           "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
           ],
           "confirmations": {
             "worked": 0,
@@ -89,7 +104,69 @@
           "confidence": 0.85,
           "last_verified": "2026-09-25",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800 10 888 for UPI block/freeze assistance.",
+          "phone": "1800 10 888",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus | iOS: https://apps.apple.com/in/app/idfc-first-bank-mobilebanking/id1521443352",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus",
+            "https://apps.apple.com/in/app/idfc-first-bank-mobilebanking/id1521443352"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "No in-app UPI lock menu path, netbanking UPI manage path, SMS keyword, or WhatsApp UPI-block service is published on the bank's own pages. UPI T&C (terms-and-conditions/upi-solutions): 'The user has to immediately bring it to the notice of IDFC FIRST Bank in case he/she suspects that his / her Mobile number is / has been allotted/ used by another person and/or notices unauthorized transactions in his / her accounts and make sure that the facility is deregistered for his / her mobile no.'; 'Entering the wrong mPIN thrice will block the UPI facility where the linked account belongs to IDFC FIRST bank'; registration is auto-suspended if the facility has not been accessed for 180 days or more. Emergency path: call customer care 1800 10 888 (24x7, 'For Accounts, Credit Cards, Loans, and Other banking services') to have the UPI facility deregistered, or file under 'Report any UNAUTH Transaction' -> 'Steps to Report Unauthorised transaction -> Click here' (/customer-care-sr/raise-a-request). androidApp/iosApp resolved 2026-11-01 by following the bank's own download link idfcnetbanking.onelink.me/p1bD/1jq39swv published in the site footer.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
           ],
           "confirmations": {
             "worked": 0,
@@ -104,7 +181,10 @@
     "confidence": 0.85,
     "last_verified": "2026-09-25",
     "sources": [
-      "https://www.idfcfirst.bank.in/customer-care-sr/customer-service"
+      "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
+      "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+      "https://www.idfcfirst.bank.in/customer-care",
+      "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
     ]
   }
 }
