@@ -1,30 +1,26 @@
 {
   "id": "bob",
   "name": "Bank of Baroda",
-  "logo": "/static/logos/bob.svg",
-  "ifsc": "BARB0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800-5700",
-      "number1": "1800-5000",
-      "email": "customercare@bobcard.co.in",
-      "website": "https://www.bobcard.co.in",
-      "reference": "https://bankofbaroda.bank.in/contact-us",
-      "notes": "BOBCARD manages credit cards. Report loss: same numbers, select option 1.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
-      "iosApp": "https://apps.apple.com/in/app/bob-world/id1507878760",
-      "number2": "1800-102-5627"
-    },
     "debit": {
-      "tollFree": "1800-5700",
-      "number1": "1800-5000",
-      "number2": "1800-102-5627",
-      "email": "customercare@bankofbaroda.com",
-      "website": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
+      "tollFree": "1800 5700 / 1800 5000",
+      "number1": "+91 79-66296009",
+      "number2": "+91 79-66296629",
+      "website": "https://appstackweb.bankofbaroda.bank.in/debitfreeze",
       "reference": "https://bankofbaroda.bank.in/contact-us",
-      "notes": "Self-service freeze/debit card block via portal. Also via bob World app.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
-      "iosApp": "https://apps.apple.com/in/app/bob-world/id1507878760"
+      "notes": "Contact centre is 24x7 for urgent services such as card blocking and fraud reporting on toll-free 1800 5700 / 1800 5000 (IVR: 'Select option 1, To Report loss of card, to report a fraud or to report an Unauthorized transaction not done by you'). Overseas: domestic customers calling from abroad 24X7 on +91 79-66296009; NRIs from overseas locations 24x7 on +91 79-66296629. App path: bob World — login > More > Debit card block/hotlist (Under Quick Actions); netbanking: bob World Internet — Services > My Accounts > Debit Card Blocking; self blocking/debit freezing via the Online Account Blocking Portal. On fraud: 'immediately block respective channel or Freeze the Account for Debit Transactions' — channel-block email channelblock@bankofbaroda.bank.in. 1800 102 5627 / bobsupport@cardbranch.com is the Gift/Pre-paid/Reloadable-card line, not a debit or credit block line. No SMS keyword block is published for debit cards, and the page does not mention the 1930 helpline.",
+      "email": "channelblock@bankofbaroda.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.bankofbaroda.mconnect",
+      "iosApp": "https://apps.apple.com/in/app/bob-world-mobile-banking/id1191046038"
+    },
+    "credit": {
+      "tollFree": "1800 2665 100",
+      "number1": "1800 2667 100",
+      "number2": "1800 2090, 1800 1210",
+      "website": "https://myservices.bobcard.co.in/microsite/card-block",
+      "reference": "https://www.bobcard.co.in/faqs",
+      "notes": "BOBCARD Ltd (the bank's credit-card subsidiary) runs these channels. FAQ 'How to block my card?': the microsite takes the last 4 digits of the BOBCARD, registered mobile number and date of birth, then an OTP to the registered mobile — choose 'Temporary Block card', or 'Yes, Block card' with Select Reason for Block 'Lost/Stolen'. Same flow via BOBCARD Mobile App or https://online.bobcard.co.in/ — scroll to 'My Card Services' > 'Card Block/Unblock'. FAQ lists 'BOBCARD toll free numbers 1800 2665 100 / 1800 2667 100' and, in its terms, 'write to crm@bobcard.co.in or contact us at our Toll Free Nos. 1800 2090, 1800 1210'. The FAQ page publishes no SMS block keyword, no overseas number, and no hours statement.",
+      "email": "crm@bobcard.co.in"
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.bankofbaroda.upi",
@@ -37,8 +33,8 @@
   },
   "sources": [
     {
-      "url": "https://www.bankofbaroda.in/contact-us",
-      "label": "BoB contact-us (live fetch: JSON-LD 1800 5700, 1800 5000; card contact 1800 102 5627)"
+      "url": "https://bankofbaroda.bank.in/contact-us",
+      "label": "live fetch 2026-11-01 (debit): JSON-LD ContactPoints toll-free 1800 5700 and 1800 5000; '24x7 support for urgent services such as card blocking and fraud reporting'; IVR 'Select option 1, To Report loss of card, to report a fraud or to report an Unauthorized transaction not done by you' on 1800 5700 / 1800 5000; overseas lines +91 79-66296009 (For Domestic Customers Calling From Abroad, 24X7) and +91 79-66296629 (NRIs from overseas locations, 24x7); Online Account Blocking Portal https://appstackweb.bankofbaroda.bank.in/debitfreeze 'For self blocking/ debit freezing account in case of unauthorised transaction'; bob World app path 'Login with bobWorld app. with login password> More>Debit card block/hotlist (Under Quick Actions)' with App Store apps.apple.com/in/app/bob-world-mobile-banking/id1191046038 and Play play.google.com/store/apps/details?id=com.bankofbaroda.mconnect badges; bob World Internet path 'Services > My Accounts > Debit Card Blocking'; fraud section 'immediately block respective channel or Freeze the Account for Debit Transactions' with channelblock@bankofbaroda.bank.in; Gift/Pre-paid/Reloadable card contact 1800 102 5627 / bobsupport@cardbranch.com"
     },
     {
       "url": "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
@@ -47,7 +43,11 @@
     {
       "url": "https://bankofbaroda.bank.in/contact-us",
       "label": "UPI freeze live fetch 2026-10-31: toll-free 1800 5700/1800 5000 services list includes 'UPI & digital banking assistance'; IVR option 1 reports fraud/unauthorized transaction; fraud section 'block respective channel or Freeze the Account for Debit Transactions' + channelblock@bankofbaroda.bank.in"
+    },
+    {
+      "url": "https://www.bobcard.co.in/faqs",
+      "label": "live fetch 2026-11-01 (credit): FAQ 'How to block my card?' — microsite https://myservices.bobcard.co.in/microsite/card-block (enter Last 4 digits of BOBCARD no., Registered Mobile No & Date of Birth; OTP to registered mobile; 'Temporary Block card' or 'Yes, Block card' with Select Reason for Block 'Lost/Stolen'); app/website path 'Login to your account on the BOBCARD Mobile App or through https://online.bobcard.co.in/' > 'My Card Services' > 'Card Block/Unblock'; 'BOBCARD toll free numbers 1800 2665 100 / 1800 2667 100'; T&C 'write to crm@bobcard.co.in or contact us at our Toll Free Nos. 1800 2090, 1800 1210'; ticket closure email 'will also be sent from crm@bobcard.co.in'"
     }
   ],
-  "lastVerified": "2026-09-04"
+  "lastVerified": "2026-11-01"
 }
