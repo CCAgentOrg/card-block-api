@@ -10,6 +10,11 @@
       "androidApp": "https://play.google.com/store/apps/details?id=com.ujjivanbank.voice",
       "reference": "https://www.ujjivansfb.bank.in/phone-banking",
       "notes": "Phone banking on toll-free 1800 208 2121 runs 24x7 all days; the IVR self-service menu explicitly includes 'Block your debit card in case of theft/emergency' and 'Block your UPI Services in case of theft/emergency'. For cards-related issues from outside India the bank publishes 080 6868 2121. Netbanking: log in to Ujjivan EZY Internet Banking (netbankingezy.ujjivansfb.bank.in/RetailBanking/) and use the 'Hotlist' function under Debit Card > Cards Actions to block the card permanently ('Manage Debit Card: Hotlist cards, Block/unblock cards, manage limits, and reset PIN anytime'). Mobile: the Hello Ujjivan app offers debit-card services including 'hotlist card'. Card complaints by email go to customercare@ujjivan.bank.in. The bank publishes no credit-card product and no SMS keyword for blocking a debit card."
+    },
+    "upi": {
+      "tollFree": "1800 208 2121",
+      "notes": "Phone: Ujjivan SFB phone banking is a 24x7 helpline on toll-free 1800 208 2121; its IVR self-service list explicitly includes 'Block your UPI Services in case of theft/emergency' (call, select preferred language, then use the IVR self-service options or a Phone Banking Officer). SMS: the keyword table on the bank's SMS and Missed Call Banking page maps 'Block Ujjivan account UPI services' to the keyword UPIBLOCK, sent to 9243232121 — '* send SMS from registered mobile number only'; SMS charges apply as per your SMS tariff. The bank publishes no in-app UPI lock/freeze menu path for the Hello Ujjivan or EZY mobile apps and no UPI manage/disable path in EZY Internet Banking; the UPI Banking page confirms 'Ujjivan SFB is live as issuer in UPI payment system' and that account holders 'can link their account in any UPI app and create VPA' to transact, so a lost/stolen device's UPI access is frozen through the phone/SMS channels above, not an in-app toggle. WhatsApp banking (900 208 2121) lists 'Block Debit Card (Temporary/Permanent)' but no UPI service.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -28,6 +33,22 @@
     {
       "url": "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
       "label": "live fetch 2026-10-31: 'To Download Mobile Banking application' links https://play.google.com/store/apps/details?id=com.ujjivanbank.voice (Google Play listing resolves as 'Hello Ujjivan Mobile Banking'; the footer's other Play link com.ujjivanbank.mobilebanking is dead); app feature list includes 'Debit card services - set debit card pin, hotlist card and request a new card'"
+    },
+    {
+      "url": "https://www.ujjivansfb.bank.in/phone-banking",
+      "label": "UPI freeze live fetch 2026-11-01: 'dial our toll-free number 1800 208 2121'; 'Phone Banking 24x7 helpline with Multi-language options'; IVR self-service list includes 'Block your UPI Services in case of theft/emergency'"
+    },
+    {
+      "url": "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+      "label": "UPI freeze live fetch 2026-11-01: SMS keyword table row 'Block Ujjivan account UPI services' → keyword UPIBLOCK; SMS banking number 9243232121 ('send it to 9243232121'); footnote '* send SMS from registered mobile number only'; 'SMS charges apply, as per your SMS tariff'"
+    },
+    {
+      "url": "https://www.ujjivansfb.bank.in/upi-banking",
+      "label": "UPI freeze live fetch 2026-11-01: 'Ujjivan SFB is live as issuer in UPI payment system'; account holders 'can link their account in any UPI app and create VPA'; page publishes only UPI transaction limits — no in-app UPI block/freeze path"
+    },
+    {
+      "url": "https://www.ujjivansfb.bank.in/whatsapp-banking",
+      "label": "UPI freeze live fetch 2026-11-01: 'Services Offered through WhatsApp Banking' list (WhatsApp number 900 208 2121) includes 'Block Debit Card (Temporary/Permanent)' under Debit Card Services but no UPI service item — supports the notes caveat that WhatsApp banking offers no UPI freeze"
     }
   ],
   "lastVerified": "2026-10-31"
