@@ -2,7 +2,7 @@
   "name": "Axis Bank",
   "slug": "axis",
   "type": "private",
-  "website": "https://www.axisbank.com",
+  "website": "https://application.axis.bank.in/WebForms/axis-support/Block-cccard.aspx",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,12 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-209-5577 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-5577",
+          "instructions": "Call 1800 4030 / 1800 8911 and follow the IVR to hotlist the card.",
+          "phone": "1800 4030 / 1800 8911",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -28,12 +28,12 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-5577 (alternate line — see notes).",
-          "phone": "1800-103-5577",
+          "instructions": "Call 080-6802-6802 / 040-4886-8888 (alternate line — see notes).",
+          "phone": "080-6802-6802 / 040-4886-8888",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -46,29 +46,12 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1860-500-5555 (alternate line — see notes).",
-          "phone": "1860-500-5555",
+          "instructions": "Call +91 40 67174100 (alternate line — see notes).",
+          "phone": "+91 40 67174100",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
-            "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
-            "https://www.axis.bank.in/payments/payment-methods/upi",
-            "https://www.axis.bank.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email care@axisbank.com from your registered email to request card blocking.",
-          "email": "care@axisbank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -80,12 +63,12 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.axisbank.com and use the card block/hotlist option.",
-          "url": "https://www.axisbank.com",
+          "instructions": "Log in to internet banking at https://application.axis.bank.in/webforms/axis-support/block-dccard.aspx and use the card block/hotlist option.",
+          "url": "https://application.axis.bank.in/webforms/axis-support/block-dccard.aspx",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -96,16 +79,12 @@
           }
         },
         {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.axis.mobile | iOS: https://apps.apple.com/in/app/axis-mobile/id879519813",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.axis.mobile",
-            "https://apps.apple.com/in/app/axis-mobile/id879519813"
-          ],
+          "channel": "sms",
+          "instructions": "SMS BLOCKCARD <last 4 digits of Debit Card no.> (sample: BLOCKCARD 1234) to 56161600 or +919951860002 from your registered mobile number from your registered mobile number.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -117,11 +96,11 @@
         },
         {
           "channel": "other",
-          "instructions": "Via Axis Mobile app: Cards > Block. Also via Internet Banking.",
+          "instructions": "Lost-card lines: 1800 4030 / 1800 8911 (Toll free) for credit or debit cards; 080-6802-6802 / 040-4886-8888 covers credit, debit and pre-paid cards. 24-hour Emergency Helpline +91 40 67174100 is not toll free; the NRI section lists it as the non-toll-free number to India (+91-40-6717-4100) plus country-wise NRI toll-free numbers (India 1800 108 5577, UAE 8000 3570 3218, UK 0808 178 5040, USA 001855 205 5577). The lost-card FAQ on the credit-card page (which hosts the debit block form) also lists a 24-hour helpline, +91-22-67987700. Website key opens Axis's official debit-card block form: enter your registered mobile number to block the card and order a replacement. No debit netbanking/app menu path, no block-request email and no 1930 mention on the pages sourced here.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -139,12 +118,12 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-209-5577 and follow the IVR to hotlist the card.",
-          "phone": "1800-209-5577",
+          "instructions": "Call 1800 4030 / 1800 8911 and follow the IVR to hotlist the card.",
+          "phone": "1800 4030 / 1800 8911",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -157,12 +136,12 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-5577 (alternate line — see notes).",
-          "phone": "1800-103-5577",
+          "instructions": "Call 080-6802-6802 / 040-4886-8888 (alternate line — see notes).",
+          "phone": "080-6802-6802 / 040-4886-8888",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -175,29 +154,12 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1860-419-5555 (alternate line — see notes).",
-          "phone": "1860-419-5555",
+          "instructions": "Call +91-22-67987700 (alternate line — see notes).",
+          "phone": "+91-22-67987700",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
-            "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
-            "https://www.axis.bank.in/payments/payment-methods/upi",
-            "https://www.axis.bank.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email care@axisbank.com from your registered email to request card blocking.",
-          "email": "care@axisbank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -209,12 +171,12 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.axisbank.com and use the card block/hotlist option.",
-          "url": "https://www.axisbank.com",
+          "instructions": "Log in to internet banking at https://application.axis.bank.in/WebForms/axis-support/Block-cccard.aspx and use the card block/hotlist option.",
+          "url": "https://application.axis.bank.in/WebForms/axis-support/Block-cccard.aspx",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -225,16 +187,12 @@
           }
         },
         {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.axis.mobile | iOS: https://apps.apple.com/in/app/axis-mobile/id879519813",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.axis.mobile",
-            "https://apps.apple.com/in/app/axis-mobile/id879519813"
-          ],
+          "channel": "sms",
+          "instructions": "SMS BLOCK<last 4 digits of credit card no.> (sample: BLOCK 9075) to 56161600 or +919951860002 from your registered mobile number from your registered mobile number.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -246,11 +204,11 @@
         },
         {
           "channel": "other",
-          "instructions": "24x7. Also via Axis Mobile (Axis App): Cards > Block.",
+          "instructions": "24x7. Axis Mobile App: open the credit cards section via 'quick links' and use 'Block and replace Card'; Internet Banking: open the 'Credit Cards' section to block the card. The lost-card FAQ also says to send \"BLOCKCARD\" to 5676782 or +919717000002 (its intro describes the message as \"BLOCKXXXX\", XXXX = last 4 digits of the card number). Website key is the official credit-card block form: enter your registered mobile number to block and order a replacement. Other live credit-card customer-care numbers: 1860-419-5555 / 1860-500-5555 (Charges Applicable) and 1800-103-5577 (Toll Free Number); forex card customer service 1800-108-5577 (toll-free) or +91 040 67174100; from abroad the non-toll-free line to India is +91-40-6717-4100. No block-request email or 1930 mention on the pages sourced here.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -273,7 +231,7 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -289,7 +247,7 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.axisbank.com/contact-us",
+            "https://www.axis.bank.in/cards/credit-card",
             "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
             "https://www.axis.bank.in/payments/payment-methods/upi",
             "https://www.axis.bank.in/contact-us"
@@ -305,9 +263,9 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-04",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.axisbank.com/contact-us",
+      "https://www.axis.bank.in/cards/credit-card",
       "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
       "https://www.axis.bank.in/payments/payment-methods/upi",
       "https://www.axis.bank.in/contact-us"

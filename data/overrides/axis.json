@@ -1,30 +1,24 @@
 {
   "id": "axis",
   "name": "Axis Bank",
-  "logo": "/static/logos/axis.svg",
-  "ifsc": "UTIB0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800-209-5577",
-      "number1": "1800-103-5577",
-      "number2": "1860-419-5555",
-      "email": "care@axisbank.com",
-      "website": "https://www.axisbank.com",
-      "reference": "https://www.axisbank.com/contact-us",
-      "notes": "24x7. Also via Axis Mobile (Axis App): Cards > Block.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.axis.mobile",
-      "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
-    },
     "debit": {
-      "tollFree": "1800-209-5577",
-      "number1": "1800-103-5577",
-      "number2": "1860-500-5555",
-      "email": "care@axisbank.com",
-      "website": "https://www.axisbank.com",
-      "reference": "https://www.axisbank.com/contact-us",
-      "notes": "Via Axis Mobile app: Cards > Block. Also via Internet Banking.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.axis.mobile",
-      "iosApp": "https://apps.apple.com/in/app/axis-mobile/id879519813"
+      "tollFree": "1800 4030 / 1800 8911",
+      "number1": "080-6802-6802 / 040-4886-8888",
+      "number2": "+91 40 67174100",
+      "sms": "BLOCKCARD <last 4 digits of Debit Card no.> (sample: BLOCKCARD 1234) to 56161600 or +919951860002 from your registered mobile number",
+      "website": "https://application.axis.bank.in/webforms/axis-support/block-dccard.aspx",
+      "reference": "https://www.axis.bank.in/contact-us",
+      "notes": "Lost-card lines: 1800 4030 / 1800 8911 (Toll free) for credit or debit cards; 080-6802-6802 / 040-4886-8888 covers credit, debit and pre-paid cards. 24-hour Emergency Helpline +91 40 67174100 is not toll free; the NRI section lists it as the non-toll-free number to India (+91-40-6717-4100) plus country-wise NRI toll-free numbers (India 1800 108 5577, UAE 8000 3570 3218, UK 0808 178 5040, USA 001855 205 5577). The lost-card FAQ on the credit-card page (which hosts the debit block form) also lists a 24-hour helpline, +91-22-67987700. Website key opens Axis's official debit-card block form: enter your registered mobile number to block the card and order a replacement. No debit netbanking/app menu path, no block-request email and no 1930 mention on the pages sourced here."
+    },
+    "credit": {
+      "tollFree": "1800 4030 / 1800 8911",
+      "number1": "080-6802-6802 / 040-4886-8888",
+      "number2": "+91-22-67987700",
+      "sms": "BLOCK<last 4 digits of credit card no.> (sample: BLOCK 9075) to 56161600 or +919951860002 from your registered mobile number",
+      "website": "https://application.axis.bank.in/WebForms/axis-support/Block-cccard.aspx",
+      "reference": "https://www.axis.bank.in/cards/credit-card",
+      "notes": "24x7. Axis Mobile App: open the credit cards section via 'quick links' and use 'Block and replace Card'; Internet Banking: open the 'Credit Cards' section to block the card. The lost-card FAQ also says to send \"BLOCKCARD\" to 5676782 or +919717000002 (its intro describes the message as \"BLOCKXXXX\", XXXX = last 4 digits of the card number). Website key is the official credit-card block form: enter your registered mobile number to block and order a replacement. Other live credit-card customer-care numbers: 1860-419-5555 / 1860-500-5555 (Charges Applicable) and 1800-103-5577 (Toll Free Number); forex card customer service 1800-108-5577 (toll-free) or +91 040 67174100; from abroad the non-toll-free line to India is +91-40-6717-4100. No block-request email or 1930 mention on the pages sourced here."
     },
     "upi": {
       "tollFree": "1800-4030 / 1800-8911 (Retail Phone Banking, toll free)",
@@ -34,8 +28,8 @@
   },
   "sources": [
     {
-      "url": "https://www.axisbank.com/contact-us",
-      "label": "Axis contact-us (live fetch: retail phone banking 1800 209 5577 / 1800 103 5577)"
+      "url": "https://www.axis.bank.in/cards/credit-card",
+      "label": "live fetch 2026-11-01: lost-card FAQ 'How to report a lost card?' proves 24-hour helpline +91-22-67987700 ('You can report a lost Axis Bank card by calling the 24-hour helpline at +91-22-67987700'), Axis Mobile App path (credit cards section via 'quick links' > 'Block and replace Card'), Internet Banking path ('Credit Cards' section), SMS send \"BLOCKCARD\" to 5676782 or +919717000002, Forex Card customer service 1800-108-5577 (toll-free) / +91 040 67174100, and credit-card customer care 1860-419-5555 / 1860-500-5555 (Charges Applicable) / 1800-103-5577 (Toll Free Number); 'How do I block my card?' proves the web block forms application.axis.bank.in/WebForms/axis-support/Block-cccard.aspx (credit) and application.axis.bank.in/webforms/axis-support/block-dccard.aspx (debit), both re-fetched live HTTP 200 on 2026-11-01"
     },
     {
       "url": "https://www.axis.bank.in/bank-smart/sms-banking/instructions-and-keywords",
@@ -50,5 +44,5 @@
       "label": "UPI freeze live fetch 2026-10-31: Retail Phone Banking numbers 1800 4030 / 1800 8911 (toll free)"
     }
   ],
-  "lastVerified": "2026-09-04"
+  "lastVerified": "2026-11-01"
 }
