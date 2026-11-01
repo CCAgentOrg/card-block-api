@@ -22,6 +22,13 @@
       "email": "creditcards@utkarsh.bank.in",
       "androidApp": "https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share",
       "iosApp": "https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.utkarshbank",
+      "iosApp": "https://apps.apple.com/in/app/utkarsh-upi/id1575341725",
+      "tollFree": "1800 208 1788 / 1800 123 9878",
+      "notes": "In-app (standalone Utkarsh UPI app, not U One): the bank publishes no UPI on/off or freeze toggle — the documented exit is deregistering: open the app, tap the three horizontal lines (top left), tap 'Deregister', then 'OK'; re-registration is required afterwards and also after changing handset/SIM. Entering the wrong UPI PIN more than 3 times auto-blocks UPI for 24 hours ('users UPI will be blocked for 24 hours'). Phone: 'You can approach our Call Center Team on the following Toll Free numbers: 1800 208 1788 / 1800 123 9878'; email customercare@utkarsh.bank (UPI page; site footer uses customercare@utkarsh.bank.in). Failed UPI transaction disputes: View All > Failed Transaction > Raise Dispute in the app; unauthorised transactions can be reported at odr.utkarsh.bank.in/utkarsh-mbank. No SMS keyword, no *99# mention and no netbanking UPI-manage path is published; the Block Debit Card page covers cards only, not UPI (block-debit-card, mobile-banking, cybersecurity and FAQs pages checked 2026-11-01).",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -40,6 +47,14 @@
     {
       "url": "https://www.utkarsh.bank.in/digital-banking",
       "label": "live fetch 2026-10-31: digital-banking page - internet-banking portal https://onlinebanking.utkarsh.bank.in; Mobile Banking app links labelled \"Mobile Banking-Google Play\" https://play.google.com/store/apps/details?id=com.utkarsh.mb&pcampaignid=web_share and \"Mobile Banking-Apple Store\" https://apps.apple.com/in/app/u-one-by-utkarsh/id6789025370"
+    },
+    {
+      "url": "https://www.utkarsh.bank.in/personal/way-to-bank/utkarsh-upi",
+      "label": "UPI freeze live fetch 2026-11-01: Utkarsh UPI product page - deregister path (open app, tap the three horizontal lines top left, tap 'Deregister', then 'OK'; re-registration required afterwards and after changing handset/SIM); wrong UPI PIN more than 3 times: 'users UPI will be blocked for 24 hours'; 'You can approach our Call Center Team on the following Toll Free numbers: 1800 208 1788 / 1800 123 9878'; email customercare@utkarsh.bank; failed-transaction dispute flow View All > Failed Transaction > Raise Dispute; app download links 'click here to download Utkarsh UPI app': https://play.google.com/store/apps/details?id=com.mgs.utkarshbank and https://apps.apple.com/in/app/utkarsh-upi/id1575341725; no UPI freeze/on-off toggle, SMS keyword, *99# or netbanking UPI-manage path published"
+    },
+    {
+      "url": "https://www.utkarsh.bank.in/cybersecurity/",
+      "label": "UPI freeze live fetch 2026-11-01: cybersecurity page checked for lost-phone/UPI-freeze guidance - none published; confirms toll-free list 1800 123 9878 (Service), 1800 208 1788 (Micro Banking/Service), 1800 570 3988 (Sales), Credit Card 1800 309 3665, Secured Card 1800-309-7986, email customercare@utkarsh.bank.in, and Report Unauthorised Transaction portal odr.utkarsh.bank.in/utkarsh-mbank"
     }
   ],
   "lastVerified": "2026-10-31"
