@@ -18,7 +18,11 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +40,11 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -54,7 +62,11 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,7 +83,11 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -88,7 +104,11 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,7 +128,11 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -124,7 +148,11 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -145,7 +173,103 @@
             "https://www.nainitalbank.bank.in/en/debit-card",
             "https://www.nainitalbank.bank.in/en/pages/contact-us",
             "https://www.nainitalbank.bank.in/en/pages/faq",
-            "https://cms.nainitalbank.bank.in/"
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-180-4031 for UPI block/freeze assistance.",
+          "phone": "1800-180-4031",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "website",
+          "instructions": "Log in to internet banking at https://cms.nainitalbank.bank.in/ and use the UPI block/freeze option.",
+          "url": "https://cms.nainitalbank.bank.in/",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.kiya.nainital&hl=en_IN&pli=1 | iOS: https://apps.apple.com/in/app/naini-neo/id6748821623",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.kiya.nainital&hl=en_IN&pli=1",
+            "https://apps.apple.com/in/app/naini-neo/id6748821623"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "The bank's UPI page publishes a dedicated 'UPI Help Desk Number & E-mail ID': 'TOLL FREE no : 1800- 180 – 4031', 'Land Line no : 05946 – 250152', 'E-mail id : mbshelpdesk@nainitalbank.co.in'; the site-wide footer also proves 'For ATM/Other Unauthorised /fraudulent transactions related grievance: 1800 180 4031 (24*7 Support)'. UPI runs through NPCI's BHIM or third-party apps ('PhonePe, Google Pay, PayTM etc.'): registration is 'selects the option - \"Add a Bank\" and selects \"Nainital Bank\"' then links the account to the VPA 'in the format mobilenumber@upi', with UPI PIN set 'using the last 6 digits of Debit Card and its expiry date'. No in-app UPI lock/freeze is published: the NAINI NEO mobile app's published 'Additional Features' list has no UPI transactions on/off toggle (nearest controls are 'De-Registration from the NAINI NEO Mobile Banking', 'Reset MPIN using ATM cum Debit Card', 'Reset TPIN using ATM cum Debit Card'), so androidApp/iosApp are the official NAINI NEO store links from the homepage hero, not a documented UPI-freeze path. No netbanking UPI manage/disable path is published (internet-banking features list only an 'AEPS (Aadhar Enabled Payment System) Enable & Disable Facility'), and no SMS block keyword or *99# USSD string appears on any bank page (FAQ lists 'UPI and E-Com transaction alerts' among SMS alert types only). Unauthorised UPI transactions can be reported online via the bank's CGRMS portal cms.nainitalbank.bank.in (website key) under 'Digital Complaint (ATM/UPI/E-Com/POS/Mobile Banking etc.)' with Track Status.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.nainitalbank.bank.in/en/debit-card",
+            "https://www.nainitalbank.bank.in/en/pages/contact-us",
+            "https://www.nainitalbank.bank.in/en/pages/faq",
+            "https://cms.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/upi",
+            "https://www.nainitalbank.bank.in/",
+            "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+            "https://www.nainitalbank.bank.in/en/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -163,7 +287,11 @@
       "https://www.nainitalbank.bank.in/en/debit-card",
       "https://www.nainitalbank.bank.in/en/pages/contact-us",
       "https://www.nainitalbank.bank.in/en/pages/faq",
-      "https://cms.nainitalbank.bank.in/"
+      "https://cms.nainitalbank.bank.in/",
+      "https://www.nainitalbank.bank.in/en/upi",
+      "https://www.nainitalbank.bank.in/",
+      "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+      "https://www.nainitalbank.bank.in/en/internet-banking"
     ]
   }
 }

@@ -15,6 +15,14 @@
     },
     "credit": {
       "notes": "No credit-card product or credit-card blocking channel is published on the bank's official site: product navigation on every page and the sitemap list only a debit card and Kisan Credit Card agri-loan schemes. The old entry's credit channels (1800-180-0251, 05942-230001, customercare@nainitalbank.co.in) appear nowhere on the live official site. For any card-fraud grievance the bank's published general contact is the 24x7 line 1800 180 4031."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.kiya.nainital&hl=en_IN&pli=1",
+      "iosApp": "https://apps.apple.com/in/app/naini-neo/id6748821623",
+      "tollFree": "1800-180-4031",
+      "website": "https://cms.nainitalbank.bank.in/",
+      "notes": "The bank's UPI page publishes a dedicated 'UPI Help Desk Number & E-mail ID': 'TOLL FREE no : 1800- 180 – 4031', 'Land Line no : 05946 – 250152', 'E-mail id : mbshelpdesk@nainitalbank.co.in'; the site-wide footer also proves 'For ATM/Other Unauthorised /fraudulent transactions related grievance: 1800 180 4031 (24*7 Support)'. UPI runs through NPCI's BHIM or third-party apps ('PhonePe, Google Pay, PayTM etc.'): registration is 'selects the option - \"Add a Bank\" and selects \"Nainital Bank\"' then links the account to the VPA 'in the format mobilenumber@upi', with UPI PIN set 'using the last 6 digits of Debit Card and its expiry date'. No in-app UPI lock/freeze is published: the NAINI NEO mobile app's published 'Additional Features' list has no UPI transactions on/off toggle (nearest controls are 'De-Registration from the NAINI NEO Mobile Banking', 'Reset MPIN using ATM cum Debit Card', 'Reset TPIN using ATM cum Debit Card'), so androidApp/iosApp are the official NAINI NEO store links from the homepage hero, not a documented UPI-freeze path. No netbanking UPI manage/disable path is published (internet-banking features list only an 'AEPS (Aadhar Enabled Payment System) Enable & Disable Facility'), and no SMS block keyword or *99# USSD string appears on any bank page (FAQ lists 'UPI and E-Com transaction alerts' among SMS alert types only). Unauthorised UPI transactions can be reported online via the bank's CGRMS portal cms.nainitalbank.bank.in (website key) under 'Digital Complaint (ATM/UPI/E-Com/POS/Mobile Banking etc.)' with Track Status.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -33,6 +41,22 @@
     {
       "url": "https://cms.nainitalbank.bank.in/",
       "label": "live fetch 2026-10-30: bank's CGRMS complaint portal landing proves the web channel with categories 'Digital Complaint (ATM/UPI/E-Com/POS/Mobile Banking etc.)' and 'Other Complaint (Branch Level, Service Related etc.)', plus Track Status; publishes complaints@nainitalbank.co.in as Head Office Principal Nodal Officer contact."
+    },
+    {
+      "url": "https://www.nainitalbank.bank.in/en/upi",
+      "label": "UPI freeze live fetch 2026-11-01: page proves the 'UPI Help Desk Number & E-mail ID' block — 'TOLL FREE no : 1800- 180 – 4031', 'Land Line no : 05946 – 250152', 'E-mail id : mbshelpdesk@nainitalbank.co.in' — and the BHIM/third-party-app registration flow ('Add a Bank' → 'Nainital Bank', VPA 'mobilenumber@upi', UPI PIN via 'last 6 digits of Debit Card and its expiry date'); footer proves 'For ATM/Other Unauthorised /fraudulent transactions related grievance: 1800 180 4031 (24*7 Support)'; no block/freeze/disable/deregister wording exists anywhere on the page."
+    },
+    {
+      "url": "https://www.nainitalbank.bank.in/",
+      "label": "UPI freeze live fetch 2026-11-01: homepage hero 'Nainital Bank Mobile App - NAINI NEO' proves the official store links https://play.google.com/store/apps/details?id=com.kiya.nainital&hl=en_IN&pli=1 (Android) and https://apps.apple.com/in/app/naini-neo/id6748821623 (iOS); no UPI block/freeze feature is advertised for the app on the page."
+    },
+    {
+      "url": "https://www.nainitalbank.bank.in/en/pages/additional-features-of-naini-neo-application",
+      "label": "UPI freeze live fetch 2026-11-01: the NAINI NEO 'Additional Features of NAINI NEO Application' list contains no UPI transactions on/off toggle — nearest published controls are 'De-Registration from the NAINI NEO Mobile Banking', 'Reset MPIN using ATM cum Debit Card', 'Reset TPIN using ATM cum Debit Card' — proving no in-app UPI lock is published."
+    },
+    {
+      "url": "https://www.nainitalbank.bank.in/en/internet-banking",
+      "label": "UPI freeze live fetch 2026-11-01: internet-banking features list proves 'AEPS (Aadhar Enabled Payment System) Enable & Disable Facility.' with no UPI manage/disable path published — every 'UPI' occurrence on the page is a Digital Products nav-menu link ('Internet Banking | Mobile Banking | SMS Alert | UPI | QR Code | Debit Card'); same-day fetches of the bank's pages found no SMS block keyword and no *99# USSD string (FAQ lists 'UPI and E-Com transaction alerts' among SMS alert types only)."
     }
   ],
   "lastVerified": "2026-10-30"
