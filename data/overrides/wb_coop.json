@@ -1,0 +1,36 @@
+{
+  "id": "wb_coop",
+  "name": "West Bengal State Co-operative Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800 - 309 - 5790",
+      "number1": "033 - 4004 2721",
+      "email": "cardpayment@wbstcb.bank.in",
+      "website": "https://www.wbstcb.bank.in",
+      "reference": "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+      "notes": "Customer Care / Helpline toll-free 1800 - 309 - 5790 (integrated with Head Office EPABX; the bank's debit-card safety booklet prints the same number as 18003095790), plus chargeable Kolkata lines 033 - 4004 2721 (head-office 'Contact No.') and H.O. EPABX (033) 221 - 00000 / (033) 2225 - 2225; no service hours are published for any line and no overseas number is published. Published lost/stolen-card action (DOs & DON'Ts of ATM cum Debit Card, item 15): immediately inform the Bank; if the card is held by an ATM, inform the Bank Branch as well as the Helpline 18003095790, and email customerservices.card@wbstcb.com and cardpayment@wbstcb.com plus the respective home branch at bm.branchname@wbstcb.com; the contact page separately publishes cardpayment@wbstcb.bank.in under 'for ATM/ Debit Card'. No SMS block keyword/short code, no in-app block menu and no netbanking card-block option are published on any checked official page: WBSCB Mobile Banking exists ('download latest version ... from Google Play Store only' per the mobile-banking privacy policy, but no store URL is published on the site) and the internet-banking portal inb.wbstcb.bank.in/OnlineWBSCB/ offers Retail/Corporate logins, yet neither page documents a card-blocking self-service path, so the published channels are the helpline, the card emails and the home branch. The bank's own pages do not mention the 1930 cybercrime helpline. No winding-up, liquidation or licence-cancellation notice appears on the site; the bank is publishing current notices and audited annual accounts 2025-26."
+    },
+    "credit": {
+      "notes": "No credit-card product or credit-card blocking channel is published anywhere on the official site checked live: the Products menu, the downloads/forms list (the only card form is 'Form 2 Application for ATM card'), the notices page and the site's own sitemap (288 URLs) contain no credit-card page, and the only card product evidenced is the ATM-cum-Debit Card (debit-card safety booklet; contact page publishes a card email only under 'for ATM/ Debit Card'). The earlier published entry's credit-card channels (toll-free 1800-345-0001, email info@wbpcb.co.in, website login) appear nowhere on the current official site, and the domain cited as their source (www.wbpcb.co.in) does not resolve at all (NXDOMAIN, live DNS check 2026-11-01); treat the entire prior credit entry as unverifiable boilerplate."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wbstcb.bank.in/pages/contact_us",
+      "label": "live fetch 2026-11-01: 'Customer Care / Helpline: Toll - Free Number: 1800 - 309 - 5790 (Integrated with Head Office EPABX)'; 'Contact No. : 033 - 4004 2721'; 'H.O. EPABX Lines: (033) 221 - 00000 , (033) 2225 - 2225'; emails 'for Mobile Banking : mobile.banking@wbstcb.bank.in', 'for ATM/ Debit Card : cardpayment@wbstcb.bank.in', 'for NEFT/ RTGS : infoneft@wbstcb.bank.in'; Head Office '24A, Waterloo Street, Kolkata- 700069'; grievance redressal Level-1 branch managers, Level-2 regional managers, Level-3 Deputy General Manager (FP, IC &C); no service hours published on the page."
+    },
+    {
+      "url": "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+      "label": "live fetch 2026-11-01: item 15 verbatim — 'Immediately inform the Bank if your ATM / Debit card is lost or stolen. If your card is held by any ATM, please inform the same to your Bank Branch as well as Helpline number :- 18003095790 and email to customerservices.card@wbstcb.com, cardpayment@wbstcb.com and to the respective home branch e-mail ID as bm.branchname@wbstcb.com ( Ref: Official Website of the Bank: https://www.wbstcb.com)'; also 'Any unauthorized card transaction in the account, if observed, should be immediately reported to the Bank'; the document publishes no SMS block format and no in-app/netbanking blocking instruction."
+    },
+    {
+      "url": "https://www.wbstcb.bank.in/pages/privacy_policy",
+      "label": "live fetch 2026-11-01: Privacy Policy - WBSCB Mobile Banking — names the app 'WBSCB Mobile Banking' and states 'Always download latest version of WBSCB Mobile Banking from Google Play Store only and not from any other web pages'; 'Bank may record and monitor tele-banking / mobile banking calls for security purposes'; do's/don'ts include 'Do not share your passwords, OTP, Card number, Expiry date, CVV & ATM PIN to anyone including Bank officials'; the policy documents no card-block feature and no direct Play Store URL is published."
+    },
+    {
+      "url": "https://inb.wbstcb.bank.in/OnlineWBSCB/",
+      "label": "live fetch 2026-11-01: internet-banking portal 'The West Bengal State Cooperative Bank Ltd' with 'Retail User Login' and 'Corporate User Login' plus New User Registration; no card-block/hotlist option is visible pre-login and the page masks the customer-care number ('inform bank on the banks customer care number ****-***-****'); site header at www.wbstcb.bank.in links this portal as 'Internet Banking'; legacy domain www.wbstcb.com redirects to www.wbstcb.bank.in."
+    }
+  ],
+  "lastVerified": "2026-11-01"
+}
