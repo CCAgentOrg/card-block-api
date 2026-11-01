@@ -205,7 +205,7 @@ function researchAsk(b: BankTarget): string {
     `- If the file already carries a blockingInstructions.upi section, preserve it byte-exact together with its source entries — UPI verification is a separate loop (C4, #34); do not re-verify, alter, or drop it.\n` +
     
     `- If the bank is wound up / liquidated / has surrendered its licence (verify from official notices on its site), set "inactive": true on the card type and keep only contacts the official winding-up notices actually publish; the generator then suppresses blocking-claim boilerplate.\n` +
-    `- 1-4 source entries; every claim in the file must be traceable to at least one of them.\n` +
+    `- 1-4 source entries for the card sections (preserved upi source entries do not count against the cap); every claim in the file must be traceable to at least one of them.\n` +
     `- Do not edit any other file.\n` +
     `5. Return the structured outcome: what changed vs the old entry (including channels you dropped), and the URLs you fetched live.\n\n` +
     `If you cannot reach any official page for this bank, or official pages conflict on a channel, write nothing (leave any existing override untouched) and return outcome "escalated" with the reason.`
