@@ -10,12 +10,31 @@
       "website": "https://www.sbmbank.co.in",
       "reference": "https://www.sbmbank.co.in/block-lost-or-stolen-card",
       "notes": "24x7 toll-free customer care. Mobile Banking: Menu > My Cards > Debit > select card > Card Lock > OTP. Internet Banking: same path (My Cards > Debit > Card Lock > OTP). Credit/Debit: immediately report loss/theft/misuse on the 24x7 toll-free helpline."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mode.sbmindia",
+      "iosApp": "https://apps.apple.com/in/app/id1530410515",
+      "tollFree": "1800 2099 335 / 1800 1033 817 (Emergency Services 24/7 for Blocking card/UPI)",
+      "notes": "UPI blocking is by phone: sbm.bank.in/contact-us states \"Emergency Services are available 24/7 for Blocking card/UPI Freezing account Reporting unauthorised transactions\" — call the Toll Free Help Line 1800 2099 335 / 1800 1033 817 (customer care executives 9:00 AM to 9:00 PM; emergency line 24/7). UPI Terms & Conditions clause 4.10 puts suspension on request: \"It is the sole responsibility of the User to request the Bank, to suspend the said Facility due to change of his registered Mobile Phone Number or if his Mobile Phone has been lost or has been allotted to some other person\" — no self-service UPI on/off toggle, netbanking UPI-manage path, SMS keyword or *99# is published on sbm.bank.in. Mobile app \"SBM Bank India Ltd\" (store links published on the bank's sbm-mobile page); its published feature list (NEFT/IMPS/RTGS transfers, FD/RD, bills) mentions no UPI management.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
     {
       "url": "https://www.sbmbank.co.in/block-lost-or-stolen-card",
       "label": "SBM Bank - Block your Lost/Stolen Credit or Debit Card (live fetch 2026-09-25: 1800 2099 335 / 1800 1033 817 24x7 toll-free, Card Lock app/netbanking steps)"
+    },
+    {
+      "url": "https://www.sbm.bank.in/contact-us",
+      "label": "UPI freeze live fetch 2026-11-01: proved \"Emergency Services are available 24/7 for Blocking card/UPI Freezing account Reporting unauthorised transactions\" alongside Toll Free Help Line 1800 2099 335 / 1800 1033 817 (executives 9:00 AM to 9:00 PM)"
+    },
+    {
+      "url": "https://www.sbm.bank.in/pdf/terms-conditions/Terms-and-Conditions-UPI.pdf",
+      "label": "UPI freeze live fetch 2026-11-01: proved UPI Terms & Conditions clause 4.10 — \"It is the sole responsibility of the User to request the Bank, to suspend the said Facility\" on lost phone/number change; no self-service UPI freeze path published"
+    },
+    {
+      "url": "https://www.sbm.bank.in/personal-banking/ways-to-bank/sbm-mobile",
+      "label": "UPI freeze live fetch 2026-11-01: proved SBM Mobile app page app-store links rb.gy/sp036l → play.google.com/store/apps/details?id=com.mode.sbmindia and rb.gy/ysgvjf → apps.apple.com/in/app/id1530410515; published features (NEFT/IMPS/RTGS, FD/RD, bills) include no UPI lock"
     }
   ],
   "lastVerified": "2026-09-25"
