@@ -15,12 +15,31 @@
       "website": "https://www.idfcfirstbank.com",
       "reference": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
       "notes": "Customer service page: 'Block your Debit Card - Call us on 1800 266 9970'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus",
+      "iosApp": "https://apps.apple.com/in/app/idfc-first-bank-mobilebanking/id1521443352",
+      "tollFree": "1800 10 888",
+      "notes": "No in-app UPI lock menu path, netbanking UPI manage path, SMS keyword, or WhatsApp UPI-block service is published on the bank's own pages. UPI T&C (terms-and-conditions/upi-solutions): 'The user has to immediately bring it to the notice of IDFC FIRST Bank in case he/she suspects that his / her Mobile number is / has been allotted/ used by another person and/or notices unauthorized transactions in his / her accounts and make sure that the facility is deregistered for his / her mobile no.'; 'Entering the wrong mPIN thrice will block the UPI facility where the linked account belongs to IDFC FIRST bank'; registration is auto-suspended if the facility has not been accessed for 180 days or more. Emergency path: call customer care 1800 10 888 (24x7, 'For Accounts, Credit Cards, Loans, and Other banking services') to have the UPI facility deregistered, or file under 'Report any UNAUTH Transaction' -> 'Steps to Report Unauthorised transaction -> Click here' (/customer-care-sr/raise-a-request). androidApp/iosApp resolved 2026-11-01 by following the bank's own download link idfcnetbanking.onelink.me/p1bD/1jq39swv published in the site footer.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
     {
       "url": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
       "label": "IDFC FIRST Bank Customer Service (live fetch 2026-09-25: block credit card 1800 10 888, block debit card 1800 266 9970)"
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+      "label": "UPI freeze live fetch 2026-11-01: UPI T&C — notify bank immediately and 'make sure that the facility is deregistered'; wrong mPIN thrice blocks the UPI facility; registration auto-suspended after 180 days without use"
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/customer-care",
+      "label": "UPI freeze live fetch 2026-11-01: customer care 1800 10 888 available 24x7 for accounts, credit cards, loans and other banking services"
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+      "label": "UPI freeze live fetch 2026-11-01: 'Steps to Report Unauthorised transaction' -> 'Click here' links to /customer-care-sr/raise-a-request"
     }
   ],
   "lastVerified": "2026-09-25"
