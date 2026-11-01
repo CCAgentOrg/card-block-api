@@ -10,13 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-111-2211 and follow the IVR to hotlist the card.",
-          "phone": "1800-111-2211",
+          "instructions": "Call 1800 112211 and follow the IVR to hotlist the card.",
+          "phone": "1800 112211",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -28,13 +30,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-425-3800 (alternate line — see notes).",
-          "phone": "1800-425-3800",
+          "instructions": "Call 1800 4253800 (alternate line — see notes).",
+          "phone": "1800 4253800",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -46,13 +50,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-111-1109 (alternate line — see notes).",
-          "phone": "1800-111-1109",
+          "instructions": "Call 1800 11 1109 (alternate line — see notes).",
+          "phone": "1800 11 1109",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -66,10 +72,12 @@
           "instructions": "Email customercare@sbi.co.in from your registered email to request card blocking.",
           "email": "customercare@sbi.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -80,13 +88,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.onlinesbi.sbi and use the card block/hotlist option.",
-          "url": "https://www.onlinesbi.sbi",
+          "instructions": "Log in to internet banking at https://retail.onlinesbi.sbi/retail/blockatmcardintermediate.htm and use the card block/hotlist option.",
+          "url": "https://retail.onlinesbi.sbi/retail/blockatmcardintermediate.htm",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -97,16 +107,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbi.lotusintouch | iOS: https://apps.apple.com/in/app/yono-sbi/id1554345797",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbi.lotusintouch&hl=en&gl=US | iOS: https://apps.apple.com/us/app/yono-sbi-banking-and-lifestyle/id1231393474",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
-            "https://apps.apple.com/in/app/yono-sbi/id1554345797"
+            "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch&hl=en&gl=US",
+            "https://apps.apple.com/us/app/yono-sbi-banking-and-lifestyle/id1231393474"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -117,12 +129,14 @@
         },
         {
           "channel": "other",
-          "instructions": "YONO app: Cards > Block. SMS BLOCK <Last4> to 56767 from registered mobile. ATM hotlist option available.",
+          "instructions": "Contact centre is 24x7 (\"Toll free 7x24 help line\"); the same two numbers serve calls from abroad — report the loss, answer the security questions, and the card is blocked with a ticket number issued. Any SBI branch can hotlist the card on a written request. Netbanking: SBI pages link \"TO BLOCK DEBIT CARD\" to https://retail.onlinesbi.sbi/retail/blockatmcardintermediate.htm. No SMS block format is published for debit cards — the \"ATM <ticket no>\" SMS to 567676 only tracks ATM-complaint tickets. Same numbers appear as 1800 11 2211 and 1800 425 3800 on the contact page; number2 1800 11 1109 is the line for reporting unauthorised electronic transactions (also 94491 12211 mobile, toll free, and 080-2659 9990 chargeable). E-mail customercare@sbi.co.in.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -139,13 +153,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-1290 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-1290",
+          "instructions": "Call 1800 180 1290 and follow the IVR to hotlist the card.",
+          "phone": "1800 180 1290",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -157,13 +173,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1860-180-1290 (alternate line — see notes).",
-          "phone": "1860-180-1290",
+          "instructions": "Call 1860 180 1290 (alternate line — see notes).",
+          "phone": "1860 180 1290",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -175,13 +193,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 040-6717-7777 (alternate line — see notes).",
-          "phone": "040-6717-7777",
+          "instructions": "Call 39 02 02 02 (prefix local STD code) (alternate line — see notes).",
+          "phone": "39 02 02 02 (prefix local STD code)",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -192,13 +212,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email support@sbicard.com from your registered email to request card blocking.",
-          "email": "support@sbicard.com",
+          "instructions": "Email customercare@sbicard.com from your registered email to request card blocking.",
+          "email": "customercare@sbicard.com",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -212,10 +234,12 @@
           "instructions": "Log in to internet banking at https://www.sbicard.com and use the card block/hotlist option.",
           "url": "https://www.sbicard.com",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -226,16 +250,36 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.sbi.lotusintouch | iOS: https://apps.apple.com/in/app/yono-sbi/id1554345797",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.ge.capital.konysbiapp&hl=en | iOS: https://apps.apple.com/in/app/sbi-card-manage-credit-card/id694549848",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch",
-            "https://apps.apple.com/in/app/yono-sbi/id1554345797"
+            "https://play.google.com/store/apps/details?id=com.ge.capital.konysbiapp&hl=en",
+            "https://apps.apple.com/in/app/sbi-card-manage-credit-card/id694549848"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
+            "https://sbi.bank.in/web/customer-care/upi1",
+            "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS SMS BLOCK XXXX to 5676791 from your registered mobile no. (XXXX = Last 4 digits of your SBI Card) from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
+            "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -246,12 +290,14 @@
         },
         {
           "channel": "other",
-          "instructions": "SBI Cards managed by SBI Card (separate subsidiary). Also via SBI Card app: Block Card. NRI: +91-40-6717-7777.",
+          "instructions": "Lost/stolen credit card: 24X7 helpline — dial 39 02 02 02 (prefix local STD code) or 1860 180 1290; in the IVR press 2 to report a lost/stolen card. 1860 500 1290 is also listed; 1800 180 1290 is the toll-free line. Online: log in at sbicard.com and click \"Block Lost \\Stolen Card\" (FAQ: \"Requests\" tab > \"Report Lost/Stolen Card\"). SBI Card mobile app: Menu > Service Request > \"Report Lost/Stolen\". A blocked card cannot be reactivated — a replacement with a new number is issued to the registered address. Customer-care desk hours 8 AM-8 PM Mon-Sat; e-mail customercare@sbicard.com. No overseas number is published for personal cards; corporate cardholders abroad are directed to Visa's 24X7 toll-free emergency helpline.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -273,8 +319,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -293,8 +341,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -309,8 +359,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://sbi.co.in/web/customer-care",
+            "https://sbi.co.in/web/faq-s/faq-atm-services",
+            "https://sbi.co.in/web/customer-care/contact-us",
             "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+            "https://www.sbicard.com/en/contact-us/personal.page",
             "https://sbi.bank.in/web/customer-care/upi1",
             "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
           ],
@@ -325,10 +377,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-04",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://sbi.co.in/web/customer-care",
+      "https://sbi.co.in/web/faq-s/faq-atm-services",
+      "https://sbi.co.in/web/customer-care/contact-us",
       "https://www.sbicard.com/en/faq/lost-stolen-reissue-replace-cards.page",
+      "https://www.sbicard.com/en/contact-us/personal.page",
       "https://sbi.bank.in/web/customer-care/upi1",
       "https://sbi.bank.in/web/personal-banking/digital/bhim-sbi-pay"
     ]
