@@ -1,0 +1,37 @@
+{
+  "id": "gujarat_coop",
+  "name": "Gujarat State Co-operative Bank",
+  "blockingInstructions": {
+    "debit": {
+      "number1": "079-27459000",
+      "number2": "079-27459905",
+      "website": "https://online.gsc.bank.in/OnlineGSCB/login",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mbanking.gscbb.gscbb",
+      "iosApp": "https://apps.apple.com/in/app/gscb-mobile-banking/id1662847138",
+      "reference": "https://gsc.bank.in/report-frauds/",
+      "notes": "No 24x7 toll-free hotline, SMS block keyword or hotlist number is published anywhere on the bank's official site; the only published numbers are chargeable Ahmedabad Head Office lines 079-27459000 and 079-27459905, with no operating hours stated and no overseas/NRI line. The only documented lost-card channel is the Report Frauds web form, which asks the reporter to supply the ATM card number and linked account number and, for mobile-banking theft, the registered mobile number of the lost phone. Internet Banking (retail https://online.gsc.bank.in/OnlineGSCB/login, corporate https://online.gsc.bank.in/OnlineGSCB/corpLogin) and the official GSC Bank mobile-banking app are live channels, but the bank publishes no card-block menu path for either. The bank's Cyber Awareness page mentions the national Cyber Crime Helpline 1930 and cybercrime.gov.in."
+    },
+    "credit": {
+      "notes": "The bank does not issue credit cards: the official site's product catalogue lists only the RuPay Platinum Debit Card and no credit-card product, page or blocking channel exists anywhere on the site (the only 'Debit / Credit Cards' wording is generic ATM acceptance of other banks' cards). The Head Office lines and the Report Frauds form listed under 'debit' are the only published contacts applicable in any card emergency. The old entry repeated the same unverified toll-free/netbanking claims for credit as for debit; both are now dropped."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://gsc.bank.in/report-frauds/",
+      "label": "live fetch 2026-11-01: the bank's official fraud-reporting page proves the only documented lost/unauthorized-transaction channel is a web form (name, email, phone, account number, city) with subject 'Unauthorized/Suspicious Transaction that have taken place, on any of the GSC Bank Electronic Payment Channels' and 'In Case of any Theft/Loss: 1. ATM Card Number & Your linked Account Number. 2. For Mobile banking – Registered Mobile Number of the Lost Phone.'; the page publishes no phone, toll-free, SMS or hotlist number."
+    },
+    {
+      "url": "https://gsc.bank.in/contact/",
+      "label": "live fetch 2026-11-01: Contact page proves the only published numbers are Head Office lines '079-27459000' and '079-27459905' (GSC Bank, Sardar Vallabhbhai Patel Sahakar Bhavan, Naranpura, Ahmedabad 380013), repeated site-wide in the 'Connect With Us' footer; the page publishes no toll-free/1800 number, no overseas/NRI line, no email address and no operating hours."
+    },
+    {
+      "url": "https://gsc.bank.in/digital-banking/mobile-bannking/",
+      "label": "live fetch 2026-11-01: Mobile Banking page proves the official store links for the bank's app - Android https://play.google.com/store/apps/details?id=com.mbanking.gscbb.gscbb and iOS https://apps.apple.com/in/app/gscb-mobile-banking/id1662847138 - and its site-wide navigation proves the Internet Banking logins https://online.gsc.bank.in/OnlineGSCB/login (Retail) and https://online.gsc.bank.in/OnlineGSCB/corpLogin (Corporate); the linked store listings (both fetched live) describe only generic mobile banking with no card-block feature, and the site-wide Products menu lists only a RuPay Debit Card - no credit-card product."
+    },
+    {
+      "url": "https://gsc.bank.in/cyber-awareness/",
+      "label": "live fetch 2026-11-01: the bank's Cyber Awareness page proves its own mention of the national helplines - 'National police helpline number is 112. National women helpline number is 181 and Cyber Crime Helpline is 1930. More information visit https://cybercrime.gov.in/'; the page publishes no bank-specific card-blocking number."
+    }
+  ],
+  "lastVerified": "2026-11-01"
+}
