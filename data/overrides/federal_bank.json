@@ -20,6 +20,11 @@
       "website": "https://www.federal.bank.in",
       "reference": "https://www.federal.bank.in/ways-to-block-a-lost-federal-bank-card",
       "notes": "Same 24x7 Contact Centre numbers as debit; the credit-cards FAQ lists 'Resident Customers: 1800 420 1199, 1800 425 1199 - Non-Resident Customers: 0484 2630994'. SMS keyword FBCCBLOCK (bank's sms-banking table: 'Blocking credit card due to loss/theft/fraud transactions') goes to dedicated number +91-9008915353; the separate CCCANCEL keyword to +91-9873662838 is card cancellation/closure, not loss-theft blocking. Email card details to creditcards@federalbank.co.in. Netbanking (FedNet) path: Credit Card module on home screen > Manage Credit Card > Report Credit Card; the credit-cards page words it Credit Cards Tab > Manage Card > Manage Credit Card (block/unblock also via FedMobile)."
+    },
+    "upi": {
+      "tollFree": "1800-425-1199 / 1800-420-1199",
+      "notes": "Bank-side freeze per the bank's UPI page 'Block UPI Transactions' section: 'Customers can send an SMS with keyword BLOCKUPI to number 9895088888 or 5676762 to block UPI transactions in their federal bank account. Upon receipt of the SMS, bank will block UPI in all eligible accounts linked to the mobile number from which SMS is received'; a Success/Failure response SMS is sent back to the same number. In-app deregistration (FedMobile): 'Go to the \u2018UPI Payments\u2019 option > Click on \u2018View Profile\u2019 > Click on \u2018De-register\u2019'; caveat: 'Once the UPI ID is de-registered the same UPI ID cannot be retrieved or re-used for a period of 2 years from the de-registration date', and uninstalling an app doesn't delete profile data 'and hence can lead to misuse at the later point in time'. Lost device with UPI Lite: 'Please contact us immediately to get your UPI Lite balance refunded to your account.' Report unauthorized UPI transactions via the bank's portal https://portal.federal.bank.in/unauth_txns/ (linked from the UPI page) or the NPCI Dispute Redressal portal (npci.org.in/what-we-do/upi/dispute-redressal-mechanism). Contact Centre (UPI page header tel: links + Contact Center page: 'Dial the pan India toll free number 1800 - 425 - 1199 Or 1800 - 420 - 1199'); from abroad 0484-2630994 / 0484-2630995 / 080-61991199, 24x7. Official download link for the bank's UPI app (FedMobile): 'Link to Download our UPI App' -> https://fedmobile.federalbank.co.in/download/ ('Available on Google Playstore & iOS'; direct Play/App Store URLs not published on the fetched pages and the FedMobile microsite host was unreachable at verification time, so androidApp/iosApp keys are omitted). No netbanking (FedNet) UPI manage path published (FedNet page bot-blocked at verification), and the bank's SMS-banking page lists no UPI keyword (only debit BLOCK and credit FBCCBLOCK), so BLOCKUPI comes from the UPI page alone.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -38,6 +43,18 @@
     {
       "url": "https://www.federal.bank.in/credit-cards",
       "label": "live fetch 2026-10-27: credit-cards page — 'Call our 24x7 customer care numbers: Resident Customers: 1800 420 1199, 1800 425 1199 - Non-Resident Customers: 0484 2630994'; grievance email creditcards@federalbank.co.in; 'Easily manage PIN, block/unblock card, and track transactions via FedMobile/FedNet' with path Credit Cards Tab > Manage Card > Manage Credit Card"
+    },
+    {
+      "url": "https://www.federal.bank.in/upi-unified-payment-interface",
+      "label": "UPI freeze live fetch 2026-11-01: 'Block UPI Transactions' section — 'send an SMS with keyword BLOCKUPI to number 9895088888 or 5676762 to block UPI transactions in their federal bank account', 'bank will block UPI in all eligible accounts linked to the mobile number from which SMS is received' with Success/Failure response SMS; Deregister FAQ — FedMobile path 'UPI Payments' > 'View Profile' > 'De-register', de-registered UPI ID locked for 2 years; UPI Lite lost-device 'contact us immediately'; 'Link to Download our UPI App' -> fedmobile.federalbank.co.in/download/; header tel: 1800-420-1199 / 1800-425-1199; report unauthorized UPI via portal.federal.bank.in/unauth_txns/ and NPCI dispute portal"
+    },
+    {
+      "url": "https://www.federal.bank.in/contact-center",
+      "label": "UPI freeze live fetch 2026-11-01: Contact Center page — 'Dial the pan India toll free number 1800 - 425 - 1199 Or 1800 - 420 - 1199' ('single point contact with the bank', handles complaints incl. mobile banking); 'Customers from abroad can dial 0484 - 2630994 or 0484-2630995 or 080-61991199', executives 24x7; no UPI-specific number designated"
+    },
+    {
+      "url": "https://www.federal.bank.in/sms-banking",
+      "label": "UPI freeze live fetch 2026-11-01: SMS Banking page ('Last Updated On : 01 Nov 2026') — no UPI keyword present: debit 'BLOCK <space> Last four digits of Debit Card' and credit FBCCBLOCK/CCCANCEL only; all generic keywords (PAY/IMPS/BAL/TXN etc.) go to 9895088888 (OR) 5676762, the same numbers the UPI page names for BLOCKUPI"
     }
   ],
   "lastVerified": "2026-10-27"
