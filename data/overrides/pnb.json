@@ -1,31 +1,23 @@
 {
   "id": "pnb",
   "name": "Punjab National Bank",
-  "logo": "/static/logos/pnb.svg",
-  "ifsc": "PUNB0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800-180-2222",
-      "number1": "1800-103-2222",
-      "number2": "1800-180-2345",
-      "email": "care@pnbcard.in",
-      "website": "https://pnbcard.in",
-      "reference": "https://pnb.bank.in/customer-care",
-      "notes": "Credit cards managed by PNB Card services. .",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
-      "iosApp": "https://apps.apple.com/in/app/pnb-one/id1580876840",
-      "sms": "BLOCK <Last4> to 5607040"
-    },
     "debit": {
-      "tollFree": "1800-180-2222",
-      "number1": "1800-103-2222",
-      "number2": "1800-180-2223",
-      "email": "customercare@pnbindia.in",
-      "website": "https://pnb.bank.in",
-      "reference": "https://pnb.bank.in/customer-care",
-      "notes": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
-      "iosApp": "https://apps.apple.com/in/app/pnb-one/id1580876840"
+      "tollFree": "1800 1800, 1800 2021",
+      "number1": "0120-2490000",
+      "email": "care@pnb.bank.in",
+      "website": "https://ibanking.pnb.bank.in/",
+      "reference": "https://pnb.bank.in/hotlist-debit-card.html",
+      "sms": "HOT [space] Card Number to 5607040 from your registered mobile number (e.g. HOT 5126520000000013)",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.Version1",
+      "notes": "24-hour toll-free helpline 1800 1800, 1800 2021 (IVRS module integrated) or paid helpline 0120-2490000; global users: +91 120 2490000. Customer Care Division email care@pnb.bank.in (contact-us lists 'Hot-listing of lost and damaged debit/ATM card' among its requirements). SMS 'HOT [space] card number' to 5607040 from registered mobile. Internet banking: log in at https://ibanking.pnb.bank.in/, click Value added Service then select ATM/Debit Card Hotlisting. PNB One app: post-login, click the Debit Card button, then Hotlist Debit Card. WhatsApp banking: send 'Hi' to 92640-92640, choose All Services, Debit Card Services, Disable/Block Debit Card (temporary block or permanent block/Hotlist). Any PNB branch can also hotlist the card. Debit card once hotlisted cannot be de-hotlisted; complaints lodged at the Customer Relationship Centre get a docket number."
+    },
+    "credit": {
+      "tollFree": "1800 180 2345",
+      "number1": "0120-4616200",
+      "email": "creditcardpnb@pnb.bank.in",
+      "reference": "https://pnb.bank.in/hotlist-debit-card.html",
+      "notes": "24-hour credit-card customer helpline 1800 180 2345 or 0120-4616200 (global users: +91 120 4616200); call and email creditcardpnb@pnb.bank.in on loss, theft, fraudulent transaction or suspected compromise of card details to get the card hot-listed. No SMS block format, netbanking block path or app-based block for credit cards is published on the bank's pages."
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.Version1",
@@ -37,8 +29,16 @@
   },
   "sources": [
     {
-      "url": "https://pnb.bank.in/contact-us",
-      "label": "PNB contact-us (live fetch: ATM/debit card 1800 180 2222 + 1800 103 2222)"
+      "url": "https://pnb.bank.in/hotlist-debit-card.html",
+      "label": "live fetch 2026-11-01 (re-checked comment-stripped after audit): HOT LIST OF DEBIT CARD — call '24 hours toll free helpline numbers 1800 1800, 1800 2021 or through paid helpline number 0120-2490000'; SMS '(HOT [space] Card Number) e.g. HOT 5126520000000013 to 5607040 from your registered mobile number'; any PNB branch; netbanking 'Click on Value added Service then Select ATM/Debit Card Hotlisting' (page's rendered E-Banking login anchor https://ibanking.pnb.bank.in/; its breadcrumb netpnb.com link does not resolve in DNS as of 2026-11-01 and is not used); PNB One 'click on the Debit Card button, then in the next page click on Hotlist Debit Card'; WhatsApp 'Hi' to 92640-92640 then 'Disable/Block Debit Card'; 'Debit card once hotlisted cannot be de-hotlisted'; complaints '# 0120-2490000 and Toll Free 1800 1800, 1800 2021. Get Docket number'. HOT LIST OF CREDIT CARD — 'Do call PNB Credit Cards` 24 hour customer helpline number 1800 180 2345 or 0120 – 4616200 and email to creditcardpnb[at]pnb[dot]bank[dot]in and get your credit card hot-listed'."
+    },
+    {
+      "url": "https://pnb.bank.in/contact-us.html",
+      "label": "live fetch 2026-11-01 (visible rendered text; HTML comments stripped): Customer Care Division renders 'Toll Free No. 1800 1800 / 1800 2021', 'Tolled No. 0120-2490000', email 'care[at]pnb[dot]bank[dot]in'; requirements include 'Hot-listing of lost and damaged debit/ATM card'; 'FOR CREDIT CARD HELPLINE: 1800 180 2345 or 0120-4616200'; footer 'for banking 1800 1800, 1800 2021 / +91 120 2490000 (Global Users)' and 'for credit card 1800 180 2345 (Toll Free) / +91 120 4616200 (Global Users)'; 1800 180 2223 appears only as 'For Balance Enq. (By Missed Call)'. 1800 180 2222 / 1800 103 2222 are NOT on the rendered page — they occur only inside an HTML comment in the Division block and in head meta/JSON-LD, so they are not published here."
+    },
+    {
+      "url": "https://pnb.bank.in/Mobile-Banking-Apps.html",
+      "label": "live fetch 2026-11-01: PNB ONE official Play Store link https://play.google.com/store/apps/details?id=com.Version1 (rendered anchor with 'PNB ONE is a unified Mobile Banking application' description); PNB Genie (credit-card app) https://play.google.com/store/apps/details?id=com.isg.mobile.creditcard.pnb; no apps.apple.com URL published anywhere on the page."
     },
     {
       "url": "https://pnb.bank.in/UPI-FAQ.html",
@@ -53,5 +53,5 @@
       "label": "UPI freeze live fetch 2026-10-31: 'PNB UPI App has now been renamed to BHIM PNB'; BHIM PNB Play Store link com.fss.pnbpsp; fraud guidance — get in touch with bank immediately"
     }
   ],
-  "lastVerified": "2026-09-04"
+  "lastVerified": "2026-11-01"
 }
