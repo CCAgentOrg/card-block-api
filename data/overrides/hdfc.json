@@ -1,32 +1,29 @@
 {
   "id": "hdfc",
   "name": "HDFC Bank",
-  "logo": "/static/logos/hdfc.svg",
-  "ifsc": "HDFC0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800-1600",
-      "number1": "1800-2600",
-      "number2": "+91-22-6160-6160",
-      "email": "customerservices.cards@hdfcbank.com",
-      "website": "https://netbanking.hdfcbank.com",
-      "reference": "https://www.hdfcbank.com",
-      "notes": "Phone banking 1800-1600/1800-2600; abroad +91-22-61606160. MyCards + app supported.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
-      "iosApp": "https://apps.apple.com/in/app/hdfc-bank/id657927626",
-      "sms": "'Block CC <Last4>' to 7308080808"
-    },
     "debit": {
-      "tollFree": "1800-266-4060",
-      "number1": "1800-1600",
-      "number2": "040-6608-8388",
+      "tollFree": "1800 1600",
+      "number1": "1800 2600",
+      "number2": "+9122 61606160",
+      "website": "https://netbanking.hdfcbank.com/netbanking/",
+      "reference": "https://www.hdfc.bank.in/debit-cards/services/block-debit-card-instantly",
+      "notes": "PhoneBanking: 'Contact our Phone Banking numbers 1800 1600 or 1800 2600 (available nationwide)'; per the customer-care page IVR runs 24x7 and agents 8.00 am-8.00 pm, but 'Reporting loss of cards is an Agent assisted facility and is available 24 hours on all days'; charges may apply per tariff plan. International: 'For international assistance, call +9122 61606160' (customer-care page publishes the same line as +912261606160 for customers travelling abroad). App path: HDFC Bank MobileBanking app > menu > Pay > Cards > select the Debit Card > reason > block. NetBanking path: log in > 'Card' section > 'Debit Card' > 'Requests' > 'Debit Card Hotlisting' (the block page's 'Block Now' button links https://netbanking.hdfcbank.com/netbanking/). Also MyCards https://mycards.hdfcbank.com/ (registered mobile + OTP > 'Block Card'), WhatsApp banking 70700 22222 (register with customer-ID last 4 + OTP, then 'Block My Debit Card' under Debit Card Services), or branch form. No debit-card block email is published and no 1930 mention appears on the bank's pages; the bank states 'Phone numbers mentioned here are the only Customer Care numbers of HDFC Bank, which you should use'.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.android.now",
+      "iosApp": "https://apps.apple.com/us/app/id6504402552",
+      "sms": "SMS 'Block DC <Last 4 digits of your Debit Card number>' to 7308080808 from your registered HDFC Bank mobile number (example: 'Block DC 1234')"
+    },
+    "credit": {
+      "tollFree": "1800 1600",
+      "number1": "1800 2600",
+      "number2": "+91 22 6160 6161",
       "email": "customerservices.cards@hdfcbank.com",
-      "website": "https://netbanking.hdfcbank.com",
-      "reference": "https://www.hdfcbank.com",
-      "notes": "Via NetBanking: Cards > Block. . MobileBanking app + MyCards also supported.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.mobile",
-      "iosApp": "https://apps.apple.com/in/app/hdfc-bank/id657927626",
-      "sms": "'Block DC <Last4>' to 7308080808"
+      "website": "https://www.hdfc.bank.in",
+      "reference": "https://www.hdfc.bank.in/credit-cards/block-loststolen-card",
+      "notes": "Credit-card services run 24 hours on all days including Sundays and bank holidays. The credit-card customer-care page lists 'From outside India: +91 22 6160 6161' while the general customer-care page publishes '+912261606160' for customers travelling abroad (and '+91 22 6160 6160' for Imperia/Diners Black/Infinia customers) - both are bank-published overseas lines, so both are recorded. Dedicated BizBlack Metal Card line: 1800 266 3310. App path: MobileBanking app home > Pay > Credit Cards > select the card > Block. MyCards PWA: https://mycards.hdfc.bank.in > enter registered mobile# > Card control > Services > Security > Hotlist. EVA chatbot on www.hdfc.bank.in: Credit Card Service > Block Card. WhatsApp banking 70700 22222 > type 'Hotlist Card'. Email customerservices.cards@hdfcbank.com from your registered email for credit-card requests. Charges may apply per tariff plan; the bank states its published numbers are the only Customer Care numbers to use. No 1930 mention on the bank's pages.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.android.now",
+      "iosApp": "https://apps.apple.com/us/app/id6504402552",
+      "sms": "SMS 'Block CC ****' on 7308080808 - **** = last 4 digits of card number"
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.hdfcbank.android.now",
@@ -38,12 +35,20 @@
   },
   "sources": [
     {
-      "url": "https://www.hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card",
-      "label": "Debit card block page (live fetch)"
+      "url": "https://www.hdfc.bank.in/debit-cards/services/block-debit-card-instantly",
+      "label": "live fetch 2026-11-01 (HTTP 200; legacy URL hdfcbank.com/personal/pay/cards/debit-cards/block-loststolen-card redirects here): debit hotlisting via MyCards (https://mycards.hdfcbank.com/ > registered mobile + OTP > 'Block Card'), WhatsApp 70700 22222 ('Block My Debit Card' under Debit Card Services), MobileBanking app (menu > Pay > Cards > select card > reason > block), NetBanking ('Card' > 'Debit Card' > 'Requests' > 'Debit Card Hotlisting'; the page's 'Block Now' button links https://netbanking.hdfcbank.com/netbanking/), SMS 'Block DC <Last 4 digits of your Debit Card number>' to 7308080808 from registered HDFC Bank mobile number (example 'Block DC 1234'), PhoneBanking '1800 1600 or 1800 2600 (available nationwide)' with 'For international assistance, call +9122 61606160', or branch form. The old entry's debit numbers 1800-266-4060 and 040-6608-8388 do not appear on this page or the customer-care page."
     },
     {
-      "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCC-SMS-based-hotlisting.pdf",
-      "label": "CC hotlisting PDF (via search index)"
+      "url": "https://www.hdfc.bank.in/credit-cards/block-loststolen-card",
+      "label": "live fetch 2026-11-01 (HTTP 200): credit-card block channel table - Net Banking 'www.hdfc.bank.in > Log in > Credit Cards > Select the Card from Your Credit Cards > Block'; Mobile Banking 'Mobile banking home page > Pay > Credit Cards > Select the Card from Your Credit Cards > Block'; MyCards PWA 'https://mycards.hdfc.bank.in > enter registered mobile# > Card control > Services > Security > Hotlist'; EVA 'Credit Card Service > Block Card'; 'Phone Banking / IVR 1800 1600/1800 2600 (accessible across India)'; BizBlack Metal Card 1800 266 3310; WhatsApp 70700 22222 > type 'Hotlist Card'; SMS 'Block CC ****' on 7308080808, **** = last 4 digits of card number."
+    },
+    {
+      "url": "https://www.hdfc.bank.in/contact-us/customer-care",
+      "label": "live fetch 2026-11-01 (HTTP 200): 'HDFC Bank Helpline Numbers 18001600 / 18002600 (Accessible across India)'; 'Customers travelling abroad can reach us on +912261606160'; Imperia/Diners Black/Infinia customers '+91 22 6160 6160' from outside India; timings - IVR 24x7, agent-assisted 8.00 am to 8.00 pm, but 'Reporting loss of cards is an Agent assisted facility and is available 24 hours on all days' and 'Credit Card related services are available 24 hours on all days including Sundays and Bank holidays'; 'Charges may be applicable as per your tariff plan with your service provider'; complaints toll-free 18002583838 (India only)."
+    },
+    {
+      "url": "https://www.hdfc.bank.in/credit-cards/services/credit-card-customer-care",
+      "label": "live fetch 2026-11-01 (HTTP 200): credit-card customer care 'Toll-Free (India): 1800 1600 / 1800 2600' and 'From outside India: +91 22 6160 6161'; 'Email ID: customerservices.cards@hdfcbank.com'; '24x7 customer care support for Credit Card services, including urgent requests like card blocking'. Note: this page's overseas line ends 6161 while the general customer-care page publishes +912261606160 for travellers abroad - both bank-published, both recorded."
     },
     {
       "url": "https://www.hdfc.bank.in/upi/report-frauds",
@@ -58,5 +63,5 @@
       "label": "UPI freeze live fetch 2026-11-01: official MobileBanking app page publishes current store links — Play com.hdfcbank.android.now (HTTP 200) and App Store id6504402552 (HTTP 200; iTunes lookup country=in resultCount 1, 'HDFC Bank App: Banking & Cards', seller HDFC Bank Ltd). Legacy links com.hdfcbank.mobile, id657927626, com.snapwork.hdfc, id515891771 all verified dead (HTTP 404 / lookup resultCount 0)"
     }
   ],
-  "lastVerified": "2026-09-04"
+  "lastVerified": "2026-11-01"
 }
