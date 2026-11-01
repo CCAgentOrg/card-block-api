@@ -1,15 +1,23 @@
 {
   "id": "sbm",
   "name": "SBM Bank India",
-  "logo": "/static/logos/sbm.svg",
-  "ifsc": "SBIL0000001",
   "blockingInstructions": {
     "debit": {
       "tollFree": "1800 2099 335",
       "number1": "1800 1033 817",
-      "website": "https://www.sbmbank.co.in",
-      "reference": "https://www.sbmbank.co.in/block-lost-or-stolen-card",
-      "notes": "24x7 toll-free customer care. Mobile Banking: Menu > My Cards > Debit > select card > Card Lock > OTP. Internet Banking: same path (My Cards > Debit > Card Lock > OTP). Credit/Debit: immediately report loss/theft/misuse on the 24x7 toll-free helpline."
+      "email": "customercare@sbmbank.co.in",
+      "website": "https://retail.sbm.bank.in/mfmbs/ib/login.jsp",
+      "reference": "https://www.sbm.bank.in/block-lost-or-stolen-card",
+      "notes": "Loss/theft/misuse: report immediately on the bank's 24X7 Toll Free Customer Care lines; the contact page states customer care executives are available 9:00 AM to 9:00 PM while 'Emergency Services are available 24/7 for Blocking card/UPI'. Mobile Banking App: Menu > My Cards > Debit > select the card > 'Card Lock', then authenticate with the OTP sent to your registered mobile number; Internet Banking (retail.sbm.bank.in/mfmbs/ib/login.jsp) follows the same path. App 'SBM Bank India Ltd' — store links published on the bank's SBM Mobile page. The bank's pages carry the national cybercrime notice 'DIAL 1930 FOR ONLINE FINANCIAL FRAUD. REPORT ANY CYBERCRIME AT WWW.CYBERCRIME.GOV.IN'. No SMS block keyword and no overseas helpline number is published on sbm.bank.in; customercare@sbmbank.co.in is the bank's published general Email Support, not a 24x7 block channel.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mode.sbmindia",
+      "iosApp": "https://apps.apple.com/in/app/id1530410515"
+    },
+    "credit": {
+      "tollFree": "1800 2099 335",
+      "number1": "1800 1033 817",
+      "email": "creditcard@sbmbank.co.in",
+      "reference": "https://www.sbm.bank.in/block-lost-or-stolen-card",
+      "notes": "The bank's block page covers credit cards explicitly: 'Immediately report the loss/theft/misuse of your Credit/Debit Card on the Bank's 24X7 Toll Free Customer Care Help Line no. 1800 2099 335 or 1800 1033 817' (executives 9:00 AM to 9:00 PM; emergency blocking 24/7). SBM credit cards are FD-backed/secured co-branded cards (SBM MobiKwik First, SBM ZET, SBM Kredit.Pe, SBM novio, SBM Magnet, Niyo SBM Global, SBM OneCard, SBM Paisabazaar Step-Up, Paisabazaar Paisa Plus); the app/netbanking Card Lock steps on the block page are published for debit cards only, so no credit self-block path is published. Credit-card line 18002681199 and mailbox creditcard@sbmbank.co.in are published for card cancellation ('Cancel my Credit Card', or Partner app > Manage Cards > 'Cancel Credit Card') and mis-selling/harassment complaints (cardsalescomplaints@sbmbank.co.in) — not for blocking. No SMS block keyword and no overseas helpline number is published."
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.mode.sbmindia",
@@ -21,8 +29,20 @@
   },
   "sources": [
     {
-      "url": "https://www.sbmbank.co.in/block-lost-or-stolen-card",
-      "label": "SBM Bank - Block your Lost/Stolen Credit or Debit Card (live fetch 2026-09-25: 1800 2099 335 / 1800 1033 817 24x7 toll-free, Card Lock app/netbanking steps)"
+      "url": "https://www.sbm.bank.in/block-lost-or-stolen-card",
+      "label": "Card block live fetch 2026-11-01: page 'Block your Lost/Stolen Credit or Debit Card' proved 'Immediately report the loss/theft/misuse of your Credit/Debit Card on the Bank's 24X7 Toll Free Customer Care Help Line no. 1800 2099 335 or 1800 1033 817'; 'You may also block the Debit card through SBM Internet Banking or Mobile banking App' with Mobile Banking path Menu > My Cards > Debit > select card > Card Lock > OTP and Internet Banking login https://retail.sbm.bank.in/mfmbs/ib/login.jsp (same path); notice 'DIAL 1930 FOR ONLINE FINANCIAL FRAUD. REPORT ANY CYBERCRIME AT WWW.CYBERCRIME.GOV.IN'; no SMS keyword published; www.sbmbank.co.in/block-lost-or-stolen-card redirects here (HTTP 200)."
+    },
+    {
+      "url": "https://www.sbm.bank.in/contact-us",
+      "label": "Card block live fetch 2026-11-01: proved 'Toll Free Help Line 1800 2099 335 / 1800 1033 817' with 'Customer Care executives are available from 9:00 AM to 9:00 PM' and 'Emergency Services are available 24/7 for Blocking card/UPI Freezing account Reporting unauthorised transactions'; 'Email Support' address customercare@sbmbank.co.in (served in the page's Cloudflare email-protection encoding and decoded, matching the page's own @sbmbank.co.in fraud alert); no overseas helpline number published."
+    },
+    {
+      "url": "https://www.sbm.bank.in/personal-banking/cards/secured-credit-card",
+      "label": "Credit card live fetch 2026-11-01: proved SBM credit cards are FD-backed/secured co-branded cards (SBM MobiKwik First, SBM ZET, SBM Kredit.Pe, SBM novio, SBM Magnet, Niyo SBM Global, SBM OneCard, SBM Paisabazaar Step-Up, Paisabazaar Paisa Plus); footer 'Report Lost or Stolen Credit/Debit Card' links to /block-lost-or-stolen-card; credit-card line 18002681199 and mailboxes creditcard@sbmbank.co.in ('Cancel my Credit Card') and cardsalescomplaints@sbmbank.co.in ('Mis-selling/harassment complaint') are published for cancellation/complaints, not blocking."
+    },
+    {
+      "url": "https://www.sbm.bank.in/personal-banking/ways-to-bank/sbm-mobile",
+      "label": "Debit app live fetch 2026-11-01: proved SBM Mobile app page ('SBM Mobile Banking App For iOS and Android') links rb.gy/sp036l and rb.gy/ysgvjf; both redirects confirmed live to play.google.com/store/apps/details?id=com.mode.sbmindia (Android) and apps.apple.com/in/app/id1530410515 (iOS)."
     },
     {
       "url": "https://www.sbm.bank.in/contact-us",
@@ -37,5 +57,5 @@
       "label": "UPI freeze live fetch 2026-11-01: proved SBM Mobile app page app-store links rb.gy/sp036l → play.google.com/store/apps/details?id=com.mode.sbmindia and rb.gy/ysgvjf → apps.apple.com/in/app/id1530410515; published features (NEFT/IMPS/RTGS, FD/RD, bills) include no UPI lock"
     }
   ],
-  "lastVerified": "2026-09-25"
+  "lastVerified": "2026-11-01"
 }
