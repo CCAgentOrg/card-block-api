@@ -21,6 +21,13 @@
       "website": "https://apps.tmbdigital.bank.in/crcrdonline/",
       "reference": "https://www.tmb.bank.in/contact-us",
       "notes": "Credit-card queries share the general customer-care lines (1800-425-0426 toll-free, +91 9842 461 461; hours 08:00am to 10:00pm all days). The same contact-page FAQ that covers 'ATM/Debit/Credit cards' says to call 044-26223106 / 26223109 immediately for a lost or compromised card, and gives the credit-card-specific line 0461-2383346 with email creditcardcell@tmb.bank.in. The bank's 'Credit Card Portal' self-service web channel is at apps.tmbdigital.bank.in/crcrdonline/; no mobile-app blocking path or SMS hotlist format is published for credit cards. No overseas hotline is published (NRI email nricell@tmb.bank.in)."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.tmb.mbank",
+      "iosApp": "https://apps.apple.com/in/app/tmb-mbank/id1585648913",
+      "tollFree": "1800-425-0426",
+      "notes": "The bank's UPI product page links the official TMB MBank apps and carries no block/freeze or deregistration FAQ; its 'Get in touch with us' block lists Customer care (All services) 1800-425-0426 / +91 9842 461 461 and 'Fraud / phishing reporting' 044-69297034 / 044-69297000 (for phishing / verification) with frm@tmbank.in. The bank's App Store version history confirms an in-app UPI switch: release 1.8.9 (08/08/2024) lists 'UPI Enable/Disable' and the current release's What's New names a 'MyUPI' section — no menu path is published for it. No netbanking UPI manage path, SMS/USSD keyword, or *99# reference appears on official pages.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -39,6 +46,18 @@
     {
       "url": "https://www.tmb.bank.in/personal/services/mobile-banking",
       "label": "live fetch 2026-10-31: TMB MBank mobile-banking page — service list includes 'Debit card management'; site header Login dropdown links the official stores https://play.google.com/store/apps/details?id=com.tmb.mbank and https://apps.apple.com/in/app/tmb-mbank/id1585648913."
+    },
+    {
+      "url": "https://www.tmb.bank.in/personal/services/unified-payments-interface",
+      "label": "UPI freeze live fetch 2026-11-01: bank's UPI product page — links the official TMB MBank apps (Play + App Store); 'Get in touch with us' block: Customer care (All services) +91 9842 461 461 / 1800-425-0426 (All India), Fraud / phishing reporting 044-69297034 / 044-69297000 with frm@tmbank.in; FAQ covers what-is-UPI/eligibility/instant/security/limits only — no block/freeze/deregister path published."
+    },
+    {
+      "url": "https://apps.apple.com/in/app/tmb-mbank/id1585648913",
+      "label": "UPI freeze live fetch 2026-11-01: developer (Tamilnad Mercantile Bank) version history — release 1.8.9 08/08/2024 'New Features 1. Loan on Deposit Opening/Closure 2. Atal pension Yojana 3. UPI Enable/Disable and many more!'; current What's New 'Elock Raise dispute Myupi' — in-app UPI enable/disable exists, no menu path published."
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.tmb.mbank",
+      "label": "UPI freeze live fetch 2026-11-01: What's new 'ELock Raise Disputes My UPI Other Minor Bugs and Fixes'; app description publishes debit-card 'Enable/Disable Debit Card anytime' only — no UPI freeze steps; no netbanking/SMS/USSD UPI channel appears on any fetched official page."
     }
   ],
   "lastVerified": "2026-10-31"
