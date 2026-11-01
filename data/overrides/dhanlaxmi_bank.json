@@ -22,6 +22,13 @@
       "iosApp": "https://apps.apple.com/in/app/dhansmart/id1061588821",
       "reference": "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
       "notes": "Credit-card blocking goes through the same 24/7 Customer Care Centre (toll-free 1800-425-1747, chargeable 044 42413000); no missed-call or SMS self-service is published for credit cards. Website: on www.dhan.bank.in use the pre-login Retail Banking 'Block Card -> Credit Card' flow or, after login, Menu -> Block/Unblock & PIN Generation -> Card block (Debit/Credit); the bank's site nav carries a dedicated 'Card Block (Debit/Credit)' link to delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock. DhanSmart app / DhanDelight netbanking menu path for a permanent hotlist: Services -> Credit Cards -> Card Hot listing (temporary block/unblock: Services -> Credit Cards -> Block/Unblock Cards). Fraudulent-transaction reports may also be emailed to support@dhanbank.co.in (fraud reports only), and the bank's own page directs fraud complaints additionally to the MHA cyber helpline 1930 or cybercrime.gov.in. No overseas hotline is published."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dhanlaxmi.dhansmart.mtc",
+      "iosApp": "https://apps.apple.com/in/app/dhansmart/id1061588821",
+      "tollFree": "1800-425-1747",
+      "notes": "Dedicated UPI freeze page: 'You can block your UPI facility by simply sending an SMS from your registered mobile number' — send 'BLOCKUPI' to 918105754333 from the registered mobile number; the system identifies the customer by that mobile number, 'The UPI status will be updated to Blocked for your account, depending on the current status', and 'You will receive a confirmation SMS once the process is complete'. The unauthorized-electronic-transaction page's section '3. To block UPI' gives Option 1 'Get assistance – Customer Care' — 'Contact our Customer Care Centre (24/7): 044 42413000 / 1800-425-1747' — and Option 2 self-service, the same SMS 'BLOCKUPI' from the registered mobile number to 918105754333. In-app de-registration per the BHIM UPI FAQ ('Can I de-active/ de-register from BHIM / UPI?'): 'Customers can Go to the BHIM DLB UPI App > Click on De-register (Right bottom corner link)'; the bank publishes no app-store link for that separate BHIM DLB UPI app — androidApp/iosApp above are the bank's DhanSmart mobile-banking app store links as shown on the customer-care page footer, and the bank's pages document no UPI block/disable menu path inside any app. No netbanking UPI manage/disable path is published (Delight netbanking card-block paths cover debit/credit cards only), and no USSD (*99#) option is mentioned on the bank's pages.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -40,6 +47,18 @@
     {
       "url": "https://www.dhan.bank.in/credit-card/",
       "label": "live fetch 2026-10-31: page confirms the bank issues credit cards (Dhan Namaste VISA Platinum, Dhan Vriddhi RuPay Platinum, Dhan Samriddhi RuPay Select); same unlinked 'Block Cards' feature tile (no hyperlink); the page nav carries 'Card Block (Debit/Credit)' -> https://delight.dhan.bank.in/ib-retail-web/userProfile/cardBlock."
+    },
+    {
+      "url": "https://www.dhan.bank.in/upi-block-facility",
+      "label": "UPI freeze live fetch 2026-11-01: dedicated 'UPI Block Facility' page — 'You can block your UPI facility by simply sending an SMS from your registered mobile number'; process: send \"BLOCKUPI\" to 918105754333 from the registered mobile number; the system identifies the customer using the mobile number provided; 'The UPI status will be updated to \"Blocked\" for your account, depending on the current status'; 'You will receive a confirmation SMS once the process is complete'."
+    },
+    {
+      "url": "https://www.dhan.bank.in/unauthorized-Fraudulent-Electronic-Transaction/",
+      "label": "UPI freeze live fetch 2026-11-01: section '3. To block UPI' — Option 1 'Get assistance – Customer Care', Phone: 'Contact our Customer Care Centre (24/7): 044 42413000 / 1800-425-1747'; Option 2 self-service: 'Sending SMS BLOCKUPI from registered mobile number to 918105754333'."
+    },
+    {
+      "url": "https://www.dhan.bank.in/bhim-upi-faq/",
+      "label": "UPI freeze live fetch 2026-11-01: BHIM UPI FAQ Q15 'Can I de-active/ de-register from BHIM / UPI?' — 'Customers can Go to the BHIM DLB UPI App > Click on De-register (Right bottom corner link)'; Q6 confirms BHIM/UPI IDs are linked to the mobile number registered with the bank; Q17 notes UPI Lite is currently not enabled in the bank's BHIM DLB app; page name 'BHIM UPI FAQ' (metaTitle) on dhan.bank.in."
     }
   ],
   "lastVerified": "2026-10-31"
