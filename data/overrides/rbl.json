@@ -15,6 +15,13 @@
       "website": "https://www.rbl.bank.in",
       "reference": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
       "notes": "Block immediately via any channel: Website 'block your debit card using your CIF number'; Helpline +91 22 6232 7777; SMS to 9223366333 from registered mobile - Temporary Block: 'TBLOCK <last four digits of card> <Customer ID>' / Permanent Block: 'BLOCK <last four digits of card> <Customer ID>'; RBL MyBank app > Manage Your Cards > Block/Unblock Card > OTP; NetBanking > Requests > Block Debit Card; WhatsApp 'Hi RBL' to 84335 98888 > Banking Services."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.rblbank.mobank&hl=en",
+      "iosApp": "https://itunes.apple.com/in/app/rbl-mobank/id916461662?mt=8",
+      "tollFree": "+91 22 6232 7777",
+      "notes": "RBL publishes no self-service UPI freeze path: the online Block Channel tool (rbl.bank.in/block-channel) covers only 'Retail Internet Banking / Credit Card / Debit Card', and its note reads 'In case you wish to block account/ any other channel please connect with us on +91 22 6232 7777 (Banking & Credit Card)' — so UPI blocking is via that 24*7 helpline. BHIM UPI runs inside the RBL MyBank app (register under BHIM UPI at dashboard, UPI IDs like name@rbl); the site publishes no in-app UPI lock/disable menu path. The BHIM UPI page: 'for further support you may call our 24 hours helpline no. +91 22 6232 7777'; unauthorized transactions can be reported 24*7 by phone or to reportfraud@rbl.bank.in from the registered email ID. UPI complaints/disputes can also be raised on the NPCI upihelp portal linked from bank pages as 'MyUPI' (upihelp.npci.org.in). USSD *99# (NUUP) from the registered mobile includes a 'UPI PIN' menu but no published UPI-freeze option.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -25,6 +32,18 @@
     {
       "url": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
       "label": "RBL Bank - Report loss or unauthorised use of Debit Card (live fetch 2026-09-25: TBLOCK/BLOCK SMS to 9223366333, helpline, MyBank app path)"
+    },
+    {
+      "url": "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+      "label": "UPI freeze live fetch 2026-11-01: BHIM UPI FAQ — UPI lives in RBL MyBank app, 24-hr helpline +91 22 6232 7777 for UPI support, RBL MyBank Play Store (com.rblbank.mobank) + App Store links; no in-app UPI lock path published"
+    },
+    {
+      "url": "https://www.rbl.bank.in/block-channel",
+      "label": "UPI freeze live fetch 2026-11-01: Block Channel web tool covers only Internet Banking/Credit/Debit Card; note routes 'block any other channel' to +91 22 6232 7777; fraud email reportfraud@rbl.bank.in"
+    },
+    {
+      "url": "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd",
+      "label": "UPI freeze live fetch 2026-11-01: USSD page — *99# NUUP menu (Send Money, UPI PIN) is RBL's published UPI-over-USSD channel; no UPI freeze option in published menu"
     }
   ],
   "lastVerified": "2026-09-25"

@@ -16,7 +16,10 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card"
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
           ],
           "confirmations": {
             "worked": 0,
@@ -31,7 +34,10 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card"
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
           ],
           "confirmations": {
             "worked": 0,
@@ -45,7 +51,10 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card"
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
           ],
           "confirmations": {
             "worked": 0,
@@ -66,7 +75,10 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card"
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
           ],
           "confirmations": {
             "worked": 0,
@@ -81,7 +93,10 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card"
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
           ],
           "confirmations": {
             "worked": 0,
@@ -95,7 +110,72 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card"
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call +91 22 6232 7777 for UPI block/freeze assistance.",
+          "phone": "+91 22 6232 7777",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.rblbank.mobank&hl=en | iOS: https://itunes.apple.com/in/app/rbl-mobank/id916461662?mt=8",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.rblbank.mobank&hl=en",
+            "https://itunes.apple.com/in/app/rbl-mobank/id916461662?mt=8"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "RBL publishes no self-service UPI freeze path: the online Block Channel tool (rbl.bank.in/block-channel) covers only 'Retail Internet Banking / Credit Card / Debit Card', and its note reads 'In case you wish to block account/ any other channel please connect with us on +91 22 6232 7777 (Banking & Credit Card)' — so UPI blocking is via that 24*7 helpline. BHIM UPI runs inside the RBL MyBank app (register under BHIM UPI at dashboard, UPI IDs like name@rbl); the site publishes no in-app UPI lock/disable menu path. The BHIM UPI page: 'for further support you may call our 24 hours helpline no. +91 22 6232 7777'; unauthorized transactions can be reported 24*7 by phone or to reportfraud@rbl.bank.in from the registered email ID. UPI complaints/disputes can also be raised on the NPCI upihelp portal linked from bank pages as 'MyUPI' (upihelp.npci.org.in). USSD *99# (NUUP) from the registered mobile includes a 'UPI PIN' menu but no published UPI-freeze option.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
+            "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+            "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+            "https://www.rbl.bank.in/block-channel",
+            "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
           ],
           "confirmations": {
             "worked": 0,
@@ -111,7 +191,10 @@
     "last_verified": "2026-09-25",
     "sources": [
       "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-      "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card"
+      "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+      "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+      "https://www.rbl.bank.in/block-channel",
+      "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking/ussd"
     ]
   }
 }
