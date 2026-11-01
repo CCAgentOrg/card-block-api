@@ -49,9 +49,10 @@
       "type": "coop",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 5,
+      "method_count": 7,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-31"
     },
@@ -125,9 +126,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 7,
+      "method_count": 10,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-27"
     },
@@ -213,9 +215,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 12,
+      "method_count": 15,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-31"
     },
@@ -251,9 +254,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 12,
+      "method_count": 14,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-27"
     },
@@ -313,9 +317,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 10,
+      "method_count": 13,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-25"
     },
@@ -415,9 +420,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 8,
+      "method_count": 11,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-30"
     },
@@ -453,9 +459,10 @@
       "type": "rrb",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 9,
+      "method_count": 11,
       "verification_status": "agent_verified",
       "last_verified": "2026-11-01"
     },
