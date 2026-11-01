@@ -1,0 +1,39 @@
+{
+  "id": "telangana_state_coop",
+  "name": "Telangana State Co-operative Apex Bank (DCCB)",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "18005998866",
+      "number1": "+040 24685660",
+      "number2": "+040 23443812",
+      "website": "https://netbanking.tgcab.bank.in",
+      "email": "helpdesk@tgcab.bank.in",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.infrasofttech.tsc",
+      "iosApp": "https://apps.apple.com/in/app/tscab/id1415635104",
+      "reference": "https://tgcab.bank.in/contact/help-desk",
+      "notes": "The bank publishes no dedicated card-block/hotlist page, no SMS block format and no overseas/NRI number, so call the published lines. Help Desk page lists Toll free 18005998866 with no hours stated; Customer Support lines +040 24685660 and +040 23443812 are answered only 8 am to 8 pm on working days. Email: helpdesk@tgcab.bank.in ('Drop a Mail' on the Help Desk page); info@tgcab.bank.in is also published site-wide in the footer. App: the official TGCAB Mobile Banking page and the site-wide 'Get our App' footer link the Android app com.infrasofttech.tsc and iOS app tscab (id1415635104); the page's published in-app service list includes 'Debit Card Controls' and 'Green Pin generation' alongside NEFT/IMPS/UPI. Website: the Internet Banking login portal https://netbanking.tgcab.bank.in, linked site-wide from the bank's Internet Banking page; that page's published feature list is only 'Balance enquiry', 'Account Statement', 'Loan Statement', 'Fixed Deposit Details' and 'Loan Certificate' - no card-block option among them, so no web card-block path is published. The bank issues only RuPay debit cards (RuPay ATM cum Debit Card and RuPay Platinum Card, per ATM Services)."
+    },
+    "credit": {
+      "notes": "The bank's official site publishes no credit-card product and no credit-card blocking channel: ATM Services states 'Apex Bank offers Rupay ATM cum Debit card and Rupay Platinum Card to its customers' (both debit cards), and every 'credit' reference on the fetched pages is a loan/merchant credit facility, not a card. The old entry's credit blocking methods (1800-100-4755, 040-23268725, info@tsabbank.com, tsabbank.com netbanking, app links com.tsab.app / id1526327863) could not be verified on any live official page - the tsabbank.com domain no longer resolves (NXDOMAIN, no Wayback snapshots) - and are dropped. The bank-wide contacts published under 'debit' are the only emergency lines available to any cardholder."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://tgcab.bank.in/contact/help-desk",
+      "label": "live fetch 2026-11-01: official Help Desk page proves all phone/email channels - 'Toll free 18005998866, +040 24685660, +040 23443812'; Customer Support block proves '+ (040) 24685660 (8 am to 8pm - on working days only)' and '+ (040) 23443812 (8 am to 8pm - on working days only)'; 'Drop a Mail: helpdesk@tgcab.bank.in'; footer publishes info@tgcab.bank.in."
+    },
+    {
+      "url": "https://tgcab.bank.in/services/atm-services",
+      "label": "live fetch 2026-11-01: ATM Services page proves debit-only card issuance - 'Apex Bank offers Rupay ATM cum Debit card and Rupay Platinum Card to its customers', card variants 'Contactless Debit EMV' and 'Contactless Platinum Debit EMV' with withdrawal/POS limits; page publishes no hotlist/block instructions, no credit card, and no SMS format."
+    },
+    {
+      "url": "https://tgcab.bank.in/services/mobile-banking",
+      "label": "live fetch 2026-11-01: Mobile Banking page proves the TGCAB App ('Discover Digital Banking Convenience with the TGCAB App') with official store links https://play.google.com/store/apps/details?id=com.infrasofttech.tsc and https://apps.apple.com/in/app/tscab/id1415635104 (also in the site-wide 'Get our App' footer), and its published in-app service list includes 'Debit Card Controls' and 'Green Pin generation' alongside NEFT/IMPS/UPI - no SMS blocking."
+    },
+    {
+      "url": "https://tgcab.bank.in/services/internet-banking",
+      "label": "live fetch 2026-11-01: Internet Banking page proves the website channel - it links the login portal https://netbanking.tgcab.bank.in site-wide, and its published feature list for the portal is only 'Balance enquiry', 'Account Statement', 'Loan Statement', 'Fixed Deposit Details' and 'Loan Certificate' - no card-block option among them; no SMS block or overseas number appears on the page."
+    }
+  ],
+  "lastVerified": "2026-11-01"
+}

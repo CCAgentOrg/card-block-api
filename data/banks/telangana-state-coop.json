@@ -2,7 +2,7 @@
   "name": "Telangana State Co-operative Apex Bank (DCCB)",
   "slug": "telangana-state-coop",
   "type": "coop",
-  "website": "https://www.tsabbank.com/",
+  "website": "https://netbanking.tgcab.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,13 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-100-4755 and follow the IVR to hotlist the card.",
-          "phone": "1800-100-4755",
+          "instructions": "Call 18005998866 and follow the IVR to hotlist the card.",
+          "phone": "18005998866",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -26,13 +28,33 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 040-23268725 (alternate line — see notes).",
-          "phone": "040-23268725",
+          "instructions": "Call +040 24685660 (alternate line — see notes).",
+          "phone": "+040 24685660",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call +040 23443812 (alternate line — see notes).",
+          "phone": "+040 23443812",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -41,13 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email info@tsabbank.com from your registered email to request card blocking.",
-          "email": "info@tsabbank.com",
+          "instructions": "Email helpdesk@tgcab.bank.in from your registered email to request card blocking.",
+          "email": "helpdesk@tgcab.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,13 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.tsabbank.com/ and use the card block/hotlist option.",
-          "url": "https://www.tsabbank.com/",
+          "instructions": "Log in to internet banking at https://netbanking.tgcab.bank.in and use the card block/hotlist option.",
+          "url": "https://netbanking.tgcab.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,16 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tsab.app | iOS: https://apps.apple.com/in/app/tsab-mobile/id1526327863",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.infrasofttech.tsc | iOS: https://apps.apple.com/in/app/tscab/id1415635104",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.tsab.app",
-            "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
+            "https://play.google.com/store/apps/details?id=com.infrasofttech.tsc",
+            "https://apps.apple.com/in/app/tscab/id1415635104"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -89,12 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact branch",
+          "instructions": "The bank publishes no dedicated card-block/hotlist page, no SMS block format and no overseas/NRI number, so call the published lines. Help Desk page lists Toll free 18005998866 with no hours stated; Customer Support lines +040 24685660 and +040 23443812 are answered only 8 am to 8 pm on working days. Email: helpdesk@tgcab.bank.in ('Drop a Mail' on the Help Desk page); info@tgcab.bank.in is also published site-wide in the footer. App: the official TGCAB Mobile Banking page and the site-wide 'Get our App' footer link the Android app com.infrasofttech.tsc and iOS app tscab (id1415635104); the page's published in-app service list includes 'Debit Card Controls' and 'Green Pin generation' alongside NEFT/IMPS/UPI. Website: the Internet Banking login portal https://netbanking.tgcab.bank.in, linked site-wide from the bank's Internet Banking page; that page's published feature list is only 'Balance enquiry', 'Account Statement', 'Loan Statement', 'Fixed Deposit Details' and 'Loan Certificate' - no card-block option among them, so no web card-block path is published. The bank issues only RuPay debit cards (RuPay ATM cum Debit Card and RuPay Platinum Card, per ATM Services).",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -107,93 +137,15 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-100-4755 and follow the IVR to hotlist the card.",
-          "phone": "1800-100-4755",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 040-23268725 (alternate line — see notes).",
-          "phone": "040-23268725",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email info@tsabbank.com from your registered email to request card blocking.",
-          "email": "info@tsabbank.com",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.tsabbank.com/ and use the card block/hotlist option.",
-          "url": "https://www.tsabbank.com/",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.tsab.app | iOS: https://apps.apple.com/in/app/tsab-mobile/id1526327863",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.tsab.app",
-            "https://apps.apple.com/in/app/tsab-mobile/id1526327863"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact branch",
+          "instructions": "The bank's official site publishes no credit-card product and no credit-card blocking channel: ATM Services states 'Apex Bank offers Rupay ATM cum Debit card and Rupay Platinum Card to its customers' (both debit cards), and every 'credit' reference on the fetched pages is a loan/merchant credit facility, not a card. The old entry's credit blocking methods (1800-100-4755, 040-23268725, info@tsabbank.com, tsabbank.com netbanking, app links com.tsab.app / id1526327863) could not be verified on any live official page - the tsabbank.com domain no longer resolves (NXDOMAIN, no Wayback snapshots) - and are dropped. The bank-wide contacts published under 'debit' are the only emergency lines available to any cardholder.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.tsabbank.com/",
-            "https://sachet.rbi.org.in"
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -206,10 +158,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.tsabbank.com/",
-      "https://sachet.rbi.org.in"
+      "https://tgcab.bank.in/contact/help-desk",
+      "https://tgcab.bank.in/services/atm-services",
+      "https://tgcab.bank.in/services/mobile-banking",
+      "https://tgcab.bank.in/services/internet-banking"
     ]
   }
 }
