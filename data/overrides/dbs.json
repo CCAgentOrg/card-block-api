@@ -23,6 +23,13 @@
       "notes": "24/7 (grievance page: 'Call Us (24/7) - DBS Credit Card helpline: 1860 267 6789'; overseas +91 44 6904 6789). DBS Vantage Credit Card dedicated helpline: 1800 209 4555 (overseas Vantage: +91 44 6685 4555; Vantage email vantagecareindia@dbs.com). Report page: 'You can also login to your DBS mobile app to block your debit card/credit card immediately' (digibank app). Bank's pages ask online-fraud victims to call National Cyber Crime helpline 1930 / report at cybercrime.gov.in.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank",
       "iosApp": "https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.dbs.in.digitalbank",
+      "iosApp": "https://apps.apple.com/in/app/digibank-by-dbs-india/id1057836974",
+      "tollFree": "1860 210 3456 / 1860 267 4567 (India); +91 44 6685 4555 (overseas)",
+      "notes": "DBS India's pages publish no full account-level UPI off-switch, UPI SMS keyword, *99# path or netbanking UPI-manage path. The official UPI FAQ publishes an in-app UPI Settings toggle in the digibank app: 'UPI international will be deactivated automatically after validity period which is set by customer'; to deactivate before that — DBS accounts: 'Tap accounts section on the Digi bank app home screen. Select the account for which you may want to Disable. Tap Settings. Toggle UPI International under the UPI Settings. Confirm'; external accounts: 'Tap at UPI Linked accounts section on the Digi bank app home screen. Select the account for which you may want to Disable. Tap Settings. Toggle UPI Global under the UPI Settings. Enter UPI PIN. Confirm.' UPI Autopay: 'Simply disable “Autopay” from the settings, on the respective platform/app where it was enabled or delete the mandate from the UPI app in which it was created.' Foreign-inward-remittance UPI opt-out: email UPI_PayNow_FIR@dbs.com (general help customercareindia@dbs.com). FAQ 'Need Help?': 1860 210 3456 / 1860 267 4567 (India), +91 44 6685 4555 (overseas).",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -41,6 +48,14 @@
     {
       "url": "https://www.dbs.bank.in/digibank/in/banking/internet-banking/ibanking",
       "label": "live fetch 2026-10-27: proved internet-banking Login link https://internet-banking.dbs.bank.in and official digibank app links (Android package com.dbs.in.digitalbank, iOS app id1057836974; listings verified live as 'digibank by DBS India')"
+    },
+    {
+      "url": "https://www.dbs.com/digibank/in/banking/payments/upi/faqs.page",
+      "label": "UPI freeze live fetch 2026-11-01: proved digibank-app UPI Settings toggle to deactivate UPI International (DBS accounts: accounts section > select account > Settings > toggle 'UPI International' under 'UPI Settings' > Confirm; external accounts: UPI Linked accounts section > Settings > toggle 'UPI Global' > UPI PIN > Confirm; auto-deactivates after customer-set validity period), UPI Autopay discontinuation ('disable \"Autopay\" from the settings... or delete the mandate from the UPI app'), FIR UPI opt-out email UPI_PayNow_FIR@dbs.com + customercareindia@dbs.com, 'Need Help?' 1860 210 3456 / 1860 267 4567 (India) / +91 44 6685 4555 (overseas), and official app footer links app.appsflyer.com/com.dbs.in.digitalbank + app.appsflyer.com/id1057836974; no full account-level UPI off-switch, SMS/USSD or netbanking UPI-freeze path published"
+    },
+    {
+      "url": "https://www.dbs.bank.in/in/digibank-en/banking/payments/upi",
+      "label": "UPI freeze live fetch 2026-11-01: proved official UPI Payments landing page linking to the UPI FAQ ('Unified Payments Interface (UPI)'), customer care 1860 210 3456 / 1860 267 4567 (India) / +91 44 6685 4555 (overseas), and official digibank app links encoding com.dbs.in.digitalbank / id1057836974"
     }
   ],
   "lastVerified": "2026-10-27"
