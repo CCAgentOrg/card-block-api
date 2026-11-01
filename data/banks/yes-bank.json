@@ -13,10 +13,11 @@
           "instructions": "Call 1800 1200 and follow the IVR to hotlist the card.",
           "phone": "1800 1200",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -32,10 +33,11 @@
           "instructions": "Call 1860 210 1200 (alternate line — see notes).",
           "phone": "1860 210 1200",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -51,10 +53,30 @@
           "instructions": "Call +91 22 5079 5101 (alternate line — see notes).",
           "phone": "+91 22 5079 5101",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/digital-banking/yes-pay-next"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "email",
+          "instructions": "Email debitcard@yesbank.in from your registered email to request card blocking.",
+          "email": "debitcard@yesbank.in",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -69,10 +91,51 @@
           "instructions": "Log in to internet banking at https://www.yesbank.in and use the card block/hotlist option.",
           "url": "https://www.yesbank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/digital-banking/yes-pay-next"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://irisbyyesbank.page.link/MainDashboard | iOS: https://irisbyyesbank.page.link/MainDashboard",
+          "urls": [
+            "https://irisbyyesbank.page.link/MainDashboard",
+            "https://irisbyyesbank.page.link/MainDashboard"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/digital-banking/yes-pay-next"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS SMS BLKDC <space> <Cust ID> to 9840909000 from your registered mobile number from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -84,12 +147,13 @@
         },
         {
           "channel": "other",
-          "instructions": "Debit card cum ATM card lost/stolen: call PhoneBanking 1800 1200 (toll free) or 1860 210 1200 immediately. From outside India: +91 22 5079 5101 / 1833 800 0149 (USA) / 1833 491 0559 (Canada) / 8000 46 9153 (UK) / 8000 3570 2510 (UAE). Block also via NetBanking / YES Mobile.",
+          "instructions": "Call immediately on toll-free 1800 1200 (mobiles & landlines in India; contact-us lists it 8:00 AM-8:00 PM with only critical service post 8:00 PM, while the site footer calls it the 24/7 Contact Center) or chargeable 1860 210 1200. From outside India: +91 22 5079 5101 / 1833 380 0149 (USA) / 1833 491 0559 (Canada) / 8000 48 9153 (UK) / 8000 3570 2510 (UAE); the bank's Card Blocking Assistance PDF also lists +91 22 30993600 for debit calls from outside India. SMS block: BLKDC <space> <Cust ID> to 9840909000 from your registered mobile number (the page's tail text anomalously reads 'to block your Internet Banking'). NetBanking path: login, open the 'mySpace' tab, select 'Debit Cards', choose 'Hot List Debit Cards'. Mobile path (page names the app YES Mobile): download from Play Store/App Store, register, login with APIN/fingerprint, tap Debit Card from the bottom carousel, select 'Hot List Debit Cards', confirm with MPIN; the site footer's download badges link to iris by YES BANK (irisbyyesbank.page.link/MainDashboard). Hotlist email: debitcard@yesbank.in from your registered e-mail ID with your CUSTOMER ID and the last 4 digits of the debit card (fulfilled within 1 working day; the bank recommends its real-time channels for immediate blocking). The bank's page points to the National Cyber Crime helpline 1930 / cybercrime.gov.in for unauthorized transactions.",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -110,10 +174,11 @@
           "instructions": "Call 1800 103 1212 and follow the IVR to hotlist the card.",
           "phone": "1800 103 1212",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -129,10 +194,11 @@
           "instructions": "Call 1860 210 1200 (alternate line — see notes).",
           "phone": "1860 210 1200",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -148,10 +214,30 @@
           "instructions": "Call +91 22 4935 0000 (alternate line — see notes).",
           "phone": "+91 22 4935 0000",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/digital-banking/yes-pay-next"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "email",
+          "instructions": "Email creditcard.block@yesbank.in from your registered email to request card blocking.",
+          "email": "creditcard.block@yesbank.in",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -166,10 +252,51 @@
           "instructions": "Log in to internet banking at https://www.yesbank.in and use the card block/hotlist option.",
           "url": "https://www.yesbank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/digital-banking/yes-pay-next"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://irisbyyesbank.page.link/MainDashboard | iOS: https://irisbyyesbank.page.link/MainDashboard",
+          "urls": [
+            "https://irisbyyesbank.page.link/MainDashboard",
+            "https://irisbyyesbank.page.link/MainDashboard"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/contact-us",
+            "https://www.yes.bank.in/digital-banking/yes-pay-next"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS SMS BLKCC <space> <Last 4 digits of card number> to +91 9840909000 from your registered mobile number from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -181,12 +308,13 @@
         },
         {
           "channel": "other",
-          "instructions": "24x7 PhoneBanking. 1800 103 6000 applies to select Marquee/Raree credit cards. From outside India: +91 22 4935 0000. Block also available via YES Mobile / iris app card controls. National cybercrime helpline 1930 for online fraud.",
+          "instructions": "Call 1800 103 1212 (toll free for mobiles & landlines in India) or chargeable 1860 210 1200; from outside India +91 22 4935 0000. Marquee/Reserv/YES First customers: 1800 103 6000 (toll free). SMS block (Card Blocking Assistance PDF; the unauthorized-transaction page words it 'BLKCC <space> <Last 4 digit of Card Number> to 9840909000'): to +91 9840909000 from your registered mobile number. NetBanking path: login, open the 'Credit Card' tab, select 'Block Lost/Stolen Card'. iris by YES BANK app path: tap Credit card, click Manage, select 'Block card & Reissue', confirm blocking with MPIN; footer Play/App Store badges link to irisbyyesbank.page.link/MainDashboard. YES Pay path: Manage Cards, tap requests, select Block Card. Block email: creditcard.block@yesbank.in from your registered e-mail id. The bank's page points to the National Cyber Crime helpline 1930 / cybercrime.gov.in for unauthorized transactions.",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -209,8 +337,9 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -229,8 +358,9 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -246,8 +376,9 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-            "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+            "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+            "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+            "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
             "https://www.yes.bank.in/contact-us",
             "https://www.yes.bank.in/digital-banking/yes-pay-next"
@@ -263,10 +394,11 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-25",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-      "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
+      "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+      "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+      "https://www.yes.bank.in/contact-us",
       "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
       "https://www.yes.bank.in/contact-us",
       "https://www.yes.bank.in/digital-banking/yes-pay-next"
