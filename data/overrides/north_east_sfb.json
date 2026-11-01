@@ -18,6 +18,11 @@
       "email": "help@slice.bank.in",
       "reference": "https://slice.bank.in/beware-of-fraud",
       "notes": "No credit-card-specific block channel is published as checked 2026-11-01: the bank's site and help centre carry no SMS keyword, no card-block app menu path, no netbanking step and no credit-card block email. The bank-wide emergency/fraud channels - helpline 08048329999/ 1800-121-1905, email help@slice.bank.in, and the Help & Support section of the slice app - are the only published route. No overseas line, no published hours, and no mention of the 1930 national helpline."
+    },
+    "upi": {
+      "tollFree": "1800-121-1905",
+      "notes": "No UPI freeze/lock/pause path is published anywhere on the bank's official pages as checked 2026-11-01. The bank's UPI ('slice UPI' / 'slice super UPI') runs in the slice app; the 'slice UPI' section of help.slice.bank.in carries no UPI-freeze article - the only published in-app UPI management paths are 'visit the accounts section in the slice app', 'select the required bank account and click on the \u201cchange UPI PIN\u201d action', or edit the 'account UPI ID' there. For a fraudulent/problem UPI transaction the help centre says 'Please visit the activity center and select the transaction to raise a dispute by clicking contact us'. slice.bank.in/contact-us states 'Contact our customer support team for queries related to your slice app or any products such as UPI, borrow, card or slice account. You can directly raise a ticket from the help & support section in the app. You can also reach out to us on our customer care number or email helpline' - customer support 08048329999/ 1800-121-1905, help@slice.bank.in. The fraud page ('Our customer care helpline is 08048329999/ 1800-121-1905. We have no other call centre numbers.') routes emergency reporting to the same helpline, the Help & Support section of the slice app or help@slice.bank.in, and says 'Please report any suspicious activity to us immediately.' Retail netbanking exists (https://nb.slice.bank.in/retail/login) but no UPI manage/disable path is published for it; no SMS keyword, no *99# mention and no overseas line appear on the bank's pages.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -36,6 +41,18 @@
     {
       "url": "https://apps.apple.com/in/app/nesfb-mobile-banking-app/id6448874549",
       "label": "live fetch 2026-11-01: App Store listing 'NESFB Mobile Banking App' - description includes '• Block your cards.'"
+    },
+    {
+      "url": "https://help.slice.bank.in/support/solutions/articles/84000374282-how-can-i-raise-a-dispute-for-a-transaction-or-report-fraud-",
+      "label": "UPI freeze live fetch 2026-11-01: slice UPI help section - article says 'Please visit the activity center and select the transaction to raise a dispute by clicking contact us'; the page's slice-UPI related-article list (super UPI, failed/pending payments, UPI PIN, UPI ID edit, bank-account removal, safety shield) shows the entire published UPI section carries no freeze/lock/pause article"
+    },
+    {
+      "url": "https://slice.bank.in/contact-us/",
+      "label": "UPI freeze live fetch 2026-11-01: 'Contact our customer support team for queries related to your slice app or any products such as UPI, borrow, card or slice account. You can directly raise a ticket from the help & support section in the app. You can also reach out to us on our customer care number or email helpline' - Customer support 08048329999/ 1800-121-1905, help@slice.bank.in"
+    },
+    {
+      "url": "https://help.slice.bank.in/support/solutions/articles/84000361593-how-to-change-or-reset-my-upi-pin-",
+      "label": "UPI freeze live fetch 2026-11-01: only published in-app UPI management path is 'visit the accounts section in the slice app and select the required bank account and click on the \u201cchange UPI PIN\u201d action' - no UPI freeze/lock option published"
     }
   ],
   "lastVerified": "2026-11-01"
