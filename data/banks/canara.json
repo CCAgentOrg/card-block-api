@@ -2,7 +2,7 @@
   "name": "Canara Bank",
   "slug": "canara",
   "type": "private",
-  "website": "https://www.card.canarabank.in",
+  "website": "https://online.canarabank.bank.in/?module=login",
   "cards": [
     {
       "type": "debit",
@@ -10,51 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-103-0000 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-0000",
+          "instructions": "Call 1800 1030 and follow the IVR to hotlist the card.",
+          "phone": "1800 1030",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-1030 (alternate line — see notes).",
-          "phone": "1800-1030",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
-            "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
-            "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 080-2888-6000 (alternate line — see notes).",
-          "phone": "080-2888-6000",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
-            "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
-            "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -63,15 +27,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@canarabank.in from your registered email to request card blocking.",
-          "email": "customercare@canarabank.in",
+          "instructions": "Email blockchannels@canarabank.com from your registered email to request card blocking.",
+          "email": "blockchannels@canarabank.com",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -80,15 +44,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://online.canarabank.in and use the card block/hotlist option.",
-          "url": "https://online.canarabank.in",
+          "instructions": "Log in to internet banking at https://online.canarabank.bank.in/?module=login and use the card block/hotlist option.",
+          "url": "https://online.canarabank.bank.in/?module=login",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -97,18 +61,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.canara | iOS: https://apps.apple.com/in/app/candii/id1555647775",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN | iOS: https://apps.apple.com/in/developer/canara-bank/id854427899",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.cs.canara",
-            "https://apps.apple.com/in/app/candii/id1555647775"
+            "https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN",
+            "https://apps.apple.com/in/developer/canara-bank/id854427899"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -117,14 +81,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Canara ai1 app: Debit Card > Block/Freeze. NetBanking also available. Email: subject 'BLOCKDC <Last6>' to blockchannels@canarabank.com from registered email.",
+          "instructions": "Toll-free 1800 1030 answers 24x7 for hotlisting. From your registered e-mail id send subject 'BLOCKDC <Space> <last 6 digits of debit card>' (e.g. 'BLOCKDC 123456') to blockchannels@canarabank.com; the page notes you can also block using Canara Bank Mobile Banking / Internet Banking. In the Canara ai1 app: Home screen Cards > Manage Debit Card, or Cards > My Debit cards > View Debit Cards — Block/unblock the card at those paths. After blocking through email, kindly visit the home branch for unblocking. No SMS block keyword is published on the pages checked.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -139,33 +103,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-103-0000 and follow the IVR to hotlist the card.",
-          "phone": "1800-103-0000",
+          "instructions": "Call 1800 1030 and follow the IVR to hotlist the card.",
+          "phone": "1800 1030",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-1030 (alternate line — see notes).",
-          "phone": "1800-1030",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
-            "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
-            "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -174,15 +120,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@canarabank.in from your registered email to request card blocking.",
-          "email": "customercare@canarabank.in",
+          "instructions": "Email blockchannels@canarabank.com from your registered email to request card blocking.",
+          "email": "blockchannels@canarabank.com",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -191,15 +137,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.card.canarabank.in and use the card block/hotlist option.",
-          "url": "https://www.card.canarabank.in",
+          "instructions": "Log in to internet banking at https://online.canarabank.bank.in/?module=login and use the card block/hotlist option.",
+          "url": "https://online.canarabank.bank.in/?module=login",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -208,18 +154,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.canara | iOS: https://apps.apple.com/in/app/candii/id1555647775",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN | iOS: https://apps.apple.com/in/developer/canara-bank/id854427899",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.cs.canara",
-            "https://apps.apple.com/in/app/candii/id1555647775"
+            "https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN",
+            "https://apps.apple.com/in/developer/canara-bank/id854427899"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -228,14 +174,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Email: subject 'BLOCKCC <Last6>' to blockchannels@canarabank.com from registered email. Canara ai1 app + NetBanking also available.",
+          "instructions": "Toll-free 1800 1030 answers 24x7 for hotlisting. From your registered e-mail id send subject 'BLOCKCC <Space> <last 6 digits of credit card>' (e.g. 'BLOCKCC 123456') to blockchannels@canarabank.com; the page notes you can also block using Canara Bank Mobile Banking / Internet Banking. In the Canara ai1 app: 'Credit cards' tile in Portfolio screen, Home screen Cards > Manage credit card, or Cards > My credit cards > View Credit Cards — Block/unblock the card at those paths. After blocking through email, kindly visit the home branch for unblocking. No SMS block keyword is published on the pages checked.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -255,10 +201,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -275,10 +221,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -291,10 +237,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
             "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
             "https://www.canarabank.bank.in/pages/mobile-banking",
-            "https://www.canarabank.bank.in/canara-ai1pe"
+            "https://www.canarabank.bank.in/canara-ai1pe",
+            "https://www.canarabank.bank.in/pages/net-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -307,12 +253,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-04",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
       "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
       "https://www.canarabank.bank.in/pages/mobile-banking",
-      "https://www.canarabank.bank.in/canara-ai1pe"
+      "https://www.canarabank.bank.in/canara-ai1pe",
+      "https://www.canarabank.bank.in/pages/net-banking"
     ]
   }
 }

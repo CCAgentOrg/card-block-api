@@ -1,29 +1,24 @@
 {
   "id": "canara",
   "name": "Canara Bank",
-  "logo": "/static/logos/canara.svg",
-  "ifsc": "CNRB0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800-103-0000",
-      "number1": "1800-1030",
-      "email": "customercare@canarabank.in",
-      "website": "https://www.card.canarabank.in",
-      "reference": "https://canarabank.in",
-      "notes": "Email: subject 'BLOCKCC <Last6>' to blockchannels@canarabank.com from registered email. Canara ai1 app + NetBanking also available.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.cs.canara",
-      "iosApp": "https://apps.apple.com/in/app/candii/id1555647775"
-    },
     "debit": {
-      "tollFree": "1800-103-0000",
-      "number1": "1800-1030",
-      "number2": "080-2888-6000",
-      "email": "customercare@canarabank.in",
-      "website": "https://online.canarabank.in",
-      "reference": "https://canarabank.in",
-      "notes": "Canara ai1 app: Debit Card > Block/Freeze. NetBanking also available. Email: subject 'BLOCKDC <Last6>' to blockchannels@canarabank.com from registered email.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.cs.canara",
-      "iosApp": "https://apps.apple.com/in/app/candii/id1555647775"
+      "tollFree": "1800 1030",
+      "email": "blockchannels@canarabank.com",
+      "website": "https://online.canarabank.bank.in/?module=login",
+      "reference": "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
+      "notes": "Toll-free 1800 1030 answers 24x7 for hotlisting. From your registered e-mail id send subject 'BLOCKDC <Space> <last 6 digits of debit card>' (e.g. 'BLOCKDC 123456') to blockchannels@canarabank.com; the page notes you can also block using Canara Bank Mobile Banking / Internet Banking. In the Canara ai1 app: Home screen Cards > Manage Debit Card, or Cards > My Debit cards > View Debit Cards — Block/unblock the card at those paths. After blocking through email, kindly visit the home branch for unblocking. No SMS block keyword is published on the pages checked.",
+      "androidApp": "https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/developer/canara-bank/id854427899"
+    },
+    "credit": {
+      "tollFree": "1800 1030",
+      "email": "blockchannels@canarabank.com",
+      "website": "https://online.canarabank.bank.in/?module=login",
+      "reference": "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
+      "notes": "Toll-free 1800 1030 answers 24x7 for hotlisting. From your registered e-mail id send subject 'BLOCKCC <Space> <last 6 digits of credit card>' (e.g. 'BLOCKCC 123456') to blockchannels@canarabank.com; the page notes you can also block using Canara Bank Mobile Banking / Internet Banking. In the Canara ai1 app: 'Credit cards' tile in Portfolio screen, Home screen Cards > Manage credit card, or Cards > My credit cards > View Credit Cards — Block/unblock the card at those paths. After blocking through email, kindly visit the home branch for unblocking. No SMS block keyword is published on the pages checked.",
+      "androidApp": "https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/developer/canara-bank/id854427899"
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN",
@@ -35,10 +30,6 @@
   },
   "sources": [
     {
-      "url": "https://www.canarabank.bank.in/hotlisting-debit-and-credit-cards",
-      "label": "Canara hotlisting page (live fetch: 18001030, BLOCKDC/BLOCKCC email to blockchannels@canarabank.com)"
-    },
-    {
       "url": "https://www.canarabank.bank.in/online-channels/account-blocking-through-email1",
       "label": "UPI freeze live fetch 2026-10-31: 'BLOCKUPI <Space> <Mobile Number prefixed with Country Code>' email to blockchannels@canarabank.com from registered e-mail id; channel block also via 24*7 toll free 1800 1030; home-branch visit needed to unblock"
     },
@@ -49,7 +40,11 @@
     {
       "url": "https://www.canarabank.bank.in/canara-ai1pe",
       "label": "UPI freeze live fetch 2026-10-31: Canara ai1Pe UPI app — UPI 'Blocked/Frozen' → contact bank/branch of debit account; lost phone → block mobile number and contact bank support; Settings > 'Deregister/Revoke Your Consent'; customers toll free 1800 1030"
+    },
+    {
+      "url": "https://www.canarabank.bank.in/pages/net-banking",
+      "label": "live fetch 2026-11-01: anchor 'Net Banking- Login (Retail & Corporate)' links https://online.canarabank.bank.in/?module=login; page banner '18001030 Customer Support'; carries the bank's app-store developer links (play.google.com/store/apps/developer?id=CANARA+BANK&hl=en_IN, apps.apple.com/in/developer/canara-bank/id854427899)"
     }
   ],
-  "lastVerified": "2026-09-04"
+  "lastVerified": "2026-11-01"
 }
