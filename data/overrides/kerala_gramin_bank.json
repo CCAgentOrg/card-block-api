@@ -16,6 +16,11 @@
     },
     "credit": {
       "notes": "No credit-card product or credit-card blocking channel is published: the site's Cards menu lists only RuPay Debit Cards, Junior Debit Card and Kisan Credit Card (a farm-loan card), /personal-banking/credit-cards and /personal-banking/credit-card returned 404 in the same live check, and the only 'credit card' wording on the debit page is generic CVV-copy. The earlier entry's credit-card channels (toll-free 1800-425-1829, customercare@keralagbank.in) appear nowhere on the current official site; the bank's published care lines under 'debit' are its card-blocking channels."
+    },
+    "upi": {
+      "tollFree": "1800 425 4000",
+      "notes": "No UPI block/freeze channel of any kind is published on the bank's official pages fetched live on 2026-11-01: the UPI Services page (kgb.bank.in/services/upi) documents registration through third-party UPI apps only — 'Kerala Grameena Bank has been onboarded to Unified Payment Interface (UPI) platform'; 'Download any of the UPI apps like BHIM, Google Tez, etc'; 'Create a Virtual Payment Address (VPA / UPI ID)'; 'Set MPIN' — with no lock/freeze/deregister step, and the KGB INFI app-store listings the site links (developer Kerala Gramin Bank) publish no UPI block/freeze or manage feature (Play 'Key Features': 'Fund Transfer to other Bank Accounts using NEFT, RTGS and IMPS', 'ATM, POS and eCOM transaction limit setting', 'Facility to deactivate and reactivate Mobile Banking'; the App Store description field has zero UPI mentions — only NEFT/IMPS transfers and 'Enhanced Debit Card Control – Set limits, enable/disable transactions'; the only UPI wording anywhere on the App Store page is release-history text, '2. UPI Help & Support' in the v1.0.62 release note dated Sun Jan 04 2026 — a support entry, not a freeze path), so no in-app UPI lock can be verified; no netbanking UPI manage/disable option is published (KGBNet internet banking at netbanking.kgb.bank.in publishes online Request Services for 'hot-listing of Debit Card' only); and no SMS keyword or *99# usage for UPI appears on any fetched page. The closest published action is facility-level policy prose, not a UPI path: the Mobile Banking Policy (2024-25) says on a changed or no-longer-used mobile number the 'customer shall take immediate action to deregister from KGBmPAY', 'If the Mobile Phone Number or SIM is lost, the user must immediately take action to deregister from the facility', and 'If the customer suspect the misuse of the MPIN, customer should immediately initiate necessary steps to change the MPIN'. Phone fallback for UPI issues: the UPI Services page itself publishes 'Customer Support 0497 2717800 / 1800 425 4000' and displays 'Toll Free Number 1800 425 4000'; the published complaints portal connect.kgb.bank.in ('Public Grievances Redressal System') is OTP-gated, so whether it offers a UPI complaint category is not verifiable without OTP; no mention of the 1930 cyber helpline appears on any checked page.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -34,6 +39,22 @@
     {
       "url": "https://kgb.bank.in/",
       "label": "live fetch 2026-11-01: homepage footer 'KGB INFI App — Banking at Your Fingertips!' section describing the 'Kerala Grameena Bank mobile banking app ... Available for both Android and iOS users', linking https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN and https://apps.apple.com/in/app/kgb-infi/id6740206250, plus DiGi KGB app link play.google.com/store/apps/details?id=com.cerebtech.kgb; nav Cards menu lists only RuPay Debit Cards, Junior Debit Card and Kisan Credit Card; no winding-up/amalgamation notice on the site's News & Updates nav."
+    },
+    {
+      "url": "https://kgb.bank.in/services/upi",
+      "label": "UPI freeze live fetch 2026-11-01: bank's UPI Services page proves onboarding and registration-only coverage — 'Kerala Grameena Bank has been onboarded to Unified Payment Interface (UPI) platform'; 'Download any of the UPI apps like BHIM, Google Tez, etc'; 'Create a Virtual Payment Address (VPA / UPI ID)'; 'Set MPIN'; no block/freeze/deregister step anywhere on the page; footer publishes 'Customer Support 0497 2717800 / 1800 425 4000' and displays 'Toll Free Number 1800 425 4000'."
+    },
+    {
+      "url": "https://kgb.bank.in/mobile-banking-policy-2024-25",
+      "label": "UPI freeze live fetch 2026-11-01: Mobile Banking Policy (2024-25) publishes facility-level deregistration prose only — 'customer shall take immediate action to deregister from KGBmPAY' (changed/no-longer-used mobile number), 'If the Mobile Phone Number or SIM is lost, the user must immediately take action to deregister from the facility', 'If the customer suspect the misuse of the MPIN, customer should immediately initiate necessary steps to change the MPIN'; mobile banking, not UPI — no UPI-specific lock/freeze path on the page."
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+      "label": "UPI freeze live fetch 2026-11-01: official KGB INFI Play listing (developer 'Kerala Grameena Bank'; store URL as published on the bank's homepage only — the live debit page kgb.bank.in/personal-banking/rupay-debit-cards contains no store URLs, only the internal /services/kgb-infi link) — 'Key Features' document no UPI feature ('Fund Transfer to other Bank Accounts using NEFT, RTGS and IMPS', 'ATM, POS and eCOM transaction limit setting', 'Facility to deactivate and reactivate Mobile Banking'); paired App Store listing https://apps.apple.com/in/app/kgb-infi/id6740206250 (developer 'Kerala Gramin Bank') — its description field has zero UPI mentions ('Enhanced Debit Card Control – Set limits, enable/disable transactions' only) and its only UPI wording is release history, '2. UPI Help & Support' in the v1.0.62 release note dated Sun Jan 04 2026, a support entry rather than a block/freeze channel."
+    },
+    {
+      "url": "https://connect.kgb.bank.in",
+      "label": "UPI freeze live fetch 2026-11-01: KGB Connect complaints portal (linked from the contact page's 'Lodge a Complaint', an existing cited source) — page text 'Welcome to KGB Connect, Public Grievances Redressal System' with login gate 'Please validate your Mobile Number to proceed' (Resident/NRI) and an 'Enter OTP' step; complaint categories are not visible without OTP validation, so whether a UPI complaint type is offered cannot be verified from public pages."
     }
   ],
   "lastVerified": "2026-11-01"
