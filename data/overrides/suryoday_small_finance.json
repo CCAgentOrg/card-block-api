@@ -23,6 +23,12 @@
       "iosApp": "https://apps.apple.com/in/app/suryoday-mobile-banking/id1624509119",
       "reference": "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
       "notes": "FAQ identical on both secured (FD-backed) RuPay credit cards (Platinum and Select): to temporarily block, 'Select the Temporarily Block option inside Suryoday SFB Mobile Banking App', 'Send an SMS, BLOCK CC to 7289044500 from your registered mobile number', email scc@suryodaybank.com, or call the toll-free number 18002667711; permanent block/unblock — 'Go to the Manage Card section in the Suryoday SFB Mobile Banking app and select Block or Unblock Card', choose permanent block and enter the OTP sent to the registered mobile number. Disputes can be raised in the app, via scc@suryodaybank.com or on 1800 266 7711. Overseas/NRI lines 022-69045666 / 022-62298799 ('24*7 Available Number'). No internet-banking path for credit-card blocking is published."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.suryoday.upi&hl=en_IN",
+      "tollFree": "1800 266 7711",
+      "notes": "The bank's UPI channel is the BHIM Suryoday UPI app — homepage 'Bank with us your way' → 'UPI Payment' tab titled 'BHIM Suryoday', which publishes the Android listing https://play.google.com/store/apps/details?id=com.suryoday.upi&hl=en_IN (version 1.1.2 with SHA256/SHA1 checksums) and no iOS UPI app. No in-app UPI lock/freeze menu path, no netbanking UPI manage path, and no UPI SMS/USSD (*99#) keyword is published on the bank's contact/FAQ/security-tips/T&C pages (master T&C PDF https://suryoday.bank.in/assets/pdf/terms-conditions-suryoday-english-23-sep-2026.pdf mentions UPI only in SMS-alert threshold conditions). UPI Lite T&C — 'These UPI LITE Terms and Conditions apply to and govern the UPI LITE Feature enabled by Suryoday Small Finance Bank Ltd on BHIM Suryoday UPI app': 'Disable UPI LITE from your UPI App before changing your mobile device or deregistering account from UPI'; 'In the event you disable UPI LITE in the App, your unutilised UPI LITE Balance, if any, will be credited to your Account by your Issuing Bank'; 'In case your mobile phone/device/handset is misplaced, lost, stolen or damaged, you shall request your Issuing Bank immediately to block the UPI LITE wallet'; 'Customer can raise a dispute from the App for UPI LITE transactions'. Site-wide footer on the same page: 'Please notify any unauthorized transaction on 1800 266 7711 or email at smile@suryodaybank.com immediately.' The BHIM Suryoday UPI Play listing (developer SURYODAY SMALL FINANCE BANK LIMITED) lists app support +91 88265 84155 and smilecentre@suryodaybank.com; it publishes no block/deregister steps.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -41,6 +47,26 @@
     {
       "url": "https://suryoday.bank.in/ways-to-bank/internet-banking/",
       "label": "live fetch 2026-10-31 (re-fetched twice the same day): the bank's 'Convenient and Secure Internet Banking' page (raw HTML 277,967 B); its static-query data bundles served on the same domain — https://suryoday.bank.in/page-data/sq/d/2158051747.json (also 2837364371, 439164760, 943435563) — publish the Login CTA {\"lable\": \"Login\", \"redirection_link\": \"https://ib.suryoday.bank.in/\"}; the URL does not appear in the page's raw HTML or JS bundles"
+    },
+    {
+      "url": "https://suryoday.bank.in/upi-lite-tnc/",
+      "label": "UPI freeze live fetch 2026-11-01: page opens 'These UPI LITE Terms and Conditions apply to and govern the UPI LITE Feature enabled by Suryoday Small Finance Bank Ltd on BHIM Suryoday UPI app'; 'Disable UPI LITE from your UPI App before changing your mobile device or deregistering account from UPI'; 'In the event you disable UPI LITE in the App, your unutilised UPI LITE Balance, if any, will be credited to your Account by your Issuing Bank'; 'In case your mobile phone/device/handset is misplaced, lost, stolen or damaged, you shall request your Issuing Bank immediately to block the UPI LITE wallet'; 'Customer can raise a dispute from the App for UPI LITE transactions'; footer 'Please notify any unauthorized transaction on 1800 266 7711 or email at smile@suryodaybank.com immediately'; no *99#/SMS keyword on the page"
+    },
+    {
+      "url": "https://suryoday.bank.in/page-data/sq/d/2158051747.json",
+      "label": "UPI freeze live fetch 2026-11-01: the homepage's own static-query bundle — 'Bank with us your way' banking_options tab_name 'UPI Payment' with tab_detail_title 'BHIM Suryoday' and play_store_link https://play.google.com/store/apps/details?id=com.suryoday.upi&hl=en_IN (play_store_version 1.1.2 with SHA256/SHA1 checksums); app_store_link is null (no iOS UPI app published); Mobile Banking tab is com.suryoday.MB and no tab carries a UPI manage/freeze path"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.suryoday.upi&hl=en_IN",
+      "label": "UPI freeze live fetch 2026-11-01: official Play listing 'BHIM Suryoday UPI' (developer SURYODAY SMALL FINANCE BANK LIMITED) linked from the bank's homepage — support contact +91 88265 84155, smilecentre@suryodaybank.com, website suryodaybank.com; description covers registration/pay/limits/security warning and publishes no block/deregister/freeze steps"
+    },
+    {
+      "url": "https://suryoday.bank.in/assets/pdf/terms-conditions-suryoday-english-23-sep-2026.pdf",
+      "label": "UPI freeze live fetch 2026-11-01: master T&C PDF (linked from suryoday.bank.in/terms-and-conditions/, 600,509 B) — exactly 3 UPI mentions, all in the SMS-alert threshold condition: 'The bank shall not send SMS to the customers for UPI transactions on the condition below where customer email is present', 'UPI Debit transaction of ₹100 or less', 'UPI Credit transaction of ₹500 or less'; zero *99#/USSD occurrences"
+    },
+    {
+      "url": "https://suryoday.bank.in/security-tips/",
+      "label": "UPI freeze live fetch 2026-11-01: 'Protect Your Suryoday Bank Account with These Security Tips' — only UPI mentions are the 'UPI Payment' nav tab, credit-card line 'UPI-Powered for seamless payments' and the 'UPI Lite' footer link; zero UPI SMS/USSD (*99#) keywords and no UPI block/freeze guidance on the page"
     }
   ],
   "lastVerified": "2026-10-31"

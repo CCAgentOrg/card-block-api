@@ -19,6 +19,12 @@
       "email": "customercare@sbicard.com",
       "reference": "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023",
       "notes": "UCO Bank publishes SBI Cards' 'Policy for the issuance and conduct of credit cards' on its website and routes credit-card servicing through SBI Card's dedicated 24x7 call centre: 1860 500 1290, 1860 180 1290 or 39 02 02 02 (prefix local STD code); 1800 180 1290 is toll-free. Executives answer 8 AM - 8 PM Monday to Saturday, with lines open 24x7 for emergency and premium services. Requests can also be emailed to customercare@sbicard.com or sent via www.sbicard.com/email and the SBI Card mobile app. No UCO-side SMS keyword, netbanking block path or overseas number is published for credit cards."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.lcode.ucomobilebanking&hl=en_IN&pli=1",
+      "tollFree": "1800 8910",
+      "notes": "App freeze path: UCO mBanking Plus (Android store link above; the same app 'also provides the UCO Secure facility') — post-login feature table lists the 'UCO Digi Safe' group containing 'Block/ Unblock UPI' alongside 'UPI Limit Management', 'ADC Block/ Block all Digital Transactions' and 'Account Debit Freeze'. The digital-products FAQ answers 'What if someone linked my account through UPI?' with: 'Call customer care (1800 8910) for blocking of ADC channel. or Contact branch for account freeze. Use UCO secure and disable UPI.' The standalone UCO Secure app 'Instantly block/un-block Bank's digital products including Debit Card, m-banking, BHIM UCO UPI, UCOPAY +(e-wallet), e-banking' and these services 'can be blocked / unblocked at one Go' (its own page publishes download links only as shorteners/image: bit.ly/UCOSecI, w.m2y.co/uco/s/, /documents/d/guest/android-ios). The FAQ warns card hotlisting does not stop UPI: 'Once UPI PIN is set blocking of ATM doesn't block UPI... So blocking of UPI is necessary.' UPI disputes/queries: 'Toll Free Customer Care: 1800 103 0123, Department: 033-44559084/9459'. Netbanking publishes no UPI-named manage path (retail e-banking list has only '8.10 Enable/Disable ADC Channel'). No UPI SMS keyword is published; *99# appears on the FAQ only as NPCI's transaction product, not a block channel. iOS is published only via the bank's shorteners (bit.ly/UCOmBankingIOS for mBanking Plus) with no direct App Store URL, so no iosApp URL is recorded.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -37,6 +43,18 @@
     {
       "url": "https://uco.bank.in/documents/d/guest/policy-for-the-issuance-and-conduct-of-credit-cards-2023",
       "label": "live fetch 2026-10-31: SBI Cards' 'Policy for the issuance and conduct of credit cards' PDF hosted on uco.bank.in and linked from the bank's Credit Card page - 'Dedicated 24*7 call center at 1860 500 1290, 1860 180 1290, 39 02 02 02(Prefix local the STD code) or 1800 180 1290 (toll free)'; executives available 8 AM - 8 PM Monday to Saturday, lines open 24*7 for emergency & premium services; email customercare@sbicard.com, www.sbicard.com/email, SBI Card mobile app."
+    },
+    {
+      "url": "https://uco.bank.in/en/web/guest/mbanking-plus",
+      "label": "UPI freeze live fetch 2026-11-01: 'MBanking Features on Post-login' table lists the 'UCO Digi Safe' group with 'Block/ Unblock UPI', 'UPI Limit Management', 'UCO PAY+ Enable/Disable', 'E-Banking Enable/Disable', 'Account Debit Freeze' and 'ADC Block/ Block all Digital Transactions'; the page's Android link publishes https://play.google.com/store/apps/details?id=com.lcode.ucomobilebanking&hl=en_IN&pli=1 for UCO mBanking Plus while iOS is published only as shortener http://bit.ly/UCOmBankingIOS."
+    },
+    {
+      "url": "https://www.uco.bank.in/web/guest/faq-on-digital-products",
+      "label": "UPI freeze live fetch 2026-11-01: FAQ 'What if someone linked my account through UPI?' - 'Call customer care (1800 8910) for blocking of ADC channel. or Contact branch for account freeze. Use UCO secure and disable UPI.'; 'I have blocked my ATM will my UPI is secure now? No... Once UPI PIN is set blocking of ATM doesn't block UPI... So blocking of UPI is necessary.'; BHIM UCO UPI disputes: 'Toll Free Customer Care: 1800 103 0123, Department: 033-44559084/9459'; 'Secure your services by enabling/disabling/limit via UCO Secure'."
+    },
+    {
+      "url": "https://uco.bank.in/en/web/guest/uco-secure",
+      "label": "UPI freeze live fetch 2026-11-01: UCO Secure app 'Instantly block/un-block Bank's digital products including Debit Card, m-banking, BHIM UCO UPI, UCOPAY +(e-wallet), e-banking'; 'Above mentioned Digital banking services can be blocked / unblocked at one Go'; 'UCO mBanking Plus app also provides the UCO Secure facility'; its download links are published only as shorteners/image (bit.ly/UCOSecI, w.m2y.co/uco/s/, /documents/d/guest/android-ios) with no direct store URL."
     }
   ],
   "lastVerified": "2026-10-31"

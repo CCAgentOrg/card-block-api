@@ -292,9 +292,10 @@
       "type": "coop",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 6,
+      "method_count": 9,
       "verification_status": "agent_verified",
       "last_verified": "2026-11-01"
     },
@@ -485,9 +486,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 8,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-30"
     },
@@ -497,9 +499,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 10,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-11-01"
     },
@@ -508,9 +511,10 @@
       "name": "NSDL Payments Bank",
       "type": "private",
       "card_types": [
-        "debit"
+        "debit",
+        "upi"
       ],
-      "method_count": 6,
+      "method_count": 9,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-30"
     },
@@ -531,9 +535,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 9,
+      "method_count": 12,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-30"
     },
@@ -581,9 +586,10 @@
       "type": "coop",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 13,
+      "method_count": 16,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-30"
     },
@@ -592,9 +598,10 @@
       "name": "SBM Bank India",
       "type": "private",
       "card_types": [
-        "debit"
+        "debit",
+        "upi"
       ],
-      "method_count": 4,
+      "method_count": 7,
       "verification_status": "agent_verified",
       "last_verified": "2026-09-25"
     },
@@ -604,9 +611,10 @@
       "type": "coop",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 8,
+      "method_count": 11,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-30"
     },
@@ -653,9 +661,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 14,
+      "method_count": 17,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-31"
     },
@@ -665,9 +674,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 13,
+      "method_count": 16,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-31"
     },
@@ -689,9 +699,10 @@
       "type": "coop",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 8,
+      "method_count": 11,
       "verification_status": "agent_verified",
       "last_verified": "2026-11-01"
     },
@@ -701,9 +712,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 12,
+      "method_count": 15,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-31"
     },
@@ -712,9 +724,10 @@
       "name": "Ujjivan Small Finance Bank",
       "type": "private",
       "card_types": [
-        "debit"
+        "debit",
+        "upi"
       ],
-      "method_count": 6,
+      "method_count": 8,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-31"
     },
@@ -737,9 +750,10 @@
       "type": "private",
       "card_types": [
         "debit",
-        "credit"
+        "credit",
+        "upi"
       ],
-      "method_count": 13,
+      "method_count": 16,
       "verification_status": "agent_verified",
       "last_verified": "2026-10-31"
     },

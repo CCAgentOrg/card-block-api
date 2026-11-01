@@ -18,7 +18,13 @@
             "https://gsc.bank.in/report-frauds/",
             "https://gsc.bank.in/contact/",
             "https://gsc.bank.in/digital-banking/mobile-bannking/",
-            "https://gsc.bank.in/cyber-awareness/"
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +42,13 @@
             "https://gsc.bank.in/report-frauds/",
             "https://gsc.bank.in/contact/",
             "https://gsc.bank.in/digital-banking/mobile-bannking/",
-            "https://gsc.bank.in/cyber-awareness/"
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,7 +65,13 @@
             "https://gsc.bank.in/report-frauds/",
             "https://gsc.bank.in/contact/",
             "https://gsc.bank.in/digital-banking/mobile-bannking/",
-            "https://gsc.bank.in/cyber-awareness/"
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -73,7 +91,13 @@
             "https://gsc.bank.in/report-frauds/",
             "https://gsc.bank.in/contact/",
             "https://gsc.bank.in/digital-banking/mobile-bannking/",
-            "https://gsc.bank.in/cyber-awareness/"
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -89,7 +113,13 @@
             "https://gsc.bank.in/report-frauds/",
             "https://gsc.bank.in/contact/",
             "https://gsc.bank.in/digital-banking/mobile-bannking/",
-            "https://gsc.bank.in/cyber-awareness/"
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -110,7 +140,90 @@
             "https://gsc.bank.in/report-frauds/",
             "https://gsc.bank.in/contact/",
             "https://gsc.bank.in/digital-banking/mobile-bannking/",
-            "https://gsc.bank.in/cyber-awareness/"
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 079-27459000 / 079-27459905 (chargeable Head Office lines; the bank publishes no toll-free/1800 number) for UPI block/freeze assistance.",
+          "phone": "079-27459000 / 079-27459905 (chargeable Head Office lines; the bank publishes no toll-free/1800 number)",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://gsc.bank.in/report-frauds/",
+            "https://gsc.bank.in/contact/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.mbanking.gscbb.gscbb | iOS: https://apps.apple.com/in/app/gscb-mobile-banking/id1662847138",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.mbanking.gscbb.gscbb",
+            "https://apps.apple.com/in/app/gscb-mobile-banking/id1662847138"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://gsc.bank.in/report-frauds/",
+            "https://gsc.bank.in/contact/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "No self-service UPI block/freeze path is published anywhere on the bank's official site (site search for 'upi' and 'block' returns only service/marketing pages): the mobile-banking page's feature list has no UPI module — the only card control published is 'Activation/deactivation and Transaction limit customization for ATM/POS/ECOM' — and the official app-store listings (Play, updated Sep 29 2026; App Store v1.4.8) mention no UPI or freeze feature, so no in-app UPI lock can be verified; the internet-banking page publishes no card/UPI management feature (funds transfer NEFT/RTGS/IMPS only); and no SMS keyword or *99# usage for UPI appears on any fetched page. The bank's UPI page documents UPI only as 'Third Party Apps like Google Pay, PhonePe, PayTM etc.' (24x7x365, Rs 1,00,000 per transaction/day, Rs 5,000 cap for 24 hrs after new registration or PIN change) with no lock/freeze/deregister step, and the UPI QR page's 'flag the QR in Blacklist' wording is merchant-acquirer QR policy, not a customer UPI freeze. Closest published emergency channels for UPI: the complaints form (https://gsc.bank.in/complaints/) offers complaint type 'RTGS/NEFT/IMPS/UPI/BBPS/PPI' with escalation via the Nivaran portal (https://gscb7004.nivaran.in/) and nodal officer contacts (079-27459021); the Report Frauds form covers 'Unauthorized/Suspicious Transaction that have taken place, on any of the GSC Bank Electronic Payment Channels'; and the UPI page itself displays the Head Office lines 079-27459000 / 079-27459905 with no operating hours stated. WhatsApp Banking (+91 8866636364, 'Hi' to start) lists no UPI/block feature; the bank's Cyber Awareness page repeats the national helplines — 'National police helpline number is 112. National women helpline number is 181 and Cyber Crime Helpline is 1930' — and cybercrime.gov.in. Because the bank documents UPI only through third-party apps, any bank-side freeze would have to be requested via the phone/frm channels above; third-party-app-side controls sit outside the bank's published pages.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://gsc.bank.in/report-frauds/",
+            "https://gsc.bank.in/contact/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/cyber-awareness/",
+            "https://gsc.bank.in/digital-banking/upi/",
+            "https://gsc.bank.in/complaints/",
+            "https://gsc.bank.in/digital-banking/mobile-bannking/",
+            "https://gsc.bank.in/whatsapp-banking/",
+            "https://gsc.bank.in/upi-qr/",
+            "https://gsc.bank.in/digital-banking/internet-banking/"
           ],
           "confirmations": {
             "worked": 0,
@@ -128,7 +241,13 @@
       "https://gsc.bank.in/report-frauds/",
       "https://gsc.bank.in/contact/",
       "https://gsc.bank.in/digital-banking/mobile-bannking/",
-      "https://gsc.bank.in/cyber-awareness/"
+      "https://gsc.bank.in/cyber-awareness/",
+      "https://gsc.bank.in/digital-banking/upi/",
+      "https://gsc.bank.in/complaints/",
+      "https://gsc.bank.in/digital-banking/mobile-bannking/",
+      "https://gsc.bank.in/whatsapp-banking/",
+      "https://gsc.bank.in/upi-qr/",
+      "https://gsc.bank.in/digital-banking/internet-banking/"
     ]
   }
 }

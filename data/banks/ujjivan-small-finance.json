@@ -18,7 +18,11 @@
             "https://www.ujjivansfb.bank.in/cards/debit-cards",
             "https://www.ujjivansfb.bank.in/phone-banking",
             "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
-            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +40,11 @@
             "https://www.ujjivansfb.bank.in/cards/debit-cards",
             "https://www.ujjivansfb.bank.in/phone-banking",
             "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
-            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,7 +61,11 @@
             "https://www.ujjivansfb.bank.in/cards/debit-cards",
             "https://www.ujjivansfb.bank.in/phone-banking",
             "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
-            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -70,7 +82,11 @@
             "https://www.ujjivansfb.bank.in/cards/debit-cards",
             "https://www.ujjivansfb.bank.in/phone-banking",
             "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
-            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -89,7 +105,11 @@
             "https://www.ujjivansfb.bank.in/cards/debit-cards",
             "https://www.ujjivansfb.bank.in/phone-banking",
             "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
-            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -105,7 +125,58 @@
             "https://www.ujjivansfb.bank.in/cards/debit-cards",
             "https://www.ujjivansfb.bank.in/phone-banking",
             "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
-            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800 208 2121 for UPI block/freeze assistance.",
+          "phone": "1800 208 2121",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "Phone: Ujjivan SFB phone banking is a 24x7 helpline on toll-free 1800 208 2121; its IVR self-service list explicitly includes 'Block your UPI Services in case of theft/emergency' (call, select preferred language, then use the IVR self-service options or a Phone Banking Officer). SMS: the keyword table on the bank's SMS and Missed Call Banking page maps 'Block Ujjivan account UPI services' to the keyword UPIBLOCK, sent to 9243232121 — '* send SMS from registered mobile number only'; SMS charges apply as per your SMS tariff. The bank publishes no in-app UPI lock/freeze menu path for the Hello Ujjivan or EZY mobile apps and no UPI manage/disable path in EZY Internet Banking; the UPI Banking page confirms 'Ujjivan SFB is live as issuer in UPI payment system' and that account holders 'can link their account in any UPI app and create VPA' to transact, so a lost/stolen device's UPI access is frozen through the phone/SMS channels above, not an in-app toggle. WhatsApp banking (900 208 2121) lists 'Block Debit Card (Temporary/Permanent)' but no UPI service.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.ujjivansfb.bank.in/cards/debit-cards",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
+            "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+            "https://www.ujjivansfb.bank.in/phone-banking",
+            "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+            "https://www.ujjivansfb.bank.in/upi-banking",
+            "https://www.ujjivansfb.bank.in/whatsapp-banking"
           ],
           "confirmations": {
             "worked": 0,
@@ -123,7 +194,11 @@
       "https://www.ujjivansfb.bank.in/cards/debit-cards",
       "https://www.ujjivansfb.bank.in/phone-banking",
       "https://www.ujjivansfb.bank.in/personal/personal-net-banking",
-      "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking"
+      "https://www.ujjivansfb.bank.in/hello-ujjivan-mobile-banking",
+      "https://www.ujjivansfb.bank.in/phone-banking",
+      "https://www.ujjivansfb.bank.in/sms-missed-call-banking",
+      "https://www.ujjivansfb.bank.in/upi-banking",
+      "https://www.ujjivansfb.bank.in/whatsapp-banking"
     ]
   }
 }

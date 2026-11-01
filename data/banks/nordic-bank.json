@@ -18,7 +18,10 @@
             "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
             "https://nsdlpayments.bank.in/contact_us.php",
             "https://nsdlpayments.bank.in/reporting_transactions.php",
-            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +39,10 @@
             "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
             "https://nsdlpayments.bank.in/contact_us.php",
             "https://nsdlpayments.bank.in/reporting_transactions.php",
-            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,7 +59,10 @@
             "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
             "https://nsdlpayments.bank.in/contact_us.php",
             "https://nsdlpayments.bank.in/reporting_transactions.php",
-            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -70,7 +79,10 @@
             "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
             "https://nsdlpayments.bank.in/contact_us.php",
             "https://nsdlpayments.bank.in/reporting_transactions.php",
-            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -90,7 +102,10 @@
             "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
             "https://nsdlpayments.bank.in/contact_us.php",
             "https://nsdlpayments.bank.in/reporting_transactions.php",
-            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -106,7 +121,78 @@
             "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
             "https://nsdlpayments.bank.in/contact_us.php",
             "https://nsdlpayments.bank.in/reporting_transactions.php",
-            "https://nsdlpayments.bank.in/frequently_asked_questions.php"
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 022-42022100 / 022-69787301 for UPI block/freeze assistance.",
+          "phone": "022-42022100 / 022-69787301",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.nsdlpb.jiffy | iOS: https://apps.apple.com/in/app/nsdl-jiffy/id1519816505",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.nsdlpb.jiffy",
+            "https://apps.apple.com/in/app/nsdl-jiffy/id1519816505"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "No self-service UPI lock/freeze toggle is published. The UPI T&Cs ('Terms & Conditions for Unified Payments Interface (UPI) Application') make freezing a request to the Bank: 'It is the sole responsibility of the User to request the Bank, to suspend the said facility due to change of his registered Mobile Phone Number or if his Mobile Phone has been lost or has been allotted to some other person', and 'The closure of the account of the User will automatically terminate the Facility.' Call the contact page's 'Banking :' lines 022-42022100 / 022-69787301 (chargeable Mumbai numbers, Monday-Sunday 9.00 am-9.00 pm; no toll-free UPI helpline is published) to request suspension. For UPI transaction issues the FAQ's answer is 'You have the option to either call us or raise a complaint within the mobile application itself. You can navigate to \"UPI Transaction History\" in the \"UPI\" section and raise a query for that transaction.'; on a lost phone it advises 'one needs to simply block his mobile number thus no transaction can be initiated from the same mobile number'. Fraud victims: the bank's reporting page directs to the National Cyber Crime at https://cybercrime.gov.in or helpline 1930 - 'You may also contact NSDL Payments Bank at 022-42022100 / 022-69787301'. No netbanking UPI manage/disable path is published (portal https://nsdljiffy.co.in/jiffyservice/home fetched live carries no UPI content) and no SMS shortcode or *99# UPI keywords are published.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
+            "https://nsdlpayments.bank.in/contact_us.php",
+            "https://nsdlpayments.bank.in/reporting_transactions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/terms_and_conditions.php",
+            "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+            "https://nsdlpayments.bank.in/contact_us.php"
           ],
           "confirmations": {
             "worked": 0,
@@ -124,7 +210,10 @@
       "https://nsdlpayments.bank.in/assets/layouts/pdf/ReportingTransactions/Blocking-cards.pdf",
       "https://nsdlpayments.bank.in/contact_us.php",
       "https://nsdlpayments.bank.in/reporting_transactions.php",
-      "https://nsdlpayments.bank.in/frequently_asked_questions.php"
+      "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+      "https://nsdlpayments.bank.in/terms_and_conditions.php",
+      "https://nsdlpayments.bank.in/frequently_asked_questions.php",
+      "https://nsdlpayments.bank.in/contact_us.php"
     ]
   }
 }

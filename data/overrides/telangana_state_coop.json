@@ -15,6 +15,13 @@
     },
     "credit": {
       "notes": "The bank's official site publishes no credit-card product and no credit-card blocking channel: ATM Services states 'Apex Bank offers Rupay ATM cum Debit card and Rupay Platinum Card to its customers' (both debit cards), and every 'credit' reference on the fetched pages is a loan/merchant credit facility, not a card. The old entry's credit blocking methods (1800-100-4755, 040-23268725, info@tsabbank.com, tsabbank.com netbanking, app links com.tsab.app / id1526327863) could not be verified on any live official page - the tsabbank.com domain no longer resolves (NXDOMAIN, no Wayback snapshots) - and are dropped. The bank-wide contacts published under 'debit' are the only emergency lines available to any cardholder."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.infrasofttech.tsc",
+      "iosApp": "https://apps.apple.com/in/app/tscab/id1415635104",
+      "tollFree": "18005998866",
+      "notes": "The bank's official pages publish no self-service UPI freeze: the dedicated UPI Services page proves UPI runs through the TGCAB App ('UPI Payments: Send and receive money instantly using your UPI ID, mobile number, or QR code', plus Scan & Pay and Pay to UPI ID / Mobile Number), and the app's 'Services Offered' list includes the 'UPI' tile alongside NEFT/IMPS, but no in-app UPI lock/freeze/deregister menu path is published - the in-app 'Debit Card Controls' tile covers cards only, so hotlisting the RuPay debit card does not freeze UPI. The only published stop mechanism is for AutoPay mandates: 'Customers can create, view, modify, pause/resume, or cancel eligible UPI mandates through the Bank's supported UPI/mobile banking channels, subject to applicable terms and conditions' - pausing/cancelling stops recurring UPI debits only, not all UPI access. Emergency fallback is the bank-wide Help Desk: 'Toll free 18005998866' (no UPI-specific helpline published), Customer Support '+(040) 24685660 (8 am to 8pm - on working days only)' and '+(040) 23443812', or 'Drop a Mail: helpdesk@tgcab.bank.in'. No netbanking UPI manage/disable path (Internet Banking feature list: 'Balance enquiry', 'Account Statement', 'Loan Statement', 'Fixed Deposit Details', 'Loan Certificate'), no UPI SMS keyword and no *99#/USSD channel appear on any fetched official page.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -33,6 +40,18 @@
     {
       "url": "https://tgcab.bank.in/services/internet-banking",
       "label": "live fetch 2026-11-01: Internet Banking page proves the website channel - it links the login portal https://netbanking.tgcab.bank.in site-wide, and its published feature list for the portal is only 'Balance enquiry', 'Account Statement', 'Loan Statement', 'Fixed Deposit Details' and 'Loan Certificate' - no card-block option among them; no SMS block or overseas number appears on the page."
+    },
+    {
+      "url": "https://tgcab.bank.in/services/upi-services",
+      "label": "UPI freeze live fetch 2026-11-01: dedicated UPI Services page proves UPI availability through the bank's mobile banking channels - 'UPI Payments: Send and receive money instantly using your UPI ID, mobile number, or QR code', 'Scan & Pay', 'Pay to UPI ID / Mobile Number', 'UPI AutoPay' with 'Customers can create, view, modify, pause/resume, or cancel eligible UPI mandates through the Bank's supported UPI/mobile banking channels', and NPCI limits ('Normal UPI / P2P Transactions Up to Rs.1,00,000/- per day, Up to Rs. 50,000/- per transaction') - no in-app UPI lock/freeze/deregister path, no SMS keyword, no *99#."
+    },
+    {
+      "url": "https://tgcab.bank.in/services/mobile-banking",
+      "label": "UPI freeze live fetch 2026-11-01: Mobile Banking page proves the TGCAB App official store links (https://play.google.com/store/apps/details?id=com.infrasofttech.tsc and https://apps.apple.com/in/app/tscab/id1415635104) and the in-app 'Services Offered' list containing the 'UPI' tile alongside NEFT/IMPS plus 'Debit Card Controls' (cards only) - no UPI lock/freeze menu path documented."
+    },
+    {
+      "url": "https://tgcab.bank.in/contact/help-desk",
+      "label": "UPI freeze live fetch 2026-11-01: Help Desk page proves the phone fallback for UPI issues - 'Toll free 18005998866', Customer Support '+(040) 24685660 (8 am to 8pm - on working days only)' and '+(040) 23443812', 'Drop a Mail: helpdesk@tgcab.bank.in' - no UPI-specific helpline published."
     }
   ],
   "lastVerified": "2026-11-01"

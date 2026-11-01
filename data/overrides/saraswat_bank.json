@@ -22,6 +22,13 @@
       "iosApp": "https://apps.apple.com/in/app/saraswat-bank-gomo-nxt/id6478522982",
       "reference": "https://www.saraswat.bank.in/contact-us.aspx?id=Contact-Us",
       "notes": "Contact Us publishes the dedicated credit-card channel: write creditcards@saraswatbank.com or call the help line 18002669545; the general 24/7 phone-banking line 18002665555 / 1800229999 also lists Card Hotlisting among its services. The bank publishes no credit-card-specific SMS keyword. Credit-card blocking runs through the same GOMO NxT mobile app ('Mobile Banking Card Block', 'Debit Card/ Credit Card services & limit management for cards') and the New Retail Internet Banking login ('Internet Banking Card Blocking', 'Debit Card/ Credit Card services & limit management for cards'). No overseas helpline number is published on the pages fetched and no page mentions the 1930 national helpline."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=in.org.npci.upiapp",
+      "iosApp": "https://itunes.apple.com/in/app/bhim-bharat-interface-for-money/id1200315258?mt=8",
+      "tollFree": "022 41572070",
+      "notes": "Real-time UPI block: 'You can block your UPI transactions in real time by giving missed call from your registered mobile number on - 766 633 9922'; 'After giving missed call to this number from your registered mobile number, all the transactions via UPI will be blocked. This block will be applicable to all the accounts that are connected to the registered mobile number' — for joint accounts the missed call must come from the primary account holder's mobile number, and 'Giving a missed call on this number will also block your active Mobile Banking and Onepage Internet Banking' (the Retail INB/MB FAQ PDF publishes the same 7666339922 as the 'Digi Block' missed call for Internet & Mobile Banking). Unblocking: 'To unblock UPI transactions, visit your nearest branch.' Fraud path: 'In case of UPI frauds, you are requested to immediately give call on our IVR number: 022 41572070 from your registered mobile number to block your UPI, Internet Banking & Mobile Banking facilities' — the Missed Call Service and Lodge-a-Complaint pages word it '...immediately block your Digital Banking channels i.e UPI, Debit card, Internet Banking & Mobile Banking'; to unblock afterwards, 'visit the nearest / home branch & submit prescribed form (Digital Channel Registration form)'. BHIM FAQs also list 'our 24 hours helpline No. 022 41572070' and in-app complaints via 'choose Transaction option, select the declined transactions... & click on report issue or call bank'. UPI runs on the NPCI BHIM app (store links above); no in-app UPI lock is published for the GOMO NxT app, the retail INB/MB FAQ PDF never mentions UPI, and no SMS keyword, *99#/USSD string or netbanking UPI manage path is published on the pages fetched.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -40,6 +47,18 @@
     {
       "url": "https://www.saraswat.bank.in/content.aspx?id=New-Retail-Internet-Banking-Application",
       "label": "live fetch 2026-10-30: New Retail Internet Banking service list proves 'Internet Banking Card Blocking' and 'Debit Card/ Credit Card services & limit management for cards'; page links the retail netbanking login https://ebankingretail.saraswat.bank.in/mrb/."
+    },
+    {
+      "url": "https://www.saraswat.bank.in/content.aspx?id=Saraswat-UPI-on-BHIM",
+      "label": "UPI freeze live fetch 2026-11-01: proves real-time UPI block by missed call to 766 633 9922 ('all the transactions via UPI will be blocked... applicable to all the accounts that are connected to the registered mobile number'; joint accounts need the primary holder's mobile; the call also blocks active Mobile Banking and Onepage Internet Banking), branch-only unblocking ('To unblock UPI transactions, visit your nearest branch'), and BHIM store links published on the page: Android https://play.google.com/store/apps/details?id=in.org.npci.upiapp and iOS https://itunes.apple.com/in/app/bhim-bharat-interface-for-money/id1200315258?mt=8."
+    },
+    {
+      "url": "https://www.saraswat.bank.in/content.aspx?id=Bharat-Interface-for-Money-(BHIM)-FAQs",
+      "label": "UPI freeze live fetch 2026-11-01: proves the fraud path 'immediately give call on our IVR number: 022 41572070 from your registered mobile number to block your UPI, Internet Banking & Mobile Banking facilities', unblocking via 'Digital Channel Registration form' at the nearest/home branch, '24 hours helpline No. 022 41572070', and the BHIM in-app complaint path 'choose Transaction option, select the declined transactions... & click on report issue or call bank'."
+    },
+    {
+      "url": "https://www.saraswat.bank.in/content.aspx?id=Missed-Call-Service",
+      "label": "UPI freeze live fetch 2026-11-01: proves the fraud note 'call our IVR number: 022 41572070 from your registered mobile number to immediately block your Digital Banking channels i.e UPI, Debit card, Internet Banking & Mobile Banking' (identical note repeated on the Lodge-a-Complaint page); the page publishes no UPI SMS keyword and no *99# string."
     }
   ],
   "lastVerified": "2026-10-30"
