@@ -1,0 +1,33 @@
+{
+  "id": "rajasthan_state_coop",
+  "name": "Rajasthan State Co-operative Bank",
+  "blockingInstructions": {
+    "debit": {
+      "tollFree": "1800-180-1999",
+      "number1": "18001802318",
+      "number2": "0141- 5119888",
+      "email": "rscb.customercare@rajasthan.gov.in",
+      "website": "https://rscb.bank.in",
+      "reference": "https://rscb.bank.in/Contact",
+      "notes": "The hotlist line 1800-180-1999 is labelled 'Card Hot Listing' in the header and footer of every page of the bank's site, which now lives at rscb.bank.in (rajcoop.org from the previous entry no longer resolves). Hours are not stated and no overseas line is published. The Contact page lists a second toll-free, shown as '18001801999 / 18001802318'; 18001801999 is the same hotlist number in unformatted form. 0141- 5119888 is the published customer-support number on the grievance-redressal page (for query/complaint status; chargeable Jaipur line). No SMS block format, no internet-banking or mobile-app card-block path, and no official app-store links are published on the bank's own pages, and the site does not mention the 1930 national helpline. The support email is published in obfuscated form rscb[dot]customercare[at]rajasthan[dot]gov[dot]in. The previous entry's numbers 1800-180-2150 and 0141-2601203 do not appear anywhere on the live site."
+    },
+    "credit": {
+      "notes": "No credit-card product or credit-card blocking channel is published on the bank's official site. The site's 'credit card' mentions are loan schemes, not payment cards: the Kisan Credit Card, issued as a 'Rupay Kisan Debit Card' (https://rscb.bank.in/card-rural/Kisan-Credit-Card, live fetch 2026-11-01), and three 'Swarojgar Credit Card Yojana' rows in the homepage NABARD loan/interest-rate table (finance with NABARD refinancing at NABARD rate + 0.50 margin, or from the bank's own fund at 12%). Cards the bank issues run on the RuPay debit rail and hotlist through the same site-wide 'Card Hot Listing' line 1800-180-1999."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://rscb.bank.in/",
+      "label": "live fetch 2026-11-01: homepage header and footer publish 'Card Hot Listing: 1800-180-1999' and support email shown obfuscated as rscb[dot]customercare[at]rajasthan[dot]gov[dot]in; the page's only 'credit card' mentions are the Kisan Credit Card nav link and three 'Swarojgar Credit Card Yojana' loan-scheme interest-rate rows (HTML lines 1690/1696/1702); no SMS block keyword, no app-store links, and no 1930/14440 mention anywhere on the page"
+    },
+    {
+      "url": "https://rscb.bank.in/Contact",
+      "label": "live fetch 2026-11-01: Contact page states 'Toll free No. :18001801999 / 18001802318' and a live 'Support e-Mail' box with the same obfuscated address; a 'Retail Phone Banking Numbers 0141- 5119888' box on this page is commented out of the HTML and was not used"
+    },
+    {
+      "url": "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal",
+      "label": "live fetch 2026-11-01: rendered grievance text says 'To know the status of your existing query, you can call us on 0141- 5119888' and repeats the number for complaint status; nodal-officer escalation by web form; no winding-up or liquidation notices on this page or the notifications page"
+    }
+  ],
+  "lastVerified": "2026-11-01"
+}

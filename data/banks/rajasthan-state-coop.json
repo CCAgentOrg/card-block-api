@@ -2,7 +2,7 @@
   "name": "Rajasthan State Co-operative Bank",
   "slug": "rajasthan-state-coop",
   "type": "coop",
-  "website": "https://www.rajcoop.org/",
+  "website": "https://rscb.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,13 +10,14 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-2150 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-2150",
+          "instructions": "Call 1800-180-1999 and follow the IVR to hotlist the card.",
+          "phone": "1800-180-1999",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
+            "https://rscb.bank.in/",
+            "https://rscb.bank.in/Contact",
+            "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -26,13 +27,47 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 0141-2601203 (alternate line — see notes).",
-          "phone": "0141-2601203",
+          "instructions": "Call 18001802318 (alternate line — see notes).",
+          "phone": "18001802318",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
+            "https://rscb.bank.in/",
+            "https://rscb.bank.in/Contact",
+            "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0141- 5119888 (alternate line — see notes).",
+          "phone": "0141- 5119888",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://rscb.bank.in/",
+            "https://rscb.bank.in/Contact",
+            "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "email",
+          "instructions": "Email rscb.customercare@rajasthan.gov.in from your registered email to request card blocking.",
+          "email": "rscb.customercare@rajasthan.gov.in",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://rscb.bank.in/",
+            "https://rscb.bank.in/Contact",
+            "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -41,13 +76,14 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.rajcoop.org/ and use the card block/hotlist option.",
-          "url": "https://www.rajcoop.org/",
+          "instructions": "Log in to internet banking at https://rscb.bank.in and use the card block/hotlist option.",
+          "url": "https://rscb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
+            "https://rscb.bank.in/",
+            "https://rscb.bank.in/Contact",
+            "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,12 +92,13 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact customer care",
+          "instructions": "The hotlist line 1800-180-1999 is labelled 'Card Hot Listing' in the header and footer of every page of the bank's site, which now lives at rscb.bank.in (rajcoop.org from the previous entry no longer resolves). Hours are not stated and no overseas line is published. The Contact page lists a second toll-free, shown as '18001801999 / 18001802318'; 18001801999 is the same hotlist number in unformatted form. 0141- 5119888 is the published customer-support number on the grievance-redressal page (for query/complaint status; chargeable Jaipur line). No SMS block format, no internet-banking or mobile-app card-block path, and no official app-store links are published on the bank's own pages, and the site does not mention the 1930 national helpline. The support email is published in obfuscated form rscb[dot]customercare[at]rajasthan[dot]gov[dot]in. The previous entry's numbers 1800-180-2150 and 0141-2601203 do not appear anywhere on the live site.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
+            "https://rscb.bank.in/",
+            "https://rscb.bank.in/Contact",
+            "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -74,60 +111,14 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-180-2150 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-2150",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 0141-2601203 (alternate line — see notes).",
-          "phone": "0141-2601203",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.rajcoop.org/ and use the card block/hotlist option.",
-          "url": "https://www.rajcoop.org/",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact customer care",
+          "instructions": "No credit-card product or credit-card blocking channel is published on the bank's official site. The site's 'credit card' mentions are loan schemes, not payment cards: the Kisan Credit Card, issued as a 'Rupay Kisan Debit Card' (https://rscb.bank.in/card-rural/Kisan-Credit-Card, live fetch 2026-11-01), and three 'Swarojgar Credit Card Yojana' rows in the homepage NABARD loan/interest-rate table (finance with NABARD refinancing at NABARD rate + 0.50 margin, or from the bank's own fund at 12%). Cards the bank issues run on the RuPay debit rail and hotlist through the same site-wide 'Card Hot Listing' line 1800-180-1999.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.rajcoop.org/",
-            "https://sachet.rbi.org.in"
+            "https://rscb.bank.in/",
+            "https://rscb.bank.in/Contact",
+            "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
           ],
           "confirmations": {
             "worked": 0,
@@ -140,10 +131,11 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.rajcoop.org/",
-      "https://sachet.rbi.org.in"
+      "https://rscb.bank.in/",
+      "https://rscb.bank.in/Contact",
+      "https://rscb.bank.in/contact-us/grievance-redressal/retail-banking-grievance-redressal"
     ]
   }
 }
