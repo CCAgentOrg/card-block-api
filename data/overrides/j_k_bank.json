@@ -19,6 +19,12 @@
       "website": "https://custcare.jkb.bank.in",
       "reference": "https://jkb.bank.in/transactions/services/credit-cards",
       "notes": "24-hour helpline. The credit-cards page says to 'notify the lost/stolen Card to the Bank immediately on 24-hour Toll Free Help Line 1800 890 2122' or the 24-hour help desk 0194 2481936 / 0194-2481953 (additional card lines 0194-2482463, 2486424 per the contact page), and that 'The block/Stoplist option for Credit Cards is also available on Mobile Banking Application M-Pay Delight+ of the Bank'; the page also allows notifying the concerned branch/DAC, Corporate Headquarters, M.A. Road, Srinagar, advises reporting loss/theft to police (FIR), and gives nil liability post reporting. Disputes: grievance.creditcards@jkbmail.com, Grievance Redressal Officer +91 194-2713563. Online fraud/unauthorised-transaction reporting: custcare.jkb.bank.in; National Cyber Crime Helpline 1930 (both per the grievance page)."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.lcode.jkbmpay&hl=en",
+      "tollFree": "1800-890-2122",
+      "notes": "UPI is frozen from inside the JKB mPay Delight+ app. The grievance page's cyber-fraud steps: 'Login to mPay Delight Plus app > Click on Report Fraud under Services & Requests option > Select the Account Number, the transaction of which has to be reported', then choose 'Block Digital Channels' or 'Report a Fraud Transaction'. The mobile-banking page's UPI Scan and Pay feature list adds 'Select the accounts to mark it eligible for UPI in eligible UPI accounts option' and 'De-Register and Register UPI' (deregistration removes the VPA). Web fallback: 'Click here to report fraud/unauthorised transaction' at https://custcare.jkb.bank.in; 'Call National Cyber Crime Helpline Number 1930 or Visit https://cybercrime.gov.in/'. Phone: 'Helpdesk contact number for e-Banking, Mobile Banking and UPI' — 'For any issues, please contact on 1800 890 2122'; the fraud steps also say 'Reach out to J & K Bank Contact Centre Toll Free Number 1800-890-2122'. No netbanking UPI-manage path, SMS/USSD (*99#) keyword, or iOS App Store URL is published on the bank's pages (only mPay .ipa checksum values).",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -37,6 +43,18 @@
     {
       "url": "https://jkb.bank.in/grievance-redressal",
       "label": "live fetch 2026-10-27: grievance page — 24x7 Customer Care Centre on Toll Free line 1800 890 2122 or 91194 2481936/2481953; report fraud/unauthorised transaction at custcare.jkb.bank.in; mPay Delight Plus > Services & Requests > Report Fraud / Block Digital Channels; Call National Cyber Crime Helpline Number 1930 or visit https://cybercrime.gov.in/"
+    },
+    {
+      "url": "https://jkb.bank.in/grievance-redressal",
+      "label": "UPI freeze live fetch 2026-11-01: grievance page — cyber-fraud complaint steps: report at custcare.jkb.bank.in or 'Login to mPay Delight Plus app > Click on Report Fraud under Services & Requests option > Select the Account Number' then 'Block Digital Channels' / 'Report a Fraud Transaction'; 'Reach out to J & K Bank Contact Centre Toll Free Number 1800-890-2122'; 'Call National Cyber Crime Helpline Number 1930'; 'Helpdesk contact number for e-Banking, Mobile Banking and UPI — For any issues, please contact on 1800 890 2122'"
+    },
+    {
+      "url": "https://jkb.bank.in/mobile-banking",
+      "label": "UPI freeze live fetch 2026-11-01: mobile-banking page — mPay Delight+ 'UPI Scan and Pay' features include 'Select the accounts to mark it eligible for UPI in eligible UPI accounts option' and 'De-Register and Register UPI'; no app-store URLs on page (only .ipa checksums)"
+    },
+    {
+      "url": "https://jkb.bank.in/",
+      "label": "UPI freeze live fetch 2026-11-01: homepage — 'Download the App' links to Google Play com.lcode.jkbmpay (JKB mPay Delight+); no iOS App Store URL published"
     }
   ],
   "lastVerified": "2026-10-27"
