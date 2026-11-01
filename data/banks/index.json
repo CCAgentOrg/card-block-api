@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "count": 61,
   "freshness": {
-    "fresh": 34,
-    "aging": 16,
-    "stale": 11
+    "fresh": 43,
+    "aging": 13,
+    "stale": 5
   },
   "banks": [
     {
@@ -77,9 +77,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 16,
+      "method_count": 14,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "bandhan",
@@ -102,9 +102,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 18,
+      "method_count": 17,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "bank-of-india",
@@ -139,9 +139,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 16,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "capital-small-finance",
@@ -287,7 +287,7 @@
       ],
       "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "hdfc",
@@ -447,9 +447,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 8,
+      "method_count": 9,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "kotak",
@@ -486,7 +486,7 @@
       ],
       "method_count": 10,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "nordic-bank",
@@ -543,9 +543,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 8,
+      "method_count": 7,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "rbl",
@@ -675,9 +675,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 12,
+      "method_count": 8,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "uc-bank",
@@ -735,9 +735,9 @@
         "debit",
         "credit"
       ],
-      "method_count": 8,
+      "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "yes-bank",

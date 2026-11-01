@@ -2,7 +2,7 @@
   "name": "Bank of Baroda",
   "slug": "bob",
   "type": "private",
-  "website": "https://www.bobcard.co.in",
+  "website": "https://myservices.bobcard.co.in/microsite/card-block",
   "cards": [
     {
       "type": "debit",
@@ -10,14 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-5700 and follow the IVR to hotlist the card.",
-          "phone": "1800-5700",
+          "instructions": "Call 1800 5700 / 1800 5000 and follow the IVR to hotlist the card.",
+          "phone": "1800 5700 / 1800 5000",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -27,14 +28,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-5000 (alternate line — see notes).",
-          "phone": "1800-5000",
+          "instructions": "Call +91 79-66296009 (alternate line — see notes).",
+          "phone": "+91 79-66296009",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -44,14 +46,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-102-5627 (alternate line — see notes).",
-          "phone": "1800-102-5627",
+          "instructions": "Call +91 79-66296629 (alternate line — see notes).",
+          "phone": "+91 79-66296629",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -60,14 +63,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@bankofbaroda.com from your registered email to request card blocking.",
-          "email": "customercare@bankofbaroda.com",
+          "instructions": "Email channelblock@bankofbaroda.bank.in from your registered email to request card blocking.",
+          "email": "channelblock@bankofbaroda.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -76,14 +80,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx and use the card block/hotlist option.",
-          "url": "https://appstack.bankofbaroda.co.in/debitfreeze/home.aspx",
+          "instructions": "Log in to internet banking at https://appstackweb.bankofbaroda.bank.in/debitfreeze and use the card block/hotlist option.",
+          "url": "https://appstackweb.bankofbaroda.bank.in/debitfreeze",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -92,17 +97,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.bobapp | iOS: https://apps.apple.com/in/app/bob-world/id1507878760",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.bankofbaroda.mconnect | iOS: https://apps.apple.com/in/app/bob-world-mobile-banking/id1191046038",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
-            "https://apps.apple.com/in/app/bob-world/id1507878760"
+            "https://play.google.com/store/apps/details?id=com.bankofbaroda.mconnect",
+            "https://apps.apple.com/in/app/bob-world-mobile-banking/id1191046038"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -111,13 +117,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Self-service freeze/debit card block via portal. Also via bob World app.",
+          "instructions": "Contact centre is 24x7 for urgent services such as card blocking and fraud reporting on toll-free 1800 5700 / 1800 5000 (IVR: 'Select option 1, To Report loss of card, to report a fraud or to report an Unauthorized transaction not done by you'). Overseas: domestic customers calling from abroad 24X7 on +91 79-66296009; NRIs from overseas locations 24x7 on +91 79-66296629. App path: bob World — login > More > Debit card block/hotlist (Under Quick Actions); netbanking: bob World Internet — Services > My Accounts > Debit Card Blocking; self blocking/debit freezing via the Online Account Blocking Portal. On fraud: 'immediately block respective channel or Freeze the Account for Debit Transactions' — channel-block email channelblock@bankofbaroda.bank.in. 1800 102 5627 / bobsupport@cardbranch.com is the Gift/Pre-paid/Reloadable-card line, not a debit or credit block line. No SMS keyword block is published for debit cards, and the page does not mention the 1930 helpline.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -132,14 +139,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-5700 and follow the IVR to hotlist the card.",
-          "phone": "1800-5700",
+          "instructions": "Call 1800 2665 100 and follow the IVR to hotlist the card.",
+          "phone": "1800 2665 100",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -149,14 +157,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-5000 (alternate line — see notes).",
-          "phone": "1800-5000",
+          "instructions": "Call 1800 2667 100 (alternate line — see notes).",
+          "phone": "1800 2667 100",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -166,14 +175,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-102-5627 (alternate line — see notes).",
-          "phone": "1800-102-5627",
+          "instructions": "Call 1800 2090, 1800 1210 (alternate line — see notes).",
+          "phone": "1800 2090, 1800 1210",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -182,14 +192,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@bobcard.co.in from your registered email to request card blocking.",
-          "email": "customercare@bobcard.co.in",
+          "instructions": "Email crm@bobcard.co.in from your registered email to request card blocking.",
+          "email": "crm@bobcard.co.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -198,33 +209,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.bobcard.co.in and use the card block/hotlist option.",
-          "url": "https://www.bobcard.co.in",
+          "instructions": "Log in to internet banking at https://myservices.bobcard.co.in/microsite/card-block and use the card block/hotlist option.",
+          "url": "https://myservices.bobcard.co.in/microsite/card-block",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.mgs.bobapp | iOS: https://apps.apple.com/in/app/bob-world/id1507878760",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.mgs.bobapp",
-            "https://apps.apple.com/in/app/bob-world/id1507878760"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://www.bankofbaroda.in/contact-us",
-            "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -233,13 +226,14 @@
         },
         {
           "channel": "other",
-          "instructions": "BOBCARD manages credit cards. Report loss: same numbers, select option 1.",
+          "instructions": "BOBCARD Ltd (the bank's credit-card subsidiary) runs these channels. FAQ 'How to block my card?': the microsite takes the last 4 digits of the BOBCARD, registered mobile number and date of birth, then an OTP to the registered mobile — choose 'Temporary Block card', or 'Yes, Block card' with Select Reason for Block 'Lost/Stolen'. Same flow via BOBCARD Mobile App or https://online.bobcard.co.in/ — scroll to 'My Card Services' > 'Card Block/Unblock'. FAQ lists 'BOBCARD toll free numbers 1800 2665 100 / 1800 2667 100' and, in its terms, 'write to crm@bobcard.co.in or contact us at our Toll Free Nos. 1800 2090, 1800 1210'. The FAQ page publishes no SMS block keyword, no overseas number, and no hours statement.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -259,9 +253,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -278,9 +273,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -293,9 +289,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -308,9 +305,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.bankofbaroda.in/contact-us",
+            "https://bankofbaroda.bank.in/contact-us",
             "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-            "https://bankofbaroda.bank.in/contact-us"
+            "https://bankofbaroda.bank.in/contact-us",
+            "https://www.bobcard.co.in/faqs"
           ],
           "confirmations": {
             "worked": 0,
@@ -323,11 +321,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-04",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.bankofbaroda.in/contact-us",
+      "https://bankofbaroda.bank.in/contact-us",
       "https://bankofbaroda.bank.in/digital-products/instant-banking/bob-e-pay",
-      "https://bankofbaroda.bank.in/contact-us"
+      "https://bankofbaroda.bank.in/contact-us",
+      "https://www.bobcard.co.in/faqs"
     ]
   }
 }

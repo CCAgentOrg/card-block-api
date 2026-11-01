@@ -2,7 +2,7 @@
   "name": "Kerala Gramin Bank",
   "slug": "kerala-gramin-bank",
   "type": "rrb",
-  "website": "https://www.keralagbank.in/",
+  "website": "https://netbanking.kgb.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,13 +10,49 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-425-1829 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-1829",
+          "instructions": "Call 1800 425 4000 and follow the IVR to hotlist the card.",
+          "phone": "1800 425 4000",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 0497-2717800 (alternate line — see notes).",
+          "phone": "0497-2717800",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Call our customer care number 0497 2717800 from the registered mobile number and follow the IVR instructions.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,13 +61,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@keralagbank.in from your registered email to request card blocking.",
-          "email": "customercare@keralagbank.in",
+          "instructions": "Email customercare.kgb@kgb.bank.in from your registered email to request card blocking.",
+          "email": "customercare.kgb@kgb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -40,13 +78,51 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.keralagbank.in/ and use the card block/hotlist option.",
-          "url": "https://www.keralagbank.in/",
+          "instructions": "Log in to internet banking at https://netbanking.kgb.bank.in and use the card block/hotlist option.",
+          "url": "https://netbanking.kgb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN | iOS: https://apps.apple.com/in/app/kgb-infi/id6740206250",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://apps.apple.com/in/app/kgb-infi/id6740206250"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Send SMS to 9230600500 in the format HOTLIST + last four digits of the ATM Card Number (page example: HOTLIST 1234). from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -55,12 +131,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via mobile banking or contact customer care",
+          "instructions": "Lost-card FAQ on the RuPay debit-card page: 'Immediately Hotlist / Block your Debit Card by calling 0497 2717800'; SMS self-service HOTLIST + last four digits of the ATM card number to 9230600500; IVR hotlist by calling customer care 0497 2717800 from the registered mobile number; mobile-banking users block inside the app ('KGB mPAY application.. Click on ATM card Menu >> click Temporary Block/Unblock >> Use toggle button to block debit card usage'); or inform the branch to hotlist the card. The site header publishes Toll Free Number 1800 425 4000 (this number is also the published WhatsApp banking number, 1800-425-4000) and Customer Care Number 0497-2717800; no service hours are published for either line and no overseas number is published. KGBNet internet banking (netbanking.kgb.bank.in) offers 'hot-listing of Debit Card' under its online Request Services — 'Debit card can be hot-listed online. User will receive the status over SMS to the registered Mobile Number' — and is advertised as 24 X 7 banking; the KGB INFI mobile app is advertised as 24/7. The site's published app-store links point to KGB INFI as the bank's mobile banking app ('Available for both Android and iOS users'), while the blocking FAQ still names the older KGB mPAY app; no store link labelled mPAY is published. Customer-care email is published in the contact page's structured data as customercare.kgb@kgb.bank.in (also shown obfuscated as customercare[dot]kgb[at]kgb[dot]bank[dot]in); the complaints portal is connect.kgb.bank.in. No mention of the 1930 cyber helpline appears on the bank's checked pages.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -73,59 +151,15 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-425-1829 and follow the IVR to hotlist the card.",
-          "phone": "1800-425-1829",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email customercare@keralagbank.in from your registered email to request card blocking.",
-          "email": "customercare@keralagbank.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.keralagbank.in/ and use the card block/hotlist option.",
-          "url": "https://www.keralagbank.in/",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Block cards via mobile banking or contact customer care",
+          "instructions": "No credit-card product or credit-card blocking channel is published: the site's Cards menu lists only RuPay Debit Cards, Junior Debit Card and Kisan Credit Card (a farm-loan card), /personal-banking/credit-cards and /personal-banking/credit-card returned 404 in the same live check, and the only 'credit card' wording on the debit page is generic CVV-copy. The earlier entry's credit-card channels (toll-free 1800-425-1829, customercare@keralagbank.in) appear nowhere on the current official site; the bank's published care lines under 'debit' are its card-blocking channels.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.keralagbank.in/",
-            "https://sachet.rbi.org.in"
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -138,10 +172,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.keralagbank.in/",
-      "https://sachet.rbi.org.in"
+      "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+      "https://kgb.bank.in/contact",
+      "https://kgb.bank.in/services/kgbnet",
+      "https://kgb.bank.in/"
     ]
   }
 }

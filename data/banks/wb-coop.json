@@ -2,7 +2,7 @@
   "name": "West Bengal State Co-operative Bank",
   "slug": "wb-coop",
   "type": "coop",
-  "website": "https://www.wbpcb.co.in/",
+  "website": "https://www.wbstcb.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,13 +10,33 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-345-0001 and follow the IVR to hotlist the card.",
-          "phone": "1800-345-0001",
+          "instructions": "Call 1800 - 309 - 5790 and follow the IVR to hotlist the card.",
+          "phone": "1800 - 309 - 5790",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
+            "https://www.wbstcb.bank.in/pages/contact_us",
+            "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+            "https://www.wbstcb.bank.in/pages/privacy_policy",
+            "https://inb.wbstcb.bank.in/OnlineWBSCB/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 033 - 4004 2721 (alternate line — see notes).",
+          "phone": "033 - 4004 2721",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.wbstcb.bank.in/pages/contact_us",
+            "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+            "https://www.wbstcb.bank.in/pages/privacy_policy",
+            "https://inb.wbstcb.bank.in/OnlineWBSCB/"
           ],
           "confirmations": {
             "worked": 0,
@@ -25,13 +45,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email info@wbpcb.co.in from your registered email to request card blocking.",
-          "email": "info@wbpcb.co.in",
+          "instructions": "Email cardpayment@wbstcb.bank.in from your registered email to request card blocking.",
+          "email": "cardpayment@wbstcb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
+            "https://www.wbstcb.bank.in/pages/contact_us",
+            "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+            "https://www.wbstcb.bank.in/pages/privacy_policy",
+            "https://inb.wbstcb.bank.in/OnlineWBSCB/"
           ],
           "confirmations": {
             "worked": 0,
@@ -40,13 +62,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.wbpcb.co.in/ and use the card block/hotlist option.",
-          "url": "https://www.wbpcb.co.in/",
+          "instructions": "Log in to internet banking at https://www.wbstcb.bank.in and use the card block/hotlist option.",
+          "url": "https://www.wbstcb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
+            "https://www.wbstcb.bank.in/pages/contact_us",
+            "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+            "https://www.wbstcb.bank.in/pages/privacy_policy",
+            "https://inb.wbstcb.bank.in/OnlineWBSCB/"
           ],
           "confirmations": {
             "worked": 0,
@@ -55,12 +79,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact customer care",
+          "instructions": "Customer Care / Helpline toll-free 1800 - 309 - 5790 (integrated with Head Office EPABX; the bank's debit-card safety booklet prints the same number as 18003095790), plus chargeable Kolkata lines 033 - 4004 2721 (head-office 'Contact No.') and H.O. EPABX (033) 221 - 00000 / (033) 2225 - 2225; no service hours are published for any line and no overseas number is published. Published lost/stolen-card action (DOs & DON'Ts of ATM cum Debit Card, item 15): immediately inform the Bank; if the card is held by an ATM, inform the Bank Branch as well as the Helpline 18003095790, and email customerservices.card@wbstcb.com and cardpayment@wbstcb.com plus the respective home branch at bm.branchname@wbstcb.com; the contact page separately publishes cardpayment@wbstcb.bank.in under 'for ATM/ Debit Card'. No SMS block keyword/short code, no in-app block menu and no netbanking card-block option are published on any checked official page: WBSCB Mobile Banking exists ('download latest version.. from Google Play Store only' per the mobile-banking privacy policy, but no store URL is published on the site) and the internet-banking portal inb.wbstcb.bank.in/OnlineWBSCB/ offers Retail/Corporate logins, yet neither page documents a card-blocking self-service path, so the published channels are the helpline, the card emails and the home branch. The bank's own pages do not mention the 1930 cybercrime helpline. No winding-up, liquidation or licence-cancellation notice appears on the site; the bank is publishing current notices and audited annual accounts 2025-26.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
+            "https://www.wbstcb.bank.in/pages/contact_us",
+            "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+            "https://www.wbstcb.bank.in/pages/privacy_policy",
+            "https://inb.wbstcb.bank.in/OnlineWBSCB/"
           ],
           "confirmations": {
             "worked": 0,
@@ -73,59 +99,15 @@
       "type": "credit",
       "blocking_methods": [
         {
-          "channel": "phone",
-          "label": "tollFree",
-          "instructions": "Call 1800-345-0001 and follow the IVR to hotlist the card.",
-          "phone": "1800-345-0001",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "email",
-          "instructions": "Email info@wbpcb.co.in from your registered email to request card blocking.",
-          "email": "info@wbpcb.co.in",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://www.wbpcb.co.in/ and use the card block/hotlist option.",
-          "url": "https://www.wbpcb.co.in/",
-          "confidence": 0.85,
-          "last_verified": "2026-05-13",
-          "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
           "channel": "other",
-          "instructions": "Block cards via mobile app or contact customer care",
+          "instructions": "No credit-card product or credit-card blocking channel is published anywhere on the official site checked live: the Products menu, the downloads/forms list (the only card form is 'Form 2 Application for ATM card'), the notices page and the site's own sitemap (288 URLs) contain no credit-card page, and the only card product evidenced is the ATM-cum-Debit Card (debit-card safety booklet; contact page publishes a card email only under 'for ATM/ Debit Card'). The earlier published entry's credit-card channels (toll-free 1800-345-0001, email info@wbpcb.co.in, website login) appear nowhere on the current official site, and the domain cited as their source (www.wbpcb.co.in) does not resolve at all (NXDOMAIN, live DNS check 2026-11-01); treat the entire prior credit entry as unverifiable boilerplate.",
           "confidence": 0.85,
-          "last_verified": "2026-05-13",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.wbpcb.co.in/",
-            "https://sachet.rbi.org.in"
+            "https://www.wbstcb.bank.in/pages/contact_us",
+            "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+            "https://www.wbstcb.bank.in/pages/privacy_policy",
+            "https://inb.wbstcb.bank.in/OnlineWBSCB/"
           ],
           "confirmations": {
             "worked": 0,
@@ -138,10 +120,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-05-13",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.wbpcb.co.in/",
-      "https://sachet.rbi.org.in"
+      "https://www.wbstcb.bank.in/pages/contact_us",
+      "https://www.wbstcb.bank.in/storage/uploads/files/tender_pdf/DO_and_DONTS_of_debit_card.pdf",
+      "https://www.wbstcb.bank.in/pages/privacy_policy",
+      "https://inb.wbstcb.bank.in/OnlineWBSCB/"
     ]
   }
 }
