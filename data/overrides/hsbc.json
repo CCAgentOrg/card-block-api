@@ -1,24 +1,24 @@
 {
   "id": "hsbc",
   "name": "HSBC India",
-  "logo": "/static/logos/hsbc.svg",
-  "ifsc": "HSBC0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800 267 3456",
-      "number1": "1800 121 2208",
-      "number2": "+91 40 65118002",
-      "website": "https://www.hsbc.co.in",
-      "reference": "https://www.hsbc.bank.in/help/contact",
-      "notes": "PhoneBanking 1800 267 3456 / 1800 121 2208 (toll-free from India; 6:30am-8:30pm IST, 7 days). Emergency services - reporting unauthorised transactions, blocking or cancelling your card - are available 24/7. From outside India: +91 40 65118002 / +91 22 71728002. SMS 'BLOCK' to 575750 from registered mobile. Report loss in writing: The Manager, Credit Cards, Post Box Number 5080, Chennai - 600 028."
-    },
     "debit": {
       "tollFree": "1800 267 3456",
       "number1": "1800 121 2208",
-      "number2": "+91 40 65118002",
-      "website": "https://www.hsbc.co.in",
-      "reference": "https://www.hsbc.bank.in/help/contact",
-      "notes": "PhoneBanking 1800 267 3456 / 1800 121 2208 (toll-free from India). Emergency card blocking available 24/7. From outside India: +91 40 65118002 / +91 22 71728002."
+      "number2": "+91-40-65118002",
+      "sms": "SMS BLOCK<space>HSBC<space><last four digits of your card number> to 575750 from your registered mobile number",
+      "website": "https://www.hsbc.bank.in",
+      "reference": "https://www.hsbc.bank.in/help/contact/",
+      "notes": "PhoneBanking 1800 267 3456 / 1800 121 2208 is toll-free within India (6.30am to 8.30pm IST, 7 days a week); emergency services - reporting unauthorised transactions, blocking or cancelling your card - are available 24/7 on the same lines. From outside India: +91-40-65118002 / +91-22-71728002 (HSBC Premier customers: 1800 266 3456 / 1800 120 4722, 24/7, overseas +91-40-65118001 / +91-22-71728001). SMS block from your registered mobile number: SMS BLOCK<space>HSBC<space><last four digits of your card number> to 575750. Mobile app: on the HSBC India Mobile Banking app, 'If your card is lost or stolen you can temporarily block it - and unblock it if you find it' (app downloaded from Play Store on Android and App Store on iOS per the bank's own app page). Log on to online banking at https://www.hsbc.bank.in; no public email for block requests (the bank directs written contact to secure messages in online banking: 'Help & support' > 'Secure messages')."
+    },
+    "credit": {
+      "tollFree": "1800 267 3456",
+      "number1": "1800 121 2208",
+      "number2": "+91-40-65118002",
+      "sms": "SMS 'BLOCK' to 575750",
+      "website": "https://www.hsbc.bank.in",
+      "reference": "https://www.hsbc.bank.in/help/contact/",
+      "notes": "PhoneBanking 1800 267 3456 / 1800 121 2208 is toll-free within India (6.30am to 8.30pm IST, 7 days a week); emergency services - reporting unauthorised transactions, blocking or cancelling your card - are available 24/7 on the same lines. From outside India: +91-40-65118002 / +91-22-71728002 (HSBC Premier customers: 1800 266 3456 / 1800 120 4722, 24/7, overseas +91-40-65118001 / +91-22-71728001). Credit card Key Fact Statement: in case of a lost or stolen credit card, report immediately in writing, by PhoneBanking, or by sending an SMS with 'BLOCK' to 575750. Credit card FAQ: report the loss to HSBC PhoneBanking or to the Visa Global Emergency Assistance Helplines immediately; request replacement at PhoneBanking/Branch/Internet Banking; confirm the loss in writing to The Manager, Credit Cards, Post Box Number 5080, Chennai - 600 028. Mobile app: on the HSBC India Mobile Banking app you can temporarily block a lost/stolen card and unblock it if found. Log on to online banking at https://www.hsbc.bank.in; no public email for block requests (secure messages in online banking only)."
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.hsbcupi",
@@ -30,12 +30,20 @@
   },
   "sources": [
     {
-      "url": "https://www.hsbc.bank.in/help/contact",
-      "label": "HSBC India Contact Us (live fetch 2026-09-25: 1800 267 3456 / 1800 121 2208 personal banking & credit cards; emergency card blocking 24/7)"
+      "url": "https://www.hsbc.bank.in/help/contact/",
+      "label": "live fetch 2026-11-01: proved PhoneBanking table - HSBC personal banking and credit cards 1800 267 3456 / 1800 121 2208 toll-free within India (6.30am to 8.30pm, 7 days a week), from outside India +91-40-65118002 / +91-22-71728002; HSBC Premier 1800 266 3456 / 1800 120 4722 (overseas +91-40-65118001 / +91-22-71728001) 24/7, 7 days a week; 'Emergency services, such as reporting unauthorised transactions, blocking or cancelling your card or stopping a cheque, are available 24/7'; debit-card SMS block: 'SMS BLOCK<space>HSBC<space><last four digits of your card number> to 575750 from your registered mobile number'; hsbc.co.in now 301-redirects to hsbc.bank.in"
     },
     {
       "url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
-      "label": "HSBC Credit Card Key Fact Statement (SMS 'BLOCK' to 575750; report lost/stolen to PhoneBanking 1800 267 3456 / 1800 121 2208)"
+      "label": "live fetch 2026-11-01: credit card Key Fact Statement still live - 'In the event of a lost or stolen credit card, the cardholder should immediately report it to HSBC in writing or by contacting HSBC PhoneBanking Officers at 1800 2673456 or 1800 121 2208, or by sending an SMS with BLOCK to 575750'"
+    },
+    {
+      "url": "https://www.hsbc.bank.in/credit-cards/faq/",
+      "label": "live fetch 2026-11-01: proved lost-card procedure - report the loss to HSBC PhoneBanking or to the Visa Global Emergency Assistance Helplines immediately; request replacement at HSBC PhoneBanking/Branch/Internet Banking; confirm the loss in writing to The Manager, Credit Cards, Post Box Number 5080, Chennai - 600 028"
+    },
+    {
+      "url": "https://www.hsbc.bank.in/ways-to-bank/mobile-banking/india-app/",
+      "label": "live fetch 2026-11-01: proved HSBC India Mobile Banking app card block - 'If your card is lost or stolen you can temporarily block it - and unblock it if you find it'; app to be downloaded from Play store on Android and App Store on iOS"
     },
     {
       "url": "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
@@ -46,5 +54,5 @@
       "label": "UPI freeze live fetch 2026-11-01: proved HSBC's official SimplyPay app-store links in the page's device-redirect config (androidLink play.google.com/store/apps/details?id=com.mgs.hsbcupi, iosLink apps.apple.com/in/app/hsbc-simply-pay/id1276584690)"
     }
   ],
-  "lastVerified": "2026-09-25"
+  "lastVerified": "2026-11-01"
 }
