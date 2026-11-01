@@ -21,6 +21,12 @@
       "email": "csbone@getonecard.app",
       "reference": "https://www.csb.bank.in/credit-card",
       "notes": "CSB credit cards are co-branded, with per-partner channels. CSB OneCard: helpline 1800-210-9111, email csbone@getonecard.app, or use the OneCard app (select 'Need Help?' from the Profile section). CSB Bank Edge card (Jupiter): chat via the top-right help icon in the Jupiter app, email edge-csb-support@jupiter.money, or call 080-45219280. Both co-brands escalate to the bank at customercare@csb.bank.in / 1800-266-9090. Unauthorized transactions can be reported on the bank's ODR complaint form, and the bank footer lists the 1930 national cybercrime helpline. No separate CSB credit-card block SMS or netbanking block path is published on official pages."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.lcode.csbupi",
+      "tollFree": "1800-266-9090",
+      "notes": "The bank's published UPI app is BHIM CSB Pay (CSBPAY); its FAQ says 'As of now BHIM CSB Pay is available only in Android platform', so no iOS app link is published. Freeze paths published in the BHIM CSB Pay FAQ (pdf/FAQ-BHIMCSBPay.pdf): deregister the app using the 'Deregister' Menu on the right-hand side of the login page (FAQ 11); delete/update a VPA under the menu 'Update/delete virtual payment address', with 'Update/Delete virtual payment address/Delete Account' among the app features (FAQ 4/10); on losing your phone, 'please contact our customer support at your bank in the event you lose your phone or mail to customercare@csb.co.in to block the BHIM App' (FAQ 18). The complaints-redressal page states: 'For help/assistance in UPI transactions, customer may contact CSB Phone Banking or mail to upisupport@csb.bank.in'; the CSB UPI page lists toll-free 18002669090 or 0422-2228422 (appl. charges) within India and +914226612300 from abroad, and the FAQ adds the in-app complaint path 'Transaction Status menu->Raise Query'. No netbanking UPI manage path, no SMS/USSD (*99#) block keyword, and no UPI-freeze menu path for the CSB Mobile+ app is published on official pages. For digital payment frauds the contact page lists an FRM Cell 9072600128 / 0484-6690850; footer helplines: 1930 and NPCI DigiSaathi 1800-891-3333 / 14431.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -39,6 +45,18 @@
     {
       "url": "https://www.csb.bank.in/csb-bank-edge-credit-card",
       "label": "live fetch 2026-10-27: CSB Bank Edge Credit Card page proves the Edge/Jupiter grievance ladder: 1st level - chat via the top-right help icon in the Jupiter app, email edge-csb-support@jupiter.money, call credit card support 080-45219280; 2nd level csb.grievance@jupiter.money; 3rd level customercare@csb.bank.in / 1800-266-9090."
+    },
+    {
+      "url": "https://www.csb.bank.in/CSB-BHIM",
+      "label": "UPI freeze live fetch 2026-11-01: CSB UPI (BHIM CSB Pay) page proves the Android app link play.google.com/store/apps/details?id=com.lcode.csbupi and UPI assistance numbers 'Call on our toll-free 18002669090 or 0422-2228422 (appl. charges) from within India', overseas +914226612300; links FAQ pdf/FAQ-BHIMCSBPay.pdf. No iOS app or freeze path on this page."
+    },
+    {
+      "url": "https://www.csb.bank.in/pdf/FAQ-BHIMCSBPay.pdf",
+      "label": "UPI freeze live fetch 2026-11-01: BHIM CSB Pay FAQ PDF proves the freeze paths - FAQ 11: 'You can deregister the app using \"Deregister\" Menu on the right-hand side of the login page'; FAQ 4/10: VPA 'Update/delete virtual payment address' and feature 'Update/Delete virtual payment address/Delete Account'; FAQ 18 (lost phone): 'please contact our customer support at your bank in the event you lose your phone or mail to customercare@csb.co.in to block the BHIM App'; FAQ 5: 'BHIM CSB Pay is available only in Android platform'; FAQ 27: UPI complaints via 'Transaction Status menu->Raise Query' or CSB Phone Banking 18002669090 (Toll Free) / +91 0422 6612300 from abroad."
+    },
+    {
+      "url": "https://www.csb.bank.in/complaints-redressal",
+      "label": "UPI freeze live fetch 2026-11-01: Grievances page proves 'For help/assistance in UPI transactions, customer may contact CSB Phone Banking or mail to upisupport@csb.bank.in' (Phone Banking 1800 266 9090); no netbanking UPI manage path published."
     }
   ],
   "lastVerified": "2026-10-27"

@@ -22,6 +22,13 @@
       "website": "https://online.cub.bank.in/",
       "reference": "https://www.cityunionbank.com/Creditcard",
       "notes": "Credit-card FAQ \"What should I do if I lose my Credit Card?\" (Dhi CUB Visa Signature Credit Card page): \"on your notifying us we will immediately to block your credit card from being further misused\" and \"Customers may also block their credit card through their mobile/ internet banking application\"; \"You can conveniently manage your Dhi CUB Visa Signature Credit Card through Net Banking or Mobile Banking App\". Credit-card customer care 1800-309-1442 handles lost/stolen/damaged card replacement (\"Card replacement charges of Rs 500+ taxes are applicable\") and statement disputes; disputes may also be emailed to creditcard@cityunionbank.in (general customer care: customercare@cityunionbank.in). Bank-wide contact lines (site Call Us popup / customer-care page): \"Domestic 18001205000\" (\"18001205000 - All States\") and \"International 044 7122 5000\"; WhatsApp banking contact +91 44 7122 5000. No SMS block keyword/short code is published. Migration: existing internet & mobile banking is discontinued from 30-Oct-2026 — new net banking https://online.cub.bank.in/; new app \"CUB New All in One\" (no store link for the new app is published on the pages fetched). Report unauthorized transactions: https://ccm.cub.bank.in/portal/en/home. 1930 is not mentioned on the bank's pages."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.cub.plus.gui",
+      "iosApp": "https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617",
+      "tollFree": "18001205000",
+      "notes": "UPI block is an SMS channel, published on the CUB BHIM UPI page's Grievance section (verbatim): \"If you lost your mobile or want to block upi / mobile banking send sms to 8742903939 as below format in which [Customer ID] is customer id.\" with the format \"BLOCK [Customer ID].\" — i.e. SMS BLOCK <Customer ID> to 8742903939 (page links it as tel:+918742903939) to block UPI and mobile banking if the phone is lost. The same section gives the UPI helpline: \"Feel free to contact us for help : 18001205000\". No in-app UPI lock/freeze menu path and no netbanking UPI manage/disable path is published on the bank's pages fetched (CUB BHIM UPI, All in One mobile banking, BHIM UPI FAQ). No USSD block channel: *99# appears on the BHIM UPI page/FAQ only for payments and offline features (FAQ, verbatim: \"Yes. You can dial *99# to avail offline features of BHIM, on any mobile phone.\"), not for blocking; no other SMS keyword or short code for UPI is published.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -40,6 +47,18 @@
     {
       "url": "https://www.cityunionbank.com/Creditcard",
       "label": "live fetch 2026-10-27: Dhi CUB Visa Signature Credit Card FAQ — \"What should I do if I lose my Credit Card?\": \"on your notifying us we will immediately to block your credit card from being further misused\" and \"Customers may also block their credit card through their mobile/ internet banking application\"; replacement: \"Please call our customer care 1800-309-1442 and place the request\" (\"Card replacement charges of Rs 500+ taxes are applicable\"); disputes: \"calling us our 1800-309-1442 or send an email to creditcard@cityunionbank.in\"; \"manage your Dhi CUB Visa Signature Credit Card through Net Banking or Mobile Banking App\"; page's netbanking modal opens New Net Banking https://online.cub.bank.in/ (old IB posts to https://www.onlinebanking.cub.bank.in/servlet/ibs.servlets.IBSLoginServlet) with banner \"existing Internet Banking/Mobile Banking app will be discontinued from 30-Oct-2026\""
+    },
+    {
+      "url": "https://www.cityunionbank.com/cub-bhim-upi",
+      "label": "UPI freeze live fetch 2026-11-01: BHIM UPI page Grievance section, verbatim — \"If you lost your mobile or want to block upi / mobile banking send sms to 8742903939 as below format in which [Customer ID] is customer id.\" / \"BLOCK [Customer ID].\" (number linked as tel:+918742903939); helpline \"Feel free to contact us for help : 18001205000\"; page carries app store links https://play.google.com/store/apps/details?id=com.cub.plus.gui and https://apps.apple.com/in/app/cub-mobile-banking-plus/id1054779617"
+    },
+    {
+      "url": "https://www.cityunionbank.com/bhim-upi-faq",
+      "label": "UPI freeze live fetch 2026-11-01: BHIM UPI FAQ — no block/freeze/deregister/disable-UPI FAQ; closest items: wrong UPI PIN — \"You will have to wait for 24 hours post which you will be allowed to make any transactions.\" and blocking unknown money requests via the app's Decline/Block option; *99# only for offline features (\"Yes. You can dial *99# to avail offline features of BHIM, on any mobile phone.\")"
+    },
+    {
+      "url": "https://www.cityunionbank.com/cub-all-in-one-mobile-banking-download-the-app-now",
+      "label": "UPI freeze live fetch 2026-11-01: All in One mobile banking page — no UPI lock/freeze or UPI manage feature published; only the same Android/iOS app badges (com.cub.plus.gui / id1054779617)"
     }
   ],
   "lastVerified": "2026-10-27"

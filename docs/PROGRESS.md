@@ -24,6 +24,7 @@ Running log of loop-executed work. One line per merged PR: date, issue, what lan
 | 2026-10-31 | #68 | #32 | C2 batch 6: 9 banks re-verified (Std Chartered, Suryoday, TMB, UCO, Ujjivan, Utkarsh, AP Grameena, DCB, Dhanlaxmi); escalated: Bank of India (#67 — all domains behind interactive Cloudflare Turnstile, needs human browser session); freshness 34 fresh / 16 aging / 11 stale; first run using native excludeSlugs |
 | 2026-11-01 | #69 | #34 | C4 UPI batch 2: 10/10 verified (HDFC retry incl. dead app links fixed, IndusInd, IDFC First, Airtel Payments, Fino, AU SFB, Equitas, IDBI, Indian, Federal) — UPI live for 19 banks, 707 methods; card workflow taught to preserve existing upi sections (cross-loop data-loss guard) |
 | 2026-11-01 | #70 | #32 | C2 batch 7: May cohort cleared — 9 banks re-verified (Gujarat Co-op, Kerala Gramin, North East SFB→slice rebrand, Rajasthan Co-op, Telangana Co-op, WB Co-op, + aging re-verifications Axis/BoB/Canara with UPI sections preserved byte-exact under the new guard); escalated: Telangana Grameena (#70 — entire web presence down: NXDOMAIN + dead NS + origin 522); freshness 43 fresh / 13 aging / 5 stale |
+| 2026-11-01 | #72 | #34 | C4 UPI batch 3: 9/10 verified (DBS, Bandhan, Karnataka, Karur Vysya, City Union, J&K, CSB, Dhanlaxmi, RBL) — UPI live for 28 banks; escalated: South Indian Bank (publishes no UPI-specific block path anywhere — structural absence, human policy call on generic fallbacks) |
 
 ## Milestone state (2026-10-27)
 

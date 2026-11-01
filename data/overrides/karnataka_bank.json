@@ -19,6 +19,11 @@
       "email": "info@ktkbank.com",
       "reference": "https://www.karnatakabank.bank.in/support/faqs",
       "notes": "The bank's lost/stolen guidance covers credit cards jointly with debit cards: email info@ktkbank.com detailing the situation or call the two toll-free numbers, which are advertised as a 24/7 helpdesk. No netbanking, app or SMS block path is published for credit cards. WhatsApp chat +91 9632188999 is listed on the contact page but is not advertised as a card-block channel."
+    },
+    "upi": {
+      "tollFree": "1800 572 8031",
+      "notes": "No in-app UPI lock/freeze or deregister menu path is published on the bank's website — the BHIM KBL UPI app page lists only a five-step registration flow and general FAQs. Published freeze route (customer-awareness page): 'If your mobile device gets stolen, get your mobile banking applications blocked by calling our contact center at +91 1800 572 8031 (Toll-free), +91 802 1500 or contact our nearest branch for assistance' — this blocks the bank's mobile apps (BHIM KBL UPI app / KBL Mobile Plus), not a UPI-specific switch; 'You may get it unblocked once you recover your lost phone or buy a new one.' On credential compromise the bank says 'Please lock your user access immediately' and points to the contact centre at +91 1800 572 8031 (Toll-free), +91 802 202 1500. The KBL BHIM UPI app page footer lists toll-free +91 1800 425 1444 (the advertised 24/7 Helpdesk) and +91 1800 572 8031; fraud emails go to isecurity@ktkbank.com. No netbanking (MoneyClick) UPI manage/disable path and no SMS/USSD keywords for UPI are published; the Android BHIM KBL UPI app is distributed by the bank as a direct APK with published checksums (v1.5.7), no app-store listing. The bank's UPI safety guidance: 'you do not have to enter your PIN to receive money via UPI... If in doubt, reject the transaction.'",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -37,6 +42,14 @@
     {
       "url": "https://www.karnatakabank.bank.in/support/raise-your-concerns",
       "label": "live fetch 2026-10-30: 'Toll free numbers' +91 1800 425 1444 and +91 1800 572 8031; 'Download the KBL Mobile Plus app today' links Play Store com.lcode.kblmbank and App Store apps.apple.com/in/app/kbl-mobile-plus/id1448228023."
+    },
+    {
+      "url": "https://www.karnatakabank.bank.in/ways-to-bank/mobile-banking/kbl-bhim-upi-app",
+      "label": "UPI freeze live fetch 2026-11-01: bank's BHIM KBL UPI app product page — registration steps and general FAQs only, no block/freeze/deregister path published; footer 'Toll free numbers +91 1800 425 1444 +91 1800 572 8031'; Android app distributed as bank-hosted APK with checksums (v1.5.7), no app-store listing."
+    },
+    {
+      "url": "https://www.karnatakabank.bank.in/customer-awareness",
+      "label": "UPI freeze live fetch 2026-11-01: 'If your mobile device gets stolen, get your mobile banking applications blocked by calling our contact center at +91 1800 572 8031 (Toll-free), +91 802 1500 or contact our nearest branch'; 'lock your user access immediately' on credential reveal (+91 1800 572 8031, +91 802 202 1500); UPI guidance 'you do not have to enter your PIN to receive money via UPI... If in doubt, reject the transaction'; fraud emails to isecurity@ktkbank.com."
     }
   ],
   "lastVerified": "2026-10-30"

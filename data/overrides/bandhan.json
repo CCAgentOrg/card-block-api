@@ -24,6 +24,13 @@
       "website": "https://bandhan.bank.in/internet-banking-login",
       "reference": "https://creditcards.bandhan.bank.in/faq/",
       "notes": "Block via Internet Banking, mBandhan 2.0 app, or Customer Service on 1800-258-8181; SMS option BLOCKCC + last 4 digits to 9920311246 (bank's credit-card FAQ). App/netbanking menu path (bank's main-site FAQ): hamburger menu > Discover Products > Credit Cards > block/unblock card page > select card > 'Temporary Block' or 'Permanent Block' from the dropdown > Submit > Confirm, with 6-digit OTP (Internet Banking) or 6-digit mPIN (mBandhan 2.0 app); the FAQ states a permanent credit-card block cannot be unblocked. Lost/stolen: report immediately to Customer Service at 1800-258-8181; the card can also be blocked and replaced from the mBandhan 2.0 app or Internet Banking. For suspicious/fraudulent transactions the bank publishes email creditcard.customercare@bandhanbank.com alongside the 1800-258-8181 line. Alternate customer-care lines: 033-6633-3333 (usable 'India and abroad' per the bank's fraud-awareness page) and 033-4409-9090 (listed with 18002588181 / 03366333333 / 03340903333 in the bank's FAQ and shown as 'Customer care no.' in the credit-card microsite footer). No explicit hotline service hours are stated on the bank's live pages (checked 2026-10-27); the microsite's fraud-safety article states 'Bandhan Bank has 24/7 customer support'. The bank's fraud-awareness page directs fraud victims to the National Cyber Crime Reporting Portal 1930 and cybercrime.gov.in."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.bandhan.mBandhanN",
+      "iosApp": "https://apps.apple.com/us/app/mbandhan-2-0/id6758432075",
+      "tollFree": "1800-258-8181",
+      "notes": "SMS freeze (bank's SMS Banking page): 'From your Registered Mobile Number, send the below SMS to 56767641 to activate or deactivate UPI ID/VPA ID' — 'To deactivate UPI ID/VPA ID of user in BHIM Bandhan PSP application for Bandhan Bank Account: UPIBLOCK' (reactivate later with UPIACTIVATE). *99# USSD banking ('Dial *99# for key banking facilities') covers 'viewing & managing UPI details', 'Check any pending UPI requests and transactions' and 'Feature to Set and Change UPI PIN', but no *99# block keyword is published. The bank's FAQ, UPI product page, mBandhan app pages, WhatsApp-banking, internet-banking-login and safe-digital-banking pages publish NO in-app UPI lock menu path and NO netbanking UPI manage/disable path (all checked live 2026-11-01); the UPI page instead says 'Link your Bandhan Bank account to any UPI app easily and start making payments' (FAQ offers UPI 'only for mBandhan'). Phone fallback: the UPI product page's 'Talk to us' shows 1800-258-8181 and 033-4409-9090; the fraud-awareness page says 'You may also contact us at 1800 258 8181 (toll free) or +91 33 6633 3333 (India and abroad)' and directs fraud victims to 'call the National Cyber Crime Reporting Portal at 1930 to report or visit https://www.cybercrime.gov.in/' and the Chakshu Portal 'https://sancharsaathi.gov.in/'.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -42,6 +49,42 @@
     {
       "url": "https://bandhan.bank.in/fraud-awareness",
       "label": "live fetch 2026-10-27: 'please call the National Cyber Crime Reporting Portal at 1930 to report or visit https://www.cybercrime.gov.in/ immediately' and 'You may also contact us at 1800 258 8181 (toll free) or +91 33 6633 3333 (India and abroad)'."
+    },
+    {
+      "url": "https://bandhan.bank.in/personal/mobile-banking/bandhan-bank-sms-banking",
+      "label": "UPI freeze live fetch 2026-11-01: SMS Banking page — 'From your Registered Mobile Number, send the below SMS to 56767641 to activate or deactivate UPI ID/VPA ID.'; 'To activate UPI ID/VPA ID of a user in BHIM Bandhan PSP application for Bandhan Bank Account: UPIACTIVATE'; 'To deactivate UPI ID/VPA ID of user in BHIM Bandhan PSP application for Bandhan Bank Account: UPIBLOCK'."
+    },
+    {
+      "url": "https://bandhan.bank.in/personal/mobile-banking/bandhan-bank-ussd",
+      "label": "UPI freeze live fetch 2026-11-01: *99# Banking page — 'Dial *99# for key banking facilities'; features include 'viewing & managing UPI details, managing beneficiaries etc.', 'Check any pending UPI requests and transactions' and 'Feature to Set and Change UPI PIN'; no UPI block keyword is published on this page."
+    },
+    {
+      "url": "https://bandhan.bank.in/fraud-awareness",
+      "label": "UPI freeze live fetch 2026-11-01: re-verified fraud fallback — 'please call the National Cyber Crime Reporting Portal at 1930 to report or visit https://www.cybercrime.gov.in/ immediately'; 'report it immediately via the Chakshu Portal here: https://sancharsaathi.gov.in/'; 'You may also contact us at 1800 258 8181 (toll free) or +91 33 6633 3333 (India and abroad)'; no UPI-specific hotline published."
+    },
+    {
+      "url": "https://bandhan.bank.in/personal/money-transfer/upi",
+      "label": "UPI freeze live fetch 2026-11-01: UPI product page (140656 bytes) — 'Talk to us ... Call us 1800-258-8181 033-4409-9090'; features say 'Link your Bandhan Bank account to any UPI app easily and start making payments'; page publishes no UPI block/freeze/disable path and no store link for a UPI app."
+    },
+    {
+      "url": "https://bandhan.bank.in/personal/mobile-banking/mbandhan-mobile-app",
+      "label": "UPI freeze live fetch 2026-11-01: mBandhan Mobile App page (147404 bytes) — page text contains zero UPI mentions; publishes no UPI lock/freeze menu path."
+    },
+    {
+      "url": "https://bandhan.bank.in/personal/mobile-banking/mbandhan-app",
+      "label": "UPI freeze live fetch 2026-11-01: mBandhan app page (150101 bytes) — links https://play.google.com/store/apps/details?id=com.bandhan.mBandhanN and https://apps.apple.com/us/app/mbandhan-2-0/id6758432075 (sources for the upi androidApp/iosApp keys); page text contains no UPI mention and no UPI lock/freeze path."
+    },
+    {
+      "url": "https://bandhan.bank.in/personal/mobile-banking/whatsapp-banking",
+      "label": "UPI freeze live fetch 2026-11-01: WhatsApp Banking page (141773 bytes) — page text contains zero UPI mentions; publishes no UPI block/freeze option."
+    },
+    {
+      "url": "https://bandhan.bank.in/internet-banking-login",
+      "label": "UPI freeze live fetch 2026-11-01: internet-banking login page (120850 bytes) — sole UPI mention is the shared site nav item 'Loan payments through UPI'; publishes no UPI manage/disable path in internet banking."
+    },
+    {
+      "url": "https://bandhan.bank.in/safe-digital-banking-practices",
+      "label": "UPI freeze live fetch 2026-11-01: safe digital banking practices page (127860 bytes) — sole UPI mention is the shared site nav item 'Loan payments through UPI'; publishes no UPI lock path."
     }
   ],
   "lastVerified": "2026-10-27"
