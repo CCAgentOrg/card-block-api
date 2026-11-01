@@ -18,7 +18,11 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +40,11 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -54,7 +62,11 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,7 +83,11 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -91,7 +107,11 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -107,7 +127,11 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -123,7 +147,11 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -144,7 +172,78 @@
             "https://www.svc.bank.in/block-debit-card",
             "https://www.svc.bank.in/contact-us",
             "https://www.svc.bank.in/mobile-banking",
-            "https://www.svc.bank.in/"
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800 313 2120 for UPI block/freeze assistance.",
+          "phone": "1800 313 2120",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS Send SMS 'STOPUPI' to 9820620454 from your Registered Mobile Number from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "UPI de-registration is an SMS channel, per the bank's own UPI page FAQ: 'Can I de-activate / de-register from UPI? Users can de-register from UPI by sending an SMS 'STOPUPI' to 9820620454 from their registered mobile number.' The Contact Us page's fraud advisory gives the same emergency route verbatim: 'We need to secure your account against further fraudulent transaction by blocking all your online payment service Eg. For UPI : STOPUPI to 9820620454' (alongside 'For Debit Card : STOPCARD' and 'For Internet Banking : STOPIB', all to 9820620454). SVC Bank publishes no proprietary UPI app: the UPI page's Register for UPI steps say 'Download and install BHIM Application or any other UPI Application from Play Store / Apple Store' (naming BHIM, Google Pay, PhonePe, PayTM), and its footer store links are the SVC Mobile banking apps (com.svcmobile.main / id1143472268), not a UPI app - so the STOPUPI SMS to the bank is the freeze route for UPI registered through any third-party app. No in-app UPI lock is published for the bank's own apps: the Mobile Banking page's service list offers 'Stop Debit Card', 'Stop Payment' (cheque), 'Change/Set Debit Card PIN' and 'Manage Card Usage' (debit-card E-commerce/International toggles) but no UPI block/lock menu; no netbanking UPI manage/disable path is published either - the Personal NetBanking page mentions UPI only in site navigation. No USSD *99# block channel is mentioned on any page fetched. Phone fallback: the UPI page itself carries the contact widget 'Call SVC Care 1800 313 2120' (the bank's 24/7 helpline).",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.svc.bank.in/block-debit-card",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/",
+            "https://www.svc.bank.in/upi",
+            "https://www.svc.bank.in/contact-us",
+            "https://www.svc.bank.in/mobile-banking",
+            "https://www.svc.bank.in/personal-netbanking"
           ],
           "confirmations": {
             "worked": 0,
@@ -162,7 +261,11 @@
       "https://www.svc.bank.in/block-debit-card",
       "https://www.svc.bank.in/contact-us",
       "https://www.svc.bank.in/mobile-banking",
-      "https://www.svc.bank.in/"
+      "https://www.svc.bank.in/",
+      "https://www.svc.bank.in/upi",
+      "https://www.svc.bank.in/contact-us",
+      "https://www.svc.bank.in/mobile-banking",
+      "https://www.svc.bank.in/personal-netbanking"
     ]
   }
 }

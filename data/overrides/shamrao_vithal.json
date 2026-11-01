@@ -15,6 +15,12 @@
     },
     "credit": {
       "notes": "SVC Bank issues a RuPay Credit Card - the homepage promotes 'Flat INR 2000 off on purchases above INR30,000 using RuPay Credit Card' (offer validity 31st December 2026) - but the official site publishes no credit-card product page and no credit-card-specific blocking channel: the only card service request listed in the site menu is 'Block Debit Card', and the STOPCARD SMS and card-redressal flows are documented for Debit Cards. The bank-wide 24/7 SVC Care helpline 1800 313 2120 (under 'debit') is the only published line applicable to a credit-card emergency. The old entry carried no credit section, so no credit channel was dropped."
+    },
+    "upi": {
+      "tollFree": "1800 313 2120",
+      "sms": "Send SMS 'STOPUPI' to 9820620454 from your Registered Mobile Number",
+      "notes": "UPI de-registration is an SMS channel, per the bank's own UPI page FAQ: 'Can I de-activate / de-register from UPI? Users can de-register from UPI by sending an SMS 'STOPUPI' to 9820620454 from their registered mobile number.' The Contact Us page's fraud advisory gives the same emergency route verbatim: 'We need to secure your account against further fraudulent transaction by blocking all your online payment service Eg. For UPI : STOPUPI to 9820620454' (alongside 'For Debit Card : STOPCARD' and 'For Internet Banking : STOPIB', all to 9820620454). SVC Bank publishes no proprietary UPI app: the UPI page's Register for UPI steps say 'Download and install BHIM Application or any other UPI Application from Play Store / Apple Store' (naming BHIM, Google Pay, PhonePe, PayTM), and its footer store links are the SVC Mobile banking apps (com.svcmobile.main / id1143472268), not a UPI app - so the STOPUPI SMS to the bank is the freeze route for UPI registered through any third-party app. No in-app UPI lock is published for the bank's own apps: the Mobile Banking page's service list offers 'Stop Debit Card', 'Stop Payment' (cheque), 'Change/Set Debit Card PIN' and 'Manage Card Usage' (debit-card E-commerce/International toggles) but no UPI block/lock menu; no netbanking UPI manage/disable path is published either - the Personal NetBanking page mentions UPI only in site navigation. No USSD *99# block channel is mentioned on any page fetched. Phone fallback: the UPI page itself carries the contact widget 'Call SVC Care 1800 313 2120' (the bank's 24/7 helpline).",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -33,6 +39,22 @@
     {
       "url": "https://www.svc.bank.in/",
       "label": "live fetch 2026-10-30: homepage carousel proves the bank's own 1930 mentions - 'Dial 1930 for online Financial Fraud' and 'Report scam: 1930 or Cyber Crime Portal'; RuPay Credit Card promo 'Flat INR 2000 off on purchases above INR30,000 using RuPay Credit Card' with 'Offer Validity: 31st December 2026' proves credit-card issuance; site navigation links Personal NetBanking (https://www.svc.bank.in/personal-netbanking), the same SVC Mobile store links, and lists only 'Block Debit Card' as a card service request - no credit-card product or blocking page exists in the navigation."
+    },
+    {
+      "url": "https://www.svc.bank.in/upi",
+      "label": "UPI freeze live fetch 2026-11-01: bank's official UPI page FAQ proves the de-registration channel verbatim - 'Can I de-activate / de-register from UPI? Users can de-register from UPI by sending an SMS 'STOPUPI' to 9820620454 from their registered mobile number.'; its Register for UPI steps prove UPI runs through third-party apps ('Download and install BHIM Application or any other UPI Application from Play Store / Apple Store', naming BHIM, Google Pay, PhonePe, PayTM); the page carries no in-app UPI lock, no USSD mention, and its footer store links are the SVC Mobile banking apps (com.svcmobile.main / id1143472268), not a UPI app."
+    },
+    {
+      "url": "https://www.svc.bank.in/contact-us",
+      "label": "UPI freeze live fetch 2026-11-01: fraud advisory proves the emergency route verbatim - 'To Report the Fraud:- We need to secure your account against further fraudulent transaction by blocking all your online payment service Eg. For UPI : STOPUPI to 9820620454 For Debit Card : STOPCARD to 9820620454 For Internet Banking : STOPIB to 9820620454'; the page's contact widget shows 'Call SVC Care 1800 313 2120'."
+    },
+    {
+      "url": "https://www.svc.bank.in/mobile-banking",
+      "label": "UPI freeze live fetch 2026-11-01: the Mobile Banking page's service list proves NO in-app UPI lock - it lists 'Stop Debit Card', 'Stop Payment' (cheque), 'Change Debit Card PIN', 'Set Debit Card PIN' and 'Manage Card Usage: Enable / Disable Debit Card usage for E-commerce and International Transactions' but no UPI block/freeze/deregister service for the SVC Mobile / SVC NXT apps."
+    },
+    {
+      "url": "https://www.svc.bank.in/personal-netbanking",
+      "label": "UPI freeze live fetch 2026-11-01: proves NO netbanking UPI manage/disable path - the Personal NetBanking page mentions UPI only in site navigation (the 'Make Payment' menu, the 'Other Channels' menu and the footer sitemap, all linking to /upi), and its 'Service Request' menu lists only 'Block Debit Card' and 'Stop Cheque Payment' - no UPI block, freeze, lock or deregister option anywhere on the page."
     }
   ],
   "lastVerified": "2026-10-30"
