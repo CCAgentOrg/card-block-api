@@ -18,7 +18,10 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +39,10 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -54,7 +60,10 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,7 +80,10 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -88,7 +100,10 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -108,7 +123,10 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -124,7 +142,10 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -145,7 +166,78 @@
             "https://tgcab.bank.in/contact/help-desk",
             "https://tgcab.bank.in/services/atm-services",
             "https://tgcab.bank.in/services/mobile-banking",
-            "https://tgcab.bank.in/services/internet-banking"
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 18005998866 for UPI block/freeze assistance.",
+          "phone": "18005998866",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.infrasofttech.tsc | iOS: https://apps.apple.com/in/app/tscab/id1415635104",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.infrasofttech.tsc",
+            "https://apps.apple.com/in/app/tscab/id1415635104"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "The bank's official pages publish no self-service UPI freeze: the dedicated UPI Services page proves UPI runs through the TGCAB App ('UPI Payments: Send and receive money instantly using your UPI ID, mobile number, or QR code', plus Scan & Pay and Pay to UPI ID / Mobile Number), and the app's 'Services Offered' list includes the 'UPI' tile alongside NEFT/IMPS, but no in-app UPI lock/freeze/deregister menu path is published - the in-app 'Debit Card Controls' tile covers cards only, so hotlisting the RuPay debit card does not freeze UPI. The only published stop mechanism is for AutoPay mandates: 'Customers can create, view, modify, pause/resume, or cancel eligible UPI mandates through the Bank's supported UPI/mobile banking channels, subject to applicable terms and conditions' - pausing/cancelling stops recurring UPI debits only, not all UPI access. Emergency fallback is the bank-wide Help Desk: 'Toll free 18005998866' (no UPI-specific helpline published), Customer Support '+(040) 24685660 (8 am to 8pm - on working days only)' and '+(040) 23443812', or 'Drop a Mail: helpdesk@tgcab.bank.in'. No netbanking UPI manage/disable path (Internet Banking feature list: 'Balance enquiry', 'Account Statement', 'Loan Statement', 'Fixed Deposit Details', 'Loan Certificate'), no UPI SMS keyword and no *99#/USSD channel appear on any fetched official page.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://tgcab.bank.in/contact/help-desk",
+            "https://tgcab.bank.in/services/atm-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/services/internet-banking",
+            "https://tgcab.bank.in/services/upi-services",
+            "https://tgcab.bank.in/services/mobile-banking",
+            "https://tgcab.bank.in/contact/help-desk"
           ],
           "confirmations": {
             "worked": 0,
@@ -163,7 +255,10 @@
       "https://tgcab.bank.in/contact/help-desk",
       "https://tgcab.bank.in/services/atm-services",
       "https://tgcab.bank.in/services/mobile-banking",
-      "https://tgcab.bank.in/services/internet-banking"
+      "https://tgcab.bank.in/services/internet-banking",
+      "https://tgcab.bank.in/services/upi-services",
+      "https://tgcab.bank.in/services/mobile-banking",
+      "https://tgcab.bank.in/contact/help-desk"
     ]
   }
 }
