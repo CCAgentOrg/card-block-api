@@ -16,6 +16,13 @@
     },
     "credit": {
       "notes": "No credit-card blocking channel is published on the bank's own pages. Punjab & Sind Bank's credit cards are the 'PSB SBI Co-branded Credit Card' (PRIME/ELITE); its credit-cards page lists only fees and rewards — no block instructions, no credit-card helpline and no SBI Card contact — while the Card Block/Hotlisting page and the Contact page's hot-listing entry cover only ATM/Debit (RuPay) cards. The old entry's credit numbers (1800-227-034, 011-2718-0000) and email customercare@punjabandsindbank.co.in appear nowhere on the current official site; the all-India toll-free 1800-419-8300 listed under debit is the bank's published customer-care line, but no official page states it as a credit-card block channel."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.psb.omnicorporate",
+      "iosApp": "https://apps.apple.com/in/app/psb-unic/id1597657276",
+      "tollFree": "1800-419-8300",
+      "notes": "UPI runs through the bank's 'PSB UNIC BHIM App' (UPI page, titled 'UPI | Instant & Secure Digital Payment System'; VPAs like 'choice@psb or choice@psbpay') and its published features include 'User can also block VPA and report SPAM too.' — the only UPI-blocking capability the bank publishes. The bank-hosted 'PSB UnIC- UPI FAQs' PDF gives the full withdrawal path: 'How can I de-register from UPI App?' → 'Please Login into App. Choose Others --> De-register.'; for a lost phone it advises only 'get your mobile number blocked through your service provider' (the app PIN protects logins/transactions); disputes go via 'Menu --> profile --> log a dispute'; and to 'Can I get your Customer Care Number…' it answers 'You may call on our Toll Free number 1800 419 8300.' The homepage's 'Download PSB UnIC app' buttons link the App Store listing psb-unic (id1597657276) and the Google Play listing com.psb.omnicorporate — that Play listing is currently titled 'PSB UnIC Biz - Apps on Google Play' (the retail registration doc says 'Download Punjab and Sind Bank PSB UnIC app from google play store'). No in-app UPI transactions on/off lock, no netbanking UPI manage/disable path, no UPI SMS keyword and no *99# USSD reference is published on the bank's own pages (the IMPS/USSD page carries no *99# content).",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -34,6 +41,18 @@
     {
       "url": "https://www.punjabandsind.bank.in/content/credit-cards",
       "label": "live fetch 2026-10-30: 'PSB Credit Cards' page shows only the PSB SBI Co-branded Credit Cards (PRIME/ELITE) with fees, rewards and offers ('PSB SBI Co Branded Credit Card Offers') — no blocking instructions, no credit-card helpline and no sbicard.com link anywhere on the page"
+    },
+    {
+      "url": "https://www.punjabandsind.bank.in/content/upi",
+      "label": "UPI freeze live fetch 2026-11-01: page titled 'UPI | Instant & Secure Digital Payment System' — UPI via the 'PSB UNIC BHIM App' (VPAs 'choice@psb or choice@psbpay'), features list includes 'User can also block VPA and report SPAM too.'; page links 'UPI FAQs' PDF (system/uploads/document/2150_2024101616582417287.pdf), 'Digital Kit for UPI' PDF and 'UnIC FAQ' PDF (2150_2026020516332533860.pdf); no netbanking UPI manage path"
+    },
+    {
+      "url": "https://www.punjabandsind.bank.in/system/uploads/document/2150_2024101616582417287.pdf",
+      "label": "UPI freeze live fetch 2026-11-01: 'PSB UnIC- UPI FAQs' PDF — 'How can I de-register from UPI App?' → 'Please Login into App. Choose Others --> De-register.'; lost phone: 'get your mobile number blocked through your service provider'; dispute option 'Menu --> profile --> log a dispute'; 'Can I get your Customer Care Number in case I wish to ask a question? You may call on our Toll Free number 1800 419 8300.'"
+    },
+    {
+      "url": "https://www.punjabandsind.bank.in/",
+      "label": "UPI freeze live fetch 2026-11-01: homepage 'Download PSB UnIC app' buttons link https://apps.apple.com/in/app/psb-unic/id1597657276 and https://play.google.com/store/apps/details?id=com.psb.omnicorporate (Play listing title 'PSB UnIC Biz - Apps on Google Play' verified live on play.google.com); UPI FAQs PDF registration doc: 'Download Punjab and Sind Bank PSB UnIC app from google play store'"
     }
   ],
   "lastVerified": "2026-10-30"
