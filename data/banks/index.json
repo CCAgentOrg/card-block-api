@@ -3,8 +3,8 @@
   "updated": "2026-11-01",
   "count": 61,
   "freshness": {
-    "fresh": 43,
-    "aging": 13,
+    "fresh": 55,
+    "aging": 1,
     "stale": 5
   },
   "banks": [
@@ -39,9 +39,9 @@
       "card_types": [
         "credit"
       ],
-      "method_count": 4,
+      "method_count": 6,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "apg",
@@ -308,9 +308,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 19,
+      "method_count": 18,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "hsbc",
@@ -321,9 +321,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 13,
+      "method_count": 15,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "icici",
@@ -334,9 +334,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 15,
+      "method_count": 17,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "idbi",
@@ -360,9 +360,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 9,
+      "method_count": 12,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "indian-bank",
@@ -398,9 +398,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 16,
+      "method_count": 17,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "j-k-bank",
@@ -551,9 +551,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 19,
+      "method_count": 15,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "rajasthan-state-coop",
@@ -576,9 +576,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 9,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "saraswat-bank",
@@ -599,11 +599,12 @@
       "type": "private",
       "card_types": [
         "debit",
+        "credit",
         "upi"
       ],
-      "method_count": 7,
+      "method_count": 13,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "shamrao-vithal",
@@ -651,9 +652,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 17,
+      "method_count": 18,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "suryoday-small-finance",
@@ -740,9 +741,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 16,
+      "method_count": 17,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-04"
+      "last_verified": "2026-11-01"
     },
     {
       "slug": "utkarsh",
@@ -778,9 +779,9 @@
         "credit",
         "upi"
       ],
-      "method_count": 13,
+      "method_count": 19,
       "verification_status": "agent_verified",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-11-01"
     }
   ]
 }
