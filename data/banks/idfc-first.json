@@ -2,7 +2,7 @@
   "name": "IDFC FIRST Bank",
   "slug": "idfc-first",
   "type": "private",
-  "website": "https://www.idfcfirstbank.com",
+  "website": "https://www.idfcfirst.bank.in/service-request?sr=ccb",
   "cards": [
     {
       "type": "debit",
@@ -10,15 +10,38 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800 266 9970 and follow the IVR to hotlist the card.",
-          "phone": "1800 266 9970",
+          "instructions": "Call 1800 10 888 and follow the IVR to hotlist the card.",
+          "phone": "1800 10 888",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "email",
+          "instructions": "Email banker@idfcfirstbank.com from your registered email to request card blocking.",
+          "email": "banker@idfcfirstbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -27,15 +50,18 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.idfcfirstbank.com and use the card block/hotlist option.",
-          "url": "https://www.idfcfirstbank.com",
+          "instructions": "Log in to internet banking at https://www.idfcfirst.bank.in/customer-care-sr/debit-card-block and use the card block/hotlist option.",
+          "url": "https://www.idfcfirst.bank.in/customer-care-sr/debit-card-block",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -44,14 +70,17 @@
         },
         {
           "channel": "other",
-          "instructions": "Customer service page: 'Block your Debit Card - Call us on 1800 266 9970'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking.",
+          "instructions": "Customer care 1800 10 888 is toll-free and available 24/7 ('Call us on 1800 10 888 — We are available 24/7 for you'). Permanent block/hotlist per the bank's debit-card FAQ: in the mobile banking app go to Accounts → Cards tab, choose the card, select 'Permanently Block'; or visit the nearest branch; or call 1800 10 888. Self-service: the 'Block your Debit Card' tile on the customer-care pages opens idfcfirst.bank.in/customer-care-sr/debit-card-block. Lost card: block permanently via the Mobile Banking app or customer support 180010888; a replacement debit card can be requested at the time of blocking or later. After blocking, report unauthorized transactions to banker@idfcfirstbank.com or 180010888. No SMS block keyword is published for debit cards. Overseas (NRI customer care, toll-free unless noted): USA 18337039805, Canada 18337039811, UK 448000 478 414, UAE 8000 187 922, Singapore 800 101 4006, Australia 1800314585; full table on the bank's customer-care page. WhatsApp banking: say 'Hi' on 9555 555 555.",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -69,12 +98,35 @@
           "instructions": "Call 1800 10 888 and follow the IVR to hotlist the card.",
           "phone": "1800 10 888",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "email",
+          "instructions": "Email banker@idfcfirstbank.com from your registered email to request card blocking.",
+          "email": "banker@idfcfirstbank.com",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -83,15 +135,37 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.idfcfirstbank.com and use the card block/hotlist option.",
-          "url": "https://www.idfcfirstbank.com",
+          "instructions": "Log in to internet banking at https://www.idfcfirst.bank.in/service-request?sr=ccb and use the card block/hotlist option.",
+          "url": "https://www.idfcfirst.bank.in/service-request?sr=ccb",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS SMS 'CCBLOCK1234' to 5676732 — the numbers \"1234\" represent the last 4 digits of your card from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -100,14 +174,17 @@
         },
         {
           "channel": "other",
-          "instructions": "Customer service page: 'Block your Credit Card - Call us on 1800 10 888'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking.",
+          "instructions": "Customer care 1800 10 888 ('For Accounts, Credit Cards, Loans, and Other banking services') is available 24x7. Block paths per the bank's credit-card FAQ: mobile app → 'Manage Cards' → 'Block Card'; internet banking → 'Credit Cards' section → 'Block Card'; the 24x7 helpline; or SMS 'CCBLOCK1234' to 5676732 (1234 = last 4 digits of the card). Self-service: 'Block your Credit Card' service request at idfcfirst.bank.in/service-request?sr=ccb. If the card is lost or stolen, block it immediately via mobile banking or customer care; after blocking, report unauthorized transactions to banker@idfcfirstbank.com or 180010888. Overseas (NRI customer care, toll-free unless noted): USA 18337039805, Canada 18337039811, UK 448000 478 414, UAE 8000 187 922, Singapore 800 101 4006, Australia 1800314585; full table on the bank's customer-care page. WhatsApp banking: say 'Hi' on 9555 555 555.",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -127,10 +204,13 @@
           "confidence": 0.85,
           "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -147,10 +227,13 @@
           "confidence": 0.85,
           "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -163,10 +246,13 @@
           "confidence": 0.85,
           "last_verified": "2026-11-01",
           "sources": [
-            "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
             "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
             "https://www.idfcfirst.bank.in/customer-care",
-            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+            "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+            "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+            "https://www.idfcfirst.bank.in/credit-card",
+            "https://www.idfcfirst.bank.in/customer-care",
+            "https://www.idfcfirst.bank.in/service-request?sr=ccb"
           ],
           "confirmations": {
             "worked": 0,
@@ -179,12 +265,15 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-25",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
       "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
       "https://www.idfcfirst.bank.in/customer-care",
-      "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction"
+      "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
+      "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+      "https://www.idfcfirst.bank.in/credit-card",
+      "https://www.idfcfirst.bank.in/customer-care",
+      "https://www.idfcfirst.bank.in/service-request?sr=ccb"
     ]
   }
 }
