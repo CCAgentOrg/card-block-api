@@ -23,6 +23,13 @@
       "iosApp": "https://apps.apple.com/in/app/kvb-dlite-mobile-banking/id1428536937",
       "reference": "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf",
       "notes": "KVB Credit Cards (Retail/Corporate), per the bank's hotlisting PDF (verbatim): \"Request to block & reissue of card can be made through following channels: Mobile Banking (Dlite)/ Net Banking: Credit Cards -> My Cards -> Block Card -> Select Reason (Lost/ Stolen/ Damaged) -> Block Permanently; Helpline Number: 1800-419-6500 (Toll free); E-mail: creditcardsupport@kvbmail.com (Only on bank working days 10:00 AM-6:00 PM)\". Contact page, \"For Grievances Related to Corporate Credit Card\": \"24 hours helpline numbers: 1800 419 6500 (Local charges Applicable)\", e-mail creditcardsupport@kvb.bank.in and customersupport@kvb.bank.in. Bank-wide lines also apply: \"To report unauthorized / suspicious transactions / Loss / theft of card : 1800 572 1916 (Toll Free)\", \"Helpline (Domestic): 1860 258 1916 (Local charges Applicable)\", \"Helpline (Outside India): +91 44 - 66217600\"; the homepage footer mentions the \"National Cyber Crime Helpline Number: 1930\". No SMS block keyword/short code is published for KVB-issued credit cards on the fetched pages; the net-banking route above is the PDF's verbatim menu path and the PDF names no portal URL. The bank's homepage also links a separate hot-listing FAQ for co-branded KVB SBI credit cards (/docs/sbi-card-hot-listing-and-reissuance-faq.pdf)."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mycompany.kvb",
+      "iosApp": "https://itunes.apple.com/in/app/kvb-upay/id1258079462",
+      "tollFree": "1800 572 1916",
+      "notes": "KVB publishes no dedicated UPI lock menu path; its UPI page lists the UPI apps as \"BHIM KVB Upay\" (Android: com.mycompany.kvb, Current Version 1.1.29 with SHA256 checksum; iOS: kvb-upay id1258079462, Version 1.1.21) and \"KVB - DLite\" (Android com.kvb.mobilebanking / iOS id1428536937), with \"24 x 7 / Available for operations\". In-app: per the bank's UPI Lite FAQ, \"The UPI application will have the option to disable/delete the UPI LITE account. Upon clicking disable button, the balance funds available with the bank in LITE account shall be transferred to the customer's account.\"; for a lost mobile device, \"Customer can approach the Bank of the account which is registered for the UPI & UPI LITE transactions to disable the UPI facility and to get the refund of the balance available (if any) in the UPI LITE.\" No UPI-specific helpline is published — the bank-wide lines apply: \"To report unauthorized / suspicious transactions / Loss / theft of card : 1800 572 1916 (Toll Free)\", Helpline (Domestic) 1860 258 1916, email customersupport@kvb.bank.in; the DLite FAQ's app-support fallback is \"Alternatively you can call - 1860 258 1916 (Local charges Applicable) / Mail to customersupport@kvb.bank.in from your registered mail id.\" Caveats: DLite's \"Card Control->Hotlist\" and Card On/Off block only card channels (ATM/POS/eComm), not UPI, so hotlisting a card does not freeze UPI; no netbanking UPI manage/disable path is published — the internet-banking overview page's only UPI references are Digital Products menu links to the KVB UPI and KVB UPI LITE product pages; no UPI SMS keyword and no *99#/USSD channel appear on the fetched KVB pages.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -41,6 +48,22 @@
     {
       "url": "https://www.kvb.bank.in/docs/kvb-credit-card-hotlisting.pdf",
       "label": "live fetch 2026-10-30: \"KVB Credit Cards (Retail/Corporate) — How do I block my credit card? ... Request to block & reissue of card can be made through following channels: Mobile Banking (Dlite)/ Net Banking: Credit Cards -> My Cards -> Block Card -> Select Reason (Lost/ Stolen/ Damaged) -> Block Permanently; Helpline Number: 1800-419-6500 (Toll free); E-mail: creditcardsupport@kvbmail.com (Only on bank working days 10:00 AM-6:00 PM)\""
+    },
+    {
+      "url": "https://www.kvb.bank.in/personal/digital-products/kvb-upi/",
+      "label": "UPI freeze live fetch 2026-11-01: KVB UPI product page — UPI apps listed as \"BHIM KVB Upay (Android)\" (https://play.google.com/store/apps/details?id=com.mycompany.kvb, \"Current Version - 1.1.29\" + SHA256 checksum) and \"BHIM KVB Upay (iOS)\" (https://itunes.apple.com/in/app/kvb-upay/id1258079462, \"Current Version - 1.1.21\"), plus \"KVB - DLite (Android)\" (com.kvb.mobilebanking) and \"KVB - DLite (iOS)\" (id1428536937); highlights \"24 x 7 / Available for operations\" and a UPI chargeback/dispute rules table; site footer on the page: \"To report unauthorized / suspicious transactions / Loss / theft of card — 1800 572 1916 (Toll Free)\"; the page publishes no UPI block/freeze/disable menu path"
+    },
+    {
+      "url": "https://www.kvb.bank.in/faqs/kvb-upi-lite-faqs",
+      "label": "UPI freeze live fetch 2026-11-01: \"FAQs on KVB UPI LITE\" — Q2 \"How will a customer disable UPI LITE account?\": \"The UPI application will have the option to disable/delete the UPI LITE account. Upon clicking disable button, the balance funds available with the bank in LITE account shall be transferred to the customer's account.\"; Q3(ii) lost mobile device: \"In case of lost of mobile device, Customer can approach the Bank of the account which is registered for the UPI & UPI LITE transactions to disable the UPI facility and to get the refund of the balance available (if any) in the UPI LITE.\""
+    },
+    {
+      "url": "https://www.kvb.bank.in/faqs/faqs-on-dlite-mobile-application",
+      "label": "UPI freeze live fetch 2026-11-01: FAQs on KVB DLite — \"Unified Payment Interface (UPI)\" listed among in-app services; card-block paths are card-only: \"You can hotlist the debit card in KVB - DLite under Card Control->Hotlist\" and spend-limit/Card On/Off blocks cover only ATM/POS/eComm card transactions; app-support fallback \"Alternatively you can call - 1860 258 1916 (Local charges Applicable) / Mail to customersupport@kvb.bank.in from your registered mail id\"; no UPI block/disable path published in the FAQ"
+    },
+    {
+      "url": "https://www.kvb.bank.in/ways-to-bank/internet-banking/internet-banking-overview/",
+      "label": "UPI freeze live fetch 2026-11-01: internet-banking overview — the page's only UPI references are two Digital Products menu links, \"KVB UPI\" (to /personal/digital-products/kvb-upi/) and \"KVB UPI LITE\" (to /personal/digital-products/kvb-upi-lite/); it publishes no netbanking UPI manage/disable path, no UPI SMS keyword and no *99#/USSD channel"
     }
   ],
   "lastVerified": "2026-10-30"
