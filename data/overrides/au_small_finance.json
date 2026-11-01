@@ -23,6 +23,14 @@
       "website": "https://netbanking.au.bank.in/drb/",
       "reference": "https://www.au.bank.in/personal-banking/credit-cards",
       "notes": "24x7 credit-card helpline 1800 1200 1500 (toll-free); non-toll-free 0141-7141100. Block via IVR: call 1800 1200 1500 and select the prompt \"Report Lost or Stolen card\" (report page: dial 2 for lost/stolen); AU 0101 app: Cards > Credit Card > 'Block/Unblock Credit Card'; AURO chatbot: Cards > Credit Card Services > 'Block and Reissue Lost/Stolen Card'; website credit-cards section 'Block Lost/Stolen Card'; AU 0101 NetBanking can block debit or credit cards immediately. SMS block from registered mobile number to 5676767: TBLOCK (temporary) or PBLOCK (permanent) with last 4 digits + Customer ID. Email creditcard.support@aubank.in; premium cards (Vetta, Zenith & Zenith+): creditcard.priority@aubank.in. Overseas/NRI (non-toll-free, calling from overseas): +91 141-7141000, +91 141-6673220. 1930 is not mentioned on the bank's pages."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb",
+      "iosApp": "https://apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687",
+      "tollFree": "1800 1200 1200",
+      "website": "https://netbanking.au.bank.in/drb/",
+      "notes": "UPI on AU Bank is a feature of the bank's AU 0101 App (BHIM UPI); the NetBanking FAQ states UPI payments are not possible on NetBanking and points to the AU 0101 App, so the app is the bank's published UPI channel and no NetBanking UPI manage path exists. No in-app UPI pause/lock toggle is published on the bank's pages. Published freeze route (app FAQ, 'How do I de-register from AU 0101 App if my phone is lost/stolen?'): 'You can deregister for AU 0101 App through AU 0101 NetBanking' — log in at https://netbanking.au.bank.in/drb/, go to Settings in the main menu and 'select De-Register to deregister your lost/stolen device'; the AU 0101 App carries the bank's UPI profile, so this deregistration is the only published way to cut off UPI access from a lost/stolen device (re-register on a replacement device to restore). Fallback: 24x7 customer care 1800 1200 1200 / 1800 26 66677 (toll-free; non-toll-free 1860 1200 1200) — for unauthorised electronic transactions, file 'Complaint - Unauthorized electronic transactions' for a callback; debit-account IVR: press 1 to report unauthorised settled transactions; in the app, select the transaction > three dots > 'Report fraud'; or email customercare@aubank.in. The bank points online-fraud victims to cybercrime.gov.in. No UPI SMS keyword and no *99# USSD mention on the bank's pages; 1930 is not mentioned.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -41,6 +49,18 @@
     {
       "url": "https://www.au.bank.in/personal-banking/debit-cards",
       "label": "live fetch 2026-10-27: debit FAQ 'What can I do if the Debit Card is stolen?' — 'Block your Debit Card instantly via AU 0101 App, NetBanking, Auro Chatbot or by calling the customer care at 1800 1200 1200'; page links AU 0101 NetBanking login https://netbanking.au.bank.in/drb/ and official app stores: play.google.com/store/apps/details?id=com.ausmallfinancebank.amb and apps.apple.com/in/app/au-0101-banking-app-upi-fd/id1532869687"
+    },
+    {
+      "url": "https://www.au.bank.in/personal-banking/digital-banking/au-0101-mobile-banking-app/faqs",
+      "label": "UPI freeze live fetch 2026-11-01: app FAQ 'How do I de-register from AU 0101 App if my phone is lost/stolen?' — 'You can deregister for AU 0101 App through AU 0101 NetBanking', Settings in the main menu > 'De-Register' to deregister your lost/stolen device (the AU 0101 App is the bank's UPI channel); no in-app UPI pause/lock toggle published anywhere on the page"
+    },
+    {
+      "url": "https://www.au.bank.in/personal-banking/digital-banking/au-0101/au-0101-netbanking/faqs",
+      "label": "UPI freeze live fetch 2026-11-01: netbanking FAQ 'Can I transfer money/ make payment with UPI on AU 0101 NetBanking?' — UPI payments are not available on NetBanking, answer points to the AU 0101 App; confirms AU 0101 NetBanking login URL https://netbanking.au.bank.in/drb/"
+    },
+    {
+      "url": "https://www.au.bank.in/report-unauthorised-transactions",
+      "label": "UPI freeze live fetch 2026-11-01: unauthorised-electronic-transaction fallback relevant to UPI fraud — call 1800 1200 1200 / 1800 26 66677 and file 'Complaint - Unauthorized electronic transactions' for a callback; debit IVR: press 1 for unauthorised settled transactions; app: transaction > three dots > 'Report fraud'; email customercare@aubank.in; online-fraud victims pointed to cybercrime.gov.in; no UPI block/deregister or *99# instructions on this page"
     }
   ],
   "lastVerified": "2026-10-27"
