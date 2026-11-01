@@ -21,6 +21,11 @@
       "website": "https://www.esaf.bank.in/support/block-card/",
       "reference": "https://www.esaf.bank.in/support/block-card/",
       "notes": "The bank's 'Block Card' page explicitly covers blocking a credit card ('Debit, Credit or any other card issued by the bank'): call 1-800-103-3723 (toll-free) or 080-4552-0100, email customercare@esafbank.com, or visit the nearest ESAF branch - no separate credit-card helpline is published. The contact page labels 080-4552-0100 'Paid line for NRI customers' (no dedicated overseas number) and no call-centre hours are stated. No credit-card SMS block keyword or netbanking block path is published, and no page documents an in-app card-block menu: the footer of every page links the bank's 'ESAF Bank' mobile banking app on Google Play (com.esaf.mobileBanking) and the App Store (id1223831586), while the banner's newer ESAF JOY PLUS app (Android; iOS 'awaiting Apple's approval') carries no store link. The bank's cyber-fraud page directs online-fraud victims to the national cybercrime helpline 1930 / cybercrime.gov.in."
+    },
+    "upi": {
+      "tollFree": "1-800-103-3723",
+      "notes": "The bank's dedicated 'Block UPI' page (footer-linked on every page, including the Block Card page) is the only published UPI-freeze channel: 'To Block your UPI debit services, send an SMS from your registered mobile number to 9990016467 in the format UPIBLOCK XXXX where XXXX is your Last 4 digit of the account Number. To unblock, kindly visit the nearest branch.' No in-app UPI lock/freeze menu path and no netbanking UPI manage path are published — the mobile-banking page lists emergency service requests as 'Hotlisting of cards, stop cheque payment, generation of ATM pin' only — and no *99# USSD channel is mentioned on any page fetched. No dedicated UPI helpline exists; tollFree is the general contact centre from the customer-service page ('1-800-103-3723 which is (1-800-103 - ESAF) - Toll free'; 080-4552-0100 is the 'Paid line for NRI customers'). No live app-store link exists for either bank app, so no androidApp/iosApp is recorded: the footer of every page (including the Block UPI page and the bank's Oct 26, 2026 'digital banking services are now live' announcement) still links the legacy 'ESAF Bank' app on Google Play (com.esaf.mobileBanking) and the App Store (id1223831586), but on 2026-11-01 the iTunes lookup for id=1223831586 returned resultCount 0 and both store URLs returned HTTP 404; the site banner says the replacement ESAF JOY PLUS app is available on Android with iOS 'awaiting Apple's approval' and iOS users may use Retail Internet Banking in the meantime, yet no store link for the JOY PLUS app is published anywhere on the site.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -39,6 +44,18 @@
     {
       "url": "https://www.esaf.bank.in/",
       "label": "live fetch 2026-10-27: header shows '1-800-103-3723 / 080-4552-0100'; banner: 'Our digital banking services are now live. ESAF JOY PLUS app is available on Android, while the iOS app is awaiting Apple's approval. iOS users may use Retail Internet Banking in the meantime.'; footer carries the bank's app-store links https://play.google.com/store/apps/details?id=com.esaf.mobileBanking and https://apps.apple.com/in/app/esaf-bank/id1223831586 (twice each, for the 'ESAF Bank' app); no store link for the JOY PLUS app appears; old esafbank.com domain 301-redirects here"
+    },
+    {
+      "url": "https://www.esaf.bank.in/block-upi/",
+      "label": "UPI freeze live fetch 2026-11-01: dedicated 'Block UPI' page - 'To Block your UPI debit services, send an SMS from your registered mobile number to 9990016467 in the format UPIBLOCK XXXX where XXXX is your Last 4 digit of the account Number. To unblock, kindly visit the nearest branch.'; page footer links the bank's 'ESAF Bank' app on Google Play (com.esaf.mobileBanking) and App Store (id1223831586), but both listings are dead as of 2026-11-01 (iTunes lookup id=1223831586 resultCount 0; both store URLs HTTP 404) so no live app-store URL is published - see upi notes"
+    },
+    {
+      "url": "https://www.esaf.bank.in/customer-service/",
+      "label": "UPI freeze live fetch 2026-11-01: contact centre '1-800-103-3723 which is (1-800-103 - ESAF) - Toll free' and '080-45520100 - Paid line for NRI customers'; no dedicated UPI helpline published"
+    },
+    {
+      "url": "https://www.esaf.bank.in/channel/mobile-banking/",
+      "label": "UPI freeze live fetch 2026-11-01: emergency service requests list only 'Hotlisting of cards, stop cheque payment, generation of ATM pin' - no in-app UPI lock/freeze menu path and no netbanking UPI manage path published"
     }
   ],
   "lastVerified": "2026-10-27"
