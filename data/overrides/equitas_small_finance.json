@@ -22,6 +22,13 @@
       "email": "customerservice@equitas.bank.in",
       "reference": "https://equitas.bank.in/unauthorized-transaction/",
       "notes": "Site-wide footer labels 1800-103-2977 'Loans/Credit Card related'; the credit-cards page contact module also publishes 'Call us at 1800 103 1222' and email customerservice@equitas.bank.in; no separate hours are stated for credit cards (the 1800 103 1222 line is published as 24-hr for banking). +91-44-6965-4600 for calls from outside India. SMS BLOCK CC works from the registered mobile number; report unauthorized card transactions to unauthtrnx@equitas.bank.in; the bank's page also advises the national cybercrime helpline 1930."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.equitas.elevate",
+      "iosApp": "https://apps.apple.com/in/app/equitas-2-0/id6449971923",
+      "tollFree": "1800-103-1222",
+      "notes": "Unauthorized-transaction page: 'To Block your UPI, send SMS to 7045030000 by typing BLOCK UPI from your registered mobile number.' Phone: 'You may call our toll free number 18001031222 / International number: +91-44-4004-8500 for other queries'; footer lists 'Banking related : 1800-103-1222' and 'For Countries outside India : +91-44-6965-4600'. The Equitas 2.0 app carries UPI ('tap Scan & Pay on the home screen or select UPI Transfer under the Payments section' to register and create your UPI ID), but the bank publishes no dedicated in-app UPI freeze toggle — the published freeze paths are card-level ('Cards - Block card' / 'Cards - Freeze card') and account-level ('Accounts - Freeze account'), and the NetBanking/MobileBanking fraud path (Account Statement > select disputed transaction > 'Raise a fraud dispute') is stated for account/debit card. The bank's pages link the NPCI UPI Help portal (https://www.upihelp.npci.org.in/) for UPI-related disputes; the page also advises the National Cyber Crime Helpline 1930.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -40,6 +47,14 @@
     {
       "url": "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/",
       "label": "live fetch 2026-10-27: Equitas 2.0 app store links — https://play.google.com/store/apps/details?id=com.equitas.elevate and https://apps.apple.com/in/app/equitas-2-0/id6449971923; app 'Card Management' section: 'Manage your debit cards ... Freeze, block, set limits & much more'"
+    },
+    {
+      "url": "https://equitas.bank.in/unauthorized-transaction/",
+      "label": "UPI freeze live fetch 2026-11-01: proves SMS UPI block — 'To Block your UPI, send SMS to 7045030000 by typing BLOCK UPI from your registered mobile number'; 'You may call our toll free number 18001031222 / International number: +91-44-4004-8500 for other queries'; footer toll-free list 'Banking related : 1800-103-1222', 'For Countries outside India : +91-44-6965-4600'; site-wide 'UPI Help' widget links https://www.upihelp.npci.org.in/ beside tel:18001031222; NetBanking/MobileBanking 'Raise a fraud dispute' steps stated for account/debit card only"
+    },
+    {
+      "url": "https://equitas.bank.in/personal-banking/ways-to-bank/mobile-banking/",
+      "label": "UPI freeze live fetch 2026-11-01: Equitas 2.0 app store links (Google Play com.equitas.elevate, App Store id6449971923) and app UPI path — 'tap Scan & Pay on the home screen or select UPI Transfer under the Payments section' to register UPI; FAQ publishes card-level freeze ('Cards - Block card' / 'Cards - Freeze card') and account-level 'Accounts - Freeze account' but no dedicated in-app UPI freeze toggle"
     }
   ],
   "lastVerified": "2026-10-27"
