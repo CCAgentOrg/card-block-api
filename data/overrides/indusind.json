@@ -24,12 +24,42 @@
       "notes": "Phone banking 1860-267-7777. SMS 'LOST <DOB MMDDYYYY>' to 9223512966 (single-card holders). IndusNet + Indus Mobile app also supported.",
       "androidApp": "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
       "iosApp": "https://apps.apple.com/in/app/indusind-bank/id389114565"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.induspsp",
+      "tollFree": "1860-267-7777",
+      "notes": "No UPI freeze/deregister path is published: the bank's unauthorized-transactions page lists block mechanisms for 'Debit Card, Credit Card, Net Banking and Mobile Banking' only. In the INDIE mobile banking app, UPI is managed under the home-page 'Manage UPI' hub — dispute a UPI transaction via 'Manage UPI' > 'My UPI Transactions' > 'View All' > select the transaction > 'Raise Dispute'; collect requests can be 'Pay, Decline or Mark as SPAM' under 'Manage UPI' > 'My Payment Requests'. To report an unauthorized transaction the page says 'To report an unauthorized transaction(s): Click Here', opening the bank's Online Dispute Resolution portal (https://www.indusind.bank.in/in/en/microsites/forms/online-dispute-resolution.html — mobile + DOB OTP login, complaint type 'Fraudulent Transaction', fields include 'UPI VPA (Virtual Payment Address)'); it also says 'Call Helpline Number 1930' or report at cybercrime.gov.in. Phone Banking 1860 267 7777 (site-wide header incl. the bank's UPI page https://www.indusind.bank.in/in/en/personal/payment-solutions/upi.html; the unauthorized-transaction call line names 'Debit Card / Net Banking / Mobile Banking', not UPI). The bank's USSD page (https://www.indusind.bank.in/in/en/personal/mobile-banking-services/indus-mobile-ussd.html) publishes UPI over *99# — 'Simply dial *99#' or *99*69# (quick codes e.g. *99*1# fund transfer), services include 'UPI ID management' and 'Set UPI PIN' — a transaction channel, not a freeze channel. androidApp is the 'Download Now' link on the bank's BHIM IndusPay microsite (Android only; INDIE app store links are published only as QR codes and no iOS store URL is published for IndusPay). The bank's UPI page links NPCI's 'My UPI' self-service ('Explore Now' → https://www.upihelp.npci.org.in/) to view/manage linked bank accounts, UPI IDs, UPI-enabled apps and active mandates. No netbanking UPI manage/disable path is published on official pages.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
     {
       "url": "https://www.indusind.com/in/en/personal/customer-limited-liability.html",
       "label": "IndusInd unauthorized transaction page (live fetch: 1860 267 7777, SMS BLOCK to 5676757, LOST to 9223512966)"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/personal/customer-limited-liability.html",
+      "label": "UPI freeze live fetch 2026-11-01: 'To report an unauthorized transaction(s): Click Here' → Online Dispute Resolution portal ('Fraudulent Transaction', 'UPI VPA (Virtual Payment Address)' field); block mechanisms cover Debit Card/Credit Card/Net Banking/Mobile Banking only (no UPI section); Phone Banking 1860 267 7777; 'Call Helpline Number 1930' / cybercrime.gov.in"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/microsites/indie-app.html",
+      "label": "UPI freeze live fetch 2026-11-01: INDIE app UPI FAQs — home-page 'Manage UPI' hub; dispute via 'Manage UPI' > 'My UPI Transactions' > 'View All' > 'Raise Dispute'; 'My Payment Requests' offers Pay/Decline/Mark as SPAM; no in-app UPI freeze/deregister path published"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/microsites/induspay.html",
+      "label": "UPI freeze live fetch 2026-11-01: BHIM IndusPay microsite 'Download Now' → play.google.com/store/apps/details?id=com.mgs.induspsp (Android only, no iOS store link published)"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/personal/mobile-banking-services/indus-mobile-ussd.html",
+      "label": "UPI freeze live fetch 2026-11-01: bank USSD page — 'Simply dial *99# from your mobile', *99*69# session code, quick codes ('*99*1#' fund transfer), services include 'UPI ID management' and 'Set UPI PIN'; a UPI transaction channel, not a freeze channel"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/personal/payment-solutions/upi.html",
+      "label": "UPI freeze live fetch 2026-11-01: bank UPI page — 'About My UPI': NPCI customer self-service platform, 'Explore Now' links https://www.upihelp.npci.org.in/ (view/manage linked bank accounts, UPI IDs, UPI-enabled applications, active mandates); header call box 18602677777; no UPI freeze path published"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/microsites/forms/online-dispute-resolution.html",
+      "label": "UPI freeze live fetch 2026-11-01: Online Dispute Resolution portal — OTP login (mobile number + Date of Birth), complaint types 'Transaction Dispute' / 'Fraudulent Transaction', field 'UPI VPA (Virtual Payment Address)'; destination of the 'Click Here' report link on the customer-limited-liability page"
     }
   ],
   "lastVerified": "2026-09-04"
