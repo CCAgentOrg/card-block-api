@@ -202,6 +202,8 @@ function researchAsk(b: BankTarget): string {
     `- Include a key only when an official page you fetched supports it; omit keys you could not verify — never carry a channel over from the old entry without a live source.\n` +
     `- Keep numbers verbatim as the page shows them. "reference" = the strongest official page for blocking. "notes" = one tight paragraph: hours, overseas lines, app menu path, the 1930 national helpline only if the bank's own page mentions it.\n` +
     `- "rmn"/"sms" keys only with exact official wording; "email"/"androidApp"/"iosApp" only when official pages state them.\n` +
+    `- If the file already carries a blockingInstructions.upi section, preserve it byte-exact together with its source entries — UPI verification is a separate loop (C4, #34); do not re-verify, alter, or drop it.\n` +
+    
     `- If the bank is wound up / liquidated / has surrendered its licence (verify from official notices on its site), set "inactive": true on the card type and keep only contacts the official winding-up notices actually publish; the generator then suppresses blocking-claim boilerplate.\n` +
     `- 1-4 source entries; every claim in the file must be traceable to at least one of them.\n` +
     `- Do not edit any other file.\n` +
@@ -216,6 +218,8 @@ function auditAsk(b: BankTarget): string {
     `1. Read ${b.ovrPath}.\n` +
     `2. Fetch each URL in its sources[] live. For every phone number, SMS format and instruction in blockingInstructions, confirm it appears on at least one cited official page (verbatim digits; spacing/country-code formatting differences are fine).\n` +
     `3. Confirm "website" and "reference" resolve and belong to the bank's official domain; that "id" is exactly "${b.id}"; that "lastVerified" is exactly "${verifyDate}"; and that both "debit" and "credit" sections exist (credit may legitimately be absent only if the bank issues no credit cards — check the bank's site).\n` +
+    `3b. UPI preservation: if the pre-task version of the file (git show HEAD:${b.ovrPath}) carried a blockingInstructions.upi section, confirm it and its source entries are byte-identical after the task — any change to the upi section is an issue.\n` +
+    
     `4. Return verdict "confirmed" only when every claim traces to a page you fetched yourself; otherwise "issues" with one precise line per problem (claim vs page).`
   );
 }
