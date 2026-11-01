@@ -18,7 +18,10 @@
             "https://www.airtelpayments.bank.in/static/debit-card-policy",
             "https://www.airtelpayments.bank.in/help-and-support",
             "https://www.airtelpayments.bank.in/static/contact-us",
-            "https://www.airtelpayments.bank.in/products/cards"
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +39,10 @@
             "https://www.airtelpayments.bank.in/static/debit-card-policy",
             "https://www.airtelpayments.bank.in/help-and-support",
             "https://www.airtelpayments.bank.in/static/contact-us",
-            "https://www.airtelpayments.bank.in/products/cards"
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -53,7 +59,10 @@
             "https://www.airtelpayments.bank.in/static/debit-card-policy",
             "https://www.airtelpayments.bank.in/help-and-support",
             "https://www.airtelpayments.bank.in/static/contact-us",
-            "https://www.airtelpayments.bank.in/products/cards"
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -70,7 +79,10 @@
             "https://www.airtelpayments.bank.in/static/debit-card-policy",
             "https://www.airtelpayments.bank.in/help-and-support",
             "https://www.airtelpayments.bank.in/static/contact-us",
-            "https://www.airtelpayments.bank.in/products/cards"
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -90,7 +102,10 @@
             "https://www.airtelpayments.bank.in/static/debit-card-policy",
             "https://www.airtelpayments.bank.in/help-and-support",
             "https://www.airtelpayments.bank.in/static/contact-us",
-            "https://www.airtelpayments.bank.in/products/cards"
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -106,7 +121,78 @@
             "https://www.airtelpayments.bank.in/static/debit-card-policy",
             "https://www.airtelpayments.bank.in/help-and-support",
             "https://www.airtelpayments.bank.in/static/contact-us",
-            "https://www.airtelpayments.bank.in/products/cards"
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800-23400 for UPI block/freeze assistance.",
+          "phone": "1800-23400",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.myairtelapp | iOS: https://apps.apple.com/us/app/airtel-thanks-recharge-bank/id543184334",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.myairtelapp",
+            "https://apps.apple.com/us/app/airtel-thanks-recharge-bank/id543184334"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "UPI freeze is SMS-based, per the bank's own UPI FAQ (frequently-asked-questions, UPI tab): \"Customers need to send “Disable” to 9205832352 from their registered mobile number to disable UPI services on Airtel Payments Bank account\"; for the savings account, \"send an SMS \"Disable UPI\" to 50400\" — re-enable later with SMS \"Enable UPI\" to 50400. No netbanking UPI manage path, no USSD *99# and no dedicated in-app UPI-lock menu are published on the bank's pages. For UPI complaints the FAQ says \"You have the option to either call us or raise a complaint within the mobile application itself. In Airtel Thanks app, you can navigate to \"More\" and click on \"Help and Support\"\"; lost-phone guidance is \"please contact our customer support at your bank\". 1800-23400 is the FAQ footer's \"Dial for all queries: 1800-23400 (toll free)\" line; fraud-specific contact remains 18002033330 (contact-us).",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.airtelpayments.bank.in/static/debit-card-policy",
+            "https://www.airtelpayments.bank.in/help-and-support",
+            "https://www.airtelpayments.bank.in/static/contact-us",
+            "https://www.airtelpayments.bank.in/products/cards",
+            "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+            "https://www.airtelpayments.bank.in/products/upi",
+            "https://www.airtelpayments.bank.in/static/contact-us"
           ],
           "confirmations": {
             "worked": 0,
@@ -124,7 +210,10 @@
       "https://www.airtelpayments.bank.in/static/debit-card-policy",
       "https://www.airtelpayments.bank.in/help-and-support",
       "https://www.airtelpayments.bank.in/static/contact-us",
-      "https://www.airtelpayments.bank.in/products/cards"
+      "https://www.airtelpayments.bank.in/products/cards",
+      "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+      "https://www.airtelpayments.bank.in/products/upi",
+      "https://www.airtelpayments.bank.in/static/contact-us"
     ]
   }
 }

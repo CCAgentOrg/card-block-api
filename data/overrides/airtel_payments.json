@@ -11,6 +11,13 @@
       "notes": "24X7 hotline (bank's help-and-support page: \"Get 24X7 assistance at our customer service hotline\" on 1800 23400). Debit-card policy: block the card on the Airtel Thanks app or call 1800-23400, the bank's call-centre number for hotlisting the debit card; no SMS block format and no netbanking block path are published on the bank's pages. 18002033330 is the bank's Report-a-Fraud contact number (contact-us), alongside fraud.reporting@airtelbank.com and the online fraud-reporting form at https://i.airtel.in/AIRBNK/fraudreporting-web; the contact-us page also points to the National Cyber Crime Helpline at 1930 / cybercrime.gov.in. Card range is debit/prepaid only (RuPay ON-THE-GO NCMC, debit, Insta EMI, virtual) — the bank issues no credit card, so no credit section is included.",
       "androidApp": "https://play.google.com/store/apps/details?id=com.myairtelapp",
       "iosApp": "https://apps.apple.com/us/app/airtel-thanks-recharge-bank/id543184334"
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.myairtelapp",
+      "iosApp": "https://apps.apple.com/us/app/airtel-thanks-recharge-bank/id543184334",
+      "tollFree": "1800-23400",
+      "notes": "UPI freeze is SMS-based, per the bank's own UPI FAQ (frequently-asked-questions, UPI tab): \"Customers need to send \u201cDisable\u201d to 9205832352 from their registered mobile number to disable UPI services on Airtel Payments Bank account\"; for the savings account, \"send an SMS \"Disable UPI\" to 50400\" — re-enable later with SMS \"Enable UPI\" to 50400. No netbanking UPI manage path, no USSD *99# and no dedicated in-app UPI-lock menu are published on the bank's pages. For UPI complaints the FAQ says \"You have the option to either call us or raise a complaint within the mobile application itself. In Airtel Thanks app, you can navigate to \"More\" and click on \"Help and Support\"\"; lost-phone guidance is \"please contact our customer support at your bank\". 1800-23400 is the FAQ footer's \"Dial for all queries: 1800-23400 (toll free)\" line; fraud-specific contact remains 18002033330 (contact-us).",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -29,6 +36,18 @@
     {
       "url": "https://www.airtelpayments.bank.in/products/cards",
       "label": "live fetch 2026-10-27: card range is RuPay ON-THE-GO NCMC card, Debit Card, Insta EMI Card, virtual card — no credit-card product; Airtel Thanks app-store links com.myairtelapp / id543184334"
+    },
+    {
+      "url": "https://www.airtelpayments.bank.in/frequently-asked-questions/upi",
+      "label": "UPI freeze live fetch 2026-11-01: UPI FAQ tab rendered — \"Customers need to send \u201cDisable\u201d to 9205832352 from their registered mobile number\"; SMS \"Disable UPI\" / \"Enable UPI\" to 50400 for the savings account; complaint path \"More\" > \"Help and Support\" in Airtel Thanks app; footer \"Dial for all queries: 1800-23400 (toll free)\" + Airtel Thanks app-store links"
+    },
+    {
+      "url": "https://www.airtelpayments.bank.in/products/upi",
+      "label": "UPI freeze live fetch 2026-11-01: UPI product page — Airtel Thanks app-store links (play ...com.myairtelapp, apps.apple ...id543184334); no UPI block/disable path published on the page"
+    },
+    {
+      "url": "https://www.airtelpayments.bank.in/static/contact-us",
+      "label": "UPI freeze live fetch 2026-11-01: contact-us — \"Call Customer Care (toll-free): 180023400\"; Report a Fraud contact 18002033330; no UPI-specific freeze channel listed"
     }
   ],
   "lastVerified": "2026-10-27"
