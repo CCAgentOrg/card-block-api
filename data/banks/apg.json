@@ -18,7 +18,11 @@
             "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
             "https://apgb.bank.in/",
             "https://apgb.bank.in/netbanking",
-            "https://apgb.bank.in/cyber-security-tips"
+            "https://apgb.bank.in/cyber-security-tips",
+            "https://apgb.bank.in/banking-products/technology-products",
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/complaints-grievances",
+            "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -35,7 +39,11 @@
             "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
             "https://apgb.bank.in/",
             "https://apgb.bank.in/netbanking",
-            "https://apgb.bank.in/cyber-security-tips"
+            "https://apgb.bank.in/cyber-security-tips",
+            "https://apgb.bank.in/banking-products/technology-products",
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/complaints-grievances",
+            "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -55,7 +63,11 @@
             "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
             "https://apgb.bank.in/",
             "https://apgb.bank.in/netbanking",
-            "https://apgb.bank.in/cyber-security-tips"
+            "https://apgb.bank.in/cyber-security-tips",
+            "https://apgb.bank.in/banking-products/technology-products",
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/complaints-grievances",
+            "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -71,7 +83,11 @@
             "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
             "https://apgb.bank.in/",
             "https://apgb.bank.in/netbanking",
-            "https://apgb.bank.in/cyber-security-tips"
+            "https://apgb.bank.in/cyber-security-tips",
+            "https://apgb.bank.in/banking-products/technology-products",
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/complaints-grievances",
+            "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -92,7 +108,58 @@
             "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
             "https://apgb.bank.in/",
             "https://apgb.bank.in/netbanking",
-            "https://apgb.bank.in/cyber-security-tips"
+            "https://apgb.bank.in/cyber-security-tips",
+            "https://apgb.bank.in/banking-products/technology-products",
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/complaints-grievances",
+            "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 18004256708 (Call Center, toll-free, available 24/7) for UPI block/freeze assistance.",
+          "phone": "18004256708 (Call Center, toll-free, available 24/7)",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/",
+            "https://apgb.bank.in/netbanking",
+            "https://apgb.bank.in/cyber-security-tips",
+            "https://apgb.bank.in/banking-products/technology-products",
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/complaints-grievances",
+            "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "No UPI block/freeze channel of any kind is published on the bank's official pages fetched live on 2026-11-01: no in-app UPI lock or deregister path in 'APGB Money' (the Mobile Banking Terms & Conditions PDF never mentions UPI), no netbanking UPI manage/disable option, no SMS keyword and no USSD freeze code; the bank's own https://apgb.bank.in/upi page covers Merchant UPI QR only. UPI is documented as an Issuer service through third-party apps: 'Customers to download any UPI App from Google play store and to register for UPI service by selecting our Bank name, Account No., create UPI VPA ID, to enter Rupay debit (ATM) card details' (Technology Products page) and 'You can perform registration for UPI through any UPI apps - BHIM,Phonepe, Bharat pe, etc.' (Customer Advisory FAQ); *99# is published only for registration ('Customers are to dial *99# from their mobile, to type 'CHAI' for choosing our bank'), not for blocking. Emergency route: the 24/7 Call Center 18004256708 (popup 'Toll-Free Number: 1800 425 6708 (Available 24/7)'), and the bank's Financial Complaint form at https://apgb.bank.in/complaints-grievances which lists 'UPI' among its Transaction Type options (AEPS, ATM, BBPS, IMPS, NACH, NEFT, POS & ECOM, RTGS, UPI, Others) with date, amount, account number and transaction reference number; the advisory adds 'In case of issues, you may approach bank branch or raise e-complaints for resolution.' For cyber fraud the bank's cyber-security page says 'To report any Cyber Crime Dial 1930 or visit www.cybercrime.gov.in / https://sancharsaathi.gov.in/'.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/",
+            "https://apgb.bank.in/netbanking",
+            "https://apgb.bank.in/cyber-security-tips",
+            "https://apgb.bank.in/banking-products/technology-products",
+            "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+            "https://apgb.bank.in/complaints-grievances",
+            "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
           ],
           "confirmations": {
             "worked": 0,
@@ -110,7 +177,11 @@
       "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
       "https://apgb.bank.in/",
       "https://apgb.bank.in/netbanking",
-      "https://apgb.bank.in/cyber-security-tips"
+      "https://apgb.bank.in/cyber-security-tips",
+      "https://apgb.bank.in/banking-products/technology-products",
+      "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+      "https://apgb.bank.in/complaints-grievances",
+      "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf"
     ]
   }
 }

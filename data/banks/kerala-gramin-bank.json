@@ -18,7 +18,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -36,7 +40,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -52,7 +60,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -69,7 +81,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -86,7 +102,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -106,7 +126,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -122,7 +146,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -138,7 +166,11 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -159,7 +191,58 @@
             "https://kgb.bank.in/personal-banking/rupay-debit-cards",
             "https://kgb.bank.in/contact",
             "https://kgb.bank.in/services/kgbnet",
-            "https://kgb.bank.in/"
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800 425 4000 for UPI block/freeze assistance.",
+          "phone": "1800 425 4000",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "No UPI block/freeze channel of any kind is published on the bank's official pages fetched live on 2026-11-01: the UPI Services page (kgb.bank.in/services/upi) documents registration through third-party UPI apps only — 'Kerala Grameena Bank has been onboarded to Unified Payment Interface (UPI) platform'; 'Download any of the UPI apps like BHIM, Google Tez, etc'; 'Create a Virtual Payment Address (VPA / UPI ID)'; 'Set MPIN' — with no lock/freeze/deregister step, and the KGB INFI app-store listings the site links (developer Kerala Gramin Bank) publish no UPI block/freeze or manage feature (Play 'Key Features': 'Fund Transfer to other Bank Accounts using NEFT, RTGS and IMPS', 'ATM, POS and eCOM transaction limit setting', 'Facility to deactivate and reactivate Mobile Banking'; the App Store description field has zero UPI mentions — only NEFT/IMPS transfers and 'Enhanced Debit Card Control – Set limits, enable/disable transactions'; the only UPI wording anywhere on the App Store page is release-history text, '2. UPI Help & Support' in the v1.0.62 release note dated Sun Jan 04 2026 — a support entry, not a freeze path), so no in-app UPI lock can be verified; no netbanking UPI manage/disable option is published (KGBNet internet banking at netbanking.kgb.bank.in publishes online Request Services for 'hot-listing of Debit Card' only); and no SMS keyword or *99# usage for UPI appears on any fetched page. The closest published action is facility-level policy prose, not a UPI path: the Mobile Banking Policy (2024-25) says on a changed or no-longer-used mobile number the 'customer shall take immediate action to deregister from KGBmPAY', 'If the Mobile Phone Number or SIM is lost, the user must immediately take action to deregister from the facility', and 'If the customer suspect the misuse of the MPIN, customer should immediately initiate necessary steps to change the MPIN'. Phone fallback for UPI issues: the UPI Services page itself publishes 'Customer Support 0497 2717800 / 1800 425 4000' and displays 'Toll Free Number 1800 425 4000'; the published complaints portal connect.kgb.bank.in ('Public Grievances Redressal System') is OTP-gated, so whether it offers a UPI complaint category is not verifiable without OTP; no mention of the 1930 cyber helpline appears on any checked page.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://kgb.bank.in/personal-banking/rupay-debit-cards",
+            "https://kgb.bank.in/contact",
+            "https://kgb.bank.in/services/kgbnet",
+            "https://kgb.bank.in/",
+            "https://kgb.bank.in/services/upi",
+            "https://kgb.bank.in/mobile-banking-policy-2024-25",
+            "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+            "https://connect.kgb.bank.in"
           ],
           "confirmations": {
             "worked": 0,
@@ -177,7 +260,11 @@
       "https://kgb.bank.in/personal-banking/rupay-debit-cards",
       "https://kgb.bank.in/contact",
       "https://kgb.bank.in/services/kgbnet",
-      "https://kgb.bank.in/"
+      "https://kgb.bank.in/",
+      "https://kgb.bank.in/services/upi",
+      "https://kgb.bank.in/mobile-banking-policy-2024-25",
+      "https://play.google.com/store/apps/details?id=com.npst.kgbinfi&hl=en_IN",
+      "https://connect.kgb.bank.in"
     ]
   }
 }

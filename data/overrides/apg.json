@@ -12,6 +12,11 @@
     },
     "credit": {
       "notes": "No credit-card programme or credit-card-specific blocking channel appears anywhere on the bank's official pages fetched live on 2026-10-31 (homepage, NetBanking page, cyber-security page and the Customer Advisory FAQ); only RuPay debit (ATM) card procedures are documented, so credit-card blocking is not offered/not documented by this bank. Customers would use the same 24/7 Call Center 18004256708 or home-branch channels."
+    },
+    "upi": {
+      "tollFree": "18004256708 (Call Center, toll-free, available 24/7)",
+      "notes": "No UPI block/freeze channel of any kind is published on the bank's official pages fetched live on 2026-11-01: no in-app UPI lock or deregister path in 'APGB Money' (the Mobile Banking Terms & Conditions PDF never mentions UPI), no netbanking UPI manage/disable option, no SMS keyword and no USSD freeze code; the bank's own https://apgb.bank.in/upi page covers Merchant UPI QR only. UPI is documented as an Issuer service through third-party apps: 'Customers to download any UPI App from Google play store and to register for UPI service by selecting our Bank name, Account No., create UPI VPA ID, to enter Rupay debit (ATM) card details' (Technology Products page) and 'You can perform registration for UPI through any UPI apps - BHIM,Phonepe, Bharat pe, etc.' (Customer Advisory FAQ); *99# is published only for registration ('Customers are to dial *99# from their mobile, to type 'CHAI' for choosing our bank'), not for blocking. Emergency route: the 24/7 Call Center 18004256708 (popup 'Toll-Free Number: 1800 425 6708 (Available 24/7)'), and the bank's Financial Complaint form at https://apgb.bank.in/complaints-grievances which lists 'UPI' among its Transaction Type options (AEPS, ATM, BBPS, IMPS, NACH, NEFT, POS & ECOM, RTGS, UPI, Others) with date, amount, account number and transaction reference number; the advisory adds 'In case of issues, you may approach bank branch or raise e-complaints for resolution.' For cyber fraud the bank's cyber-security page says 'To report any Cyber Crime Dial 1930 or visit www.cybercrime.gov.in / https://sancharsaathi.gov.in/'.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -30,6 +35,22 @@
     {
       "url": "https://apgb.bank.in/cyber-security-tips",
       "label": "live fetch 2026-10-31: Cyber Security Tips page - \"To report any Cyber Crime Dial 1930 or visit www.cybercrime.gov.in / https://sancharsaathi.gov.in/\""
+    },
+    {
+      "url": "https://apgb.bank.in/banking-products/technology-products",
+      "label": "UPI freeze live fetch 2026-11-01: Technology Products page documents '14. Unified Payment Interface (UPI) as Issuer' ('Our Bank Implemented UPI service on 28.03.2018' - registration via BHIM, PhonePe, Google Pay, Amazon Pay, Union Bank of India UPI 'and other UPI applications provided by all other banks and organizations') and '15. *99# (USSD)' ('Customers are to dial *99# from their mobile, to type 'CHAI' for choosing our bank'); both are registration flows only - no block/freeze/disable or deregister option is published anywhere on the page"
+    },
+    {
+      "url": "https://apgb.bank.in/public/uploads/document/Customer-Advisory-Channels-English-version3.0-APGVB_APGB-101025.pdf",
+      "label": "UPI freeze live fetch 2026-11-01: Customer Advisory FAQ section 1 'UNIFIED PAYMENT INTERFACE (UPI)' (19 questions) covers only migration/re-registration ('You can perform registration for UPI through any UPI apps - BHIM,Phonepe, Bharat pe, etc.'; UPI PIN via debit card or Aadhaar; 24h Android / 72h iOS cooling-off) and Q12's redress route 'In case of issues, you may approach bank branch or raise e-complaints for resolution'; no UPI blocking procedure appears"
+    },
+    {
+      "url": "https://apgb.bank.in/complaints-grievances",
+      "label": "UPI freeze live fetch 2026-11-01: Complaints page Financial Complaint form lists 'UPI' among Transaction Type options (AEPS, ATM, BBPS, IMPS, NACH, NEFT, POS & ECOM, RTGS, UPI, Others) with Date of Transaction / Transaction Amount / Account Number / Transaction Reference Number fields; Call Center popup 'Toll-Free Number: 1800 425 6708 (Available 24/7)'"
+    },
+    {
+      "url": "https://apgb.bank.in/public/files/MOBILE-BANKING-TERMS-AND-CONDITIONS-2-03112025.pdf",
+      "label": "UPI freeze live fetch 2026-11-01: 'MOBILE BANKING TERMS AND CONDITIONS' PDF for the bank's 'APGB MONEY' mobile banking application, linked from the bank's homepage (HTTP 200, 4-page PDF) - full text extracted and searched: zero occurrences of 'UPI', 'block', 'freeze', 'disable' or 'deregister'; the service list covers balance enquiry, transaction details, statement of account and cheque status, so the bank's own mobile-app T&C documents no UPI service and no in-app UPI lock/freeze path"
     }
   ],
   "lastVerified": "2026-10-31"

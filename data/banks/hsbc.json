@@ -16,7 +16,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -32,7 +34,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -48,7 +52,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -63,7 +69,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -77,7 +85,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -98,7 +108,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -114,7 +126,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -130,7 +144,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -145,7 +161,9 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -159,7 +177,68 @@
           "last_verified": "2026-09-25",
           "sources": [
             "https://www.hsbc.bank.in/help/contact",
-            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "upi",
+      "blocking_methods": [
+        {
+          "channel": "phone",
+          "label": "tollFree",
+          "instructions": "Call 1800 267 3456 / 1800 121 2208 for UPI block/freeze assistance.",
+          "phone": "1800 267 3456 / 1800 121 2208",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block/freeze UPI via the bank's mobile app (see notes for the exact menu path). Android: https://play.google.com/store/apps/details?id=com.mgs.hsbcupi | iOS: https://apps.apple.com/in/app/hsbc-simply-pay/id1276584690",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.mgs.hsbcupi",
+            "https://apps.apple.com/in/app/hsbc-simply-pay/id1276584690"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "other",
+          "instructions": "HSBC's UPI app is HSBC SimplyPay - download only from the certified Google Play / Apple App Store links above (FAQ: 'Customers should download the HSBC SimplyPay App from certified Apple App store and Google play store'). If a VPA is compromised, per the SimplyPay FAQ you can block the VPA by contacting HSBC Phonebanking: Premier - 1800 266 3456 & 1800 120 4722; Advance & Personal Banking - 1800 267 3456 & 1800 121 2208 (from overseas +91-40-65118002 & +91-22-71728002). Self-service: de-register your VPA from HSBC SimplyPay by navigating to the 'Deregister' tab under 'Manage Account' on the UPI App. Blocking vs de-registering (FAQ wording): blocking keeps you a valid user of HSBC SimplyPay but 'your transactions - pay, collect or balance enquiry would be blocked'; de-registering 'means deleting the entire VPA and Mobile number record' and 'the said VPA will not be available for a period of 2 years from the date of de-registration'; de-registration is not allowed while UPI mandates are active. UPI PIN compromised: change it via the 'change UPI PIN' tab on the app. SimplyPay issues: call the Phone Banking numbers above. No netbanking UPI manage path, no SMS keyword and no *99# channel published on HSBC India pages (bank site search checked 2026-11-01).",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.hsbc.bank.in/help/contact",
+            "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+            "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+            "https://www.hsbc.co.in/configuration/smartlink-simplypay"
           ],
           "confirmations": {
             "worked": 0,
@@ -175,7 +254,9 @@
     "last_verified": "2026-09-25",
     "sources": [
       "https://www.hsbc.bank.in/help/contact",
-      "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf"
+      "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-card-key-fact-statement.pdf",
+      "https://www.hsbc.co.in/help/faqs/mobile-banking/simplypay/",
+      "https://www.hsbc.co.in/configuration/smartlink-simplypay"
     ]
   }
 }

@@ -15,6 +15,13 @@
     },
     "credit": {
       "notes": "No credit-card product or credit-card blocking channel is published: the bank's Cards section lists only the RuPay Debit Card, https://www.jana.bank.in/credit-cards/ returned 404 in the same live check, and the only 'credit card' mentions on the FAQ page are generic mobile-banking copy (e.g. changing a 'debit/credit card pin'). The earlier entry's credit-card numbers (1800-102-3456, 080-6956-8800) appear nowhere on the current official site; the banking customer-care lines under 'debit' are the bank's published reporting channels."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.janabank.mtc",
+      "iosApp": "https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8",
+      "tollFree": "1800 2080",
+      "notes": "No self-service UPI block/freeze path is published anywhere on the bank's site: no in-app UPI lock (the mobile-banking page's Key App Features table lists Fund Transfer 'Through IMPS-IFSC Code'/'Through NEFT'/'Through RTGS' and Debit Card Management only — 'Temporary Block/ Unblock Debit Card', 'Permanent Block Debit Card' — with no UPI module), no netbanking UPI manage path (FAQ: 'What type of Fund Transfer options are available in Jana Small Finance Bank Internet Banking? NEFT IMPS RTGS'; IB service requests are only 'Configure / Update Email ID, Change Card PIN, Block Card'), and no SMS or *99# USSD keyword for UPI on any page fetched. The nav's 'BHIM - UPI' page (https://www.jana.bank.in/payments/transfer-funds/bhim-upi) returns '404 - Category not found' in the live fetch. The published UPI-relevant channels are on the Report A Fraud page: the form's 'Select your issue*' dropdown includes a dedicated 'UPI transaction' option, and the page instructs 'To report a fraudulent transaction, kindly call our customer care for immediate action. Banking Toll Free Number: 1800 2080 (24/7) OR MFI Toll Free Number: 1800 4200 (7 a.m. to 10 p.m.)' — tollFree is therefore the 24x7 banking line, the same number the FAQ's Security & Safe Banking answer gives for a suspected 'unauthorised transaction' ('report it to the nearest bank branch immediately or email to customercare@jana.bank.in/ you can call us on 18002080'). The bank markets its app as 'Jana Bank - UPI, Pay, Collect' in a slider banner on its own fraud-awareness page (https://www.jana.bank.in/jana-hit-mein-jaari: banner heading 'Jana Bank - UPI, Pay, Collect' over 'Download the app now and start exploring!', with the same store links) but publishes no in-app UPI freeze menu path. The 'UPI QR Code Loan Repayment' page is a loan-repayment QR service only ('For any details call your respective Relationship Manager/Toll Free No.1800 4200'). The bank's pages do not mention the national cybercrime helpline 1930.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -33,6 +40,26 @@
     {
       "url": "https://www.jana.bank.in/online-banking/mobile-banking/",
       "label": "live fetch 2026-10-30: official app links https://play.google.com/store/apps/details?id=com.janabank.mtc and https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8; visible Debit Card Management features include 'Temporary Block/ Unblock Debit Card' and 'Permanent Block Debit Card'; the page's Service Request list shows only 'Raise Request for Cheque Book / Stop issued cheque / Request for change in Email ID / Positive Pay' — a 'Block Card' item exists only inside an HTML comment and is not published, so it is not cited"
+    },
+    {
+      "url": "https://www.jana.bank.in/fraud-reporting-page/",
+      "label": "UPI freeze live fetch 2026-11-01: the Report A Fraud web form's 'Select your issue*' dropdown includes a dedicated '<option value=\"UPI transaction\">UPI transaction</option>' issue type; page text: 'To report a fraudulent transaction, kindly call our customer care for immediate action. Banking Toll Free Number: 1800 2080 (24/7) OR MFI Toll Free Number: 1800 4200 (7 a.m. to 10 p.m.)'; the page's 'UPI' mentions are otherwise nav links and maintenance notices only"
+    },
+    {
+      "url": "https://www.jana.bank.in/online-banking/mobile-banking/",
+      "label": "UPI freeze live fetch 2026-11-01: Key App Features table shows Fund Transfer via 'Other Bank Account Through IMPS-IFSC Code'/'Through NEFT'/'Through RTGS' and a Debit Card Management module ('Temporary Block/ Unblock Debit Card', 'Permanent Block Debit Card') — no UPI module anywhere; official store links https://play.google.com/store/apps/details?id=com.janabank.mtc and https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8 reconfirmed"
+    },
+    {
+      "url": "https://www.jana.bank.in/faqs/",
+      "label": "UPI freeze live fetch 2026-11-01: Internet Banking FAQ answers list fund-transfer options 'NEFT IMPS RTGS' (no UPI) and service requests 'Configure / Update Email ID, Change Card PIN, Block Card' (no UPI); Security & Safe Banking on a suspected 'unauthorised transaction': 'please report it to the nearest bank branch immediately or email to customercare@jana.bank.in/ you can call us on 18002080'; no UPI question exists anywhere among the FAQ's 389 headings; the site's 'BHIM - UPI' nav URL https://www.jana.bank.in/payments/transfer-funds/bhim-upi returns '404 - Category not found'"
+    },
+    {
+      "url": "https://www.jana.bank.in/jana-hit-mein-jaari",
+      "label": "UPI freeze live fetch 2026-11-01: the bank's fraud-awareness page ('Jana Hit Mein Jaari') carries a slider banner marketing the mobile app — heading 'Jana Bank - UPI, Pay, Collect' over 'Download the app now and start exploring!' — with the same official store links (https://play.google.com/store/apps/details?id=com.janabank.mtc, https://itunes.apple.com/us/app/jana-bank-mobile-banking/id1404229430?ls=1&mt=8); the page's scam-awareness tips contain no UPI freeze/unblock instructions"
+    },
+    {
+      "url": "https://www.jana.bank.in/payments/upi-qr-code-loan-repayment/",
+      "label": "UPI freeze live fetch 2026-11-01: the 'UPI QR Code Loan Repayment' page is a loan-repayment QR service only ('The solution enables you to credit your loan account held with Jana Small Finance Bank through your UPI-linked application'), not a consumer UPI freeze path; 'For any details call your respective Relationship Manager/Toll Free No.1800 4200'"
     }
   ],
   "lastVerified": "2026-10-30"

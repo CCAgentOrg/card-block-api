@@ -14,6 +14,13 @@
       "tollFree": "1800-233-4526",
       "reference": "https://bankofmaharashtra.bank.in/bom-sbi-credit-cards",
       "notes": "Bank of Maharashtra has taken a strategic decision to exit from the credit card business; new cards are BOM SBI co-branded cards 'jointly issued by SBI Cards and Bank of Maharashtra', and the bank's credit-card page directs cardholders to the Bank of Maharashtra call centre at 1800-233-4526. No dedicated credit-card hotlist line, email, SMS format, or overseas number is published on the bank's own pages."
+    },
+    "upi": {
+      "androidApp": "https://play.google.com/store/apps/details?id=com.bom.lifestylebanking",
+      "iosApp": "https://apps.apple.com/in/app/zen-lyfe-bank-of-maharashtra/id6745421027",
+      "tollFree": "1800-233-4526 / 1800-102-2636",
+      "notes": "UPI runs on the bank's Zen Lyfe app: the Maha UPI page says 'Download the Bank of Maharashtra Zen Lyfe App from Google Play/ App Store to avail this facility on your registered mobile number' and lists 'All India Toll Free Number : 1800-233-4526 / 1800-102-2636'. No in-app UPI-lock menu path is published on the bank's pages (the Zen Lyfe page FAQ covers only registration: download from the official Apple App Store/Google Play Store, verify with Customer ID or Account Number, complete mandatory device binding), no netbanking UPI-manage path is published (the MahaConnect public FAQ has no UPI content), and no SMS/USSD keyword is published (*99# not mentioned). UPI Terms & Conditions: entering the wrong UPI PIN thrice 'will block the UPI facility for 24 hours'; for UPI Lite 'The User shall immediately disable or report UPI Lite in the event of device loss, theft or compromise'; if the mobile number is 'allotted to another person, or blocked' or unauthorized transactions occur, 'user has to make sure that the facility is deregistered for his / her mobile no.' — deregistration via the toll-free lines above. After fraud the bank directs 'Dial 1930 or report cybercrime at https://cybercrime.gov.in'.",
+      "lastVerified": "2026-11-01"
     }
   },
   "sources": [
@@ -32,6 +39,22 @@
     {
       "url": "https://bankofmaharashtra.bank.in/",
       "label": "live fetch 2026-10-27: homepage shows 'Customer Service Toll Free No: 1800-233-4526', links internet banking at //www.mahaconnect.bank.in/ (3 occurrences), and says 'For reporting incidents post cyber frauds, Dial 1930 or report cybercrime at https://cybercrime.gov.in'; no app-store links on the page."
+    },
+    {
+      "url": "https://bankofmaharashtra.bank.in/maha-upi",
+      "label": "UPI freeze live fetch 2026-11-01: Maha UPI page says 'Download the Bank of Maharashtra Zen Lyfe App from Google Play/ App Store to avail this facility on your registered mobile number' and lists 'All India Toll Free Number : 1800-233-4526 / 1800-102-2636'; links UPI Terms & Conditions PDF and store badges (//play.google.com/store/apps/details?id=com.bom.lifestylebanking, //apps.apple.com/in/app/zen-lyfe-bank-of-maharashtra/id6745421027); no in-app UPI-lock menu path, netbanking path, or SMS/USSD keyword published."
+    },
+    {
+      "url": "https://bankofmaharashtra.bank.in/zen-lyfe",
+      "label": "UPI freeze live fetch 2026-11-01: Zen Lyfe page links //apps.apple.com/in/app/zen-lyfe/id6745421027 and //play.google.com/store/apps/details?id=com.bom.lifestylebanking (both verified resolving 200); FAQ covers registration only — download from 'official Apple App Store and Google Play Store', verify with 'Customer ID or Account Number', complete 'mandatory device binding'; lists 'dispute or block transactions round the clock' as a feature but publishes no UPI lock menu path."
+    },
+    {
+      "url": "https://bankofmaharashtra.bank.in/writereaddata/documentlibrary/51537831-132f-4aa6-ab40-ad87e11df2c5.pdf",
+      "label": "UPI freeze live fetch 2026-11-01: UPI Terms & Conditions PDF (19 pages) — clause 3.5: wrong UPI PIN thrice 'will block the UPI facility for 24 hours'; clause 4.30: 'The User shall immediately disable or report UPI Lite in the event of device loss, theft or compromise'; clause 5.2: user must ensure 'the facility is deregistered for his / her mobile no.' when the number is allotted to another person, blocked, or unauthorized transactions occur."
+    },
+    {
+      "url": "https://www.mahaconnect.bank.in/jsp/FAQ.html",
+      "label": "UPI freeze live fetch 2026-11-01: MahaConnect netbanking public FAQ (reached from www.mahaconnect.bank.in which auto-posts to /jsp/index.html) fetched 200 with zero UPI and zero *99# mentions in its 5,243 characters of visible FAQ text — supports the notes claim that no netbanking UPI-manage/disable path is published."
     }
   ],
   "lastVerified": "2026-10-27"
