@@ -1,29 +1,26 @@
 {
   "id": "indusind",
   "name": "IndusInd Bank",
-  "logo": "/static/logos/indusind.svg",
-  "ifsc": "INDB0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1860-2100-400",
-      "number1": "1860-267-7777",
-      "email": "care@indusind.com",
-      "website": "https://cardshub.indusind.com",
-      "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
-      "notes": "Phone banking 1860-267-7777. . IndusNet + Indus Mobile app also supported.",
-      "androidApp": "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
-      "iosApp": "https://apps.apple.com/in/app/indusind-bank/id389114565",
-      "sms": "'BLOCK <Last4>' to 5676757"
-    },
     "debit": {
-      "tollFree": "1800-209-4333",
-      "number1": "1860-267-7777",
-      "email": "care@indusind.com",
-      "website": "https://www.indusind.com",
-      "reference": "https://www.indusind.com/in/en/personal/help-and-support.html",
-      "notes": "Phone banking 1860-267-7777. SMS 'LOST <DOB MMDDYYYY>' to 9223512966 (single-card holders). IndusNet + Indus Mobile app also supported.",
-      "androidApp": "https://play.google.com/store/apps/details?id=in.org.indusind.indusapp",
-      "iosApp": "https://apps.apple.com/in/app/indusind-bank/id389114565"
+      "tollFree": "18002660447",
+      "number1": "1860 267 7777",
+      "number2": "+91 22 68577777 / 022 4220 7777 (International)",
+      "email": "reachus@indusind.com",
+      "sms": "Send SMS LOST DDMMYYYY to 9223512966 from your registered mobile number, where DDMMYYYY refers to your date of birth in day-month-year format (for example, 05 March 1988 should be entered as 05031988); the SMS hotlist will not work if you hold more than one card - call 1860 267 7777 instead",
+      "website": "https://indusnet.indusind.bank.in/login",
+      "reference": "https://www.indusind.bank.in/in/en/personal/customer-limited-liability.html",
+      "notes": "24x7: Phone Banking 1860 267 7777 blocks the card immediately. Toll-free 18002660447 serves Banking and Credit Cards; International (chargeable) +91 22 68577777 / 022 4220 7777. Net banking: IndusNet login > Service Requests > Debit Card Requests > Notify Lost or Stolen Card (debit-card FAQ: debit card section > Permanent Block). INDIE app: debit card section > select card > Manage Cards > Block Permanently. SMS hotlist is single-card holders only; the debit-card FAQ specifies the DOB as day-month-year, while the unauthorized-transactions page's label reads 'MMDDYYYY' but its own example (DOB 1st July 1990 > LOST 01071990) is day-first. The bank's unauthorized-transactions page tells customers to report unauthorized e-banking transactions to national cybercrime helpline 1930 or cybercrime.gov.in."
+    },
+    "credit": {
+      "tollFree": "18002660447",
+      "number1": "1860 267 7777",
+      "number2": "+91 22 68577777 / 022 4220 7777 (International)",
+      "email": "Premium.care@indusind.com",
+      "sms": "SMS BLOCK <SPACE> <Last four digits of your credit card number> to 5676757 from your registered mobile number",
+      "website": "https://indusnet.indusind.bank.in/login",
+      "reference": "https://www.indusind.bank.in/in/en/personal/customer-limited-liability.html",
+      "notes": "24x7: call 1860 267 7777 to block the card on the IVR or via a Phone Banking Officer. Toll-free 18002660447 serves Banking and Credit Cards; International (chargeable) +91 22 68577777 / 022 4220 7777. Net banking: IndusNet login > Service Requests > Credit Card Requests > Credit Card Blocking Request. INDIE app: credit card section > Temporary Block, or More Settings > Security > Permanent Block Credit Card. Credit-card queries: Premium.care@indusind.com. The bank's unauthorized-transactions page tells customers to report unauthorized e-banking transactions to national cybercrime helpline 1930 or cybercrime.gov.in."
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.mgs.induspsp",
@@ -34,8 +31,20 @@
   },
   "sources": [
     {
-      "url": "https://www.indusind.com/in/en/personal/customer-limited-liability.html",
-      "label": "IndusInd unauthorized transaction page (live fetch: 1860 267 7777, SMS BLOCK to 5676757, LOST to 9223512966)"
+      "url": "https://www.indusind.bank.in/in/en/personal/customer-limited-liability.html",
+      "label": "live fetch 2026-11-01: bank's unauthorized-transactions page proves block mechanisms for Debit Card and Credit Card - Phone Banking 1860 267 7777 for both; debit SMS 'LOST MMDDYYYY' to 9223512966 (label; its example DOB 1st July 1990 > LOST 01071990 is day-first; single-card holders only, else call 1860 267 7777); credit SMS 'BLOCK <SPACE> <Last 4 digits>' to 5676757; IndusNet paths (Service Requests > Debit Card Requests > Notify Lost or Stolen Card; Credit Card Requests > Credit Card Blocking Request) and IndusMobile app steps; header call box 18602677777; page links IndusNet login https://indusnet.indusind.bank.in/login; 'Call Helpline Number 1930' / cybercrime.gov.in; www.indusind.com URL of this page 301-redirects here"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/personal/cards/debit-card.html",
+      "label": "live fetch 2026-11-01: debit-card hub FAQ proves 'Send SMS <LOST DDMMYYYY> to 9223512966 from your registered mobile number, where DDMMYYYY refers to your date of birth in day-month-year format (for example, 05 March 1988 should be entered as 05031988)' (stated twice); INDIE app path debit card section > Manage Cards > Block Permanently; Internet Banking > debit card section > Permanent Block; Phone Banking 18602677777 / 1860 267 7777; debit-card assistance reachus@indusind.com"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "label": "live fetch 2026-11-01: credit-card hub FAQ proves four block ways - IVR/Phone Banking 'Call 1860 267 7777'; IndusNet Service Requests > Credit Card Requests > Credit Card Blocking Request; INDIE app freeze/permanent block; SMS 'BLOCK <SPACE><Last four digits of your credit card number>' to 5676757 from registered mobile; lost/stolen FAQ repeats 1860 267 7777, IndusMobile app and the 5676757 SMS; helpline and queries Premium.care@indusind.com"
+    },
+    {
+      "url": "https://www.indusind.bank.in/in/en/personal/reach-us.html",
+      "label": "live fetch 2026-11-01: Reach Us - Customer Care page proves banner '1860 267 7777 (India) / +91 22 68577777 / 022 4220 7777 (International)'; 24x7 Customer Care Helpline table (Banking, Credit Cards, Loans & Insurance) Within India 18602677777 / Outside India 022-68577777 chargeable; 'Toll Free Number 18002660447 for Banking and Credit Cards services'; product emails Debit Cards > reachus@indusind.com, Credit Cards > Premium.care@indusind.com"
     },
     {
       "url": "https://www.indusind.bank.in/in/en/personal/customer-limited-liability.html",
@@ -62,5 +71,5 @@
       "label": "UPI freeze live fetch 2026-11-01: Online Dispute Resolution portal — OTP login (mobile number + Date of Birth), complaint types 'Transaction Dispute' / 'Fraudulent Transaction', field 'UPI VPA (Virtual Payment Address)'; destination of the 'Click Here' report link on the customer-limited-liability page"
     }
   ],
-  "lastVerified": "2026-09-04"
+  "lastVerified": "2026-11-01"
 }

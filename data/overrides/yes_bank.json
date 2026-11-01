@@ -1,24 +1,30 @@
 {
   "id": "yes_bank",
   "name": "Yes Bank",
-  "logo": "/static/logos/yes-bank.svg",
-  "ifsc": "YESB0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800 103 1212",
-      "number1": "1860 210 1200",
-      "number2": "+91 22 4935 0000",
-      "website": "https://www.yesbank.in",
-      "reference": "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-      "notes": "24x7 PhoneBanking. 1800 103 6000 applies to select Marquee/Raree credit cards. From outside India: +91 22 4935 0000. Block also available via YES Mobile / iris app card controls. National cybercrime helpline 1930 for online fraud."
-    },
     "debit": {
       "tollFree": "1800 1200",
       "number1": "1860 210 1200",
       "number2": "+91 22 5079 5101",
+      "sms": "SMS BLKDC <space> <Cust ID> to 9840909000 from your registered mobile number",
+      "email": "debitcard@yesbank.in",
+      "androidApp": "https://irisbyyesbank.page.link/MainDashboard",
+      "iosApp": "https://irisbyyesbank.page.link/MainDashboard",
       "website": "https://www.yesbank.in",
-      "reference": "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-      "notes": "Debit card cum ATM card lost/stolen: call PhoneBanking 1800 1200 (toll free) or 1860 210 1200 immediately. From outside India: +91 22 5079 5101 / 1833 800 0149 (USA) / 1833 491 0559 (Canada) / 8000 46 9153 (UK) / 8000 3570 2510 (UAE). Block also via NetBanking / YES Mobile."
+      "reference": "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+      "notes": "Call immediately on toll-free 1800 1200 (mobiles & landlines in India; contact-us lists it 8:00 AM-8:00 PM with only critical service post 8:00 PM, while the site footer calls it the 24/7 Contact Center) or chargeable 1860 210 1200. From outside India: +91 22 5079 5101 / 1833 380 0149 (USA) / 1833 491 0559 (Canada) / 8000 48 9153 (UK) / 8000 3570 2510 (UAE); the bank's Card Blocking Assistance PDF also lists +91 22 30993600 for debit calls from outside India. SMS block: BLKDC <space> <Cust ID> to 9840909000 from your registered mobile number (the page's tail text anomalously reads 'to block your Internet Banking'). NetBanking path: login, open the 'mySpace' tab, select 'Debit Cards', choose 'Hot List Debit Cards'. Mobile path (page names the app YES Mobile): download from Play Store/App Store, register, login with APIN/fingerprint, tap Debit Card from the bottom carousel, select 'Hot List Debit Cards', confirm with MPIN; the site footer's download badges link to iris by YES BANK (irisbyyesbank.page.link/MainDashboard). Hotlist email: debitcard@yesbank.in from your registered e-mail ID with your CUSTOMER ID and the last 4 digits of the debit card (fulfilled within 1 working day; the bank recommends its real-time channels for immediate blocking). The bank's page points to the National Cyber Crime helpline 1930 / cybercrime.gov.in for unauthorized transactions."
+    },
+    "credit": {
+      "tollFree": "1800 103 1212",
+      "number1": "1860 210 1200",
+      "number2": "+91 22 4935 0000",
+      "sms": "SMS BLKCC <space> <Last 4 digits of card number> to +91 9840909000 from your registered mobile number",
+      "email": "creditcard.block@yesbank.in",
+      "androidApp": "https://irisbyyesbank.page.link/MainDashboard",
+      "iosApp": "https://irisbyyesbank.page.link/MainDashboard",
+      "website": "https://www.yesbank.in",
+      "reference": "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+      "notes": "Call 1800 103 1212 (toll free for mobiles & landlines in India) or chargeable 1860 210 1200; from outside India +91 22 4935 0000. Marquee/Reserv/YES First customers: 1800 103 6000 (toll free). SMS block (Card Blocking Assistance PDF; the unauthorized-transaction page words it 'BLKCC <space> <Last 4 digit of Card Number> to 9840909000'): to +91 9840909000 from your registered mobile number. NetBanking path: login, open the 'Credit Card' tab, select 'Block Lost/Stolen Card'. iris by YES BANK app path: tap Credit card, click Manage, select 'Block card & Reissue', confirm blocking with MPIN; footer Play/App Store badges link to irisbyyesbank.page.link/MainDashboard. YES Pay path: Manage Cards, tap requests, select Block Card. Block email: creditcard.block@yesbank.in from your registered e-mail id. The bank's page points to the National Cyber Crime helpline 1930 / cybercrime.gov.in for unauthorized transactions."
     },
     "upi": {
       "androidApp": "https://d257chzpxwl4bu.cloudfront.net/yp2app-android/download/index.html",
@@ -29,12 +35,16 @@
   },
   "sources": [
     {
-      "url": "https://www.yesbank.in/steps-to-report-an-unauthorized-transaction",
-      "label": "YES Bank - Guide to an Unauthorized Transaction (live fetch 2026-09-25: credit 1800 103 1212 / 1860 210 1200, debit 1800 1200 / 1860 210 1200, overseas lines)"
+      "url": "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
+      "label": "live fetch 2026-11-01 (all tabs read): summary — debit call YES BANK PhoneBanking 18602101200 (charges applicable as per service provider) or 18001200 (toll free) immediately; outside India +91 22 5079 5101 / 1833 380 0149 (USA) / 1833 491 0559 (Canada) / 8000 48 9153 (UK) / 8000 3570 2510 (UAE); credit 18602101200 or 18001031212 (toll free) / +91 22 4935 0000 (when calling from outside India); 'use our NetBanking / Mobile Banking to block your card immediately'; National Cyber Crime helpline 1930 / cybercrime.gov.in. Debit Card/ATM tab — 'SMS BLKDC <space> <Cust ID> to 9840909000 from your registered mobile number' (tail text anomalously reads 'to block your Internet Banking'); NetBanking 'mySpace' tab > 'Debit Cards' > 'Hot List Debit Cards'; YES Mobile app: tap Debit Card from bottom carousel > 'Hot List Debit Cards', confirm with MPIN; hotlist email debitcard@yesbank.in from registered e-mail ID with CUSTOMER ID & last 4 digits of debit card, fulfilled in 1 working day. Credit Card tab — 'SMS BLKCC <space> <Last 4 digit of Card Number> to 9840909000 from your registered mobile number to block your card'; NetBanking 'Credit Card' tab > 'Block Lost/Stolen Card'; iris by YES BANK app: Credit card > Manage > 'Block card & Reissue' with MPIN; YES Pay: Manage Cards > requests > Block Card; block email creditcard.block@yesbank.in. Footer Customer Care 1860 210 1200 (charges) / 1800 1200 (Toll Free), Marquee/Reserv 1800-103-6000 (Toll Free), all other credit cards 1800-103-1212 (Toll Free), 24/7 Contact Center 1800 1200; footer IRIS by YES BANK Play Store/App Store badges both link to https://irisbyyesbank.page.link/MainDashboard"
     },
     {
-      "url": "https://www.yesbank.in/personal-banking/yes-individual/customer-care",
-      "label": "YES Bank Customer Care (live fetch 2026-09-25: credit cards 1800 103 1212 / 1800 103 6000 for select cards; 022 5079 5101 from outside India)"
+      "url": "https://www.yes.bank.in/pdf?name=card-hotlisting-assistance.pdf",
+      "label": "live fetch 2026-11-01: 'CARD BLOCKING ASSISTANCE' PDF (Loss of Card footer link; embeds Oracle asset CONT673972BF5A404FAC838327917DF2CB53) — debit 1800 1200 (Toll Free for Mobiles & Landlines in India) / +91 22 30993600 (When calling from Outside India); credit (Toll Free For Mobile & Landlines in India): 1800 103 1212, (When calling from Outside India): +91 22 4935 0000; 'Block your Card Online or Register a transaction dispute'; 'SMS BLKCC <space> <Last 4 digits of card number> to +91 9840909000 from your registered mobile number'"
+    },
+    {
+      "url": "https://www.yes.bank.in/contact-us",
+      "label": "live fetch 2026-11-01: General Inquiries 1860 210 1200 (charges applicable) / 1800 1200 (toll free, 8:00 AM to 8:00 PM, only critical service post 8:00 PM); Credit Cards — Marquee/Reserv/YES First 1800 103 6000, all other Credit Cards 1800 103 1212; International — Common +91 (22) 5079 5101, USA 1833 380 0149, UK 800 048 9153, Canada 1833 491 0559, UAE 8000 3570 2510; emails — Retail Banking (Other than Credit Cards) yestouch@yes.bank.in, Credit Card Customers only yestouchcc@yes.bank.in; footer disclaimer: 24/7 Contact Center 1800 1200; bank operating (© YES BANK 2026, 1300+ branches)"
     },
     {
       "url": "https://www.yes.bank.in/steps-to-report-an-unauthorized-transaction",
@@ -49,5 +59,5 @@
       "label": "UPI freeze live fetch 2026-10-31: YES Pay Next is Yes Bank's UPI payments app; bank-published Android download landing link (Download Now); on-page UPI FAQs contain no block/freeze/deregister path"
     }
   ],
-  "lastVerified": "2026-09-25"
+  "lastVerified": "2026-11-01"
 }

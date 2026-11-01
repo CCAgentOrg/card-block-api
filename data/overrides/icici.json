@@ -1,28 +1,28 @@
 {
   "id": "icici",
   "name": "ICICI Bank",
-  "logo": "/static/logos/icici.svg",
-  "ifsc": "ICIC0000001",
   "blockingInstructions": {
-    "credit": {
-      "tollFree": "1800-1080",
-      "number1": "+91-22-41007777",
-      "email": "customer.care@icicibank.com",
-      "website": "https://www.icicibank.com",
-      "reference": "https://icicibank.in/customer-care",
-      "notes": "24x7. Fraud reporting: 1800-266-2 (separate line). Also via iMobile Pay app: Cards > Block.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile",
-      "iosApp": "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
-    },
     "debit": {
-      "tollFree": "1800-1080",
-      "number1": "+91-22-3366-7777",
-      "email": "customer.care@icicibank.com",
+      "tollFree": "1800 1080",
+      "number1": "+91-22-33667777",
+      "number2": "+91 40 3099 8025",
+      "email": "customer.care@icici.bank.in",
       "website": "https://www.icicibank.com",
-      "reference": "https://icicibank.in/customer-care",
-      "notes": "Via iMobile Pay: Cards > Debit Card > Block. Internet Banking also available.",
-      "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile",
-      "iosApp": "https://apps.apple.com/in/app/icici-bank-imobile/id526577790"
+      "reference": "https://www.icici.bank.in/personal-banking/help/online-safe-banking/report-unauthorized-transaction",
+      "notes": "24x7 (ICICI NRI customer care advertised 24/7). Lost/stolen debit card: 'Block the Card immediately via iMobile, Net Banking or by calling Customer Care on 1800 1080.' iMobile path: Debit card > Card block; Internet Banking path: Customer Services > Service Requests > Bank Accounts > More > 'Block Debit / ATM Card'. number1 is the line for domestic customers travelling overseas; number2 is the NRI global number (non-toll-free), with NRI India toll-free 1800 102 5600. Fraud: ICICI helpline 1800 2662; national cybercrime helpline 1930 (both on ICICI pages). No SMS block keyword published; email is the general customer-care address.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/app/imobile-by-icici-bank/id375276006"
+    },
+    "credit": {
+      "tollFree": "1800 1080",
+      "number1": "+91-22-33667777",
+      "number2": "+91 40 3099 8025",
+      "email": "customer.care@icici.bank.in",
+      "website": "https://www.icicibank.com",
+      "reference": "https://www.icici.bank.in/personal-banking/help/online-safe-banking/report-unauthorized-transaction",
+      "notes": "24x7 (ICICI NRI customer care advertised 24/7). Report promptly and the bank blocks/hotlists the credit card; iMobile path: Debit card > Card block > select card type 'Credit Card'; Internet Banking path: Customer Services > Service Requests > Credit Card > More > 'Block Credit Card'. number1 is the line for domestic customers travelling overseas; number2 is the NRI global number (non-toll-free), with NRI India toll-free 1800 102 5600. Fraud: ICICI helpline 1800 2662; national cybercrime helpline 1930 (both on ICICI pages). No SMS block keyword published; email is the general customer-care address.",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/app/imobile-by-icici-bank/id375276006"
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.csam.icici.bank.imobile&hl=en_IN",
@@ -34,16 +34,20 @@
   },
   "sources": [
     {
-      "url": "https://www.icicibank.com/customer-care.page",
-      "label": "ICICI customer care (live fetch: 1800 1080)"
+      "url": "https://www.icici.bank.in/customer-care.page",
+      "label": "live fetch 2026-11-01: 'ICICI Bank customer care number 1800 1080 (Toll Free)'; 'Domestic customers travelling overseas +91-22-33667777'; fraud line 1800 2662 plus national helpline 1930; email customer.care@icici.bank.in; official iMobile app-store links (Google Play, App Store)"
     },
     {
-      "url": "https://www.icicibank.com/personal-banking/cards/debit-card/debit-cards-faqs",
-      "label": "Debit card FAQ (block via iMobile/NetBanking/1800 1080)"
+      "url": "https://www.icici.bank.in/personal-banking/help/online-safe-banking/report-unauthorized-transaction",
+      "label": "live fetch 2026-11-01: 'Block your Debit Card and / or Credit Card through Internet Banking' with exact paths — debit: Customer Services > Service Requests > Bank Accounts > More > 'Block Debit / ATM Card' (iMobile: Debit card > Card block); credit: Customer Services > Service Requests > Credit Card > More > 'Block Credit Card' (iMobile same menu, select card type Credit Card); fraud report paths; 'Call the ICICI Bank helpline on 1800 2662'; 1930; iMobile Smart Lock temporary block of iMobile/Internet Banking/UPI/Debit Cards"
     },
     {
-      "url": "https://www.icicibank.com/terms-condition/block-credit-card",
-      "label": "Block credit card page (live fetch)"
+      "url": "https://www.icici.bank.in/personal-banking/cards/debit-card/debit-cards-faqs",
+      "label": "live fetch 2026-11-01: lost/stolen debit card FAQ — 'Block the Card immediately via iMobile, Net Banking or by calling Customer Care on 1800 1080'"
+    },
+    {
+      "url": "https://www.icici.bank.in/nri-banking/contact-us",
+      "label": "live fetch 2026-11-01: 'Connect with ICICI Bank NRI Customer Care 24/7 from Anywhere' — NRI Customers in India 1800 1080 (Toll Free), 1800 102 5600 (Toll Free), Global Number +91 40 3099 8025 (Non-Toll Free)"
     },
     {
       "url": "https://www.icici.bank.in/personal-banking/ways-to-bank/mobile-banking/imobile/payer-upi-faqs",
@@ -62,5 +66,5 @@
       "label": "UPI freeze live fetch 2026-10-31: UPI terms — ICICI Bank may suspend or terminate the UPI or UPI Plug-in Facility without prior notice (linked from the payer UPI FAQ)"
     }
   ],
-  "lastVerified": "2026-09-04"
+  "lastVerified": "2026-11-01"
 }

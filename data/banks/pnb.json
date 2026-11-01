@@ -2,7 +2,7 @@
   "name": "Punjab National Bank",
   "slug": "pnb",
   "type": "private",
-  "website": "https://pnbcard.in",
+  "website": "https://ibanking.pnb.bank.in/",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,14 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-2222 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-2222",
+          "instructions": "Call 1800 1800, 1800 2021 and follow the IVR to hotlist the card.",
+          "phone": "1800 1800, 1800 2021",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -28,30 +30,14 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-2222 (alternate line — see notes).",
-          "phone": "1800-103-2222",
+          "instructions": "Call 0120-2490000 (alternate line — see notes).",
+          "phone": "0120-2490000",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
-            "https://pnb.bank.in/UPI-FAQ.html",
-            "https://pnb.bank.in/mobile-banking.html",
-            "https://pnb.bank.in/Unified-Payments-Interface.html"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-180-2223 (alternate line — see notes).",
-          "phone": "1800-180-2223",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -63,12 +49,14 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare@pnbindia.in from your registered email to request card blocking.",
-          "email": "customercare@pnbindia.in",
+          "instructions": "Email care@pnb.bank.in from your registered email to request card blocking.",
+          "email": "care@pnb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -80,12 +68,14 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://pnb.bank.in and use the card block/hotlist option.",
-          "url": "https://pnb.bank.in",
+          "instructions": "Log in to internet banking at https://ibanking.pnb.bank.in/ and use the card block/hotlist option.",
+          "url": "https://ibanking.pnb.bank.in/",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -97,15 +87,34 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.punjabnational.bank | iOS: https://apps.apple.com/in/app/pnb-one/id1580876840",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.Version1",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
-            "https://apps.apple.com/in/app/pnb-one/id1580876840"
+            "https://play.google.com/store/apps/details?id=com.Version1"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
+            "https://pnb.bank.in/UPI-FAQ.html",
+            "https://pnb.bank.in/mobile-banking.html",
+            "https://pnb.bank.in/Unified-Payments-Interface.html"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "sms",
+          "instructions": "SMS HOT [space] Card Number to 5607040 from your registered mobile number (e.g. HOT 5126520000000013) from your registered mobile number.",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -117,11 +126,13 @@
         },
         {
           "channel": "other",
-          "instructions": "Via PNB One app: Cards > Hotlist. SMS HOTLIST <Last4> to 5607040.",
+          "instructions": "24-hour toll-free helpline 1800 1800, 1800 2021 (IVRS module integrated) or paid helpline 0120-2490000; global users: +91 120 2490000. Customer Care Division email care@pnb.bank.in (contact-us lists 'Hot-listing of lost and damaged debit/ATM card' among its requirements). SMS 'HOT [space] card number' to 5607040 from registered mobile. Internet banking: log in at https://ibanking.pnb.bank.in/, click Value added Service then select ATM/Debit Card Hotlisting. PNB One app: post-login, click the Debit Card button, then Hotlist Debit Card. WhatsApp banking: send 'Hi' to 92640-92640, choose All Services, Debit Card Services, Disable/Block Debit Card (temporary block or permanent block/Hotlist). Any PNB branch can also hotlist the card. Debit card once hotlisted cannot be de-hotlisted; complaints lodged at the Customer Relationship Centre get a docket number.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -139,12 +150,14 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-180-2222 and follow the IVR to hotlist the card.",
-          "phone": "1800-180-2222",
+          "instructions": "Call 1800 180 2345 and follow the IVR to hotlist the card.",
+          "phone": "1800 180 2345",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -157,30 +170,14 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-103-2222 (alternate line — see notes).",
-          "phone": "1800-103-2222",
+          "instructions": "Call 0120-4616200 (alternate line — see notes).",
+          "phone": "0120-4616200",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
-            "https://pnb.bank.in/UPI-FAQ.html",
-            "https://pnb.bank.in/mobile-banking.html",
-            "https://pnb.bank.in/Unified-Payments-Interface.html"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "phone",
-          "label": "alternate",
-          "instructions": "Call 1800-180-2345 (alternate line — see notes).",
-          "phone": "1800-180-2345",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -192,65 +189,14 @@
         },
         {
           "channel": "email",
-          "instructions": "Email care@pnbcard.in from your registered email to request card blocking.",
-          "email": "care@pnbcard.in",
+          "instructions": "Email creditcardpnb@pnb.bank.in from your registered email to request card blocking.",
+          "email": "creditcardpnb@pnb.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
-            "https://pnb.bank.in/UPI-FAQ.html",
-            "https://pnb.bank.in/mobile-banking.html",
-            "https://pnb.bank.in/Unified-Payments-Interface.html"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "website",
-          "instructions": "Log in to internet banking at https://pnbcard.in and use the card block/hotlist option.",
-          "url": "https://pnbcard.in",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://pnb.bank.in/contact-us",
-            "https://pnb.bank.in/UPI-FAQ.html",
-            "https://pnb.bank.in/mobile-banking.html",
-            "https://pnb.bank.in/Unified-Payments-Interface.html"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.punjabnational.bank | iOS: https://apps.apple.com/in/app/pnb-one/id1580876840",
-          "urls": [
-            "https://play.google.com/store/apps/details?id=com.punjabnational.bank",
-            "https://apps.apple.com/in/app/pnb-one/id1580876840"
-          ],
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://pnb.bank.in/contact-us",
-            "https://pnb.bank.in/UPI-FAQ.html",
-            "https://pnb.bank.in/mobile-banking.html",
-            "https://pnb.bank.in/Unified-Payments-Interface.html"
-          ],
-          "confirmations": {
-            "worked": 0,
-            "failed": 0
-          }
-        },
-        {
-          "channel": "sms",
-          "instructions": "SMS BLOCK <Last4> to 5607040 from your registered mobile number.",
-          "confidence": 0.85,
-          "last_verified": "2026-09-04",
-          "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -262,11 +208,13 @@
         },
         {
           "channel": "other",
-          "instructions": "Credit cards managed by PNB Card services.",
+          "instructions": "24-hour credit-card customer helpline 1800 180 2345 or 0120-4616200 (global users: +91 120 4616200); call and email creditcardpnb@pnb.bank.in on loss, theft, fraudulent transaction or suspected compromise of card details to get the card hot-listed. No SMS block format, netbanking block path or app-based block for credit cards is published on the bank's pages.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -289,7 +237,9 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -306,7 +256,9 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -325,7 +277,9 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -341,7 +295,9 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://pnb.bank.in/contact-us",
+            "https://pnb.bank.in/hotlist-debit-card.html",
+            "https://pnb.bank.in/contact-us.html",
+            "https://pnb.bank.in/Mobile-Banking-Apps.html",
             "https://pnb.bank.in/UPI-FAQ.html",
             "https://pnb.bank.in/mobile-banking.html",
             "https://pnb.bank.in/Unified-Payments-Interface.html"
@@ -357,9 +313,11 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-04",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://pnb.bank.in/contact-us",
+      "https://pnb.bank.in/hotlist-debit-card.html",
+      "https://pnb.bank.in/contact-us.html",
+      "https://pnb.bank.in/Mobile-Banking-Apps.html",
       "https://pnb.bank.in/UPI-FAQ.html",
       "https://pnb.bank.in/mobile-banking.html",
       "https://pnb.bank.in/Unified-Payments-Interface.html"

@@ -2,7 +2,7 @@
   "name": "Union Bank of India",
   "slug": "union",
   "type": "private",
-  "website": "https://www.unionbankofindia.co.in",
+  "website": "https://www.unionbankonline.bank.in",
   "cards": [
     {
       "type": "debit",
@@ -10,12 +10,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-22-2244 and follow the IVR to hotlist the card.",
-          "phone": "1800-22-2244",
+          "instructions": "Call 1800 8333 / 1800 2333 / 1800 8331 / 1800 8332 and follow the IVR to hotlist the card.",
+          "phone": "1800 8333 / 1800 2333 / 1800 8331 / 1800 8332",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -27,12 +30,35 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-208-2244 (alternate line — see notes).",
-          "phone": "1800-208-2244",
+          "instructions": "Call 18008332 (alternate line — see notes).",
+          "phone": "18008332",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
+            "https://www.unionbankofindia.bank.in/en/details/upi",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 02244546567 (alternate line — see notes).",
+          "phone": "02244546567",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -43,12 +69,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare.unionbank@unionbankofindia.com from your registered email to request card blocking.",
-          "email": "customercare.unionbank@unionbankofindia.com",
+          "instructions": "Email customercare@unionbankofindia.bank.in from your registered email to request card blocking.",
+          "email": "customercare@unionbankofindia.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -59,12 +88,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.unionbankonline.co.in and use the card block/hotlist option.",
-          "url": "https://www.unionbankonline.co.in",
+          "instructions": "Log in to internet banking at https://www.unionbankonline.bank.in and use the card block/hotlist option.",
+          "url": "https://www.unionbankonline.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -75,15 +107,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.bankub2 | iOS: https://apps.apple.com/in/app/union-bank-of-india/id1216778634",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.infrasoft.uboi | iOS: https://apps.apple.com/in/app/vyom/id1446060299",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.cs.bankub2",
-            "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
+            "https://play.google.com/store/apps/details?id=com.infrasoft.uboi",
+            "https://apps.apple.com/in/app/vyom/id1446060299"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -94,11 +129,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via UnionMobile app: Debit Card > Block. Internet Banking at unionbankonline.co.in.",
+          "instructions": "Call centre runs 24x7x365 and the IVR itself hotlists debit cards (PIN holders, 12 regional languages plus Hindi and English) before an agent is reached; debit-card FAQ: block by calling customer care or via the mobile banking app. In the Union ease mobile banking app (Vyom): Pay & Transfer > Debit Card > Block/Unblock under Manage Debit card; My Profile > Smart Lock temporarily locks the Debit Card channel, and My Profile > Kill Switch is the emergency control that immediately blocks digital debit transactions (restoration requires branch intervention). Unauthorised transactions: report at unauthdigitxn.unionbankportal.bank.in (linked from Contact Us). NRI dedicated (chargeable) 02244546567; cyber-crime complaints 02244546565; premium accounts 18008331. No SMS block keyword is published on official pages.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -115,12 +153,15 @@
         {
           "channel": "phone",
           "label": "tollFree",
-          "instructions": "Call 1800-208-2244 and follow the IVR to hotlist the card.",
-          "phone": "1800-208-2244",
+          "instructions": "Call 1800 8333 / 1800 2333 / 1800 8331 / 1800 8332 and follow the IVR to hotlist the card.",
+          "phone": "1800 8333 / 1800 2333 / 1800 8331 / 1800 8332",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -132,12 +173,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-425-1515 (alternate line — see notes).",
-          "phone": "1800-425-1515",
+          "instructions": "Call 18008332 (alternate line — see notes).",
+          "phone": "18008332",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -149,12 +193,15 @@
         {
           "channel": "phone",
           "label": "alternate",
-          "instructions": "Call 1800-425-3555 (alternate line — see notes).",
-          "phone": "1800-425-3555",
+          "instructions": "Call 02244546567 (alternate line — see notes).",
+          "phone": "02244546567",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -165,12 +212,15 @@
         },
         {
           "channel": "email",
-          "instructions": "Email customercare.unionbank@unionbankofindia.com from your registered email to request card blocking.",
-          "email": "customercare.unionbank@unionbankofindia.com",
+          "instructions": "Email customercare@unionbankofindia.bank.in from your registered email to request card blocking.",
+          "email": "customercare@unionbankofindia.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -181,12 +231,15 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.unionbankofindia.co.in and use the card block/hotlist option.",
-          "url": "https://www.unionbankofindia.co.in",
+          "instructions": "Log in to internet banking at https://www.unionbankonline.bank.in and use the card block/hotlist option.",
+          "url": "https://www.unionbankonline.bank.in",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -197,15 +250,18 @@
         },
         {
           "channel": "app",
-          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.cs.bankub2 | iOS: https://apps.apple.com/in/app/union-bank-of-india/id1216778634",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.isgl.ubi.ccms&hl=en_IN | iOS: https://apps.apple.com/in/app/union-bank-credit-card/id6471659226",
           "urls": [
-            "https://play.google.com/store/apps/details?id=com.cs.bankub2",
-            "https://apps.apple.com/in/app/union-bank-of-india/id1216778634"
+            "https://play.google.com/store/apps/details?id=com.isgl.ubi.ccms&hl=en_IN",
+            "https://apps.apple.com/in/app/union-bank-credit-card/id6471659226"
           ],
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -216,11 +272,14 @@
         },
         {
           "channel": "other",
-          "instructions": "Via UnionMobile Pay app: Credit Card > Block.",
+          "instructions": "Call centre runs 24x7x365; dedicated helpline for reporting fraud/disputed transactions is 18008332, and unauthorised transactions can be reported at unauthdigitxn.unionbankportal.bank.in (linked from Contact Us). In-app: the Union ease app's Kill Switch (My Profile > Kill Switch) immediately hotlists active credit cards on suspected fraud or device theft (restoration needs branch intervention and a replacement card); Smart Lock (My Profile > Smart Lock) can temporarily lock the Credit Card channel; the separate Union Credit Card app offers Card Control and Manage Card features. NRI dedicated (chargeable) 02244546567; cyber-crime complaints 02244546565; premium accounts 18008331. No SMS block keyword is published on official pages.",
           "confidence": 0.85,
-          "last_verified": "2026-09-04",
+          "last_verified": "2026-11-01",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -242,7 +301,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -261,7 +323,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -276,7 +341,10 @@
           "confidence": 0.85,
           "last_verified": "2026-10-31",
           "sources": [
-            "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+            "https://www.unionbankofindia.bank.in/en/common/contact-us",
+            "https://www.unionbankofindia.bank.in/en/details/union-ease",
+            "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+            "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
             "https://www.unionbankofindia.bank.in/en/details/upi",
             "https://www.unionbankofindia.bank.in/en/details/union-ease"
           ],
@@ -291,9 +359,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-04",
+    "last_verified": "2026-11-01",
     "sources": [
-      "https://www.unionbankofindia.co.in/english/contact-us.aspx",
+      "https://www.unionbankofindia.bank.in/en/common/contact-us",
+      "https://www.unionbankofindia.bank.in/en/details/union-ease",
+      "https://www.unionbankofindia.bank.in/en/details/classic-debit-card-rupay-visa",
+      "https://www.unionbankofindia.bank.in/en/details/union-credit-card",
       "https://www.unionbankofindia.bank.in/en/details/upi",
       "https://www.unionbankofindia.bank.in/en/details/union-ease"
     ]

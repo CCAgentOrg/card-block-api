@@ -6,15 +6,18 @@
   "blockingInstructions": {
     "credit": {
       "tollFree": "1800 10 888",
-      "website": "https://www.idfcfirstbank.com",
-      "reference": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
-      "notes": "Customer service page: 'Block your Credit Card - Call us on 1800 10 888'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking."
+      "website": "https://www.idfcfirst.bank.in/service-request?sr=ccb",
+      "reference": "https://www.idfcfirst.bank.in/credit-card",
+      "email": "banker@idfcfirstbank.com",
+      "sms": "SMS 'CCBLOCK1234' to 5676732 — the numbers \"1234\" represent the last 4 digits of your card",
+      "notes": "Customer care 1800 10 888 ('For Accounts, Credit Cards, Loans, and Other banking services') is available 24x7. Block paths per the bank's credit-card FAQ: mobile app → 'Manage Cards' → 'Block Card'; internet banking → 'Credit Cards' section → 'Block Card'; the 24x7 helpline; or SMS 'CCBLOCK1234' to 5676732 (1234 = last 4 digits of the card). Self-service: 'Block your Credit Card' service request at idfcfirst.bank.in/service-request?sr=ccb. If the card is lost or stolen, block it immediately via mobile banking or customer care; after blocking, report unauthorized transactions to banker@idfcfirstbank.com or 180010888. Overseas (NRI customer care, toll-free unless noted): USA 18337039805, Canada 18337039811, UK 448000 478 414, UAE 8000 187 922, Singapore 800 101 4006, Australia 1800314585; full table on the bank's customer-care page. WhatsApp banking: say 'Hi' on 9555 555 555."
     },
     "debit": {
-      "tollFree": "1800 266 9970",
-      "website": "https://www.idfcfirstbank.com",
-      "reference": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
-      "notes": "Customer service page: 'Block your Debit Card - Call us on 1800 266 9970'. Card controls also available in the IDFC FIRST Bank mobile app and netbanking."
+      "tollFree": "1800 10 888",
+      "website": "https://www.idfcfirst.bank.in/customer-care-sr/debit-card-block",
+      "reference": "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+      "email": "banker@idfcfirstbank.com",
+      "notes": "Customer care 1800 10 888 is toll-free and available 24/7 ('Call us on 1800 10 888 — We are available 24/7 for you'). Permanent block/hotlist per the bank's debit-card FAQ: in the mobile banking app go to Accounts → Cards tab, choose the card, select 'Permanently Block'; or visit the nearest branch; or call 1800 10 888. Self-service: the 'Block your Debit Card' tile on the customer-care pages opens idfcfirst.bank.in/customer-care-sr/debit-card-block. Lost card: block permanently via the Mobile Banking app or customer support 180010888; a replacement debit card can be requested at the time of blocking or later. After blocking, report unauthorized transactions to banker@idfcfirstbank.com or 180010888. No SMS block keyword is published for debit cards. Overseas (NRI customer care, toll-free unless noted): USA 18337039805, Canada 18337039811, UK 448000 478 414, UAE 8000 187 922, Singapore 800 101 4006, Australia 1800314585; full table on the bank's customer-care page. WhatsApp banking: say 'Hi' on 9555 555 555."
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus",
@@ -26,10 +29,6 @@
   },
   "sources": [
     {
-      "url": "https://www.idfcfirst.bank.in/customer-care-sr/customer-service",
-      "label": "IDFC FIRST Bank Customer Service (live fetch 2026-09-25: block credit card 1800 10 888, block debit card 1800 266 9970)"
-    },
-    {
       "url": "https://www.idfcfirst.bank.in/terms-and-conditions/upi-solutions",
       "label": "UPI freeze live fetch 2026-11-01: UPI T&C — notify bank immediately and 'make sure that the facility is deregistered'; wrong mPIN thrice blocks the UPI facility; registration auto-suspended after 180 days without use"
     },
@@ -40,7 +39,23 @@
     {
       "url": "https://www.idfcfirst.bank.in/support/report-an-unauthorised-transaction",
       "label": "UPI freeze live fetch 2026-11-01: 'Steps to Report Unauthorised transaction' -> 'Click here' links to /customer-care-sr/raise-a-request"
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/debit-card",
+      "label": "live fetch 2026-11-01: debit-card self-service — 'How can I permanantly block / hotlist my debit card?': app Accounts → Cards tab → 'Permanently Block', nearest branch, or toll-free 1800 10 888; lost-card FAQ: block via Mobile Banking app or customer support 180010888, replacement card can be requested at blocking; 'Call us on 1800 10 888 / We are available 24/7 for you'; 'Block your Debit Card' tile links to /customer-care-sr/debit-card-block"
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/credit-card",
+      "label": "live fetch 2026-11-01: credit-card FAQ 'How can I block my Credit Card?': Mobile app 'Manage Cards' → 'Block Card'; Internet banking 'Credit Cards' section → 'Block Card'; Customer care 24x7 helpline; SMS 'CCBLOCK1234' to 5676732 (1234 = last 4 digits of your card); lost/stolen: 'Immediately block the card via mobile banking or customer care'"
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/customer-care",
+      "label": "live fetch 2026-11-01: 'For Accounts, Credit Cards, Loans, and Other banking services please contact us at 1800 10 888. We will be happy to help you 24x7.'; NRI overseas customer-care table (USA 18337039805, Canada 18337039811, UK 448000 478 414, Singapore 800 101 4006, Australia 1800314585, UAE 8000 187 922, Saudi Arabia 8008500980, Oman 80074528, Qatar 00 800 100 089, Bahrain 80006082, Germany 8001815050, plus local-call lines for Hong Kong, Belgium, Ireland, Italy, Spain, Netherlands, Switzerland); WhatsApp banking 'Say Hi on WhatsApp at 9555 555 555'"
+    },
+    {
+      "url": "https://www.idfcfirst.bank.in/service-request?sr=ccb",
+      "label": "live fetch 2026-11-01: 'Block your Credit Card' service-request page; publishes 'In case of any unauthorized transactions, after blocking your card, promptly inform the bank about the unauthorized transaction details by sending an email to banker@idfcfirstbank.com or calling 180010888.'"
     }
   ],
-  "lastVerified": "2026-09-25"
+  "lastVerified": "2026-11-01"
 }

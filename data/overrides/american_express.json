@@ -1,26 +1,35 @@
 {
   "id": "american_express",
   "name": "American Express India",
-  "logo": "/static/logos/american-express.svg",
-  "ifsc": "AMEX0000001",
   "blockingInstructions": {
     "credit": {
       "tollFree": "1800 419 2122",
       "number1": "0124 670 2929",
-      "website": "https://www.americanexpress.com/in/",
-      "reference": "https://www.americanexpress.com/in/support/contact-us.html",
-      "notes": "To report a lost/stolen card, request a replacement via your Online Account or call Customer Care. Toll-free from India: 1800 419 2122 (Platinum Travel; general Card Account line). Product-specific lines: Platinum Reserve 1800 419 1030, Membership Rewards 1800 419 0167. From outside India: replace the 0 of our 0124 numbers with +91 (e.g. +91 124 670 2929). 24x7 via Mobile Messaging: Chat icon in the Amex App."
+      "number2": "1800 419 1030",
+      "website": "https://global.americanexpress.com/account-management/card-replacement",
+      "androidApp": "https://play.google.com/store/apps/details?id=com.americanexpress.android.acctsvcs.in&hl=en_IN",
+      "iosApp": "https://apps.apple.com/in/app/amex-india/id984568659",
+      "reference": "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+      "notes": "Lost/stolen: request a replacement via your Online Account (card-replacement path linked from the FAQ) or call Customer Care. Toll-free 1800 419 2122 works from any landline or mobile anywhere in India (general Card Account line; also the Platinum Travel product line). Chargeable 0124 line: 0124 670 2929 — from outside India, replace the 0 of 0124 numbers with +91 (e.g. +91 124 670 2929). Product-specific lines: Platinum Reserve 1800 419 1030, Membership Rewards 1800 419 0167, SmartEarn 1800 208 1226, Gold 1800 419 1120, Platinum 1800 419 1255. Phone hours are not published on the contact page; Mobile Messaging (Chat icon in the Amex App) is stated 24X7, and the app offers 'Temp Block your card' for a misplaced card. Amex India issues credit and charge cards only — no debit cards."
     }
   },
   "sources": [
     {
       "url": "https://www.americanexpress.com/in/support/contact-us.html",
-      "label": "American Express India Contact Us (live fetch 2026-09-25: 1800 419 2122 toll-free, per-card lines, +91 0124 overseas dialing rule)"
+      "label": "American Express India Contact Us (live fetch 2026-11-01: general customer service 1800 419 2122 (Toll Free) from India; product lines Platinum Travel 1800 419 2122 / 0124 670 2929, Platinum Reserve 1800 419 1030 / 0124 673 6660, Membership Rewards 1800 419 0167 / 0124 673 6900, SmartEarn 1800 208 1226 / 0124 670 2101, Gold 1800 419 1120 / 0124 673 6600, Platinum 1800 419 1255 / 0124 670 2600; overseas rule: replace the 0 in 0124 numbers with +91; 24X7 Mobile Messaging via Chat icon on the Amex App)"
     },
     {
       "url": "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
-      "label": "Amex India FAQ: How do I report a lost, stolen or damaged Card (live fetch 2026-09-25: request replacement via Online Account or call Customer Care)"
+      "label": "Amex India FAQ 'How do I report a lost, stolen or damage Card?' (live fetch 2026-11-01: request a replacement Card using your Online Account, linking https://global.americanexpress.com/account-management/card-replacement, or call Customer Care)"
+    },
+    {
+      "url": "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+      "label": "Amex India Mobile App page (live fetch 2026-11-01: 'Temp Block your card — You can now block your Card temporarily if you have misplaced it'; official app links https://play.google.com/store/apps/details?id=com.americanexpress.android.acctsvcs.in&hl=en_IN and https://apps.apple.com/in/app/amex-india/id984568659)"
+    },
+    {
+      "url": "https://www.americanexpress.com/in/",
+      "label": "American Express India homepage (live fetch 2026-11-01: 'Replace your Card — Request for a replacement Card in case your Card was lost, stolen, damaged'; zero debit-card products listed — credit and charge cards only)"
     }
   ],
-  "lastVerified": "2026-09-25"
+  "lastVerified": "2026-11-01"
 }

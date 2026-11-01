@@ -1,20 +1,22 @@
 {
   "id": "rbl",
   "name": "RBL Bank",
-  "logo": "/static/logos/rbl.svg",
-  "ifsc": "RATN0000001",
   "blockingInstructions": {
-    "credit": {
-      "number1": "+91 22 6232 7777",
-      "website": "https://www.rbl.bank.in",
-      "reference": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-      "notes": "Block immediately via any channel: Website 'block or reissue your credit card using your mobile number'; Helpline +91 22 6232 7777; RBL MyCard App > My Account > Settings > Profile settings > Report Dispute or Fraud > Fraud > BLOCK & REPLACE/BLOCK CARD; SMS 'BLKRBL <last two digits of card>' to +91 9223366333 from registered mobile (block + replacement); WhatsApp 'Hi RBL' to 84335 98888 > Credit Card Services > Switch-off Card Transaction; Chatbot RBL Cares > Menu > Insta Services > Block and Reissue Credit Card."
-    },
     "debit": {
       "number1": "+91 22 6232 7777",
-      "website": "https://www.rbl.bank.in",
+      "sms": "Send to 9223366333 from your registered mobile number — Temporary Block: TBLOCK < Space> Last four digit card number < Space> Customer ID; Permanent Block: BLOCK < Space> Last four digit card number < Space> Customer ID",
+      "email": "reportfraud@rbl.bank.in",
+      "website": "https://www.rbl.bank.in/block-channel",
       "reference": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
-      "notes": "Block immediately via any channel: Website 'block your debit card using your CIF number'; Helpline +91 22 6232 7777; SMS to 9223366333 from registered mobile - Temporary Block: 'TBLOCK <last four digits of card> <Customer ID>' / Permanent Block: 'BLOCK <last four digits of card> <Customer ID>'; RBL MyBank app > Manage Your Cards > Block/Unblock Card > OTP; NetBanking > Requests > Block Debit Card; WhatsApp 'Hi RBL' to 84335 98888 > Banking Services."
+      "notes": "Only published hotline is +91 22 6232 7777, a chargeable Mumbai landline that the bank's BHIM UPI page calls its '24 hours helpline'; no toll-free and no overseas numbers are published on the pages sourced here (1930 is not mentioned). Website key opens the Block Channel tool — 'Click here to block your debit card using your CIF number'. App: RBL MyBank → Manage Your Cards → Block/Unblock Card → Temporary/Permanent block → enter OTP and verify. NetBanking: Requests → Block Debit Card → select account & debit card number → reason → submit online → OTP. WhatsApp 'Hi RBL' to 8433598888 → Banking Services → 'Temporary Block my Debit Card'; chatbot RBL Cares → Menu → Banking services → Block card (temporary). Fraud email reportfraud@rbl.bank.in ('Write an email to' on the Report a Fraud page)."
+    },
+    "credit": {
+      "number1": "+91 22 6232 7777",
+      "sms": "To block and request a replacement for your RBL Bank Credit Card, send BLKRBL < last two digits of your card> to 91-9223366333 from your registered mobile number.",
+      "email": "reportfraud@rbl.bank.in",
+      "website": "https://www.rbl.bank.in/block-channel",
+      "reference": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
+      "notes": "Only published hotline is +91 22 6232 7777, a chargeable Mumbai landline that the bank's BHIM UPI page calls its '24 hours helpline'; no toll-free and no overseas numbers are published on the pages sourced here (1930 is not mentioned). Website key opens the Block Channel tool — 'Click here to block or reissue your credit card using your mobile number'. App: RBL MyCard App → My Account → Settings → Profile settings → Report Dispute or Fraud → Fraud → BLOCK & REPLACE/BLOCK CARD; no credit-card netbanking block path is published. WhatsApp 'Hi RBL' to 8433598888 → Credit Card Services → Switch-off Card Transaction; chatbot RBL Cares → Menu → Insta Services → Block and Reissue Credit Card. Fraud email reportfraud@rbl.bank.in ('Write an email to' on the Report a Fraud page)."
     },
     "upi": {
       "androidApp": "https://play.google.com/store/apps/details?id=com.rblbank.mobank&hl=en",
@@ -27,11 +29,15 @@
   "sources": [
     {
       "url": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
-      "label": "RBL Bank - Report loss or unauthorised use of Credit Card (live fetch 2026-09-25: helpline +91 22 6232 7777, SMS BLKRBL to +91 9223366333, MyCard app path)"
+      "label": "live fetch 2026-11-01: 'Report loss or unauthorised use of Credit Card' — Helpline Number +91 22 6232 7777; Website 'Click here' (href /block-channel) 'to block or reissue your credit card using your mobile number'; RBL MyCard App > My Account > Settings > Profile settings > Report Dispute or Fraud > Fraud > BLOCK & REPLACE/BLOCK CARD; SMS 'BLKRBL < last two digits of your card>' to 91-9223366333 from registered mobile; WhatsApp 'Hi RBL' to 8433598888 > Credit Card Services > Switch-off Card Transaction; chatbot RBL Cares > Menu > Insta Services > Block and Reissue Credit Card"
     },
     {
       "url": "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
-      "label": "RBL Bank - Report loss or unauthorised use of Debit Card (live fetch 2026-09-25: TBLOCK/BLOCK SMS to 9223366333, helpline, MyBank app path)"
+      "label": "live fetch 2026-11-01: 'Report loss or unauthorised use of Debit Card' — Helpline Number +91 22 6232 7777; Website 'Click here' (href /block-channel) 'to block your debit card using your CIF number'; SMS to 9223366333 from registered mobile — Temporary Block 'TBLOCK < Space> Last four digit card number < Space> Customer ID' / Permanent Block 'BLOCK < Space> Last four digit card number < Space> Customer ID'; RBL MyBank > Manage Your Cards > Block/Unblock Card > Temporary/Permanent block > OTP; Internet Banking > Requests > Block Debit Card; WhatsApp 'Hi RBL' to 8433598888 > Banking Services > 'Temporary Block my Debit Card'; chatbot RBL Cares > Menu > Banking services > Block card (temporary)"
+    },
+    {
+      "url": "https://www.rbl.bank.in/report-a-fraud",
+      "label": "live fetch 2026-11-01: 'Other ways to report' — Banking & Credit Card Helpline +91 22 6232 7777; 'Write an email to: reportfraud@rbl.bank.in'; fraud form channels include Debit Card and Credit Card"
     },
     {
       "url": "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
@@ -46,5 +52,5 @@
       "label": "UPI freeze live fetch 2026-11-01: USSD page — *99# NUUP menu (Send Money, UPI PIN) is RBL's published UPI-over-USSD channel; no UPI freeze option in published menu"
     }
   ],
-  "lastVerified": "2026-09-25"
+  "lastVerified": "2026-11-01"
 }

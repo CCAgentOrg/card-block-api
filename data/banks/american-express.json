@@ -2,7 +2,7 @@
   "name": "American Express India",
   "slug": "american-express",
   "type": "private",
-  "website": "https://www.americanexpress.com/in/",
+  "website": "https://global.americanexpress.com/account-management/card-replacement",
   "cards": [
     {
       "type": "credit",
@@ -13,10 +13,12 @@
           "instructions": "Call 1800 419 2122 and follow the IVR to hotlist the card.",
           "phone": "1800 419 2122",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
             "https://www.americanexpress.com/in/support/contact-us.html",
-            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+            "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+            "https://www.americanexpress.com/in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -29,10 +31,30 @@
           "instructions": "Call 0124 670 2929 (alternate line — see notes).",
           "phone": "0124 670 2929",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
             "https://www.americanexpress.com/in/support/contact-us.html",
-            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+            "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+            "https://www.americanexpress.com/in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "phone",
+          "label": "alternate",
+          "instructions": "Call 1800 419 1030 (alternate line — see notes).",
+          "phone": "1800 419 1030",
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html",
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+            "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+            "https://www.americanexpress.com/in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -41,13 +63,35 @@
         },
         {
           "channel": "website",
-          "instructions": "Log in to internet banking at https://www.americanexpress.com/in/ and use the card block/hotlist option.",
-          "url": "https://www.americanexpress.com/in/",
+          "instructions": "Log in to internet banking at https://global.americanexpress.com/account-management/card-replacement and use the card block/hotlist option.",
+          "url": "https://global.americanexpress.com/account-management/card-replacement",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
             "https://www.americanexpress.com/in/support/contact-us.html",
-            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+            "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+            "https://www.americanexpress.com/in/"
+          ],
+          "confirmations": {
+            "worked": 0,
+            "failed": 0
+          }
+        },
+        {
+          "channel": "app",
+          "instructions": "Block via the bank's mobile app (Cards > Block/Hotlist). Android: https://play.google.com/store/apps/details?id=com.americanexpress.android.acctsvcs.in&hl=en_IN | iOS: https://apps.apple.com/in/app/amex-india/id984568659",
+          "urls": [
+            "https://play.google.com/store/apps/details?id=com.americanexpress.android.acctsvcs.in&hl=en_IN",
+            "https://apps.apple.com/in/app/amex-india/id984568659"
+          ],
+          "confidence": 0.85,
+          "last_verified": "2026-11-01",
+          "sources": [
+            "https://www.americanexpress.com/in/support/contact-us.html",
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+            "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+            "https://www.americanexpress.com/in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -56,12 +100,14 @@
         },
         {
           "channel": "other",
-          "instructions": "To report a lost/stolen card, request a replacement via your Online Account or call Customer Care. Toll-free from India: 1800 419 2122 (Platinum Travel; general Card Account line). Product-specific lines: Platinum Reserve 1800 419 1030, Membership Rewards 1800 419 0167. From outside India: replace the 0 of our 0124 numbers with +91 (e.g. +91 124 670 2929). 24x7 via Mobile Messaging: Chat icon in the Amex App.",
+          "instructions": "Lost/stolen: request a replacement via your Online Account (card-replacement path linked from the FAQ) or call Customer Care. Toll-free 1800 419 2122 works from any landline or mobile anywhere in India (general Card Account line; also the Platinum Travel product line). Chargeable 0124 line: 0124 670 2929 — from outside India, replace the 0 of 0124 numbers with +91 (e.g. +91 124 670 2929). Product-specific lines: Platinum Reserve 1800 419 1030, Membership Rewards 1800 419 0167, SmartEarn 1800 208 1226, Gold 1800 419 1120, Platinum 1800 419 1255. Phone hours are not published on the contact page; Mobile Messaging (Chat icon in the Amex App) is stated 24X7, and the app offers 'Temp Block your card' for a misplaced card. Amex India issues credit and charge cards only — no debit cards.",
           "confidence": 0.85,
-          "last_verified": "2026-09-25",
+          "last_verified": "2026-11-01",
           "sources": [
             "https://www.americanexpress.com/in/support/contact-us.html",
-            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
+            "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+            "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+            "https://www.americanexpress.com/in/"
           ],
           "confirmations": {
             "worked": 0,
@@ -74,10 +120,12 @@
   "verification": {
     "status": "agent_verified",
     "confidence": 0.85,
-    "last_verified": "2026-09-25",
+    "last_verified": "2026-11-01",
     "sources": [
       "https://www.americanexpress.com/in/support/contact-us.html",
-      "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html"
+      "https://www.americanexpress.com/in/customer-service/faq.security-and-fraud.how-do-i-report-a-lost-stolen-or-damage-card.html",
+      "https://www.americanexpress.com/in/customer-service/digital/amex-app.html",
+      "https://www.americanexpress.com/in/"
     ]
   }
 }
